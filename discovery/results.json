@@ -1,0 +1,4648 @@
+[
+ {
+  "name": "Société Générale",
+  "careers_url": "https://careers.societegenerale.com/en/search?query=intern",
+  "pages": [
+   {
+    "url": "https://careers.societegenerale.com/en/search?query=intern",
+    "signatures": {
+     "taleo": [
+      "socgen.taleo.net"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://socgen.taleo.net/careersection/sgcareers/profile.ftl?lang=en&src=CWS-1",
+      "signatures": {
+       "taleo": [
+        "2Fsocgen.taleo.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.societegenerale.com/en",
+      "signatures": {
+       "taleo": [
+        "socgen.taleo.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.societegenerale.com/en/jobs-wishlist",
+      "signatures": {
+       "taleo": [
+        "socgen.taleo.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.societegenerale.com/en/join-us",
+      "signatures": {
+       "taleo": [
+        "socgen.taleo.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.societegenerale.com/en/jobs",
+      "signatures": {
+       "taleo": [
+        "socgen.taleo.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.societegenerale.com/en/jobs/it",
+      "signatures": {
+       "taleo": [
+        "socgen.taleo.net"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.societegenerale.com/en/search?query=intern"
+   }
+  ],
+  "signatures": {
+   "taleo": [
+    "2Fsocgen.taleo.net",
+    "socgen.taleo.net"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "BNP Paribas",
+  "careers_url": "https://group.bnpparibas/en/careers/all-job-offers",
+  "pages": [
+   {
+    "url": "https://group.bnpparibas/en/careers/all-job-offers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/en/careers/all-job-offers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Natixis CIB",
+  "careers_url": "https://www.natixis.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.natixis.com/en/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://recrutement.natixis.com/en",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://natixis.groupebpce.com/page-404/"
+   },
+   {
+    "url": "https://recrutement.groupebpce.com/",
+    "signatures": {},
+    "followed": [],
+    "error": "ConnectionError: HTTPSConnectionPool(host='recrutement.groupebpce.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='recrutement.groupebpce.com', port=443): Failed to resolve 'recrutement.groupebpce.com' ([Errno -5] No address associated with host"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Crédit Agricole CIB",
+  "careers_url": "https://www.ca-cib.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.ca-cib.com/en/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://jobs.ca-cib.com/homepage.aspx?LCID=2057",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ca-cib.com/en/about-us/compliance-rules/reliance-international-dealer-exemption-canada-securities-business",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ca-cib.com/en/expertise/providing-capital-markets-solutions/global-markets-research",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ca-cib.com/en/career",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ca-cib.com/en/careers/why-join-us",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ca-cib.com/en/careers/diversity-and-inclusion",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.ca-cib.com/en/careers"
+   },
+   {
+    "url": "https://groupecreditagricole.jobs/en/",
+    "signatures": {},
+    "followed": [],
+    "error": "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=20)"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "La Banque Postale",
+  "careers_url": "https://www.labanquepostale.com/recrutement.html",
+  "pages": [
+   {
+    "url": "https://www.labanquepostale.com/recrutement.html",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.labanquepostale.com/recrutement.html"
+   },
+   {
+    "url": "https://recrutement.labanquepostale.fr/",
+    "signatures": {},
+    "followed": [],
+    "error": "ConnectionError: HTTPSConnectionPool(host='recrutement.labanquepostale.fr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='recrutement.labanquepostale.fr', port=443): Failed to resolve 'recrutement.labanquepostale.fr' ([Errno -2] Name or service not"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "HSBC Continental Europe",
+  "careers_url": "https://www.hsbc.fr/carrieres/",
+  "pages": [
+   {
+    "url": "https://www.hsbc.fr/carrieres/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.hsbc.fr/carrieres"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "JPMorgan",
+  "careers_url": "https://www.jpmorganchase.com/careers",
+  "pages": [
+   {
+    "url": "https://www.jpmorganchase.com/careers",
+    "signatures": {
+     "oracle": [
+      "jpmc.fa.oraclecloud.com|CX_1001"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=Asset+and+Wealth+Management&mode=location",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=CIB&mode=location",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=Consumer+%26+Community+Banking&mode=location",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=Corporate+function&mode=location",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=Technology",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.jpmorganchase.com/careers"
+   }
+  ],
+  "signatures": {
+   "oracle": [
+    "jpmc.fa.oraclecloud.com|CX_1001"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "oracle:jpmc.fa.oraclecloud.com/CX_1001": {
+    "ok": true,
+    "intern_total": 3607,
+    "sample": []
+   }
+  }
+ },
+ {
+  "name": "Goldman Sachs",
+  "careers_url": "https://higher.gs.com/roles",
+  "pages": [
+   {
+    "url": "https://higher.gs.com/roles",
+    "signatures": {},
+    "followed": [],
+    "error": "",
+    "final_url": "https://higher.gs.com/results"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Morgan Stanley",
+  "careers_url": "https://www.morganstanley.com/careers/career-opportunities-search",
+  "pages": [
+   {
+    "url": "https://www.morganstanley.com/careers/career-opportunities-search",
+    "signatures": {
+     "eightfold": [
+      "morganstanley.eightfold.ai"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://matrix.ms.com/research",
+      "signatures": {},
+      "error": "HTTPError: 401 Client Error: Unauthorized for url: https://ny.matrix.ms.com/eqr/research/webapp/routerequest/PortalRouterServlet?panel=navigate"
+     },
+     {
+      "url": "https://advisor.morganstanley.com/search?icid=ms-nav-whatwedo-wm-featured-getmatchedwithafa",
+      "signatures": {},
+      "error": "ReadTimeout: HTTPSConnectionPool(host='advisor.morganstanley.com', port=443): Read timed out. (read timeout=20)"
+     },
+     {
+      "url": "https://careers.morganstanley.com.cn/",
+      "signatures": {
+       "successfactors": [
+        "careers.morganstanley.com.cn/search/?q=",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.morganstanley.com/what-we-do/research",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.morganstanley.com/people",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.morganstanley.com/people-opportunities/students-graduates",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.morganstanley.com/careers/career-opportunities-search"
+   }
+  ],
+  "signatures": {
+   "eightfold": [
+    "morganstanley.eightfold.ai"
+   ],
+   "successfactors": [
+    "careers.morganstanley.com.cn/search/?q=",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:ms.wd5.myworkdayjobs.com/External": {
+    "ok": true,
+    "intern_total": 630,
+    "sample": [
+     "Private Wealth Management, Wealth Management Associate",
+     "Intern",
+     "Alternative Investments Sales Desk Associate",
+     "Japan Operations, Asset Services, Associate.",
+     "Portfolio Management Associate"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Citi",
+  "careers_url": "https://jobs.citi.com/",
+  "pages": [
+   {
+    "url": "https://jobs.citi.com/",
+    "signatures": {
+     "workday": [
+      "citi|wd5|2"
+     ],
+     "eightfold": [
+      "citi.eightfold.ai"
+     ],
+     "radancy": [
+      "/search-jobs",
+      "tbcdn.talentbrew.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-early-career",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-early-career"
+     },
+     {
+      "url": "https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-general",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-general"
+     },
+     {
+      "url": "https://citi.eightfold.ai/careers",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://citi.eightfold.ai/careers"
+     },
+     {
+      "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/userHome",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.twitter.com/citicareers",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.twitter.com/citicareers"
+     },
+     {
+      "url": "https://www.facebook.com/CitiCareers/",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/CitiCareers/"
+     }
+    ],
+    "error": "",
+    "final_url": "https://jobs.citi.com/"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "citi|wd5|2"
+   ],
+   "eightfold": [
+    "citi.eightfold.ai"
+   ],
+   "radancy": [
+    "/search-jobs",
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:citi.wd5.myworkdayjobs.com/2": {
+    "ok": true,
+    "intern_total": 2000,
+    "sample": [
+     "S.V.P. International LFO",
+     "AVP, International Personal Bank Client Origination",
+     "SVP, International Personal Banking Advisory Head",
+     "VP, Branch Operations Manager, International Personal Banking",
+     "KYC Operations Analyst - International Personal Banking, Wealth Operations"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Bank of America",
+  "careers_url": "https://careers.bankofamerica.com/",
+  "pages": [
+   {
+    "url": "https://careers.bankofamerica.com/",
+    "signatures": {
+     "workday": [
+      "ghr|wd1|en-us"
+     ],
+     "avature": [
+      "bac.avature.net",
+      "sandboxbac.avature.net"
+     ],
+     "oleeo": [
+      "bankcampuscareers.tal.net"
+     ],
+     "cornerstone": [
+      "bankofamerica.csod.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-6f0048376f93/candidate/jobboard/vacancy/2/adv/",
+      "signatures": {
+       "oleeo": [
+        "bankcampuscareers.tal.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://ghr.wd1.myworkdayjobs.com/en-us/lateral-us/login",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/user-36/xf-1c8d608fd721/wid-1/candidate/login",
+      "signatures": {
+       "oleeo": [
+        "bankcampuscareers.tal.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "http://www.twitter.com/BofA_Careers",
+      "signatures": {},
+      "error": "HTTPError: 520 Server Error: <none> for url: http://www.twitter.com/BofA_Careers"
+     },
+     {
+      "url": "https://careers.bankofamerica.com/en-us/",
+      "signatures": {
+       "workday": [
+        "ghr|wd1|en-us"
+       ],
+       "avature": [
+        "bac.avature.net",
+        "sandboxbac.avature.net"
+       ],
+       "oleeo": [
+        "bankcampuscareers.tal.net"
+       ],
+       "cornerstone": [
+        "bankofamerica.csod.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.bankofamerica.com/en-us/great-place-to-work",
+      "signatures": {
+       "workday": [
+        "ghr|wd1|en-us"
+       ],
+       "avature": [
+        "bac.avature.net",
+        "sandboxbac.avature.net"
+       ],
+       "oleeo": [
+        "bankcampuscareers.tal.net"
+       ],
+       "cornerstone": [
+        "bankofamerica.csod.com"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.bankofamerica.com/en-us"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "ghr|wd1|en-us"
+   ],
+   "avature": [
+    "bac.avature.net",
+    "sandboxbac.avature.net"
+   ],
+   "oleeo": [
+    "bankcampuscareers.tal.net"
+   ],
+   "cornerstone": [
+    "bankofamerica.csod.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:ghr.wd1.myworkdayjobs.com/en-us": {
+    "ok": false,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+   },
+   "workday:ghr.wd1.myworkdayjobs.com/Lateral-US": {
+    "ok": true,
+    "intern_total": 939,
+    "sample": [
+     "Consumer Investments Money Movement Service Representative - Jacksonville, FL",
+     "Credit Officer II - Registered - Global Wealth & Investment Management - Securities Based Lending Specialist - Los Angeles",
+     "Brokerage and Advisory Solutions Financial Advisor",
+     "Consumer Investments Money Movement Service Representative - Chandler, AZ",
+     "Senior Credit Underwriter-Global Wealth and Investment Management"
+    ]
+   },
+   "workday:ghr.wd1.myworkdayjobs.com/Campus": {
+    "ok": false,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Campus/jobs"
+   }
+  }
+ },
+ {
+  "name": "Barclays",
+  "careers_url": "https://search.jobs.barclays/",
+  "pages": [
+   {
+    "url": "https://search.jobs.barclays/",
+    "signatures": {
+     "workday": [
+      "barclays|wd3|External_Career_Site_Barclays"
+     ],
+     "radancy": [
+      "/search-jobs",
+      "tbcdn.talentbrew.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/login?redirect=%2FExternal_Career_Site_Barclays",
+      "signatures": {
+       "radancy": [
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://yourresourcingsupport.com/Barclays-candidate-support/?utm_source=jobs.barclays.co.uk&utm_campaign=barclays-helpdesk&utm_medium=career_site&utm_content=display&ss=paid",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://yourresourcingsupport.com/Barclays-candidate-support/?utm_source=jobs.barclays.co.uk&utm_campaign=barclays-helpdesk&utm_medium=career_site&utm_content=display&ss=paid"
+     },
+     {
+      "url": "https://search.jobs.barclays/recruitment-scams",
+      "signatures": {
+       "workday": [
+        "barclays|wd3|External_Career_Site_Barclays"
+       ],
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://search.jobs.barclays/about-us",
+      "signatures": {
+       "workday": [
+        "barclays|wd3|External_Career_Site_Barclays"
+       ],
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://search.jobs.barclays/inclusion-opportunities",
+      "signatures": {
+       "workday": [
+        "barclays|wd3|External_Career_Site_Barclays"
+       ],
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://search.jobs.barclays/wellbeing",
+      "signatures": {
+       "workday": [
+        "barclays|wd3|External_Career_Site_Barclays"
+       ],
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://search.jobs.barclays/"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "barclays|wd3|External_Career_Site_Barclays"
+   ],
+   "radancy": [
+    "/search-jobs",
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays": {
+    "ok": true,
+    "intern_total": 651,
+    "sample": [
+     "Data Product Manager",
+     "Group Strategy VP",
+     "Group Strategy AVP",
+     "AVP Barclaycard",
+     "Legacy Review Analyst 6-month Secondment/FTC"
+    ]
+   }
+  }
+ },
+ {
+  "name": "HSBC",
+  "careers_url": "https://mycareer.hsbc.com/en_GB/external",
+  "pages": [
+   {
+    "url": "https://mycareer.hsbc.com/en_GB/external",
+    "signatures": {
+     "avature": [
+      "/SearchJobs"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://portal.careers.hsbc.com/careers",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://portal.careers.hsbc.com/careers"
+     },
+     {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Developer-Relations-Engineer%2F288707&display=popup",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Developer-Relations-Engineer%2F288707&display=popup"
+     },
+     {
+      "url": "http://twitter.com/intent/tweet?url=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Developer-Relations-Engineer%2F288707&text=GSC%3A+Senior+Developer+Relations+Engineer",
+      "signatures": {},
+      "error": "HTTPError: 520 Server Error: <none> for url: http://twitter.com/intent/tweet?url=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Developer-Relations-Engineer%2F288707&text=GSC%3A+Senior+Developer+Relations+Engineer"
+     },
+     {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Control-Manager-Cyber%2F288685&display=popup",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Control-Manager-Cyber%2F288685&display=popup"
+     },
+     {
+      "url": "http://twitter.com/intent/tweet?url=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Control-Manager-Cyber%2F288685&text=GSC%3A+Senior+Control+Manager+%28Cyber%29",
+      "signatures": {},
+      "error": "HTTPError: 520 Server Error: <none> for url: http://twitter.com/intent/tweet?url=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Control-Manager-Cyber%2F288685&text=GSC%3A+Senior+Control+Manager+%28Cyber%29"
+     },
+     {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Control-Manager-HCIB-Technology-Western-Markets%2F288684&display=popup",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmycareer.hsbc.com%2Fen_GB%2Fexternal%2FPipelineDetail%2FGSC-Senior-Control-Manager-HCIB-Technology-Western-Markets%2F288684&display=popup"
+     }
+    ],
+    "error": "",
+    "final_url": "https://mycareer.hsbc.com/en_GB/external"
+   },
+   {
+    "url": "https://www.hsbc.com/careers/students-and-graduates",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://portal.careers.hsbc.com/careers?location=any&pid=563774612287498&domain=hsbc.com&sort_by=relevance&triggerGoButton=false&triggerGoButton=true",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://portal.careers.hsbc.com/careers?location=any&pid=563774612287498&domain=hsbc.com&sort_by=relevance&triggerGoButton=false&triggerGoButton=true"
+     },
+     {
+      "url": "https://portal.careers.hsbc.com/careers/join?jtn_form_id=hsbc_early_careers&domain=hsbc.com&hl=en",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://portal.careers.hsbc.com/careers/join?jtn_form_id=hsbc_early_careers&domain=hsbc.com&hl=en"
+     },
+     {
+      "url": "https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.hsbc.com%2fcareers%2fstudents-and-graduates",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.hsbc.com%2fcareers%2fstudents-and-graduates"
+     },
+     {
+      "url": "http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.hsbc.com%2fcareers%2fstudents-and-graduates&title=Students%20and%20graduates",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.hsbc.com%2fcareers%2fstudents-and-graduates&title=Students%20and%20graduates"
+     },
+     {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.hsbc.com%2fcareers%2fstudents-and-graduates",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.hsbc.com%2fcareers%2fstudents-and-graduates"
+     },
+     {
+      "url": "https://www.hsbc.com/who-we-are/hsbc-and-digital/hsbc-patents-and-research-papers",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.hsbc.com/careers/students-and-graduates"
+   }
+  ],
+  "signatures": {
+   "avature": [
+    "/SearchJobs"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Deutsche Bank",
+  "careers_url": "https://careers.db.com/students-graduates/",
+  "pages": [
+   {
+    "url": "https://careers.db.com/students-graduates/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.dbresearch.com/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.x.com/intent/tweet?url=https://careers.db.com/students-graduates/index?language_id=1",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.x.com/intent/tweet?url=https://careers.db.com/students-graduates/index?language_id=1"
+     },
+     {
+      "url": "http://www.linkedin.com/shareArticle?mini=true&url=https://careers.db.com/students-graduates/index?language_id=1",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows http://www.linkedin.com/shareArticle?mini=true&url=https://careers.db.com/students-graduates/index?language_id=1"
+     },
+     {
+      "url": "https://www.facebook.com/sharer.php?u=https://careers.db.com/students-graduates/index?language_id=1",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer.php?u=https://careers.db.com/students-graduates/index?language_id=1"
+     },
+     {
+      "url": "https://www.xing.com/spi/shares/new?url=https://careers.db.com/students-graduates/index?language_id=1",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.xing.com/spi/shares/new?url=https://careers.db.com/students-graduates/index?language_id=1"
+     },
+     {
+      "url": "https://careers.db.com/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.db.com/students-graduates/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {
+   "workday:db.wd3.myworkdayjobs.com/DBWebsite": {
+    "ok": true,
+    "intern_total": 616,
+    "sample": [
+     "CFO Intern",
+     "Intern (Luxembourg)",
+     "Intern (Luxembourg)",
+     "Finance Intern",
+     "Technology intern - YTP"
+    ]
+   }
+  }
+ },
+ {
+  "name": "UBS",
+  "careers_url": "https://www.ubs.com/global/en/careers/search-jobs.html",
+  "pages": [
+   {
+    "url": "https://www.ubs.com/global/en/careers/search-jobs.html",
+    "signatures": {
+     "radancy": [
+      "/search-jobs"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=searchResults&SearchType=linkquery&LinkID=15231",
+      "signatures": {
+       "radancy": [
+        "/search-jobs"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=searchResults&SearchType=linkquery&LinkID=15232",
+      "signatures": {
+       "radancy": [
+        "/search-jobs"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5054&PageType=searchResults&SearchType=linkquery&LinkID=15233",
+      "signatures": {
+       "radancy": [
+        "/search-jobs"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.ubs.com/global/en/careers.html",
+      "signatures": {
+       "radancy": [
+        "/search-jobs"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.ubs.com/global/de/careers/search-jobs.html",
+      "signatures": {
+       "radancy": [
+        "/search-jobs"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.ubs.com/global/fr/careers/search-jobs.html",
+      "signatures": {
+       "radancy": [
+        "/search-jobs"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.ubs.com/global/en/careers/search-jobs.html"
+   }
+  ],
+  "signatures": {
+   "radancy": [
+    "/search-jobs"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:ubs.wd3.myworkdayjobs.com/UBS_Experienced_Careers": {
+    "ok": false,
+    "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://ubs.wd3.myworkdayjobs.com/wday/cxs/ubs/UBS_Experienced_Careers/jobs"
+   },
+   "workday:ubs.wd3.myworkdayjobs.com/UBS_Graduate_and_Intern_Careers": {
+    "ok": false,
+    "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://ubs.wd3.myworkdayjobs.com/wday/cxs/ubs/UBS_Graduate_and_Intern_Careers/jobs"
+   }
+  }
+ },
+ {
+  "name": "Nomura",
+  "careers_url": "https://www.nomura.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.nomura.com/careers/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.nomuraholdings.com/en/careers.html",
+      "signatures": {},
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.nomuraholdings.com/en/careers.html"
+     },
+     {
+      "url": "https://www.nomura.com/careers/early-careers/",
+      "signatures": {
+       "oleeo": [
+        "nomuracampus.tal.net"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.nomura.com/careers/"
+   }
+  ],
+  "signatures": {
+   "oleeo": [
+    "nomuracampus.tal.net"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:nomura.wd3.myworkdayjobs.com/Nomura_Campus": {
+    "ok": false,
+    "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://nomura.wd3.myworkdayjobs.com/wday/cxs/nomura/Nomura_Campus/jobs"
+   }
+  }
+ },
+ {
+  "name": "Mizuho",
+  "careers_url": "https://www.mizuhogroup.com/emea/careers",
+  "pages": [
+   {
+    "url": "https://www.mizuhogroup.com/emea/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://careers.mizuhoemea.com/",
+      "signatures": {
+       "successfactors": [
+        "career2.successfactors.eu",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.mizuhogroup.com/emea/what-we-do/insights-research",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.mizuhogroup.com/emea/who-we-are/governance/mizuho-international-plc-legal-and-compliance",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.mizuhogroup.com/emea/careers/internship-programme",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.mizuhogroup.com/emea/careers"
+   }
+  ],
+  "signatures": {
+   "successfactors": [
+    "career2.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:mizuho.wd1.myworkdayjobs.com/mizuhoamericas": {
+    "ok": true,
+    "intern_total": 76,
+    "sample": [
+     "Mizuho | Greenhill - Investment Banking Internship 2027 (Stockholm)",
+     "Internal Audit - Credit Risk",
+     "Internal Audit - Liquidity Risk Management",
+     "AI Risk & Governance Lead",
+     "Executive Assistant - Investment & Corporate Banking"
+    ]
+   }
+  }
+ },
+ {
+  "name": "MUFG",
+  "careers_url": "https://www.mufgemea.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.mufgemea.com/careers/",
+    "signatures": {
+     "workday": [
+      "mufgub|wd3|MUFG-Careers"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers",
+      "signatures": {
+       "workday": [
+        "mufgub|wd3|MUFG-Careers"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.mufgemea.com/careers/working-at-MUFG/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.mufgemea.com/careers/graduates/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.mufgemea.com/careers/working-at-MUFG/meet-the-team/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.mufgemea.com/careers/working-at-MUFG/our-culture-principles/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.mufgemea.com/careers/"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "mufgub|wd3|MUFG-Careers"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:mufgub.wd3.myworkdayjobs.com/MUFG-Careers": {
+    "ok": true,
+    "intern_total": 481,
+    "sample": [
+     "Intern, Trade Product",
+     "Japanese Corporate Banking - Credits Intern",
+     "2027 Operations Summer Analyst Program - Tempe, AZ",
+     "2027 Operations Summer Analyst Program - Tampa, FL",
+     "6 month internship - Debt Capital Markets Bonds & Loans - January 2027"
+    ]
+   }
+  }
+ },
+ {
+  "name": "SMBC",
+  "careers_url": "https://www.smbcgroup.com/emea/careers",
+  "pages": [
+   {
+    "url": "https://www.smbcgroup.com/emea/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://careersemea.smbcgroup.com",
+      "signatures": {
+       "successfactors": [
+        "career5.successfactors.eu",
+        "career5.successfactors.eu/career?site=&amp;company=smbcP&amp;lang=en%5FGB&amp;login_ns=register&amp;career_ns=home&amp;navBarLevel=MY_PROFILE",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.smbcgroup.com/emea/Careers",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.smbcgroup.com/emea/Careers/Why-SMBC",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.smbcgroup.com/emea/Careers/Learning-and-Development",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.smbcgroup.com/emea/Careers/DI-Initiatives",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.smbcgroup.com/emea/Careers/Rewards-and-Benefits",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.smbcgroup.com/emea/careers"
+   }
+  ],
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "career5.successfactors.eu/career?site=&amp;company=smbcP&amp;lang=en%5FGB&amp;login_ns=register&amp;career_ns=home&amp;navBarLevel=MY_PROFILE",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:smbcgroup.wd1.myworkdayjobs.com/SMBC_Group_Careers": {
+    "ok": false,
+    "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://smbcgroup.wd1.myworkdayjobs.com/wday/cxs/smbcgroup/SMBC_Group_Careers/jobs"
+   }
+  }
+ },
+ {
+  "name": "Santander CIB",
+  "careers_url": "https://www.santandercib.com/careers",
+  "pages": [
+   {
+    "url": "https://www.santandercib.com/careers",
+    "signatures": {
+     "workday": [
+      "santander|wd3|SantanderCareers"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://santander.wd3.myworkdayjobs.com/en-US/SantanderCareers?jobFamilyGroup=ab9adf92110e01e2b50068aa1a01f949",
+      "signatures": {
+       "workday": [
+        "santander|wd3|SantanderCareers"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://santander.wd3.myworkdayjobs.com/en-US/SantanderCareers?q=scib&jobFamilyGroup=135a3ebce3810177bce25ab919012b50",
+      "signatures": {
+       "workday": [
+        "santander|wd3|SantanderCareers"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.santandere-derivatives.com/RSPFIG_INTERNET/static/loginspa.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://santanderresearch.com/",
+      "signatures": {},
+      "error": "ConnectionError: HTTPSConnectionPool(host='santanderresearch.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='santanderresearch.com', port=443): Failed to resolve 'santanderresearch.com' ([Errno -3] Temporary failure in name resolution)\"))"
+     },
+     {
+      "url": "https://www.santandercib.com/about-us/careers/graduates-young-talent",
+      "signatures": {
+       "workday": [
+        "santander|wd3|SantanderCareers"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.santandercib.com/about-us/careers"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "santander|wd3|SantanderCareers"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:santander.wd3.myworkdayjobs.com/SantanderCareers": {
+    "ok": true,
+    "intern_total": 499,
+    "sample": [
+     "Intern - IT Governance",
+     "Intern - CSU Mexico",
+     "Associate / Vice President, International Financial Institutions Sales, Global Transaction Banking, Asia Pacific",
+     "Candidatura Spontanea per Internship | Santander Consumer Italia",
+     "2027 Investment Banking Summer Associate Program - New York"
+    ]
+   }
+  }
+ },
+ {
+  "name": "ING",
+  "careers_url": "https://www.ing.jobs/global/careers.htm",
+  "pages": [
+   {
+    "url": "https://www.ing.jobs/global/careers.htm",
+    "signatures": {
+     "radancy": [
+      "/search-jobs",
+      "tbcdn.talentbrew.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://inggstcareers.runmytests.eu/en/about-ing",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.ing.com/en/search-jobs",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.ing.com/en/about-ing",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.ing.com/en/working-at-ing",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.ing.com/en/diversity-inclusion-belonging",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.ing.com/en/expertise-teams",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.ing.com/en"
+   }
+  ],
+  "signatures": {
+   "radancy": [
+    "/search-jobs",
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Commerzbank",
+  "careers_url": "https://jobs.commerzbank.com/",
+  "pages": [
+   {
+    "url": "https://jobs.commerzbank.com/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.commerzbank.de/konzern/karriere/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.commerzbank.de/konzern/karriere/faces-of-commerzbank/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.commerzbank.de/konzern/karriere/bewerbung/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.commerzbank.de/konzern/karriere/news-und-aktuelles/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.linkedin.com/shareArticle?mini=true&url=ZZZZZ_JS_LINK_TO_SHARE_ZZZZZ&title=ZZZZZ_JS_JOBAD_TITLE_ENCODED_ZZZZZ",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/shareArticle?mini=true&url=ZZZZZ_JS_LINK_TO_SHARE_ZZZZZ&title=ZZZZZ_JS_JOBAD_TITLE_ENCODED_ZZZZZ"
+     },
+     {
+      "url": "https://www.linkedin.com/?shareActive=true&text=ZZZZZ_JS_JOBAD_TITLE_ENCODED_ZZZZZ&shareUrl=ZZZZZ_JS_LINK_TO_SHARE_ZZZZZ",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/?shareActive=true&text=ZZZZZ_JS_JOBAD_TITLE_ENCODED_ZZZZZ&shareUrl=ZZZZZ_JS_LINK_TO_SHARE_ZZZZZ"
+     }
+    ],
+    "error": "",
+    "final_url": "https://jobs.commerzbank.com/index.php?ac=search_result"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Standard Chartered",
+  "careers_url": "https://www.sc.com/en/careers/",
+  "pages": [
+   {
+    "url": "https://www.sc.com/en/careers/",
+    "signatures": {
+     "successfactors": [
+      "jobs.standardchartered.com/search/?q="
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://sc.com/en/global-careers/early-careers/our-programmes/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://sc.com/en/global-careers/early-careers/apply/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=early_careers&utm_source=careersite",
+      "signatures": {
+       "successfactors": [
+        "career2.successfactors.eu",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=professional_hires&utm_source=careersite",
+      "signatures": {
+       "successfactors": [
+        "career2.successfactors.eu",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://sc.com/en/global-careers/join-our-talent-network/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.standardchartered.com/?utm_source=careersite&utm_source=careersite",
+      "signatures": {
+       "successfactors": [
+        "career2.successfactors.eu",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.sc.com/en/global-careers/experienced-hire/"
+   }
+  ],
+  "signatures": {
+   "successfactors": [
+    "career2.successfactors.eu",
+    "jobs.standardchartered.com/search/?q=",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:scb.wd3.myworkdayjobs.com/Careers": {
+    "ok": false,
+    "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://scb.wd3.myworkdayjobs.com/wday/cxs/scb/Careers/jobs"
+   }
+  }
+ },
+ {
+  "name": "RBC Capital Markets",
+  "careers_url": "https://jobs.rbc.com/ca/en",
+  "pages": [
+   {
+    "url": "https://jobs.rbc.com/ca/en",
+    "signatures": {
+     "phenom": [
+      "cdn.phenompeople.com",
+      "phApp.ddo"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://facebook.com/rbc",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://facebook.com/rbc"
+     },
+     {
+      "url": "https://www.instagram.com/rbc",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.instagram.com/rbc"
+     },
+     {
+      "url": "https://twitter.com/RBCCareers",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://twitter.com/RBCCareers"
+     },
+     {
+      "url": "http://youtube.com/rbc",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.linkedin.com/company/rbc/jobs/",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/rbc/jobs/"
+     },
+     {
+      "url": "https://www.rbc.com/careers/Job_Applicant_Privacy_Notice.pdf",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://jobs.rbc.com/ca/en"
+   }
+  ],
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:rbc.wd3.myworkdayjobs.com/RBCGLOBAL1": {
+    "ok": true,
+    "intern_total": 506,
+    "sample": [
+     "Branch Manager Intern",
+     "Client Advisor Intern",
+     "Banking Advisor Intern",
+     "Banking Advisor Intern",
+     "Client Advisor Intern"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Jefferies",
+  "careers_url": "https://www.jefferies.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.jefferies.com/careers/",
+    "signatures": {
+     "oleeo": [
+      "jefferies.tal.net"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://careers.jefferies.com/#en/sites/CX_1",
+      "signatures": {},
+      "error": "HTTPError: 522 Server Error: <none> for url: https://careers.jefferies.com/#en/sites/CX_1"
+     },
+     {
+      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-4b6c6a03c1c7/candidate",
+      "signatures": {
+       "oleeo": [
+        "jefferies.tal.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/1/adv/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-016c915b0a67/candidate/jobboard/vacancy/2/adv/",
+      "signatures": {
+       "oleeo": [
+        "jefferies.tal.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.jefferies.com/our-services/global-research-strategy/",
+      "signatures": {
+       "oleeo": [
+        "jefferies.tal.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.jefferies.com/careers/experienced-professionals/",
+      "signatures": {
+       "oleeo": [
+        "jefferies.tal.net"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.jefferies.com/careers/"
+   }
+  ],
+  "signatures": {
+   "oleeo": [
+    "jefferies.tal.net"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:jefferies.wd5.myworkdayjobs.com/JefferiesCareers": {
+    "ok": false,
+    "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://jefferies.wd5.myworkdayjobs.com/wday/cxs/jefferies/JefferiesCareers/jobs"
+   }
+  }
+ },
+ {
+  "name": "Kepler Cheuvreux",
+  "careers_url": "https://keplercheuvreux.teamtailor.com/jobs",
+  "pages": [
+   {
+    "url": "https://keplercheuvreux.teamtailor.com/jobs",
+    "signatures": {
+     "teamtailor": [
+      "app",
+      "keplercheuvreux",
+      "www"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=keplercheuvreux.teamtailor.com&utm_medium=referral&utm_source=career-site",
+      "signatures": {
+       "teamtailor": [
+        "app",
+        "career",
+        "docs",
+        "support",
+        "trust"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://keplercheuvreux.teamtailor.com/jobs/8570829-internship-assistant-sales-sur-produits-structures-nyon",
+      "signatures": {
+       "teamtailor": [
+        "app",
+        "keplercheuvreux",
+        "www"
+       ],
+       "jsonld_jobposting": [
+        "\"@type\": \"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://keplercheuvreux.teamtailor.com/jobs/8570849-internship-mergers-and-acquisitions-analyst-brussels",
+      "signatures": {
+       "teamtailor": [
+        "app",
+        "keplercheuvreux",
+        "www"
+       ],
+       "jsonld_jobposting": [
+        "\"@type\": \"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://keplercheuvreux.teamtailor.com/jobs/8570763-internship-structured-product-financial-engineer-assistant-paris",
+      "signatures": {
+       "teamtailor": [
+        "app",
+        "keplercheuvreux",
+        "www"
+       ],
+       "jsonld_jobposting": [
+        "\"@type\": \"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://keplercheuvreux.teamtailor.com/jobs/8541199-roadshow-coordinator-corporate-access-new-york",
+      "signatures": {
+       "teamtailor": [
+        "app",
+        "keplercheuvreux",
+        "www"
+       ],
+       "jsonld_jobposting": [
+        "\"@type\": \"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://keplercheuvreux.teamtailor.com/jobs/8526812-internship-structured-product-financial-engineer-assistant-nyon",
+      "signatures": {
+       "teamtailor": [
+        "app",
+        "keplercheuvreux",
+        "www"
+       ],
+       "jsonld_jobposting": [
+        "\"@type\": \"JobPosting\""
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://keplercheuvreux.teamtailor.com/jobs"
+   }
+  ],
+  "signatures": {
+   "teamtailor": [
+    "app",
+    "career",
+    "docs",
+    "keplercheuvreux",
+    "support",
+    "trust",
+    "www"
+   ],
+   "jsonld_jobposting": [
+    "\"@type\": \"JobPosting\""
+   ]
+  },
+  "apis": {
+   "teamtailor": {
+    "slug": "keplercheuvreux",
+    "offers": 9
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Oddo BHF",
+  "careers_url": "https://www.oddo-bhf.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.oddo-bhf.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.oddo-bhf.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Leonteq",
+  "careers_url": "https://www.leonteq.com/careers",
+  "pages": [
+   {
+    "url": "https://www.leonteq.com/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "",
+    "final_url": "https://www.leonteq.com/about-us/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Amundi",
+  "careers_url": "https://about.amundi.com/careers",
+  "pages": [
+   {
+    "url": "https://about.amundi.com/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://about.amundi.com/careers"
+   },
+   {
+    "url": "https://jobs.amundi.com/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://jobs.amundi.com/homepage.aspx?LCID=2057",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.amundi.com/homepage.aspx?LCID=1040",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.amundi.com/mon-compte/mon-abonnement.aspx#ancrecontenu",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.amundi.com/mon-compte/retrouver-mon-mot-de-passe.aspx",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.amundi.com/my-account/log-in.aspx?titletype=dashboard",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.amundi.com/offre-de-emploi/ma-selection-offres.aspx",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://jobs.amundi.com/accueil.aspx?LCID=1036"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "AXA IM",
+  "careers_url": "https://www.axa-im.com/careers",
+  "pages": [
+   {
+    "url": "https://www.axa-im.com/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://group.bnpparibas/en/careers/all-job-offers/bnp-paribas-asset-management",
+      "signatures": {},
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/en/careers/all-job-offers/bnp-paribas-asset-management"
+     },
+     {
+      "url": "https://www.bnpparibas-am.com/en/how-we-think/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.bnpparibas-am.com/en/why-join-us/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "BNP Paribas AM",
+  "careers_url": "https://www.bnpparibas-am.com/en/careers/",
+  "pages": [
+   {
+    "url": "https://www.bnpparibas-am.com/en/careers/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://group.bnpparibas/en/careers/all-job-offers/bnp-paribas-asset-management",
+      "signatures": {},
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/en/careers/all-job-offers/bnp-paribas-asset-management"
+     },
+     {
+      "url": "https://www.bnpparibas-am.com/en/how-we-think/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.bnpparibas-am.com/en/why-join-us/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Natixis IM",
+  "careers_url": "https://www.im.natixis.com/en-intl/careers",
+  "pages": [
+   {
+    "url": "https://www.im.natixis.com/en-intl/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.im.natixis.com/en-intl/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Ostrum",
+  "careers_url": "https://www.ostrum.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.ostrum.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.ostrum.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Mirova",
+  "careers_url": "https://www.mirova.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.mirova.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.mirova.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Candriam",
+  "careers_url": "https://www.candriam.com/en/professional/careers/",
+  "pages": [
+   {
+    "url": "https://www.candriam.com/en/professional/careers/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://jobs.candriam.com/accueil.aspx?LCID=2057",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://jobs.candriam.com/my-account/log-in.aspx?ReturnUrl=%2fmy-account%2fmy-subscription.aspx#ancrecontenu",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.candriam.com/en-us/professional/insight-overview/publications/research-papers/the-ai-debt-wave/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.candriam.com/en-us/professional/insight-overview/publications/research-papers/identifying-climate-risk-in-credit/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.candriam.com/en-us/professional/insight-overview/topics/absolute-return/passive-growth-active-opportunity-the-case-for-equity-market-neutral/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.candriam.com/en-us/professional/insight-overview/publications/research-papers/credit-taming-a-wide-universe/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.candriam.com/en-us/professional/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Carmignac",
+  "careers_url": "https://www.carmignac.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.carmignac.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "",
+    "final_url": "https://www.carmignac.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Tikehau Capital",
+  "careers_url": "https://www.tikehaucapital.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.tikehaucapital.com/en/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://tikehau-capital-career.talentview.io/en?source=site_entreprise&coopt=on",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://tikehau-capital-career.talentview.io/en?source=site_entreprise&coopt=on&job_types=Permanent+contract",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://tikehau-capital-career.talentview.io/?source=site_entreprise&coopt=on",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.tikehaucapital.com/en/careers/work-at-tikehau",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.tikehaucapital.com/fr/careers",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.tikehaucapital.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Rothschild & Co",
+  "careers_url": "https://www.rothschildandco.com/en/careers/",
+  "pages": [
+   {
+    "url": "https://www.rothschildandco.com/en/careers/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.rothschildandco.com/en/careers/working-here/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.rothschildandco.com/en/careers/colleague-stories/",
+      "signatures": {
+       "workday": [
+        "rothschildandco|wd3|RothschildAndCo_Lateral"
+       ],
+       "oleeo": [
+        "rothschildandco.tal.net"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/graduates/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/internships/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.rothschildandco.com/en/careers/"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "rothschildandco|wd3|RothschildAndCo_Lateral"
+   ],
+   "oleeo": [
+    "rothschildandco.tal.net"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:rothschildandco.wd3.myworkdayjobs.com/RothschildAndCo_Lateral": {
+    "ok": true,
+    "intern_total": 113,
+    "sample": [
+     "Equity Capital Markets, Senior Associate/Junior AD, LDN, Global Market Solutions",
+     "Investor Relations Intern - Five Arrows – Five Arrows Multi-Stratégies -  January 2027",
+     "Stagiaire Business Intelligence - Janvier 2027",
+     "Stage Documentation Juridique et Réglementaire - Janvier 2027",
+     "Analyste crédit Marseille"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Edmond de Rothschild",
+  "careers_url": "https://www.edmond-de-rothschild.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.edmond-de-rothschild.com/en/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://evht.fa.ocs.oraclecloud.eu/hcmUI/CandidateExperience/en/sites/CX_2001/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://evht.fa.ocs.oraclecloud.eu/hcmUI/CandidateExperience/en/sites/CX_7001",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.jobteaser.com/fr/companies/edmond-de-rothschild/job-offers",
+      "signatures": {},
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.jobteaser.com/fr/companies/edmond-de-rothschild/job-offers"
+     },
+     {
+      "url": "https://www.edmond-de-rothschild.com/de/karriere",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.edmond-de-rothschild.com/fr/carrieres",
+      "signatures": {
+       "oracle": [
+        "fa-evht-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.edmond-de-rothschild.com/it/carriere",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.edmond-de-rothschild.com/en/careers"
+   }
+  ],
+  "signatures": {
+   "oracle": [
+    "fa-evht-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "oracle:fa-evht-saasfaprod1.fa.ocs.oraclecloud.com/CX_2001": {
+    "ok": false,
+    "error": "ConnectionError: HTTPSConnectionPool(host='fa-evht-saasfaprod1.fa.ocs.oraclecloud.com', port=443): Max retries exceeded with url: /hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true"
+   }
+  }
+ },
+ {
+  "name": "Lazard",
+  "careers_url": "https://www.lazard.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.lazard.com/careers/",
+    "signatures": {
+     "oracle": [
+      "icbpjb.fa.ocs.oraclecloud.com|LazardProfessionalCareers"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.lazard.com/research-insights/",
+      "signatures": {
+       "oracle": [
+        "icbpjb.fa.ocs.oraclecloud.com|LazardProfessionalCareers"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.lazard.com/research-insights/shareholder-activism/",
+      "signatures": {
+       "oracle": [
+        "icbpjb.fa.ocs.oraclecloud.com|LazardProfessionalCareers"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus-lcoeplus/",
+      "signatures": {
+       "oracle": [
+        "icbpjb.fa.ocs.oraclecloud.com|LazardProfessionalCareers"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.lazard.com/careers/jobs/",
+      "signatures": {
+       "oracle": [
+        "icbpjb.fa.ocs.oraclecloud.com|LazardProfessionalCareers",
+        "icbpjb.fa.ocs.oraclecloud.com|LazardStudentCareers"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.lazard.com/careers/professionals/",
+      "signatures": {
+       "oracle": [
+        "icbpjb.fa.ocs.oraclecloud.com|LazardProfessionalCareers"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.lazard.com/careers/"
+   }
+  ],
+  "signatures": {
+   "oracle": [
+    "icbpjb.fa.ocs.oraclecloud.com|LazardProfessionalCareers",
+    "icbpjb.fa.ocs.oraclecloud.com|LazardStudentCareers"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers": {
+    "ok": true,
+    "intern_total": 92,
+    "sample": []
+   },
+   "oracle:icbpjb.fa.ocs.oraclecloud.com/LazardStudentCareers": {
+    "ok": true,
+    "intern_total": 92,
+    "sample": []
+   }
+  }
+ },
+ {
+  "name": "BlackRock",
+  "careers_url": "https://careers.blackrock.com/",
+  "pages": [
+   {
+    "url": "https://careers.blackrock.com/",
+    "signatures": {
+     "radancy": [
+      "/search-jobs",
+      "tbcdn.talentbrew.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://flows.beamery.com/blackrock/exptalentcommunity",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://flows.beamery.com/blackrock/earlycareers",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://careers.blackrock.com/who-we-are",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.blackrock.com/our-culture",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.blackrock.com/benefits",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.blackrock.com/career-development",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.blackrock.com/"
+   }
+  ],
+  "signatures": {
+   "radancy": [
+    "/search-jobs",
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:blackrock.wd1.myworkdayjobs.com/BlackRock_Professional": {
+    "ok": true,
+    "intern_total": 165,
+    "sample": [
+     "Director, Platform & Strategy - ETF Platform",
+     "Vice President, Platform and Strategy - ETF Platform",
+     "DevOps Engineer, Engineering Team Manager, Vice President",
+     "Data Acquisition Product Management, Vice President",
+     "Developer Platform & AI, Technology Product Manager - Director"
+    ]
+   },
+   "workday:blackrock.wd1.myworkdayjobs.com/BlackRock_Campus": {
+    "ok": false,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://blackrock.wd1.myworkdayjobs.com/wday/cxs/blackrock/BlackRock_Campus/jobs"
+   }
+  }
+ },
+ {
+  "name": "Schroders",
+  "careers_url": "https://www.schroders.com/en/global/individual/careers/",
+  "pages": [
+   {
+    "url": "https://www.schroders.com/en/global/individual/careers/",
+    "signatures": {
+     "oracle": [
+      "ekbq.fa.em2.oraclecloud.com|CX_2"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.schroders.com/en/global/individual/careers/experienced-professionals/",
+      "signatures": {
+       "oracle": [
+        "ekbq.fa.em2.oraclecloud.com|CX_2"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.schroders.com/en/global/individual/careers/early-careers/",
+      "signatures": {
+       "oracle": [
+        "ekbq.fa.em2.oraclecloud.com|CX_2"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.schroders.com/en/global/individual/careers/changing-direction/",
+      "signatures": {
+       "oracle": [
+        "ekbq.fa.em2.oraclecloud.com|CX_2"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.schroders.com/en/global/individual/careers/operations-academy/",
+      "signatures": {
+       "oracle": [
+        "ekbq.fa.em2.oraclecloud.com|CX_2"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.schroders.com/en/global/individual/careers/armed-forces-programme/",
+      "signatures": {
+       "oracle": [
+        "ekbq.fa.em2.oraclecloud.com|CX_2"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.schroders.com/en/global/individual/careers/"
+   }
+  ],
+  "signatures": {
+   "oracle": [
+    "ekbq.fa.em2.oraclecloud.com|CX_2"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "oracle:ekbq.fa.em2.oraclecloud.com/CX_2": {
+    "ok": true,
+    "intern_total": 60,
+    "sample": []
+   }
+  }
+ },
+ {
+  "name": "Man Group",
+  "careers_url": "https://www.man.com/careers",
+  "pages": [
+   {
+    "url": "https://www.man.com/careers",
+    "signatures": {
+     "greenhouse": [
+      "mangroup"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://job-boards.eu.greenhouse.io/mangroup",
+      "signatures": {
+       "greenhouse": [
+        "mangroup"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careerreturners.com/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.man.com/careers"
+   }
+  ],
+  "signatures": {
+   "greenhouse": [
+    "mangroup"
+   ]
+  },
+  "apis": {
+   "greenhouse": {
+    "slug": "mangroup",
+    "offers": 58
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "CFM",
+  "careers_url": "https://www.cfm.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.cfm.com/careers/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.cfm.com/careers/"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "cfm",
+    "offers": 9
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Citadel",
+  "careers_url": "https://www.citadel.com/careers/open-opportunities/",
+  "pages": [
+   {
+    "url": "https://www.citadel.com/careers/open-opportunities/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.citadel.com/careers/open-opportunities/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Citadel Securities",
+  "careers_url": "https://www.citadelsecurities.com/careers/open-opportunities/",
+  "pages": [
+   {
+    "url": "https://www.citadelsecurities.com/careers/open-opportunities/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.citadelsecurities.com/careers/open-opportunities/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Millennium",
+  "careers_url": "https://www.mlp.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.mlp.com/careers/",
+    "signatures": {
+     "eightfold": [
+      "app.eightfold.ai",
+      "mlp.eightfold.ai"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://mlp.eightfold.ai/careers",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://mlp.eightfold.ai/careers"
+     },
+     {
+      "url": "https://mlp.eightfold.ai/careers?domain=mlp.com&sort_by=relevance&pid=755936615453",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://mlp.eightfold.ai/careers?domain=mlp.com&sort_by=relevance&pid=755936615453"
+     },
+     {
+      "url": "https://mlp.eightfold.ai/careers?Department=trading&domain=mlp.com&sort_by=relevance&triggerGoButton=false&pid=755936615453",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://mlp.eightfold.ai/careers?Department=trading&domain=mlp.com&sort_by=relevance&triggerGoButton=false&pid=755936615453"
+     },
+     {
+      "url": "https://app.eightfold.ai/careers?domain=mlp.com",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://app.eightfold.ai/careers?domain=mlp.com"
+     },
+     {
+      "url": "https://mlp.eightfold.ai/careers?pid=755936669352&Department=administration&Department=branding%20and%20communications&Department=compliance&Department=corporate%20services%20%26%20real%20estate&Department=execution%20services&Department=finance&Department=information%20technology&Department=treasury&Department=operations%20%26%20middle%20office&Department=human%20resources&Department=legal&Department=risk%20management&domain=mlp.com&sort_by=relevance",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://mlp.eightfold.ai/careers?pid=755936669352&Department=administration&Department=branding%20and%20communications&Department=compliance&Department=corporate%20services%20%26%20real%20estate&Department=execution%20services&Department=finance&Department=info"
+     },
+     {
+      "url": "https://app.eightfold.ai/careers?domain=mlp.comµsite=campus-site",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://app.eightfold.ai/careers?domain=mlp.comµsite=campus-site"
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.mlp.com/careers/"
+   }
+  ],
+  "signatures": {
+   "eightfold": [
+    "app.eightfold.ai",
+    "mlp.eightfold.ai"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Squarepoint",
+  "careers_url": "https://www.squarepoint-capital.com/careers",
+  "pages": [
+   {
+    "url": "https://www.squarepoint-capital.com/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.squarepoint-capital.com/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "squarepointcapital",
+    "offers": 92
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Qube Research & Technologies",
+  "careers_url": "https://www.qube-rt.com/careers",
+  "pages": [
+   {
+    "url": "https://www.qube-rt.com/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.qube-rt.com/careers",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.qube-rt.com/careers/"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "quberesearchandtechnologies",
+    "offers": 193
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Jane Street",
+  "careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+  "pages": [
+   {
+    "url": "https://www.janestreet.com/join-jane-street/open-roles/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.janestreet.com/join-jane-street/overview/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.janestreet.com/join-jane-street/departments/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.janestreet.com/join-jane-street/programs-and-events/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.janestreet.com/join-jane-street/internships/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.janestreet.com/join-jane-street/interviewing/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.janestreet.com/join-jane-street/overview",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.janestreet.com/join-jane-street/open-roles/"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "janestreet",
+    "offers": 219
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Optiver",
+  "careers_url": "https://optiver.com/working-at-optiver/career-opportunities/",
+  "pages": [
+   {
+    "url": "https://optiver.com/working-at-optiver/career-opportunities/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.optiver.com/join-us/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.optiver.com/join-us/jobs/technology/shanghai/technology-operations-engineer-shanghai/",
+      "signatures": {
+       "jsonld_jobposting": [
+        "\"@type\":\"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.optiver.com/join-us/jobs/technology/taipei/technology-operations-engineer-taipei/",
+      "signatures": {
+       "jsonld_jobposting": [
+        "\"@type\":\"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.optiver.com/join-us/jobs/technology/sydney/software-engineer-c-plus-plus-derivatives/",
+      "signatures": {
+       "jsonld_jobposting": [
+        "\"@type\":\"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.optiver.com/join-us/jobs/risk-finance-and-legal/amsterdam/financial-systems-specialist-onestream/",
+      "signatures": {
+       "jsonld_jobposting": [
+        "\"@type\":\"JobPosting\""
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.optiver.com/join-us/jobs/technology/chicago/network-engineer/",
+      "signatures": {
+       "jsonld_jobposting": [
+        "\"@type\":\"JobPosting\""
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.optiver.com/join-us/jobs/"
+   }
+  ],
+  "signatures": {
+   "jsonld_jobposting": [
+    "\"@type\":\"JobPosting\""
+   ]
+  },
+  "apis": {
+   "greenhouse": {
+    "slug": "optiverus",
+    "offers": 168
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "IMC",
+  "careers_url": "https://www.imc.com/eu/careers/jobs",
+  "pages": [
+   {
+    "url": "https://www.imc.com/eu/careers/jobs",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.imc.com/eu/careers/jobs"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "imc",
+    "offers": 170
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Susquehanna (SIG)",
+  "careers_url": "https://careers.sig.com/",
+  "pages": [
+   {
+    "url": "https://careers.sig.com/",
+    "signatures": {
+     "icims": [
+      "cookie-policy-scripts.icims.com",
+      "sig.icims.com",
+      "www.icims.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://sig.com/careers",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://sig.com/careers/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.linkedin.com/company/susquehanna-international-group",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/susquehanna-international-group"
+     },
+     {
+      "url": "https://careers.sig.com/categories",
+      "signatures": {
+       "icims": [
+        "cookie-policy-scripts.icims.com",
+        "sig.icims.com",
+        "www.icims.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.sig.com/brands",
+      "signatures": {
+       "icims": [
+        "cookie-policy-scripts.icims.com",
+        "sig.icims.com",
+        "www.icims.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.sig.com/locations",
+      "signatures": {
+       "icims": [
+        "cookie-policy-scripts.icims.com",
+        "sig.icims.com",
+        "www.icims.com"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.sig.com/jobs"
+   }
+  ],
+  "signatures": {
+   "icims": [
+    "cookie-policy-scripts.icims.com",
+    "sig.icims.com",
+    "www.icims.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Flow Traders",
+  "careers_url": "https://www.flowtraders.com/careers",
+  "pages": [
+   {
+    "url": "https://www.flowtraders.com/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.flowtraders.com/careers/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.flowtraders.com/working-at/job-search",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.flowtraders.com/working-at/career-events",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.flowtraders.com/investors/share-information/research-analysts/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.flowtraders.com/careers/job-search/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.flowtraders.com/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "flowtraders",
+    "offers": 45
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Hudson River Trading",
+  "careers_url": "https://www.hudsonrivertrading.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.hudsonrivertrading.com/careers/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.hudsonrivertrading.com/careers/"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "wehrtyou",
+    "offers": 88
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "DRW",
+  "careers_url": "https://drw.com/work-at-drw/listings",
+  "pages": [
+   {
+    "url": "https://drw.com/work-at-drw/listings",
+    "signatures": {},
+    "followed": [],
+    "error": "",
+    "final_url": "https://www.drw.com/work-at-drw/listings"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "drweng",
+    "offers": 168
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Two Sigma",
+  "careers_url": "https://careers.twosigma.com/careers/SearchJobs",
+  "pages": [
+   {
+    "url": "https://careers.twosigma.com/careers/SearchJobs",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://careers.twosigma.com/careers/SearchJobs/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "G-Research",
+  "careers_url": "https://www.gresearch.com/join-us/",
+  "pages": [
+   {
+    "url": "https://www.gresearch.com/join-us/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.linkedin.com/company/g-research/",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/g-research/"
+     },
+     {
+      "url": "https://www.youtube.com/@GResearchquantfinance",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.instagram.com/gresearchcareers/",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.instagram.com/gresearchcareers/"
+     },
+     {
+      "url": "https://www.gresearch.com",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.gresearch.com/teams/quantitative-research-machine-learning/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.gresearch.com/teams/engineering/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.gresearch.com/vacancies/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Marshall Wace",
+  "careers_url": "https://www.mwam.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.mwam.com/careers/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.mwam.com/careers/"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "marshallwace",
+    "offers": 1
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Brevan Howard",
+  "careers_url": "https://www.brevanhoward.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.brevanhoward.com/careers/",
+    "signatures": {
+     "phenom": [
+      "cdn.phenompeople.com",
+      "phApp.ddo"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://careers.brevanhoward.com/gb/en/search-results",
+      "signatures": {
+       "phenom": [
+        "cdn.phenompeople.com",
+        "phApp.ddo"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.brevanhoward.com/gb/en/early-careers",
+      "signatures": {
+       "phenom": [
+        "cdn.phenompeople.com",
+        "phApp.ddo"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.brevanhoward.com/gb/en/experienced-professionals",
+      "signatures": {
+       "phenom": [
+        "cdn.phenompeople.com",
+        "phApp.ddo"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.brevanhoward.com/gb/en/working-at-bh",
+      "signatures": {
+       "phenom": [
+        "cdn.phenompeople.com",
+        "phApp.ddo"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.brevanhoward.com/gb/en/jointalentcommunity",
+      "signatures": {
+       "phenom": [
+        "cdn.phenompeople.com",
+        "phApp.ddo"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://careers.brevanhoward.com/gb/en/emailpersonalinfo",
+      "signatures": {
+       "phenom": [
+        "cdn.phenompeople.com",
+        "phApp.ddo"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.brevanhoward.com/gb/en/home"
+   }
+  ],
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Tower Research",
+  "careers_url": "https://www.tower-research.com/open-positions",
+  "pages": [
+   {
+    "url": "https://www.tower-research.com/open-positions",
+    "signatures": {
+     "greenhouse": [
+      "towerresearchcapital"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.linkedin.com/company/tower-research-capital/",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/tower-research-capital/"
+     },
+     {
+      "url": "http://www.instagram.com/towerresearch",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows http://www.instagram.com/towerresearch"
+     },
+     {
+      "url": "https://tower-research.com",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://tower-research.com/quantitative-trading/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://tower-research.com/engineering/",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://tower-research.com/liquidity-provision/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://tower-research.com/open-positions/"
+   }
+  ],
+  "signatures": {
+   "greenhouse": [
+    "towerresearchcapital"
+   ]
+  },
+  "apis": {
+   "greenhouse": {
+    "slug": "towerresearchcapital",
+    "offers": 101
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Jump Trading",
+  "careers_url": "https://www.jumptrading.com/careers/",
+  "pages": [
+   {
+    "url": "https://www.jumptrading.com/careers/",
+    "signatures": {
+     "greenhouse": [
+      "talent_community"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://job-boards.greenhouse.io/talent_community/jobs/7138319",
+      "signatures": {},
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://job-boards.greenhouse.io/talent_community?error=true"
+     },
+     {
+      "url": "https://www.jumptrading.com/hr/overview",
+      "signatures": {
+       "greenhouse": [
+        "talent_community"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.jumptrading.com/careers"
+   }
+  ],
+  "signatures": {
+   "greenhouse": [
+    "talent_community"
+   ]
+  },
+  "apis": {
+   "greenhouse": {
+    "slug": "jumptrading",
+    "offers": 95
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Murex",
+  "careers_url": "https://www.murex.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.murex.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.murex.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Numerix",
+  "careers_url": "https://www.numerix.com/company/careers",
+  "pages": [
+   {
+    "url": "https://www.numerix.com/company/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.numerix.com/company/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {
+   "greenhouse": {
+    "slug": "numerix",
+    "offers": 7
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "AXA",
+  "careers_url": "https://www.axa.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.axa.com/en/careers",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://careers.axa.com/careers-home/?lang=en-US",
+      "signatures": {
+       "icims": [
+        "careers-en-axa.icims.com",
+        "cookie-policy-scripts.icims.com",
+        "move-en-axa.icims.com",
+        "person.icims.com",
+        "www.icims.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.axa.com/en/news/research",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.axa.com/en"
+   }
+  ],
+  "signatures": {
+   "icims": [
+    "careers-en-axa.icims.com",
+    "cookie-policy-scripts.icims.com",
+    "move-en-axa.icims.com",
+    "person.icims.com",
+    "www.icims.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "CNP Assurances",
+  "careers_url": "https://www.cnp.fr/le-groupe-cnp-assurances/carrieres",
+  "pages": [
+   {
+    "url": "https://www.cnp.fr/le-groupe-cnp-assurances/carrieres",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.cnp.fr/le-groupe-cnp-assurances/carrieres"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Allianz",
+  "careers_url": "https://careers.allianz.com/en_US/allianz-careers.html",
+  "pages": [
+   {
+    "url": "https://careers.allianz.com/en_US/allianz-careers.html",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://careers.allianz.com/en_US/allianz-careers.html"
+   },
+   {
+    "url": "https://jobs.allianz.com/",
+    "signatures": {},
+    "followed": [],
+    "error": "ConnectionError: HTTPSConnectionPool(host='jobs.allianz.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='jobs.allianz.com', port=443): Failed to resolve 'jobs.allianz.com' ([Errno -3] Temporary failure in name resolution)\"))"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "SCOR",
+  "careers_url": "https://www.scor.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.scor.com/en/careers",
+    "signatures": {
+     "oracle": [
+      "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.scor.com/fr/carrieres",
+      "signatures": {
+       "oracle": [
+        "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.scor.com/en/why-join-us",
+      "signatures": {
+       "oracle": [
+        "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.scor.com/en/search?media_name=&node_body=&node_title=&node_type%5B15%5D=15&media_type%5B15%5D=15&node_subject%5B2%5D=2&media_subject%5B2%5D=2&node_domain%5B7%5D=7&media_domain%5B7%5D=7",
+      "signatures": {
+       "oracle": [
+        "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.scor.com/en/search-expert?id=172",
+      "signatures": {
+       "oracle": [
+        "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.scor.com/en/search?media_name=&search_api_fulltext=&node_title=&node_type%5B15%5D=15&media_type%5B15%5D=15&node_domain%5B5%5D=5&media_domain%5B5%5D=5",
+      "signatures": {
+       "oracle": [
+        "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.scor.com/en/search-expert?id=171",
+      "signatures": {
+       "oracle": [
+        "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.scor.com/en/careers"
+   }
+  ],
+  "signatures": {
+   "oracle": [
+    "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com|CX_2001"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "oracle:fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/CX_2001": {
+    "ok": true,
+    "intern_total": 145,
+    "sample": []
+   }
+  }
+ },
+ {
+  "name": "Banque de France",
+  "careers_url": "https://www.banque-france.fr/fr/banque-de-france/nous-rejoindre",
+  "pages": [
+   {
+    "url": "https://www.banque-france.fr/fr/banque-de-france/nous-rejoindre",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.banque-france.fr/fr/banque-de-france/nous-rejoindre"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "BCE (ECB)",
+  "careers_url": "https://talent.ecb.europa.eu/careers",
+  "pages": [
+   {
+    "url": "https://talent.ecb.europa.eu/careers",
+    "signatures": {
+     "avature": [
+      "/SearchJobs"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/benefits/html/index.en.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ecb.europa.eu/careers/what-we-offer/traineeship/html/index.en.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ecb.europa.eu/careers/before-you-apply/html/index.en.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ecb.europa.eu/careers/html/index.en.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftalent.ecb.europa.eu%2Fcareers%2FJobDetail%2FBusiness-Process-Assistant-in-the-Operations-Integration-Division-ESCB-IO%2F15442%3Fsource%3Dfacebook&display=popup",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftalent.ecb.europa.eu%2Fcareers%2FJobDetail%2FBusiness-Process-Assistant-in-the-Operations-Integration-Division-ESCB-IO%2F15442%3Fsource%3Dfacebook&display=popup"
+     },
+     {
+      "url": "http://twitter.com/intent/tweet?url=https%3A%2F%2Ftalent.ecb.europa.eu%2Fcareers%2FJobDetail%2FBusiness-Process-Assistant-in-the-Operations-Integration-Division-ESCB-IO%2F15442%3Fsource%3Dtwitter&text=Business+Process+Assistant+in+the+Operations+%26+Integration+Division+%28ESCB%2FIO%29",
+      "signatures": {},
+      "error": "HTTPError: 520 Server Error: <none> for url: http://twitter.com/intent/tweet?url=https%3A%2F%2Ftalent.ecb.europa.eu%2Fcareers%2FJobDetail%2FBusiness-Process-Assistant-in-the-Operations-Integration-Division-ESCB-IO%2F15442%3Fsource%3Dtwitter&text=Business+Process+Assistant+in+the+Operations+%26+Integ"
+     }
+    ],
+    "error": "",
+    "final_url": "https://talent.ecb.europa.eu/careers"
+   }
+  ],
+  "signatures": {
+   "avature": [
+    "/SearchJobs"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "AMF",
+  "careers_url": "https://www.amf-france.org/fr/lamf/nous-rejoindre",
+  "pages": [
+   {
+    "url": "https://www.amf-france.org/fr/lamf/nous-rejoindre",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.amf-france.org/fr/lamf/nous-rejoindre"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Deloitte",
+  "careers_url": "https://www2.deloitte.com/fr/fr/careers/careers.html",
+  "pages": [
+   {
+    "url": "https://www2.deloitte.com/fr/fr/careers/careers.html",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.deloitte.com/fr/fr/careers/careers.html"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "EY",
+  "careers_url": "https://careers.ey.com/ey/search/?q=intern",
+  "pages": [
+   {
+    "url": "https://careers.ey.com/ey/search/?q=intern",
+    "signatures": {
+     "successfactors": [
+      "career5.successfactors.eu",
+      "ey/search/?q=",
+      "rmkcdn.successfactors.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.ey.com/en_gl/careers",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ey.com/en_gl/careers/what-you-can-do-here",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ey.com/en_gl/careers/what-its-like-to-work-here",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ey.com/en_gl/careers/how-to-join-us",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://eyglobal.yello.co/job_boards/c1riT--B2O-KySgYWsZO1Q",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.ey.com/en_us/careers/labor-condition-applications",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.ey.com/ey/search/?q=intern"
+   }
+  ],
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "ey/search/?q=",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "KPMG",
+  "careers_url": "https://kpmg.com/fr/fr/carrieres.html",
+  "pages": [
+   {
+    "url": "https://kpmg.com/fr/fr/carrieres.html",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://emplois.kpmg.fr/",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://emplois.kpmg.fr/nos-ambassadeurs",
+      "signatures": {
+       "radancy": [
+        "/search-jobs",
+        "tbcdn.talentbrew.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://kpmg.com/fr/fr/services/accompagnement-international.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://kpmg.com/fr/fr/carrieres/lautre-contrat.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://kpmg.com/fr/fr/carrieres/metiers.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://kpmg.com/fr/fr/carrieres/profils.html",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://kpmg.com/fr/fr/carrieres.html"
+   }
+  ],
+  "signatures": {
+   "radancy": [
+    "/search-jobs",
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "PwC",
+  "careers_url": "https://www.pwc.fr/fr/carrieres.html",
+  "pages": [
+   {
+    "url": "https://www.pwc.fr/fr/carrieres.html",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.pwc.fr/fr/carrieres.html"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Forvis Mazars",
+  "careers_url": "https://www.forvismazars.com/fr/fr/carrieres",
+  "pages": [
+   {
+    "url": "https://www.forvismazars.com/fr/fr/carrieres",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.instagram.com/forvismazarsrecrute/",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.instagram.com/forvismazarsrecrute/"
+     },
+     {
+      "url": "https://newfirmgeneration.mazars.fr/?utm_source=HP+&utm_medium=Footer+mazarsrecrute.fr&utm_campaign=Footer+MZrecrute%3ENFG+",
+      "signatures": {},
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='newfirmgeneration.mazars.fr', port=443): Max retries exceeded with url: /?utm_source=HP+&utm_medium=Footer+mazarsrecrute.fr&utm_campaign=Footer+MZrecrute%3ENFG+ (Caused by ConnectTimeoutError(<HTTPSConnection(host='newfirmgeneration.mazars.fr', port=443) at "
+     },
+     {
+      "url": "https://recrutement-fr.forvismazars.com/politique-cookies",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://recrutement-fr.forvismazars.com/offres-emploi",
+      "signatures": {
+       "smartrecruiters": [
+        "MAZARS"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://recrutement-fr.forvismazars.com/devenir-mazarien",
+      "signatures": {
+       "smartrecruiters": [
+        "MAZARS"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://recrutement-fr.forvismazars.com/profil/home-etudiant",
+      "signatures": {
+       "smartrecruiters": [
+        "MAZARS"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://recrutement-fr.forvismazars.com/"
+   }
+  ],
+  "signatures": {
+   "smartrecruiters": [
+    "MAZARS"
+   ]
+  },
+  "apis": {
+   "greenhouse": {
+    "slug": "forvismazars",
+    "offers": 143
+   },
+   "teamtailor": {
+    "slug": "forvismazars",
+    "offers": 1
+   }
+  },
+  "checks": {}
+ },
+ {
+  "name": "Finalyse",
+  "careers_url": "https://www.finalyse.com/careers",
+  "pages": [
+   {
+    "url": "https://www.finalyse.com/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.finalyse.com/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Julius Baer",
+  "careers_url": "https://www.juliusbaer.com/en/careers/",
+  "pages": [
+   {
+    "url": "https://www.juliusbaer.com/en/careers/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.juliusbaer.com/en/careers/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Pictet",
+  "careers_url": "https://www.group.pictet/careers",
+  "pages": [
+   {
+    "url": "https://www.group.pictet/careers",
+    "signatures": {
+     "successfactors": [
+      "career012.successfactors.eu/career?company&#61;banquepict",
+      "career012.successfactors.eu/career?company=banquepict",
+      "career012.successfactors.eu/career?company=banquepict\\&#34;"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://career012.successfactors.eu/career?company=banquepict",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://career012.successfactors.eu/career?company=banquepict"
+     },
+     {
+      "url": "https://www.pictet.com/bs/en/careers",
+      "signatures": {
+       "successfactors": [
+        "career012.successfactors.eu/career?company&#61;banquepict",
+        "career012.successfactors.eu/career?company=banquepict",
+        "career012.successfactors.eu/career?company=banquepict\\&#34;"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.pictet.com/ca/en/careers",
+      "signatures": {
+       "successfactors": [
+        "career012.successfactors.eu/career?company&#61;banquepict",
+        "career012.successfactors.eu/career?company=banquepict",
+        "career012.successfactors.eu/career?company=banquepict\\&#34;"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.pictet.com/ca/fr/carrieres",
+      "signatures": {
+       "successfactors": [
+        "career012.successfactors.eu/career?company&#61;banquepict",
+        "career012.successfactors.eu/career?company=banquepict",
+        "career012.successfactors.eu/career?company=banquepict\\&#34;"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.pictet.com/cn/en/careers",
+      "signatures": {
+       "successfactors": [
+        "career012.successfactors.eu/career?company&#61;banquepict",
+        "career012.successfactors.eu/career?company=banquepict",
+        "career012.successfactors.eu/career?company=banquepict\\&#34;"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.pictet.com/cn/zh-hans/careers",
+      "signatures": {
+       "successfactors": [
+        "career012.successfactors.eu/career?company=banquepict"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.pictet.com/us/en/careers"
+   }
+  ],
+  "signatures": {
+   "successfactors": [
+    "career012.successfactors.eu/career?company&#61;banquepict",
+    "career012.successfactors.eu/career?company=banquepict",
+    "career012.successfactors.eu/career?company=banquepict\\&#34;"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Lombard Odier",
+  "careers_url": "https://www.lombardodier.com/careers",
+  "pages": [
+   {
+    "url": "https://www.lombardodier.com/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error:  for url: https://www.lombardodier.com/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Vontobel",
+  "careers_url": "https://www.vontobel.com/en-ch/about-vontobel/careers/",
+  "pages": [
+   {
+    "url": "https://www.vontobel.com/en-ch/about-vontobel/careers/",
+    "signatures": {
+     "workday": [
+      "vontobel|wd3|Vontobel_External_Career"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://www.vontobel.com/en-ch/about-vontobel/careers",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/sharing/share-offsite/?url=https://www.vontobel.com/en-ch/about-vontobel/careers"
+     },
+     {
+      "url": "https://twitter.com/intent/tweet?url=https://www.vontobel.com/en-ch/about-vontobel/careers&text=Unlock your potential, take ownership and bring opportunities to life.&via=Vontobel",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet?url=https://www.vontobel.com/en-ch/about-vontobel/careers&text=Unlock your potential, take ownership and bring opportunities to life.&via=Vontobel"
+     },
+     {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.vontobel.com/en-ch/about-vontobel/careers",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https://www.vontobel.com/en-ch/about-vontobel/careers"
+     },
+     {
+      "url": "https://www.vontobel.com/en-ch/about-vontobel/careers/open-positions/",
+      "signatures": {
+       "workday": [
+        "vontobel|wd3|Vontobel_External_Career"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.vontobel.com/en-ch/about-vontobel/careers/internship/",
+      "signatures": {
+       "workday": [
+        "vontobel|wd3|Vontobel_External_Career"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.vontobel.com/en-ch/about-vontobel/careers/apprentices/",
+      "signatures": {
+       "workday": [
+        "vontobel|wd3|Vontobel_External_Career"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.vontobel.com/en-ch/about-vontobel/careers/"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "vontobel|wd3|Vontobel_External_Career"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:vontobel.wd3.myworkdayjobs.com/Vontobel_External_Career": {
+    "ok": true,
+    "intern_total": 30,
+    "sample": [
+     "Digital Marketing Manager (100%)",
+     "Middle/Back Office Support – Wertpapierspezialist (m/w/d)",
+     "Institutional Sales Support (Asset Management)",
+     "Legal Entity Accountant",
+     "Junior Client Portfolio Manager, Emerging Markets Fixed Income"
+    ]
+   }
+  }
+ },
+ {
+  "name": "Swissquote",
+  "careers_url": "https://careers.swissquote.com/",
+  "pages": [
+   {
+    "url": "https://careers.swissquote.com/",
+    "signatures": {},
+    "followed": [],
+    "error": "ConnectionError: HTTPSConnectionPool(host='careers.swissquote.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='careers.swissquote.com', port=443): Failed to resolve 'careers.swissquote.com' ([Errno -2] Name or service not known)\"))"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Banque Cantonale Vaudoise",
+  "careers_url": "https://www.bcv.ch/en/La-BCV/Carriere",
+  "pages": [
+   {
+    "url": "https://www.bcv.ch/en/La-BCV/Carriere",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.bcv.ch/en/home/la-bcv/carriere.html"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Zürcher Kantonalbank",
+  "careers_url": "https://www.zkb.ch/en/careers.html",
+  "pages": [
+   {
+    "url": "https://www.zkb.ch/en/careers.html",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.zkb.ch/en/careers.html"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "EFG International",
+  "careers_url": "https://www.efginternational.com/careers",
+  "pages": [
+   {
+    "url": "https://www.efginternational.com/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.efginternational.com/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "BGL BNP Paribas",
+  "careers_url": "https://www.bgl.lu/en/careers.html",
+  "pages": [
+   {
+    "url": "https://www.bgl.lu/en/careers.html",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.bgl.lu/en/careers.html"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Spuerkeess (BCEE)",
+  "careers_url": "https://www.spuerkeess.lu/en/careers/",
+  "pages": [
+   {
+    "url": "https://www.spuerkeess.lu/en/careers/",
+    "signatures": {},
+    "followed": [],
+    "error": "",
+    "final_url": "https://www.spuerkeess.lu/en/careers/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Banque Internationale à Luxembourg",
+  "careers_url": "https://www.bil.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.bil.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: NOT FOUND for url: https://www.bil.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Société Générale Luxembourg",
+  "careers_url": "https://www.societegenerale.lu/en/careers/",
+  "pages": [
+   {
+    "url": "https://www.societegenerale.lu/en/careers/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.societegenerale.lu/en/careers/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Amundi Luxembourg",
+  "careers_url": "https://www.amundi.lu/",
+  "pages": [
+   {
+    "url": "https://www.amundi.lu/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.amundi.lu/retail/search-fund",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.amundi.lu/retail"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "BEI (EIB)",
+  "careers_url": "https://www.eib.org/en/about/careers/index",
+  "pages": [
+   {
+    "url": "https://www.eib.org/en/about/careers/index",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://erecruitment.eib.org/psc/hr/EIBJOBS/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&focus=Applicant&SiteId=1&pk_vid=2b2cc90d9ae31ac11722437153980286",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://erecruitment.eib.org/psc/hr/EIBJOBS/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://twitter.com/intent/tweet/?url=https://www.eib.org/about/careers/index",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet/?url=https://www.eib.org/about/careers/index"
+     },
+     {
+      "url": "https://facebook.com/dialog/share?app_id=1214650435266588&href=https://www.eib.org/about/careers/index",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://facebook.com/dialog/share?app_id=1214650435266588&href=https://www.eib.org/about/careers/index"
+     },
+     {
+      "url": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.eib.org/about/careers/index",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/shareArticle?mini=true&url=https://www.eib.org/about/careers/index"
+     },
+     {
+      "url": "https://erecruitment.eib.org/psc/hr/EIBJOBS/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&focus=Applicant&SiteId=1&pk_vid=26aef2b5e3f9b79417309754757d940a",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.eib.org/en/about/careers/index"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "KBC",
+  "careers_url": "https://www.kbc.com/en/careers.html",
+  "pages": [
+   {
+    "url": "https://www.kbc.com/en/careers.html",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.kbc.com/en/careers.html"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Belfius",
+  "careers_url": "https://www.belfius.be/about-us/en/careers",
+  "pages": [
+   {
+    "url": "https://www.belfius.be/about-us/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.belfius.be/about-us/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "BNP Paribas Fortis",
+  "careers_url": "https://www.bnpparibasfortis.be/en/jobs",
+  "pages": [
+   {
+    "url": "https://www.bnpparibasfortis.be/en/jobs",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.bnpparibasfortis.be/en/jobs"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Euroclear",
+  "careers_url": "https://www.euroclear.com/about/en/careers.html",
+  "pages": [
+   {
+    "url": "https://www.euroclear.com/about/en/careers.html",
+    "signatures": {
+     "oracle": [
+      "don.fa.em2.oraclecloud.com|CX_1003"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.euroclear.com/errors/en/404.html#globalsearch",
+      "signatures": {
+       "oracle": [
+        "don.fa.em2.oraclecloud.com|CX_1003"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.euroclear.com/careers/en.html",
+      "signatures": {
+       "oracle": [
+        "don.fa.em2.oraclecloud.com|CX_1003"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.euroclear.com/ourgroup/en/euroclearukandireland.html",
+      "signatures": {
+       "oracle": [
+        "don.fa.em2.oraclecloud.com|CX_1003"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.euroclear.com/errors/en/404.html#home_careers",
+      "signatures": {
+       "oracle": [
+        "don.fa.em2.oraclecloud.com|CX_1003"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.euroclear.com/careers/en/working-at-euroclear.html",
+      "signatures": {
+       "oracle": [
+        "don.fa.em2.oraclecloud.com|CX_1003"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.euroclear.com/careers/en/business.html",
+      "signatures": {
+       "oracle": [
+        "don.fa.em2.oraclecloud.com|CX_1003"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.euroclear.com/errors/en/404.html#https://www.euroclear.com/about/en/careers.html"
+   }
+  ],
+  "signatures": {
+   "oracle": [
+    "don.fa.em2.oraclecloud.com|CX_1003"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "oracle:don.fa.em2.oraclecloud.com/CX_1003": {
+    "ok": true,
+    "intern_total": 55,
+    "sample": []
+   }
+  }
+ },
+ {
+  "name": "Degroof Petercam",
+  "careers_url": "https://www.degroofpetercam.com/en-be/careers",
+  "pages": [
+   {
+    "url": "https://www.degroofpetercam.com/en-be/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.degroofpetercam.com/en-be/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "DZ Bank",
+  "careers_url": "https://www.karriere.dzbank.de/",
+  "pages": [
+   {
+    "url": "https://www.karriere.dzbank.de/",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://jobs.dzbank.de",
+      "signatures": {
+       "successfactors": [
+        "career5.successfactors.eu",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.dzbank.de/content/dzbank/de/home/die-dz-bank/future-strong.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.karriere.dzbankgruppe.de",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.instagram.com/dzbank_karriere",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.instagram.com/dzbank_karriere"
+     },
+     {
+      "url": "https://www.tiktok.com/@dzbank_karriere",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://de-de.facebook.com/dzbankkarriere",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://de-de.facebook.com/dzbankkarriere"
+     }
+    ],
+    "error": "",
+    "final_url": "https://karriere.dzbank.de/"
+   }
+  ],
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "LBBW",
+  "careers_url": "https://www.lbbw.de/karriere",
+  "pages": [
+   {
+    "url": "https://www.lbbw.de/karriere",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://karriere.lbbw.de/",
+      "signatures": {
+       "successfactors": [
+        "career5.successfactors.eu",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://karriere.lbbw.de",
+      "signatures": {
+       "successfactors": [
+        "career5.successfactors.eu",
+        "rmkcdn.successfactors.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.bw-bank.de",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.lbbw.de/konzern/news-and-service/research/aktuell/research_7uv389ybr_d.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.lbbw.de/leistungen/unsere-loesungen/international-business/auslandsnetzwerk/auslandsnetzwerk_7vjzjmvcm_d.html",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.lbbw.de/menschen/karriere/karriere-bei-der-lbbw/karriere_7wo376iug_d.html",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.lbbw.de/menschen/karriere/karriere-bei-der-lbbw/karriere_7wo376iug_d.html?origin=/karriere"
+   }
+  ],
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "ABN AMRO",
+  "careers_url": "https://www.abnamro.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.abnamro.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.abnamro.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Rabobank",
+  "careers_url": "https://rabobank.jobs/en/",
+  "pages": [
+   {
+    "url": "https://rabobank.jobs/en/",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://rabobank.jobs/en/"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Intesa Sanpaolo",
+  "careers_url": "https://www.intesasanpaolo.com/en/careers",
+  "pages": [
+   {
+    "url": "https://www.intesasanpaolo.com/en/careers",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.intesasanpaolo.com/en/careers"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "UniCredit",
+  "careers_url": "https://careers.unicredit.eu/",
+  "pages": [
+   {
+    "url": "https://careers.unicredit.eu/",
+    "signatures": {
+     "avature": [
+      "/SearchJobs"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://www.unicreditgroup.eu/en/careers/company-welfare.html",
+      "signatures": {},
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unicreditgroup.eu/en/careers/company-welfare.html"
+     },
+     {
+      "url": "https://www.unicreditgroup.eu/en/careers/learning-and-development.html",
+      "signatures": {},
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unicreditgroup.eu/en/careers/learning-and-development.html"
+     },
+     {
+      "url": "https://www.unicreditgroup.eu/en/careers/compensation-and-benefits---.html",
+      "signatures": {},
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unicreditgroup.eu/en/careers/compensation-and-benefits---.html"
+     },
+     {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcareers.unicredit.eu%2Fen_GB%2Fjobsuche%2FJobDetail%2FAT-INT-EXT-UCBA-Professional-CRO-Financial-Risk-Modeler-Data-Analyst-EN%2F114309&display=popup",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcareers.unicredit.eu%2Fen_GB%2Fjobsuche%2FJobDetail%2FAT-INT-EXT-UCBA-Professional-CRO-Financial-Risk-Modeler-Data-Analyst-EN%2F114309&display=popup"
+     },
+     {
+      "url": "http://twitter.com/intent/tweet?url=https%3A%2F%2Fcareers.unicredit.eu%2Fen_GB%2Fjobsuche%2FJobDetail%2FAT-INT-EXT-UCBA-Professional-CRO-Financial-Risk-Modeler-Data-Analyst-EN%2F114309&text=AT+-+INT%2BEXT+-+UCBA+-+Professional+-+CRO+-+Financial+Risk+Modeler+Data+Analyst+-+EN",
+      "signatures": {},
+      "error": "HTTPError: 520 Server Error: <none> for url: http://twitter.com/intent/tweet?url=https%3A%2F%2Fcareers.unicredit.eu%2Fen_GB%2Fjobsuche%2FJobDetail%2FAT-INT-EXT-UCBA-Professional-CRO-Financial-Risk-Modeler-Data-Analyst-EN%2F114309&text=AT+-+INT%2BEXT+-+UCBA+-+Professional+-+CRO+-+Financial+Risk+Model"
+     },
+     {
+      "url": "https://www.xing.com/spi/shares/new?url=https%3A%2F%2Fcareers.unicredit.eu%2Fen_GB%2Fjobsuche%2FJobDetail%2FAT-INT-EXT-UCBA-Professional-CRO-Financial-Risk-Modeler-Data-Analyst-EN%2F114309",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://www.xing.com/spi/shares/new?url=https%3A%2F%2Fcareers.unicredit.eu%2Fen_GB%2Fjobsuche%2FJobDetail%2FAT-INT-EXT-UCBA-Professional-CRO-Financial-Risk-Modeler-Data-Analyst-EN%2F114309"
+     }
+    ],
+    "error": "",
+    "final_url": "https://careers.unicredit.eu/en_GB/jobsuche"
+   }
+  ],
+  "signatures": {
+   "avature": [
+    "/SearchJobs"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "BBVA",
+  "careers_url": "https://careers.bbva.com/",
+  "pages": [
+   {
+    "url": "https://careers.bbva.com/",
+    "signatures": {
+     "workday": [
+      "bbva|wd3|es"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://careers.bbva.com/",
+      "signatures": {
+       "workday": [
+        "bbva|wd3|es"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://bbva.wd3.myworkdayjobs.com/es/BBVA?AreaBBVA=52abfccf8e8b1000f33129aaf4e50000",
+      "signatures": {
+       "workday": [
+        "bbva|wd3|es"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://bbva.wd3.myworkdayjobs.com/es/BBVA?AreaBBVA=bb337b5615591001a42b6a15d08a0000&AreaBBVA=4e7e381f49d210181652f32dfea00002&locationCountry=bd34c524a6a04ae6915f5d96fa086199",
+      "signatures": {
+       "workday": [
+        "bbva|wd3|es"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.bbva.com/es/empresas/internacionalizacion/",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.bbva.com/es/empleo/"
+   }
+  ],
+  "signatures": {
+   "workday": [
+    "bbva|wd3|es"
+   ]
+  },
+  "apis": {},
+  "checks": {
+   "workday:bbva.wd3.myworkdayjobs.com/es": {
+    "ok": false,
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/es/jobs"
+   }
+  }
+ },
+ {
+  "name": "BRI (BIS)",
+  "careers_url": "https://www.bis.org/careers/index.htm",
+  "pages": [
+   {
+    "url": "https://www.bis.org/careers/index.htm",
+    "signatures": {},
+    "followed": [
+     {
+      "url": "https://www.bis.org/search",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.bis.org/about",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.bis.org/publications/research",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.bis.org/publications/authors",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.bis.org/publications/research/open-tech",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.bis.org/publications/central-bank",
+      "signatures": {},
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.bis.org/about/careers/overview"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "FMI (IMF)",
+  "careers_url": "https://www.imf.org/en/About/Recruitment",
+  "pages": [
+   {
+    "url": "https://www.imf.org/en/About/Recruitment",
+    "signatures": {},
+    "followed": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.imf.org/en/About/Recruitment"
+   }
+  ],
+  "signatures": {},
+  "apis": {},
+  "checks": {}
+ },
+ {
+  "name": "Banque mondiale",
+  "careers_url": "https://www.worldbank.org/en/about/careers",
+  "pages": [
+   {
+    "url": "https://www.worldbank.org/en/about/careers",
+    "signatures": {
+     "cornerstone": [
+      "worldbankgroup.csod.com"
+     ]
+    },
+    "followed": [
+     {
+      "url": "https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:996a5bd1-7104-4e98-b796-fbbfc295a1f2/play?assetname=WB_Careers_Website+Header+Loop+V2.mp4",
+      "signatures": {},
+      "error": "RobotsDisallowed: robots.txt disallows https://delivery-p136806-e1377785.adobeaemcloud.com/adobe/assets/urn:aaid:aem:996a5bd1-7104-4e98-b796-fbbfc295a1f2/play?assetname=WB_Careers_Website+Header+Loop+V2.mp4"
+     },
+     {
+      "url": "https://worldbankgroup.csod.com/ux/ats/careersite/1/home?c=worldbankgroup",
+      "signatures": {
+       "cornerstone": [
+        "api.csod.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://worldbankgroup.csod.com/ATS/careersite/da.aspx?routename=ATS/CareerSite/ConnectWithUsForm&site=1&c=worldbankgroup&v=1",
+      "signatures": {
+       "cornerstone": [
+        "worldbankgroup.csod.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.worldbank.org/ext/en/careers/world-bank-group-values",
+      "signatures": {},
+      "error": ""
+     },
+     {
+      "url": "https://www.worldbank.org/ext/en/careers/career-paths",
+      "signatures": {
+       "cornerstone": [
+        "worldbankgroup.csod.com"
+       ]
+      },
+      "error": ""
+     },
+     {
+      "url": "https://www.worldbank.org/ext/en/careers/talent-programs",
+      "signatures": {
+       "cornerstone": [
+        "worldbankgroup.csod.com"
+       ]
+      },
+      "error": ""
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.worldbank.org/ext/en/careers"
+   }
+  ],
+  "signatures": {
+   "cornerstone": [
+    "api.csod.com",
+    "worldbankgroup.csod.com"
+   ]
+  },
+  "apis": {},
+  "checks": {}
+ }
+]
