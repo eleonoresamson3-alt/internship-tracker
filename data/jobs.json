@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T14:01:13+00:00",
+ "generated_at": "2026-10-22T17:58:33+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -292,11 +292,40 @@
    "active": true
   },
   {
-   "id": "jpmorgan-93c1212fa840",
+   "id": "blackrock-fa3892013e78",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Programme - Investments - Quantitative Investing - London",
+   "location": "London, Greater London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 60,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/London-Greater-London/XMLNAME-2027-Quantitative-Masters-Internship-Programme---Investments---Quantitative-Investing---London_R266465",
+   "posted_at": "2026-09-16",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-d7131a90c110",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
    "platform": "oracle",
-   "title": "2027 Commercial & Investment Banking - Global Markets - Off-cycle Internship - Paris",
+   "title": "2027 Commercial & Investment Banking - Global Markets - Off-cycle Internship – Paris",
    "location": "Paris, Paris, France",
    "countries": [
     "FR"
@@ -314,14 +343,14 @@
     "city": 5,
     "timing": 15
    },
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788230",
-   "posted_at": "2026-09-07",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802076",
+   "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
   },
   {
-   "id": "jpmorgan-4c65150c8a60",
+   "id": "jpmorgan-5e468307d6a1",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
    "platform": "oracle",
@@ -343,8 +372,8 @@
     "city": 5,
     "timing": 15
    },
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788354",
-   "posted_at": "2026-09-07",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802419",
+   "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
@@ -495,7 +524,7 @@
    "active": true
   },
   {
-   "id": "jpmorgan-737545650e77",
+   "id": "jpmorgan-237c44c6a359",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
    "platform": "oracle",
@@ -517,14 +546,14 @@
     "city": 5,
     "timing": 15
    },
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788236",
-   "posted_at": "2026-09-07",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802065",
+   "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
   },
   {
-   "id": "jpmorgan-06a224449b85",
+   "id": "jpmorgan-33cc4afea1d6",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
    "platform": "oracle",
@@ -546,8 +575,8 @@
     "city": 5,
     "timing": 15
    },
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788352",
-   "posted_at": "2026-09-07",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802421",
+   "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
@@ -1454,6 +1483,296 @@
    "active": true
   },
   {
+   "id": "blackrock-61cc0548f4b0",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Investments - Global Capital Markets - New York",
+   "location": "New York, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/XMLNAME-2027-Quantitative-Masters-Internship-Program---Investments---Global-Capital-Markets---New-York_R266468",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-f34b0cc2c8c6",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Investments - Global Capital Markets - San Francisco",
+   "location": "San Francisco, CA",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/San-Francisco-CA/XMLNAME-2027-Quantitative-Masters-Internship-Program---Investments---Global-Capital-Markets---San-Francisco_R266469",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-4d6a9e144e21",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Investments - Portfolio Management - Atlanta",
+   "location": "Atlanta, GA",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/Atlanta-GA/XMLNAME-2027-Quantitative-Masters-Internship-Program---Investments---Portfolio-Management---Atlanta_R266470",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-dd903f499af9",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Investments - Portfolio Management - New York",
+   "location": "New York, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/XMLNAME-2027-Quantitative-Masters-Internship-Program---Investments---Portfolio-Management---New-York_R266471",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-75b9a2159cea",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Investments - Portfolio Management - San Francisco",
+   "location": "San Francisco, CA",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/San-Francisco-CA/XMLNAME-2027-Quantitative-Masters-Internship-Program---Investments---Portfolio-Management---San-Francisco_R266472",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-2f366b9b8ecd",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Investments - Quantitative Investing - New York",
+   "location": "New York, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/XMLNAME-2027-Quantitative-Masters-Internship-Program---Investments---Quantitative-Investing---New-York_R266473",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-b3e45af50f52",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Investments - Quantitative Investing - San Francisco",
+   "location": "San Francisco, CA",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/San-Francisco-CA/XMLNAME-2027-Quantitative-Masters-Internship-Program---Investments---Quantitative-Investing---San-Francisco_R266474",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-5c32020260cf",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Sales & Relationship Management - Institutional Wealth - Chicago",
+   "location": "Chicago, IL",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/Chicago-IL/XMLNAME-2027-Quantitative-Masters-Internship-Program---Sales---Relationship-Management---Institutional-Wealth---Chicago_R266475",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-b69f7045fcca",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Technology - Analytics & Modeling - New York",
+   "location": "New York, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/XMLNAME-2027-Quantitative-Masters-Internship-Program---Technology---Analytics---Modeling---New-York_R266477",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-75adb24667ce",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Quantitative Masters Internship Program - Technology - Analytics & Modeling - San Francisco",
+   "location": "San Francisco, CA",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/San-Francisco-CA/XMLNAME-2027-Quantitative-Masters-Internship-Program---Technology---Analytics---Modeling---San-Francisco_R266476",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
    "id": "jpmorgan-a6210c6a1445",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -1657,6 +1976,64 @@
    "active": true
   },
   {
+   "id": "blackrock-88de63720730",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 MBA Internship Program - Client & Product Functions - Research & Markets Advisory - New York",
+   "location": "New York, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/XMLNAME-2027-MBA-Internship-Program---Client---Product-Functions---Research---Markets-Advisory---New-York_R266467",
+   "posted_at": "2026-09-16",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "blackrock-67b7a70f7a60",
+   "employer": "BlackRock",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 MBA Internship Program - Client & Product Functions - Sales & Relationship Management - Institutional & Wealth - New York",
+   "location": "New York, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional/job/New-York-NY/XMLNAME-2027-MBA-Internship-Program---Client---Product-Functions---Sales---Relationship-Management---Institutional---Wealth---New-York_R266466",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
    "id": "jpmorgan-cd1907a7b79f",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -1710,64 +2087,6 @@
    },
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
    "posted_at": "2026-10-14",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
-   "active": true
-  },
-  {
-   "id": "jpmorgan-e43c1c709ad7",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 China Seasonal Internship Program - Asset Management - Business Analyst",
-   "location": "Shanghai, China",
-   "countries": [
-    "CN"
-   ],
-   "country_names": [
-    "China"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 15,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 5
-   },
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774661",
-   "posted_at": "2026-07-30",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
-   "active": true
-  },
-  {
-   "id": "jpmorgan-b5757c495493",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 China Seasonal Internship Program - Asset Management - Research Analyst",
-   "location": "Shanghai, China",
-   "countries": [
-    "CN"
-   ],
-   "country_names": [
-    "China"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 15,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 5
-   },
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774659",
-   "posted_at": "2026-07-30",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
@@ -1945,6 +2264,64 @@
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
+  },
+  {
+   "id": "jpmorgan-e43c1c709ad7",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 China Seasonal Internship Program - Asset Management - Business Analyst",
+   "location": "Shanghai, China",
+   "countries": [
+    "CN"
+   ],
+   "country_names": [
+    "China"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774661",
+   "posted_at": "2026-07-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": false
+  },
+  {
+   "id": "jpmorgan-b5757c495493",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 China Seasonal Internship Program - Asset Management - Research Analyst",
+   "location": "Shanghai, China",
+   "countries": [
+    "CN"
+   ],
+   "country_names": [
+    "China"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774659",
+   "posted_at": "2026-07-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": false
   }
  ]
 }

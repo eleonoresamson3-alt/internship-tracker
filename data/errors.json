@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-10-22T14:01:13+00:00",
+ "generated_at": "2026-10-22T17:58:33+00:00",
  "employers_total": 5,
  "employers_failed": 1,
  "errors": [
   {
-   "employer": "BlackRock",
-   "platform": "radancy",
-   "careers_url": "https://careers.blackrock.com/",
-   "error": "RobotsDisallowed: robots.txt disallows https://careers.blackrock.com/search-jobs/intern?p=1",
-   "at": "2026-10-22T14:02:39+00:00"
+   "employer": "Morgan Stanley",
+   "platform": "eightfold",
+   "careers_url": "https://www.morganstanley.com/careers/career-opportunities-search",
+   "error": "RobotsDisallowed: robots.txt disallows https://morganstanley.eightfold.ai/api/apply/v2/jobs?domain=morganstanley.com&query=intern&start=0&num=10",
+   "at": "2026-10-22T17:58:37+00:00"
   }
  ],
  "stats": [
   {
    "employer": "Jane Street",
-   "fetched": 219,
+   "fetched": 220,
    "kept": 0
   },
   {
@@ -23,14 +23,14 @@
    "kept": 6
   },
   {
-   "employer": "Morgan Stanley",
-   "fetched": 6,
-   "kept": 0
+   "employer": "JPMorgan",
+   "fetched": 799,
+   "kept": 59
   },
   {
-   "employer": "JPMorgan",
-   "fetched": 804,
-   "kept": 61
+   "employer": "BlackRock",
+   "fetched": 14,
+   "kept": 13
   }
  ]
 }
