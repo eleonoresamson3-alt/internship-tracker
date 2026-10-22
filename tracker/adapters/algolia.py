@@ -40,7 +40,20 @@ def fetch(target, http):
         raise AdapterError("algoliasearch(...) call not found in the page script")
     app_id, key = match.groups()
     headers = {"X-Algolia-Application-Id": app_id, "X-Algolia-API-Key": key}
-    url = f"https://{app_id.lower()}-dsn.algolia.net/1/indexes/{index}/query"
+    # Algolia serves the same index from several hosts; use the first that answers.
+    hosts = [f"{app_id.lower()}-dsn.algolia.net", f"{app_id.lower()}.algolia.net",
+             f"{app_id.lower()}-1.algolianet.com", f"{app_id.lower()}-2.algolianet.com"]
+    url, last_error = None, None
+    for host in hosts:
+        try:
+            http.post_json(f"https://{host}/1/indexes/{index}/query", {"params": "query=&hitsPerPage=1"},
+                           headers=headers, retries=0)
+            url = f"https://{host}/1/indexes/{index}/query"
+            break
+        except Exception as exc:
+            last_error = exc
+    if url is None:
+        raise AdapterError(f"no Algolia host reachable: {last_error}")
     jobs = []
     for term in search_terms(target):
         for page in range(config.MAX_PAGES_PER_TERM):

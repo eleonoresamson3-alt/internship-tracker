@@ -33,3 +33,15 @@ employers:
   - name: Amundi Luxembourg
     enabled: false
     notes: covered by the Amundi entry (jobs.amundi.com lists all Amundi entities, including Luxembourg).
+
+  - name: Allianz GI
+    enabled: false
+    notes: covered by the Allianz entry (careers.allianz.com lists all Allianz companies, including Allianz Global Investors).
+
+  - name: Bloomberg
+    enabled: true
+    notes: Avature job list parsed; no internship open at discovery time.
+
+  - name: Crédit Agricole Indosuez
+    enabled: false
+    notes: covered by the Groupe Crédit Agricole entry (groupecreditagricole.jobs lists all group entities).
