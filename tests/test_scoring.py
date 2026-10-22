@@ -16,6 +16,9 @@ def test_role_levels():
     assert role_match("Global Markets Sales Intern")[0] == "low"
     assert role_match("Stage Gestion d'actifs")[0] == "low"
     assert role_match("HR Business Partner Intern")[0] == "none"
+    # M&A / investment banking is not a markets role.
+    assert role_match("Global Investment Banking Analyst Program - Off-Cycle Internship")[0] == "none"
+    assert role_match("Commercial & Investment Banking - Global Markets - Off-cycle Internship")[0] == "low"
 
 
 def test_role_families():

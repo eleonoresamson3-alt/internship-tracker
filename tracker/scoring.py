@@ -42,9 +42,8 @@ LOW = [
     (r"\bsales\b|\bvente\b", "Markets (other)"),
     (r"\bfixed income\b|\brates\b|\btaux\b|\bcredit\b|\bfx\b|\bforex\b|\bchange\b", "Markets (other)"),
     (r"\bequit(y|ies)\b|\bactions\b|\bcommodit(y|ies)\b|\bmatieres premieres\b", "Markets (other)"),
-    (r"\bglobal markets\b|\bcib\b|\binvestment bank(ing)?\b|\bbanque d investissement\b", "Markets (other)"),
     (r"\brisk\b|\brisque\b|\brisques\b|\balm\b|\btreasury\b|\btresorerie\b", "Risk"),
-    (r"\bportfolio\b|\bportefeuille\b|\basset management\b|\bgestion d actifs\b|\binvestment\b", "Markets (other)"),
+    (r"\bportfolio\b|\bportefeuille\b|\basset management\b|\bgestion d actifs\b|\binvestments?\b(?! bank)", "Markets (other)"),
     (r"\bresearch\b|\brecherche\b|\beconomist\b|\bdata scien(ce|tist)\b", "Markets (other)"),
     (r"\bfinance\b|\bfinancial\b|\bfinanciere?\b", "Markets (other)"),
 ]
