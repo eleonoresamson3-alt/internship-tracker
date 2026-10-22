@@ -11,6 +11,8 @@ from . import geo
 # (pattern, role family). Patterns are matched on a lower-case, accent-free text.
 HIGH = [
     (r"\bstructur(ing|er|ers|ation|eur|euse)\b", "Structuring"),
+    (r"\bstructured (products?|solutions|finance)\b|\bproduits structures\b", "Structuring"),
+    (r"\bfinancial engineer(ing)?\b|\bingenierie financiere\b", "Structuring"),
     (r"\bpricing\b", "Pricing / Quant"),
     (r"\bquant(itative)? analyst\b", "Pricing / Quant"),
     (r"\bquant(itative)? research(er)?\b", "Pricing / Quant"),

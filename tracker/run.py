@@ -64,12 +64,14 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
     }
 
 
-def scrape(targets: list[Target], http: PoliteClient):
+def scrape(targets: list[Target], http: PoliteClient, debug: dict | None = None):
     records, errors, stats = [], [], []
     for target in targets:
         started = datetime.now(timezone.utc)
         try:
             raw_jobs = get_adapter(target.platform).fetch(target, http)
+            if debug is not None:
+                debug[target.name] = sorted({f"{r.title} | {r.location}" for r in raw_jobs})
             kept = [r for r in (to_record(target, raw) for raw in raw_jobs) if r]
             records.extend(kept)
             stats.append({"employer": target.name, "fetched": len(raw_jobs), "kept": len(kept)})
@@ -92,6 +94,8 @@ def main(argv=None) -> int:
     parser.add_argument("--only", action="append", help="scrape only this employer (repeatable)")
     parser.add_argument("--dry-run", action="store_true", help="print results, do not write data/")
     parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("--debug-titles", action="store_true",
+                        help="also write data/debug_titles.json with every fetched title (development aid)")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s")
@@ -103,7 +107,10 @@ def main(argv=None) -> int:
     now = datetime.now(timezone.utc)
     run_date = now.date().isoformat()
 
-    records, errors, stats = scrape(targets, PoliteClient())
+    debug = {} if args.debug_titles else None
+    records, errors, stats = scrape(targets, PoliteClient(), debug)
+    if debug is not None:
+        store.save_json(config.DATA_DIR / "debug_titles.json", debug)
     records = store.dedupe(records)
 
     if args.dry_run:
