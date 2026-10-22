@@ -24,9 +24,9 @@ employers:
 
   - name: Morgan Stanley
     type: intl_bank
-    platform: workday
+    platform: eightfold
     careers_url: https://www.morganstanley.com/careers/career-opportunities-search
-    params: {url: "https://ms.wd5.myworkdayjobs.com/External"}
+    params: {host: morganstanley.eightfold.ai, domain: morganstanley.com}
 
   - name: JPMorgan
     type: intl_bank
@@ -36,6 +36,7 @@ employers:
 
   - name: BlackRock
     type: asset_manager
-    platform: radancy
+    platform: workday
     careers_url: https://careers.blackrock.com/
-    params: {base: "https://careers.blackrock.com"}
+    params: {url: "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"}
+    notes: careers.blackrock.com (Radancy) disallows /search-jobs in robots.txt, so the underlying Workday site is used.
