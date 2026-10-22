@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T13:58:31+00:00",
+ "generated_at": "2026-10-22T14:01:13+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -147,6 +147,35 @@
    "active": true
   },
   {
+   "id": "kepler-cheuvreux-934f85fa8efb",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - STRUCTURED PRODUCT FINANCIAL ENGINEER ASSISTANT - PARIS",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 85,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8570763-internship-structured-product-financial-engineer-assistant-paris",
+   "posted_at": "2026-10-19",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
    "id": "jpmorgan-43fb96adaa17",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -171,6 +200,64 @@
    },
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792010",
    "posted_at": "2026-09-22",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-510ec3449155",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - ASSISTANT SALES SUR PRODUITS STRUCTURES - NYON",
+   "location": "Nyon, Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 70,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8570829-internship-assistant-sales-sur-produits-structures-nyon",
+   "posted_at": "2026-10-19",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-3670f1516f7e",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - STRUCTURED PRODUCT FINANCIAL ENGINEER ASSISTANT - NYON",
+   "location": "Nyon, Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 70,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8526812-internship-structured-product-financial-engineer-assistant-nyon",
+   "posted_at": "2026-10-09",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
@@ -932,35 +1019,6 @@
    "active": true
   },
   {
-   "id": "kepler-cheuvreux-934f85fa8efb",
-   "employer": "Kepler Cheuvreux",
-   "employer_type": "broker",
-   "platform": "teamtailor",
-   "title": "INTERNSHIP - STRUCTURED PRODUCT FINANCIAL ENGINEER ASSISTANT - PARIS",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 45,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 0
-   },
-   "url": "https://keplercheuvreux.teamtailor.com/jobs/8570763-internship-structured-product-financial-engineer-assistant-paris",
-   "posted_at": "2026-10-19",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
-   "active": true
-  },
-  {
    "id": "kepler-cheuvreux-73eac1ed7620",
    "employer": "Kepler Cheuvreux",
    "employer_type": "broker",
@@ -1420,64 +1478,6 @@
    },
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786047",
    "posted_at": "2026-08-31",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
-   "active": true
-  },
-  {
-   "id": "kepler-cheuvreux-510ec3449155",
-   "employer": "Kepler Cheuvreux",
-   "employer_type": "broker",
-   "platform": "teamtailor",
-   "title": "INTERNSHIP - ASSISTANT SALES SUR PRODUITS STRUCTURES - NYON",
-   "location": "Nyon, Switzerland",
-   "countries": [
-    "CH"
-   ],
-   "country_names": [
-    "Switzerland"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 30,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
-   },
-   "url": "https://keplercheuvreux.teamtailor.com/jobs/8570829-internship-assistant-sales-sur-produits-structures-nyon",
-   "posted_at": "2026-10-19",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
-   "active": true
-  },
-  {
-   "id": "kepler-cheuvreux-3670f1516f7e",
-   "employer": "Kepler Cheuvreux",
-   "employer_type": "broker",
-   "platform": "teamtailor",
-   "title": "INTERNSHIP - STRUCTURED PRODUCT FINANCIAL ENGINEER ASSISTANT - NYON",
-   "location": "Nyon, Switzerland",
-   "countries": [
-    "CH"
-   ],
-   "country_names": [
-    "Switzerland"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 30,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
-   },
-   "url": "https://keplercheuvreux.teamtailor.com/jobs/8526812-internship-structured-product-financial-engineer-assistant-nyon",
-   "posted_at": "2026-10-09",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
