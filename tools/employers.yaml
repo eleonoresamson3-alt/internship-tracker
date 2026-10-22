@@ -3,7 +3,7 @@
 # candidates (known [platform, params] pairs to test, e.g. from an earlier run).
 employers:
   # ---------------------------------------------------------------- French banks
-  - {name: Société Générale, type: french_bank, careers_url: "https://careers.societegenerale.com/en/search?query=intern", candidates: [[generic, {urls: ["https://careers.societegenerale.com/en/search?query={term}"], link_pattern: "/job-offers/|/offres-d-emploi-et-stage/"}]]}
+  - {name: Société Générale, type: french_bank, careers_url: "https://careers.societegenerale.com/en/search?query=intern", candidates: [[algolia, {script_url: "https://careers.societegenerale.com/themes/custom/sg_careers/js/main.js", index: prod_jobs_en, base: "https://careers.societegenerale.com"}]]}
   - {name: BNP Paribas, type: french_bank, careers_url: "https://group.bnpparibas/en/careers/all-job-offers", extra_urls: ["https://group.bnpparibas/en/careers/all-job-offers?q=intern"], candidates: [[generic, {urls: ["https://group.bnpparibas/en/careers/all-job-offers?q={term}"], link_pattern: "/careers/job-offer/"}]]}
   - {name: Natixis CIB, type: french_bank, careers_url: "https://recrutement.natixis.com/en", extra_urls: ["https://natixis.groupebpce.com/"]}
   - {name: Crédit Agricole CIB, type: french_bank, careers_url: "https://groupecreditagricole.jobs/fr/nos-offres/", candidates: [[generic, {urls: ["https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"], link_pattern: "/nos-offres-emploi/"}]]}

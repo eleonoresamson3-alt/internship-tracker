@@ -1,9 +1,4 @@
 # name url   (fetched by the "Fetch samples" workflow)
-natixis_rec https://recrutement.natixis.com/en
-amundi_board https://about.amundi.com/our-job-board
-oddo_jobs https://www.oddo-bhf.com/discover-our-jobs/
-tikehau_tv https://tikehau-capital-career.talentview.io/en
-axa_etud https://recrutement.axa.fr/search-job?ReqTypeId=ETUD
-ca_offres https://groupecreditagricole.jobs/fr/nos-offres/?keyword=stage
-cnp_pageup https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/
-socgen_main_js https://careers.societegenerale.com/themes/custom/sg_careers/js/main.js
+amundi_ts https://jobs.amundi.com/accueil.aspx?LCID=2057
+amundi_list https://jobs.amundi.com/offre-de-emploi/liste-offres.aspx?LCID=2057
+cnp_list https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/search
