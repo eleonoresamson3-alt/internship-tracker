@@ -11,3 +11,21 @@ employers:
     platform: workday
     params: {url: "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"}
     notes: careers.blackrock.com (Radancy) disallows /search-jobs in robots.txt, so the underlying Workday site is used.
+
+  - name: Deutsche Börse / Eurex
+    enabled: false
+    notes: the only Workday site found belongs to ISS (a subsidiary), not to Deutsche Börse / Eurex; careers site is in-house.
+
+  - name: CFM
+    enabled: false
+    notes: the Greenhouse board "cfm" belongs to another company; cfm.com publishes no machine-readable job list.
+
+  - name: Nordea
+    enabled: false
+    notes: the Teamtailor site found is empty / not Nordea's main careers site; nordea.com careers is in-house.
+
+  - name: BearingPoint
+    notes: Teamtailor site covers BearingPoint Norway only.
+
+  - name: Deloitte
+    notes: apply.deloitte.com covers Deloitte US; Deloitte France has no machine-readable job list.

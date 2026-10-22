@@ -17,6 +17,16 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "discovery" / "samples"
 
 
+def sanitize(html: str) -> str:
+    """Drop inline scripts (except structured data) and long tokens, so that
+    public API keys embedded in pages are not committed (push protection)."""
+    def keep_script(m):
+        tag = m.group(1)
+        return m.group(0) if "ld+json" in tag else f"<script{tag}>/* removed */</script>"
+    html = re.sub(r"<script([^>]*)>(.*?)</script>", keep_script, html, flags=re.S | re.I)
+    return re.sub(r"[A-Za-z0-9_\-]{32,}", "<token>", html)
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     http = PoliteClient(timeout=30)
@@ -27,7 +37,7 @@ def main() -> int:
         name, url = line.split(None, 1)
         try:
             resp = http.get(url, retries=0)
-            body = f"<!-- {resp.status_code} {resp.url} -->\n" + resp.text[:400_000]
+            body = f"<!-- {resp.status_code} {resp.url} -->\n" + sanitize(resp.text)[:400_000]
         except Exception as exc:
             body = f"<!-- ERROR {type(exc).__name__}: {exc} -->"
         (OUT / f"{re.sub(r'[^a-z0-9_-]', '_', name.lower())}.html").write_text(body, encoding="utf-8")

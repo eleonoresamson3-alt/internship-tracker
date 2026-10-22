@@ -36,6 +36,10 @@ HEADER = """\
 """
 
 
+JSON_PLATFORMS = {"workday", "oracle", "greenhouse", "lever", "smartrecruiters", "ashby",
+                  "teamtailor", "workable", "recruitee", "eightfold"}
+
+
 def reason(result: dict) -> str:
     tests = result.get("tests", [])
     if any(t["status"] == "robots" for t in tests):
@@ -47,8 +51,13 @@ def reason(result: dict) -> str:
         sigs = ", ".join(k for k in result["signatures"] if k != "jsonld")
         if sigs:
             return f"uses {sigs}, which has no public job API supported yet"
-    if result.get("page_errors"):
-        return "careers site not reachable by a script (" + result["page_errors"][0][:80] + ")"
+    errors = result.get("page_errors") or []
+    if any("403" in e for e in errors):
+        return "careers site blocks automated requests (HTTP 403)"
+    if any("RobotsDisallowed" in e for e in errors):
+        return "robots.txt disallows automated access to the careers pages"
+    if errors:
+        return "careers site not reachable by a script (" + errors[0][:80] + ")"
     return "in-house careers site with no machine-readable job list found"
 
 
@@ -80,7 +89,9 @@ def main() -> int:
     employers = []
     for r in results:
         best = r.get("best")
-        if best and (best["fetched"] > 0 or best["internships"] > 0):
+        # JSON platforms answering correctly are kept even with no internship
+        # today; HTML parsers returning nothing may simply not match the page.
+        if best and (best["fetched"] > 0 or best["platform"] in JSON_PLATFORMS):
             entry = {"name": r["name"], "type": r["type"], "platform": best["platform"],
                      "careers_url": r["careers_url"], "params": best["params"]}
         else:
