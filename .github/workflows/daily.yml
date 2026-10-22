@@ -31,11 +31,12 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Unit tests
-        run: python -m pytest -q
+        run: python -m pytest -q 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: Scrape
-        run: python -m tracker.run
+        run: python -m tracker.run 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: Commit data
         run: |
+          exec > >(tee -a run.log) 2>&1
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
@@ -49,6 +50,11 @@ jobs:
           cp -r docs/. _site/
           mkdir -p _site/data
           cp data/*.json _site/data/
+      - name: Report failure
+        if: failure()
+        run: |
+          msg=$(tail -c 3000 run.log 2>/dev/null | sed 's/%/%25/g' | awk '{printf "%s%%0A", $0}')
+          echo "::error title=Failure log::${msg}"
       - uses: actions/upload-pages-artifact@v3
         if: github.ref == 'refs/heads/main'
         with:

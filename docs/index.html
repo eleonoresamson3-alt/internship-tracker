@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Internship Tracker</title>
+  <meta name="description" content="Suivi quotidien des offres de stage en finance de marché">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231f4fd1'/><path d='M7 22l6-7 5 4 7-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <h1>Internship Tracker</h1>
+        <p class="subtitle">Stages en finance de marché : structuring, pricing, risque</p>
+      </div>
+      <div class="status" id="status">Chargement…</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <details class="errors" id="errors" hidden>
+      <summary id="errors-summary"></summary>
+      <ul id="errors-list"></ul>
+    </details>
+
+    <nav class="tabs" role="tablist">
+      <button role="tab" class="tab active" data-tab="new" aria-selected="true">Nouveautés du jour <span class="count" id="count-new">0</span></button>
+      <button role="tab" class="tab" data-tab="all" aria-selected="false">Toutes les offres <span class="count" id="count-all">0</span></button>
+      <button role="tab" class="tab" data-tab="mine" aria-selected="false">Mon suivi <span class="count" id="count-mine">0</span></button>
+    </nav>
+
+    <section class="filters" id="filters" aria-label="Filtres">
+      <input type="search" id="f-search" placeholder="Rechercher (intitulé, employeur, ville…)" aria-label="Recherche">
+      <div class="filter-grid">
+        <label>Employeur<select id="f-employer"><option value="">Tous</option></select></label>
+        <label>Type d'acteur<select id="f-type"><option value="">Tous</option></select></label>
+        <label>Pays<select id="f-country"><option value="">Tous</option></select></label>
+        <label>Métier<select id="f-family"><option value="">Tous</option></select></label>
+        <label>Vue depuis<select id="f-date">
+          <option value="">Toujours</option>
+          <option value="1">Aujourd'hui</option>
+          <option value="7">7 jours</option>
+          <option value="30">30 jours</option>
+        </select></label>
+        <label>Statut<select id="f-status"><option value="">Tous</option></select></label>
+        <label class="range">Score min. <output id="f-score-out">0</output><input type="range" id="f-score" min="0" max="100" step="5" value="0"></label>
+        <label class="check"><input type="checkbox" id="f-inactive"> Inclure les offres fermées</label>
+      </div>
+      <div class="filter-actions">
+        <button type="button" class="ghost" id="reset">Réinitialiser les filtres</button>
+        <span class="spacer"></span>
+        <button type="button" id="export">Exporter CSV</button>
+        <label class="button" for="import">Importer CSV</label>
+        <input type="file" id="import" accept=".csv,text/csv" hidden>
+      </div>
+    </section>
+
+    <p class="result-line" id="result-line"></p>
+    <div id="list" class="list"></div>
+    <p class="empty" id="empty" hidden></p>
+  </main>
+
+  <footer class="wrap footer">
+    Les statuts, dates et notes restent uniquement dans ce navigateur (localStorage).
+    Pensez à exporter un CSV de temps en temps pour ne rien perdre.
+    · <a href="https://github.com/eleonoresamson3-alt/internship-tracker">Code source</a>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <div class="card-main">
+        <div class="score" title="Score de pertinence"></div>
+        <div class="card-body">
+          <h2 class="title"><a target="_blank" rel="noopener"></a></h2>
+          <p class="meta"><span class="employer"></span><span class="type"></span><span class="location"></span></p>
+          <p class="tags"></p>
+        </div>
+      </div>
+      <div class="tracking">
+        <select class="status-select" aria-label="Statut"></select>
+        <label class="applied">Candidature <input type="date" class="applied-input"></label>
+        <button type="button" class="ghost notes-toggle">Notes</button>
+      </div>
+      <textarea class="notes" placeholder="Notes (contacts, échéances, impressions…)" hidden></textarea>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

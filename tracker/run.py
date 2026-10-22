@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import logging
+import os
 import sys
 import traceback
 from datetime import datetime, timezone
@@ -130,8 +131,14 @@ def main(argv=None) -> int:
         "errors": errors,
         "stats": stats,
     })
-    log.info("%d active offers, %d new today, %d/%d employers failed",
-             sum(j["active"] for j in jobs), len(fresh), len(errors), len(targets))
+    summary = (f"{sum(j['active'] for j in jobs)} active offers, {len(fresh)} new today, "
+               f"{len(errors)}/{len(targets)} employers failed")
+    log.info(summary)
+    if os.environ.get("GITHUB_ACTIONS"):
+        # Annotations are visible on the run page (and through the API) without opening the logs.
+        lines = [summary] + [f"{s['employer']}: {s['fetched']} fetched, {s['kept']} kept" for s in stats]
+        lines += [f"FAILED {e['employer']}: {e['error'][:200]}" for e in errors]
+        print("::notice title=Scrape summary::" + "%0A".join(l.replace("%", "%25") for l in lines))
     return 0
 
 
