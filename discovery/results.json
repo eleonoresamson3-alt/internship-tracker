@@ -10,18 +10,7 @@
    ]
   },
   "page_errors": [],
-  "tests": [
-   {
-    "platform": "algolia",
-    "params": {
-     "script_url": "https://careers.societegenerale.com/themes/custom/sg_careers/js/main.js",
-     "index": "prod_jobs_en",
-     "base": "https://careers.societegenerale.com"
-    },
-    "status": "error",
-    "error": "AdapterError: no Algolia host reachable: HTTPSConnectionPool(host='1lduti39jz-2.algolianet.com', port=443): Max retries exceeded with url: /1/indexes/prod_jobs_en/query (Caused by NameResolutionError("
-   }
-  ],
+  "tests": [],
   "best": null
  },
  {

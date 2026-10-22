@@ -45,3 +45,7 @@ employers:
   - name: Crédit Agricole Indosuez
     enabled: false
     notes: covered by the Groupe Crédit Agricole entry (groupecreditagricole.jobs lists all group entities).
+
+  - name: Société Générale
+    enabled: false
+    notes: careers.societegenerale.com renders its search in JavaScript and exposes no public job endpoint (Taleo back-office is not public).

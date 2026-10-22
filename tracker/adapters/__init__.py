@@ -3,7 +3,7 @@
 Each adapter module exposes `fetch(target, http) -> list[RawJob]`.
 """
 
-from . import (algolia, ashby, eightfold, generic, greenhouse, lever, oracle, phenom, radancy,
+from . import (ashby, eightfold, generic, greenhouse, lever, oracle, phenom, radancy,
                recruitee, smartrecruiters, successfactors, teamtailor, workable, workday)
 
 ADAPTERS = {
@@ -20,7 +20,6 @@ ADAPTERS = {
     "teamtailor": teamtailor,
     "workable": workable,
     "recruitee": recruitee,
-    "algolia": algolia,
     "generic": generic,
 }
 

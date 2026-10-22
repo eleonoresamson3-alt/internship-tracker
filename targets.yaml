@@ -21,7 +21,8 @@ employers:
     urls:
     - https://careers.societegenerale.com/en/search?query=intern
   enabled: false
-  notes: uses taleo, which has no public job API supported yet
+  notes: careers.societegenerale.com renders its search in JavaScript and exposes no public job endpoint (Taleo back-office
+    is not public).
 - name: BNP Paribas
   type: french_bank
   platform: generic
@@ -34,21 +35,20 @@ employers:
 - name: Natixis CIB
   type: french_bank
   platform: generic
-  careers_url: https://www.natixis.com/natixis/en/careers-rpaz5_74398.html
+  careers_url: https://recrutement.natixis.com/en
   params:
     urls:
-    - https://www.natixis.com/natixis/en/careers-rpaz5_74398.html
+    - https://recrutement.natixis.com/en
   enabled: false
   notes: in-house careers site with no machine-readable job list found
-- name: Crédit Agricole CIB
+- name: Groupe Crédit Agricole (CA-CIB
   type: french_bank
   platform: generic
-  careers_url: https://www.ca-cib.com/careers
+  careers_url: https://groupecreditagricole.jobs/fr/nos-offres/
   params:
     urls:
-    - https://www.ca-cib.com/careers
-  enabled: false
-  notes: uses teamtailor, which has no public job API supported yet
+    - https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}
+    link_pattern: /nos-offres-emploi/
 - name: La Banque Postale
   type: french_bank
   platform: generic
@@ -84,7 +84,7 @@ employers:
     urls:
     - https://ca-indosuez.com/en/careers
   enabled: false
-  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://ca-indosuez.com/en/caree)'
+  notes: covered by the Groupe Crédit Agricole entry (groupecreditagricole.jobs lists all group entities).
 - name: JPMorgan
   type: intl_bank
   platform: oracle
@@ -212,7 +212,7 @@ employers:
     urls:
     - https://jobs.standardchartered.com/
   enabled: false
-  notes: uses successfactors, which has no public job API supported yet
+  notes: robots.txt disallows automated access to its job search
 - name: RBC Capital Markets
   type: intl_bank
   platform: workday
@@ -314,12 +314,12 @@ employers:
 - name: Oddo BHF
   type: broker
   platform: generic
-  careers_url: https://www.oddo-bhf.com/
+  careers_url: https://www.oddo-bhf.com/discover-our-jobs/
   params:
     urls:
-    - https://www.oddo-bhf.com/
+    - https://www.oddo-bhf.com/discover-our-jobs/
   enabled: false
-  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.oddo-bhf.com/fr/rejo)'
+  notes: in-house careers site with no machine-readable job list found
 - name: Leonteq
   type: broker
   platform: generic
@@ -352,12 +352,11 @@ employers:
 - name: Amundi
   type: asset_manager
   platform: generic
-  careers_url: https://about.amundi.com/
+  careers_url: https://jobs.amundi.com/
   params:
     urls:
-    - https://about.amundi.com/
-  enabled: false
-  notes: in-house careers site with no machine-readable job list found
+    - https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list
+    link_pattern: /job/job-.*_\d+\.aspx
 - name: AXA IM
   type: asset_manager
   platform: generic
@@ -424,10 +423,10 @@ employers:
 - name: Tikehau Capital
   type: asset_manager
   platform: generic
-  careers_url: https://www.tikehaucapital.com/en/careers
+  careers_url: https://tikehau-capital-career.talentview.io/en
   params:
     urls:
-    - https://www.tikehaucapital.com/en/careers
+    - https://tikehau-capital-career.talentview.io/en
   enabled: false
   notes: in-house careers site with no machine-readable job list found
 - name: Rothschild & Co
@@ -476,13 +475,14 @@ employers:
     board: mangroup
 - name: Allianz GI
   type: asset_manager
-  platform: generic
-  careers_url: https://www.allianzgi.com/en/our-firm/careers
+  platform: phenom
+  careers_url: https://careers.allianz.com/global/en
   params:
-    urls:
-    - https://www.allianzgi.com/en/our-firm/careers
+    base: https://careers.allianz.com/global/en
+    search_terms:
+    - allianz global investors intern
   enabled: false
-  notes: uses phenom, successfactors, which has no public job API supported yet
+  notes: covered by the Allianz entry (careers.allianz.com lists all Allianz companies, including Allianz Global Investors).
 - name: PIMCO
   type: asset_manager
   platform: workday
@@ -631,6 +631,8 @@ employers:
   careers_url: https://www.cfm.com/
   params:
     board: cfm
+  enabled: false
+  notes: the Greenhouse board "cfm" belongs to another company; cfm.com publishes no machine-readable job list.
 - name: Citadel
   type: hedge_fund
   platform: generic
@@ -883,7 +885,7 @@ employers:
     urls:
     - https://jobs.engie.com/
   enabled: false
-  notes: uses successfactors, which has no public job API supported yet
+  notes: robots.txt disallows automated access to its job search
 - name: Vitol
   type: commodities
   platform: generic
@@ -993,8 +995,8 @@ employers:
   params:
     urls:
     - https://www.bloomberg.com/company/careers/
-  enabled: false
-  notes: uses avature, which has no public job API supported yet
+  enabled: true
+  notes: Avature job list parsed; no internship open at discovery time.
 - name: MSCI
   type: software
   platform: generic
@@ -1067,30 +1069,27 @@ employers:
 - name: AXA
   type: insurance
   platform: generic
-  careers_url: https://www.axa.com/en/careers
+  careers_url: https://recrutement.axa.fr/search-job?ReqTypeId=ETUD
   params:
     urls:
-    - https://www.axa.com/en/careers
+    - https://recrutement.axa.fr/search-job?ReqTypeId=ETUD
   enabled: false
-  notes: robots.txt disallows automated access to its job search
+  notes: 'candidate platforms failed (HTTPError: 403 Client Error: Forbidden for url: https://recrutement.axa.fr/searc)'
 - name: CNP Assurances
   type: insurance
   platform: generic
-  careers_url: https://www.cnp.fr/
+  careers_url: https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/
   params:
     urls:
-    - https://www.cnp.fr/
+    - https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/
   enabled: false
-  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.cnp.fr/le-groupe-cnp)'
+  notes: robots.txt disallows automated access to the careers pages
 - name: Allianz
   type: insurance
-  platform: generic
-  careers_url: https://careers.allianz.com/
+  platform: phenom
+  careers_url: https://careers.allianz.com/global/en
   params:
-    urls:
-    - https://careers.allianz.com/
-  enabled: false
-  notes: uses phenom, successfactors, which has no public job API supported yet
+    base: https://careers.allianz.com/global/en
 - name: SCOR
   type: insurance
   platform: oracle
@@ -1179,9 +1178,8 @@ employers:
   careers_url: https://talent.ecb.europa.eu/careers
   params:
     urls:
-    - https://talent.ecb.europa.eu/careers
-  enabled: false
-  notes: robots.txt disallows automated access to the careers pages
+    - https://talent.ecb.europa.eu/careers/SearchJobs/?search={term}
+    link_pattern: JobDetail
 - name: AMF
   type: institution
   platform: generic
@@ -1347,6 +1345,7 @@ employers:
     urls:
     - https://apply.deloitte.com/en_US/careers/SearchJobs/?search={term}
     link_pattern: JobDetail
+  notes: apply.deloitte.com covers Deloitte US; Deloitte France has no machine-readable job list.
 - name: EY
   type: consulting
   platform: successfactors
@@ -1355,13 +1354,11 @@ employers:
     base: https://careers.ey.com
 - name: KPMG
   type: consulting
-  platform: generic
-  careers_url: https://kpmg.com/fr/fr/carrieres.html
+  platform: radancy
+  careers_url: https://emplois.kpmg.fr/
   params:
-    urls:
-    - https://kpmg.com/fr/fr/carrieres.html
-  enabled: false
-  notes: uses radancy, which has no public job API supported yet
+    base: https://emplois.kpmg.fr
+    job_path: /emploi/
 - name: PwC
   type: consulting
   platform: workday
@@ -1422,6 +1419,7 @@ employers:
   careers_url: https://www.bearingpoint.com/en/careers/
   params:
     base: https://bearingpoint.teamtailor.com
+  notes: Teamtailor site covers BearingPoint Norway only.
 - name: Zanders
   type: consulting
   platform: teamtailor
@@ -1547,7 +1545,7 @@ employers:
     urls:
     - https://www.amundi.lu/
   enabled: false
-  notes: in-house careers site with no machine-readable job list found
+  notes: covered by the Amundi entry (jobs.amundi.com lists all Amundi entities, including Luxembourg).
 - name: KBC
   type: european_bank
   platform: generic
@@ -1599,10 +1597,14 @@ employers:
     base: https://jobs.dzbank.de
 - name: LBBW
   type: european_bank
-  platform: successfactors
+  platform: generic
   careers_url: https://www.lbbw.de/karriere
   params:
-    base: https://karriere.lbbw.de
+    urls:
+    - https://www.lbbw.de/karriere
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: (''Connection aborted.'', ConnectionResetError(104, ''Connection
+    r)'
 - name: ABN AMRO
   type: european_bank
   platform: generic
@@ -1659,6 +1661,8 @@ employers:
   careers_url: https://www.nordea.com/en/careers
   params:
     base: https://nordea.teamtailor.com
+  enabled: false
+  notes: the Teamtailor site found is empty / not Nordea's main careers site; nordea.com careers is in-house.
 - name: Raiffeisen Bank International
   type: european_bank
   platform: successfactors
