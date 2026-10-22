@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T13:54:55+00:00",
+ "generated_at": "2026-10-22T13:58:31+00:00",
  "employers_total": 5,
  "employers_failed": 1,
  "errors": [
@@ -8,7 +8,7 @@
    "platform": "radancy",
    "careers_url": "https://careers.blackrock.com/",
    "error": "RobotsDisallowed: robots.txt disallows https://careers.blackrock.com/search-jobs/intern?p=1",
-   "at": "2026-10-22T13:56:23+00:00"
+   "at": "2026-10-22T13:59:59+00:00"
   }
  ],
  "stats": [
