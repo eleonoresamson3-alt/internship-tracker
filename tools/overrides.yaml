@@ -1,0 +1,13 @@
+# Manual settings merged over the discovery results by tools/build_targets.py.
+# Keys given here replace the generated ones for that employer.
+employers:
+  - name: Jane Street
+    # Internships are titled like full-time roles ("Quantitative Trader");
+    # the description says whether the offer is an internship.
+    platform: greenhouse
+    params: {board: janestreet, internship_in_description: true}
+
+  - name: BlackRock
+    platform: workday
+    params: {url: "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"}
+    notes: careers.blackrock.com (Radancy) disallows /search-jobs in robots.txt, so the underlying Workday site is used.
