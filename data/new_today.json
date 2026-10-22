@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:08:43+00:00",
+ "generated_at": "2026-10-22T19:30:46+00:00",
  "date": "2026-10-22",
  "jobs": [
   {
@@ -4065,6 +4065,35 @@
    "active": true
   },
   {
+   "id": "accenture-9b792a016468",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Consultant stagiaire Financial Services - Banking & Capital Markets - F/H",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Paris/Consultant-stagiaire-Financial-Services---Banking---Capital-Markets---F-H_R00365955-1",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
    "id": "bank-of-america-2034c25c94a7",
    "employer": "Bank of America",
    "employer_type": "intl_bank",
@@ -7947,6 +7976,93 @@
    },
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
    "posted_at": "2026-07-21",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "accenture-e2d2475035e2",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Finance Transformation - Working Internship",
+   "location": "Amsterdam",
+   "countries": [
+    "NL"
+   ],
+   "country_names": [
+    "Netherlands"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Finance-Transformation---Working-Internship_R00336967",
+   "posted_at": "2026-06-19",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "accenture-b9e966bf5d25",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Finance Transformation Analyst - Intern",
+   "location": "Assago, Via del Mulino 11a; Padova, Via Transalgardo Gauslino 1; Roma; Torino",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago-Via-del-Mulino-11a/Finance-Transformation-Analyst---Intern_R00356849",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "accenture-8754d6cff6a6",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Financial Services - Intern",
+   "location": "Assago",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago/Banking-and-Financial-Regulation-Intern_R00279783",
+   "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true
@@ -13204,6 +13320,93 @@
    "active": true
   },
   {
+   "id": "accenture-3a13590fd10e",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Client Financial Management Summer Analyst - Chicago - NAELFY27",
+   "location": "Chicago, Accenture Tower, Corp",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/Client-Financial-Management-Summer-Analyst---Chicago---NAELFY27_R00357961",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "accenture-921985873bff",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Client Financial Management Summer Analyst - Dallas - NAELFY27",
+   "location": "Dallas, 5205 N OConnor Las Colinas, Corp",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dallas-5205-N-OConnor-Las-Colinas-Corp/Client-Financial-Management-Summer-Analyst---Dallas---NAELFY27_R00357935",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "accenture-4bca46d75687",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Client Financial Management Summer Analyst - Morristown- NAELFY27",
+   "location": "Morristown, 1 Speedwell Ave, Corp",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Morristown-1-Speedwell-Ave-Corp/Client-Financial-Management-Summer-Analyst---Morristown--NAELFY27_R00357960",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
    "id": "drw-97913a836ff5",
    "employer": "DRW",
    "employer_type": "hedge_fund",
@@ -13277,6 +13480,31 @@
     "timing": 0
    },
    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Winter-2028/361295",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "deloitte-f17ae9ea20bb",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Consultative Offerings - Investment Banking Summer Analyst - Corporate Finance",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Investment-Banking-Summer-Analyst-Corporate-Finance/364072",
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",

@@ -1,20 +1,12 @@
 {
- "generated_at": "2026-10-22T19:08:43+00:00",
+ "generated_at": "2026-10-22T19:30:46+00:00",
  "employers_total": 88,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Accenture",
-   "platform": "workday",
-   "careers_url": "https://www.accenture.com/fr-fr/careers",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-22T19:11:34+00:00"
-  }
- ],
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "JPMorgan",
-   "fetched": 665,
+   "fetched": 666,
    "kept": 43
   },
   {
@@ -375,7 +367,7 @@
   {
    "employer": "Deloitte",
    "fetched": 12,
-   "kept": 4
+   "kept": 5
   },
   {
    "employer": "EY",
@@ -391,6 +383,11 @@
    "employer": "Forvis Mazars",
    "fetched": 143,
    "kept": 1
+  },
+  {
+   "employer": "Accenture",
+   "fetched": 67,
+   "kept": 7
   },
   {
    "employer": "BearingPoint",
