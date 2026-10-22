@@ -12,32 +12,17 @@
   "page_errors": [],
   "tests": [
    {
-    "platform": "generic",
+    "platform": "algolia",
     "params": {
-     "urls": [
-      "https://careers.societegenerale.com/en/search?query={term}"
-     ],
-     "link_pattern": "/job-offers/|/offres-d-emploi-et-stage/"
+     "script_url": "https://careers.societegenerale.com/themes/custom/sg_careers/js/main.js",
+     "index": "prod_jobs_en",
+     "base": "https://careers.societegenerale.com"
     },
-    "status": "ok",
-    "fetched": 0,
-    "internships": 0,
-    "sample": []
+    "status": "error",
+    "error": "ConnectionError: HTTPSConnectionPool(host='1lduti39jz-dsn.algolia.net', port=443): Max retries exceeded with url: /1/indexes/prod_jobs_en/query (Caused by NameResolutionError(\"HTTPSConnection(host='1l"
    }
   ],
-  "best": {
-   "platform": "generic",
-   "params": {
-    "urls": [
-     "https://careers.societegenerale.com/en/search?query={term}"
-    ],
-    "link_pattern": "/job-offers/|/offres-d-emploi-et-stage/"
-   },
-   "status": "ok",
-   "fetched": 0,
-   "internships": 0,
-   "sample": []
-  }
+  "best": null
  },
  {
   "name": "BNP Paribas",
@@ -67,7 +52,7 @@
  {
   "name": "Natixis CIB",
   "type": "french_bank",
-  "careers_url": "https://www.natixis.com/natixis/en/careers-rpaz5_74398.html",
+  "careers_url": "https://recrutement.natixis.com/en",
   "signatures": {},
   "page_errors": [],
   "tests": [],
@@ -76,23 +61,54 @@
  {
   "name": "Crédit Agricole CIB",
   "type": "french_bank",
-  "careers_url": "https://www.ca-cib.com/careers",
-  "signatures": {
-   "teamtailor": [
-    "app",
-    "cabusinessdigital",
-    "camca",
-    "catitres",
-    "doxallia"
-   ]
-  },
+  "careers_url": "https://groupecreditagricole.jobs/fr/nos-offres/",
+  "signatures": {},
   "page_errors": [
-   "HTTPError: 500 Server Error: Internal Server Error for url: https://www.ca-cib.fr/carrieres/nos-metiers%20",
-   "HTTPError: 500 Server Error: Internal Server Error for url: https://www.ca-cib.fr/carrieres/etudiants-et-jeunes-diplomes%20",
-   "HTTPError: 404 Client Error: Not Found for url: https://groupecreditagricole.jobs/Credit-Agricole-S.A.-job-offers"
+   "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=20)",
+   "ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.jobs', port=443): Read timed out. (read timeout=20)"
   ],
-  "tests": [],
-  "best": null
+  "tests": [
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"
+     ],
+     "link_pattern": "/nos-offres-emploi/"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "STAGE - Business Analyst - FUND CHANNEL H/F | ",
+     "Stage - Assistant(e) Chef de projet IA H/F | ",
+     "STAGE - OTC Derivatives Collateral Officer H/F | ",
+     "Stage - Développeur d'outils d'analyse de risque de marché H/F | ",
+     "STAGE - Analyste ESG – Financements Durables H/F | ",
+     "Stage - Marketing produits financiers – Labels ESG H/F | "
+    ]
+   }
+  ],
+  "best": {
+   "platform": "generic",
+   "params": {
+    "urls": [
+     "https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"
+    ],
+    "link_pattern": "/nos-offres-emploi/"
+   },
+   "status": "ok",
+   "fetched": 6,
+   "internships": 6,
+   "sample": [
+    "STAGE - Business Analyst - FUND CHANNEL H/F | ",
+    "Stage - Assistant(e) Chef de projet IA H/F | ",
+    "STAGE - OTC Derivatives Collateral Officer H/F | ",
+    "Stage - Développeur d'outils d'analyse de risque de marché H/F | ",
+    "STAGE - Analyste ESG – Financements Durables H/F | ",
+    "Stage - Marketing produits financiers – Labels ESG H/F | "
+   ]
+  }
  },
  {
   "name": "La Banque Postale",
@@ -306,12 +322,8 @@
     "params": {
      "base": "https://jobs.citi.com"
     },
-    "status": "ok",
-    "fetched": 150,
-    "internships": 1,
-    "sample": [
-     "Banking, Corporate Banking, Summer Analyst, Dublin - Ireland, 2027 | "
-    ]
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.citi.com/search-jobs/intern?p=1"
    }
   ],
   "best": {
@@ -762,7 +774,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/brand-4/xf-d4df000afbc5/ats/forgot_password"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/brand-4/xf-cddfebaeccc5/ats/forgot_password"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -775,7 +787,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-157b43986b8e/ats/login#a11ystatement"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#a11ystatement"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -788,7 +800,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-157b43986b8e/ats/login#simple-tabpanel-0"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#simple-tabpanel-0"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -801,7 +813,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-157b43986b8e/ats/login#simple-tabpanel-1"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#simple-tabpanel-1"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -814,7 +826,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-157b43986b8e/ats/login#terms"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#terms"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -1057,22 +1069,11 @@
     "params": {
      "base": "https://jobs.standardchartered.com"
     },
-    "status": "ok",
-    "fetched": 0,
-    "internships": 0,
-    "sample": []
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.standardchartered.com/services/recruiting/v1/jobs"
    }
   ],
-  "best": {
-   "platform": "successfactors",
-   "params": {
-    "base": "https://jobs.standardchartered.com"
-   },
-   "status": "ok",
-   "fetched": 0,
-   "internships": 0,
-   "sample": []
-  }
+  "best": null
  },
  {
   "name": "RBC Capital Markets",
@@ -1532,7 +1533,7 @@
     "sample": [
      "Retail Relationship Banker | Woodstock, IL 60098, United States of America",
      "Retail Relationship Banker | Brookfield, WI 53045, United States of America",
-     "Bank Manager | Loveland, CO 80537, United States of America"
+     "Retail Relationship Banker | Barrington, IL 60010, United States of America"
     ]
    },
    {
@@ -1557,7 +1558,7 @@
    "sample": [
     "Retail Relationship Banker | Woodstock, IL 60098, United States of America",
     "Retail Relationship Banker | Brookfield, WI 53045, United States of America",
-    "Bank Manager | Loveland, CO 80537, United States of America"
+    "Retail Relationship Banker | Barrington, IL 60010, United States of America"
    ]
   }
  },
@@ -1571,9 +1572,7 @@
    ]
   },
   "page_errors": [
-   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/tdcareers",
-   "HTTPError: 403 Client Error: Forbidden for url: https://careers.td.com/life-at-td/",
-   "HTTPError: 403 Client Error: Forbidden for url: https://careers.td.com/life-at-td/people/"
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/tdcareers"
   ],
   "tests": [
    {
@@ -1840,11 +1839,9 @@
  {
   "name": "Oddo BHF",
   "type": "broker",
-  "careers_url": "https://www.oddo-bhf.com/",
+  "careers_url": "https://www.oddo-bhf.com/discover-our-jobs/",
   "signatures": {},
-  "page_errors": [
-   "HTTPError: 404 Client Error: Not Found for url: https://www.oddo-bhf.com/fr/rejoindre-oddo-bhf"
-  ],
+  "page_errors": [],
   "tests": [],
   "best": null
  },
@@ -1885,11 +1882,51 @@
  {
   "name": "Amundi",
   "type": "asset_manager",
-  "careers_url": "https://about.amundi.com/",
+  "careers_url": "https://jobs.amundi.com/",
   "signatures": {},
   "page_errors": [],
-  "tests": [],
-  "best": null
+  "tests": [
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list"
+     ],
+     "link_pattern": "/job/job-.*_\\d+\\.aspx"
+    },
+    "status": "ok",
+    "fetched": 29,
+    "internships": 29,
+    "sample": [
+     "STAGE - Business Analyst - FUND CHANNEL H/F | ",
+     "Stage - Marketing produits financiers – Labels ESG H/F | ",
+     "Stage – Support Vente Institutionnel & Digital H/F | ",
+     "Stage – Assistant coordination de projets Marque & Publicité (H/F) | ",
+     "Stage - AI Data Analyst H/F | ",
+     "Stage - Assistant Gérant H/F | "
+    ]
+   }
+  ],
+  "best": {
+   "platform": "generic",
+   "params": {
+    "urls": [
+     "https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list"
+    ],
+    "link_pattern": "/job/job-.*_\\d+\\.aspx"
+   },
+   "status": "ok",
+   "fetched": 29,
+   "internships": 29,
+   "sample": [
+    "STAGE - Business Analyst - FUND CHANNEL H/F | ",
+    "Stage - Marketing produits financiers – Labels ESG H/F | ",
+    "Stage – Support Vente Institutionnel & Digital H/F | ",
+    "Stage – Assistant coordination de projets Marque & Publicité (H/F) | ",
+    "Stage - AI Data Analyst H/F | ",
+    "Stage - Assistant Gérant H/F | "
+   ]
+  }
  },
  {
   "name": "AXA IM",
@@ -1963,7 +2000,7 @@
  {
   "name": "Tikehau Capital",
   "type": "asset_manager",
-  "careers_url": "https://www.tikehaucapital.com/en/careers",
+  "careers_url": "https://tikehau-capital-career.talentview.io/en",
   "signatures": {},
   "page_errors": [],
   "tests": [],
@@ -2281,7 +2318,7 @@
  {
   "name": "Allianz GI",
   "type": "asset_manager",
-  "careers_url": "https://www.allianzgi.com/en/our-firm/careers",
+  "careers_url": "https://careers.allianz.com/global/en",
   "signatures": {
    "phenom": [
     "cdn.phenompeople.com",
@@ -2292,7 +2329,7 @@
    ]
   },
   "page_errors": [
-   "HTTPError: 404 Client Error: Not Found for url: https://careers.allianz.com/en_EN/explore-allianz/allianz-global-business-lines/allianz-global-investors.html"
+   "RobotsDisallowed: robots.txt disallows https://en-gb.facebook.com/AllianzCareers/"
   ],
   "tests": [
    {
@@ -2304,17 +2341,41 @@
     "fetched": 0,
     "internships": 0,
     "sample": []
+   },
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.allianz.com/global/en",
+     "search_terms": [
+      "allianz global investors intern"
+     ]
+    },
+    "status": "ok",
+    "fetched": 100,
+    "internships": 3,
+    "sample": [
+     "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+     "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
+     "Actuarial Intern | Singapore, Singapore, 068897"
+    ]
    }
   ],
   "best": {
    "platform": "phenom",
    "params": {
-    "base": "https://careers.allianz.com/en"
+    "base": "https://careers.allianz.com/global/en",
+    "search_terms": [
+     "allianz global investors intern"
+    ]
    },
    "status": "ok",
-   "fetched": 0,
-   "internships": 0,
-   "sample": []
+   "fetched": 100,
+   "internships": 3,
+   "sample": [
+    "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+    "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
+    "Actuarial Intern | Singapore, Singapore, 068897"
+   ]
   }
  },
  {
@@ -2432,9 +2493,7 @@
     "invesco|wd1|IVZearlycareers"
    ]
   },
-  "page_errors": [
-   "HTTPError: 403 Client Error: Forbidden for url: https://careers.invesco.com/career-areas/"
-  ],
+  "page_errors": [],
   "tests": [
    {
     "platform": "workday",
@@ -2704,7 +2763,7 @@
      "board": "aqr"
     },
     "status": "ok",
-    "fetched": 56,
+    "fetched": 57,
     "internships": 8,
     "sample": [
      "2027 Business Development Summer Analyst  | Greenwich, CT; Greenwich, Connecticut, United States",
@@ -2722,7 +2781,7 @@
     "board": "aqr"
    },
    "status": "ok",
-   "fetched": 56,
+   "fetched": 57,
    "internships": 8,
    "sample": [
     "2027 Business Development Summer Analyst  | Greenwich, CT; Greenwich, Connecticut, United States",
@@ -4206,22 +4265,11 @@
     "params": {
      "base": "https://jobs.engie.com"
     },
-    "status": "ok",
-    "fetched": 0,
-    "internships": 0,
-    "sample": []
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.engie.com/services/recruiting/v1/jobs"
    }
   ],
-  "best": {
-   "platform": "successfactors",
-   "params": {
-    "base": "https://jobs.engie.com"
-   },
-   "status": "ok",
-   "fetched": 0,
-   "internships": 0,
-   "sample": []
-  }
+  "best": null
  },
  {
   "name": "Vitol",
@@ -4937,25 +4985,23 @@
  {
   "name": "AXA",
   "type": "insurance",
-  "careers_url": "https://www.axa.com/en/careers",
-  "signatures": {
-   "icims": [
-    "careers-en-axa.icims.com",
-    "move-en-axa.icims.com/jobs"
-   ]
-  },
-  "page_errors": [],
+  "careers_url": "https://recrutement.axa.fr/search-job?ReqTypeId=ETUD",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://recrutement.axa.fr/search-job?ReqTypeId=ETUD",
+   "HTTPError: 403 Client Error: Forbidden for url: https://recrutement.axa.fr/"
+  ],
   "tests": [
    {
     "platform": "generic",
     "params": {
      "urls": [
-      "https://careers-en-axa.icims.com/jobs/search?ss=1&searchKeyword={term}&in_iframe=1"
+      "https://recrutement.axa.fr/search-job?ReqTypeId=ETUD"
      ],
-     "link_pattern": "/jobs/\\d+/"
+     "link_pattern": "/nos-offres-emploi/"
     },
-    "status": "robots",
-    "error": "robots.txt disallows https://careers-en-axa.icims.com/jobs/search?ss=1&searchKeyword=intern&in_iframe=1"
+    "status": "error",
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://recrutement.axa.fr/search-job?ReqTypeId=ETUD"
    }
   ],
   "best": null
@@ -4963,10 +5009,11 @@
  {
   "name": "CNP Assurances",
   "type": "insurance",
-  "careers_url": "https://www.cnp.fr/",
+  "careers_url": "https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/",
   "signatures": {},
   "page_errors": [
-   "HTTPError: 404 Client Error: Not Found for url: https://www.cnp.fr/le-groupe-cnp-assurances/nous-rejoindre"
+   "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet?text=I%20would%20like%20to%20share%20this%20job%20opportunity:",
+   "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet?text=I%20would%20like%20to%20share%20this%20job%20opportunity:"
   ],
   "tests": [],
   "best": null
@@ -4974,7 +5021,7 @@
  {
   "name": "Allianz",
   "type": "insurance",
-  "careers_url": "https://careers.allianz.com/",
+  "careers_url": "https://careers.allianz.com/global/en",
   "signatures": {
    "phenom": [
     "cdn.phenompeople.com",
@@ -4985,8 +5032,7 @@
    ]
   },
   "page_errors": [
-   "RobotsDisallowed: robots.txt disallows https://en-gb.facebook.com/AllianzCareers/",
-   "HTTPError: 404 Client Error: Not Found for url: https://careers.allianz.com/en_EN.html"
+   "RobotsDisallowed: robots.txt disallows https://en-gb.facebook.com/AllianzCareers/"
   ],
   "tests": [
    {
@@ -4998,17 +5044,35 @@
     "fetched": 0,
     "internships": 0,
     "sample": []
+   },
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.allianz.com/global/en"
+    },
+    "status": "ok",
+    "fetched": 100,
+    "internships": 3,
+    "sample": [
+     "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+     "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
+     "Actuarial Intern | Singapore, Singapore, 068897"
+    ]
    }
   ],
   "best": {
    "platform": "phenom",
    "params": {
-    "base": "https://careers.allianz.com/en"
+    "base": "https://careers.allianz.com/global/en"
    },
    "status": "ok",
-   "fetched": 0,
-   "internships": 0,
-   "sample": []
+   "fetched": 100,
+   "internships": 3,
+   "sample": [
+    "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+    "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
+    "Actuarial Intern | Singapore, Singapore, 068897"
+   ]
   }
  },
  {
@@ -5132,7 +5196,7 @@
   "page_errors": [
    "RobotsDisallowed: robots.txt disallows http://www.facebook.com/sharer.php?u=https://www.zurich.com/careers",
    "RobotsDisallowed: robots.txt disallows http://www.linkedin.com/sharing/share-offsite/?url=https://www.zurich.com/careers",
-   "HTTPError: 500 Server Error: Internal Server Error for url: http://x.com/share?text=Careers%20in%20insurance%20at%20Zurich%20&url=https://www.zurich.com/careers"
+   "RobotsDisallowed: robots.txt disallows http://x.com/share?text=Careers in insurance at Zurich &url=https://www.zurich.com/careers"
   ],
   "tests": [
    {
@@ -5142,14 +5206,14 @@
     },
     "status": "ok",
     "fetched": 250,
-    "internships": 34,
+    "internships": 35,
     "sample": [
      "Design Internship | Barcelona, ES",
      "Social Media Internship | Barcelona, ES",
+     "Traineeship Insurance Administrator - Belgium | Zaventem, BE",
      "Credit Research Intern | Barcelona, ES",
      "Internal Control Testing Platform Intern | Madrid, ES",
-     "Sr. Investment Management Internship - Summer 2027 | New York, NY, US",
-     "Claims Intern | Singapore, SG"
+     "Sr. Investment Management Internship - Summer 2027 | New York, NY, US"
     ]
    }
   ],
@@ -5160,14 +5224,14 @@
    },
    "status": "ok",
    "fetched": 250,
-   "internships": 34,
+   "internships": 35,
    "sample": [
     "Design Internship | Barcelona, ES",
     "Social Media Internship | Barcelona, ES",
+    "Traineeship Insurance Administrator - Belgium | Zaventem, BE",
     "Credit Research Intern | Barcelona, ES",
     "Internal Control Testing Platform Intern | Madrid, ES",
-    "Sr. Investment Management Internship - Summer 2027 | New York, NY, US",
-    "Claims Intern | Singapore, SG"
+    "Sr. Investment Management Internship - Summer 2027 | New York, NY, US"
    ]
   }
  },
@@ -5296,9 +5360,13 @@
      "link_pattern": "JobDetail"
     },
     "status": "ok",
-    "fetched": 0,
-    "internships": 0,
-    "sample": []
+    "fetched": 3,
+    "internships": 3,
+    "sample": [
+     "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
+     "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
+     "PhD Traineeship in the Directorate General Economics – Supply Side, Labour and Surveillance Division | "
+    ]
    }
   ],
   "best": {
@@ -5310,9 +5378,13 @@
     "link_pattern": "JobDetail"
    },
    "status": "ok",
-   "fetched": 0,
-   "internships": 0,
-   "sample": []
+   "fetched": 3,
+   "internships": 3,
+   "sample": [
+    "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
+    "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
+    "PhD Traineeship in the Directorate General Economics – Supply Side, Labour and Surveillance Division | "
+   ]
   }
  },
  {
@@ -5610,11 +5682,11 @@
     "internships": 10,
     "sample": [
      "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | ",
-     "Tax - Tax Intern - Accounting - Summer 2028 | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
-     "Tax - Tax Intern - San Juan Accounting - Winter 2027 | ",
-     "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
-     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | "
+     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
+     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
+     "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
+     "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028 | ",
+     "Tax - Tax Intern - Accounting - Summer 2028 | "
     ]
    },
    {
@@ -5630,11 +5702,11 @@
     "internships": 10,
     "sample": [
      "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | ",
-     "Tax - Tax Intern - Accounting - Summer 2028 | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
-     "Tax - Tax Intern - San Juan Accounting - Winter 2027 | ",
-     "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
-     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | "
+     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
+     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
+     "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
+     "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028 | ",
+     "Tax - Tax Intern - Accounting - Summer 2028 | "
     ]
    }
   ],
@@ -5651,11 +5723,11 @@
    "internships": 10,
    "sample": [
     "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | ",
-    "Tax - Tax Intern - Accounting - Summer 2028 | ",
-    "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
-    "Tax - Tax Intern - San Juan Accounting - Winter 2027 | ",
-    "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
-    "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | "
+    "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
+    "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
+    "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
+    "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028 | ",
+    "Tax - Tax Intern - Accounting - Summer 2028 | "
    ]
   }
  },
@@ -5724,7 +5796,7 @@
  {
   "name": "KPMG",
   "type": "consulting",
-  "careers_url": "https://kpmg.com/fr/fr/carrieres.html",
+  "careers_url": "https://emplois.kpmg.fr/",
   "signatures": {
    "radancy": [
     "tbcdn.talentbrew.com"
@@ -5741,17 +5813,53 @@
     "fetched": 0,
     "internships": 0,
     "sample": []
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://emplois-afrique.kpmg.com"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://emplois.kpmg.fr",
+     "job_path": "/emploi/"
+    },
+    "status": "ok",
+    "fetched": 150,
+    "internships": 33,
+    "sample": [
+     "Auditeur stagiaire financier F/H | ",
+     "Stage Chargé de Formation H/F | ",
+     "Consultant Stagiaire Transaction Services F/H | ",
+     "Auditeur Financier Stagiaire (F/H) | ",
+     "Auditeur stagiaire - Gouvernance, risques, contrôle interne et conformité H/F | ",
+     "Stagiaire Audit - Junior Team Ouest Normandie F/H | "
+    ]
    }
   ],
   "best": {
    "platform": "radancy",
    "params": {
-    "base": "https://emplois.kpmg.fr"
+    "base": "https://emplois.kpmg.fr",
+    "job_path": "/emploi/"
    },
    "status": "ok",
-   "fetched": 0,
-   "internships": 0,
-   "sample": []
+   "fetched": 150,
+   "internships": 33,
+   "sample": [
+    "Auditeur stagiaire financier F/H | ",
+    "Stage Chargé de Formation H/F | ",
+    "Consultant Stagiaire Transaction Services F/H | ",
+    "Auditeur Financier Stagiaire (F/H) | ",
+    "Auditeur stagiaire - Gouvernance, risques, contrôle interne et conformité H/F | ",
+    "Stagiaire Audit - Junior Team Ouest Normandie F/H | "
+   ]
   }
  },
  {
@@ -5804,15 +5912,15 @@
      "url": "https://pwc.wd3.myworkdayjobs.com/CRM_Campus_Careers_Site"
     },
     "status": "ok",
-    "fetched": 35,
-    "internships": 35,
+    "fetched": 36,
+    "internships": 36,
     "sample": [
+     "Tax Traineeship | Amsterdam; Rotterdam",
      "Summer Internship - Strategy - Belfast | Belfast",
      "Internship Valuations & Modelling | Amsterdam",
      "Stage Finance Public Policy & Economics | Amsterdam",
      "External Audit - Intern | Buenos Aires; Argentina AC Cordoba",
-     "Future Ready - Intern / Trainee | Mexico - Reforma 445; Monterrey",
-     "Summer Internship - Strategy - London | London"
+     "Future Ready - Intern / Trainee | Mexico - Reforma 445; Monterrey"
     ]
    },
    {
@@ -6521,7 +6629,7 @@
    ]
   },
   "page_errors": [
-   "ConnectionError: HTTPSConnectionPool(host='www.lbbw.de', port=443): Max retries exceeded with url: /karriere (Caused by NewConnectionError(\"HTTPSConnection(host='www.lbbw.de', port=443): Failed to est"
+   "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   ],
   "tests": [
    {
