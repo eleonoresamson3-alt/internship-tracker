@@ -116,8 +116,8 @@ A new platform only needs a module in `tracker/adapters/` exposing
    It then runs every day at 05:00 UTC. The site is served at
    `https://<user>.github.io/internship-tracker/`.
 
-GitHub disables scheduled workflows after 60 days without repository activity; the daily data
-commit counts as activity, so the schedule keeps itself alive.
+GitHub may disable scheduled workflows on repositories without activity for 60 days; if that
+happens, re-enable *Daily scrape* from the Actions tab.
 
 ## Coverage
 
