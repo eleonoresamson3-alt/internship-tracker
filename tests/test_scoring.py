@@ -24,9 +24,8 @@ def test_role_families():
     assert role_match("Trading Intern")[1] == "Trading"
 
 
-def test_description_only_adds_a_low_signal():
-    level, family = role_match("Summer Analyst", "You will work on pricing models")
-    assert level == "low" and family == "Pricing / Quant"
+def test_description_is_ignored_for_the_role():
+    assert score("Software Engineer Intern", "London", ["GB"], "Build our trading systems").total == 0
 
 
 def test_geography_ordering():

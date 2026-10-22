@@ -86,24 +86,17 @@ class Score:
     breakdown: dict
 
 
-def role_match(title: str, description: str = "") -> tuple[str, str]:
-    """Return (level, family) for the best role signal found.
+def role_match(title: str) -> tuple[str, str]:
+    """Return (level, family) for the best role signal found in the title.
 
-    The title is authoritative; the description can only add a low-priority
-    signal so that a long job ad mentioning "pricing" once does not jump to
-    the top.
+    Descriptions are deliberately ignored: at trading firms every ad mentions
+    "trading", which would push unrelated roles (IT, HR...) into the list.
     """
     t = _norm(title)
     for level in ("high", "medium", "low"):
         for pattern, family in _COMPILED[level]:
             if pattern.search(t):
                 return level, family
-    d = _norm(description)
-    if d:
-        for level in ("high", "medium"):
-            for pattern, family in _COMPILED[level]:
-                if pattern.search(d):
-                    return "low", family
     return "none", ""
 
 
@@ -115,7 +108,7 @@ def best_region(countries: list[str]) -> str:
 
 
 def score(title: str, location: str, countries: list[str], description: str = "") -> Score:
-    level, family = role_match(title, description)
+    level, family = role_match(title)
     role_pts = ROLE_POINTS.get(level, 0)
 
     region = best_region(countries)
