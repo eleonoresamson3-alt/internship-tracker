@@ -1,0 +1,1950 @@
+{
+ "generated_at": "2026-10-22T13:54:55+00:00",
+ "jobs": [
+  {
+   "id": "jpmorgan-d3e46ba575b4",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research - Risk - Off-Cycle – Analyst – Paris",
+   "location": "Paris, Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 100,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776890",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-a9090381fc0b",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research - Risk - Off-Cycle - Analyst– London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 90,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776860",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-842ed8c688d4",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research - Risk - Off-Cycle - Associate – London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 90,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776873",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-ff9a9efa80b0",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research Markets Analyst Program – Off-Cycle Internship – London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 90,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788659",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-ca43130a3066",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research Markets Associate Program – Off-Cycle Internship – London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 90,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775780",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-43fb96adaa17",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research – Asset Management - Summer Analyst Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 80,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792010",
+   "posted_at": "2026-09-22",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-8a075d80673b",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - STRUCTURING - DYNAMIC STRATEGIES - NYON",
+   "location": "Nyon, Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 70,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8474780-internship-structuring-dynamic-strategies-nyon",
+   "posted_at": "2026-09-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-93c1212fa840",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Global Markets - Off-cycle Internship - Paris",
+   "location": "Paris, Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 60,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788230",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-4c65150c8a60",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Sales - Off-cycle Internship - Paris",
+   "location": "Paris, Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 60,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788354",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-66f407e31040",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Corporate & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship- Paris",
+   "location": "Paris, Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 60,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210741915",
+   "posted_at": "2026-04-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-0e9d46aa1613",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research - Risk and Treasury - Summer Internship - Associate - United States",
+   "location": "New York, NY, United States; Plano, TX, United States; Chicago, IL, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 55,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773978",
+   "posted_at": "2026-08-03",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-bc1a56303aad",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research – Asset Management – Summer Internship – Analyst - United States",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 55,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074",
+   "posted_at": "2026-08-04",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-fd0a8cf57050",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research – Markets – Summer Internship - Analyst – United States",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 55,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038",
+   "posted_at": "2026-08-04",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-3bd5b0e9e7d0",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research – Markets – Summer Internship - Associate– United States",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 55,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774061",
+   "posted_at": "2026-08-04",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-737545650e77",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Global Markets - Off-cycle Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788236",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-06a224449b85",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Sales - Off-cycle Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788352",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-4e9aba72465d",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 – Global Markets – Summer Internship - Paris",
+   "location": "Paris, Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780497",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-96354e89b311",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 – Sales – Summer Internship - Paris",
+   "location": "Paris, Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780537",
+   "posted_at": "2026-09-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-be3947baf657",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Asset Management Investments - Analyst Training Program - Off-Cycle-Frankfurt",
+   "location": "Frankfurt a. Main, Germany",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775278",
+   "posted_at": "2026-09-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-407655541e0c",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship (July-October ) Milan",
+   "location": "Milan, Italy",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779982",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-f342290c441f",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship (September-December) - Amsterdam",
+   "location": "Amsterdam, Noord-Holland, Netherlands",
+   "countries": [
+    "NL"
+   ],
+   "country_names": [
+    "Netherlands"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780224",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-f560143ac9c7",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship - Madrid",
+   "location": "Madrid, Madrid, Spain",
+   "countries": [
+    "ES"
+   ],
+   "country_names": [
+    "Spain"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780002",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-f80cfa6a7864",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Global Markets - Off-cycle Internship - Frankfurt",
+   "location": "Frankfurt a. Main, Germany",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788262",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-0e5c8ca1bb09",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Sales - Off-cycle Internship - Frankfurt",
+   "location": "Frankfurt a. Main, Germany",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788358",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-d802fbc6fe5d",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Corporate & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship - Brussels",
+   "location": "Bruxelles, Bruxelles, Belgium",
+   "countries": [
+    "BE"
+   ],
+   "country_names": [
+    "Belgium"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210738469",
+   "posted_at": "2026-05-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-c6b67a16707f",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Corporate & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship - CEE Coverage Frankfurt",
+   "location": "Frankfurt a. Main, Germany",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210741865",
+   "posted_at": "2026-05-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-02b30cf2ca5f",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Corporate & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship - Frankfurt",
+   "location": "Frankfurt a. Main, Germany",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742043",
+   "posted_at": "2026-04-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-4b021b9c84e9",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Markets Quantitative Trading & Research Analyst Program – Off-Cycle Internship - Hong Kong",
+   "location": "Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 45,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784371",
+   "posted_at": "2026-09-14",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-b84f67d00bd4",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Markets Quantitative Trading & Research Analyst Program – Off-Cycle Internship - Singapore",
+   "location": "Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 45,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784366",
+   "posted_at": "2026-09-13",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-fe62fb6f6921",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Markets Quantitative Trading & Research Associate Program – Off-Cycle Internship - Hong Kong",
+   "location": "Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 45,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784369",
+   "posted_at": "2026-09-14",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-888056cfbc74",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Markets Quantitative Trading & Research Associate Program – Off-Cycle Internship - Singapore",
+   "location": "Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 45,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784061",
+   "posted_at": "2026-09-13",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-433fedc93b10",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - CORPORATE FINANCE - DEBT ADVISORY - PARIS / NYON",
+   "location": "Paris, France, Nyon, Switzerland",
+   "countries": [
+    "CH",
+    "FR"
+   ],
+   "country_names": [
+    "Switzerland",
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8507116-internship-corporate-finance-debt-advisory-paris-nyon",
+   "posted_at": "2026-10-06",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-934f85fa8efb",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - STRUCTURED PRODUCT FINANCIAL ENGINEER ASSISTANT - PARIS",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8570763-internship-structured-product-financial-engineer-assistant-paris",
+   "posted_at": "2026-10-19",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-73eac1ed7620",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "STAGE - EQUITY RESEARCH - RETAIL - PARIS",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8476881-stage-equity-research-retail-paris",
+   "posted_at": "2026-09-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-7a8f84e5e108",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 - Corporate Functions - Global Finance & Business Management - Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774857",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-2beeb11df0b9",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 AI Research Associate Program - Internship",
+   "location": "LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800615",
+   "posted_at": "2026-10-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-b1758e3dd8ad",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Asset Management - Risk Summer Internship Program - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774894",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-be45302a7f98",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Asset Management Investments - Summer Internship Program - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775295",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-32fec28098ba",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Global Payments Analyst Program - Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774762",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-3c2b67b8d0e8",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Securities Services Leadership Programme - Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774766",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-c85b85be1cde",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Risk Management Program - Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775727",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-7d39c61e430b",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Global Investment Banking Analyst Program - Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775710",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-5c1429f381c6",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Global Private Bank - Investment Solutions Summer Internship Program - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774281",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-47f19e204bc2",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 – Global Markets – Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780517",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-c85e901cb6d2",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 – Research – Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780476",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-23d9e88fada4",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 – Sales – Summer Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780555",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-9a4782ef6124",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship - Stockholm",
+   "location": "STOCKHOLM, STOCKHOLM, Sweden",
+   "countries": [
+    "SE"
+   ],
+   "country_names": [
+    "Sweden"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 37,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210739544",
+   "posted_at": "2026-09-11",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-c823a2ee7417",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Corporate & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship - CEE Coverage Warsaw",
+   "location": "Warszawa, Mazowieckie, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 37,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210741849",
+   "posted_at": "2026-04-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-a6210c6a1445",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 – Global Markets – Summer Internship - Frankfurt",
+   "location": "Frankfurt a. Main, Germany",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 35,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786047",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-510ec3449155",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - ASSISTANT SALES SUR PRODUITS STRUCTURES - NYON",
+   "location": "Nyon, Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8570829-internship-assistant-sales-sur-produits-structures-nyon",
+   "posted_at": "2026-10-19",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-3670f1516f7e",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - STRUCTURED PRODUCT FINANCIAL ENGINEER ASSISTANT - NYON",
+   "location": "Nyon, Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8526812-internship-structured-product-financial-engineer-assistant-nyon",
+   "posted_at": "2026-10-09",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-afc95c860ded",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 - Corporate Functions - Global Finance & Business Management - Summer Internship - Warsaw",
+   "location": "Warszawa, Mazowieckie, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 27,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774888",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-ef3947f78087",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Securities Services Leadership Programme - Summer Internship - Dublin",
+   "location": "Dublin, Ireland",
+   "countries": [
+    "IE"
+   ],
+   "country_names": [
+    "Ireland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 27,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774793",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-e0ed64fdb706",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank – Global Payments Analyst Program - Summer Internship – Dublin",
+   "location": "Dublin, Ireland",
+   "countries": [
+    "IE"
+   ],
+   "country_names": [
+    "Ireland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 27,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774757",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-6b511345328b",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship (July-Dec) - Istanbul",
+   "location": "Istanbul, Türkiye",
+   "countries": [
+    "TR"
+   ],
+   "country_names": [
+    "Turkey"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 25,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780211",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-7c80e2470332",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Global Investment Banking Analyst Program - Off-Cycle Internship Dubai",
+   "location": "Dubai, United Arab Emirates",
+   "countries": [
+    "AE"
+   ],
+   "country_names": [
+    "United Arab Emirates"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 25,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780201",
+   "posted_at": "2026-09-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-1294d42116da",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Banking - Markets - Off-cycle Internship – Istanbul",
+   "location": "Istanbul, Türkiye",
+   "countries": [
+    "TR"
+   ],
+   "country_names": [
+    "Turkey"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 25,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788269",
+   "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-cd1907a7b79f",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 - Commercial & Investment Bank - Global Investment Banking Summer Associate Program",
+   "location": "New York, NY, United States; San Francisco, CA, United States; Chicago, IL, United States; Houston, TX, United States; Boston, MA, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784644",
+   "posted_at": "2026-09-02",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-6822e83261f2",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 AI Research Associate Program - Internship",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
+   "posted_at": "2026-10-14",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-e43c1c709ad7",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 China Seasonal Internship Program - Asset Management - Business Analyst",
+   "location": "Shanghai, China",
+   "countries": [
+    "CN"
+   ],
+   "country_names": [
+    "China"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774661",
+   "posted_at": "2026-07-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-b5757c495493",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 China Seasonal Internship Program - Asset Management - Research Analyst",
+   "location": "Shanghai, China",
+   "countries": [
+    "CN"
+   ],
+   "country_names": [
+    "China"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774659",
+   "posted_at": "2026-07-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-33dc12cc8580",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Consumer & Community Banking - Risk Modeling Associate Program - Summer Internship",
+   "location": "Wilmington, DE, United States; Plano, TX, United States; Columbus, OH, United States; Jersey City, NJ, United States; Palo Alto, CA, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796061",
+   "posted_at": "2026-10-06",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-e14a42ef2cde",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Financial Advisor Development Program - Summer Analyst Opportunity (OH, TX, AZ)",
+   "location": "Tempe, AZ, United States; Columbus, OH, United States; Plano, TX, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768182",
+   "posted_at": "2026-07-09",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-8d228690b9d6",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Forestry Finance Internship – Emerging Talent Summer Experience Program",
+   "location": "Portland, OR, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210792086",
+   "posted_at": "2026-09-21",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-30ef9fe45ce5",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Global Finance & Business Management - Summer Analyst (New York Metro)",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765289",
+   "posted_at": "2026-07-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-0693cefd1c96",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Global Finance & Business Management - Summer Analyst (OH, IL, DE, TX)",
+   "location": "Columbus, OH, United States; Chicago, IL, United States; Newark, DE, United States; Plano, TX, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765276",
+   "posted_at": "2026-07-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-09c760e35aee",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 – Sales – Summer Internship - Dubai",
+   "location": "Dubai, United Arab Emirates",
+   "countries": [
+    "AE"
+   ],
+   "country_names": [
+    "United Arab Emirates"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784872",
+   "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  }
+ ]
+}

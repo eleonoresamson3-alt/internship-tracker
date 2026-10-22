@@ -1,0 +1,36 @@
+{
+ "generated_at": "2026-10-22T13:54:55+00:00",
+ "employers_total": 5,
+ "employers_failed": 1,
+ "errors": [
+  {
+   "employer": "BlackRock",
+   "platform": "radancy",
+   "careers_url": "https://careers.blackrock.com/",
+   "error": "RobotsDisallowed: robots.txt disallows https://careers.blackrock.com/search-jobs/intern?p=1",
+   "at": "2026-10-22T13:56:23+00:00"
+  }
+ ],
+ "stats": [
+  {
+   "employer": "Jane Street",
+   "fetched": 219,
+   "kept": 0
+  },
+  {
+   "employer": "Kepler Cheuvreux",
+   "fetched": 9,
+   "kept": 6
+  },
+  {
+   "employer": "Morgan Stanley",
+   "fetched": 6,
+   "kept": 0
+  },
+  {
+   "employer": "JPMorgan",
+   "fetched": 804,
+   "kept": 61
+  }
+ ]
+}
