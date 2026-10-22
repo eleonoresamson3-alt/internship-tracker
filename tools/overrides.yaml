@@ -29,3 +29,7 @@ employers:
 
   - name: Deloitte
     notes: apply.deloitte.com covers Deloitte US; Deloitte France has no machine-readable job list.
+
+  - name: Amundi Luxembourg
+    enabled: false
+    notes: covered by the Amundi entry (jobs.amundi.com lists all Amundi entities, including Luxembourg).
