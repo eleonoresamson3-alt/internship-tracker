@@ -1,4 +1,0 @@
-# name url   (fetched by the "Fetch samples" workflow)
-amundi_ts https://jobs.amundi.com/accueil.aspx?LCID=2057
-amundi_list https://jobs.amundi.com/offre-de-emploi/liste-offres.aspx?LCID=2057
-cnp_list https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/search

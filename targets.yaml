@@ -41,7 +41,7 @@ employers:
     - https://recrutement.natixis.com/en
   enabled: false
   notes: in-house careers site with no machine-readable job list found
-- name: Groupe Crédit Agricole (CA-CIB
+- name: Groupe Crédit Agricole
   type: french_bank
   platform: generic
   careers_url: https://groupecreditagricole.jobs/fr/nos-offres/
@@ -49,6 +49,8 @@ employers:
     urls:
     - https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}
     link_pattern: /nos-offres-emploi/
+    default_country: FR
+  notes: groupecreditagricole.jobs lists all group entities (CA-CIB, Amundi, Indosuez, LCL...).
 - name: La Banque Postale
   type: french_bank
   platform: generic
@@ -357,6 +359,7 @@ employers:
     urls:
     - https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list
     link_pattern: /job/job-.*_\d+\.aspx
+    warmup_url: https://jobs.amundi.com/accueil.aspx?LCID=2057
 - name: AXA IM
   type: asset_manager
   platform: generic
@@ -991,10 +994,11 @@ employers:
 - name: Bloomberg
   type: software
   platform: generic
-  careers_url: https://www.bloomberg.com/company/careers/
+  careers_url: https://bloomberg.avature.net/careers
   params:
     urls:
-    - https://www.bloomberg.com/company/careers/
+    - https://bloomberg.avature.net/careers/SearchJobs/?search={term}
+    link_pattern: JobDetail
   enabled: true
   notes: Avature job list parsed; no internship open at discovery time.
 - name: MSCI
@@ -1180,6 +1184,7 @@ employers:
     urls:
     - https://talent.ecb.europa.eu/careers/SearchJobs/?search={term}
     link_pattern: JobDetail
+    default_country: DE
 - name: AMF
   type: institution
   platform: generic
@@ -1359,6 +1364,8 @@ employers:
   params:
     base: https://emplois.kpmg.fr
     job_path: /emploi/
+    default_country: FR
+  notes: KPMG France careers site.
 - name: PwC
   type: consulting
   platform: workday

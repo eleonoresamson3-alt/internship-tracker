@@ -40,6 +40,9 @@ employers:
 
   - name: Bloomberg
     enabled: true
+    platform: generic
+    careers_url: https://bloomberg.avature.net/careers
+    params: {urls: ["https://bloomberg.avature.net/careers/SearchJobs/?search={term}"], link_pattern: JobDetail}
     notes: Avature job list parsed; no internship open at discovery time.
 
   - name: Crédit Agricole Indosuez
@@ -49,3 +52,17 @@ employers:
   - name: Société Générale
     enabled: false
     notes: careers.societegenerale.com renders its search in JavaScript and exposes no public job endpoint (Taleo back-office is not public).
+
+  - name: KPMG
+    params: {base: "https://emplois.kpmg.fr", job_path: "/emploi/", default_country: FR}
+    notes: KPMG France careers site.
+
+  - name: Groupe Crédit Agricole
+    params: {urls: ["https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"], link_pattern: "/nos-offres-emploi/", default_country: FR}
+    notes: groupecreditagricole.jobs lists all group entities (CA-CIB, Amundi, Indosuez, LCL...).
+
+  - name: BCE (ECB)
+    params: {urls: ["https://talent.ecb.europa.eu/careers/SearchJobs/?search={term}"], link_pattern: JobDetail, default_country: DE}
+
+  - name: Amundi
+    params: {urls: ["https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list"], link_pattern: '/job/job-.*_\d+\.aspx', warmup_url: "https://jobs.amundi.com/accueil.aspx?LCID=2057"}

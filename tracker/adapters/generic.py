@@ -9,6 +9,7 @@ params:
         (see config.SEARCH_TERMS), so search result pages can be used.
   link_pattern: optional regex the link URL must match (e.g. "/job/|JobDetail")
   default_location: location used when the page does not give one
+  warmup_url: page to open first, for sites that need a session cookie
 """
 
 import json
@@ -97,6 +98,8 @@ def fetch(target, http):
         urls = [urls]
     link_pattern = target.params.get("link_pattern", "")
     default_location = target.params.get("default_location", "")
+    if target.params.get("warmup_url"):
+        http.get(target.params["warmup_url"])
     jobs = []
     for template in urls:
         pages = ([template.replace("{term}", quote(t)) for t in search_terms(target)]

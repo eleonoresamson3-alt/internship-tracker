@@ -14,6 +14,7 @@ import sys
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
+from urllib.parse import urlsplit
 
 import yaml
 
@@ -46,6 +47,13 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         return None
     countries = list(dict.fromkeys(
         [c for c in raw.countries if c] + geo.detect_countries(raw.location)))
+    if not countries:
+        # Many HTML job lists give no location: try the title ("... - London"),
+        # then the offer URL ("/emploi/courbevoie/..."), then the employer default.
+        path = urlsplit(raw.url).path.replace("-", " ").replace("/", " ")
+        countries = geo.detect_countries(title) or geo.detect_countries(path)
+    if not countries and target.params.get("default_country"):
+        countries = [target.params["default_country"]]
     s = scoring.score(title, raw.location, countries, raw.description)
     if s.total < config.MIN_SCORE:
         return None

@@ -6,7 +6,7 @@ employers:
   - {name: Société Générale, type: french_bank, careers_url: "https://careers.societegenerale.com/en/search?query=intern"}
   - {name: BNP Paribas, type: french_bank, careers_url: "https://group.bnpparibas/en/careers/all-job-offers", extra_urls: ["https://group.bnpparibas/en/careers/all-job-offers?q=intern"], candidates: [[generic, {urls: ["https://group.bnpparibas/en/careers/all-job-offers?q={term}"], link_pattern: "/careers/job-offer/"}]]}
   - {name: Natixis CIB, type: french_bank, careers_url: "https://recrutement.natixis.com/en", extra_urls: ["https://natixis.groupebpce.com/"]}
-  - {name: Groupe Crédit Agricole (CA-CIB, Indosuez…), type: french_bank, careers_url: "https://groupecreditagricole.jobs/fr/nos-offres/", candidates: [[generic, {urls: ["https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"], link_pattern: "/nos-offres-emploi/"}]]}
+  - {name: Groupe Crédit Agricole, type: french_bank, careers_url: "https://groupecreditagricole.jobs/fr/nos-offres/", candidates: [[generic, {urls: ["https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"], link_pattern: "/nos-offres-emploi/"}]]}
   - {name: La Banque Postale, type: french_bank, careers_url: "https://www.labanquepostale.com/", extra_urls: ["https://www.labanquepostale.com/rejoindre-la-banque-postale.html"]}
   - {name: HSBC Continental Europe, type: french_bank, careers_url: "https://www.hsbc.fr/", extra_urls: ["https://www.about.hsbc.fr/careers"]}
   - {name: CIC Market Solutions, type: french_bank, careers_url: "https://recrutement.creditmutuel.fr/", extra_urls: ["https://www.cic-marketsolutions.eu/"]}

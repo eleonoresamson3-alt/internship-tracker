@@ -150,7 +150,7 @@ A new platform only needs a module in `tracker/adapters/` exposing
 | Five Rings | greenhouse |
 | Flow Traders | greenhouse |
 | Forvis Mazars | greenhouse |
-| Groupe Crédit Agricole (CA-CIB | generic |
+| Groupe Crédit Agricole | generic |
 | Gunvor | workday |
 | Hudson River Trading | greenhouse |
 | IMC | greenhouse |
