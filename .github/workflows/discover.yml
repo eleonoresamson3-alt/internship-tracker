@@ -1,0 +1,50 @@
+name: Discover platforms
+
+# Helper used when adding employers: detects which recruitment platform each
+# employer in tools/employers.yaml uses, and commits discovery/results.md.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Employer name (leave empty for all)"
+        required: false
+  push:
+    branches: ["claude/**"]
+    paths: ["tools/employers.yaml", "tools/discover.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run discovery
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          if [ -n "$ONLY" ]; then
+            python tools/discover.py --only "$ONLY"
+          else
+            python tools/discover.py
+          fi
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add discovery/
+          git diff --cached --quiet && exit 0
+          git commit -m "Update platform discovery results"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

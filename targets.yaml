@@ -1,0 +1,41 @@
+# Employers scraped every day.
+#
+#   name          display name
+#   type          kind of employer (french_bank, intl_bank, european_bank, broker,
+#                 asset_manager, hedge_fund, software, insurance, institution, consulting)
+#   platform      adapter in tracker/adapters/ (greenhouse, lever, workday, oracle, ...)
+#   careers_url   public careers page, shown in the interface and in error reports
+#   params        adapter-specific settings (see the docstring of each adapter)
+#   enabled       set to false to skip an employer without deleting it
+#   notes         free text (why an employer is disabled, quirks...)
+
+employers:
+  - name: Jane Street
+    type: hedge_fund
+    platform: greenhouse
+    careers_url: https://www.janestreet.com/join-jane-street/open-roles/
+    params: {board: janestreet}
+
+  - name: Kepler Cheuvreux
+    type: broker
+    platform: teamtailor
+    careers_url: https://keplercheuvreux.teamtailor.com/jobs
+    params: {base: "https://keplercheuvreux.teamtailor.com"}
+
+  - name: Morgan Stanley
+    type: intl_bank
+    platform: workday
+    careers_url: https://www.morganstanley.com/careers/career-opportunities-search
+    params: {url: "https://ms.wd5.myworkdayjobs.com/External"}
+
+  - name: JPMorgan
+    type: intl_bank
+    platform: oracle
+    careers_url: https://www.jpmorganchase.com/careers
+    params: {host: jpmc.fa.oraclecloud.com, site: CX_1001}
+
+  - name: BlackRock
+    type: asset_manager
+    platform: radancy
+    careers_url: https://careers.blackrock.com/
+    params: {base: "https://careers.blackrock.com"}

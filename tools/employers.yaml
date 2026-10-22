@@ -1,0 +1,123 @@
+# Input of tools/discover.py: every employer to cover, with a best-guess
+# careers page. Optional: slugs (extra ATS slugs to try), extra_urls,
+# workday (candidate Workday site URLs), oracle ("host|site" pairs).
+employers:
+  # --- French banks
+  - {name: Société Générale, type: french_bank, careers_url: "https://careers.societegenerale.com/en/search?query=intern"}
+  - {name: BNP Paribas, type: french_bank, careers_url: "https://group.bnpparibas/en/careers/all-job-offers"}
+  - {name: Natixis CIB, type: french_bank, careers_url: "https://www.natixis.com/en/careers", extra_urls: ["https://recrutement.groupebpce.com/"]}
+  - {name: Crédit Agricole CIB, type: french_bank, careers_url: "https://www.ca-cib.com/en/careers", extra_urls: ["https://groupecreditagricole.jobs/en/"]}
+  - {name: La Banque Postale, type: french_bank, careers_url: "https://www.labanquepostale.com/recrutement.html", extra_urls: ["https://recrutement.labanquepostale.fr/"]}
+  - {name: HSBC Continental Europe, type: french_bank, careers_url: "https://www.hsbc.fr/carrieres/"}
+  # --- International banks
+  - {name: JPMorgan, type: intl_bank, careers_url: "https://www.jpmorganchase.com/careers", oracle: ["jpmc.fa.oraclecloud.com|CX_1001"]}
+  - {name: Goldman Sachs, type: intl_bank, careers_url: "https://higher.gs.com/roles"}
+  - {name: Morgan Stanley, type: intl_bank, careers_url: "https://www.morganstanley.com/careers/career-opportunities-search", workday: ["https://ms.wd5.myworkdayjobs.com/External"]}
+  - {name: Citi, type: intl_bank, careers_url: "https://jobs.citi.com/", workday: ["https://citi.wd5.myworkdayjobs.com/2"]}
+  - {name: Bank of America, type: intl_bank, careers_url: "https://careers.bankofamerica.com/", workday: ["https://ghr.wd1.myworkdayjobs.com/Lateral-US", "https://ghr.wd1.myworkdayjobs.com/Campus"]}
+  - {name: Barclays, type: intl_bank, careers_url: "https://search.jobs.barclays/", workday: ["https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays"]}
+  - {name: HSBC, type: intl_bank, careers_url: "https://mycareer.hsbc.com/en_GB/external", extra_urls: ["https://www.hsbc.com/careers/students-and-graduates"]}
+  - {name: Deutsche Bank, type: intl_bank, careers_url: "https://careers.db.com/students-graduates/", workday: ["https://db.wd3.myworkdayjobs.com/DBWebsite"]}
+  - {name: UBS, type: intl_bank, careers_url: "https://www.ubs.com/global/en/careers/search-jobs.html", workday: ["https://ubs.wd3.myworkdayjobs.com/UBS_Experienced_Careers", "https://ubs.wd3.myworkdayjobs.com/UBS_Graduate_and_Intern_Careers"]}
+  - {name: Nomura, type: intl_bank, careers_url: "https://www.nomura.com/careers/", workday: ["https://nomura.wd3.myworkdayjobs.com/Nomura_Campus"]}
+  - {name: Mizuho, type: intl_bank, careers_url: "https://www.mizuhogroup.com/emea/careers", workday: ["https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas"]}
+  - {name: MUFG, type: intl_bank, careers_url: "https://www.mufgemea.com/careers/", workday: ["https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers"]}
+  - {name: SMBC, type: intl_bank, careers_url: "https://www.smbcgroup.com/emea/careers", workday: ["https://smbcgroup.wd1.myworkdayjobs.com/SMBC_Group_Careers"]}
+  - {name: Santander CIB, type: intl_bank, careers_url: "https://www.santandercib.com/careers", workday: ["https://santander.wd3.myworkdayjobs.com/SantanderCareers"]}
+  - {name: ING, type: intl_bank, careers_url: "https://www.ing.jobs/global/careers.htm"}
+  - {name: Commerzbank, type: intl_bank, careers_url: "https://jobs.commerzbank.com/"}
+  - {name: Standard Chartered, type: intl_bank, careers_url: "https://www.sc.com/en/careers/", workday: ["https://scb.wd3.myworkdayjobs.com/en-US/Careers"]}
+  - {name: RBC Capital Markets, type: intl_bank, careers_url: "https://jobs.rbc.com/ca/en", workday: ["https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1"]}
+  - {name: Jefferies, type: intl_bank, careers_url: "https://www.jefferies.com/careers/", workday: ["https://jefferies.wd5.myworkdayjobs.com/JefferiesCareers"]}
+  # --- Brokers / structuring
+  - {name: Kepler Cheuvreux, type: broker, careers_url: "https://keplercheuvreux.teamtailor.com/jobs", slugs: [keplercheuvreux]}
+  - {name: Oddo BHF, type: broker, careers_url: "https://www.oddo-bhf.com/en/careers"}
+  - {name: Leonteq, type: broker, careers_url: "https://www.leonteq.com/careers"}
+  # --- Asset managers
+  - {name: Amundi, type: asset_manager, careers_url: "https://about.amundi.com/careers", extra_urls: ["https://jobs.amundi.com/"]}
+  - {name: AXA IM, type: asset_manager, careers_url: "https://www.axa-im.com/careers"}
+  - {name: BNP Paribas AM, type: asset_manager, careers_url: "https://www.bnpparibas-am.com/en/careers/"}
+  - {name: Natixis IM, type: asset_manager, careers_url: "https://www.im.natixis.com/en-intl/careers"}
+  - {name: Ostrum, type: asset_manager, careers_url: "https://www.ostrum.com/en/careers"}
+  - {name: Mirova, type: asset_manager, careers_url: "https://www.mirova.com/en/careers"}
+  - {name: Candriam, type: asset_manager, careers_url: "https://www.candriam.com/en/professional/careers/"}
+  - {name: Carmignac, type: asset_manager, careers_url: "https://www.carmignac.com/en/careers"}
+  - {name: Tikehau Capital, type: asset_manager, careers_url: "https://www.tikehaucapital.com/en/careers"}
+  - {name: Rothschild & Co, type: asset_manager, careers_url: "https://www.rothschildandco.com/en/careers/"}
+  - {name: Edmond de Rothschild, type: asset_manager, careers_url: "https://www.edmond-de-rothschild.com/en/careers"}
+  - {name: Lazard, type: asset_manager, careers_url: "https://www.lazard.com/careers/"}
+  - {name: BlackRock, type: asset_manager, careers_url: "https://careers.blackrock.com/", workday: ["https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional", "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Campus"]}
+  - {name: Schroders, type: asset_manager, careers_url: "https://www.schroders.com/en/global/individual/careers/"}
+  - {name: Man Group, type: asset_manager, careers_url: "https://www.man.com/careers"}
+  # --- Hedge funds / trading
+  - {name: CFM, type: hedge_fund, careers_url: "https://www.cfm.com/careers/", slugs: [cfm, capitalfundmanagement]}
+  - {name: Citadel, type: hedge_fund, careers_url: "https://www.citadel.com/careers/open-opportunities/"}
+  - {name: Citadel Securities, type: hedge_fund, careers_url: "https://www.citadelsecurities.com/careers/open-opportunities/"}
+  - {name: Millennium, type: hedge_fund, careers_url: "https://www.mlp.com/careers/", slugs: [mlp, millenniummanagement]}
+  - {name: Squarepoint, type: hedge_fund, careers_url: "https://www.squarepoint-capital.com/careers", slugs: [squarepointcapital, squarepoint]}
+  - {name: Qube Research & Technologies, type: hedge_fund, careers_url: "https://www.qube-rt.com/careers", slugs: [qube, qrt, quberesearchandtechnologies]}
+  - {name: Jane Street, type: hedge_fund, careers_url: "https://www.janestreet.com/join-jane-street/open-roles/", slugs: [janestreet]}
+  - {name: Optiver, type: hedge_fund, careers_url: "https://optiver.com/working-at-optiver/career-opportunities/", slugs: [optiver, optiverus]}
+  - {name: IMC, type: hedge_fund, careers_url: "https://www.imc.com/eu/careers/jobs", slugs: [imc, imctrading]}
+  - {name: Susquehanna (SIG), type: hedge_fund, careers_url: "https://careers.sig.com/", slugs: [sig, susquehanna]}
+  - {name: Flow Traders, type: hedge_fund, careers_url: "https://www.flowtraders.com/careers", slugs: [flowtraders]}
+  - {name: Hudson River Trading, type: hedge_fund, careers_url: "https://www.hudsonrivertrading.com/careers/", slugs: [wehrtyou, hudsonrivertrading]}
+  - {name: DRW, type: hedge_fund, careers_url: "https://drw.com/work-at-drw/listings", slugs: [drweng, drw]}
+  - {name: Two Sigma, type: hedge_fund, careers_url: "https://careers.twosigma.com/careers/SearchJobs", slugs: [twosigma]}
+  - {name: G-Research, type: hedge_fund, careers_url: "https://www.gresearch.com/join-us/", slugs: [gresearch]}
+  - {name: Marshall Wace, type: hedge_fund, careers_url: "https://www.mwam.com/careers/", slugs: [marshallwace, mwam]}
+  - {name: Brevan Howard, type: hedge_fund, careers_url: "https://www.brevanhoward.com/careers/", slugs: [brevanhoward]}
+  - {name: Tower Research, type: hedge_fund, careers_url: "https://www.tower-research.com/open-positions", slugs: [towerresearchcapital, towerresearch]}
+  - {name: Jump Trading, type: hedge_fund, careers_url: "https://www.jumptrading.com/careers/", slugs: [jumptrading]}
+  # --- Software vendors
+  - {name: Murex, type: software, careers_url: "https://www.murex.com/en/careers"}
+  - {name: Numerix, type: software, careers_url: "https://www.numerix.com/company/careers"}
+  # --- Insurance / institutions
+  - {name: AXA, type: insurance, careers_url: "https://www.axa.com/en/careers"}
+  - {name: CNP Assurances, type: insurance, careers_url: "https://www.cnp.fr/le-groupe-cnp-assurances/carrieres"}
+  - {name: Allianz, type: insurance, careers_url: "https://careers.allianz.com/en_US/allianz-careers.html", extra_urls: ["https://jobs.allianz.com/"]}
+  - {name: SCOR, type: insurance, careers_url: "https://www.scor.com/en/careers"}
+  - {name: Banque de France, type: institution, careers_url: "https://www.banque-france.fr/fr/banque-de-france/nous-rejoindre"}
+  - {name: BCE (ECB), type: institution, careers_url: "https://talent.ecb.europa.eu/careers"}
+  - {name: AMF, type: institution, careers_url: "https://www.amf-france.org/fr/lamf/nous-rejoindre"}
+  # --- Risk consulting
+  - {name: Deloitte, type: consulting, careers_url: "https://www2.deloitte.com/fr/fr/careers/careers.html"}
+  - {name: EY, type: consulting, careers_url: "https://careers.ey.com/ey/search/?q=intern"}
+  - {name: KPMG, type: consulting, careers_url: "https://kpmg.com/fr/fr/carrieres.html"}
+  - {name: PwC, type: consulting, careers_url: "https://www.pwc.fr/fr/carrieres.html"}
+  - {name: Forvis Mazars, type: consulting, careers_url: "https://www.forvismazars.com/fr/fr/carrieres"}
+  - {name: Finalyse, type: consulting, careers_url: "https://www.finalyse.com/careers"}
+  # --- Switzerland
+  - {name: Julius Baer, type: european_bank, careers_url: "https://www.juliusbaer.com/en/careers/"}
+  - {name: Pictet, type: european_bank, careers_url: "https://www.group.pictet/careers"}
+  - {name: Lombard Odier, type: european_bank, careers_url: "https://www.lombardodier.com/careers"}
+  - {name: Vontobel, type: european_bank, careers_url: "https://www.vontobel.com/en-ch/about-vontobel/careers/"}
+  - {name: Swissquote, type: european_bank, careers_url: "https://careers.swissquote.com/"}
+  - {name: Banque Cantonale Vaudoise, type: european_bank, careers_url: "https://www.bcv.ch/en/La-BCV/Carriere"}
+  - {name: Zürcher Kantonalbank, type: european_bank, careers_url: "https://www.zkb.ch/en/careers.html"}
+  - {name: EFG International, type: european_bank, careers_url: "https://www.efginternational.com/careers"}
+  # --- Luxembourg
+  - {name: BGL BNP Paribas, type: european_bank, careers_url: "https://www.bgl.lu/en/careers.html"}
+  - {name: Spuerkeess (BCEE), type: european_bank, careers_url: "https://www.spuerkeess.lu/en/careers/"}
+  - {name: Banque Internationale à Luxembourg, type: european_bank, careers_url: "https://www.bil.com/en/careers"}
+  - {name: Société Générale Luxembourg, type: european_bank, careers_url: "https://www.societegenerale.lu/en/careers/"}
+  - {name: Amundi Luxembourg, type: asset_manager, careers_url: "https://www.amundi.lu/"}
+  - {name: BEI (EIB), type: institution, careers_url: "https://www.eib.org/en/about/careers/index"}
+  # --- Belgium
+  - {name: KBC, type: european_bank, careers_url: "https://www.kbc.com/en/careers.html"}
+  - {name: Belfius, type: european_bank, careers_url: "https://www.belfius.be/about-us/en/careers"}
+  - {name: BNP Paribas Fortis, type: european_bank, careers_url: "https://www.bnpparibasfortis.be/en/jobs"}
+  - {name: Euroclear, type: european_bank, careers_url: "https://www.euroclear.com/about/en/careers.html"}
+  - {name: Degroof Petercam, type: european_bank, careers_url: "https://www.degroofpetercam.com/en-be/careers"}
+  # --- Germany / Netherlands / Italy / Spain
+  - {name: DZ Bank, type: european_bank, careers_url: "https://www.karriere.dzbank.de/"}
+  - {name: LBBW, type: european_bank, careers_url: "https://www.lbbw.de/karriere"}
+  - {name: ABN AMRO, type: european_bank, careers_url: "https://www.abnamro.com/en/careers"}
+  - {name: Rabobank, type: european_bank, careers_url: "https://rabobank.jobs/en/"}
+  - {name: Intesa Sanpaolo, type: european_bank, careers_url: "https://www.intesasanpaolo.com/en/careers"}
+  - {name: UniCredit, type: european_bank, careers_url: "https://careers.unicredit.eu/"}
+  - {name: BBVA, type: european_bank, careers_url: "https://careers.bbva.com/"}
+  # --- International institutions
+  - {name: BRI (BIS), type: institution, careers_url: "https://www.bis.org/careers/index.htm"}
+  - {name: FMI (IMF), type: institution, careers_url: "https://www.imf.org/en/About/Recruitment"}
+  - {name: Banque mondiale, type: institution, careers_url: "https://www.worldbank.org/en/about/careers"}
