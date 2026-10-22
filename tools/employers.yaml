@@ -49,7 +49,7 @@ employers:
   - {name: Exane (BNP Paribas), type: broker, careers_url: "https://www.exane.com/careers"}
   - {name: Marex, type: broker, careers_url: "https://www.marex.com/careers/"}
   # ---------------------------------------------------------------- Asset managers
-  - {name: Amundi, type: asset_manager, careers_url: "https://jobs.amundi.com/", candidates: [[generic, {urls: ["https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list"], link_pattern: "/job/job-.*_\d+\.aspx"}]]}
+  - {name: Amundi, type: asset_manager, careers_url: "https://jobs.amundi.com/", candidates: [[generic, {urls: ["https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list"], link_pattern: '/job/job-.*_\d+\.aspx'}]]}
   - {name: AXA IM, type: asset_manager, careers_url: "https://www.axa-im.com/careers"}
   - {name: BNP Paribas AM, type: asset_manager, careers_url: "https://www.bnpparibas-am.com/en/careers/"}
   - {name: Natixis IM, type: asset_manager, careers_url: "https://www.im.natixis.com/", extra_urls: ["https://www.im.natixis.com/en-intl/about-us/careers"]}
