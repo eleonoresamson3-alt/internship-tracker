@@ -5,7 +5,7 @@
 | Société Générale | — | — | algolia: error · signatures: taleo |
 | BNP Paribas | — | — | generic: error · page errors: HTTPError: 403 Client Error: Forbidden for url: https://grou; HTTPError: 403 Client Error: Forbidden for url: https://grou; HTTPError: 403 Client Error: Forbidden for url: https://grou |
 | Natixis CIB | — | — | — |
-| Crédit Agricole CIB | **generic** `{"urls": ["https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"], "link_pattern": "/nos-offres-emploi/"}` | 6 / 6 |  · page errors: ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.; ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole. |
+| Groupe Crédit Agricole (CA-CIB | **generic** `{"urls": ["https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"], "link_pattern": "/nos-offres-emploi/"}` | 6 / 6 |  · page errors: ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole.; ReadTimeout: HTTPSConnectionPool(host='groupecreditagricole. |
 | La Banque Postale | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
 | HSBC Continental Europe | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://portal.career |
 | CIC Market Solutions | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://www.instagram; RobotsDisallowed: robots.txt disallows https://www.instagram |
@@ -60,7 +60,7 @@
 | BlackRock | **workday** `{"url": "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"}` | 14 / 14 | radancy: robots · signatures: radancy |
 | Schroders | **oracle** `{"host": "ekbq.fa.em2.oraclecloud.com", "site": "CX_2"}` | 21 / 63 |  · signatures: oracle |
 | Man Group | **greenhouse** `{"board": "mangroup"}` | 2 / 60 |  · signatures: greenhouse |
-| Allianz GI | **phenom** `{"base": "https://careers.allianz.com/global/en", "search_terms": ["allianz global investors intern"]}` | 3 / 100 | phenom: ok · signatures: phenom, successfactors · page errors: RobotsDisallowed: robots.txt disallows https://en-gb.faceboo |
+| Allianz GI | **phenom** `{"base": "https://careers.allianz.com/global/en", "search_terms": ["allianz global investors intern"]}` | 6 / 100 | phenom: ok · signatures: phenom, successfactors · page errors: RobotsDisallowed: robots.txt disallows https://en-gb.faceboo |
 | PIMCO | **workday** `{"url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers"}` | 40 / 40 | workday: error · signatures: workday · page errors: HTTPError: 403 Client Error: Forbidden for url: https://www. |
 | Fidelity International | **workday** `{"url": "https://fil.wd3.myworkdayjobs.com/001"}` | 0 / 0 | workday: error · signatures: workday, oleeo · page errors: HTTPError: 403 Client Error: Forbidden for url: http://www.f; HTTPError: 403 Client Error: Forbidden for url: https://www.; HTTPError: 403 Client Error: Forbidden for url: https://www. |
 | Invesco | **workday** `{"url": "https://invesco.wd1.myworkdayjobs.com/IVZ"}` | 5 / 5 | workday: ok · signatures: workday |
@@ -141,7 +141,7 @@
 | Fitch Ratings | — | — | workday: error · signatures: successfactors |
 | AXA | — | — | generic: error · page errors: HTTPError: 403 Client Error: Forbidden for url: https://recr; HTTPError: 403 Client Error: Forbidden for url: https://recr |
 | CNP Assurances | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://twitter.com/i; RobotsDisallowed: robots.txt disallows https://twitter.com/i |
-| Allianz | **phenom** `{"base": "https://careers.allianz.com/global/en"}` | 3 / 100 | phenom: ok · signatures: phenom, successfactors · page errors: RobotsDisallowed: robots.txt disallows https://en-gb.faceboo |
+| Allianz | **phenom** `{"base": "https://careers.allianz.com/global/en"}` | 6 / 100 | phenom: ok · signatures: phenom, successfactors · page errors: RobotsDisallowed: robots.txt disallows https://en-gb.faceboo |
 | SCOR | **oracle** `{"host": "fa-errt-saasfaprod1.fa.ocs.oraclecloud.com", "site": "CX_2001"}` | 28 / 143 |  · signatures: oracle |
 | Generali | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
 | Swiss Re | — | — | successfactors: error · signatures: successfactors · page errors: RobotsDisallowed: robots.txt disallows https://career2.succe; HTTPError: 520 Server Error: <none> for url: http://twitter.; RobotsDisallowed: robots.txt disallows https://www.linkedin. |
@@ -203,7 +203,7 @@
 | Euroclear | **oracle** `{"host": "don.fa.em2.oraclecloud.com", "site": "CX_1003"}` | 7 / 55 |  · signatures: oracle |
 | Degroof Petercam | — | — | — |
 | DZ Bank | **successfactors** `{"base": "https://jobs.dzbank.de"}` | 0 / 21 |  · signatures: successfactors · page errors: RobotsDisallowed: robots.txt disallows https://www.instagram; RobotsDisallowed: robots.txt disallows https://de-de.faceboo |
-| LBBW | **successfactors** `{"base": "https://karriere.lbbw.de"}` | 2 / 20 |  · signatures: successfactors · page errors: ConnectionError: ('Connection aborted.', ConnectionResetErro |
+| LBBW | — | — |  · page errors: ConnectionError: ('Connection aborted.', ConnectionResetErro; ConnectionError: ('Connection aborted.', ConnectionResetErro |
 | ABN AMRO | — | — |  · page errors: HTTPError: 503 Server Error: Service Unavailable for url: ht; HTTPError: 503 Server Error: Service Unavailable for url: ht |
 | Rabobank | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://rabo; HTTPError: 403 Client Error: Forbidden for url: https://rabo |
 | Intesa Sanpaolo | — | — | — |

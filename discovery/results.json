@@ -19,7 +19,7 @@
      "base": "https://careers.societegenerale.com"
     },
     "status": "error",
-    "error": "ConnectionError: HTTPSConnectionPool(host='1lduti39jz-dsn.algolia.net', port=443): Max retries exceeded with url: /1/indexes/prod_jobs_en/query (Caused by NameResolutionError(\"HTTPSConnection(host='1l"
+    "error": "AdapterError: no Algolia host reachable: HTTPSConnectionPool(host='1lduti39jz-2.algolianet.com', port=443): Max retries exceeded with url: /1/indexes/prod_jobs_en/query (Caused by NameResolutionError("
    }
   ],
   "best": null
@@ -59,7 +59,7 @@
   "best": null
  },
  {
-  "name": "Crédit Agricole CIB",
+  "name": "Groupe Crédit Agricole (CA-CIB",
   "type": "french_bank",
   "careers_url": "https://groupecreditagricole.jobs/fr/nos-offres/",
   "signatures": {},
@@ -774,7 +774,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/brand-4/xf-cddfebaeccc5/ats/forgot_password"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/brand-4/xf-dbcf6eefb2d7/ats/forgot_password"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -787,7 +787,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#a11ystatement"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#a11ystatement"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -800,7 +800,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#simple-tabpanel-0"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#simple-tabpanel-0"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -813,7 +813,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#simple-tabpanel-1"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#simple-tabpanel-1"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -826,7 +826,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-52e26339ad59/ats/login#terms"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#terms"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -1533,7 +1533,7 @@
     "sample": [
      "Retail Relationship Banker | Woodstock, IL 60098, United States of America",
      "Retail Relationship Banker | Brookfield, WI 53045, United States of America",
-     "Retail Relationship Banker | Barrington, IL 60010, United States of America"
+     "Bank Manager | Loveland, CO 80537, United States of America"
     ]
    },
    {
@@ -1558,7 +1558,7 @@
    "sample": [
     "Retail Relationship Banker | Woodstock, IL 60098, United States of America",
     "Retail Relationship Banker | Brookfield, WI 53045, United States of America",
-    "Retail Relationship Banker | Barrington, IL 60010, United States of America"
+    "Bank Manager | Loveland, CO 80537, United States of America"
    ]
   }
  },
@@ -2352,11 +2352,14 @@
     },
     "status": "ok",
     "fetched": 100,
-    "internships": 3,
+    "internships": 6,
     "sample": [
      "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+     "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
+     "Actuarial Intern | Singapore, Singapore, 068897",
      "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-     "Actuarial Intern | Singapore, Singapore, 068897"
+     "Marketing and Communications Intern | Singapore, Singapore, 068897",
+     "Internship, Retail Support | Kuala Lumpur, Malaysia"
     ]
    }
   ],
@@ -2370,11 +2373,14 @@
    },
    "status": "ok",
    "fetched": 100,
-   "internships": 3,
+   "internships": 6,
    "sample": [
     "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+    "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
+    "Actuarial Intern | Singapore, Singapore, 068897",
     "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-    "Actuarial Intern | Singapore, Singapore, 068897"
+    "Marketing and Communications Intern | Singapore, Singapore, 068897",
+    "Internship, Retail Support | Kuala Lumpur, Malaysia"
    ]
   }
  },
@@ -3354,8 +3360,8 @@
      "AI/ML Research Intern | Montreal; Montreal, QC, Canada",
      "FPGA Intern | London; London, United Kingdom",
      "Leadership Rotation Network Intern | London; London, United Kingdom",
-     "Quantitative Research Intern | Chicago, New York City; Chicago, IL, United States; New York, NY, United States",
      "Quantitative Research Intern | London; London, United Kingdom",
+     "Quantitative Research Intern | Chicago, New York City; Chicago, IL, United States; New York, NY, United States",
      "Quantitative Research Intern  | Singapore; Singapore, Central Singapore, Singapore"
     ]
    }
@@ -3372,8 +3378,8 @@
     "AI/ML Research Intern | Montreal; Montreal, QC, Canada",
     "FPGA Intern | London; London, United Kingdom",
     "Leadership Rotation Network Intern | London; London, United Kingdom",
-    "Quantitative Research Intern | Chicago, New York City; Chicago, IL, United States; New York, NY, United States",
     "Quantitative Research Intern | London; London, United Kingdom",
+    "Quantitative Research Intern | Chicago, New York City; Chicago, IL, United States; New York, NY, United States",
     "Quantitative Research Intern  | Singapore; Singapore, Central Singapore, Singapore"
    ]
   }
@@ -4035,8 +4041,8 @@
      "2027 Internship - FPGA Engineer | Dublin, Ireland",
      "2027 Internship- Hardware Engineer (FPGA) | Austin, TX; New York",
      "2027 Internship - Quantitative Researcher (Master or PhD) | Dublin, Ireland",
-     "2027 Internship - Quantitative Researcher (PhD) | New York",
-     "2027 Internship - Quantitative Researcher (PhD) | Singapore"
+     "2027 Internship - Quantitative Researcher (PhD) | Singapore",
+     "2027 Internship - Quantitative Researcher (PhD) | New York"
     ]
    }
   ],
@@ -4053,8 +4059,8 @@
     "2027 Internship - FPGA Engineer | Dublin, Ireland",
     "2027 Internship- Hardware Engineer (FPGA) | Austin, TX; New York",
     "2027 Internship - Quantitative Researcher (Master or PhD) | Dublin, Ireland",
-    "2027 Internship - Quantitative Researcher (PhD) | New York",
-    "2027 Internship - Quantitative Researcher (PhD) | Singapore"
+    "2027 Internship - Quantitative Researcher (PhD) | Singapore",
+    "2027 Internship - Quantitative Researcher (PhD) | New York"
    ]
   }
  },
@@ -5052,11 +5058,14 @@
     },
     "status": "ok",
     "fetched": 100,
-    "internships": 3,
+    "internships": 6,
     "sample": [
      "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+     "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
+     "Actuarial Intern | Singapore, Singapore, 068897",
      "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-     "Actuarial Intern | Singapore, Singapore, 068897"
+     "Marketing and Communications Intern | Singapore, Singapore, 068897",
+     "Internship, Retail Support | Kuala Lumpur, Malaysia"
     ]
    }
   ],
@@ -5067,11 +5076,14 @@
    },
    "status": "ok",
    "fetched": 100,
-   "internships": 3,
+   "internships": 6,
    "sample": [
     "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
+    "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
+    "Actuarial Intern | Singapore, Singapore, 068897",
     "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-    "Actuarial Intern | Singapore, Singapore, 068897"
+    "Marketing and Communications Intern | Singapore, Singapore, 068897",
+    "Internship, Retail Support | Kuala Lumpur, Malaysia"
    ]
   }
  },
@@ -5363,8 +5375,8 @@
     "fetched": 3,
     "internships": 3,
     "sample": [
-     "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
      "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
+     "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
      "PhD Traineeship in the Directorate General Economics – Supply Side, Labour and Surveillance Division | "
     ]
    }
@@ -5381,8 +5393,8 @@
    "fetched": 3,
    "internships": 3,
    "sample": [
-    "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
     "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
+    "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
     "PhD Traineeship in the Directorate General Economics – Supply Side, Labour and Surveillance Division | "
    ]
   }
@@ -5681,12 +5693,12 @@
     "fetched": 10,
     "internships": 10,
     "sample": [
-     "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | ",
+     "Tax - Tax Intern - Accounting - Summer 2028 | ",
+     "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
+     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
+     "Audit & Assurance Intern – Financial Statement Audit – Winter 2027 | ",
      "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
-     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
-     "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028 | ",
-     "Tax - Tax Intern - Accounting - Summer 2028 | "
+     "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | "
     ]
    },
    {
@@ -5701,12 +5713,12 @@
     "fetched": 10,
     "internships": 10,
     "sample": [
-     "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | ",
+     "Tax - Tax Intern - Accounting - Summer 2028 | ",
+     "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
+     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
+     "Audit & Assurance Intern – Financial Statement Audit – Winter 2027 | ",
      "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
-     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
-     "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028 | ",
-     "Tax - Tax Intern - Accounting - Summer 2028 | "
+     "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | "
     ]
    }
   ],
@@ -5722,12 +5734,12 @@
    "fetched": 10,
    "internships": 10,
    "sample": [
-    "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | ",
+    "Tax - Tax Intern - Accounting - Summer 2028 | ",
+    "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
+    "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
+    "Audit & Assurance Intern – Financial Statement Audit – Winter 2027 | ",
     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
-    "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
-    "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
-    "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028 | ",
-    "Tax - Tax Intern - Accounting - Summer 2028 | "
+    "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | "
    ]
   }
  },
@@ -6622,43 +6634,13 @@
   "name": "LBBW",
   "type": "european_bank",
   "careers_url": "https://www.lbbw.de/karriere",
-  "signatures": {
-   "successfactors": [
-    "career5.successfactors.eu",
-    "rmkcdn.successfactors.com"
-   ]
-  },
+  "signatures": {},
   "page_errors": [
+   "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
    "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   ],
-  "tests": [
-   {
-    "platform": "successfactors",
-    "params": {
-     "base": "https://karriere.lbbw.de"
-    },
-    "status": "ok",
-    "fetched": 20,
-    "internships": 2,
-    "sample": [
-     "Praktikant (m/w/d) im Bereich HR.Services, Systeme & International | Stuttgart, DE, 70173",
-     "Praktikant (m/w/d) im Bereich Product Management Cash & Trade | Stuttgart, DE, 70173"
-    ]
-   }
-  ],
-  "best": {
-   "platform": "successfactors",
-   "params": {
-    "base": "https://karriere.lbbw.de"
-   },
-   "status": "ok",
-   "fetched": 20,
-   "internships": 2,
-   "sample": [
-    "Praktikant (m/w/d) im Bereich HR.Services, Systeme & International | Stuttgart, DE, 70173",
-    "Praktikant (m/w/d) im Bereich Product Management Cash & Trade | Stuttgart, DE, 70173"
-   ]
-  }
+  "tests": [],
+  "best": null
  },
  {
   "name": "ABN AMRO",
