@@ -26,6 +26,8 @@ const TYPE_LABEL = {
   insurance: "Assurance",
   institution: "Institution",
   consulting: "Conseil risque",
+  commodities: "Trading matières premières",
+  infrastructure: "Bourse / infrastructure",
 };
 
 const FAMILY_LABEL = {

@@ -22,7 +22,12 @@ REQUEST_TIMEOUT = 30
 
 # Search terms sent to platforms that support keyword search
 # (Workday, Oracle, SmartRecruiters, Eightfold...). Results are merged.
-SEARCH_TERMS = ["intern", "internship", "stage", "stagiaire", "off-cycle", "summer"]
+# Platform searches are fuzzy ("intern" also matches "internship"), so a few
+# short terms are enough.
+SEARCH_TERMS = ["intern", "stage", "stagiaire", "summer", "off-cycle"]
+
+# Employers scraped in parallel (the per-host delay still applies).
+WORKERS = 8
 
 # Safety cap on result pages fetched per search term and employer.
 MAX_PAGES_PER_TERM = 10

@@ -12,6 +12,7 @@ import logging
 import os
 import sys
 import traceback
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 import yaml
@@ -67,28 +68,40 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
     }
 
 
-def scrape(targets: list[Target], http: PoliteClient, debug: dict | None = None):
+def scrape_one(target: Target, http: PoliteClient):
+    """Returns (records, error, stat, debug_titles) for one employer; never raises."""
+    started = datetime.now(timezone.utc)
+    try:
+        raw_jobs = get_adapter(target.platform).fetch(target, http)
+    except Exception as exc:  # one employer failing must never stop the run
+        log.warning("%-35s FAILED: %s", target.name, exc)
+        log.debug(traceback.format_exc())
+        return [], {
+            "employer": target.name,
+            "platform": target.platform,
+            "careers_url": target.careers_url,
+            "error": f"{type(exc).__name__}: {exc}"[:500],
+            "at": started.isoformat(timespec="seconds"),
+        }, None, []
+    kept = [r for r in (to_record(target, raw) for raw in raw_jobs) if r]
+    log.info("%-35s %4d offers fetched, %3d kept", target.name, len(raw_jobs), len(kept))
+    titles = sorted({f"{r.title} | {r.location}" for r in raw_jobs})
+    return kept, None, {"employer": target.name, "fetched": len(raw_jobs), "kept": len(kept)}, titles
+
+
+def scrape(targets: list[Target], http: PoliteClient, debug: dict | None = None,
+           workers: int = config.WORKERS):
     records, errors, stats = [], [], []
-    for target in targets:
-        started = datetime.now(timezone.utc)
-        try:
-            raw_jobs = get_adapter(target.platform).fetch(target, http)
-            if debug is not None:
-                debug[target.name] = sorted({f"{r.title} | {r.location}" for r in raw_jobs})
-            kept = [r for r in (to_record(target, raw) for raw in raw_jobs) if r]
-            records.extend(kept)
-            stats.append({"employer": target.name, "fetched": len(raw_jobs), "kept": len(kept)})
-            log.info("%-35s %4d offers fetched, %3d kept", target.name, len(raw_jobs), len(kept))
-        except Exception as exc:  # one employer failing must never stop the run
-            errors.append({
-                "employer": target.name,
-                "platform": target.platform,
-                "careers_url": target.careers_url,
-                "error": f"{type(exc).__name__}: {exc}"[:500],
-                "at": started.isoformat(timespec="seconds"),
-            })
-            log.warning("%-35s FAILED: %s", target.name, exc)
-            log.debug(traceback.format_exc())
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        results = list(pool.map(lambda t: scrape_one(t, http), targets))
+    for target, (kept, error, stat, titles) in zip(targets, results):
+        records.extend(kept)
+        if error:
+            errors.append(error)
+        if stat:
+            stats.append(stat)
+        if debug is not None:
+            debug[target.name] = titles
     return records, errors, stats
 
 

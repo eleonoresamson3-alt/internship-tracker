@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import threading
 import time
 import urllib.robotparser
 from urllib.parse import urlsplit
@@ -37,11 +38,24 @@ class PoliteClient:
         self.timeout = timeout
         self._last_request: dict[str, float] = {}
         self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+        # Employers are scraped in parallel threads; these locks keep the
+        # per-host delay and the robots.txt cache consistent across threads.
+        self._host_locks: dict[str, threading.Lock] = {}
+        self._robots_locks: dict[str, threading.Lock] = {}
+        self._registry_lock = threading.Lock()
+
+    def _lock(self, table: dict, key: str) -> threading.Lock:
+        with self._registry_lock:
+            return table.setdefault(key, threading.Lock())
 
     # -- robots.txt -------------------------------------------------------
 
     def _robots_for(self, scheme: str, host: str):
         key = f"{scheme}://{host}"
+        with self._lock(self._robots_locks, key):
+            return self._load_robots(key, host)
+
+    def _load_robots(self, key: str, host: str):
         if key not in self._robots:
             parser = urllib.robotparser.RobotFileParser()
             try:
@@ -65,12 +79,13 @@ class PoliteClient:
     # -- rate limiting ----------------------------------------------------
 
     def _wait(self, host: str) -> None:
-        last = self._last_request.get(host)
-        if last is not None:
-            delay = self.min_delay - (time.monotonic() - last)
-            if delay > 0:
-                time.sleep(delay)
-        self._last_request[host] = time.monotonic()
+        with self._lock(self._host_locks, host):
+            last = self._last_request.get(host)
+            if last is not None:
+                delay = self.min_delay - (time.monotonic() - last)
+                if delay > 0:
+                    time.sleep(delay)
+            self._last_request[host] = time.monotonic()
 
     # -- requests ---------------------------------------------------------
 
