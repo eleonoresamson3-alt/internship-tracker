@@ -70,7 +70,7 @@ The role is read from the title only. Offers with no markets signal at all score
 | `tests/` | Unit tests for the filter, the score, country detection and the history merge |
 | `data/` | `jobs.json` (history), `new_today.json`, `errors.json`, updated by the workflow |
 | `docs/` | Static site (HTML / CSS / vanilla JS) |
-| `tools/` | Platform discovery helper used when adding employers |
+| `tools/` | `discover.py` (detects and tests each employer's platform), `employers.yaml` (its input), `build_targets.py` + `overrides.yaml` (generate `targets.yaml`) |
 | `.github/workflows/` | `daily.yml` (scrape + deploy at 05:00 UTC), `discover.yml` |
 
 ## Run locally
@@ -90,7 +90,8 @@ python -m http.server -d docs                   # then copy data/*.json to docs/
    `python tools/discover.py --only "Name"` (or the *Discover platforms* workflow).
    It detects the platform (Workday, Greenhouse, Oracle, SuccessFactors…), tests the real
    adapter and reports how many internships it finds.
-2. Add the employer to `targets.yaml` (or regenerate it with `python tools/build_targets.py`):
+2. Add the employer to `targets.yaml`, either by hand or by regenerating it from the discovery
+   results with `python tools/build_targets.py` (manual fixes go in `tools/overrides.yaml`):
 
    ```yaml
    - name: Example Bank
@@ -105,6 +106,18 @@ python -m http.server -d docs                   # then copy data/*.json to docs/
 
 A new platform only needs a module in `tracker/adapters/` exposing
 `fetch(target, http) -> list[RawJob]`, registered in `tracker/adapters/__init__.py`.
+
+## GitHub setup
+
+1. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+2. **Settings → Actions → General → Workflow permissions: Read and write permissions**
+   (the workflow commits `data/`; the workflow file also requests `contents: write` itself).
+3. **Actions tab → Daily scrape → Run workflow** once, to publish the site immediately.
+   It then runs every day at 05:00 UTC. The site is served at
+   `https://<user>.github.io/internship-tracker/`.
+
+GitHub disables scheduled workflows after 60 days without repository activity; the daily data
+commit counts as activity, so the schedule keeps itself alive.
 
 ## Coverage
 

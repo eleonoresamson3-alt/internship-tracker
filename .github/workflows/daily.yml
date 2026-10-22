@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: "0 5 * * *"   # every day at 05:00 UTC
   workflow_dispatch:
-  # Development branches: scrape on every change to the code or the targets,
-  # so results can be checked before merging. Deployment only happens on main.
-  push:
-    branches: ["claude/**"]
-    paths: ["tracker/**", "targets.yaml", "docs/**", ".github/workflows/daily.yml"]
 
 permissions:
   contents: write
@@ -33,10 +28,7 @@ jobs:
       - name: Unit tests
         run: python -m pytest -q 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: Scrape
-        run: |
-          # On development branches, also dump every fetched title to debug the filters.
-          extra=""; [ "${GITHUB_REF_NAME}" != "main" ] && extra="--debug-titles"
-          python -m tracker.run $extra 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
+        run: python -m tracker.run 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: Commit data
         run: |
           exec > >(tee -a run.log) 2>&1

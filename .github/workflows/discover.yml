@@ -6,11 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: "Employer name (leave empty for all)"
+        description: "Employer names, comma-separated (leave empty for all)"
         required: false
-  push:
-    branches: ["claude/**"]
-    paths: ["tools/employers.yaml", "tools/discover.py"]
 
 permissions:
   contents: write
