@@ -1,21 +1,13 @@
 {
- "generated_at": "2026-10-22T17:58:33+00:00",
+ "generated_at": "2026-10-22T18:01:43+00:00",
  "employers_total": 5,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Morgan Stanley",
-   "platform": "eightfold",
-   "careers_url": "https://www.morganstanley.com/careers/career-opportunities-search",
-   "error": "RobotsDisallowed: robots.txt disallows https://morganstanley.eightfold.ai/api/apply/v2/jobs?domain=morganstanley.com&query=intern&start=0&num=10",
-   "at": "2026-10-22T17:58:37+00:00"
-  }
- ],
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Jane Street",
    "fetched": 220,
-   "kept": 0
+   "kept": 20
   },
   {
    "employer": "Kepler Cheuvreux",
@@ -31,6 +23,11 @@
    "employer": "BlackRock",
    "fetched": 14,
    "kept": 13
+  },
+  {
+   "employer": "Standard Chartered",
+   "fetched": 0,
+   "kept": 0
   }
  ]
 }
