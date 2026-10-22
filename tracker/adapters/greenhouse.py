@@ -4,7 +4,14 @@ params:
   board: board token, as in job-boards.greenhouse.io/<board>
 """
 
+import html
+import re
+
 from .base import RawJob, iso_date, require
+
+
+def _text(content: str) -> str:
+    return " ".join(re.sub(r"<[^>]+>", " ", html.unescape(content or "")).split())
 
 
 def fetch(target, http):
@@ -24,6 +31,7 @@ def fetch(target, http):
                 native_id=str(item.get("id", "")),
                 posted_at=iso_date(item.get("first_published") or item.get("updated_at")),
                 employment_type=" ".join(d.get("name", "") for d in item.get("departments", []) or []),
+                description=_text(item.get("content", ""))[:3000],
             )
         )
     return jobs

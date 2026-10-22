@@ -1,6 +1,6 @@
 import pytest
 
-from tracker.filters import is_outdated, keep, looks_like_internship
+from tracker.filters import description_says_internship, is_outdated, keep, looks_like_internship
 
 
 @pytest.mark.parametrize("title", [
@@ -50,3 +50,9 @@ def test_years():
     assert not is_outdated("Summer 2027 Internship")
     assert not is_outdated("2026/2027 Off-cycle Internship")
     assert not is_outdated("Off-cycle Internship")
+
+
+def test_description_internship_detection():
+    assert description_says_internship("Over 10 weeks, interns will work with traders.")
+    assert description_says_internship("This summer internship is open to students.")
+    assert not description_says_internship("We also run a large internship programme for students.")

@@ -38,7 +38,10 @@ def job_id(target: Target, raw: RawJob) -> str:
 def to_record(target: Target, raw: RawJob) -> dict | None:
     """Filter and score one raw offer. Returns None when the offer is not kept."""
     title = " ".join((raw.title or "").split())
-    if not title or not raw.url or not filters.keep(title, raw.employment_type):
+    employment_type = raw.employment_type
+    if target.params.get("internship_in_description") and filters.description_says_internship(raw.description):
+        employment_type = f"{employment_type} Internship"
+    if not title or not raw.url or not filters.keep(title, employment_type):
         return None
     countries = list(dict.fromkeys(
         [c for c in raw.countries if c] + geo.detect_countries(raw.location)))

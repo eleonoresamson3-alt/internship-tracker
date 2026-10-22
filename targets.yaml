@@ -14,7 +14,9 @@ employers:
     type: hedge_fund
     platform: greenhouse
     careers_url: https://www.janestreet.com/join-jane-street/open-roles/
-    params: {board: janestreet}
+    # Internships are titled like full-time roles ("Quantitative Trader"); the
+    # description says whether the offer is an internship.
+    params: {board: janestreet, internship_in_description: true}
 
   - name: Kepler Cheuvreux
     type: broker
@@ -27,6 +29,8 @@ employers:
     platform: eightfold
     careers_url: https://www.morganstanley.com/careers/career-opportunities-search
     params: {host: morganstanley.eightfold.ai, domain: morganstanley.com}
+    enabled: false
+    notes: morganstanley.eightfold.ai disallows its job API in robots.txt; campus roles live on Oleeo (to investigate).
 
   - name: JPMorgan
     type: intl_bank
@@ -40,3 +44,9 @@ employers:
     careers_url: https://careers.blackrock.com/
     params: {url: "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"}
     notes: careers.blackrock.com (Radancy) disallows /search-jobs in robots.txt, so the underlying Workday site is used.
+
+  - name: Standard Chartered
+    type: intl_bank
+    platform: successfactors
+    careers_url: https://www.sc.com/en/careers/
+    params: {base: "https://jobs.standardchartered.com"}

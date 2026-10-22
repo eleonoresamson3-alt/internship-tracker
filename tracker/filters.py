@@ -73,3 +73,16 @@ def keep(title: str, employment_type: str = "") -> bool:
         and not is_excluded(title, employment_type)
         and not is_outdated(title)
     )
+
+
+# Phrases that, inside a job description, say the offer itself is an internship
+# (as opposed to "we also run an internship programme"). Only used for
+# employers flagged with `internship_in_description: true` in targets.yaml.
+_DESCRIPTION_INTERNSHIP = re.compile(
+    r"\b(this|our|the) (\d+[\s-]week |summer |off[\s-]cycle )?internship (is|will|runs|program|programme)\b"
+    r"|\bas an intern\b|\binterns (will|work|spend|join)\b|\bduring (the|this|your) internship\b"
+)
+
+
+def description_says_internship(description: str) -> bool:
+    return bool(_DESCRIPTION_INTERNSHIP.search(_norm(description)))
