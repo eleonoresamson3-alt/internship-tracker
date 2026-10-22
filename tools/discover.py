@@ -269,7 +269,7 @@ def main(argv=None) -> int:
     args = parser.parse_args(argv)
     employers = yaml.safe_load(Path(args.input).read_text(encoding="utf-8"))["employers"]
     if args.only:
-        wanted = {n.lower() for n in args.only}
+        wanted = {n.strip().lower() for names in args.only for n in names.split(",")}
         employers = [e for e in employers if e["name"].lower() in wanted]
     http = PoliteClient(min_delay=1.0, timeout=20)
 
@@ -284,6 +284,11 @@ def main(argv=None) -> int:
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(run, employers))
     OUT.mkdir(exist_ok=True)
+    if args.only and (OUT / "results.json").exists():
+        # Partial run: update those employers in the previous results.
+        previous = json.loads((OUT / "results.json").read_text(encoding="utf-8"))
+        fresh = {r["name"]: r for r in results}
+        results = [fresh.pop(r["name"], r) for r in previous] + list(fresh.values())
     (OUT / "results.json").write_text(json.dumps(results, indent=1, ensure_ascii=False), encoding="utf-8")
     (OUT / "results.md").write_text(to_markdown(results), encoding="utf-8")
     found = sum(1 for r in results if r["best"])

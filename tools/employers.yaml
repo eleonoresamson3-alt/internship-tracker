@@ -5,8 +5,8 @@ employers:
   # ---------------------------------------------------------------- French banks
   - {name: Société Générale, type: french_bank, careers_url: "https://careers.societegenerale.com/en/search?query=intern", candidates: [[generic, {urls: ["https://careers.societegenerale.com/en/search?query={term}"], link_pattern: "/job-offers/|/offres-d-emploi-et-stage/"}]]}
   - {name: BNP Paribas, type: french_bank, careers_url: "https://group.bnpparibas/en/careers/all-job-offers", extra_urls: ["https://group.bnpparibas/en/careers/all-job-offers?q=intern"], candidates: [[generic, {urls: ["https://group.bnpparibas/en/careers/all-job-offers?q={term}"], link_pattern: "/careers/job-offer/"}]]}
-  - {name: Natixis CIB, type: french_bank, careers_url: "https://www.natixis.com/natixis/en/careers-rpaz5_74398.html", extra_urls: ["https://recrutement.natixis.com/"]}
-  - {name: Crédit Agricole CIB, type: french_bank, careers_url: "https://www.ca-cib.com/careers", extra_urls: ["https://jobs.ca-cib.com/", "https://groupecreditagricole.jobs/en/"]}
+  - {name: Natixis CIB, type: french_bank, careers_url: "https://recrutement.natixis.com/en", extra_urls: ["https://natixis.groupebpce.com/"]}
+  - {name: Crédit Agricole CIB, type: french_bank, careers_url: "https://groupecreditagricole.jobs/fr/nos-offres/", candidates: [[generic, {urls: ["https://groupecreditagricole.jobs/fr/nos-offres/?keyword={term}"], link_pattern: "/nos-offres-emploi/"}]]}
   - {name: La Banque Postale, type: french_bank, careers_url: "https://www.labanquepostale.com/", extra_urls: ["https://www.labanquepostale.com/rejoindre-la-banque-postale.html"]}
   - {name: HSBC Continental Europe, type: french_bank, careers_url: "https://www.hsbc.fr/", extra_urls: ["https://www.about.hsbc.fr/careers"]}
   - {name: CIC Market Solutions, type: french_bank, careers_url: "https://recrutement.creditmutuel.fr/", extra_urls: ["https://www.cic-marketsolutions.eu/"]}
@@ -44,12 +44,12 @@ employers:
   - {name: Investec, type: intl_bank, careers_url: "https://www.investec.com/en_gb/careers.html", candidates: [[workday, {url: "https://investec.wd3.myworkdayjobs.com/Investec_Careers"}]]}
   # ---------------------------------------------------------------- Brokers / structuring
   - {name: Kepler Cheuvreux, type: broker, careers_url: "https://keplercheuvreux.teamtailor.com/jobs", slugs: [keplercheuvreux]}
-  - {name: Oddo BHF, type: broker, careers_url: "https://www.oddo-bhf.com/", extra_urls: ["https://www.oddo-bhf.com/fr/rejoindre-oddo-bhf"]}
+  - {name: Oddo BHF, type: broker, careers_url: "https://www.oddo-bhf.com/discover-our-jobs/"}
   - {name: Leonteq, type: broker, careers_url: "https://www.leonteq.com/careers", extra_urls: ["https://www.leonteq.com/company/careers"]}
   - {name: Exane (BNP Paribas), type: broker, careers_url: "https://www.exane.com/careers"}
   - {name: Marex, type: broker, careers_url: "https://www.marex.com/careers/"}
   # ---------------------------------------------------------------- Asset managers
-  - {name: Amundi, type: asset_manager, careers_url: "https://about.amundi.com/", extra_urls: ["https://jobs.amundi.com/"]}
+  - {name: Amundi, type: asset_manager, careers_url: "https://about.amundi.com/our-job-board"}
   - {name: AXA IM, type: asset_manager, careers_url: "https://www.axa-im.com/careers"}
   - {name: BNP Paribas AM, type: asset_manager, careers_url: "https://www.bnpparibas-am.com/en/careers/"}
   - {name: Natixis IM, type: asset_manager, careers_url: "https://www.im.natixis.com/", extra_urls: ["https://www.im.natixis.com/en-intl/about-us/careers"]}
@@ -57,14 +57,14 @@ employers:
   - {name: Mirova, type: asset_manager, careers_url: "https://www.mirova.com/"}
   - {name: Candriam, type: asset_manager, careers_url: "https://www.candriam.com/en/professional/careers/"}
   - {name: Carmignac, type: asset_manager, careers_url: "https://www.carmignac.com/en/careers", slugs: [carmignac]}
-  - {name: Tikehau Capital, type: asset_manager, careers_url: "https://www.tikehaucapital.com/en/careers", slugs: [tikehaucapital]}
+  - {name: Tikehau Capital, type: asset_manager, careers_url: "https://tikehau-capital-career.talentview.io/en"}
   - {name: Rothschild & Co, type: asset_manager, careers_url: "https://www.rothschildandco.com/en/careers/", candidates: [[workday, {url: "https://rothschildandco.wd3.myworkdayjobs.com/RothschildAndCo_Lateral"}]]}
   - {name: Edmond de Rothschild, type: asset_manager, careers_url: "https://www.edmond-de-rothschild.com/en/careers", candidates: [[oracle, {host: fa-evht-saasfaprod1.fa.ocs.oraclecloud.com, site: CX_2001}]]}
   - {name: Lazard, type: asset_manager, careers_url: "https://www.lazard.com/careers/", candidates: [[oracle, {host: icbpjb.fa.ocs.oraclecloud.com, site: LazardStudentCareers}], [oracle, {host: icbpjb.fa.ocs.oraclecloud.com, site: LazardProfessionalCareers}]]}
   - {name: BlackRock, type: asset_manager, careers_url: "https://careers.blackrock.com/", candidates: [[workday, {url: "https://blackrock.wd1.myworkdayjobs.com/BlackRock_Professional"}]]}
   - {name: Schroders, type: asset_manager, careers_url: "https://www.schroders.com/en/global/individual/careers/", candidates: [[oracle, {host: ekbq.fa.em2.oraclecloud.com, site: CX_2}]]}
   - {name: Man Group, type: asset_manager, careers_url: "https://www.man.com/careers", slugs: [mangroup]}
-  - {name: Allianz GI, type: asset_manager, careers_url: "https://www.allianzgi.com/en/our-firm/careers"}
+  - {name: Allianz GI, type: asset_manager, careers_url: "https://careers.allianz.com/global/en", candidates: [[phenom, {base: "https://careers.allianz.com/global/en", search_terms: ["allianz global investors intern"]}]]}
   - {name: PIMCO, type: asset_manager, careers_url: "https://www.pimco.com/en-us/careers", candidates: [[workday, {url: "https://pimco.wd1.myworkdayjobs.com/PIMCO"}]]}
   - {name: Fidelity International, type: asset_manager, careers_url: "https://careers.fidelityinternational.com/", candidates: [[workday, {url: "https://fil.wd3.myworkdayjobs.com/FidelityInternational"}]]}
   - {name: Invesco, type: asset_manager, careers_url: "https://careers.invesco.com/", candidates: [[workday, {url: "https://invesco.wd1.myworkdayjobs.com/IVZ"}]]}
@@ -148,9 +148,9 @@ employers:
   - {name: SimCorp, type: software, careers_url: "https://www.simcorp.com/careers"}
   - {name: Fitch Ratings, type: software, careers_url: "https://careers.fitch.group/", candidates: [[workday, {url: "https://fitch.wd1.myworkdayjobs.com/Fitch_Careers"}]]}
   # ---------------------------------------------------------------- Insurance / reinsurance
-  - {name: AXA, type: insurance, careers_url: "https://www.axa.com/en/careers", candidates: [[generic, {urls: ["https://careers-en-axa.icims.com/jobs/search?ss=1&searchKeyword={term}&in_iframe=1"], link_pattern: "/jobs/\\d+/"}]]}
-  - {name: CNP Assurances, type: insurance, careers_url: "https://www.cnp.fr/", extra_urls: ["https://www.cnp.fr/le-groupe-cnp-assurances/nous-rejoindre"]}
-  - {name: Allianz, type: insurance, careers_url: "https://careers.allianz.com/", extra_urls: ["https://www.allianz.com/en/careers.html"]}
+  - {name: AXA, type: insurance, careers_url: "https://recrutement.axa.fr/search-job?ReqTypeId=ETUD", candidates: [[generic, {urls: ["https://recrutement.axa.fr/search-job?ReqTypeId=ETUD"], link_pattern: "/nos-offres-emploi/"}]]}
+  - {name: CNP Assurances, type: insurance, careers_url: "https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/"}
+  - {name: Allianz, type: insurance, careers_url: "https://careers.allianz.com/global/en", candidates: [[phenom, {base: "https://careers.allianz.com/global/en"}]]}
   - {name: SCOR, type: insurance, careers_url: "https://www.scor.com/en/careers", candidates: [[oracle, {host: fa-errt-saasfaprod1.fa.ocs.oraclecloud.com, site: CX_2001}]]}
   - {name: Generali, type: insurance, careers_url: "https://www.generali.com/careers"}
   - {name: Swiss Re, type: insurance, careers_url: "https://www.swissre.com/careers.html"}
@@ -184,7 +184,7 @@ employers:
   # ---------------------------------------------------------------- Risk consulting
   - {name: Deloitte, type: consulting, careers_url: "https://www.deloitte.com/fr/fr/careers.html"}
   - {name: EY, type: consulting, careers_url: "https://careers.ey.com/ey/search/?q=intern", candidates: [[successfactors, {base: "https://careers.ey.com/ey"}]]}
-  - {name: KPMG, type: consulting, careers_url: "https://kpmg.com/fr/fr/carrieres.html"}
+  - {name: KPMG, type: consulting, careers_url: "https://emplois.kpmg.fr/", candidates: [[radancy, {base: "https://emplois.kpmg.fr", job_path: "/emploi/"}]]}
   - {name: PwC, type: consulting, careers_url: "https://www.pwc.fr/", extra_urls: ["https://jobs-ta.pwc.com/fr/fr/"]}
   - {name: Forvis Mazars, type: consulting, careers_url: "https://www.forvismazars.com/fr/fr/carrieres", slugs: [forvismazars]}
   - {name: Finalyse, type: consulting, careers_url: "https://www.finalyse.com/", slugs: [finalyse]}

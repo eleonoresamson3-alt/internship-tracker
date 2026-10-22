@@ -16,6 +16,7 @@ from tracker.filters import description_says_internship, is_outdated, keep, look
     "Prácticas Mercados de Capitales",
     "Market Risk Interns",
     "Stage Actuariat Assurance vie",
+    "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure",
 ])
 def test_internships_are_kept(title):
     assert keep(title)

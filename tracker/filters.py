@@ -10,7 +10,7 @@ MIN_YEAR = 2027
 
 _INTERNSHIP = [
     r"\bintern\b", r"\binterns\b", r"\binternships?\b",
-    r"\bstages?\b", r"\bstagiaires?\b",
+    r"\bstages?\b", r"\bstagiaires?\b", r"\btraineeships?\b",
     r"\boff[\s-]?cycle\b",
     r"\bsummer (analyst|associate|intern|internship|program|programme|placement)s?\b",
     r"\bplacement year\b", r"\bindustrial placement\b",
