@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:08:34+00:00",
+ "generated_at": "2026-10-22T18:49:09+00:00",
  "date": "2026-10-22",
  "jobs": [
   {
@@ -1769,6 +1769,35 @@
    },
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
    "posted_at": "2026-10-14",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-f8b4d8a43745",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Asset Management Data Scientist - Summer Associate",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 15,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802931",
+   "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
    "active": true

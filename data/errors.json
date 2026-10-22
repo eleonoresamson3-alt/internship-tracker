@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:08:34+00:00",
+ "generated_at": "2026-10-22T18:49:09+00:00",
  "employers_total": 5,
  "employers_failed": 0,
  "errors": [],
@@ -16,8 +16,8 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 799,
-   "kept": 42
+   "fetched": 665,
+   "kept": 43
   },
   {
    "employer": "BlackRock",
