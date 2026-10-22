@@ -763,7 +763,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/brand-4/xf-dbcf6eefb2d7/ats/forgot_password"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/brand-4/xf-0e4db5b8787e/ats/forgot_password"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -776,7 +776,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#a11ystatement"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-78edcc12bc8b/ats/login#a11ystatement"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -789,7 +789,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#simple-tabpanel-0"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-78edcc12bc8b/ats/login#simple-tabpanel-0"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -802,7 +802,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#simple-tabpanel-1"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-78edcc12bc8b/ats/login#simple-tabpanel-1"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -815,7 +815,7 @@
     "platform": "generic",
     "params": {
      "urls": [
-      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-31ad323d0f87/ats/login#terms"
+      "https://nomuracampus.tal.net/vx/lang-en-GB/xf-78edcc12bc8b/ats/login#terms"
      ],
      "link_pattern": "/opp/\\d+"
     },
@@ -1522,7 +1522,7 @@
     "sample": [
      "Retail Relationship Banker | Woodstock, IL 60098, United States of America",
      "Retail Relationship Banker | Brookfield, WI 53045, United States of America",
-     "Bank Manager | Loveland, CO 80537, United States of America"
+     "Retail Relationship Banker | Barrington, IL 60010, United States of America"
     ]
    },
    {
@@ -1547,7 +1547,7 @@
    "sample": [
     "Retail Relationship Banker | Woodstock, IL 60098, United States of America",
     "Retail Relationship Banker | Brookfield, WI 53045, United States of America",
-    "Bank Manager | Loveland, CO 80537, United States of America"
+    "Retail Relationship Banker | Barrington, IL 60010, United States of America"
    ]
   }
  },
@@ -1561,7 +1561,9 @@
    ]
   },
   "page_errors": [
-   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/tdcareers"
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/tdcareers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://careers.td.com/life-at-td",
+   "HTTPError: 403 Client Error: Forbidden for url: https://careers.td.com/life-at-td/people/esg/"
   ],
   "tests": [
    {
@@ -2341,14 +2343,11 @@
     },
     "status": "ok",
     "fetched": 100,
-    "internships": 6,
+    "internships": 3,
     "sample": [
      "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
-     "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
-     "Actuarial Intern | Singapore, Singapore, 068897",
      "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-     "Marketing and Communications Intern | Singapore, Singapore, 068897",
-     "Internship, Retail Support | Kuala Lumpur, Malaysia"
+     "Actuarial Intern | Singapore, Singapore, 068897"
     ]
    }
   ],
@@ -2362,14 +2361,11 @@
    },
    "status": "ok",
    "fetched": 100,
-   "internships": 6,
+   "internships": 3,
    "sample": [
     "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
-    "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
-    "Actuarial Intern | Singapore, Singapore, 068897",
     "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-    "Marketing and Communications Intern | Singapore, Singapore, 068897",
-    "Internship, Retail Support | Kuala Lumpur, Malaysia"
+    "Actuarial Intern | Singapore, Singapore, 068897"
    ]
   }
  },
@@ -2488,7 +2484,9 @@
     "invesco|wd1|IVZearlycareers"
    ]
   },
-  "page_errors": [],
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://careers.invesco.com/our-process/"
+  ],
   "tests": [
    {
     "platform": "workday",
@@ -5047,14 +5045,11 @@
     },
     "status": "ok",
     "fetched": 100,
-    "internships": 6,
+    "internships": 3,
     "sample": [
      "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
-     "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
-     "Actuarial Intern | Singapore, Singapore, 068897",
      "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-     "Marketing and Communications Intern | Singapore, Singapore, 068897",
-     "Internship, Retail Support | Kuala Lumpur, Malaysia"
+     "Actuarial Intern | Singapore, Singapore, 068897"
     ]
    }
   ],
@@ -5065,14 +5060,11 @@
    },
    "status": "ok",
    "fetched": 100,
-   "internships": 6,
+   "internships": 3,
    "sample": [
     "Internship Opportunity - Care Center (Junior Agent) | Manama, Bahrain",
-    "Intern Corporate Strategy & Distribution Growth, Asia | Singapore, Singapore, 068897",
-    "Actuarial Intern | Singapore, Singapore, 068897",
     "Auditor Intern | Bucuresti, Bucuresti, Romania, 011017",
-    "Marketing and Communications Intern | Singapore, Singapore, 068897",
-    "Internship, Retail Support | Kuala Lumpur, Malaysia"
+    "Actuarial Intern | Singapore, Singapore, 068897"
    ]
   }
  },
@@ -5282,7 +5274,11 @@
   "type": "insurance",
   "careers_url": "https://www.bnpparibascardif.com/",
   "signatures": {},
-  "page_errors": [],
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bnpparibascardif.com/nous-rejoindre/decouvrez-lesprit-cardif/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bnpparibascardif.com/nous-rejoindre/decouvrez-lesprit-cardif/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bnpparibascardif.com/nous-rejoindre/decouvrez-lesprit-cardif/expert/"
+  ],
   "tests": [],
   "best": null
  },
@@ -5364,8 +5360,8 @@
     "fetched": 3,
     "internships": 3,
     "sample": [
-     "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
      "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
+     "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
      "PhD Traineeship in the Directorate General Economics – Supply Side, Labour and Surveillance Division | "
     ]
    }
@@ -5382,8 +5378,8 @@
    "fetched": 3,
    "internships": 3,
    "sample": [
-    "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
     "Traineeship in Quantitative Analysis - Directorate General Market Infrastructure and Payments | ",
+    "Traineeship in the Monetary Analysis Division in the Directorate General Monetary Policy | ",
     "PhD Traineeship in the Directorate General Economics – Supply Side, Labour and Surveillance Division | "
    ]
   }
@@ -5682,11 +5678,11 @@
     "fetched": 10,
     "internships": 10,
     "sample": [
+     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
+     "Tax - Tax Intern - Japanese Services Group - Summer 2027, Winter 2028 | ",
+     "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
      "Tax - Tax Intern - Accounting - Summer 2028 | ",
-     "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
      "Audit & Assurance Intern – Financial Statement Audit – Winter 2027 | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
      "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | "
     ]
    },
@@ -5702,11 +5698,11 @@
     "fetched": 10,
     "internships": 10,
     "sample": [
+     "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
+     "Tax - Tax Intern - Japanese Services Group - Summer 2027, Winter 2028 | ",
+     "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
      "Tax - Tax Intern - Accounting - Summer 2028 | ",
-     "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
      "Audit & Assurance Intern – Financial Statement Audit – Winter 2027 | ",
-     "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
      "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | "
     ]
    }
@@ -5723,11 +5719,11 @@
    "fetched": 10,
    "internships": 10,
    "sample": [
+    "Audit & Assurance – Intern – AI and Data Science – Winter 2027 | ",
+    "Tax - Tax Intern - Japanese Services Group - Summer 2027, Winter 2028 | ",
+    "NYJCC/CUNY PMO Support Intern - Package and Technology Enablement | ",
     "Tax - Tax Intern - Accounting - Summer 2028 | ",
-    "Audit & Assurance – Intern – Valuation & Analytics – Winter 2027 | ",
-    "Audit & Assurance – Intern – Financial Statement Audit – Summer 2028 | ",
     "Audit & Assurance Intern – Financial Statement Audit – Winter 2027 | ",
-    "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027 | ",
     "Tax - Tax Intern - Global Employer Services - Summer 2027, Winter 2028 | "
    ]
   }
@@ -5869,7 +5865,6 @@
   "careers_url": "https://www.pwc.fr/",
   "signatures": {
    "workday": [
-    "pwc|wd3|CRM_Campus_Careers_Site",
     "pwc|wd3|CRM_Experienced_Careers_Site",
     "pwc|wd3|Global_Campus_Careers"
    ],
@@ -5906,23 +5901,6 @@
     "fetched": 0,
     "internships": 0,
     "sample": []
-   },
-   {
-    "platform": "workday",
-    "params": {
-     "url": "https://pwc.wd3.myworkdayjobs.com/CRM_Campus_Careers_Site"
-    },
-    "status": "ok",
-    "fetched": 36,
-    "internships": 36,
-    "sample": [
-     "Tax Traineeship | Amsterdam; Rotterdam",
-     "Summer Internship - Strategy - Belfast | Belfast",
-     "Internship Valuations & Modelling | Amsterdam",
-     "Stage Finance Public Policy & Economics | Amsterdam",
-     "External Audit - Intern | Buenos Aires; Argentina AC Cordoba",
-     "Future Ready - Intern / Trainee | Mexico - Reforma 445; Monterrey"
-    ]
    },
    {
     "platform": "workday",
@@ -6086,34 +6064,21 @@
     "params": {
      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
     },
-    "status": "ok",
-    "fetched": 28,
-    "internships": 28,
-    "sample": [
-     "Data Engineer Intern | Prague",
-     "Digital transformation intern | Milano",
-     "Financial Services - Intern | Assago",
-     "Business Analyst - Intern | Milano; Roma, Via Sciangai 53; Turin",
-     "Talent Transformation Analyst - Intern | Assago, Via del Mulino 11a; Padova, Via Transalgardo Gauslino 1; Roma; Torino; Bologna",
-     "Finance Transformation Analyst - Intern | Assago, Via del Mulino 11a; Padova, Via Transalgardo Gauslino 1; Roma; Torino"
-    ]
+    "status": "error",
+    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs"
    }
   ],
   "best": {
-   "platform": "workday",
+   "platform": "recruitee",
    "params": {
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
+    "company": "accenture"
    },
    "status": "ok",
-   "fetched": 28,
-   "internships": 28,
+   "fetched": 2,
+   "internships": 0,
    "sample": [
-    "Data Engineer Intern | Prague",
-    "Digital transformation intern | Milano",
-    "Financial Services - Intern | Assago",
-    "Business Analyst - Intern | Milano; Roma, Via Sciangai 53; Turin",
-    "Talent Transformation Analyst - Intern | Assago, Via del Mulino 11a; Padova, Via Transalgardo Gauslino 1; Roma; Torino; Bologna",
-    "Finance Transformation Analyst - Intern | Assago, Via del Mulino 11a; Padova, Via Transalgardo Gauslino 1; Roma; Torino"
+    "sales executive | Amsterdam, Noord-Holland, Netherlands",
+    "Senior Marketer (Sample) | Amsterdam, Noord-Holland, Netherlands"
    ]
   }
  },
@@ -6578,46 +6543,12 @@
   "name": "DZ Bank",
   "type": "european_bank",
   "careers_url": "https://www.karriere.dzbank.de/",
-  "signatures": {
-   "successfactors": [
-    "career5.successfactors.eu",
-    "rmkcdn.successfactors.com"
-   ]
-  },
+  "signatures": {},
   "page_errors": [
-   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/dzbank_karriere",
-   "RobotsDisallowed: robots.txt disallows https://de-de.facebook.com/dzbankkarriere"
+   "SSLError: HTTPSConnectionPool(host='karriere.dzbank.de', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation o"
   ],
-  "tests": [
-   {
-    "platform": "successfactors",
-    "params": {
-     "base": "https://jobs.dzbank.de"
-    },
-    "status": "ok",
-    "fetched": 21,
-    "internships": 0,
-    "sample": [
-     "Senior Sales Manager Vertrieb Außenhandelsfinanzierung m/w/d | Düsseldorf, DE",
-     "Fixed Income Institutional Sales - Italy & International Real Money m/f/d | Frankfurt am Main, DE",
-     "Associate, Human Resources m/w/d | Singapore, SG"
-    ]
-   }
-  ],
-  "best": {
-   "platform": "successfactors",
-   "params": {
-    "base": "https://jobs.dzbank.de"
-   },
-   "status": "ok",
-   "fetched": 21,
-   "internships": 0,
-   "sample": [
-    "Senior Sales Manager Vertrieb Außenhandelsfinanzierung m/w/d | Düsseldorf, DE",
-    "Fixed Income Institutional Sales - Italy & International Real Money m/f/d | Frankfurt am Main, DE",
-    "Associate, Human Resources m/w/d | Singapore, SG"
-   ]
-  }
+  "tests": [],
+  "best": null
  },
  {
   "name": "LBBW",
@@ -6626,7 +6557,7 @@
   "signatures": {},
   "page_errors": [
    "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-   "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+   "ConnectionError: HTTPSConnectionPool(host='www.lbbw.de', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.lbbw.de', port=443): Failed to establish a"
   ],
   "tests": [],
   "best": null
@@ -6660,7 +6591,10 @@
   "type": "european_bank",
   "careers_url": "https://www.intesasanpaolo.com/",
   "signatures": {},
-  "page_errors": [],
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.intesasanpaolo.com/content/vetrina/it/business/prodotti/prodotti-per-internazionalizzazione-imprese.html",
+   "RobotsDisallowed: robots.txt disallows https://www.intesasanpaolo.com/content/vetrina/it/business/bisogni/Internazionalizzare-la-mia-impresa.html"
+  ],
   "tests": [],
   "best": null
  },
@@ -6684,15 +6618,15 @@
      "link_pattern": "JobDetail"
     },
     "status": "ok",
-    "fetched": 14,
-    "internships": 14,
+    "fetched": 15,
+    "internships": 15,
     "sample": [
-     "Intern Capital Markets / Rating Advisory (f/m/d) | ",
-     "Intern Corporate Origination - Debt Capital Markets (f/m/d) | ",
-     "Intern Investment Grade Structured Loans / Acquisition Finance (f/m/d) | ",
-     "Intern Financial Sponsor Solutions / Leveraged Finance (f/m/d) | ",
      "Intern in ALM & Funding (f/m/d) | ",
-     "Intern Infrastructure & Export Financing (m/f/d) | "
+     "Intern Investment Grade Structured Loans / Acquisition Finance (f/m/d) | ",
+     "Intern Capital Markets / Rating Advisory (f/m/d) | ",
+     "Intern Securitisation and Asset backed Solutions (m/f/d) | ",
+     "Intern Corporate Origination - Debt Capital Markets (f/m/d) | ",
+     "Intern Financial Sponsor Solutions / Leveraged Finance (f/m/d) | "
     ]
    }
   ],
@@ -6705,15 +6639,15 @@
     "link_pattern": "JobDetail"
    },
    "status": "ok",
-   "fetched": 14,
-   "internships": 14,
+   "fetched": 15,
+   "internships": 15,
    "sample": [
-    "Intern Capital Markets / Rating Advisory (f/m/d) | ",
-    "Intern Corporate Origination - Debt Capital Markets (f/m/d) | ",
-    "Intern Investment Grade Structured Loans / Acquisition Finance (f/m/d) | ",
-    "Intern Financial Sponsor Solutions / Leveraged Finance (f/m/d) | ",
     "Intern in ALM & Funding (f/m/d) | ",
-    "Intern Infrastructure & Export Financing (m/f/d) | "
+    "Intern Investment Grade Structured Loans / Acquisition Finance (f/m/d) | ",
+    "Intern Capital Markets / Rating Advisory (f/m/d) | ",
+    "Intern Securitisation and Asset backed Solutions (m/f/d) | ",
+    "Intern Corporate Origination - Debt Capital Markets (f/m/d) | ",
+    "Intern Financial Sponsor Solutions / Leveraged Finance (f/m/d) | "
    ]
   }
  },
