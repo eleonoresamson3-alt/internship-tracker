@@ -1,16 +1,8 @@
 {
- "generated_at": "2026-10-23T14:18:13+00:00",
+ "generated_at": "2026-10-23T14:58:54+00:00",
  "employers_total": 143,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Accenture",
-   "platform": "workday",
-   "careers_url": "https://www.accenture.com/fr-fr/careers",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-23T14:21:09+00:00"
-  }
- ],
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -19,7 +11,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 668,
+   "fetched": 665,
    "kept": 43
   },
   {
@@ -104,12 +96,12 @@
   },
   {
    "employer": "TD Securities",
-   "fetched": 20,
+   "fetched": 21,
    "kept": 5
   },
   {
    "employer": "Scotiabank",
-   "fetched": 273,
+   "fetched": 272,
    "kept": 1
   },
   {
@@ -209,12 +201,12 @@
   },
   {
    "employer": "IMC",
-   "fetched": 168,
+   "fetched": 170,
    "kept": 11
   },
   {
    "employer": "Flow Traders",
-   "fetched": 47,
+   "fetched": 46,
    "kept": 3
   },
   {
@@ -364,7 +356,7 @@
   },
   {
    "employer": "SCOR",
-   "fetched": 152,
+   "fetched": 153,
    "kept": 12
   },
   {
@@ -394,7 +386,7 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 11,
+   "fetched": 10,
    "kept": 4
   },
   {
@@ -409,13 +401,18 @@
   },
   {
    "employer": "PwC",
-   "fetched": 207,
+   "fetched": 208,
    "kept": 54
   },
   {
    "employer": "Forvis Mazars",
    "fetched": 143,
    "kept": 0
+  },
+  {
+   "employer": "Accenture",
+   "fetched": 27,
+   "kept": 3
   },
   {
    "employer": "BearingPoint",
@@ -654,7 +651,7 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 73,
+   "fetched": 72,
    "kept": 0
   },
   {
@@ -664,7 +661,7 @@
   },
   {
    "employer": "Michelin",
-   "fetched": 46,
+   "fetched": 48,
    "kept": 0
   },
   {
@@ -694,12 +691,12 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 23,
+   "fetched": 24,
    "kept": 0
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 96,
+   "fetched": 95,
    "kept": 0
   },
   {
@@ -709,7 +706,7 @@
   },
   {
    "employer": "Philips",
-   "fetched": 52,
+   "fetched": 53,
    "kept": 0
   },
   {

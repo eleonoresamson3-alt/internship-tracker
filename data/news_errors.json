@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:27:01+00:00",
+ "generated_at": "2026-10-23T15:07:52+00:00",
  "errors": [],
  "stats": [
   {
@@ -41,32 +41,32 @@
   {
    "source": "L'Agefi",
    "items": 250,
-   "newest": "2026-10-23T14:03+00:00",
-   "oldest": "2026-10-16T08:20+00:00"
+   "newest": "2026-10-23T14:54+00:00",
+   "oldest": "2026-10-16T10:10+00:00"
   },
   {
    "source": "Financial Times – Markets",
    "items": 25,
-   "newest": "2026-10-23T14:21+00:00",
-   "oldest": "2026-10-22T05:30+00:00"
+   "newest": "2026-10-23T14:42+00:00",
+   "oldest": "2026-10-22T10:00+00:00"
   },
   {
    "source": "Financial Times – Global economy",
    "items": 25,
-   "newest": "2026-10-23T14:21+00:00",
+   "newest": "2026-10-23T14:42+00:00",
    "oldest": "2026-10-21T17:37+00:00"
   },
   {
    "source": "MarketWatch",
    "items": 10,
-   "newest": "2026-10-23T14:23+00:00",
-   "oldest": "2026-10-23T11:32+00:00"
+   "newest": "2026-10-23T15:00+00:00",
+   "oldest": "2026-10-23T12:30+00:00"
   },
   {
    "source": "Investing.com France",
    "items": 10,
-   "newest": "2026-10-23T14:20+00:00",
-   "oldest": "2026-10-23T14:16+00:00"
+   "newest": "2026-10-23T15:01+00:00",
+   "oldest": "2026-10-23T14:55+00:00"
   },
   {
    "source": "Le Monde – Économie",
