@@ -1,6 +1,221 @@
 {
- "generated_at": "2026-10-23T12:22:02+00:00",
+ "generated_at": "2026-10-23T12:46:21+00:00",
  "items": [
+  {
+   "id": "49eed524712e1a59",
+   "title": "Stifel réduit l’objectif de cours de Lindsay à 119$",
+   "link": "https://fr.investing.com/news/analyst-ratings/stifel-reduit-lobjectif-de-cours-de-lindsay-a-119-93CH-3650859",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:41+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "450d5ab924e97568",
+   "title": "Le directeur de Great Elm Group, Eric Scheyer, ne se représentera pas",
+   "link": "https://fr.investing.com/news/sec-filings/le-directeur-de-great-elm-group-eric-scheyer-ne-se-representera-pas-93CH-3650858",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:41+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "370521756d5f288f",
+   "title": "UWM Holdings annonce un volume d’origination de prêts de 33,4 milliards$ au T3",
+   "link": "https://fr.investing.com/news/company-news/uwm-holdings-annonce-un-volume-dorigination-de-prets-de-334-milliards-au-t3-93CH-3650848",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "8f9bebf29e2703f2",
+   "title": "Onconetix avance 500.000$ supplémentaires à sa cible d’acquisition Realbotix",
+   "link": "https://fr.investing.com/news/company-news/onconetix-avance-500000-supplementaires-a-sa-cible-dacquisition-realbotix-93CH-3650846",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "3c2237d85d6ccdcc",
+   "title": "SoundThinking lance un outil IA pour ses clients de détection de coups de feu",
+   "link": "https://fr.investing.com/news/company-news/soundthinking-lance-un-outil-ia-pour-ses-clients-de-detection-de-coups-de-feu-93CH-3650847",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "330455c8cce06f22",
+   "title": "SoundThinking améliore les contrôles de confidentialité de son système de plaques",
+   "link": "https://fr.investing.com/news/company-news/soundthinking-ameliore-les-controles-de-confidentialite-de-son-systeme-de-plaques-93CH-3650845",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "5b3ba89cc8c3173b",
+   "title": "Midera acquires Phoenix Innovations pour automatiser la volaille",
+   "link": "https://fr.investing.com/news/company-news/midera-acquires-phoenix-innovations-pour-automatiser-la-volaille-93CH-3650843",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "3bfddddc1c4748b6",
+   "title": "Lexicon partage les données de base de son essai sur un médicament cardiaque",
+   "link": "https://fr.investing.com/news/company-news/lexicon-partage-les-donnees-de-base-de-son-essai-sur-un-medicament-cardiaque-93CH-3650844",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "622cc920dd11aa2b",
+   "title": "Les dirigeants de Microbot Medical participeront à la conférence SIR EDGE",
+   "link": "https://fr.investing.com/news/company-news/les-dirigeants-de-microbot-medical-participeront-a-la-conference-sir-edge-93CH-3650842",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "28ec656ba36bbca1",
+   "title": "Nordson acquiert le fabricant de capteurs Contrinex pour 50M$ de CA",
+   "link": "https://fr.investing.com/news/company-news/nordson-acquiert-le-fabricant-de-capteurs-contrinex-pour-50m-de-ca-93CH-3650841",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "3ef767400f1c013d",
+   "title": "Valeo décroche en Bourse après une publication plus préoccupante qu'il n'y paraît",
+   "link": "https://www.agefi.fr/news/entreprises/valeo-decroche-en-bourse-apres-une-publication-plus-preoccupante-quil-ny-parait",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T12:30+00:00",
+   "summary": "L'équipementier automobile a vu ses ventes baisser plus vite que le marché au troisième trimestre et les dirigeants ont légèrement abaissé leurs objectifs annuels.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 15
+  },
+  {
+   "id": "32552bb5674f7b9d",
+   "title": "Smart financial advisers are dropping ROI, NAV and QCD for plain English when talking to clients",
+   "link": "https://www.marketwatch.com/story/smart-financial-advisers-are-dropping-roi-nav-and-qcd-for-plain-english-when-talking-to-clients-2a16fc6f?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T12:30+00:00",
+   "summary": "Not everyone is familiar with the ABCs of financial planning",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "181813f59fcc14a5",
+   "title": "Fibre Excellence : liquidation en vue du site de Saint-Gaudens, près de 250 emplois menacés",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/23/fibre-excellence-liquidation-en-vue-du-site-de-saint-gaudens-pres-de-250-emplois-menaces_6799074_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-23T12:30+00:00",
+   "summary": "Malgré les efforts de la région Occitanie et de plusieurs repreneurs, l’usine du premier papetier français va être placée en liquidation judiciaire, après le site de Tarascon dans les Bouches-du-Rhône.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 5
+  },
+  {
+   "id": "e00ac2bcec872ef7",
+   "title": "It’s been a painful month for hedge funds. To turn it around, they are shorting U.S. stocks.",
+   "link": "https://www.marketwatch.com/story/its-been-a-painful-month-for-hedge-funds-to-turn-it-around-they-are-shorting-u-s-stocks-d36ee922?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T12:23+00:00",
+   "summary": "In response to losses on popular trades, hedge funds are now shorting U.S. stocks aggressively to try and win back some performance.",
+   "themes": [
+    "banks",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T12:46+00:00",
+   "score": 22
+  },
   {
    "id": "beea5e36369748cd",
    "title": "My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?",

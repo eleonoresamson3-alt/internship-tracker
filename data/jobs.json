@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T12:13:12+00:00",
+ "generated_at": "2026-10-23T12:37:30+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -3495,39 +3495,6 @@
    "deadline_source": "estimée",
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Paris-Origami/Capital-Markets-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124479",
    "posted_at": "2026-10-02",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "euronext-0dc30e6fcdd0",
-   "employer": "Euronext",
-   "employer_type": "infrastructure",
-   "platform": "workday",
-   "title": "Borsa Italiana - Regulation and Post Trading internship",
-   "location": "Milan",
-   "countries": [
-    "IT"
-   ],
-   "country_names": [
-    "Italy"
-   ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 56,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Milan/Borsa-Italiana---Regulation-and-Post-Trading-internship_R27753-1",
-   "posted_at": "2026-10-08",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -18034,6 +18001,39 @@
    "start": "2027-01",
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Structured-Trade-Export-Finance-Paris-Intern--f-m-x-_R0452722",
    "posted_at": "2026-09-28",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "euronext-0dc30e6fcdd0",
+   "employer": "Euronext",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Borsa Italiana - Regulation and Post Trading internship",
+   "location": "Milan",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 56,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Milan/Borsa-Italiana---Regulation-and-Post-Trading-internship_R27753-1",
+   "posted_at": "2026-10-08",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": false

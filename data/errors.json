@@ -1,16 +1,8 @@
 {
- "generated_at": "2026-10-23T12:13:12+00:00",
+ "generated_at": "2026-10-23T12:37:30+00:00",
  "employers_total": 143,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Accenture",
-   "platform": "workday",
-   "careers_url": "https://www.accenture.com/fr-fr/careers",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-23T12:16:08+00:00"
-  }
- ],
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -239,7 +231,7 @@
   },
   {
    "employer": "Tower Research",
-   "fetched": 101,
+   "fetched": 100,
    "kept": 9
   },
   {
@@ -254,7 +246,7 @@
   },
   {
    "employer": "Mako",
-   "fetched": 4,
+   "fetched": 3,
    "kept": 1
   },
   {
@@ -325,7 +317,7 @@
   {
    "employer": "Euronext",
    "fetched": 16,
-   "kept": 3
+   "kept": 2
   },
   {
    "employer": "LSEG",
@@ -394,7 +386,7 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 13,
+   "fetched": 12,
    "kept": 4
   },
   {
@@ -414,8 +406,13 @@
   },
   {
    "employer": "Forvis Mazars",
-   "fetched": 145,
+   "fetched": 143,
    "kept": 0
+  },
+  {
+   "employer": "Accenture",
+   "fetched": 28,
+   "kept": 3
   },
   {
    "employer": "BearingPoint",
@@ -514,7 +511,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 714,
+   "fetched": 718,
    "kept": 0
   },
   {
@@ -694,7 +691,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 22,
+   "fetched": 21,
    "kept": 0
   },
   {
