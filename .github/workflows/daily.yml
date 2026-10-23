@@ -34,6 +34,11 @@ jobs:
         # Separate step: a news or market-data problem must not block the internship tracker.
         continue-on-error: true
         run: python -m tracker.news.run 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
+      - name: News summary (optional, needs the ANTHROPIC_API_KEY secret)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m tracker.news.summary 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: Commit data
         run: |
           exec > >(tee -a run.log) 2>&1

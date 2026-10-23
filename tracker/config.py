@@ -16,6 +16,7 @@ NEWS_SOURCES_FILE = ROOT / "news_sources.yaml"
 NEWS_FILE = DATA_DIR / "news.json"
 MARKET_FILE = DATA_DIR / "market.json"
 NEWS_ERRORS_FILE = DATA_DIR / "news_errors.json"
+NEWS_SUMMARY_FILE = DATA_DIR / "news_summary.json"   # optional, see tracker/news/summary.py
 
 REPO_URL = "https://github.com/eleonoresamson3-alt/internship-tracker"
 USER_AGENT = (
