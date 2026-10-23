@@ -44,7 +44,9 @@ def fetch_feeds(sources: list[dict], http: PoliteClient):
             for item in got:
                 item["official"] = bool(source.get("official"))
             items.extend(got)
-            stats.append({"source": source["name"], "items": len(got)})
+            dates = sorted(i["published"] for i in got if i["published"])
+            stats.append({"source": source["name"], "items": len(got),
+                          "newest": dates[-1] if dates else "", "oldest": dates[0] if dates else ""})
             log.info("%-30s %3d items", source["name"], len(got))
     return items, errors, stats
 
@@ -114,7 +116,12 @@ def main(argv=None) -> int:
                f"{len(meetings)} central bank meetings")
     log.info(summary)
     if os.environ.get("GITHUB_ACTIONS"):
-        lines = [summary] + [f"{s['source']}: {s['items']}" for s in stats] + \
+        kept = {}
+        for r in merged:
+            for src in r["sources"]:
+                kept[src] = kept.get(src, 0) + 1
+        lines = [summary] + [f"{s['source']}: {s['items']} fetched, {kept.get(s['source'], 0)} in history "
+                             f"(published {s['oldest'] or '?'} → {s['newest'] or '?'})" for s in stats] + \
                 [f"FAILED {e['source']}: {e['error'][:200]}" for e in errors]
         print("::notice title=News summary::" + "%0A".join(l.replace("%", "%25") for l in lines))
     return 0
