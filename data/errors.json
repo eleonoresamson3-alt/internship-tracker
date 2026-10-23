@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T09:46:18+00:00",
+ "generated_at": "2026-10-23T10:08:09+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -11,7 +11,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 663,
+   "fetched": 664,
    "kept": 43
   },
   {
@@ -136,7 +136,7 @@
   },
   {
    "employer": "Schroders",
-   "fetched": 76,
+   "fetched": 75,
    "kept": 11
   },
   {
@@ -386,7 +386,7 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 10,
+   "fetched": 11,
    "kept": 4
   },
   {
@@ -401,7 +401,7 @@
   },
   {
    "employer": "PwC",
-   "fetched": 207,
+   "fetched": 208,
    "kept": 54
   },
   {
@@ -586,7 +586,7 @@
   },
   {
    "employer": "Wellington Management",
-   "fetched": 6,
+   "fetched": 7,
    "kept": 1
   },
   {
@@ -646,12 +646,12 @@
   },
   {
    "employer": "Pernod Ricard",
-   "fetched": 94,
+   "fetched": 97,
    "kept": 0
   },
   {
    "employer": "Airbus",
-   "fetched": 80,
+   "fetched": 79,
    "kept": 0
   },
   {
@@ -691,7 +691,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 23,
+   "fetched": 24,
    "kept": 0
   },
   {
