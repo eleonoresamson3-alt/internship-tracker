@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-10-23T13:21:44+00:00",
+ "generated_at": "2026-10-23T14:18:13+00:00",
  "employers_total": 143,
- "employers_failed": 0,
- "errors": [],
+ "employers_failed": 1,
+ "errors": [
+  {
+   "employer": "Accenture",
+   "platform": "workday",
+   "careers_url": "https://www.accenture.com/fr-fr/careers",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
+   "at": "2026-10-23T14:21:09+00:00"
+  }
+ ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -11,7 +19,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 666,
+   "fetched": 668,
    "kept": 43
   },
   {
@@ -61,12 +69,12 @@
   },
   {
    "employer": "RBC Capital Markets",
-   "fetched": 39,
-   "kept": 15
+   "fetched": 40,
+   "kept": 16
   },
   {
    "employer": "Jefferies",
-   "fetched": 41,
+   "fetched": 42,
    "kept": 15
   },
   {
@@ -101,7 +109,7 @@
   },
   {
    "employer": "Scotiabank",
-   "fetched": 272,
+   "fetched": 273,
    "kept": 1
   },
   {
@@ -191,7 +199,7 @@
   },
   {
    "employer": "Jane Street",
-   "fetched": 220,
+   "fetched": 221,
    "kept": 8
   },
   {
@@ -216,7 +224,7 @@
   },
   {
    "employer": "DRW",
-   "fetched": 163,
+   "fetched": 164,
    "kept": 6
   },
   {
@@ -246,7 +254,7 @@
   },
   {
    "employer": "Mako",
-   "fetched": 3,
+   "fetched": 2,
    "kept": 1
   },
   {
@@ -316,7 +324,7 @@
   },
   {
    "employer": "Euronext",
-   "fetched": 16,
+   "fetched": 15,
    "kept": 2
   },
   {
@@ -387,7 +395,7 @@
   {
    "employer": "Deloitte",
    "fetched": 11,
-   "kept": 3
+   "kept": 4
   },
   {
    "employer": "EY",
@@ -408,11 +416,6 @@
    "employer": "Forvis Mazars",
    "fetched": 143,
    "kept": 0
-  },
-  {
-   "employer": "Accenture",
-   "fetched": 28,
-   "kept": 3
   },
   {
    "employer": "BearingPoint",
@@ -636,7 +639,7 @@
   },
   {
    "employer": "LVMH",
-   "fetched": 32,
+   "fetched": 33,
    "kept": 0
   },
   {
@@ -666,7 +669,7 @@
   },
   {
    "employer": "Sanofi",
-   "fetched": 53,
+   "fetched": 51,
    "kept": 0
   },
   {
@@ -691,12 +694,12 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 22,
+   "fetched": 23,
    "kept": 0
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 95,
+   "fetched": 96,
    "kept": 0
   },
   {

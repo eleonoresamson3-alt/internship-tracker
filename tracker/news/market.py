@@ -61,7 +61,7 @@ class NotConfigured(Exception):
     """The source needs a key that is not set: shown as unavailable, not as an error."""
 
 
-WEBSTAT_URL = "https://webstat.banque-france.fr/api/explore/v2.1/catalog/datasets/observations/exports/json"
+WEBSTAT_URL = "https://webstat.banque-france.fr/api/explore/v2.1/catalog/datasets"
 _DATE_FIELDS = ("time_period_start", "time_period", "date")
 _VALUE_FIELDS = ("obs_value", "value")
 
@@ -85,15 +85,18 @@ def _webstat(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tup
     if not api_key:
         raise NotConfigured("clé API Webstat (gratuite) non configurée : secret WEBSTAT_API_KEY")
     headers = {"Authorization": f"Apikey {api_key}"}
-    rows = http.get(WEBSTAT_URL, params={"where": f'series_key="{key}"'}, headers=headers, retries=1).json()
+    # The 100 latest observations (weekends included, as empty values) cover more than a month.
+    resp = http.get(f"{WEBSTAT_URL}/observations/records", headers=headers, retries=1, params={
+        "where": f'series_key="{key}"', "order_by": "time_period_start desc", "limit": 100,
+        "select": "time_period_start,obs_value"}).json()
+    rows = resp.get("results", [])
     if not rows:
-        # Help fixing the series key: list the keys that look alike.
+        # Help fixing the series key: titles of series that look alike.
         stem = key.split(".")[-2] if key.count(".") >= 2 else key
         try:
-            alike = http.get(WEBSTAT_URL, params={"where": f'series_key like "%{stem}%"', "select": "series_key",
-                                                  "group_by": "series_key", "limit": 20},
-                             headers=headers, retries=0).json()
-            hint = f"; similar keys: {[r.get('series_key') for r in alike]}"
+            alike = http.get(f"{WEBSTAT_URL}/series/records", headers=headers, retries=0,
+                             params={"where": f'search("{stem}")', "limit": 10, "select": "series_key"}).json()
+            hint = f"; similar keys: {[r.get('series_key') for r in alike.get('results', [])]}"
         except Exception:
             hint = ""
         raise ValueError(f"no observation for {key}{hint}")

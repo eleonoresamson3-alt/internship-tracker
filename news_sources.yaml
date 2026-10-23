@@ -100,10 +100,10 @@ market:
      series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A}
   - {key: de10y, label: Allemagne 10 ans, group: Taux, unit: "%", provider: bundesbank,
      series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A}
-  - {key: fr2y, label: France 2 ans, group: Taux, unit: "%", provider: webstat,
-     series: FM.D.FR.EUR.FR2.BB.FR2YT_RR.YLD}
-  - {key: fr10y, label: France 10 ans, group: Taux, unit: "%", provider: webstat,
-     series: FM.D.FR.EUR.FR2.BB.FR10YT_RR.YLD}
+  - {key: fr2y, label: France 2 ans (TEC 2), group: Taux, unit: "%", provider: webstat,
+     series: FM.D.FR.EUR.FR2.BB.FRMOYTEC2.HSTA}
+  - {key: fr10y, label: France 10 ans (TEC 10), group: Taux, unit: "%", provider: webstat,
+     series: FM.D.FR.EUR.FR2.BB.FRMOYTEC10.HSTA}
   - {key: us2y, label: États-Unis 2 ans, group: Taux, unit: "%", provider: fred, series: DGS2}
   - {key: us10y, label: États-Unis 10 ans, group: Taux, unit: "%", provider: fred, series: DGS10}
 

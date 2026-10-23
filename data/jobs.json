@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:21:44+00:00",
+ "generated_at": "2026-10-23T14:18:13+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -12461,6 +12461,72 @@
    "active": true
   },
   {
+   "id": "deloitte-f17ae9ea20bb",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Consultative Offerings - Investment Banking Summer Analyst - Corporate Finance",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Investment-Banking-Summer-Analyst-Corporate-Finance/364072",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "deloitte-a8f793f0cff5",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Consultative Offerings - Investment Banking Summer Associate - Corporate Finance",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Investment-Banking-Summer-Associate-Corporate-Finance/364093",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "edf-trading-1d586a44fd58",
    "employer": "EDF Trading",
    "employer_type": "commodities",
@@ -14483,39 +14549,6 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15135-Global-Capital-Markets-Off-Cycle-Analyst-2027-Seoul/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "deloitte-f8add2cd509b",
-   "employer": "Deloitte",
-   "employer_type": "consulting",
-   "platform": "generic",
-   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-09",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -19328,6 +19361,39 @@
    "posted_at": "2026-10-21",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
+   "active": false
+  },
+  {
+   "id": "deloitte-f8add2cd509b",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-09",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
    "active": false
   },
   {
