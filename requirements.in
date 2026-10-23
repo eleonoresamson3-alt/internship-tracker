@@ -1,0 +1,14 @@
+# Direct dependencies. requirements.txt is generated from this file with exact
+# versions and hashes (pip install --require-hashes); regenerate it with:
+#   uv pip compile requirements.in --python-version 3.11 --generate-hashes --exclude-newer <today minus 14 days> \
+#     --exclude-newer-package anthropic=<today> --exclude-newer-package certifi=<today> -o requirements.txt
+# (the delay avoids picking up a freshly published, possibly compromised release)
+requests
+PyYAML
+beautifulsoup4
+feedparser
+openpyxl      # World Bank monthly commodity prices (gold)
+defusedxml    # safe parsing of remote XML (Teamtailor feeds; used by openpyxl automatically)
+anthropic>=2.1,<2.2   # only used by the optional news summary (2.1+: output_config, server-side fallback)
+pytest
+certifi==2026.10.19   # PYSEC-2026-4320 (found by pip-audit); allowed despite the 14-day delay

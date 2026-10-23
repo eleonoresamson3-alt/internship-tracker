@@ -1,5 +1,37 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .pytest_cache/
-_site/
+.mypy_cache/
+.ruff_cache/
 .venv/
+venv/
+*.egg-info/
+
+# Secrets: keys go in GitHub repository secrets, never in files
+.env
+.env.*
+*.env
+*.pem
+*.key
+secrets.*
+
+# Personal exports from the site (tracking, notes, trainings): keep them on your computer
+suivi-stages-*.csv
+suivi-formations-*.json
+actualite-a-retenir-*.csv
+*.export.json
+
+# Build and run outputs
+_site/
+run.log
+digest.md
+notices.txt
+*.log
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
