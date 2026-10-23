@@ -31,6 +31,8 @@
       <button role="tab" class="tab" data-tab="mine" aria-selected="false">Mon suivi <span class="count" id="count-mine">0</span></button>
     </nav>
 
+    <div class="pipeline" id="pipeline" hidden></div>
+
     <section class="filters" id="filters" aria-label="Filtres">
       <input type="search" id="f-search" placeholder="Rechercher (intitulé, employeur, ville…)" aria-label="Recherche">
       <div class="filter-grid">
@@ -53,6 +55,7 @@
       <div class="filter-actions">
         <button type="button" class="ghost" id="reset">Réinitialiser les filtres</button>
         <span class="spacer"></span>
+        <button type="button" id="add-offer">+ Ajouter une offre</button>
         <button type="button" id="export">Exporter CSV</button>
         <label class="button" for="import">Importer CSV</label>
         <input type="file" id="import" accept=".csv,text/csv" hidden>
@@ -70,6 +73,38 @@
     · <a href="https://github.com/eleonoresamson3-alt/internship-tracker">Code source</a>
   </footer>
 
+  <dialog id="offer-dialog" aria-labelledby="offer-dialog-title">
+    <form method="dialog" id="offer-form">
+      <h2 id="offer-dialog-title">Ajouter une offre</h2>
+      <p class="hint">Pour une offre trouvée ailleurs (forum, réseau, site non couvert…). Elle reste uniquement dans ce navigateur, comme ton suivi.</p>
+      <div class="form-grid">
+        <label class="wide">Intitulé *<input name="title" required placeholder="Stage Structuration Actions"></label>
+        <label>Employeur *<input name="employer" required list="employer-list" placeholder="Nom de l'entreprise"></label>
+        <label>Lien de l'offre<input name="url" type="url" placeholder="https://…"></label>
+        <label>Ville<input name="location" placeholder="Paris"></label>
+        <label>Pays<input name="country" list="country-list" placeholder="France"></label>
+        <label>Métier<select name="family"></select></label>
+        <label>Calendrier<select name="timing">
+          <option value="summer">Summer</option>
+          <option value="off-cycle">Off-cycle</option>
+          <option value="unknown">Inconnu</option>
+        </select></label>
+        <label>Mois de début<input name="start" type="month"></label>
+        <label>Statut<select name="status"></select></label>
+        <label>Date de candidature<input name="applied_on" type="date"></label>
+        <label class="wide">Notes<textarea name="notes" rows="3" placeholder="Contact, échéance, impressions…"></textarea></label>
+      </div>
+      <div class="dialog-actions">
+        <button type="button" class="ghost danger" id="offer-delete" hidden>Supprimer</button>
+        <span class="spacer"></span>
+        <button type="button" class="ghost" id="offer-cancel">Annuler</button>
+        <button type="submit" id="offer-save">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+  <datalist id="employer-list"></datalist>
+  <datalist id="country-list"></datalist>
+
   <template id="card-tpl">
     <article class="card">
       <div class="card-main">
@@ -84,6 +119,7 @@
         <select class="status-select" aria-label="Statut"></select>
         <label class="applied">Candidature <input type="date" class="applied-input"></label>
         <button type="button" class="ghost notes-toggle">Notes</button>
+        <button type="button" class="ghost edit-offer" hidden>Modifier</button>
       </div>
       <textarea class="notes" placeholder="Notes (contacts, échéances, impressions…)" hidden></textarea>
     </article>
