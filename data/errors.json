@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T12:37:30+00:00",
+ "generated_at": "2026-10-23T13:21:44+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -11,12 +11,12 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 667,
+   "fetched": 666,
    "kept": 43
   },
   {
    "employer": "Morgan Stanley",
-   "fetched": 2,
+   "fetched": 3,
    "kept": 0
   },
   {
@@ -96,7 +96,7 @@
   },
   {
    "employer": "TD Securities",
-   "fetched": 19,
+   "fetched": 20,
    "kept": 5
   },
   {
@@ -126,7 +126,7 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 92,
+   "fetched": 93,
    "kept": 9
   },
   {
@@ -281,7 +281,7 @@
   },
   {
    "employer": "Schonfeld",
-   "fetched": 68,
+   "fetched": 67,
    "kept": 8
   },
   {
@@ -331,7 +331,7 @@
   },
   {
    "employer": "Murex",
-   "fetched": 12,
+   "fetched": 11,
    "kept": 3
   },
   {
@@ -386,8 +386,8 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 12,
-   "kept": 4
+   "fetched": 11,
+   "kept": 3
   },
   {
    "employer": "EY",
@@ -401,7 +401,7 @@
   },
   {
    "employer": "PwC",
-   "fetched": 208,
+   "fetched": 207,
    "kept": 54
   },
   {
@@ -511,7 +511,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 718,
+   "fetched": 723,
    "kept": 0
   },
   {
@@ -597,7 +597,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 7
+   "kept": 2
   },
   {
    "employer": "Capital Group",
@@ -651,12 +651,12 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 74,
+   "fetched": 73,
    "kept": 0
   },
   {
    "employer": "Thales",
-   "fetched": 109,
+   "fetched": 108,
    "kept": 0
   },
   {
@@ -666,12 +666,12 @@
   },
   {
    "employer": "Sanofi",
-   "fetched": 52,
+   "fetched": 53,
    "kept": 0
   },
   {
    "employer": "Air Liquide",
-   "fetched": 59,
+   "fetched": 60,
    "kept": 5
   },
   {
@@ -681,7 +681,7 @@
   },
   {
    "employer": "Alstom",
-   "fetched": 409,
+   "fetched": 410,
    "kept": 0
   },
   {
@@ -691,7 +691,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 21,
+   "fetched": 22,
    "kept": 0
   },
   {
@@ -706,7 +706,7 @@
   },
   {
    "employer": "Philips",
-   "fetched": 51,
+   "fetched": 52,
    "kept": 0
   },
   {

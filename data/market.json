@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T12:46:21+00:00",
+ "generated_at": "2026-10-23T13:30:36+00:00",
  "series": [
   {
    "key": "cac40",
@@ -154,8 +154,8 @@
    "label": "France 2 ans",
    "group": "Taux",
    "unit": "%",
-   "provider": "unavailable",
-   "note": "Banque de France Webstat : clé API gratuite requise (à configurer)",
+   "provider": "webstat",
+   "note": "clé API Webstat (gratuite) non configurée : secret WEBSTAT_API_KEY",
    "status": "indisponible"
   },
   {
@@ -163,8 +163,8 @@
    "label": "France 10 ans",
    "group": "Taux",
    "unit": "%",
-   "provider": "unavailable",
-   "note": "Banque de France Webstat : clé API gratuite requise (à configurer)",
+   "provider": "webstat",
+   "note": "clé API Webstat (gratuite) non configurée : secret WEBSTAT_API_KEY",
    "status": "indisponible"
   },
   {

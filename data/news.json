@@ -1,6 +1,272 @@
 {
- "generated_at": "2026-10-23T12:46:21+00:00",
+ "generated_at": "2026-10-23T13:30:36+00:00",
  "items": [
+  {
+   "id": "ea087cab17cef67e",
+   "title": "La construction de portefeuilles au-delà du risque et du rendement",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/au-coeur-des-instits/la-construction-de-portefeuilles-au-dela-du-risque-et-du-rendement",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T13:30+00:00",
+   "summary": "La construction de portefeuilles traditionnelle se concentre sur le risque et le rendement, mais les investisseurs accordent souvent de l’importance à bien d’autres aspects.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 25
+  },
+  {
+   "id": "13ed5979fa1e01e2",
+   "title": "Au Japon, l’inflation poursuit sa trajectoire à la hausse",
+   "link": "https://www.agefi.fr/news/economie-marches/au-japon-linflation-poursuit-sa-trajectoire-a-la-hausse",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T13:28+00:00",
+   "summary": "Les prix à la consommation ont augmenté de 2,1% en septembre, toujours tirés par les prix énergétiques, surtout du gaz, car les carburants et l’électricité profitent encore des subventions gouvernementales. L’inflation sous-jacente progresse également et dépasse les 2% pour la première fois en neuf mois. Le Comité de politique monétaire de la Banque du Japon se réunit la semaine prochaine.",
+   "themes": [
+    "central_banks",
+    "fx_commodities",
+    "macro_inflation",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 50
+  },
+  {
+   "id": "286f087aab367743",
+   "title": "Le directeur Yu de KANZHUN démissionne pour des raisons professionnelles",
+   "link": "https://fr.investing.com/news/company-news/le-directeur-yu-de-kanzhun-demissionne-pour-des-raisons-professionnelles-93CH-3651068",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:20+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "fa6f9d1e3aad0a1f",
+   "title": "Le forint hongrois en garde sous le pied",
+   "link": "https://www.agefi.fr/cash-risk/actualites/le-forint-hongrois-en-garde-sous-le-pied",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T13:19+00:00",
+   "summary": "Comme chaque semaine, retrouvez la chronique de DeftHedge sur le marché des changes.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "feb7b07c92f3f8de",
+   "title": "Autoliv rate ses estimations au T3 2026, l’action chute en préouverture",
+   "link": "https://fr.investing.com/news/transcripts/autoliv-rate-ses-estimations-au-t3-2026-laction-chute-en-preouverture-93CH-3651063",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:19+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "da4bc1abbc19761f",
+   "title": "Rogers Communications dépasse les prévisions de bénéfices au T3 2026",
+   "link": "https://fr.investing.com/news/transcripts/rogers-communications-depasse-les-previsions-de-benefices-au-t3-2026-93CH-3651062",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:19+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "03d1b1c3fadd0917",
+   "title": "Pourquoi le titre American Express recule-t-il aujourd’hui ?",
+   "link": "https://fr.investing.com/news/stock-market-news/pourquoi-le-titre-american-express-reculetil-aujourdhui--93CH-3651060",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:19+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "aae925ef82b30801",
+   "title": "Booz Allen dépasse les prévisions de BPA au T2 2026",
+   "link": "https://fr.investing.com/news/transcripts/booz-allen-depasse-les-previsions-de-bpa-au-t2-2026-93CH-3651056",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "d7a74289934b8dcd",
+   "title": "Rithm Capital dépasse les prévisions du T3 2026, l’action progresse en préouverture",
+   "link": "https://fr.investing.com/news/transcripts/rithm-capital-depasse-les-previsions-du-t3-2026-laction-progresse-en-preouverture-93CH-3651053",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "f1fbae782d315b53",
+   "title": "IndusInd Bank affiche une reprise plus solide au T2 2026",
+   "link": "https://fr.investing.com/news/transcripts/indusind-bank-affiche-une-reprise-plus-solide-au-t2-2026-93CH-3651052",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:16+00:00",
+   "summary": "",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 15
+  },
+  {
+   "id": "4e3ea013b333f158",
+   "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
+   "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T13:15+00:00",
+   "summary": "“Nothing has been set aside for his needs.”",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 25
+  },
+  {
+   "id": "48bf0b969ba6b493",
+   "title": "Compte rendu de résultats : JSW Steel T2 2026, volumes records, action en baisse",
+   "link": "https://fr.investing.com/news/transcripts/compte-rendu-de-resultats--jsw-steel-t2-2026-volumes-records-action-en-baisse-93CH-3651051",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:14+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "dea361f7aade7cdb",
+   "title": "Coforge relève ses marges au T2 2026 grâce à un record de contrats",
+   "link": "https://fr.investing.com/news/transcripts/coforge-releve-ses-marges-au-t2-2026-grace-a-un-record-de-contrats-93CH-3651047",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:14+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "fa70e01af140869e",
+   "title": "Bolt Biotherapeutics acquiert Prana via une fusion inversée",
+   "link": "https://fr.investing.com/news/company-news/bolt-biotherapeutics-acquiert-prana-via-une-fusion-inversee-93CH-3651042",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T13:13+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "f34f57e31746b612",
+   "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
+   "link": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T13:00+00:00",
+   "summary": "Nearly half of Americans haven’t calculated what they’ll need in retirement.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "c71b08fe5bf5f92e",
+   "title": "Au Brésil, les milieux financiers penchent pour les promesses d’extrême droite de Flavio Bolsonaro",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/23/au-bresil-les-milieux-financiers-penchent-pour-les-promesses-d-extreme-droite-de-flavio-bolsonaro_6799079_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-23T13:00+00:00",
+   "summary": "Dans le cœur financier de Sao Paulo, investisseurs et banquiers affichent leur soutien aux coupes dans les dépenses publiques, privatisations et baisses d’impôts prônées par Flavio Bolsonaro, préféré au président sortant Lula à l’approche du second tour de l’élection présidentielle.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
+  {
+   "id": "192d6f7241a05c98",
+   "title": "Le diable se cache dans les détails, Safran l'apprend à ses dépens",
+   "link": "https://www.agefi.fr/news/entreprises/le-diable-se-cache-dans-les-details-safran-lapprend-a-ses-depens",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T12:47+00:00",
+   "summary": "L'équipementier aéronautique a publié des chiffres trimestriels conformes aux attentes mais il s'est contenté de maintenir ses objectifs annuels alors que les investisseurs espéraient qu'ils seraient relevés.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T13:30+00:00",
+   "score": 5
+  },
   {
    "id": "49eed524712e1a59",
    "title": "Stifel réduit l’objectif de cours de Lindsay à 119$",
