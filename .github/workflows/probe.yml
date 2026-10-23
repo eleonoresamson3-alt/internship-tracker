@@ -1,5 +1,8 @@
 name: Probe news sources (temporary)
-on: workflow_dispatch
+on:
+  push:
+    branches: [claude/internship-tracker]
+    paths: [tools/probe.py, .github/workflows/probe.yml]
 jobs:
   probe:
     runs-on: ubuntu-latest
