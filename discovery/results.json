@@ -6861,5 +6861,4318 @@
   ],
   "tests": [],
   "best": null
+ },
+ {
+  "name": "TOBAM",
+  "type": "asset_manager",
+  "careers_url": "https://www.tobam.fr/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Syquant Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.syquant.com/",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='www.syquant.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.syquant.com', port=443): Failed to est"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Ossiam",
+  "type": "asset_manager",
+  "careers_url": "https://www.ossiam.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Unigestion",
+  "type": "asset_manager",
+  "careers_url": "https://www.unigestion.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://unigestion.com/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "H2O AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.h2o-am.com/",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='careers.h2o-am.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='careers.h2o-am.com', port=443): Failed",
+   "HTTPError: 404 Client Error: Not Found for url: https://www.amf-france.org/Recherche-avancee.html?formId=GECO&DOC_TYPE=BDIF&LANGUAGE=fr&subFormId=dij&DATE_PUBLICATION=&DATE_OBSOLESCENCE=&isSearch=true"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Sienna IM",
+  "type": "asset_manager",
+  "careers_url": "https://www.sienna-im.com/",
+  "signatures": {
+   "smartrecruiters": [
+    "oneclick-ui"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "smartrecruiters",
+    "params": {
+     "company": "oneclick-ui"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://api.smartrecruiters.com/v1/companies/oneclick-ui/postings?limit=100&offset=0&q=intern"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "Moneta AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.moneta.fr/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Varenne Capital",
+  "type": "asset_manager",
+  "careers_url": "https://www.varennecapital.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Lazard Frères Gestion",
+  "type": "asset_manager",
+  "careers_url": "https://www.lazardfreresgestion.fr/",
+  "signatures": {},
+  "page_errors": [
+   "SSLError: HTTPSConnectionPool(host='www.lazardfreresgestion.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Eleva Capital",
+  "type": "asset_manager",
+  "careers_url": "https://www.elevacapital.com/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.google.fr/maps/search/Bei+CONTORA+Taunustor+1/@50.1105912,8.6703072,17z/data=!3m1!4b1?entry=ttu"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "La Financière de l'Echiquier",
+  "type": "asset_manager",
+  "careers_url": "https://www.lfde.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Fourpoints IM",
+  "type": "asset_manager",
+  "careers_url": "https://www.fourpointsim.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Muzinich",
+  "type": "asset_manager",
+  "careers_url": "https://www.muzinich.com/careers",
+  "signatures": {
+   "workday": [
+    "muzinich|wd5|muzinichcareers"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.muzinich.com/careers"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://muzinich.wd5.myworkdayjobs.com/muzinichcareers"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://muzinich.wd5.myworkdayjobs.com/muzinichcareers"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Seeyond",
+  "type": "asset_manager",
+  "careers_url": "https://www.seeyond-am.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Aequam Capital",
+  "type": "asset_manager",
+  "careers_url": "https://www.aequamcapital.com/",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='www.aequamcapital.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.aequamcapital.com', port=443): "
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "WorldQuant",
+  "type": "hedge_fund",
+  "careers_url": "https://www.worldquant.com/career-listing/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/worldquantcareers/?hl=en",
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/WorldQuantCareers/",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/worldquantcareers/?hl=en"
+  ],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "worldquant"
+    },
+    "status": "ok",
+    "fetched": 95,
+    "internships": 3,
+    "sample": [
+     "Data Science Intern | Beijing OR Shanghai; Chaoyang Qu, Guangdong, China",
+     "Quantitative Research Intern | Beijing OR Shanghai; Chaoyang Qu, Guangdong, China",
+     "Software Engineer Intern | Hanoi; Hanoi, Hanoi, Vietnam"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "worldquant"
+   },
+   "status": "ok",
+   "fetched": 95,
+   "internships": 3,
+   "sample": [
+    "Data Science Intern | Beijing OR Shanghai; Chaoyang Qu, Guangdong, China",
+    "Quantitative Research Intern | Beijing OR Shanghai; Chaoyang Qu, Guangdong, China",
+    "Software Engineer Intern | Hanoi; Hanoi, Hanoi, Vietnam"
+   ]
+  }
+ },
+ {
+  "name": "Voleon",
+  "type": "hedge_fund",
+  "careers_url": "https://voleon.com/careers/",
+  "signatures": {
+   "ashby": [
+    "voleon"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://voleon.com/careers/"
+  ],
+  "tests": [
+   {
+    "platform": "ashby",
+    "params": {
+     "board": "voleon"
+    },
+    "status": "ok",
+    "fetched": 59,
+    "internships": 2,
+    "sample": [
+     "Software Engineer Intern - (Summer 2027) | Berkeley, CA; New York City, NY",
+     "Research Intern (London) | London"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "ashby",
+   "params": {
+    "board": "voleon"
+   },
+   "status": "ok",
+   "fetched": 59,
+   "internships": 2,
+   "sample": [
+    "Software Engineer Intern - (Summer 2027) | Berkeley, CA; New York City, NY",
+    "Research Intern (London) | London"
+   ]
+  }
+ },
+ {
+  "name": "PDT Partners",
+  "type": "hedge_fund",
+  "careers_url": "https://pdtpartners.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "pdtpartners"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "pdtpartners"
+    },
+    "status": "ok",
+    "fetched": 11,
+    "internships": 3,
+    "sample": [
+     "Summer 2027 Quantitative Research Intern - PhD/Postdoctoral | New York, NY; New York, NY, United States",
+     "Summer 2027 Software Engineering Intern | New York, NY; New York, NY, United States",
+     "Summer 2027 Systems Engineering Intern | New York, NY; New York, NY, United States"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "pdtpartners"
+   },
+   "status": "ok",
+   "fetched": 11,
+   "internships": 3,
+   "sample": [
+    "Summer 2027 Quantitative Research Intern - PhD/Postdoctoral | New York, NY; New York, NY, United States",
+    "Summer 2027 Software Engineering Intern | New York, NY; New York, NY, United States",
+    "Summer 2027 Systems Engineering Intern | New York, NY; New York, NY, United States"
+   ]
+  }
+ },
+ {
+  "name": "Engineers Gate",
+  "type": "hedge_fund",
+  "careers_url": "https://www.engineersgate.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "engineersgate"
+    },
+    "status": "ok",
+    "fetched": 9,
+    "internships": 1,
+    "sample": [
+     "Quantitative Research Intern | Hong Kong"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "engineersgate"
+   },
+   "status": "ok",
+   "fetched": 9,
+   "internships": 1,
+   "sample": [
+    "Quantitative Research Intern | Hong Kong"
+   ]
+  }
+ },
+ {
+  "name": "Old Mission",
+  "type": "hedge_fund",
+  "careers_url": "https://www.oldmissioncapital.com/careers",
+  "signatures": {
+   "ashby": [
+    "old-mission-capital"
+   ]
+  },
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Wolverine Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.wolve.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Peak6",
+  "type": "hedge_fund",
+  "careers_url": "https://peak6.com/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Belvedere Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.belvederetrading.com/careers",
+  "signatures": {
+   "lever": [
+    "belvederetrading"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "lever",
+    "params": {
+     "site": "belvederetrading"
+    },
+    "status": "ok",
+    "fetched": 18,
+    "internships": 3,
+    "sample": [
+     "Quantitative Trading Intern - Summer 2027 | Chicago, Illinois",
+     "Quantitative Trading Intern - Winter Quarter 2027 | Chicago, Illinois",
+     "Software Engineer Intern - Summer 2027 | Chicago, Illinois"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "lever",
+   "params": {
+    "site": "belvederetrading"
+   },
+   "status": "ok",
+   "fetched": 18,
+   "internships": 3,
+   "sample": [
+    "Quantitative Trading Intern - Summer 2027 | Chicago, Illinois",
+    "Quantitative Trading Intern - Winter Quarter 2027 | Chicago, Illinois",
+    "Software Engineer Intern - Summer 2027 | Chicago, Illinois"
+   ]
+  }
+ },
+ {
+  "name": "Headlands Technologies",
+  "type": "hedge_fund",
+  "careers_url": "https://www.headlandstech.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "headlandstechnologiesllc"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "headlandstechnologiesllc"
+    },
+    "status": "ok",
+    "fetched": 8,
+    "internships": 0,
+    "sample": [
+     "C++ Software Developer  | Amsterdam; Chicago; London; New York; Amsterdam, North Holland, Netherlands; Chicago, Illinois, United States; London, England, United Kingdom; New York, New York, United States; Remote - APAC; Remote - Europe; Remote - US; Singapore",
+     "C++ Software Developer - New Grad  | Amsterdam; Chicago; Amsterdam, North Holland, Netherlands; Chicago, Illinois, United States; London, England, United Kingdom; New York, New York, United States; Remote - APAC; Remote - Europe; Remote - US; Singapore",
+     "FPGA Engineer  | Amsterdam; Chicago; London; New York; Amsterdam, North Holland, Netherlands; Chicago, Illinois, United States; London, England, United Kingdom; New York, New York, United States; Remote - APAC; Remote - Europe; Remote - US; Singapore"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "headlandstechnologiesllc"
+   },
+   "status": "ok",
+   "fetched": 8,
+   "internships": 0,
+   "sample": [
+    "C++ Software Developer  | Amsterdam; Chicago; London; New York; Amsterdam, North Holland, Netherlands; Chicago, Illinois, United States; London, England, United Kingdom; New York, New York, United States; Remote - APAC; Remote - Europe; Remote - US; Singapore",
+    "C++ Software Developer - New Grad  | Amsterdam; Chicago; Amsterdam, North Holland, Netherlands; Chicago, Illinois, United States; London, England, United Kingdom; New York, New York, United States; Remote - APAC; Remote - Europe; Remote - US; Singapore",
+    "FPGA Engineer  | Amsterdam; Chicago; London; New York; Amsterdam, North Holland, Netherlands; Chicago, Illinois, United States; London, England, United Kingdom; New York, New York, United States; Remote - APAC; Remote - Europe; Remote - US; Singapore"
+   ]
+  }
+ },
+ {
+  "name": "Radix Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.radixtrading.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "radixexperienced",
+    "radixuniversity"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.radixtrading.com/careers"
+  ],
+  "tests": [
+   {
+    "platform": "recruitee",
+    "params": {
+     "company": "radix"
+    },
+    "status": "ok",
+    "fetched": 4,
+    "internships": 0,
+    "sample": [
+     "Solutions Sales Engineer | Brussel, Brussels, Belgium",
+     "Demand Generation Lead | Brussel, Brussels, Belgium",
+     "Product Marketing Lead | Brussel, Brussels, Belgium"
+    ]
+   },
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "radixexperienced"
+    },
+    "status": "ok",
+    "fetched": 7,
+    "internships": 0,
+    "sample": [
+     "Compliance Specialist – Amsterdam | Radix Trading Amsterdam",
+     "HPC Systems Engineer | Chicago, Illinois, United States; New York, New York, United States; Chicago, Illinois, United States",
+     "Network Engineer  | Chicago, Illinois, United States; New York, New York, United States; New York, New York, United States"
+    ]
+   },
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "radixuniversity"
+    },
+    "status": "ok",
+    "fetched": 8,
+    "internships": 1,
+    "sample": [
+     "Quantitative Technologist (C++ Intern)  | Chicago; Chicago, Illinois, United States"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "radixuniversity"
+   },
+   "status": "ok",
+   "fetched": 8,
+   "internships": 1,
+   "sample": [
+    "Quantitative Technologist (C++ Intern)  | Chicago; Chicago, Illinois, United States"
+   ]
+  }
+ },
+ {
+  "name": "Tibra",
+  "type": "hedge_fund",
+  "careers_url": "https://tibra.com/careers",
+  "signatures": {
+   "workable": [
+    "tibra-capital-1"
+   ]
+  },
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Eclipse Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.eclipsetrading.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "eclipsetrading"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "eclipsetrading"
+    },
+    "status": "ok",
+    "fetched": 16,
+    "internships": 0,
+    "sample": [
+     "Data Systems Team Lead | Hong Kong/ Shanghai/ Sydney; Hong Kong; Shanghai Shi, China; Sydney, New South Wales, Australia",
+     "DevOps Team Lead | Hong Kong/ Sydney; Hong Kong; Sydney, New South Wales, Australia",
+     "Electronic Trading Systems Risk & Control Manager / Senior Manager | Hong Kong"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "eclipsetrading"
+   },
+   "status": "ok",
+   "fetched": 16,
+   "internships": 0,
+   "sample": [
+    "Data Systems Team Lead | Hong Kong/ Shanghai/ Sydney; Hong Kong; Shanghai Shi, China; Sydney, New South Wales, Australia",
+    "DevOps Team Lead | Hong Kong/ Sydney; Hong Kong; Sydney, New South Wales, Australia",
+    "Electronic Trading Systems Risk & Control Manager / Senior Manager | Hong Kong"
+   ]
+  }
+ },
+ {
+  "name": "Mint Tower",
+  "type": "hedge_fund",
+  "careers_url": "https://www.minttower.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='www.minttowercapital.comcareers', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.minttowercapital.comc"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "All Options",
+  "type": "hedge_fund",
+  "careers_url": "https://www.alloptions.nl/careers",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Nyenburgh",
+  "type": "hedge_fund",
+  "careers_url": "https://www.nyenburgh.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "SSLError: HTTPSConnectionPool(host='www.nyenburgh.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate",
+   "SSLError: HTTPSConnectionPool(host='www.nyenburgh.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Liquid Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.liquidcapital.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='www.liquidcapital.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError(\"HTTPSConnection(host='www.liquidcapital.com', port",
+   "ConnectionError: HTTPSConnectionPool(host='www.liquidcapital.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.liquidcapital.com', port=443): "
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Global Trading Systems",
+  "type": "hedge_fund",
+  "careers_url": "https://www.gts.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='www.gts.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError(\"HTTPSConnection(host='www.gts.com', port=443): Failed to res",
+   "ConnectionError: HTTPSConnectionPool(host='www.gts.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.gts.com', port=443): Failed to resolve 'w"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Hutchin Hill",
+  "type": "hedge_fund",
+  "careers_url": "https://www.hutchinhill.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "SSLError: HTTPSConnectionPool(host='www.hutchinhill.com', port=443): Max retries exceeded with url: /careers (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in vio",
+   "SSLError: HTTPSConnectionPool(host='www.hutchinhill.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation "
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "TP ICAP",
+  "type": "broker",
+  "careers_url": "https://www.tpicap.com/tpicap/careers",
+  "signatures": {},
+  "page_errors": [
+   "SSLError: HTTPSConnectionPool(host='www.tpicap.com', port=443): Max retries exceeded with url: /tpicap/careers (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certifi",
+   "SSLError: HTTPSConnectionPool(host='www.tpicap.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify fa"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "BGC Group",
+  "type": "broker",
+  "careers_url": "https://www.bgcg.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bgcg.com/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bgcg.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Tradition",
+  "type": "broker",
+  "careers_url": "https://www.tradition.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.trad-x.com/news/2014/tradition-scoops-interdealer-broker-of-the-year-prize-at-fow-international-awards.aspx"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Cantor Fitzgerald",
+  "type": "broker",
+  "careers_url": "https://www.cantor.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.cantor.com/careers/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.cantor.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Stifel",
+  "type": "broker",
+  "careers_url": "https://www.stifel.com/careers",
+  "signatures": {
+   "icims": [
+    "careers-stifel.icims.com"
+   ],
+   "successfactors": [
+    "career2.successfactors.eu"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://careers-stifel.icims.com/jobs/search?ss=1&searchKeyword={term}&in_iframe=1"
+     ],
+     "link_pattern": "/jobs/\\d+/"
+    },
+    "status": "ok",
+    "fetched": 33,
+    "internships": 33,
+    "sample": [
+     "Title Branch Intern | ",
+     "Title Stifel Charitable Intern- Summer 2027 | ",
+     "Title Compliance-Rotational Intern- Summer 2027 | ",
+     "Title Compliance-AML CIU Intern- Summer 2027 | ",
+     "Title Compliance Licensing & Reg Intern- Summer 2027 | ",
+     "Title Compliance-AML Governance Intern- Summer 2027 | "
+    ]
+   },
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://stifelinstitutional.com"
+    },
+    "status": "error",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://stifelinstitutional.com/search/?q=intern&startrow=0"
+   }
+  ],
+  "best": {
+   "platform": "generic",
+   "params": {
+    "urls": [
+     "https://careers-stifel.icims.com/jobs/search?ss=1&searchKeyword={term}&in_iframe=1"
+    ],
+    "link_pattern": "/jobs/\\d+/"
+   },
+   "status": "ok",
+   "fetched": 33,
+   "internships": 33,
+   "sample": [
+    "Title Branch Intern | ",
+    "Title Stifel Charitable Intern- Summer 2027 | ",
+    "Title Compliance-Rotational Intern- Summer 2027 | ",
+    "Title Compliance-AML CIU Intern- Summer 2027 | ",
+    "Title Compliance Licensing & Reg Intern- Summer 2027 | ",
+    "Title Compliance-AML Governance Intern- Summer 2027 | "
+   ]
+  }
+ },
+ {
+  "name": "Crédit Mutuel Arkéa",
+  "type": "french_bank",
+  "careers_url": "https://www.arkea.com/banque/assurance/credit/mutuel/ecb_5034/fr/carrieres",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 400 Client Error:  for url: https://www.cm-arkea.com/arkea/banque/assurances/j_6/fr/assurances/c_21833/fr/offres-et-services-pour-accompagner-les-transitions",
+   "HTTPError: 400 Client Error:  for url: https://www.cm-arkea.com/arkea/banque/assurances/j_6/fr/assurances/c_5101/fr/nous-rejoindre",
+   "HTTPError: 400 Client Error:  for url: https://www.cm-arkea.com/arkea/banque/assurances/j_6/fr/assurances/pa_38256/fr/arkea-handicap-international-la-route-du-rhum-2026-l-aboutissement-d-un-projet-spo"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "BRED",
+  "type": "french_bank",
+  "careers_url": "https://www.bred.fr/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Union Bancaire Privée",
+  "type": "european_bank",
+  "careers_url": "https://www.ubp.com/en/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "J. Safra Sarasin",
+  "type": "european_bank",
+  "careers_url": "https://www.jsafrasarasin.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Mirabaud",
+  "type": "european_bank",
+  "careers_url": "https://www.mirabaud.com/en/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Banque Syz",
+  "type": "european_bank",
+  "careers_url": "https://www.syzgroup.com/en/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Quintet Private Bank",
+  "type": "european_bank",
+  "careers_url": "https://www.quintet.com/en-gb/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.quintet.com/en-gb/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Banque de Luxembourg",
+  "type": "european_bank",
+  "careers_url": "https://www.banquedeluxembourg.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "d-fine",
+  "type": "consulting",
+  "careers_url": "https://www.d-fine.com/en/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.d-fine.com/en/careers/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Capco",
+  "type": "consulting",
+  "careers_url": "https://www.capco.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "capco"
+    },
+    "status": "ok",
+    "fetched": 709,
+    "internships": 1,
+    "sample": [
+     "HR Intern | India - Bengaluru; India"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "capco"
+   },
+   "status": "ok",
+   "fetched": 709,
+   "internships": 1,
+   "sample": [
+    "HR Intern | India - Bengaluru; India"
+   ]
+  }
+ },
+ {
+  "name": "Chappuis Halder & Co",
+  "type": "consulting",
+  "careers_url": "https://www.chappuishalder.com/",
+  "signatures": {},
+  "page_errors": [
+   "SSLError: HTTPSConnectionPool(host='www.chappuishalder.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error ("
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Accuracy",
+  "type": "consulting",
+  "careers_url": "https://www.accuracy.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/accuracycareers/",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/accuracycareers/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Quanteam",
+  "type": "consulting",
+  "careers_url": "https://www.quanteam.fr/",
+  "signatures": {
+   "jsonld": [
+    "\"@type\":\"JobPosting\""
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://quanteam.fr/offres-demploi/support-orchestrade-geneve/"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "SUPPORT ORCHESTRADE &#8211; GENEVE | Genève"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://quanteam.fr/offres-demploi/business-development-analyst-new-york/"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Business Development Analyst H/F &#8211; New York | New York"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "generic",
+   "params": {
+    "urls": [
+     "https://quanteam.fr/offres-demploi/support-orchestrade-geneve/"
+    ]
+   },
+   "status": "ok",
+   "fetched": 1,
+   "internships": 0,
+   "sample": [
+    "SUPPORT ORCHESTRADE &#8211; GENEVE | Genève"
+   ]
+  }
+ },
+ {
+  "name": "Lucht Probst Associates",
+  "type": "consulting",
+  "careers_url": "https://www.l-p-a.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Fintegral",
+  "type": "consulting",
+  "careers_url": "https://www.fintegral.com/careers",
+  "signatures": {
+   "teamtailor": [
+    "www",
+    "zanders"
+   ]
+  },
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Ailancy",
+  "type": "consulting",
+  "careers_url": "https://www.ailancy.com/",
+  "signatures": {
+   "welcometothejungle": [
+    "ailancy"
+   ]
+  },
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Square Management",
+  "type": "consulting",
+  "careers_url": "https://www.square-management.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Alvarez & Marsal",
+  "type": "consulting",
+  "careers_url": "https://www.alvarezandmarsal.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.alvarezandmarsal.com/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.alvarezandmarsal.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Grant Thornton",
+  "type": "consulting",
+  "careers_url": "https://www.grantthornton.fr/fr/carrieres/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.grantthornton.fr/fr/carrieres/"
+  ],
+  "tests": [
+   {
+    "platform": "recruitee",
+    "params": {
+     "company": "grantthornton"
+    },
+    "status": "ok",
+    "fetched": 59,
+    "internships": 4,
+    "sample": [
+     "Juriste Stagiaire - Direction Technique Audit - Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France",
+     "Stagiaire Avocat - Corporate M&A – Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France",
+     "Stagiaire - Droit Social - Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France",
+     "Stagiaire - Fiscalité Patrimoniale/Mobilité Internationale - Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France"
+    ]
+   },
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://grantthornton.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 28,
+    "internships": 0,
+    "sample": [
+     "Junior revisor | Malmö | September 2027 | Malmö, Sweden",
+     "Junior revisor | Luleå | Januari 2027 | Luleå, Sweden",
+     "Junior revisor | Uppsala | Januari 2027 | Uppsala, Sweden"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "recruitee",
+   "params": {
+    "company": "grantthornton"
+   },
+   "status": "ok",
+   "fetched": 59,
+   "internships": 4,
+   "sample": [
+    "Juriste Stagiaire - Direction Technique Audit - Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France",
+    "Stagiaire Avocat - Corporate M&A – Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France",
+    "Stagiaire - Droit Social - Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France",
+    "Stagiaire - Fiscalité Patrimoniale/Mobilité Internationale - Neuilly (H/F) | Neuilly-sur-Seine, Île-de-France, France"
+   ]
+  }
+ },
+ {
+  "name": "Exton Consulting",
+  "type": "consulting",
+  "careers_url": "https://www.extonconsulting.com/",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='www.extonconsulting.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.extonconsulting.com', port=44"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Quantifi",
+  "type": "software",
+  "careers_url": "https://www.quantifisolutions.com/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Opensee",
+  "type": "software",
+  "careers_url": "https://www.opensee.io/careers",
+  "signatures": {
+   "welcometothejungle": [
+    "opensee"
+   ]
+  },
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Nasdaq (Calypso / Adenza)",
+  "type": "software",
+  "careers_url": "https://www.nasdaq.com/about/careers",
+  "signatures": {},
+  "page_errors": [
+   "ReadTimeout: HTTPSConnectionPool(host='www.nasdaq.com', port=443): Read timed out. (read timeout=20)",
+   "ReadTimeout: HTTPSConnectionPool(host='www.nasdaq.com', port=443): Read timed out. (read timeout=20)"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site"
+    },
+    "status": "ok",
+    "fetched": 3,
+    "internships": 3,
+    "sample": [
+     "Intelligent Automation Intern - 2027 Summer Internship | USA - New York City - New York",
+     "MarketSite Events Intern - 2027 Summer Internship | USA - New York City - New York",
+     "Business Analyst Intern - 2027 Summer Internship | USA - New York City - New York"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site"
+   },
+   "status": "ok",
+   "fetched": 3,
+   "internships": 3,
+   "sample": [
+    "Intelligent Automation Intern - 2027 Summer Internship | USA - New York City - New York",
+    "MarketSite Events Intern - 2027 Summer Internship | USA - New York City - New York",
+    "Business Analyst Intern - 2027 Summer Internship | USA - New York City - New York"
+   ]
+  }
+ },
+ {
+  "name": "Axpo",
+  "type": "commodities",
+  "careers_url": "https://www.axpo.com/ch/en/about-us/careers.html",
+  "signatures": {
+   "teamtailor": [
+    "axposystemsag",
+    "ckw",
+    "kernkraftwerkleibstadtag",
+    "urbasolar",
+    "www"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.axpo.com/ch/en/about-us/careers.html"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Alpiq",
+  "type": "commodities",
+  "careers_url": "https://www.alpiq.com/career",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://alpiq.jobs.cz/",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/jobs/search/?currentJobId=4033708318&f_C=352594"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Statkraft",
+  "type": "commodities",
+  "careers_url": "https://www.statkraft.com/careers/",
+  "signatures": {
+   "smartrecruiters": [
+    "oneclick-ui"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "smartrecruiters",
+    "params": {
+     "company": "oneclick-ui"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://api.smartrecruiters.com/v1/companies/oneclick-ui/postings?limit=100&offset=0&q=intern"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "Uniper",
+  "type": "commodities",
+  "careers_url": "https://www.uniper.energy/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.uniper.energy/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.uniper.energy/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "RWE Supply & Trading",
+  "type": "commodities",
+  "careers_url": "https://www.rwe.com/en/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "EnBW",
+  "type": "commodities",
+  "careers_url": "https://www.enbw.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.enbw.com/careers/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Ørsted",
+  "type": "commodities",
+  "careers_url": "https://orsted.com/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://orsted.com/en/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://orsted.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Vattenfall",
+  "type": "commodities",
+  "careers_url": "https://group.vattenfall.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Centrica Energy Trading",
+  "type": "commodities",
+  "careers_url": "https://www.centrica.com/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Danske Commodities",
+  "type": "commodities",
+  "careers_url": "https://danskecommodities.com/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Hartree Partners",
+  "type": "commodities",
+  "careers_url": "https://www.hartreepartners.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.hartreepartners.com/careers/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.hartreepartners.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Castleton Commodities",
+  "type": "commodities",
+  "careers_url": "https://www.cci.com/careers/",
+  "signatures": {
+   "workday": [
+    "osv-cci|wd1|CCICareers"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/castleton-commodities-international?form=MY01SV&OCID=MY01SV"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://osv-cci.wd1.myworkdayjobs.com/CCICareers"
+    },
+    "status": "error",
+    "error": "HTTPError: 422 Client Error: Unprocessable Entity for url: https://osv-cci.wd1.myworkdayjobs.com/wday/cxs/osv-cci/CCICareers/jobs"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "Louis Dreyfus Company",
+  "type": "commodities",
+  "careers_url": "https://www.ldc.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/posts/louis-dreyfus-company_teamldc-careers-activity-7143944848406970368-2211?utm_source=share&utm_medium=member_desktop",
+   "RobotsDisallowed: robots.txt disallows https://b.xiumi.us/stage/v5/6wxtt/486075081",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.ldc.com/careers/life-at-ldc/making-a-difference/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Cargill",
+  "type": "commodities",
+  "careers_url": "https://careers.cargill.com/",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ],
+   "successfactors": [
+    "career2.successfactors.eu"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://career2.successfactors.eu/career?career_company=cargill&lang=en_US&company=cargill&site=&loginFlowRequired=true&_s.crb=7GQWlQ1F2u73RR9o5QRvhyr14wcN%2fenW",
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/cargillcareers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.cargill.com/doc/1432075951391/eeo-is-the-law.pdf"
+  ],
+  "tests": [
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://careers.cargill.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://careers.cargill.com/search-jobs/intern?p=1"
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.cargill.com.cn"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://jobs.cargill.com.cn"
+    },
+    "status": "error",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://jobs.cargill.com.cn/search/?q=intern&startrow=0"
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.cargill.ru"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.cargill.ru/search-jobs/intern?p=1"
+   },
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://jobs.cargill.ru"
+    },
+    "status": "error",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://jobs.cargill.ru/search/?q=intern&startrow=0"
+   }
+  ],
+  "best": {
+   "platform": "radancy",
+   "params": {
+    "base": "https://jobs.cargill.com.cn"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Keyrock",
+  "type": "hedge_fund",
+  "careers_url": "https://keyrock.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://keyrock.com/careers/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://keyrock.com/"
+  ],
+  "tests": [
+   {
+    "platform": "ashby",
+    "params": {
+     "board": "keyrock"
+    },
+    "status": "ok",
+    "fetched": 8,
+    "internships": 0,
+    "sample": [
+     "Head of Marketing (Director) | London; Geneva; Amsterdam; Madrid; Berlin; Paris; Dublin; Luxembourg; Brussels; Zurich",
+     "Head of Marketing (Director) | Chicago",
+     "Senior Data Engineer | Brussels; Rome; Barcelona; Zug; Porto; Cape Town; Istanbul; Eindhoven; Geneva; Milan; Amsterdam; Manama; Madrid; London; Dubai; Berlin; Antwerp; Copenhagen; Vienna ; Prague; Athens; Budapest; Paris; Frankfurt; Dublin; Warsaw; Sofia; Luxembourg; Remote; Zurich; Abu Dhabi; Lisbon; London; Tallinn; London OR Brussels; Seychelles; Rotterdam; Krakow; Johannesburg; Zagreb"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "ashby",
+   "params": {
+    "board": "keyrock"
+   },
+   "status": "ok",
+   "fetched": 8,
+   "internships": 0,
+   "sample": [
+    "Head of Marketing (Director) | London; Geneva; Amsterdam; Madrid; Berlin; Paris; Dublin; Luxembourg; Brussels; Zurich",
+    "Head of Marketing (Director) | Chicago",
+    "Senior Data Engineer | Brussels; Rome; Barcelona; Zug; Porto; Cape Town; Istanbul; Eindhoven; Geneva; Milan; Amsterdam; Manama; Madrid; London; Dubai; Berlin; Antwerp; Copenhagen; Vienna ; Prague; Athens; Budapest; Paris; Frankfurt; Dublin; Warsaw; Sofia; Luxembourg; Remote; Zurich; Abu Dhabi; Lisbon; London; Tallinn; London OR Brussels; Seychelles; Rotterdam; Krakow; Johannesburg; Zagreb"
+   ]
+  }
+ },
+ {
+  "name": "Flowdesk",
+  "type": "hedge_fund",
+  "careers_url": "https://www.flowdesk.co/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "flowdesk"
+    },
+    "status": "ok",
+    "fetched": 9,
+    "internships": 1,
+    "sample": [
+     "Markets | Algo Trader | Intern | Paris; Paris, France"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "flowdesk"
+   },
+   "status": "ok",
+   "fetched": 9,
+   "internships": 1,
+   "sample": [
+    "Markets | Algo Trader | Intern | Paris; Paris, France"
+   ]
+  }
+ },
+ {
+  "name": "Wintermute",
+  "type": "hedge_fund",
+  "careers_url": "https://www.wintermute.com/careers",
+  "signatures": {
+   "lever": [
+    "wintermute-trading"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "lever",
+    "params": {
+     "site": "wintermute-trading"
+    },
+    "status": "ok",
+    "fetched": 20,
+    "internships": 0,
+    "sample": [
+     "Algorithmic Trader | London/New York",
+     "Business Development & Partnerships — All Levels | New York",
+     "Business Development & Partnerships Director | London"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "lever",
+   "params": {
+    "site": "wintermute-trading"
+   },
+   "status": "ok",
+   "fetched": 20,
+   "internships": 0,
+   "sample": [
+    "Algorithmic Trader | London/New York",
+    "Business Development & Partnerships — All Levels | New York",
+    "Business Development & Partnerships Director | London"
+   ]
+  }
+ },
+ {
+  "name": "B2C2",
+  "type": "hedge_fund",
+  "careers_url": "https://www.b2c2.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "b2c2"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.b2c2.com/careers"
+  ],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "b2c2"
+    },
+    "status": "ok",
+    "fetched": 4,
+    "internships": 0,
+    "sample": [
+     "IT - HFT System & Network Specialist - London | London; London, England, United Kingdom",
+     "Onboarding - KYC Onboarding - Senior Associate | New York; New York, NY, USA",
+     "Onboarding - Onboarding Associate | Lisbon; Lisbon "
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "b2c2"
+   },
+   "status": "ok",
+   "fetched": 4,
+   "internships": 0,
+   "sample": [
+    "IT - HFT System & Network Specialist - London | London; London, England, United Kingdom",
+    "Onboarding - KYC Onboarding - Senior Associate | New York; New York, NY, USA",
+    "Onboarding - Onboarding Associate | Lisbon; Lisbon "
+   ]
+  }
+ },
+ {
+  "name": "GSR",
+  "type": "hedge_fund",
+  "careers_url": "https://www.gsr.io/careers",
+  "signatures": {
+   "greenhouse": [
+    "gsrmarkets"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https://www.gsr.io/careers",
+   "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet?&url=https://www.gsr.io/careers",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/shareArticle?mini=true&url=https://www.gsr.io/careers&title=Careers in Crypto&source=https://www.gsr.io/careers"
+  ],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "gsrmarkets"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 0,
+    "sample": [
+     "Quant Developer | London; 3rd Floor, 65 Curzon Street, London, W1J 8PE",
+     "Quant Trader - Asia | Singapore",
+     "Quant Trader (DeFi) | London; Zug; Singapore; 3rd Floor, 65 Curzon Street, London, W1J 8PE; New York; Zug"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "gsrmarkets"
+   },
+   "status": "ok",
+   "fetched": 6,
+   "internships": 0,
+   "sample": [
+    "Quant Developer | London; 3rd Floor, 65 Curzon Street, London, W1J 8PE",
+    "Quant Trader - Asia | Singapore",
+    "Quant Trader (DeFi) | London; Zug; Singapore; 3rd Floor, 65 Curzon Street, London, W1J 8PE; New York; Zug"
+   ]
+  }
+ },
+ {
+  "name": "Deribit",
+  "type": "infrastructure",
+  "careers_url": "https://www.deribit.com/",
+  "signatures": {
+   "recruitee": [
+    "deribit",
+    "landing",
+    "support",
+    "tagging-server"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 503 Server Error: Service Unavailable for url: https://insights.deribit.com/",
+   "HTTPError: 503 Server Error: Service Unavailable for url: https://insights.deribit.com/market-research/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Paradigm",
+  "type": "infrastructure",
+  "careers_url": "https://www.paradigm.co/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 410 Client Error: Gone for url: https://wellfound.com/jobs/550693-senior-backend-engineer"
+  ],
+  "tests": [
+   {
+    "platform": "ashby",
+    "params": {
+     "board": "paradigm"
+    },
+    "status": "ok",
+    "fetched": 7,
+    "internships": 0,
+    "sample": [
+     "Growth - Paradigm Portfolio | Remote",
+     "Engineering - Paradigm Portfolio | Remote",
+     "Infrastructure Engineer, Applied AI | San Francisco, CA"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "ashby",
+   "params": {
+    "board": "paradigm"
+   },
+   "status": "ok",
+   "fetched": 7,
+   "internships": 0,
+   "sample": [
+    "Growth - Paradigm Portfolio | Remote",
+    "Engineering - Paradigm Portfolio | Remote",
+    "Infrastructure Engineer, Applied AI | San Francisco, CA"
+   ]
+  }
+ },
+ {
+  "name": "Helaba",
+  "type": "european_bank",
+  "careers_url": "https://www.helaba.com/int/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.helaba.com/int/careers/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "DekaBank",
+  "type": "european_bank",
+  "careers_url": "https://www.deka.de/deka-gruppe/karriere",
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://karriere.deka.de"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "successfactors",
+   "params": {
+    "base": "https://karriere.deka.de"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "BayernLB",
+  "type": "european_bank",
+  "careers_url": "https://www.bayernlb.com/internet/en/blb/resp/karriere/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.bayernlb.com/internet/en/blb/resp/karriere/",
+   "HTTPError: 404 Client Error: Not Found for url: https://www.bayernlb.com/internet/en/blb/resp/search/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "NORD/LB",
+  "type": "european_bank",
+  "careers_url": "https://www.nordlb.com/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://instagram.com/nordlb.karrierestart/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "KfW",
+  "type": "european_bank",
+  "careers_url": "https://www.kfw.de/About-KfW/Careers/",
+  "signatures": {
+   "jsonld": [
+    "\"@type\":\"JobPosting\""
+   ]
+  },
+  "page_errors": [
+   "ConnectTimeout: HTTPSConnectionPool(host='kfw-jobs.de', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='kfw-jobs.de', port=443) at 0x7f71e47cb050>, 'C"
+  ],
+  "tests": [
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.kfw.de/index.php?ac=jobad&code=Zmt7kA%2F9kkKQeP%2BUGPSIm93NwYSj2r07XJYLctu%2BSQ6hCySxoK55IT63n73AbXt%2FH8eNCAuj78iyQCyNQsPa2tD1TM0jWV4J"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "(Erfahrene) Mitarbeiter (w/m/d) mit Ausbildung und Interesse am Bank- und Finanzumfeld | Frankfurt, DE"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "generic",
+   "params": {
+    "urls": [
+     "https://jobs.kfw.de/index.php?ac=jobad&code=Zmt7kA%2F9kkKQeP%2BUGPSIm93NwYSj2r07XJYLctu%2BSQ6hCySxoK55IT63n73AbXt%2FH8eNCAuj78iyQCyNQsPa2tD1TM0jWV4J"
+    ]
+   },
+   "status": "ok",
+   "fetched": 1,
+   "internships": 0,
+   "sample": [
+    "(Erfahrene) Mitarbeiter (w/m/d) mit Ausbildung und Interesse am Bank- und Finanzumfeld | Frankfurt, DE"
+   ]
+  }
+ },
+ {
+  "name": "DNB",
+  "type": "european_bank",
+  "careers_url": "https://www.dnb.no/en/about-us/careers",
+  "signatures": {
+   "successfactors": [
+    "career2.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://dnbeiendom.no/jobbe-hos-oss"
+  ],
+  "tests": [
+   {
+    "platform": "lever",
+    "params": {
+     "site": "dnb"
+    },
+    "status": "ok",
+    "fetched": 94,
+    "internships": 0,
+    "sample": [
+     "2027 Enterprise Sales Development Program | Florham Park - New Jersey - United States",
+     "Account Executive III, Tier 2 Banking Vertical, NYC/Boston (R-20081) | Remote - United States",
+     "AI Software Engineer II (R-19524) | Dublin - Ireland"
+    ]
+   },
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://jobb.dnb.no"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "lever",
+   "params": {
+    "site": "dnb"
+   },
+   "status": "ok",
+   "fetched": 94,
+   "internships": 0,
+   "sample": [
+    "2027 Enterprise Sales Development Program | Florham Park - New Jersey - United States",
+    "Account Executive III, Tier 2 Banking Vertical, NYC/Boston (R-20081) | Remote - United States",
+    "AI Software Engineer II (R-19524) | Dublin - Ireland"
+   ]
+  }
+ },
+ {
+  "name": "Swedbank",
+  "type": "european_bank",
+  "careers_url": "https://www.swedbank.com/about-swedbank/career.html",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.swedbank.com/about-swedbank/career.html"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Handelsbanken",
+  "type": "european_bank",
+  "careers_url": "https://www.handelsbanken.com/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/handelsbanken/jobs/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Erste Group",
+  "type": "european_bank",
+  "careers_url": "https://www.erstegroup.com/en/career",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "CaixaBank",
+  "type": "european_bank",
+  "careers_url": "https://www.caixabank.com/en/careers",
+  "signatures": {
+   "successfactors": [
+    "career2.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.caixabank.com/en/careers"
+  ],
+  "tests": [
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://caixabankcareers.com"
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "ABOGADO/A PARA LA OFICINA DE PRIVACIDAD | BARCELONA, B, ES, 08028"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "successfactors",
+   "params": {
+    "base": "https://caixabankcareers.com"
+   },
+   "status": "ok",
+   "fetched": 1,
+   "internships": 0,
+   "sample": [
+    "ABOGADO/A PARA LA OFICINA DE PRIVACIDAD | BARCELONA, B, ES, 08028"
+   ]
+  }
+ },
+ {
+  "name": "Banco Sabadell",
+  "type": "european_bank",
+  "careers_url": "https://www.grupbancsabadell.com/corp/en/careers.html",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.grupbancsabadell.com/corp/en/careers.html"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Bankinter",
+  "type": "european_bank",
+  "careers_url": "https://www.bankinter.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Equita",
+  "type": "broker",
+  "careers_url": "https://www.equita.eu/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.equita.eu/en/careers/index.html"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Van Lanschot Kempen",
+  "type": "european_bank",
+  "careers_url": "https://www.vanlanschotkempen.com/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/vanlanschotkempencareers",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/vanlanschotkempencareers/",
+   "RobotsDisallowed: robots.txt disallows https://research.vanlanschotkempen.com"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "LGT",
+  "type": "european_bank",
+  "careers_url": "https://www.lgt.com/global-en/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.lgt.com/global-en/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Banque Cantonale de Genève",
+  "type": "european_bank",
+  "careers_url": "https://www.bcge.ch/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "CACEIS",
+  "type": "european_bank",
+  "careers_url": "https://www.caceis.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.caceis.com/careers/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "National Bank of Canada",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.nbc.ca/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://jobs.nbc.ca/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Commonwealth Bank",
+  "type": "intl_bank",
+  "careers_url": "https://www.commbank.com.au/about-us/careers.html",
+  "signatures": {
+   "workday": [
+    "cba|wd3|CommBank_Careers"
+   ],
+   "avature": [
+    "cba.avature.net"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://cba.wd3.myworkdayjobs.com/CommBank_Careers"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://cba.wd3.myworkdayjobs.com/CommBank_Careers"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Tradeweb",
+  "type": "infrastructure",
+  "careers_url": "https://www.tradeweb.com/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "MarketAxess",
+  "type": "infrastructure",
+  "careers_url": "https://www.marketaxess.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Cboe",
+  "type": "infrastructure",
+  "careers_url": "https://www.cboe.com/about/careers/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.cboe.com/us/en"
+    },
+    "status": "ok",
+    "fetched": 100,
+    "internships": 10,
+    "sample": [
+     "Linux Engineer Intern | Chicago, Illinois, United States of America; Kansas City, Missouri, United States of America; New York, New York, United States of America",
+     "Surveillance Analyst Intern | Chicago, Illinois, United States of America; Kansas City, Missouri, United States of America; New York, New York, United States of America",
+     "Infrastructure Intern | Chicago, Illinois, United States of America; Kansas City, Missouri, United States of America; New York, New York, United States of America",
+     "Marketing Intern | Chicago, Illinois, United States of America",
+     "Technical Business Analyst Intern | Chicago, Illinois, United States of America",
+     "Quant & Data Analytics Intern | Chicago, Illinois, United States of America"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://careers.cboe.com/us/en"
+   },
+   "status": "ok",
+   "fetched": 100,
+   "internships": 10,
+   "sample": [
+    "Linux Engineer Intern | Chicago, Illinois, United States of America; Kansas City, Missouri, United States of America; New York, New York, United States of America",
+    "Surveillance Analyst Intern | Chicago, Illinois, United States of America; Kansas City, Missouri, United States of America; New York, New York, United States of America",
+    "Infrastructure Intern | Chicago, Illinois, United States of America; Kansas City, Missouri, United States of America; New York, New York, United States of America",
+    "Marketing Intern | Chicago, Illinois, United States of America",
+    "Technical Business Analyst Intern | Chicago, Illinois, United States of America",
+    "Quant & Data Analytics Intern | Chicago, Illinois, United States of America"
+   ]
+  }
+ },
+ {
+  "name": "SIX Group",
+  "type": "infrastructure",
+  "careers_url": "https://www.six-group.com/en/company/career.html",
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.six-group.com/en/company/career.html",
+   "RobotsDisallowed: robots.txt disallows https://gate.sic.ch/chf/sicweb-portal/ui/",
+   "RobotsDisallowed: robots.txt disallows https://gate-x-e.np.sic.ch/chf/sicweb-portal/ui/"
+  ],
+  "tests": [
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://www.six-group.com"
+    },
+    "status": "error",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.six-group.com/search?q=intern&startrow=0"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "OpenGamma",
+  "type": "software",
+  "careers_url": "https://opengamma.com/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Orchestrade",
+  "type": "software",
+  "careers_url": "https://www.orchestrade.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Quantitative Brokers",
+  "type": "software",
+  "careers_url": "https://www.quantitativebrokers.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Beacon Platform",
+  "type": "software",
+  "careers_url": "https://www.beacon.io/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Clear Street",
+  "type": "broker",
+  "careers_url": "https://clearstreet.io/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://clearstreet-portal.bluematrix.com/",
+   "RobotsDisallowed: robots.txt disallows https://clearstreet-portal.bluematrix.com/"
+  ],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "clearstreet"
+    },
+    "status": "ok",
+    "fetched": 45,
+    "internships": 0,
+    "sample": [
+     "AML Onboarding Associate | New York, NY ; New York, NY, United States",
+     "Associate - Client Onboarding | New York, NY; New York, NY, United States",
+     "Associate Counsel, Commercial Retail | New York, NY; New York, NY, United States"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "clearstreet"
+   },
+   "status": "ok",
+   "fetched": 45,
+   "internships": 0,
+   "sample": [
+    "AML Onboarding Associate | New York, NY ; New York, NY, United States",
+    "Associate - Client Onboarding | New York, NY; New York, NY, United States",
+    "Associate Counsel, Commercial Retail | New York, NY; New York, NY, United States"
+   ]
+  }
+ },
+ {
+  "name": "Kaiko",
+  "type": "software",
+  "careers_url": "https://www.kaiko.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.kaiko.com/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Hannover Re",
+  "type": "insurance",
+  "careers_url": "https://www.hannover-re.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.hannover-re.com/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "PartnerRe",
+  "type": "insurance",
+  "careers_url": "https://partnerre.com/careers/",
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Milliman",
+  "type": "consulting",
+  "careers_url": "https://www.milliman.com/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.milliman.com/en/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "WTW",
+  "type": "consulting",
+  "careers_url": "https://careers.wtwco.com/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/willistowerswatsoncareers/",
+   "ReadTimeout: HTTPSConnectionPool(host='careers.wtwco.com', port=443): Read timed out. (read timeout=20)"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Aon",
+  "type": "consulting",
+  "careers_url": "https://jobs.aon.com/",
+  "signatures": {
+   "icims": [
+    "australia-careers-aon.icims.com/jobs",
+    "canadaenglish-careers-aon.icims.com/jobs",
+    "canadafrench-careers-aon.icims.com/jobs",
+    "careers-aon.icims.com",
+    "careers-hong-kong-aon.icims.com"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://aon.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "teamtailor",
+   "params": {
+    "base": "https://aon.teamtailor.com"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "AllianceBernstein",
+  "type": "asset_manager",
+  "careers_url": "https://www.alliancebernstein.com/corporate/en/careers.html",
+  "signatures": {
+   "workday": [
+    "abglobal|wd1|alliancebernsteincareers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Wellington Management",
+  "type": "asset_manager",
+  "careers_url": "https://www.wellington.com/en/careers",
+  "signatures": {
+   "workday": [
+    "wellington|wd5|External"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://wellington.wd5.myworkdayjobs.com/External"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Compliance Internship - Luxembourg | Luxembourg, Luxembourg",
+     "2027 Compliance Internship - Frankfurt | Frankfurt, Germany",
+     "2027 APAC Legal Off Cycle Internship - 6 Months | Central Hong Kong, Hong Kong",
+     "2027 Investment Platform Industrial Placement Internship Programme (London) | London, United Kingdom",
+     "2027 Client Platform Industrial Placement Internship Programme (London) | ",
+     "2027 Infrastructure Platform Industrial Placement Internship Programme (London) | "
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://wellington.wd5.myworkdayjobs.com/External"
+   },
+   "status": "ok",
+   "fetched": 6,
+   "internships": 6,
+   "sample": [
+    "Compliance Internship - Luxembourg | Luxembourg, Luxembourg",
+    "2027 Compliance Internship - Frankfurt | Frankfurt, Germany",
+    "2027 APAC Legal Off Cycle Internship - 6 Months | Central Hong Kong, Hong Kong",
+    "2027 Investment Platform Industrial Placement Internship Programme (London) | London, United Kingdom",
+    "2027 Client Platform Industrial Placement Internship Programme (London) | ",
+    "2027 Infrastructure Platform Industrial Placement Internship Programme (London) | "
+   ]
+  }
+ },
+ {
+  "name": "T. Rowe Price",
+  "type": "asset_manager",
+  "careers_url": "https://www.troweprice.com/corporate/careers",
+  "signatures": {
+   "workday": [
+    "troweprice|wd5|TRowePrice",
+    "troweprice|wd5|TRowePriceInternational"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.troweprice.com/corporate/careers"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePriceInternational"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Franklin Templeton",
+  "type": "asset_manager",
+  "careers_url": "https://www.franklintempletoncareers.com/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ],
+   "workday": [
+    "franklintempleton|wd5|Primary-External-1"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.franklintempleton.com/us/en"
+    },
+    "status": "ok",
+    "fetched": 100,
+    "internships": 11,
+    "sample": [
+     "Intern - Fixed Income Sustainability Team | Remote, Poland",
+     "Intern (TGI - Portfolio Management/ AI Automation) | Singapore, Singapore",
+     "Intern (TGI - Machine Learning/ AI Engineering) | Singapore, Singapore",
+     "Intern (Multi-Asset/ Investment Strategy) | Singapore, Singapore",
+     "Intern - Enterprise Business Strategies & Implementation | Poznan, Poland",
+     "Intern - International Investment Marketing | Poznan, Poland"
+    ]
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://franklintempleton.wd5.myworkdayjobs.com/Primary-External-1"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://careers.franklintempleton.com/us/en"
+   },
+   "status": "ok",
+   "fetched": 100,
+   "internships": 11,
+   "sample": [
+    "Intern - Fixed Income Sustainability Team | Remote, Poland",
+    "Intern (TGI - Portfolio Management/ AI Automation) | Singapore, Singapore",
+    "Intern (TGI - Machine Learning/ AI Engineering) | Singapore, Singapore",
+    "Intern (Multi-Asset/ Investment Strategy) | Singapore, Singapore",
+    "Intern - Enterprise Business Strategies & Implementation | Poznan, Poland",
+    "Intern - International Investment Marketing | Poznan, Poland"
+   ]
+  }
+ },
+ {
+  "name": "Capital Group",
+  "type": "asset_manager",
+  "careers_url": "https://www.capitalgroup.com/about-us/careers.html",
+  "signatures": {
+   "workday": [
+    "capgroup|wd1|capitalgroupcareers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers"
+    },
+    "status": "ok",
+    "fetched": 7,
+    "internships": 7,
+    "sample": [
+     "CAP Summer Associate - Europe (2027) | London",
+     "CAP Summer Associate - Asia (2027) | Singapore",
+     "MBA Equity Investment Analyst Summer Associate (US) | Los Angeles",
+     "MBA Equity Investment Analyst Summer Associate (Europe) | London",
+     "MBA Equity Investment Analyst Summer Associate (Asia) | Singapore",
+     "MBA Fixed Income Investment Analyst Summer Associate (US) | West Los Angeles"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers"
+   },
+   "status": "ok",
+   "fetched": 7,
+   "internships": 7,
+   "sample": [
+    "CAP Summer Associate - Europe (2027) | London",
+    "CAP Summer Associate - Asia (2027) | Singapore",
+    "MBA Equity Investment Analyst Summer Associate (US) | Los Angeles",
+    "MBA Equity Investment Analyst Summer Associate (Europe) | London",
+    "MBA Equity Investment Analyst Summer Associate (Asia) | Singapore",
+    "MBA Fixed Income Investment Analyst Summer Associate (US) | West Los Angeles"
+   ]
+  }
+ },
+ {
+  "name": "Northern Trust",
+  "type": "asset_manager",
+  "careers_url": "https://careers.northerntrust.com/",
+  "signatures": {
+   "workday": [
+    "ntrs|wd1|northerntrust"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://ntrs.wd1.myworkdayjobs.com/northerntrust"
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 1,
+    "sample": [
+     "Wealth Management Intern - Atlanta | Atlanta, GA"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://ntrs.wd1.myworkdayjobs.com/northerntrust"
+   },
+   "status": "ok",
+   "fetched": 1,
+   "internships": 1,
+   "sample": [
+    "Wealth Management Intern - Atlanta | Atlanta, GA"
+   ]
+  }
+ },
+ {
+  "name": "Nuveen",
+  "type": "asset_manager",
+  "careers_url": "https://www.nuveen.com/en-us/about-us/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Columbia Threadneedle",
+  "type": "asset_manager",
+  "careers_url": "https://www.columbiathreadneedle.com/en/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.columbiathreadneedle.com/en/careers/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Ninety One",
+  "type": "asset_manager",
+  "careers_url": "https://ninetyone.com/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://externalcareers.ninetyone.com/experienced-hires/",
+   "RobotsDisallowed: robots.txt disallows https://externalcareers.ninetyone.com/graduates/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Aberdeen",
+  "type": "asset_manager",
+  "careers_url": "https://www.aberdeenplc.com/en-gb/careers",
+  "signatures": {
+   "workday": [
+    "abrdn|wd3|AberdeenEarlyCareer",
+    "abrdn|wd3|abrdn"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://abrdn.wd3.myworkdayjobs.com/abrdn"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://abrdn.wd3.myworkdayjobs.com/AberdeenEarlyCareer"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://abrdn.wd3.myworkdayjobs.com/abrdn"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Insight Investment",
+  "type": "asset_manager",
+  "careers_url": "https://www.insightinvestment.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.insightinvestment.com/careers/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Vanguard",
+  "type": "asset_manager",
+  "careers_url": "https://www.vanguardjobs.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Winton",
+  "type": "hedge_fund",
+  "careers_url": "https://www.winton.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "winton"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.winton.com/careers"
+  ],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "winton"
+    },
+    "status": "ok",
+    "fetched": 7,
+    "internships": 0,
+    "sample": [
+     "Quantitative Developer, Commodities | London, United Kingdom",
+     "Quantitative Developer, Graduate | London, United Kingdom",
+     "Register Your Interest: Business Management  | London, United Kingdom"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "winton"
+   },
+   "status": "ok",
+   "fetched": 7,
+   "internships": 0,
+   "sample": [
+    "Quantitative Developer, Commodities | London, United Kingdom",
+    "Quantitative Developer, Graduate | London, United Kingdom",
+    "Register Your Interest: Business Management  | London, United Kingdom"
+   ]
+  }
+ },
+ {
+  "name": "Aspect Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.aspectcapital.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.aspectcapital.com/careers/team/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Systematica Investments",
+  "type": "hedge_fund",
+  "careers_url": "https://www.systematica.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "LMR Partners",
+  "type": "hedge_fund",
+  "careers_url": "https://www.lmrpartners.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Rokos Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.rokoscapital.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Caxton Associates",
+  "type": "hedge_fund",
+  "careers_url": "https://www.caxton.com/careers",
+  "signatures": {
+   "workable": [
+    "caxton",
+    "j"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.com/caxton/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Eisler Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.eislercapital.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "ConnectionError: HTTPSConnectionPool(host='www.eislercapital.com', port=443): Max retries exceeded with url: /careers (Caused by NameResolutionError(\"HTTPSConnection(host='www.eislercapital.com', port",
+   "ConnectionError: HTTPSConnectionPool(host='www.eislercapital.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.eislercapital.com', port=443): "
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Fasanara Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.fasanara.com/careers",
+  "signatures": {
+   "workable": [
+    "fasanara"
+   ]
+  },
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Garda Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.gardacp.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "gardacp"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "gardacp"
+    },
+    "status": "ok",
+    "fetched": 14,
+    "internships": 7,
+    "sample": [
+     "Business Analyst Intern   | Geneva, Geneva, Switzerland; GVA (Geneva) - Non-Investment",
+     "Software Engineer Intern  | New York, New York, United States; NYC (New York) - Non-Investment",
+     "Software Engineer Intern (AI Internal Tools)  | Geneva, Geneva, Switzerland; Zug, Zug, Switzerland; Geneva, Geneva, Switzerland; GVA (Geneva) - Non-Investment; Zug - Investment; Zug - Non-Investment",
+     "Trading Analyst Intern, Credit  | New York, New York, United States; NYC (New York) - Investment",
+     "Trading Analyst Intern, Mortgages  | New York, New York, United States; NYC (New York) - Investment",
+     "Trading Analyst Intern, Rates | New York, New York, United States; NYC (New York) - Investment"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "gardacp"
+   },
+   "status": "ok",
+   "fetched": 14,
+   "internships": 7,
+   "sample": [
+    "Business Analyst Intern   | Geneva, Geneva, Switzerland; GVA (Geneva) - Non-Investment",
+    "Software Engineer Intern  | New York, New York, United States; NYC (New York) - Non-Investment",
+    "Software Engineer Intern (AI Internal Tools)  | Geneva, Geneva, Switzerland; Zug, Zug, Switzerland; Geneva, Geneva, Switzerland; GVA (Geneva) - Non-Investment; Zug - Investment; Zug - Non-Investment",
+    "Trading Analyst Intern, Credit  | New York, New York, United States; NYC (New York) - Investment",
+    "Trading Analyst Intern, Mortgages  | New York, New York, United States; NYC (New York) - Investment",
+    "Trading Analyst Intern, Rates | New York, New York, United States; NYC (New York) - Investment"
+   ]
+  }
+ },
+ {
+  "name": "Graham Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.grahamcapital.com/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Capstone Investment Advisors",
+  "type": "hedge_fund",
+  "careers_url": "https://www.capstoneco.com/careers",
+  "signatures": {
+   "greenhouse": [
+    "capstoneinvestmentadvisors"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "capstoneinvestmentadvisors"
+    },
+    "status": "ok",
+    "fetched": 14,
+    "internships": 8,
+    "sample": [
+     "Summer 2027 - Execution Tech Internship  | New York, New York; New York, New York, United States",
+     "Summer 2027 - Investment Internship LDN | London; London, England, United Kingdom",
+     "Summer 2027 - Investment Internship NYC | New York, New York; New York, New York, United States",
+     "Summer 2027 - Marketing & Communications Internship  | New York, New York; New York, New York, United States",
+     "Summer 2027 - Quant Internship | London; London, England, United Kingdom",
+     "Summer 2027 - Risk Internship  | London; London, England, United Kingdom"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "capstoneinvestmentadvisors"
+   },
+   "status": "ok",
+   "fetched": 14,
+   "internships": 8,
+   "sample": [
+    "Summer 2027 - Execution Tech Internship  | New York, New York; New York, New York, United States",
+    "Summer 2027 - Investment Internship LDN | London; London, England, United Kingdom",
+    "Summer 2027 - Investment Internship NYC | New York, New York; New York, New York, United States",
+    "Summer 2027 - Marketing & Communications Internship  | New York, New York; New York, New York, United States",
+    "Summer 2027 - Quant Internship | London; London, England, United Kingdom",
+    "Summer 2027 - Risk Internship  | London; London, England, United Kingdom"
+   ]
+  }
+ },
+ {
+  "name": "Lynx Asset Management",
+  "type": "hedge_fund",
+  "careers_url": "https://www.lynxhedge.se/careers",
+  "signatures": {
+   "teamtailor": [
+    "www"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.lynxhedge.se/careers"
+  ],
+  "tests": [
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://lynxassetmanagement.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 3,
+    "internships": 0,
+    "sample": [
+     "Platform Engineer | Stockholm, Sweden",
+     "Compliance Officer | Stockholm, Sweden",
+     "Master thesis - Degree work | Stockholm, Sweden"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "teamtailor",
+   "params": {
+    "base": "https://lynxassetmanagement.teamtailor.com"
+   },
+   "status": "ok",
+   "fetched": 3,
+   "internships": 0,
+   "sample": [
+    "Platform Engineer | Stockholm, Sweden",
+    "Compliance Officer | Stockholm, Sweden",
+    "Master thesis - Degree work | Stockholm, Sweden"
+   ]
+  }
+ },
+ {
+  "name": "Danone",
+  "type": "corporate",
+  "careers_url": "https://careers.danone.com/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/DanoneCareers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "L'Oréal",
+  "type": "corporate",
+  "careers_url": "https://careers.loreal.com/",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://careers-apply.loreal.com/en_US/job/Login"
+  ],
+  "tests": [
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://careers.loreal.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://careers.loreal.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "LVMH",
+  "type": "corporate",
+  "careers_url": "https://www.lvmh.com/join-us/our-job-offers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "recruitee",
+    "params": {
+     "company": "lvmh"
+    },
+    "status": "ok",
+    "fetched": 32,
+    "internships": 0,
+    "sample": [
+     "Beauty Consultant (m/w/d) | München, Bayern, Deutschland",
+     "Counter Manager (m/w/d) | Hamburg, Hamburg, Deutschland",
+     "Beauty Consultant (m/w/d) | München, Bayern, Deutschland"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "recruitee",
+   "params": {
+    "company": "lvmh"
+   },
+   "status": "ok",
+   "fetched": 32,
+   "internships": 0,
+   "sample": [
+    "Beauty Consultant (m/w/d) | München, Bayern, Deutschland",
+    "Counter Manager (m/w/d) | Hamburg, Hamburg, Deutschland",
+    "Beauty Consultant (m/w/d) | München, Bayern, Deutschland"
+   ]
+  }
+ },
+ {
+  "name": "Kering",
+  "type": "corporate",
+  "careers_url": "https://www.kering.com/en/talent/job-offers/",
+  "signatures": {
+   "workday": [
+    "kering|wd3|Kering"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/sharing/share-offsite/?url=https://careers.kering.com/careers/R172711",
+   "RobotsDisallowed: robots.txt disallows https://x.com/intent/tweet?text=Job%20Family%20Group%20Description%20-%20Sales%20%2F%20Omni-Channel%3A%0ACombines%20all%20positions%20within%20the%20different%20",
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcareers.kering.com%2Fcareers%2FR172711"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://kering.wd3.myworkdayjobs.com/Kering"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://kering.wd3.myworkdayjobs.com/Kering"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Hermès",
+  "type": "corporate",
+  "careers_url": "https://www.hermes.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.hermes.com/careers/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.hermes.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Pernod Ricard",
+  "type": "corporate",
+  "careers_url": "https://www.pernod-ricard.com/en/careers",
+  "signatures": {
+   "workday": [
+    "pernodricard|wd3|pernod-ricard"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.irishdistillers.ie/careers/early-careers/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard"
+    },
+    "status": "ok",
+    "fetched": 39,
+    "internships": 39,
+    "sample": [
+     "Internal Control and Internal Audit Intern | Paris",
+     "Stage HR Controlling / Contrôle de Gestion Sociale (H/F) | Reims",
+     "Executive Assistant Intern | Paris",
+     "Program Management Intern | Paris",
+     "Financial Analyst Intern | Paris",
+     "Cash Performance Intern | Paris"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard"
+   },
+   "status": "ok",
+   "fetched": 39,
+   "internships": 39,
+   "sample": [
+    "Internal Control and Internal Audit Intern | Paris",
+    "Stage HR Controlling / Contrôle de Gestion Sociale (H/F) | Reims",
+    "Executive Assistant Intern | Paris",
+    "Program Management Intern | Paris",
+    "Financial Analyst Intern | Paris",
+    "Cash Performance Intern | Paris"
+   ]
+  }
+ },
+ {
+  "name": "Airbus",
+  "type": "corporate",
+  "careers_url": "https://www.airbus.com/en/careers",
+  "signatures": {
+   "workday": [
+    "ag|wd3|Airbus"
+   ],
+   "jsonld": [
+    "\"@type\" : \"JobPosting\""
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://ag.wd3.myworkdayjobs.com/Airbus"
+    },
+    "status": "ok",
+    "fetched": 22,
+    "internships": 22,
+    "sample": [
+     "Stage 2027 - Analyse d'un nouvel outil de planification et potentiel de l'IA (spatial) H/F | Toulouse Area",
+     "STAGE 2027 - Stage en IA & Automatisation des Processus (ALL GENDER) | Toulouse Area",
+     "STAGE 2027 - Gestion de projet IA et Qualité Industrialisation (ALL GENDER) | Saint Nazaire Area",
+     "ATR – Internship 2027 - Type Rating Practical Training Test Bench and associated material | Toulouse Area",
+     "STAGE 2027 - Ingénier Méthodes Qualité (ALL GENDER) | Nantes Area",
+     "Stage 2027 -Chef de Projets Stratégiques – Espace Militaire & Digital (h/f) | Toulouse Area"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bristol-Area/Safety---Reliability-Engineer_JR10451843?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=29247e57dbaf46fb855b224e03170bc7"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Safety &amp; Reliability Engineer | Filton, United Kingdom"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bristol-Area/Aerodynamic-Icing-Engineer_JR10440518-1?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=29247e57dbaf46fb855b224e03170bc7"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Aerodynamic Icing Engineer | Filton, United Kingdom"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Wichita-KS/Principal-Stress-Engineer_JR10447399-1?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=bc33aa3152ec42d4995f4791a106ed09"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Principal Stress Engineer | Wichita, KS, United States of America"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Marseille-Area/Transfer-of-Work-Manager-Airframe_JR10429160-1?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=54c5b6971ffb4bf0b116fe7651ec789a"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Transfer of Work Manager Airframe | Marignane, France"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus"
+   },
+   "status": "ok",
+   "fetched": 22,
+   "internships": 22,
+   "sample": [
+    "Stage 2027 - Analyse d'un nouvel outil de planification et potentiel de l'IA (spatial) H/F | Toulouse Area",
+    "STAGE 2027 - Stage en IA & Automatisation des Processus (ALL GENDER) | Toulouse Area",
+    "STAGE 2027 - Gestion de projet IA et Qualité Industrialisation (ALL GENDER) | Saint Nazaire Area",
+    "ATR – Internship 2027 - Type Rating Practical Training Test Bench and associated material | Toulouse Area",
+    "STAGE 2027 - Ingénier Méthodes Qualité (ALL GENDER) | Nantes Area",
+    "Stage 2027 -Chef de Projets Stratégiques – Espace Militaire & Digital (h/f) | Toulouse Area"
+   ]
+  }
+ },
+ {
+  "name": "Safran",
+  "type": "corporate",
+  "careers_url": "https://www.safran-group.com/jobs",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.safran-group.com/jobs",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.safran-group.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Thales",
+  "type": "corporate",
+  "careers_url": "https://careers.thalesgroup.com/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ],
+   "workday": [
+    "thales|wd3|Careers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://thales.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 20,
+    "internships": 0,
+    "sample": [
+     "Nyutdannet Software Engineer (Fullstack) 2027 | Oslo, Norway",
+     "Prosjekt- og porteføljestøtte | Oslo, Norway",
+     "Head of Quality | Oslo, Norway"
+    ]
+   },
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.thalesgroup.com/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://thales.wd3.myworkdayjobs.com/Careers"
+    },
+    "status": "ok",
+    "fetched": 33,
+    "internships": 33,
+    "sample": [
+     "Intern | Noida",
+     "Finance Intern | Barcelona",
+     "DevOps Intern | Madrid",
+     "Finance Intern | Beijing",
+     "Finance Intern | Beijing",
+     "Software Engineer Intern | Singapore"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://thales.wd3.myworkdayjobs.com/Careers"
+   },
+   "status": "ok",
+   "fetched": 33,
+   "internships": 33,
+   "sample": [
+    "Intern | Noida",
+    "Finance Intern | Barcelona",
+    "DevOps Intern | Madrid",
+    "Finance Intern | Beijing",
+    "Finance Intern | Beijing",
+    "Software Engineer Intern | Singapore"
+   ]
+  }
+ },
+ {
+  "name": "Dassault Systèmes",
+  "type": "corporate",
+  "careers_url": "https://www.3ds.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/3DSCareers/",
+   "RobotsDisallowed: robots.txt disallows https://twitter.com/3DSCareers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Renault Group",
+  "type": "corporate",
+  "careers_url": "https://www.renaultgroup.com/en/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Stellantis",
+  "type": "corporate",
+  "careers_url": "https://www.stellantis.com/en/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://stellantis.wd3.myworkdayjobs.com/External_Career_Site"
+    },
+    "status": "error",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://stellantis.wd3.myworkdayjobs.com/wday/cxs/stellantis/External_Career_Site/jobs"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "Michelin",
+  "type": "corporate",
+  "careers_url": "https://recrutement.michelin.fr/",
+  "signatures": {
+   "workday": [
+    "michelinhr|wd3|Michelin"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin"
+    },
+    "status": "ok",
+    "fetched": 35,
+    "internships": 35,
+    "sample": [
+     "2027 Summer Intern | Midland City, AL",
+     "2027 Summer Inclusion Strategy & Business Integration Intern | GREENVILLE, SC",
+     "Summer 2027 Intern (MBA Experience Level Professional) - Various Fields | GREENVILLE, SC",
+     "Summer 2027 Internship: Process Engineering Intern (Fountain Inn, SC) | FOUNTAIN INN, SC",
+     "Industrial Engineer Internship | Tan Uyen",
+     "Automation Engineer Internship | Tan Uyen"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin"
+   },
+   "status": "ok",
+   "fetched": 35,
+   "internships": 35,
+   "sample": [
+    "2027 Summer Intern | Midland City, AL",
+    "2027 Summer Inclusion Strategy & Business Integration Intern | GREENVILLE, SC",
+    "Summer 2027 Intern (MBA Experience Level Professional) - Various Fields | GREENVILLE, SC",
+    "Summer 2027 Internship: Process Engineering Intern (Fountain Inn, SC) | FOUNTAIN INN, SC",
+    "Industrial Engineer Internship | Tan Uyen",
+    "Automation Engineer Internship | Tan Uyen"
+   ]
+  }
+ },
+ {
+  "name": "Sanofi",
+  "type": "corporate",
+  "careers_url": "https://jobs.sanofi.com/",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://talentcareers.sanofi.com/flows/candidateportal",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/posts/ziv-bar-joseph-cmu_why-i-joined-sanofi-1-when-i-interviewed-activity-6929550926663798785-kRNR/"
+  ],
+  "tests": [
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.sanofi.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.sanofi.com/search-jobs/intern?p=1"
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers"
+    },
+    "status": "ok",
+    "fetched": 3,
+    "internships": 3,
+    "sample": [
+     "internship 6 months data and ia engineer | Lyon",
+     "Regulatory Affairs Intern– Rare Diseases | Amsterdam",
+     "Packaging Internship | Scoppito"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers"
+   },
+   "status": "ok",
+   "fetched": 3,
+   "internships": 3,
+   "sample": [
+    "internship 6 months data and ia engineer | Lyon",
+    "Regulatory Affairs Intern– Rare Diseases | Amsterdam",
+    "Packaging Internship | Scoppito"
+   ]
+  }
+ },
+ {
+  "name": "Schneider Electric",
+  "type": "corporate",
+  "careers_url": "https://www.se.com/ww/en/about-us/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Saint-Gobain",
+  "type": "corporate",
+  "careers_url": "https://joinus.saint-gobain.com/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://joinus.saint-gobain.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Air Liquide",
+  "type": "corporate",
+  "careers_url": "https://www.airliquide.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.airliquide.com/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.airliquide.com/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer"
+    },
+    "status": "ok",
+    "fetched": 25,
+    "internships": 25,
+    "sample": [
+     "Treasury Intern | Argentina, Munro",
+     "2027 Summer Intern - Engineering | Houston, TX (HO) - NAM Corporate",
+     "OTC Cash Application Intern | Argentina, Munro",
+     "2027 Summer Intern - Non Engineering | Houston, TX (HO) - NAM Corporate",
+     "Internship - Head Office - Europe Procurement HR Intern (F/M) | France, Paris",
+     "Stage - SIÈGE - Automatisation du Contrôle Interne H/F | France, Paris"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer"
+   },
+   "status": "ok",
+   "fetched": 25,
+   "internships": 25,
+   "sample": [
+    "Treasury Intern | Argentina, Munro",
+    "2027 Summer Intern - Engineering | Houston, TX (HO) - NAM Corporate",
+    "OTC Cash Application Intern | Argentina, Munro",
+    "2027 Summer Intern - Non Engineering | Houston, TX (HO) - NAM Corporate",
+    "Internship - Head Office - Europe Procurement HR Intern (F/M) | France, Paris",
+    "Stage - SIÈGE - Automatisation du Contrôle Interne H/F | France, Paris"
+   ]
+  }
+ },
+ {
+  "name": "Orange",
+  "type": "corporate",
+  "careers_url": "https://orange.jobs/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://orange.jobs/gb/en"
+    },
+    "status": "ok",
+    "fetched": 100,
+    "internships": 2,
+    "sample": [
+     "Stagiaire Ingénieur DevSecOps F/H | MARSEILLE 3E ARRONDISSEMENT,FRANCE",
+     "Développeur web /PHP (Drupal) & IA (H/F) - Stage | LYON 2E ARRONDISSEMENT,FRANCE"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://orange.jobs/gb/en"
+   },
+   "status": "ok",
+   "fetched": 100,
+   "internships": 2,
+   "sample": [
+    "Stagiaire Ingénieur DevSecOps F/H | MARSEILLE 3E ARRONDISSEMENT,FRANCE",
+    "Développeur web /PHP (Drupal) & IA (H/F) - Stage | LYON 2E ARRONDISSEMENT,FRANCE"
+   ]
+  }
+ },
+ {
+  "name": "Vinci",
+  "type": "corporate",
+  "careers_url": "https://jobs.vinci.com/",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 418 Client Error: I'm a teapot for url: https://www.vinci.com/vinci.nsf/en/item/careers-contacts.htm"
+  ],
+  "tests": [
+   {
+    "platform": "ashby",
+    "params": {
+     "board": "vinci"
+    },
+    "status": "ok",
+    "fetched": 35,
+    "internships": 0,
+    "sample": [
+     "Member of Technical Staff - Foundation Model Architecture & AI Infrastructure | Palo Alto HQ",
+     "Thermal Engineer | Palo Alto HQ",
+     "Strategic Account Executive | Palo Alto HQ"
+    ]
+   },
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://vinci.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.vinci.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.vinci.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": {
+   "platform": "ashby",
+   "params": {
+    "board": "vinci"
+   },
+   "status": "ok",
+   "fetched": 35,
+   "internships": 0,
+   "sample": [
+    "Member of Technical Staff - Foundation Model Architecture & AI Infrastructure | Palo Alto HQ",
+    "Thermal Engineer | Palo Alto HQ",
+    "Strategic Account Executive | Palo Alto HQ"
+   ]
+  }
+ },
+ {
+  "name": "Bouygues",
+  "type": "corporate",
+  "careers_url": "https://www.bouygues.com/en/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bouygues.com/en/careers/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bouygues.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Veolia",
+  "type": "corporate",
+  "careers_url": "https://www.veolia.com/en/careers",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6558&lang=en_us&readid=listing__title%2Creadspeaker-content%2Chero-banner&readclass=listing__title%2Cread"
+  ],
+  "tests": [
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.veolia.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.veolia.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "EDF",
+  "type": "corporate",
+  "careers_url": "https://www.edf.fr/edf-recrute",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.edf.fr/edf-recrute",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.edf.fr/edf-recrute",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.edf.fr/edf-recrute/espace-candidat"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Carrefour",
+  "type": "corporate",
+  "careers_url": "https://www.carrefour.com/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.carrefour.com/en/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.carrefour.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Capgemini",
+  "type": "corporate",
+  "careers_url": "https://www.capgemini.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https://www.capgemini.com/careers/",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/shareArticle?url=https://www.capgemini.com/careers/",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/shareArticle?url=https://www.capgemini.com/insights/research-library/technovision-2026-guide-for-ctos-and-cios/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Alstom",
+  "type": "corporate",
+  "careers_url": "https://www.alstom.com/careers",
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A//www.alstom.com/careers",
+   "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet?url=https%3A//www.alstom.com/careers&text=Your%20career%20at%20Alstom%20starts%20here"
+  ],
+  "tests": [
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://jobsearch.alstom.com"
+    },
+    "status": "ok",
+    "fetched": 250,
+    "internships": 23,
+    "sample": [
+     "Mechanical Calculation Intern | Saint-Bruno, QC, CA",
+     "Intern - Data Engineering (Winter 2027) | Saint-Bruno, QC, CA",
+     "Electrical Engineering Intern | Saint-Bruno, QC, CA",
+     "Intern - Electro-Mechanical (WINTER 2027) | Saint-Bruno, QC, CA",
+     "Intern - Project Configuration and Change Management (WINTER 2027) | Saint-Bruno, QC, CA",
+     "Business Analyst & Digital Transformation Intern | Saint-Ouen, FR"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "successfactors",
+   "params": {
+    "base": "https://jobsearch.alstom.com"
+   },
+   "status": "ok",
+   "fetched": 250,
+   "internships": 23,
+   "sample": [
+    "Mechanical Calculation Intern | Saint-Bruno, QC, CA",
+    "Intern - Data Engineering (Winter 2027) | Saint-Bruno, QC, CA",
+    "Electrical Engineering Intern | Saint-Bruno, QC, CA",
+    "Intern - Electro-Mechanical (WINTER 2027) | Saint-Bruno, QC, CA",
+    "Intern - Project Configuration and Change Management (WINTER 2027) | Saint-Bruno, QC, CA",
+    "Business Analyst & Digital Transformation Intern | Saint-Ouen, FR"
+   ]
+  }
+ },
+ {
+  "name": "Mobilize Financial Services (RCI Bank)",
+  "type": "corporate",
+  "careers_url": "https://www.mobilize-fs.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.mobilize-fs.com/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Nestlé",
+  "type": "corporate",
+  "careers_url": "https://www.nestle.com/jobs",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.nestle.com/jobs",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.nestle.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Unilever",
+  "type": "corporate",
+  "careers_url": "https://careers.unilever.com/",
+  "signatures": {
+   "workday": [
+    "unilever|wd3|Unilever_Experienced_Professionals"
+   ],
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/UnileverCareers",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/unileverglobalcareers/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals"
+    },
+    "status": "ok",
+    "fetched": 12,
+    "internships": 12,
+    "sample": [
+     "Internship '27: Finance | Rotterdam - Hofplein 19",
+     "Internship '27: Marketing | Rotterdam - Hofplein 19",
+     "Internship '27: Digital Finance | Rotterdam - Hofplein 19",
+     "Internship '27: Human Resources | Rotterdam - Hofplein 19",
+     "Internship '27: Customer Development | Rotterdam - Hofplein 19",
+     "Internship '27: Finance Business Partner | Rotterdam - Hofplein 19"
+    ]
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://careers.unilever.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://careers.unilever.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals"
+   },
+   "status": "ok",
+   "fetched": 12,
+   "internships": 12,
+   "sample": [
+    "Internship '27: Finance | Rotterdam - Hofplein 19",
+    "Internship '27: Marketing | Rotterdam - Hofplein 19",
+    "Internship '27: Digital Finance | Rotterdam - Hofplein 19",
+    "Internship '27: Human Resources | Rotterdam - Hofplein 19",
+    "Internship '27: Customer Development | Rotterdam - Hofplein 19",
+    "Internship '27: Finance Business Partner | Rotterdam - Hofplein 19"
+   ]
+  }
+ },
+ {
+  "name": "Siemens",
+  "type": "corporate",
+  "careers_url": "https://jobs.siemens.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/cs_CZ/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/de_DE/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/es_ES/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/fr_FR/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/ja_JP/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/nl_NL/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   }
+  ],
+  "best": {
+   "platform": "generic",
+   "params": {
+    "urls": [
+     "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?search={term}"
+    ],
+    "link_pattern": "JobDetail"
+   },
+   "status": "ok",
+   "fetched": 6,
+   "internships": 6,
+   "sample": [
+    "Business Development Internship -12 Months | ",
+    "Software Engineer Intern - Summer 2027 | ",
+    "Software Developer Intern: Strategic Student Program | ",
+    "Sales Operations Support Intern | ",
+    "Business Operations Intern (12 Months) | ",
+    "SkillBridge Internship – Field Technician | "
+   ]
+  }
+ },
+ {
+  "name": "Volkswagen Financial Services",
+  "type": "corporate",
+  "careers_url": "https://www.vwfs.com/en/career.html",
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://volkswagenfinancialservices.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 30,
+    "internships": 4,
+    "sample": [
+     "Stagiaire Juriste Contentieux et Précontentieux H/F | Roissy-en-France, France",
+     "Stage 6 mois - Communication interne et expérience collaborateur H/F | Roissy-en-France, France",
+     "Stage 6 mois - Assistant coordinateur de contrat prestataire H/F | Roissy-en-France, France",
+     "Stage 6 mois Janvier 2027 - Contrôleur permanent H/F | Roissy-en-France, France"
+    ]
+   },
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://jobs.volkswagen-group.com"
+    },
+    "status": "ok",
+    "fetched": 90,
+    "internships": 7,
+    "sample": [
+     "Praktikum Volkswagen Group Academy,    Redaktion & interne Kommunikation (w/m/d) | Wolfsburg, DE, 38436",
+     "Praktikum International Marketing Campaigns & Content (w/m/d) | Wolfsburg, DE, 38436",
+     "Praktikum UI-Design für nutzerzentrierte Softwarelösungen (m/w/d) | Wolfsburg, DE, 38436",
+     "Praktikant Consulting und Business Transformation (w/m/d) | Salzburg, AT, 5020",
+     "Praktikant Marketing, Produktmanagement & Training VW Nutzfahrzeuge (m/w/d) | Salzburg, AT, 5020",
+     "Praktikum Vertrieb Europa (w/m/d) | Hannover, DE, 30419"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "successfactors",
+   "params": {
+    "base": "https://jobs.volkswagen-group.com"
+   },
+   "status": "ok",
+   "fetched": 90,
+   "internships": 7,
+   "sample": [
+    "Praktikum Volkswagen Group Academy,    Redaktion & interne Kommunikation (w/m/d) | Wolfsburg, DE, 38436",
+    "Praktikum International Marketing Campaigns & Content (w/m/d) | Wolfsburg, DE, 38436",
+    "Praktikum UI-Design für nutzerzentrierte Softwarelösungen (m/w/d) | Wolfsburg, DE, 38436",
+    "Praktikant Consulting und Business Transformation (w/m/d) | Salzburg, AT, 5020",
+    "Praktikant Marketing, Produktmanagement & Training VW Nutzfahrzeuge (m/w/d) | Salzburg, AT, 5020",
+    "Praktikum Vertrieb Europa (w/m/d) | Hannover, DE, 30419"
+   ]
+  }
+ },
+ {
+  "name": "ASML",
+  "type": "corporate",
+  "careers_url": "https://www.asml.com/en/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "ABB",
+  "type": "corporate",
+  "careers_url": "https://careers.abb/global/en",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/ABBCareer/",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/abbcareer/"
+  ],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.abb/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://careers.abb/en"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Novartis",
+  "type": "corporate",
+  "careers_url": "https://www.novartis.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/novartiscareers",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/novartiscareers/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+    },
+    "status": "ok",
+    "fetched": 2,
+    "internships": 2,
+    "sample": [
+     "Legal Intern | Istanbul Ataşehir",
+     "Lehre Chemieverfahrenstechnik (m/f/d)Profile for Interns | Schaftenau; Kundl"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+   },
+   "status": "ok",
+   "fetched": 2,
+   "internships": 2,
+   "sample": [
+    "Legal Intern | Istanbul Ataşehir",
+    "Lehre Chemieverfahrenstechnik (m/f/d)Profile for Interns | Schaftenau; Kundl"
+   ]
+  }
+ },
+ {
+  "name": "Roche",
+  "type": "corporate",
+  "careers_url": "https://careers.roche.com/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.roche.com/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://careers.roche.com/en"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Philips",
+  "type": "corporate",
+  "careers_url": "https://www.careers.philips.com/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ],
+   "workday": [
+    "philips|wd3|jobs-and-careers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://www.careers.philips.com/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers"
+    },
+    "status": "ok",
+    "fetched": 40,
+    "internships": 40,
+    "sample": [
+     "CMM intern | Milano",
+     "HR Intern | Suzhou",
+     "Product Industrialization Intern | Suzhou",
+     "IT Infrastructure Intern | Ciudad de Panama",
+     "Intern Data Scientist | Taipei",
+     "Sales Operations Intern | Varginha"
+    ]
+   },
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://www.careers.philips.com"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers"
+   },
+   "status": "ok",
+   "fetched": 40,
+   "internships": 40,
+   "sample": [
+    "CMM intern | Milano",
+    "HR Intern | Suzhou",
+    "Product Industrialization Intern | Suzhou",
+    "IT Infrastructure Intern | Ciudad de Panama",
+    "Intern Data Scientist | Taipei",
+    "Sales Operations Intern | Varginha"
+   ]
+  }
+ },
+ {
+  "name": "Heineken",
+  "type": "corporate",
+  "careers_url": "https://careers.theheinekencompany.com/",
+  "signatures": {},
+  "page_errors": [
+   "ReadTimeout: HTTPSConnectionPool(host='careers.theheinekencompany.com', port=443): Read timed out. (read timeout=20)"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "AB InBev",
+  "type": "corporate",
+  "careers_url": "https://www.ab-inbev.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.ab-inbev.com/careers",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/ab-inbev/jobs/",
+   "HTTPError: 404 Client Error: Not Found for url: https://www.ab-inbev.com/careers"
+  ],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "abinbev"
+    },
+    "status": "ok",
+    "fetched": 62,
+    "internships": 0,
+    "sample": [
+     "AI Engineer  | Remote; Campinas, São Paulo, Brazil",
+     "Country Director | Melbourne, AU; Melbourne, Victoria, Australia",
+     "Data Product Manager | Remote, Brazil; Campinas, São Paulo, Brazil"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "abinbev"
+   },
+   "status": "ok",
+   "fetched": 62,
+   "internships": 0,
+   "sample": [
+    "AI Engineer  | Remote; Campinas, São Paulo, Brazil",
+    "Country Director | Melbourne, AU; Melbourne, Victoria, Australia",
+    "Data Product Manager | Remote, Brazil; Campinas, São Paulo, Brazil"
+   ]
+  }
+ },
+ {
+  "name": "Diageo",
+  "type": "corporate",
+  "careers_url": "https://www.diageo.com/en/careers",
+  "signatures": {
+   "workday": [
+    "diageo|wd3|Diageo_Careers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "BP (corporate treasury)",
+  "type": "corporate",
+  "careers_url": "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bp.com/en/global/corporate/careers/students-and-graduates.html",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bp.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Air France-KLM",
+  "type": "corporate",
+  "careers_url": "https://www.airfrance.fr/recrutement",
+  "signatures": {},
+  "page_errors": [
+   "ReadTimeout: HTTPSConnectionPool(host='www.airfrance.fr', port=443): Read timed out. (read timeout=20)",
+   "ReadTimeout: HTTPSConnectionPool(host='www.airfrance.fr', port=443): Read timed out. (read timeout=20)"
+  ],
+  "tests": [],
+  "best": null
  }
 ]

@@ -66,3 +66,27 @@ employers:
 
   - name: Amundi
     params: {urls: ["https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list"], link_pattern: '/job/job-.*_\d+\.aspx', warmup_url: "https://jobs.amundi.com/accueil.aspx?LCID=2057"}
+
+  - name: DNB
+    enabled: false
+    notes: the Lever board "dnb" belongs to Dun & Bradstreet, not to DNB bank; dnb.no careers is in-house.
+
+  - name: Aon
+    enabled: false
+    notes: the Teamtailor site found is empty; jobs.aon.com has no machine-readable job list supported yet.
+
+  - name: KfW
+    enabled: false
+    notes: jobs.kfw.de exposes no list of offers that can be read automatically.
+
+  - name: Accenture
+    # The shared Workday host (wd103) answers 429 to many requests: one search
+    # term, no per-offer detail calls.
+    params: {url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers", search_terms: [intern], details: false}
+
+  - name: Vinci
+    enabled: false
+    notes: the Ashby board "vinci" belongs to an AI start-up, not to the Vinci group; jobs.vinci.com has no machine-readable job list supported yet.
+
+  - name: LVMH
+    notes: the Recruitee board covers only some LVMH companies (mostly retail roles in Germany).

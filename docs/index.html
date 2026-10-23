@@ -29,7 +29,10 @@
       <button role="tab" class="tab active" data-tab="new" aria-selected="true">Nouveautés du jour <span class="count" id="count-new">0</span></button>
       <button role="tab" class="tab" data-tab="all" aria-selected="false">Toutes les offres <span class="count" id="count-all">0</span></button>
       <button role="tab" class="tab" data-tab="mine" aria-selected="false">Mon suivi <span class="count" id="count-mine">0</span></button>
+      <button role="tab" class="tab" data-tab="companies" aria-selected="false">Entreprises <span class="count" id="count-companies">0</span></button>
     </nav>
+
+    <div class="pipeline" id="pipeline" hidden></div>
 
     <section class="filters" id="filters" aria-label="Filtres">
       <input type="search" id="f-search" placeholder="Rechercher (intitulé, employeur, ville…)" aria-label="Recherche">
@@ -38,6 +41,8 @@
         <label>Type d'acteur<select id="f-type"><option value="">Tous</option></select></label>
         <label>Pays<select id="f-country"><option value="">Tous</option></select></label>
         <label>Métier<select id="f-family"><option value="">Tous</option></select></label>
+        <label>Calendrier<select id="f-timing"><option value="">Tous</option></select></label>
+        <label>Année de début<select id="f-year"><option value="">Toutes</option></select></label>
         <label>Vue depuis<select id="f-date">
           <option value="">Toujours</option>
           <option value="1">Aujourd'hui</option>
@@ -51,9 +56,29 @@
       <div class="filter-actions">
         <button type="button" class="ghost" id="reset">Réinitialiser les filtres</button>
         <span class="spacer"></span>
+        <button type="button" id="add-offer">+ Ajouter une offre</button>
         <button type="button" id="export">Exporter CSV</button>
         <label class="button" for="import">Importer CSV</label>
         <input type="file" id="import" accept=".csv,text/csv" hidden>
+      </div>
+    </section>
+
+    <section class="filters" id="company-filters" aria-label="Filtres entreprises" hidden>
+      <p class="hint">Fenêtres de candidature <strong>indicatives</strong>, d'après les calendriers habituels de chaque type d'acteur : vérifie toujours sur le site de l'entreprise. Les entreprises « à regarder à la main » ne sont pas couvertes par le suivi automatique.</p>
+      <input type="search" id="c-search" placeholder="Rechercher une entreprise" aria-label="Recherche entreprise">
+      <div class="filter-grid">
+        <label>Type d'acteur<select id="c-type"><option value="">Tous</option></select></label>
+        <label>Suivi<select id="c-covered">
+          <option value="">Tous</option>
+          <option value="auto">Suivi automatique</option>
+          <option value="manual">À regarder à la main</option>
+        </select></label>
+        <label>Fenêtre<select id="c-window">
+          <option value="">Toutes</option>
+          <option value="open">Ouverte maintenant</option>
+          <option value="soon">Ouvre dans moins de 3 mois</option>
+        </select></label>
+        <label>Contact<select id="c-contact"><option value="">Tous</option></select></label>
       </div>
     </section>
 
@@ -67,6 +92,38 @@
     Pensez à exporter un CSV de temps en temps pour ne rien perdre.
     · <a href="https://github.com/eleonoresamson3-alt/internship-tracker">Code source</a>
   </footer>
+
+  <dialog id="offer-dialog" aria-labelledby="offer-dialog-title">
+    <form method="dialog" id="offer-form">
+      <h2 id="offer-dialog-title">Ajouter une offre</h2>
+      <p class="hint">Pour une offre trouvée ailleurs (forum, réseau, site non couvert…). Elle reste uniquement dans ce navigateur, comme ton suivi.</p>
+      <div class="form-grid">
+        <label class="wide">Intitulé *<input name="title" required placeholder="Stage Structuration Actions"></label>
+        <label>Employeur *<input name="employer" required list="employer-list" placeholder="Nom de l'entreprise"></label>
+        <label>Lien de l'offre<input name="url" type="url" placeholder="https://…"></label>
+        <label>Ville<input name="location" placeholder="Paris"></label>
+        <label>Pays<input name="country" list="country-list" placeholder="France"></label>
+        <label>Métier<select name="family"></select></label>
+        <label>Calendrier<select name="timing">
+          <option value="summer">Summer</option>
+          <option value="off-cycle">Off-cycle</option>
+          <option value="unknown">Inconnu</option>
+        </select></label>
+        <label>Mois de début<input name="start" type="month"></label>
+        <label>Statut<select name="status"></select></label>
+        <label>Date de candidature<input name="applied_on" type="date"></label>
+        <label class="wide">Notes<textarea name="notes" rows="3" placeholder="Contact, échéance, impressions…"></textarea></label>
+      </div>
+      <div class="dialog-actions">
+        <button type="button" class="ghost danger" id="offer-delete" hidden>Supprimer</button>
+        <span class="spacer"></span>
+        <button type="button" class="ghost" id="offer-cancel">Annuler</button>
+        <button type="submit" id="offer-save">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+  <datalist id="employer-list"></datalist>
+  <datalist id="country-list"></datalist>
 
   <template id="card-tpl">
     <article class="card">
@@ -82,8 +139,26 @@
         <select class="status-select" aria-label="Statut"></select>
         <label class="applied">Candidature <input type="date" class="applied-input"></label>
         <button type="button" class="ghost notes-toggle">Notes</button>
+        <button type="button" class="ghost edit-offer" hidden>Modifier</button>
       </div>
       <textarea class="notes" placeholder="Notes (contacts, échéances, impressions…)" hidden></textarea>
+    </article>
+  </template>
+
+  <template id="company-tpl">
+    <article class="card company">
+      <div class="company-main">
+        <div>
+          <h2 class="title"><a target="_blank" rel="noopener"></a></h2>
+          <p class="meta"><span class="type"></span><span class="coverage"></span></p>
+        </div>
+        <div class="windows"></div>
+      </div>
+      <div class="tracking">
+        <select class="contact-select" aria-label="Contact"></select>
+        <label class="applied">Le <input type="date" class="contact-date"></label>
+        <input type="text" class="contact-notes" placeholder="Notes (contact, personne rencontrée…)">
+      </div>
     </article>
   </template>
 

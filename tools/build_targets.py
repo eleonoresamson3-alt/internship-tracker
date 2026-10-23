@@ -78,6 +78,15 @@ def update_readme(employers: list[dict]) -> None:
     readme.write_text(f"{head}{start}\n" + "\n".join(lines) + f"\n{end}{tail}", encoding="utf-8")
 
 
+def write_site_list(employers: list[dict]) -> None:
+    """docs/employers.json: every employer, for the "Entreprises" tab of the site."""
+    rows = [{"name": e["name"], "type": e["type"], "careers_url": e["careers_url"],
+             "covered": e.get("enabled", True), "notes": e.get("notes", "")} for e in employers]
+    rows.sort(key=lambda r: r["name"].lower())
+    (ROOT / "docs" / "employers.json").write_text(
+        json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     results = json.loads((ROOT / "discovery" / "results.json").read_text(encoding="utf-8"))
     overrides_file = ROOT / "tools" / "overrides.yaml"
@@ -107,6 +116,7 @@ def main() -> int:
     (ROOT / "targets.yaml").write_text(HEADER + "\n" + body, encoding="utf-8")
     enabled = sum(1 for e in employers if e.get("enabled", True))
     update_readme(employers)
+    write_site_list(employers)
     print(f"{enabled}/{len(employers)} employers enabled")
     return 0
 

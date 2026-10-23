@@ -4,9 +4,10 @@ from __future__ import annotations
 
 import re
 import unicodedata
+from datetime import date
 
-# Earliest internship year worth tracking: summer 2027 or off-cycle 2027+.
-MIN_YEAR = 2027
+from . import config
+
 
 _INTERNSHIP = [
     r"\bintern\b", r"\binterns\b", r"\binternships?\b",
@@ -61,17 +62,19 @@ def is_excluded(title: str, employment_type: str = "") -> bool:
     return bool(_VIE_RE.search(title or "")) or any(r.search(text) for r in _EXCLUDED_RE)
 
 
-def is_outdated(title: str) -> bool:
-    """True when the title only mentions years before MIN_YEAR (e.g. "Summer 2026")."""
+def out_of_window(title: str, today: date | None = None) -> bool:
+    """True when every year in the title is outside config.year_window()
+    (e.g. "Summer 2026" in October 2026, or "Summer 2031" with a 2029 graduation)."""
+    first, last = config.year_window(today)
     years = [int(y) for y in _YEAR_RE.findall(title or "")]
-    return bool(years) and max(years) < MIN_YEAR
+    return bool(years) and not any(first <= y <= last for y in years)
 
 
-def keep(title: str, employment_type: str = "") -> bool:
+def keep(title: str, employment_type: str = "", today: date | None = None) -> bool:
     return (
         looks_like_internship(title, employment_type)
         and not is_excluded(title, employment_type)
-        and not is_outdated(title)
+        and not out_of_window(title, today)
     )
 
 
@@ -86,3 +89,20 @@ _DESCRIPTION_INTERNSHIP = re.compile(
 
 def description_says_internship(description: str) -> bool:
     return bool(_DESCRIPTION_INTERNSHIP.search(_norm(description)))
+
+
+# Large corporates (type "corporate") post hundreds of finance internships
+# (controlling, audit, accounting...). Only titles naming a markets activity
+# are kept for them. "Pricing" alone is not enough there: it usually means
+# product pricing (e.g. drug "market access and pricing").
+_CORPORATE_MARKETS = re.compile(
+    r"\btreasury\b|\btresorerie\b|\bcash management\b|\bhedg|\bcouverture|\bfx\b|\bforex\b|\bchange\b"
+    r"|\bcurrenc|\bcommodit|\bmatieres premieres\b|\btrading\b|\btrader\b|\bmarket risk\b|\brisques? de marche\b"
+    r"|\bsalle des marches\b|\bfront office\b|\bderivati|\bderives?\b|\bstructur|\bfinancement|\bfunding\b|\bfinancing\b"
+    r"|\bcorporate finance\b|\bcapital markets\b|\bmarches de capitaux\b|\balm\b|\binvestor relations\b|\bm a\b"
+)
+
+
+def corporate_markets_role(title: str) -> bool:
+    text = re.sub(r"\bchange management\b|\bconduite du changement\b", " ", _norm(title).replace("&", " "))
+    return bool(_CORPORATE_MARKETS.search(text))

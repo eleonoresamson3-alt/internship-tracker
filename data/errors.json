@@ -1,21 +1,13 @@
 {
- "generated_at": "2026-10-23T07:37:00+00:00",
- "employers_total": 91,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Accenture",
-   "platform": "workday",
-   "careers_url": "https://www.accenture.com/fr-fr/careers",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-23T07:39:56+00:00"
-  }
- ],
+ "generated_at": "2026-10-23T09:04:34+00:00",
+ "employers_total": 143,
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 6,
-   "kept": 6
+   "fetched": 7,
+   "kept": 5
   },
   {
    "employer": "JPMorgan",
@@ -149,7 +141,7 @@
   },
   {
    "employer": "Man Group",
-   "fetched": 61,
+   "fetched": 62,
    "kept": 2
   },
   {
@@ -214,7 +206,7 @@
   },
   {
    "employer": "Flow Traders",
-   "fetched": 46,
+   "fetched": 47,
    "kept": 3
   },
   {
@@ -234,7 +226,7 @@
   },
   {
    "employer": "Brevan Howard",
-   "fetched": 26,
+   "fetched": 27,
    "kept": 11
   },
   {
@@ -324,13 +316,13 @@
   },
   {
    "employer": "Euronext",
-   "fetched": 17,
-   "kept": 6
+   "fetched": 16,
+   "kept": 5
   },
   {
    "employer": "LSEG",
-   "fetched": 10,
-   "kept": 1
+   "fetched": 9,
+   "kept": 0
   },
   {
    "employer": "CME Group",
@@ -364,13 +356,13 @@
   },
   {
    "employer": "SCOR",
-   "fetched": 151,
+   "fetched": 152,
    "kept": 13
   },
   {
    "employer": "Zurich",
-   "fetched": 304,
-   "kept": 5
+   "fetched": 299,
+   "kept": 6
   },
   {
    "employer": "Banque de France",
@@ -384,7 +376,7 @@
   },
   {
    "employer": "Bank of England",
-   "fetched": 24,
+   "fetched": 25,
    "kept": 0
   },
   {
@@ -394,7 +386,7 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 9,
+   "fetched": 10,
    "kept": 4
   },
   {
@@ -404,18 +396,23 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 150,
+   "fetched": 149,
    "kept": 16
   },
   {
    "employer": "PwC",
-   "fetched": 206,
-   "kept": 61
+   "fetched": 207,
+   "kept": 59
   },
   {
    "employer": "Forvis Mazars",
    "fetched": 145,
    "kept": 1
+  },
+  {
+   "employer": "Accenture",
+   "fetched": 28,
+   "kept": 3
   },
   {
    "employer": "BearingPoint",
@@ -430,7 +427,7 @@
   {
    "employer": "Lombard Odier",
    "fetched": 29,
-   "kept": 7
+   "kept": 8
   },
   {
    "employer": "Vontobel",
@@ -439,7 +436,7 @@
   },
   {
    "employer": "Euroclear",
-   "fetched": 59,
+   "fetched": 58,
    "kept": 2
   },
   {
@@ -449,8 +446,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 18,
-   "kept": 9
+   "fetched": 19,
+   "kept": 10
   },
   {
    "employer": "BBVA",
@@ -459,7 +456,267 @@
   },
   {
    "employer": "Raiffeisen Bank International",
-   "fetched": 36,
+   "fetched": 35,
+   "kept": 0
+  },
+  {
+   "employer": "Muzinich",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "WorldQuant",
+   "fetched": 95,
+   "kept": 2
+  },
+  {
+   "employer": "Voleon",
+   "fetched": 59,
+   "kept": 1
+  },
+  {
+   "employer": "PDT Partners",
+   "fetched": 11,
+   "kept": 1
+  },
+  {
+   "employer": "Engineers Gate",
+   "fetched": 9,
+   "kept": 1
+  },
+  {
+   "employer": "Belvedere Trading",
+   "fetched": 18,
+   "kept": 2
+  },
+  {
+   "employer": "Headlands Technologies",
+   "fetched": 8,
+   "kept": 0
+  },
+  {
+   "employer": "Radix Trading",
+   "fetched": 8,
+   "kept": 1
+  },
+  {
+   "employer": "Eclipse Trading",
+   "fetched": 16,
+   "kept": 0
+  },
+  {
+   "employer": "Stifel",
+   "fetched": 35,
+   "kept": 3
+  },
+  {
+   "employer": "Capco",
+   "fetched": 714,
+   "kept": 0
+  },
+  {
+   "employer": "Quanteam",
+   "fetched": 1,
+   "kept": 0
+  },
+  {
+   "employer": "Grant Thornton",
+   "fetched": 59,
+   "kept": 0
+  },
+  {
+   "employer": "Nasdaq (Calypso / Adenza)",
+   "fetched": 3,
+   "kept": 0
+  },
+  {
+   "employer": "Keyrock",
+   "fetched": 8,
+   "kept": 0
+  },
+  {
+   "employer": "Flowdesk",
+   "fetched": 10,
+   "kept": 0
+  },
+  {
+   "employer": "Wintermute",
+   "fetched": 20,
+   "kept": 0
+  },
+  {
+   "employer": "B2C2",
+   "fetched": 4,
+   "kept": 0
+  },
+  {
+   "employer": "GSR",
+   "fetched": 6,
+   "kept": 0
+  },
+  {
+   "employer": "Paradigm",
+   "fetched": 7,
+   "kept": 0
+  },
+  {
+   "employer": "CaixaBank",
+   "fetched": 11,
+   "kept": 0
+  },
+  {
+   "employer": "Commonwealth Bank",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Cboe",
+   "fetched": 100,
+   "kept": 1
+  },
+  {
+   "employer": "Clear Street",
+   "fetched": 45,
+   "kept": 0
+  },
+  {
+   "employer": "AllianceBernstein",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Wellington Management",
+   "fetched": 6,
+   "kept": 1
+  },
+  {
+   "employer": "T. Rowe Price",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Franklin Templeton",
+   "fetched": 100,
+   "kept": 2
+  },
+  {
+   "employer": "Capital Group",
+   "fetched": 7,
+   "kept": 5
+  },
+  {
+   "employer": "Northern Trust",
+   "fetched": 1,
+   "kept": 0
+  },
+  {
+   "employer": "Aberdeen",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Winton",
+   "fetched": 7,
+   "kept": 0
+  },
+  {
+   "employer": "Garda Capital",
+   "fetched": 14,
+   "kept": 4
+  },
+  {
+   "employer": "Capstone Investment Advisors",
+   "fetched": 14,
+   "kept": 5
+  },
+  {
+   "employer": "Lynx Asset Management",
+   "fetched": 3,
+   "kept": 0
+  },
+  {
+   "employer": "LVMH",
+   "fetched": 32,
+   "kept": 0
+  },
+  {
+   "employer": "Kering",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Pernod Ricard",
+   "fetched": 95,
+   "kept": 1
+  },
+  {
+   "employer": "Airbus",
+   "fetched": 80,
+   "kept": 0
+  },
+  {
+   "employer": "Thales",
+   "fetched": 108,
+   "kept": 1
+  },
+  {
+   "employer": "Michelin",
+   "fetched": 46,
+   "kept": 0
+  },
+  {
+   "employer": "Sanofi",
+   "fetched": 52,
+   "kept": 0
+  },
+  {
+   "employer": "Air Liquide",
+   "fetched": 59,
+   "kept": 5
+  },
+  {
+   "employer": "Orange",
+   "fetched": 100,
+   "kept": 0
+  },
+  {
+   "employer": "Alstom",
+   "fetched": 409,
+   "kept": 0
+  },
+  {
+   "employer": "Unilever",
+   "fetched": 12,
+   "kept": 0
+  },
+  {
+   "employer": "Siemens",
+   "fetched": 22,
+   "kept": 0
+  },
+  {
+   "employer": "Volkswagen Financial Services",
+   "fetched": 95,
+   "kept": 0
+  },
+  {
+   "employer": "Novartis",
+   "fetched": 2,
+   "kept": 0
+  },
+  {
+   "employer": "Philips",
+   "fetched": 52,
+   "kept": 0
+  },
+  {
+   "employer": "AB InBev",
+   "fetched": 62,
+   "kept": 0
+  },
+  {
+   "employer": "Diageo",
+   "fetched": 0,
    "kept": 0
   }
  ]

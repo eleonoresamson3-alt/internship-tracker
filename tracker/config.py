@@ -1,5 +1,6 @@
 """Paths and global settings."""
 
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -37,3 +38,18 @@ PRUNE_AFTER_DAYS = 45
 
 # Offers scoring below this threshold are dropped (no capital-markets signal).
 MIN_SCORE = 1
+
+# Graduation date: internships starting after it are not relevant.
+GRADUATION_YEAR = 2029
+GRADUATION_MONTH = 6
+
+
+def year_window(today: date | None = None) -> tuple[int, int]:
+    """Start years worth tracking: from now until graduation.
+
+    The window moves by itself: from September on, internships of the current
+    year have started already, so the window begins the following year.
+    """
+    today = today or date.today()
+    first = today.year + 1 if today.month >= 9 else today.year
+    return first, GRADUATION_YEAR

@@ -28,6 +28,7 @@ const TYPE_LABEL = {
   consulting: "Conseil risque",
   commodities: "Trading matières premières",
   infrastructure: "Bourse / infrastructure",
+  corporate: "Grand groupe (trésorerie / marchés)",
 };
 
 const FAMILY_LABEL = {
@@ -37,9 +38,96 @@ const FAMILY_LABEL = {
   "Quant dev": "Quant dev / Strats",
   "Trading": "Trading",
   "Product control": "Product control",
+  "Treasury": "Trésorerie / financement",
   "Markets (other)": "Autres métiers marchés",
   "Other": "Autre",
 };
+
+const TIMING_LABEL = {
+  june: "Début en juin",
+  summer: "Summer",
+  "off-cycle": "Off-cycle",
+  unknown: "Calendrier inconnu",
+};
+const MONTHS_FR = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
+  "septembre", "octobre", "novembre", "décembre"];
+
+// "june" is a sub-case of summer: offers starting in June are shown first.
+function timingKey(job) {
+  if ((job.start || "").endsWith("-06")) return "june";
+  return job.timing || "unknown";
+}
+
+function startLabel(job) {
+  if (!job.start) return "";
+  const [y, m] = job.start.split("-");
+  return m ? `Début ${MONTHS_FR[Number(m) - 1]} ${y}` : `Début ${y}`;
+}
+
+// ---------------------------------------------------------------- recruiting calendar
+
+// Keep in sync with GRADUATION_YEAR in tracker/config.py.
+const GRADUATION_YEAR = 2029;
+const MONTHS_SHORT = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
+
+// Usual application windows, relative to the start year Y of the internship:
+// [year offset, month]. Indicative only; the site says so.
+const CYCLES = {
+  anglo: [
+    { name: "Summer", open: [-1, 7], close: [-1, 11] },
+    { name: "Off-cycle janv.", open: [-1, 9], close: [-1, 11] },
+  ],
+  trading: [
+    { name: "Summer", open: [-1, 6], close: [-1, 10] },
+    { name: "Off-cycle", open: [-1, 8], close: [-1, 12] },
+  ],
+  fr: [
+    { name: "Stage dès juin", open: [0, 1], close: [0, 4] },
+    { name: "Stage dès janv.", open: [-1, 9], close: [-1, 11] },
+  ],
+  consulting: [
+    { name: "Stage dès juin", open: [-1, 10], close: [0, 3] },
+    { name: "Stage dès janv.", open: [-1, 7], close: [-1, 10] },
+  ],
+};
+const TYPE_CYCLE = {
+  intl_bank: "anglo", infrastructure: "anglo", hedge_fund: "trading",
+  french_bank: "fr", european_bank: "fr", broker: "fr", asset_manager: "fr",
+  insurance: "fr", commodities: "fr", software: "fr", corporate: "fr", consulting: "consulting",
+  institution: null,
+};
+
+const monthIndex = (y, m) => y * 12 + (m - 1);
+
+// For each usual window, the next one that is not over yet (up to graduation).
+function nextWindows(type) {
+  const cycle = CYCLES[TYPE_CYCLE[type]];
+  if (!cycle) return [];
+  const now = new Date();
+  const today = monthIndex(now.getFullYear(), now.getMonth() + 1);
+  const out = [];
+  for (const w of cycle) {
+    for (let y = now.getFullYear(); y <= GRADUATION_YEAR; y++) {
+      const open = monthIndex(y + w.open[0], w.open[1]);
+      const close = monthIndex(y + w.close[0], w.close[1]);
+      if (close < today) continue;
+      const state = open <= today ? "open" : open - today <= 3 ? "soon" : "later";
+      const fmt = (i) => `${MONTHS_SHORT[i % 12]} ${Math.floor(i / 12)}`;
+      out.push({ label: `${w.name} ${y} : ${fmt(open)} → ${fmt(close)}`, state, open });
+      break;
+    }
+  }
+  return out;
+}
+
+const CONTACT_STATUSES = [
+  ["", "—"],
+  ["todo", "À contacter"],
+  ["contacted", "Contacté"],
+  ["followup", "Relancé"],
+  ["positive", "Réponse positive"],
+  ["negative", "Refus"],
+];
 
 const state = {
   tab: "new",
@@ -47,6 +135,9 @@ const state = {
   newIds: new Set(),
   runDate: "",
   tracking: loadTracking(),
+  manual: loadManual(),
+  companies: [],
+  contacts: loadContacts(),
 };
 
 const $ = (id) => document.getElementById(id);
@@ -59,6 +150,38 @@ function loadTracking() {
   } catch {
     return {};
   }
+}
+
+// Offers added by hand: same privacy rule as tracking (this browser only).
+function loadManual() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY + ".manual")) || [];
+  } catch {
+    return [];
+  }
+}
+
+function saveManual() {
+  try {
+    localStorage.setItem(STORAGE_KEY + ".manual", JSON.stringify(state.manual));
+  } catch {
+    alert("Impossible d'enregistrer dans ce navigateur (navigation privée ?). Exportez un CSV pour ne rien perdre.");
+  }
+}
+
+function loadContacts() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY + ".contacts")) || {};
+  } catch {
+    return {};
+  }
+}
+
+function updateContact(name, patch) {
+  const next = { ...(state.contacts[name] || {}), ...patch };
+  if (!next.status && !next.date && !next.notes) delete state.contacts[name];
+  else state.contacts[name] = next;
+  try { localStorage.setItem(STORAGE_KEY + ".contacts", JSON.stringify(state.contacts)); } catch { /* ignore */ }
 }
 
 function saveTracking() {
@@ -93,11 +216,13 @@ async function fetchJson(path) {
 
 async function load() {
   try {
-    const [jobs, fresh, errors] = await Promise.all([
+    const [jobs, fresh, errors, companies] = await Promise.all([
       fetchJson("data/jobs.json"),
       fetchJson("data/new_today.json").catch(() => ({ jobs: [] })),
       fetchJson("data/errors.json").catch(() => null),
+      fetchJson("employers.json").catch(() => []),
     ]);
+    state.companies = companies;
     state.jobs = jobs.jobs || [];
     state.newIds = new Set((fresh.jobs || []).map((j) => j.id));
     state.runDate = fresh.date || "";
@@ -109,14 +234,16 @@ async function load() {
     return;
   }
   // Tracked offers that disappeared from the history are kept from their snapshot.
-  const known = new Set(state.jobs.map((j) => j.id));
+  const known = new Set([...state.jobs, ...state.manual].map((j) => j.id));
   for (const [id, t] of Object.entries(state.tracking)) {
     if (!known.has(id) && t.job) {
       state.jobs.push({ id, ...t.job, employer_type: "", countries: [], country_names: [],
         family: "Other", score: 0, active: false, first_seen: "", archived: true });
     }
   }
+  state.jobs.push(...state.manual);
   fillFilters();
+  fillDialog();
   restoreFilters();
   render();
 }
@@ -150,7 +277,7 @@ function renderStatus(generatedAt, errors) {
 
 // ---------------------------------------------------------------- filters
 
-const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-date", "f-status", "f-score", "f-inactive"];
+const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-timing", "f-year", "f-date", "f-status", "f-score", "f-inactive"];
 
 function fillSelect(id, entries) {
   const select = $(id);
@@ -176,7 +303,19 @@ function fillFilters() {
   fillSelect("f-country", [["__none", "Non précisé"], ...countryEntries]);
   const families = uniq(state.jobs.map((j) => j.family));
   fillSelect("f-family", Object.keys(FAMILY_LABEL).filter((f) => families.includes(f)).map((f) => [f, FAMILY_LABEL[f]]));
+  fillSelect("f-timing", [
+    ["june", "Début en juin"],
+    ["summer", "Summer (dont juin)"],
+    ["off-cycle", "Off-cycle"],
+    ["unknown", "Calendrier inconnu"],
+  ]);
+  // Years come from the data, so new years (2029...) appear by themselves.
+  const years = uniq(state.jobs.map((j) => (j.start || "").slice(0, 4))).sort();
+  fillSelect("f-year", [...years.map((y) => [y, y]), ["__none", "Non précisée"]]);
   fillSelect("f-status", [["__any", "Suivie (tout statut)"], ...STATUSES.slice(1)]);
+  const ctypes = [...new Set(state.companies.map((c) => c.type))];
+  fillSelect("c-type", ctypes.map((t) => [t, TYPE_LABEL[t] || t]).sort((a, b) => a[1].localeCompare(b[1], "fr")));
+  fillSelect("c-contact", [["__any", "Suivi (tout statut)"], ...CONTACT_STATUSES.slice(1)]);
 }
 
 function currentFilters() {
@@ -186,6 +325,8 @@ function currentFilters() {
     type: $("f-type").value,
     country: $("f-country").value,
     family: $("f-family").value,
+    timing: $("f-timing").value,
+    year: $("f-year").value,
     days: Number($("f-date").value) || 0,
     status: $("f-status").value,
     minScore: Number($("f-score").value) || 0,
@@ -225,13 +366,20 @@ function daysAgo(isoDate) {
 function matches(job, f) {
   const t = state.tracking[job.id];
   if (state.tab === "new" && !state.newIds.has(job.id)) return false;
-  if (state.tab === "mine" && !t) return false;
+  if (state.tab === "mine" && !t && !job.manual) return false;
   if (!f.inactive && !job.active && state.tab !== "mine") return false;
   if (f.employer && job.employer !== f.employer) return false;
   if (f.type && job.employer_type !== f.type) return false;
   if (f.country === "__none" && (job.countries || []).length) return false;
   if (f.country && f.country !== "__none" && !(job.countries || []).includes(f.country)) return false;
   if (f.family && job.family !== f.family) return false;
+  if (f.timing) {
+    const key = timingKey(job);
+    const ok = f.timing === "summer" ? key === "summer" || key === "june" : key === f.timing;
+    if (!ok) return false;
+  }
+  if (f.year === "__none" && job.start) return false;
+  if (f.year && f.year !== "__none" && !(job.start || "").startsWith(f.year)) return false;
   if (f.days && daysAgo(job.first_seen) >= f.days) return false;
   if (f.status === "__any" && !(t && t.status)) return false;
   if (f.status && f.status !== "__any" && (!t || t.status !== f.status)) return false;
@@ -261,15 +409,16 @@ function renderCard(job) {
   if (!job.active) node.classList.add("inactive");
 
   const score = node.querySelector(".score");
-  score.textContent = job.score;
-  score.classList.add(scoreClass(job.score));
+  score.textContent = job.manual ? "✎" : job.score;
+  score.classList.add(job.manual ? "manual" : scoreClass(job.score));
+  if (job.manual) score.title = "Offre ajoutée par moi";
   if (job.score_breakdown) {
     const b = job.score_breakdown;
     score.title = `Score ${job.score} = métier ${b.role} + zone ${b.geo} + ville ${b.city} + calendrier ${b.timing}`;
   }
 
   const link = node.querySelector(".title a");
-  link.href = job.url;
+  if (job.url) link.href = job.url;
   link.textContent = job.title;
   node.querySelector(".employer").textContent = job.employer;
   node.querySelector(".type").textContent = TYPE_LABEL[job.employer_type] || "";
@@ -283,8 +432,10 @@ function renderCard(job) {
     tags.append(span);
   };
   if (state.newIds.has(job.id)) addTag("Nouveau", "new");
+  if (job.manual) addTag("Ajoutée par moi", "manual");
   if (!job.active) addTag(job.archived ? "Archivée" : "Fermée", "closed");
   if (job.family) addTag(FAMILY_LABEL[job.family] || job.family);
+  if (job.timing) addTag(startLabel(job) || TIMING_LABEL[timingKey(job)], timingKey(job) === "june" ? "june" : "");
   (job.country_names || []).slice(0, 3).forEach((c) => addTag(c));
   if (job.first_seen) addTag(`Vue le ${frDate(job.first_seen)}`);
   if (job.posted_at) addTag(`Publiée le ${frDate(job.posted_at)}`);
@@ -322,6 +473,11 @@ function renderCard(job) {
     toggle.textContent = notes.hidden ? "Notes" : "Masquer les notes";
     if (!notes.hidden) notes.focus();
   });
+  if (job.manual) {
+    const edit = node.querySelector(".edit-offer");
+    edit.hidden = false;
+    edit.addEventListener("click", () => openDialog(job));
+  }
   let timer;
   notes.addEventListener("input", () => {
     clearTimeout(timer);
@@ -330,7 +486,87 @@ function renderCard(job) {
   return node;
 }
 
+function renderCompany(c) {
+  const node = $("company-tpl").content.firstElementChild.cloneNode(true);
+  const link = node.querySelector(".title a");
+  link.href = c.careers_url;
+  link.textContent = c.name;
+  node.querySelector(".type").textContent = TYPE_LABEL[c.type] || c.type;
+  const cov = node.querySelector(".coverage");
+  cov.textContent = c.covered ? "Suivi automatique" : "À regarder à la main";
+  cov.classList.add(c.covered ? "auto" : "manual");
+  if (!c.covered && c.notes) cov.title = c.notes;
+  const windows = node.querySelector(".windows");
+  const list = c.windows.length ? c.windows : [{ label: "Campagnes ponctuelles : surveiller la page carrières", state: "later" }];
+  for (const w of list) {
+    const span = document.createElement("span");
+    span.className = `window ${w.state}`;
+    span.textContent = w.label + (w.state === "open" ? " · ouverte" : w.state === "soon" ? " · bientôt" : "");
+    windows.append(span);
+  }
+  const contact = state.contacts[c.name] || {};
+  const select = node.querySelector(".contact-select");
+  select.replaceChildren(...CONTACT_STATUSES.map(([v, l]) => new Option(l, v)));
+  select.value = contact.status || "";
+  select.addEventListener("change", () => {
+    const patch = { status: select.value };
+    if (select.value && select.value !== "todo" && !date.value) {
+      date.value = new Date().toISOString().slice(0, 10);
+      patch.date = date.value;
+    }
+    updateContact(c.name, patch);
+  });
+  const date = node.querySelector(".contact-date");
+  date.value = contact.date || "";
+  date.addEventListener("change", () => updateContact(c.name, { date: date.value }));
+  const notes = node.querySelector(".contact-notes");
+  notes.value = contact.notes || "";
+  notes.addEventListener("change", () => updateContact(c.name, { notes: notes.value }));
+  return node;
+}
+
+function renderCompanies() {
+  const q = $("c-search").value.trim().toLowerCase();
+  const type = $("c-type").value, covered = $("c-covered").value;
+  const win = $("c-window").value, contact = $("c-contact").value;
+  const rank = { open: 0, soon: 1, later: 2 };
+  const rows = state.companies
+    .map((c) => ({ ...c, windows: nextWindows(c.type) }))
+    .filter((c) => {
+      const states = c.windows.map((w) => w.state);
+      const st = (state.contacts[c.name] || {}).status;
+      if (q && !c.name.toLowerCase().includes(q)) return false;
+      if (type && c.type !== type) return false;
+      if (covered === "auto" && !c.covered) return false;
+      if (covered === "manual" && c.covered) return false;
+      if (win === "open" && !states.includes("open")) return false;
+      if (win === "soon" && !states.includes("open") && !states.includes("soon")) return false;
+      if (contact === "__any" && !st) return false;
+      if (contact && contact !== "__any" && st !== contact) return false;
+      return true;
+    })
+    .sort((a, b) => {
+      const ra = Math.min(3, ...a.windows.map((w) => rank[w.state]));
+      const rb = Math.min(3, ...b.windows.map((w) => rank[w.state]));
+      return ra - rb || a.name.localeCompare(b.name, "fr");
+    });
+  $("list").replaceChildren(...rows.map(renderCompany));
+  $("result-line").textContent = `${rows.length} entreprise(s)`;
+  $("empty").hidden = rows.length > 0;
+  $("empty").textContent = "Aucune entreprise ne correspond aux filtres.";
+}
+
 function render() {
+  const companiesTab = state.tab === "companies";
+  $("filters").hidden = companiesTab;
+  $("company-filters").hidden = !companiesTab;
+  if (companiesTab) {
+    $("pipeline").hidden = true;
+    renderCompanies();
+    updateCounts();
+    saveFilters();
+    return;
+  }
   const f = currentFilters();
   const rows = state.jobs.filter((j) => matches(j, f));
   rows.sort((a, b) => b.score - a.score || (b.first_seen || "").localeCompare(a.first_seen || "") || a.employer.localeCompare(b.employer));
@@ -349,7 +585,31 @@ function render() {
 function updateCounts() {
   $("count-new").textContent = state.jobs.filter((j) => state.newIds.has(j.id)).length;
   $("count-all").textContent = state.jobs.filter((j) => j.active).length;
-  $("count-mine").textContent = Object.keys(state.tracking).length;
+  const tracked = new Set([...Object.keys(state.tracking), ...state.manual.map((j) => j.id)]);
+  $("count-mine").textContent = tracked.size;
+  $("count-companies").textContent = state.companies.length;
+  renderPipeline();
+}
+
+// Status summary shown on "Mon suivi"; a click filters on that status.
+function renderPipeline() {
+  const bar = $("pipeline");
+  bar.hidden = state.tab !== "mine";
+  if (bar.hidden) return;
+  const counts = {};
+  for (const t of Object.values(state.tracking)) if (t.status) counts[t.status] = (counts[t.status] || 0) + 1;
+  const current = $("f-status").value;
+  bar.replaceChildren(...STATUSES.slice(1).map(([value, label]) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = current === value ? "on" : "";
+    b.innerHTML = `${label}<strong>${counts[value] || 0}</strong>`;
+    b.addEventListener("click", () => {
+      $("f-status").value = current === value ? "" : value;
+      render();
+    });
+    return b;
+  }));
 }
 
 function setTab(tab, rerender = true) {
@@ -362,9 +622,99 @@ function setTab(tab, rerender = true) {
   if (rerender) render();
 }
 
+// ---------------------------------------------------------------- manual offers
+
+let editing = null;
+
+function fillDialog() {
+  const form = $("offer-form");
+  form.family.replaceChildren(...Object.entries(FAMILY_LABEL).map(([v, l]) => new Option(l, v)));
+  form.family.value = "Structuring";
+  form.status.replaceChildren(...STATUSES.map(([v, l]) => new Option(l, v)));
+  const uniq = (arr) => [...new Set(arr.filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr"));
+  $("employer-list").replaceChildren(...uniq(state.jobs.map((j) => j.employer)).map((e) => new Option(e)));
+  $("country-list").replaceChildren(...uniq(state.jobs.flatMap((j) => j.country_names || [])).map((c) => new Option(c)));
+}
+
+function openDialog(job = null) {
+  editing = job;
+  const form = $("offer-form");
+  form.reset();
+  $("offer-dialog-title").textContent = job ? "Modifier l'offre" : "Ajouter une offre";
+  $("offer-delete").hidden = !job;
+  if (job) {
+    const t = state.tracking[job.id] || {};
+    form.title.value = job.title;
+    form.employer.value = job.employer;
+    form.url.value = job.url || "";
+    form.location.value = job.location || "";
+    form.country.value = (job.country_names || [])[0] || "";
+    form.family.value = job.family || "Other";
+    form.timing.value = job.timing || "unknown";
+    form.start.value = (job.start || "").length === 7 ? job.start : "";
+    form.status.value = t.status || "";
+    form.applied_on.value = t.applied_on || "";
+    form.notes.value = t.notes || "";
+  } else {
+    form.family.value = "Structuring";
+    form.timing.value = "summer";
+  }
+  $("offer-dialog").showModal();
+}
+
+// Map a typed country name to the code used by the filters, when known.
+function countryCode(name) {
+  for (const j of state.jobs) {
+    const i = (j.country_names || []).findIndex((c) => c.toLowerCase() === name.toLowerCase());
+    if (i >= 0) return j.countries[i];
+  }
+  return name;
+}
+
+function saveDialog() {
+  const form = $("offer-form");
+  const country = form.country.value.trim();
+  const job = {
+    ...(editing || {}),
+    id: editing ? editing.id : `manual-${Date.now()}`,
+    manual: true,
+    active: true,
+    title: form.title.value.trim(),
+    employer: form.employer.value.trim(),
+    url: form.url.value.trim(),
+    location: form.location.value.trim(),
+    countries: country ? [countryCode(country)] : [],
+    country_names: country ? [country] : [],
+    family: form.family.value,
+    timing: form.start.value && form.start.value.endsWith("-06") ? "summer" : form.timing.value,
+    start: form.start.value,
+    employer_type: "",
+    score: 0,
+    first_seen: editing ? editing.first_seen : new Date().toISOString().slice(0, 10),
+  };
+  state.manual = state.manual.filter((j) => j.id !== job.id).concat(job);
+  state.jobs = state.jobs.filter((j) => j.id !== job.id).concat(job);
+  saveManual();
+  const appliedOn = form.applied_on.value
+    || (form.status.value === "applied" ? new Date().toISOString().slice(0, 10) : "");
+  updateTracking(job, { status: form.status.value, applied_on: appliedOn, notes: form.notes.value });
+  render();
+}
+
+function deleteEditing() {
+  if (!editing || !confirm(`Supprimer « ${editing.title} » ?`)) return;
+  state.manual = state.manual.filter((j) => j.id !== editing.id);
+  state.jobs = state.jobs.filter((j) => j.id !== editing.id);
+  delete state.tracking[editing.id];
+  saveManual();
+  saveTracking();
+  $("offer-dialog").close();
+  render();
+}
+
 // ---------------------------------------------------------------- CSV
 
-const CSV_COLUMNS = ["id", "employer", "title", "location", "url", "score", "family", "first_seen", "status", "applied_on", "notes"];
+const CSV_COLUMNS = ["id", "employer", "title", "location", "country", "url", "score", "family", "timing", "start", "first_seen", "manual", "status", "applied_on", "notes"];
 
 function csvEscape(value) {
   const s = String(value ?? "");
@@ -374,9 +724,12 @@ function csvEscape(value) {
 function exportCsv() {
   const byId = new Map(state.jobs.map((j) => [j.id, j]));
   const lines = [CSV_COLUMNS.join(",")];
-  for (const [id, t] of Object.entries(state.tracking)) {
+  const ids = new Set([...Object.keys(state.tracking), ...state.manual.map((j) => j.id)]);
+  for (const id of ids) {
+    const t = state.tracking[id] || {};
     const j = byId.get(id) || { id, ...(t.job || {}) };
-    const row = { ...j, id, status: STATUS_LABEL[t.status] || "", applied_on: t.applied_on || "", notes: t.notes || "" };
+    const row = { ...j, id, country: (j.country_names || []).join(" / "), manual: j.manual ? "oui" : "",
+      status: STATUS_LABEL[t.status] || "", applied_on: t.applied_on || "", notes: t.notes || "" };
     lines.push(CSV_COLUMNS.map((c) => csvEscape(row[c])).join(","));
   }
   const blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
@@ -424,9 +777,18 @@ function importCsv(file) {
       if (!id) continue;
       const rawStatus = (r[col("status")] || "").trim();
       const status = labelToStatus[rawStatus.toLowerCase()] ?? (STATUS_LABEL[rawStatus] !== undefined ? rawStatus : "");
-      const job = state.jobs.find((j) => j.id === id) || {
-        id, title: r[col("title")] || "", employer: r[col("employer")] || "", url: r[col("url")] || "", location: r[col("location")] || "",
-      };
+      const get = (name) => (col(name) >= 0 ? r[col(name)] || "" : "").trim();
+      let job = state.jobs.find((j) => j.id === id);
+      if (!job && (get("manual") === "oui" || id.startsWith("manual-"))) {
+        job = { id, manual: true, active: true, title: get("title"), employer: get("employer"), url: get("url"),
+          location: get("location"), countries: get("country") ? [countryCode(get("country"))] : [],
+          country_names: get("country") ? [get("country")] : [], family: get("family") || "Other",
+          timing: get("timing") || "unknown", start: get("start"), employer_type: "", score: 0,
+          first_seen: get("first_seen") };
+        state.manual = state.manual.filter((j) => j.id !== id).concat(job);
+        saveManual();
+      }
+      job = job || { id, title: get("title"), employer: get("employer"), url: get("url"), location: get("location") };
       updateTracking(job, { status, applied_on: (r[col("applied_on")] || "").trim(), notes: r[col("notes")] || "" });
       count++;
     }
@@ -456,6 +818,16 @@ $("reset").addEventListener("click", () => {
   render();
 });
 $("export").addEventListener("click", exportCsv);
+for (const id of ["c-search", "c-type", "c-covered", "c-window", "c-contact"]) {
+  $(id).addEventListener(id === "c-search" ? "input" : "change", render);
+}
+$("add-offer").addEventListener("click", () => openDialog());
+$("offer-cancel").addEventListener("click", () => $("offer-dialog").close());
+$("offer-delete").addEventListener("click", deleteEditing);
+$("offer-form").addEventListener("submit", (e) => {
+  if (!e.target.checkValidity()) return;
+  saveDialog();
+});
 $("import").addEventListener("change", (e) => e.target.files[0] && importCsv(e.target.files[0]));
 
 load();

@@ -1,4 +1,9 @@
-from tracker.scoring import role_match, score
+from tracker.scoring import role_match, score as _score
+from tracker.timing import analyse
+
+
+def score(title, location, countries, description=""):
+    return _score(title, location, countries, analyse(title, description))
 
 
 def test_role_levels():
@@ -19,6 +24,11 @@ def test_role_levels():
     # M&A / investment banking is not a markets role.
     assert role_match("Global Investment Banking Analyst Program - Off-Cycle Internship")[0] == "none"
     assert role_match("Commercial & Investment Banking - Global Markets - Off-cycle Internship")[0] == "low"
+
+
+def test_corporate_treasury_roles():
+    assert role_match("Treasury Intern - FX Hedging")[0] == "medium"
+    assert role_match("Stage Trésorerie Groupe") == ("low", "Treasury")
 
 
 def test_role_families():
@@ -57,7 +67,9 @@ def test_no_markets_signal_scores_zero():
 def test_timing_bonus():
     base = score("Structuring Intern", "Madrid", ["ES"]).total
     off = score("Structuring Off-Cycle Intern (6 months)", "Madrid", ["ES"]).total
-    assert off > base
+    summer = score("Structuring Summer Intern 2027", "Madrid", ["ES"]).total
+    june = score("Structuring Intern - June 2027", "Madrid", ["ES"]).total
+    assert june > summer > off > base
 
 
 def test_score_is_capped():
