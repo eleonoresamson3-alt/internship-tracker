@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T08:36:06+00:00",
+ "generated_at": "2026-10-23T08:54:38+00:00",
  "jobs": [
   {
    "id": "deutsche-bank-a905eeb72bb8",
@@ -122,6 +122,37 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6341",
    "posted_at": "2026-06-30",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "sanofi-39a271f1f587",
+   "employer": "Sanofi",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "internship 6 months global market access and pricing",
+   "location": "Lyon",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 91,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 0,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Lyon/internship-6-months--global-market-access-and-pricing_R2874165",
+   "posted_at": "2026-10-15",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -1244,6 +1275,37 @@
    "start": "2027",
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Paris-52-avenue-Hoche/Quantitative-Analytics-Associate-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124726",
    "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "deutsche-bank-6536510339d6",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "FX Risk Management Sales Intern (f/m/x)",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Risk",
+   "role_level": "medium",
+   "score": 71,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/FX-Risk-Management-Sales-Intern--f-m-x-_R0449103",
+   "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -3573,6 +3635,37 @@
    "active": true
   },
   {
+   "id": "pernod-ricard-ff548a041fde",
+   "employer": "Pernod Ricard",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Stagiaire Trésorerie Internationale - Janvier 2027 - Paris",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 56,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stagiaire-Trsorerie-Internationale---Mars-2026_JR-052498-1",
+   "posted_at": "2026-10-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "pwc-14e3d2d2492c",
    "employer": "PwC",
    "employer_type": "consulting",
@@ -3911,37 +4004,6 @@
    "start": "2027-01",
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Credit-Sales-Intern-France--f-m-x-_R0446171",
    "posted_at": "2026-10-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "deutsche-bank-6536510339d6",
-   "employer": "Deutsche Bank",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "FX Risk Management Sales Intern (f/m/x)",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/FX-Risk-Management-Sales-Intern--f-m-x-_R0449103",
-   "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -4571,6 +4633,37 @@
    "active": true
   },
   {
+   "id": "thales-16e700bbaf74",
+   "employer": "Thales",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "STAGE - Trésorerie Cash Management - F/H",
+   "location": "Meudon",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Meudon/STAGE---Trsorerie-Cash-Management---F-H_R0341442-2",
+   "posted_at": "2026-09-29",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "accenture-9b792a016468",
    "employer": "Accenture",
    "employer_type": "consulting",
@@ -4597,6 +4690,68 @@
    "start": "",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Paris/Consultant-stagiaire-Financial-Services---Banking---Capital-Markets---F-H_R00365955-1",
    "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "air-liquide-d53e15d3c00b",
+   "employer": "Air Liquide",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "STAGE - SIEGE SOCIAL - Trésorerie Cash management & Back Office H/F",
+   "location": "France, Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/STAGE---SIEGE-SOCIAL---Trsorerie-Cash-management---Back-Office-H-F_R10102156",
+   "posted_at": "2026-09-30",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "air-liquide-40eb19e9dafc",
+   "employer": "Air Liquide",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Stage Trésorerie & Projets Systèmes d'Information (H/F)",
+   "location": "France, Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/Stage-Trsorerie---Projets-Systmes-d-Information--H-F-_R10102166",
+   "posted_at": "2026-10-07",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -6268,7 +6423,7 @@
     "France"
    ],
    "region": "France",
-   "family": "Markets (other)",
+   "family": "Treasury",
    "role_level": "low",
    "score": 46,
    "score_breakdown": {
@@ -6282,6 +6437,68 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stage-Corporate-Finance---Janvier-2027---F-H_739939WD",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "air-liquide-d8d2c02feca5",
+   "employer": "Air Liquide",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "STAGE - SIEGE SOCIAL - Front Office / Salle des marchés H/F",
+   "location": "France, Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/STAGE---SIEGE-SOCIAL---Front-Office---Salle-des-marchs-H-F_R10101872",
+   "posted_at": "2026-09-28",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "air-liquide-af7bd5c87589",
+   "employer": "Air Liquide",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Stage - Siège social - Corporate Finance H/F",
+   "location": "France, Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/Stage---Sige-social---Corporate-Finance-H-F_R10102109",
+   "posted_at": "2026-09-30",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -6363,7 +6580,7 @@
     "France"
    ],
    "region": "France",
-   "family": "Markets (other)",
+   "family": "Treasury",
    "role_level": "low",
    "score": 45,
    "score_breakdown": {
@@ -11002,6 +11219,37 @@
    "active": true
   },
   {
+   "id": "lombard-odier-0a58c998ec96",
+   "employer": "Lombard Odier",
+   "employer_type": "european_bank",
+   "platform": "workday",
+   "title": "Internship – Software engineer - Cash Management Tool Redevelopment",
+   "location": "Geneva",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Internship---Software-engineer---Cash-Management-Tool-Redevelopment_R0007630",
+   "posted_at": "2026-10-19",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "man-group-8d40e620408e",
    "employer": "Man Group",
    "employer_type": "asset_manager",
@@ -14589,7 +14837,7 @@
    "countries": [],
    "country_names": [],
    "region": "Unknown",
-   "family": "Risk",
+   "family": "Treasury",
    "role_level": "low",
    "score": 22,
    "score_breakdown": {
@@ -14620,7 +14868,7 @@
     "United States"
    ],
    "region": "Rest of world",
-   "family": "Risk",
+   "family": "Treasury",
    "role_level": "low",
    "score": 22,
    "score_breakdown": {
@@ -15023,7 +15271,7 @@
     "Singapore"
    ],
    "region": "Rest of world",
-   "family": "Markets (other)",
+   "family": "Treasury",
    "role_level": "low",
    "score": 16,
    "score_breakdown": {
@@ -15703,6 +15951,37 @@
    "url": "https://gunvor.wd3.myworkdayjobs.com/Gunvor_Careers/job/Singapore/Research-Intern_JR102797-1",
    "posted_at": "2026-09-03",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "air-liquide-780d3940ec89",
+   "employer": "Air Liquide",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Treasury Intern",
+   "location": "Argentina, Munro",
+   "countries": [
+    "AR"
+   ],
+   "country_names": [
+    "Argentina"
+   ],
+   "region": "Rest of world",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/Argentina-Munro/Treasury-Intern_R10103306",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -17581,6 +17860,33 @@
    "active": true
   },
   {
+   "id": "unicredit-8b02629c7ee7",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Internship - Client Solutions - Client Risk Management & Treasury",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Internship-Client-Solutions-Client-Risk-Management-Treasury/114530",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "unicredit-8cb6b749b851",
    "employer": "UniCredit",
    "employer_type": "european_bank",
@@ -18079,31 +18385,6 @@
    "posted_at": "2026-10-09",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
-   "active": false
-  },
-  {
-   "id": "unicredit-8b02629c7ee7",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Internship - Client Solutions - Client Risk Management & Treasury",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Internship-Client-Solutions-Client-Risk-Management-Treasury/114530",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
    "active": false
   }
  ]
