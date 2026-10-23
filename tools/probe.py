@@ -13,17 +13,15 @@ def get(path, **params):
         return r.json()
     except Exception as e:
         say("ERR", path, type(e).__name__, str(e)[:200]); return None
-d = get("", limit=100, select="dataset_id")
-if d: say("DATASETS", [x.get("dataset_id") for x in d.get("results", [])])
-o = get("/observations/records", limit=2)
-if o: say("OBS sample", json.dumps(o, ensure_ascii=False)[:1500])
-s = get("/series/records", limit=2)
-if s: say("SERIES sample", json.dumps(s, ensure_ascii=False)[:2000])
-for q in ['search("10 ans")', 'search("OAT")', 'search("FR10YT")', 'search("FR2YT")', 'search("rendement")']:
-    r = get("/series/records", where=q, limit=20)
-    if r: say("SEARCH", q, r.get("total_count"), json.dumps([{k: v for k, v in x.items() if k in ("series_key", "title_fr", "title_en", "series_name", "dataset_id", "frequency", "title")} or x for x in r.get("results", [])], ensure_ascii=False)[:2500])
-r = get("/observations/records", where='series_key like "FM.D.FR%"', limit=5, select="series_key")
-if r: say("OBS FM.D.FR", json.dumps(r, ensure_ascii=False)[:1000])
+r = get("/series/records", where='search("Echeance Constante") and series_key like "FM.D.%"', limit=40, select="series_key,title_fr")
+if r: say("TEC", r.get("total_count"), json.dumps(r.get("results"), ensure_ascii=False)[:3000])
+r = get("/series/records", where='search("Echéance Constante")', limit=60, select="series_key,title_fr")
+if r: say("TEC2", r.get("total_count"), json.dumps([x["series_key"] for x in r.get("results", [])], ensure_ascii=False)[:3000])
+for k in ["FM.D.FR.EUR.FR2.BB.FRMOYTEC10.HSTA", "FM.D.FR.EUR.FR2.BB.FRMOYTEC2.HSTA"]:
+    r = get("/observations/records", where=f'series_key="{k}"', order_by="time_period_start desc", limit=3, select="time_period_start,obs_value")
+    if r: say("OBS", k, json.dumps(r, ensure_ascii=False)[:500])
+    r = get("/observations/exports/json", where=f'series_key="{k}"', limit=5)
+    if r is not None: say("EXPORT", k, type(r).__name__, json.dumps(r, ensure_ascii=False)[:300])
 text = "\n".join(OUT)
 for n, i in enumerate(range(0, len(text), 3500)):
     builtins.print(f"::notice title=Probe {n}::" + text[i:i+3500].replace("%", "%25").replace("\r", "").replace("\n", "%0A"))
