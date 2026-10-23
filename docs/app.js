@@ -655,8 +655,11 @@ function render() {
 function renderSoon() {
   const box = $("soon");
   const rows = state.tab === "companies" ? [] : state.jobs
-    .filter((j) => j.deadline && !isClosed(j) && !isHidden(j) && !applied(j) && daysLeft(j) >= 0 && daysLeft(j) <= 14)
-    .sort((a, b) => a.deadline.localeCompare(b.deadline) || b.score - a.score);
+    .filter((j) => j.deadline && j.score >= 40 && !isClosed(j) && !isHidden(j) && !applied(j)
+      && daysLeft(j) >= 0 && daysLeft(j) <= 14)
+    // Deadlines stated in the ad first, then estimated ones; earliest first.
+    .sort((a, b) => (a.deadline_source !== "annonce") - (b.deadline_source !== "annonce")
+      || a.deadline.localeCompare(b.deadline) || b.score - a.score);
   box.hidden = rows.length === 0;
   $("soon-list").replaceChildren(...rows.slice(0, 12).map((j) => {
     const li = document.createElement("li");

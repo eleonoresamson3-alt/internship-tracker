@@ -18,6 +18,12 @@ on GitHub Pages.
 - **Companies** tab: every employer of the list (scraped or not) with its careers page, the usual
   application windows for its type (indicative), and a contact status
 - Filters on timing (start in June, summer, off-cycle) and start year
+- **Deadlines**: read from the ad when stated ("Application deadline: 15 November 2026"),
+  otherwise estimated from the usual recruiting calendar of the employer type; an "À ne pas
+  rater" panel lists closings within 14 days, and a **daily e-mail digest** is sent through a
+  GitHub issue comment that mentions the repository owner (`tracker/notify.py`)
+- Offers that are gone (removed by the employer, or past a stated deadline) disappear by
+  themselves, except those already applied to, which stay in *Mon suivi*
 - Last update time and the list of employers that failed on the last run
 
 ## How it works
