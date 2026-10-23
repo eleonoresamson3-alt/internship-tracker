@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T09:18:51+00:00",
+ "generated_at": "2026-10-23T09:35:08+00:00",
  "date": "2026-10-23",
  "jobs": [
   {
@@ -96,37 +96,6 @@
    "active": true
   },
   {
-   "id": "pernod-ricard-ff548a041fde",
-   "employer": "Pernod Ricard",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "Stagiaire Trésorerie Internationale - Janvier 2027 - Paris",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 56,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stagiaire-Trsorerie-Internationale---Mars-2026_JR-052498-1",
-   "posted_at": "2026-10-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "groupe-credit-agricole-e69dca4cbb99",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
@@ -184,37 +153,6 @@
    "start": "",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---products-et-client-solutions---private-equity-et-real-estate-solutions-mf-hf-reference--2026-116824--/",
    "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "thales-16e700bbaf74",
-   "employer": "Thales",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "STAGE - Trésorerie Cash Management - F/H",
-   "location": "Meudon",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Meudon/STAGE---Trsorerie-Cash-Management---F-H_R0341442-2",
-   "posted_at": "2026-09-29",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -846,37 +784,6 @@
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-3772b96e162a",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Chargé(e) de Sécurité Financière et Prévention de la Fraude H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-136-stage---chargee-de-securite-financiere-et-prevention-de-la-fraude-hf-reference--2026-111699--/",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "voleon-43ac840b91b3",
    "employer": "Voleon",
    "employer_type": "hedge_fund",
@@ -1249,68 +1156,6 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-2a0f7a1c1c2a",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - Fixed Income Sustainability Team",
-   "location": "Remote, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869913",
-   "posted_at": "2026-10-05",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-c9a6df992095",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - International Investment Marketing",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869923",
-   "posted_at": "2026-10-02",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "franklin-templeton-d982d657e909",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -1337,37 +1182,6 @@
    "start": "",
    "url": "https://careers.franklintempleton.com/us/en/job/869912",
    "posted_at": "2026-10-01",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-08534342a716",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Investment Accounting and Control",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869915",
-   "posted_at": "2026-10-02",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -1539,17 +1353,17 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-0bf126e8073c",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
-   "location": "Singapore, Singapore",
+   "id": "deloitte-f8add2cd509b",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
+   "location": "",
    "countries": [
-    "SG"
+    "US"
    ],
    "country_names": [
-    "Singapore"
+    "United States"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -1562,19 +1376,19 @@
     "timing": 0
    },
    "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869532",
-   "posted_at": "2026-09-15",
+   "start": "2027",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
+   "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
   {
-   "id": "franklin-templeton-733847b5ac25",
+   "id": "franklin-templeton-5e26a60d9c10",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (Multi-Asset/ Investment Strategy)",
+   "title": "Intern (TGI - Equity Research/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -1594,39 +1408,8 @@
    },
    "timing": "unknown",
    "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869440",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-e5287d07cedb",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869422",
-   "posted_at": "2026-09-23",
+   "url": "https://careers.franklintempleton.com/us/en/job/869384",
+   "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true

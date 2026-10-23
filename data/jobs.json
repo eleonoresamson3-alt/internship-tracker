@@ -1,68 +1,6 @@
 {
- "generated_at": "2026-10-23T09:18:51+00:00",
+ "generated_at": "2026-10-23T09:35:08+00:00",
  "jobs": [
-  {
-   "id": "deutsche-bank-a905eeb72bb8",
-   "employer": "Deutsche Bank",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Cross-Asset Structured Products Sales Intern (f/m/x)",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 91,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Cross-Asset-Structured-Products-Sales-Intern--f-m-x-_R0453173",
-   "posted_at": "2026-10-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "deutsche-bank-030920c41449",
-   "employer": "Deutsche Bank",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Structured Finance Sales Intern (f/m/x)",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 91,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Structured-Finance-Sales-Intern--f-m-x-_R0453676",
-   "posted_at": "2026-10-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
   {
    "id": "jpmorgan-d3e46ba575b4",
    "employer": "JPMorgan",
@@ -90,37 +28,6 @@
    "start": "2027",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776890",
    "posted_at": "2026-08-31",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-c602edc2f7ea",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Analyste Produits Structurés et Alternatifs – Mars 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 91,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-03",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6341",
-   "posted_at": "2026-06-30",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -1092,68 +999,6 @@
    "active": true
   },
   {
-   "id": "citi-7170df8d45e1",
-   "employer": "Citi",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Markets – Sales and Trading, Off-Cycle Internship, Paris – France, 2027",
-   "location": "Paris  France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 76,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 30,
-    "city": 5,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Markets---Sales-and-Trading--Off-Cycle-Internship--Paris---France--2027_26992518",
-   "posted_at": "2026-09-21",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "pwc-80b1f99a5c15",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Transfer Pricing Intern – January 2027",
-   "location": "Genève",
-   "countries": [
-    "CH"
-   ],
-   "country_names": [
-    "Switzerland"
-   ],
-   "region": "Europe (priority)",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 76,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 20,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Genve/Transfer-Pricing-Intern---January-2027_759675WD",
-   "posted_at": "2026-09-16",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "jump-trading-79821f933bb9",
    "employer": "Jump Trading",
    "employer_type": "hedge_fund",
@@ -1244,37 +1089,6 @@
    "start": "2027",
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Paris-52-avenue-Hoche/Quantitative-Analytics-Associate-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124726",
    "posted_at": "2026-09-07",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "deutsche-bank-6536510339d6",
-   "employer": "Deutsche Bank",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "FX Risk Management Sales Intern (f/m/x)",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "medium",
-   "score": 71,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/FX-Risk-Management-Sales-Intern--f-m-x-_R0449103",
-   "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -3509,37 +3323,6 @@
    "active": true
   },
   {
-   "id": "deutsche-bank-2279e255fa60",
-   "employer": "Deutsche Bank",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Export Finance Paris Intern (f/m/x)",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 56,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Structured-Trade-Export-Finance-Paris-Intern--f-m-x-_R0452722",
-   "posted_at": "2026-09-28",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "euronext-0dc30e6fcdd0",
    "employer": "Euronext",
    "employer_type": "infrastructure",
@@ -3600,68 +3383,6 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027898",
    "posted_at": "2026-08-25",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "mufg-ec690df78bbd",
-   "employer": "MUFG",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "6 month internship - Debt Capital Markets Bonds & Loans - January 2027",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 56,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Paris/XMLNAME-6-month-internship---Debt-Capital-Markets-Bonds---Loans---January-2027_10080029-WD",
-   "posted_at": "2026-10-08",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "pernod-ricard-ff548a041fde",
-   "employer": "Pernod Ricard",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "Stagiaire Trésorerie Internationale - Janvier 2027 - Paris",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 56,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stagiaire-Trsorerie-Internationale---Mars-2026_JR-052498-1",
-   "posted_at": "2026-10-15",
-   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -3978,130 +3699,6 @@
    "active": true
   },
   {
-   "id": "deutsche-bank-39fc76f81c5e",
-   "employer": "Deutsche Bank",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Credit Sales Intern France (f/m/x)",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Credit-Sales-Intern-France--f-m-x-_R0446171",
-   "posted_at": "2026-10-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "deutsche-bank-632a723c9236",
-   "employer": "Deutsche Bank",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Rates Flow & Solutions Sales Intern (f/m/x)",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Rates-Flow---Solutions-Sales-Intern--f-m-x-_R0453673",
-   "posted_at": "2026-10-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "euronext-63f90f3eaf23",
-   "employer": "Euronext",
-   "employer_type": "infrastructure",
-   "platform": "workday",
-   "title": "Equity & ETF Sales Data Analyst Intern",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Paris/Equity---ETF-Sales-Data-Analyst-Intern_R29199",
-   "posted_at": "2026-10-19",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "euronext-4b814ae3238d",
-   "employer": "Euronext",
-   "employer_type": "infrastructure",
-   "platform": "workday",
-   "title": "Equity Admission Intern",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-02",
-   "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Paris/Equity-Admission-Intern_R29258",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "jpmorgan-d7131a90c110",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -4159,347 +3756,6 @@
    "start": "2027",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802419",
    "posted_at": "2026-10-22",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-77e3354092b4",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Analyste Actions – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6313",
-   "posted_at": "2026-06-30",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-6baf602fca39",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Analyste Contrôleur des Risques – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6337",
-   "posted_at": "2026-06-30",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-7bd7022a3290",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Analyste Financier Gestion Privée – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6315",
-   "posted_at": "2026-06-29",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-f8032958e3cd",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Assistant Sales Gestion Institutionnelle - Pôle Epargne Salariale et Retraite – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6329",
-   "posted_at": "2026-06-29",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-5908618df3da",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Assistant de Gestion Fixed Income – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6316",
-   "posted_at": "2026-06-29",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-06e06118e7ee",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Finance Operations EMEA - Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6338",
-   "posted_at": "2026-06-29",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-2741eeddfcf6",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Private Equity – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6317",
-   "posted_at": "2026-06-29",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-653e69ab4052",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Risk Management – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6336",
-   "posted_at": "2026-06-30",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-0b9218451a08",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F - Suport Sales en Gestion Institutionnelle – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6325",
-   "posted_at": "2026-06-29",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-69ecd215224f",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage H/F – Cross Asset Sales - Pôle International – Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6328",
-   "posted_at": "2026-06-29",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "lazard-16eabfd1b9d4",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Stage – Contrôleur des Risques Bancaires – H/F - Janvier 2027",
-   "location": "Paris, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6688",
-   "posted_at": "2026-10-02",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -4598,68 +3854,6 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stagiaire-de-fin-d-tudes---Auditeur-Financier---Septembre-2027---F-H_767098WD",
    "posted_at": "2026-10-16",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "scor-55d65604cef3",
-   "employer": "SCOR",
-   "employer_type": "insurance",
-   "platform": "oracle",
-   "title": "Sustainable Investment Intern",
-   "location": "Paris, Ile-de-France, France",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5425",
-   "posted_at": "2026-09-22",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "thales-16e700bbaf74",
-   "employer": "Thales",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "STAGE - Trésorerie Cash Management - F/H",
-   "location": "Meudon",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 51,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Meudon/STAGE---Trsorerie-Cash-Management---F-H_R0341442-2",
-   "posted_at": "2026-09-29",
-   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -6317,130 +5511,6 @@
    "active": true
   },
   {
-   "id": "pwc-1f5038f67f89",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Stage Auditeur Financier - Nantes - Janvier 2027 - F/H",
-   "location": "Nantes",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 46,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Nantes/Stage-Auditeur-Financier---Nantes---Janvier-2027---F-H_697682WD",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "pwc-3f4ee0b796e9",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Stage Auditeur Financier - Rennes - Janvier 2027 - F/H",
-   "location": "Rennes",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 46,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rennes/Stage-Auditeur-Financier---Rennes---Janvier-2027---F-H_765533WD",
-   "posted_at": "2026-10-16",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "pwc-99d1b97093fd",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Stage Auditeur Financier - Toulouse - Janvier 2027 - F/H",
-   "location": "Toulouse",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 46,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Toulouse/Stage-Auditeur-Financier---Toulouse---Janvier-2027---F-H_697679WD",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "pwc-99689c7b1031",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Stage Corporate Finance - Janvier 2027 - F/H",
-   "location": "Neuilly-sur-Seine",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 46,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stage-Corporate-Finance---Janvier-2027---F-H_739939WD",
-   "posted_at": "2026-10-22",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "air-liquide-af7bd5c87589",
    "employer": "Air Liquide",
    "employer_type": "corporate",
@@ -7927,37 +6997,6 @@
    "active": true
   },
   {
-   "id": "imc-2825e73e1bf8",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Trader Intern 2027",
-   "location": "Hong Kong, Hong Kong",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027-05",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941205101",
-   "posted_at": "2026-08-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "invesco-8546af683cd9",
    "employer": "Invesco",
    "employer_type": "asset_manager",
@@ -8795,37 +7834,6 @@
    "active": true
   },
   {
-   "id": "lazard-69506241ce6b",
-   "employer": "Lazard",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Intern M/F – Marketing and Sales Support – February 2027",
-   "location": "Bruxelles, Belgium",
-   "countries": [
-    "BE"
-   ],
-   "country_names": [
-    "Belgium"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-02",
-   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6657",
-   "posted_at": "2026-09-24",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "lombard-odier-5a15b7b2d339",
    "employer": "Lombard Odier",
    "employer_type": "european_bank",
@@ -8882,37 +7890,6 @@
    "timing": "unknown",
    "start": "",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---forex-officer-hf-reference--2026-116280--/",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-3772b96e162a",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Chargé(e) de Sécurité Financière et Prévention de la Fraude H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-136-stage---chargee-de-securite-financiere-et-prevention-de-la-fraude-hf-reference--2026-111699--/",
    "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
@@ -9379,37 +8356,6 @@
    "start": "",
    "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Milan/Borsa-Italiana---Market-Access--internship_R28178",
    "posted_at": "2026-10-22",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "forvis-mazars-9366cf51baf3",
-   "employer": "Forvis Mazars",
-   "employer_type": "consulting",
-   "platform": "greenhouse",
-   "title": "Praktikum International Accounting & Capital Market Advisory ab Januar 2027 (all genders)",
-   "location": "Berlin; Dresden; Düsseldorf; Frankfurt am Main; Hamburg; Köln; Mannheim; München; Nürnberg; Stuttgart; Berlin; Dresden; Düsseldorf; Frankfurt am Main; Hamburg; Köln; Leipzig; Mannheim; München; Nürnberg; Stuttgart",
-   "countries": [
-    "DE"
-   ],
-   "country_names": [
-    "Germany"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 36,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://karriere-de.forvismazars.com/stellensuche?gh_jid=4548409101",
-   "posted_at": "2025-02-27",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -12891,37 +11837,6 @@
    "active": true
   },
   {
-   "id": "deloitte-9c9da7e8529d",
-   "employer": "Deloitte",
-   "employer_type": "consulting",
-   "platform": "generic",
-   "title": "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Summer-2027/360314",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "deloitte-3e1f28eddf72",
    "employer": "Deloitte",
    "employer_type": "consulting",
@@ -13046,68 +11961,6 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-2a0f7a1c1c2a",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - Fixed Income Sustainability Team",
-   "location": "Remote, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869913",
-   "posted_at": "2026-10-05",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-c9a6df992095",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - International Investment Marketing",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869923",
-   "posted_at": "2026-10-02",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "franklin-templeton-d982d657e909",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -13134,37 +11987,6 @@
    "start": "",
    "url": "https://careers.franklintempleton.com/us/en/job/869912",
    "posted_at": "2026-10-01",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-08534342a716",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Investment Accounting and Control",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869915",
-   "posted_at": "2026-10-02",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -14979,37 +13801,6 @@
    "active": true
   },
   {
-   "id": "jefferies-681f41647f45",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Fixed Income Off-Cycle Internship Programme - Dubai, MENA (January/February 2027)",
-   "location": "",
-   "countries": [
-    "AE"
-   ],
-   "country_names": [
-    "United Arab Emirates"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-02",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2002-2027-Fixed-Income-Off-Cycle-Internship-Programme-Dubai-MENA-January-February-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "jefferies-137e962fc9da",
    "employer": "Jefferies",
    "employer_type": "intl_bank",
@@ -15723,114 +14514,6 @@
    "active": true
   },
   {
-   "id": "rothschild-co-262f85caacf3",
-   "employer": "Rothschild & Co",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Internship - Investment Analyst – Five Arrows Growth Partners – January / March 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-03",
-   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/966-Internship-Investment-Analyst-Five-Arrows-Growth-Partners-January-March-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "rothschild-co-2795bbe775fc",
-   "employer": "Rothschild & Co",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Private Equity Analyst Intern (FAPEP) – Fund investments, secondaries and co-investments – March 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-03",
-   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1014-Private-Equity-Analyst-Intern-FAPEP-Fund-investments-secondaries-and-co-investments-March-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "rothschild-co-7b16982da0ab",
-   "employer": "Rothschild & Co",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage d’Analyste en Private Equity Secondaire (FASO) – Janvier / Mars 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-03",
-   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/974-Stage-d-Analyste-en-Private-Equity-Secondaire-FASO-Janvier-Mars-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "rothschild-co-723f97c60f0d",
-   "employer": "Rothschild & Co",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage – Private Equity Investment Analyst – FAPI – Janvier / Mars 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-03",
-   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/969-Stage-Private-Equity-Investment-Analyst-FAPI-Janvier-Mars-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "gunvor-56ca3e5d6cd9",
    "employer": "Gunvor",
    "employer_type": "commodities",
@@ -16148,6 +14831,37 @@
    "active": true
   },
   {
+   "id": "deloitte-f8add2cd509b",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "deutsche-bank-00e7259a552e",
    "employer": "Deutsche Bank",
    "employer_type": "intl_bank",
@@ -16334,11 +15048,11 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-0bf126e8073c",
+   "id": "franklin-templeton-5e26a60d9c10",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
+   "title": "Intern (TGI - Equity Research/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -16358,70 +15072,8 @@
    },
    "timing": "unknown",
    "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869532",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-733847b5ac25",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (Multi-Asset/ Investment Strategy)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869440",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-e5287d07cedb",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869422",
-   "posted_at": "2026-09-23",
+   "url": "https://careers.franklintempleton.com/us/en/job/869384",
+   "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -17667,33 +16319,6 @@
    "active": true
   },
   {
-   "id": "unicredit-2c14b6553397",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Curricular Internship - Investment and Protection Products Specialist",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "unicredit-87e27a1e1bdf",
    "employer": "UniCredit",
    "employer_type": "european_bank",
@@ -17999,6 +16624,99 @@
    "active": true
   },
   {
+   "id": "deutsche-bank-a905eeb72bb8",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Cross-Asset Structured Products Sales Intern (f/m/x)",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 91,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Cross-Asset-Structured-Products-Sales-Intern--f-m-x-_R0453173",
+   "posted_at": "2026-10-12",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "deutsche-bank-030920c41449",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Structured Finance Sales Intern (f/m/x)",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 91,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Structured-Finance-Sales-Intern--f-m-x-_R0453676",
+   "posted_at": "2026-10-12",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-c602edc2f7ea",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Analyste Produits Structurés et Alternatifs – Mars 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 91,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-03",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6341",
+   "posted_at": "2026-06-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "sanofi-39a271f1f587",
    "employer": "Sanofi",
    "employer_type": "corporate",
@@ -18090,6 +16808,719 @@
    "active": false
   },
   {
+   "id": "citi-7170df8d45e1",
+   "employer": "Citi",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Markets – Sales and Trading, Off-Cycle Internship, Paris – France, 2027",
+   "location": "Paris  France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 76,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 30,
+    "city": 5,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Markets---Sales-and-Trading--Off-Cycle-Internship--Paris---France--2027_26992518",
+   "posted_at": "2026-09-21",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "pwc-80b1f99a5c15",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Transfer Pricing Intern – January 2027",
+   "location": "Genève",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 76,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Genve/Transfer-Pricing-Intern---January-2027_759675WD",
+   "posted_at": "2026-09-16",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "deutsche-bank-6536510339d6",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "FX Risk Management Sales Intern (f/m/x)",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Risk",
+   "role_level": "medium",
+   "score": 71,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/FX-Risk-Management-Sales-Intern--f-m-x-_R0449103",
+   "posted_at": "2026-10-20",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "deutsche-bank-2279e255fa60",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Export Finance Paris Intern (f/m/x)",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 56,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Structured-Trade-Export-Finance-Paris-Intern--f-m-x-_R0452722",
+   "posted_at": "2026-09-28",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "mufg-ec690df78bbd",
+   "employer": "MUFG",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "6 month internship - Debt Capital Markets Bonds & Loans - January 2027",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 56,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Paris/XMLNAME-6-month-internship---Debt-Capital-Markets-Bonds---Loans---January-2027_10080029-WD",
+   "posted_at": "2026-10-08",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "pernod-ricard-ff548a041fde",
+   "employer": "Pernod Ricard",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Stagiaire Trésorerie Internationale - Janvier 2027 - Paris",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 56,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stagiaire-Trsorerie-Internationale---Mars-2026_JR-052498-1",
+   "posted_at": "2026-10-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "deutsche-bank-39fc76f81c5e",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Credit Sales Intern France (f/m/x)",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Credit-Sales-Intern-France--f-m-x-_R0446171",
+   "posted_at": "2026-10-12",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "deutsche-bank-632a723c9236",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Rates Flow & Solutions Sales Intern (f/m/x)",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Rates-Flow---Solutions-Sales-Intern--f-m-x-_R0453673",
+   "posted_at": "2026-10-12",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "euronext-63f90f3eaf23",
+   "employer": "Euronext",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Equity & ETF Sales Data Analyst Intern",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Paris/Equity---ETF-Sales-Data-Analyst-Intern_R29199",
+   "posted_at": "2026-10-19",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "euronext-4b814ae3238d",
+   "employer": "Euronext",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Equity Admission Intern",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-02",
+   "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Paris/Equity-Admission-Intern_R29258",
+   "posted_at": "2026-10-20",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-77e3354092b4",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Analyste Actions – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6313",
+   "posted_at": "2026-06-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-6baf602fca39",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Analyste Contrôleur des Risques – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6337",
+   "posted_at": "2026-06-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-7bd7022a3290",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Analyste Financier Gestion Privée – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6315",
+   "posted_at": "2026-06-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-f8032958e3cd",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Assistant Sales Gestion Institutionnelle - Pôle Epargne Salariale et Retraite – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6329",
+   "posted_at": "2026-06-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-5908618df3da",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Assistant de Gestion Fixed Income – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6316",
+   "posted_at": "2026-06-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-06e06118e7ee",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Finance Operations EMEA - Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6338",
+   "posted_at": "2026-06-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-2741eeddfcf6",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Private Equity – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6317",
+   "posted_at": "2026-06-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-653e69ab4052",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Risk Management – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6336",
+   "posted_at": "2026-06-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-0b9218451a08",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F - Suport Sales en Gestion Institutionnelle – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6325",
+   "posted_at": "2026-06-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-69ecd215224f",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage H/F – Cross Asset Sales - Pôle International – Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6328",
+   "posted_at": "2026-06-29",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-16eabfd1b9d4",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Stage – Contrôleur des Risques Bancaires – H/F - Janvier 2027",
+   "location": "Paris, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6688",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "scor-55d65604cef3",
+   "employer": "SCOR",
+   "employer_type": "insurance",
+   "platform": "oracle",
+   "title": "Sustainable Investment Intern",
+   "location": "Paris, Ile-de-France, France",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5425",
+   "posted_at": "2026-09-22",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "thales-16e700bbaf74",
+   "employer": "Thales",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "STAGE - Trésorerie Cash Management - F/H",
+   "location": "Meudon",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 51,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Meudon/STAGE---Trsorerie-Cash-Management---F-H_R0341442-2",
+   "posted_at": "2026-09-29",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "accenture-9b792a016468",
    "employer": "Accenture",
    "employer_type": "consulting",
@@ -18117,6 +17548,130 @@
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Paris/Consultant-stagiaire-Financial-Services---Banking---Capital-Markets---F-H_R00365955-1",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "pwc-1f5038f67f89",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Stage Auditeur Financier - Nantes - Janvier 2027 - F/H",
+   "location": "Nantes",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 46,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Nantes/Stage-Auditeur-Financier---Nantes---Janvier-2027---F-H_697682WD",
+   "posted_at": "2026-10-20",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "pwc-3f4ee0b796e9",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Stage Auditeur Financier - Rennes - Janvier 2027 - F/H",
+   "location": "Rennes",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 46,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rennes/Stage-Auditeur-Financier---Rennes---Janvier-2027---F-H_765533WD",
+   "posted_at": "2026-10-16",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "pwc-99d1b97093fd",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Stage Auditeur Financier - Toulouse - Janvier 2027 - F/H",
+   "location": "Toulouse",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 46,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Toulouse/Stage-Auditeur-Financier---Toulouse---Janvier-2027---F-H_697679WD",
+   "posted_at": "2026-10-20",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "pwc-99689c7b1031",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Stage Corporate Finance - Janvier 2027 - F/H",
+   "location": "Neuilly-sur-Seine",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 46,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stage-Corporate-Finance---Janvier-2027---F-H_739939WD",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": false
   },
@@ -18210,6 +17765,99 @@
    "active": false
   },
   {
+   "id": "imc-2825e73e1bf8",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Trader Intern 2027",
+   "location": "Hong Kong, Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027-05",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941205101",
+   "posted_at": "2026-08-12",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lazard-69506241ce6b",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "Intern M/F – Marketing and Sales Support – February 2027",
+   "location": "Bruxelles, Belgium",
+   "countries": [
+    "BE"
+   ],
+   "country_names": [
+    "Belgium"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-02",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6657",
+   "posted_at": "2026-09-24",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "groupe-credit-agricole-3772b96e162a",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Chargé(e) de Sécurité Financière et Prévention de la Fraude H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-136-stage---chargee-de-securite-financiere-et-prevention-de-la-fraude-hf-reference--2026-111699--/",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "lazard-d5fc9c6594d0",
    "employer": "Lazard",
    "employer_type": "asset_manager",
@@ -18265,6 +17913,37 @@
    "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
+   "active": false
+  },
+  {
+   "id": "forvis-mazars-9366cf51baf3",
+   "employer": "Forvis Mazars",
+   "employer_type": "consulting",
+   "platform": "greenhouse",
+   "title": "Praktikum International Accounting & Capital Market Advisory ab Januar 2027 (all genders)",
+   "location": "Berlin; Dresden; Düsseldorf; Frankfurt am Main; Hamburg; Köln; Mannheim; München; Nürnberg; Stuttgart; Berlin; Dresden; Düsseldorf; Frankfurt am Main; Hamburg; Köln; Leipzig; Mannheim; München; Nürnberg; Stuttgart",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 36,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-01",
+   "url": "https://karriere-de.forvismazars.com/stellensuche?gh_jid=4548409101",
+   "posted_at": "2025-02-27",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "active": false
   },
   {
@@ -18483,6 +18162,130 @@
    "active": false
   },
   {
+   "id": "deloitte-9c9da7e8529d",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Summer 2027",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Summer-2027/360314",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-2a0f7a1c1c2a",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - Fixed Income Sustainability Team",
+   "location": "Remote, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.franklintempleton.com/us/en/job/869913",
+   "posted_at": "2026-10-05",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-c9a6df992095",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - International Investment Marketing",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.franklintempleton.com/us/en/job/869923",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-08534342a716",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern – Investment Accounting and Control",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.franklintempleton.com/us/en/job/869915",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "pwc-d1c77a785e9f",
    "employer": "PwC",
    "employer_type": "consulting",
@@ -18509,6 +18312,145 @@
    "posted_at": "2026-10-21",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
+   "active": false
+  },
+  {
+   "id": "jefferies-681f41647f45",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Fixed Income Off-Cycle Internship Programme - Dubai, MENA (January/February 2027)",
+   "location": "",
+   "countries": [
+    "AE"
+   ],
+   "country_names": [
+    "United Arab Emirates"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-02",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2002-2027-Fixed-Income-Off-Cycle-Internship-Programme-Dubai-MENA-January-February-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "rothschild-co-262f85caacf3",
+   "employer": "Rothschild & Co",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Internship - Investment Analyst – Five Arrows Growth Partners – January / March 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-03",
+   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/966-Internship-Investment-Analyst-Five-Arrows-Growth-Partners-January-March-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "rothschild-co-2795bbe775fc",
+   "employer": "Rothschild & Co",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Private Equity Analyst Intern (FAPEP) – Fund investments, secondaries and co-investments – March 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-03",
+   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1014-Private-Equity-Analyst-Intern-FAPEP-Fund-investments-secondaries-and-co-investments-March-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "rothschild-co-7b16982da0ab",
+   "employer": "Rothschild & Co",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage d’Analyste en Private Equity Secondaire (FASO) – Janvier / Mars 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-03",
+   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/974-Stage-d-Analyste-en-Private-Equity-Secondaire-FASO-Janvier-Mars-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "rothschild-co-723f97c60f0d",
+   "employer": "Rothschild & Co",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage – Private Equity Investment Analyst – FAPI – Janvier / Mars 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-03",
+   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/969-Stage-Private-Equity-Investment-Analyst-FAPI-Janvier-Mars-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "active": false
   },
   {
@@ -18599,11 +18541,11 @@
    "active": false
   },
   {
-   "id": "franklin-templeton-5e26a60d9c10",
+   "id": "franklin-templeton-0bf126e8073c",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (TGI - Equity Research/ AI Automation)",
+   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -18623,8 +18565,70 @@
    },
    "timing": "unknown",
    "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869384",
-   "posted_at": "2026-09-08",
+   "url": "https://careers.franklintempleton.com/us/en/job/869532",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-733847b5ac25",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (Multi-Asset/ Investment Strategy)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.franklintempleton.com/us/en/job/869440",
+   "posted_at": "2026-10-13",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-e5287d07cedb",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.franklintempleton.com/us/en/job/869422",
+   "posted_at": "2026-09-23",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": false
@@ -18687,6 +18691,33 @@
    "posted_at": "2026-10-09",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
+   "active": false
+  },
+  {
+   "id": "unicredit-2c14b6553397",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Curricular Internship - Investment and Protection Products Specialist",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "active": false
   }
  ]
