@@ -1414,6 +1414,7 @@ employers:
     search_terms:
     - intern
     details: false
+    max_pages: 3
 - name: Capgemini Invent
   type: consulting
   platform: generic

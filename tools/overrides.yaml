@@ -81,8 +81,8 @@ employers:
 
   - name: Accenture
     # The shared Workday host (wd103) answers 429 to many requests: one search
-    # term, no per-offer detail calls.
-    params: {url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers", search_terms: [intern], details: false}
+    # term, 3 result pages, no per-offer detail calls.
+    params: {url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers", search_terms: [intern], details: false, max_pages: 3}
 
   - name: Vinci
     enabled: false
