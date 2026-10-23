@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-10-23T09:04:34+00:00",
+ "generated_at": "2026-10-23T09:18:51+00:00",
  "employers_total": 143,
- "employers_failed": 0,
- "errors": [],
+ "employers_failed": 1,
+ "errors": [
+  {
+   "employer": "Accenture",
+   "platform": "workday",
+   "careers_url": "https://www.accenture.com/fr-fr/careers",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
+   "at": "2026-10-23T09:21:47+00:00"
+  }
+ ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -361,7 +369,7 @@
   },
   {
    "employer": "Zurich",
-   "fetched": 299,
+   "fetched": 300,
    "kept": 6
   },
   {
@@ -396,7 +404,7 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 149,
+   "fetched": 150,
    "kept": 16
   },
   {
@@ -408,11 +416,6 @@
    "employer": "Forvis Mazars",
    "fetched": 145,
    "kept": 1
-  },
-  {
-   "employer": "Accenture",
-   "fetched": 28,
-   "kept": 3
   },
   {
    "employer": "BearingPoint",
@@ -597,7 +600,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 2
+   "kept": 7
   },
   {
    "employer": "Capital Group",
@@ -646,7 +649,7 @@
   },
   {
    "employer": "Pernod Ricard",
-   "fetched": 95,
+   "fetched": 97,
    "kept": 1
   },
   {
@@ -661,7 +664,7 @@
   },
   {
    "employer": "Michelin",
-   "fetched": 46,
+   "fetched": 47,
    "kept": 0
   },
   {
@@ -691,7 +694,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 22,
+   "fetched": 23,
    "kept": 0
   },
   {
