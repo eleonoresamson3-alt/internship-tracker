@@ -289,3 +289,16 @@ button.danger { color: var(--danger); }
   .card-main .card-body { flex-basis: calc(100% - 52px); }
   .hide-offer { margin-left: 50px; }
 }
+
+.soon {
+  margin: 14px 0 0; padding: 12px 14px; border-radius: var(--radius);
+  background: var(--mid-soft); border: 1px solid color-mix(in srgb, var(--mid) 35%, transparent);
+}
+.soon h2 { margin: 0 0 6px; font-size: 0.95rem; color: var(--mid); }
+.soon-hint { font-weight: 400; color: var(--muted); font-size: 0.8rem; margin-left: 6px; }
+.soon ul { margin: 0; padding-left: 18px; font-size: 0.9rem; }
+.soon li { margin: 3px 0; }
+.soon li a { color: var(--text); font-weight: 600; }
+.soon .when { color: var(--mid); font-weight: 600; white-space: nowrap; }
+.tag.deadline { background: var(--surface-2); color: var(--text); }
+.tag.deadline.urgent { background: var(--danger-soft); color: var(--danger); font-weight: 600; }

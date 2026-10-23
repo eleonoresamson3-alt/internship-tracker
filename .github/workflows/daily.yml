@@ -9,6 +9,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write   # daily digest, see tracker/notify.py
 
 concurrency:
   group: daily-${{ github.ref }}
@@ -47,6 +48,21 @@ jobs:
           cp data/*.json _site/data/
           # Version the assets so browsers load the new site after each update.
           sed -i "s/style.css\"/style.css?v=${GITHUB_SHA::7}\"/; s/app.js\"/app.js?v=${GITHUB_SHA::7}\"/" _site/index.html
+      - name: Daily digest (e-mail through a GitHub issue comment)
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true   # a notification problem must not block the site update
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python -m tracker.notify digest.md
+          [ -s digest.md ] || exit 0
+          num=$(gh issue list --label recap --state open --json number --jq '.[0].number // empty')
+          if [ -z "$num" ]; then
+            gh label create recap --color 1f4fd1 --description "Daily internship digest" 2>/dev/null || true
+            gh issue create --title "📬 Récapitulatif quotidien des stages" --label recap --body-file digest.md
+          else
+            gh issue comment "$num" --body-file digest.md
+          fi
       - name: Report failure
         if: failure()
         run: |
