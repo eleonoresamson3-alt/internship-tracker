@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:14:54+00:00",
+ "generated_at": "2026-10-23T14:27:01+00:00",
  "series": [
   {
    "key": "cac40",
@@ -151,21 +151,31 @@
   },
   {
    "key": "fr2y",
-   "label": "France 2 ans",
+   "label": "France 2 ans (TEC 2)",
    "group": "Taux",
    "unit": "%",
    "provider": "webstat",
    "note": "",
-   "status": "indisponible"
+   "value": 3.798,
+   "date": "2026-10-23",
+   "d1": -9.2,
+   "w1": 23.0,
+   "m1": 30.2,
+   "status": "ok"
   },
   {
    "key": "fr10y",
-   "label": "France 10 ans",
+   "label": "France 10 ans (TEC 10)",
    "group": "Taux",
    "unit": "%",
    "provider": "webstat",
    "note": "",
-   "status": "indisponible"
+   "value": 5.048,
+   "date": "2026-10-23",
+   "d1": -7.8,
+   "w1": 25.4,
+   "m1": 57.1,
+   "status": "ok"
   },
   {
    "key": "us2y",

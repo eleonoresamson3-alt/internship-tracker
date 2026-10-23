@@ -1,6 +1,130 @@
 {
- "generated_at": "2026-10-23T14:14:54+00:00",
+ "generated_at": "2026-10-23T14:27:01+00:00",
  "items": [
+  {
+   "id": "59f8ef9c794b554b",
+   "title": "Surging economy gets off to a good start in the fourth quarter — but there’s one big problem",
+   "link": "https://www.marketwatch.com/story/surging-economy-gets-off-to-a-good-start-in-the-fourth-quarter-but-theres-one-big-problem-5657f399?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T14:23+00:00",
+   "summary": "Warning signs are emerging that consumers will be hit with rising prices.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 5
+  },
+  {
+   "id": "4fe0fb01bc645ab6",
+   "title": "L’action Chevron pourrait bouger de 2,3% à la publication des résultats",
+   "link": "https://fr.investing.com/news/stock-market-news/laction-chevron-pourrait-bouger-de-23-a-la-publication-des-resultats-93CH-3651353",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T14:20+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 5
+  },
+  {
+   "id": "9a784da953eebea6",
+   "title": "Les actions Capri Holdings pourraient bouger de 1,9% lors des résultats",
+   "link": "https://fr.investing.com/news/stock-market-news/les-actions-capri-holdings-pourraient-bouger-de-19-lors-des-resultats-93CH-3651352",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T14:19+00:00",
+   "summary": "",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 15
+  },
+  {
+   "id": "00e240ec4de9240b",
+   "title": "Compte rendu d’appel aux résultats : First Interstate BancSystem rate les prévisions de bénéfices du T3 2026",
+   "link": "https://fr.investing.com/news/transcripts/compte-rendu-dappel-aux-resultats--first-interstate-bancsystem-rate-les-previsions-de-benefices-du-t3-2026-93CH-3651346",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T14:18+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 5
+  },
+  {
+   "id": "ad14e6c92f81c10b",
+   "title": "World Acceptance dépasse les estimations de BPA pour le T2 2026",
+   "link": "https://fr.investing.com/news/transcripts/world-acceptance-depasse-les-estimations-de-bpa-pour-le-t2-2026-93CH-3651345",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T14:17+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 5
+  },
+  {
+   "id": "2b8541467964eab4",
+   "title": "Ardshinbank envisage une introduction en bourse à Londres",
+   "link": "https://fr.investing.com/news/stock-market-news/ardshinbank-envisage-une-introduction-en-bourse-a-londres-93CH-3651343",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T14:16+00:00",
+   "summary": "",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 15
+  },
+  {
+   "id": "7057a75954f12554",
+   "title": "Saba Capital Management vend des actions PIMCO Dynamic Income pour 77.867$",
+   "link": "https://fr.investing.com/news/insider-trading-news/saba-capital-management-vend-des-actions-pimco-dynamic-income-pour-77867-93CH-3651342",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T14:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 5
+  },
+  {
+   "id": "1a41f3b5e5df3ef0",
+   "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
+   "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T14:15+00:00",
+   "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T14:27+00:00",
+   "score": 5
+  },
   {
    "id": "287f0f8f7935e1e8",
    "title": "Guillaume Cousseran (21 NEXT) : « Notre business plan vise à atteindre 10 milliards d’euros sous gestion »",
