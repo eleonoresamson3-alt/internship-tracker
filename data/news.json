@@ -1,0 +1,889 @@
+{
+ "generated_at": "2026-10-23T11:24:18+00:00",
+ "items": [
+  {
+   "id": "be49da96e5c15cd0",
+   "title": "Oil hits $114 for first time since May as global stocks knocked by AI fears",
+   "link": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T10:55+00:00",
+   "summary": "Markets face twin threats of surging crude prices and concern over durability of AI boom",
+   "themes": [
+    "fx_commodities",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 27
+  },
+  {
+   "id": "bcf162d2e7cdcb82",
+   "title": "Anthropic strikes deal to launch European consultancy",
+   "link": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T09:04+00:00",
+   "summary": "New company backed by Anthropic and UK buyout group Hg will advise companies on how to deploy AI",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "b3ce6c0e9840ab1c",
+   "title": "Why the UK should greenlight both Jackdaw and Rosebank",
+   "link": "https://www.ft.com/content/34946f6f-ccd9-4de5-9f57-136e1a0e2064?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T09:00+00:00",
+   "summary": "The real problem, for those concerned about the climate, isn’t that oil and gas might become too cheap, but that renewables remain too expensive",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 20
+  },
+  {
+   "id": "da039c1481bed46e",
+   "title": "ECB Consumer Expectations Survey results – September 2026",
+   "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-23T08:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 50
+  },
+  {
+   "id": "e6b6c352a07d8a8b",
+   "title": "Winter arrives in markets",
+   "link": "https://www.ft.com/content/ce0e9d68-c63f-4666-9909-512b929e6284?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T05:30+00:00",
+   "summary": "Bonds and stocks tell the same chilly story",
+   "themes": [
+    "credit_sovereign",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 32
+  },
+  {
+   "id": "f70765deb2df7515",
+   "title": "How nervous are bond markets about France?",
+   "link": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T05:00+00:00",
+   "summary": "Dusting off our apples-for-apples spreadsheet",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 25
+  },
+  {
+   "id": "4755437b64600f46",
+   "title": "Ukraine seeks to move customs checks inside EU to avoid Russian drones",
+   "link": "https://www.ft.com/content/ab922590-7f73-4a84-a3bd-a42cf80c92f7?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T04:00+00:00",
+   "summary": "Lorries waiting at the border to export agricultural produce into the bloc have become a target for Moscow’s attacks",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "315aadf288b2276c",
+   "title": "Beware Bessent’s tilt towards short-term debt",
+   "link": "https://www.ft.com/content/bf959a1a-1cd8-41e2-8767-03aa1ac3ed48?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T04:00+00:00",
+   "summary": "If inflation and debt rise and AI optimism falls, then the danger of reducing Treasury maturities grows",
+   "themes": [
+    "credit_sovereign",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 35
+  },
+  {
+   "id": "8f5bb38eeaa721ef",
+   "title": "Calpers retreats from Big Tech as AI rally falters",
+   "link": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T04:00+00:00",
+   "summary": "California’s retirement fund slashed Magnificent 7 holdings as doubts grow about lofty valuations and soaring spending",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "0d863f1718b68fd6",
+   "title": "Risks to peso as Argentine elections loom",
+   "link": "https://www.ft.com/content/c97986bf-6d3a-47a9-834c-173228454c3d?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T04:00+00:00",
+   "summary": "With polls suggesting a close race, some analysts expect the currency to come under pressure",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 20
+  },
+  {
+   "id": "b1d0c44152686760",
+   "title": "Argentina’s resources boom gathers pace",
+   "link": "https://www.ft.com/content/867e072d-4e10-407d-aefc-502c77dfd95b?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T04:00+00:00",
+   "summary": "Investment is surging in the oil and gas and mining sectors, helped by new government policies",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 20
+  },
+  {
+   "id": "774d4bbdef29c03b",
+   "title": "OpenAI trims valuation target to $1.25tn after pitching higher price",
+   "link": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T21:50+00:00",
+   "summary": "AI lab floated $1.4tn price tag earlier this month, according to documents seen by the FT",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "ac9c1fd37193f87d",
+   "title": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
+   "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T20:05+00:00",
+   "summary": "Social media group’s market value sinks by $124bn after it says it will raise ‘hundreds of billions of dollars’ in coming years",
+   "themes": [
+    "credit_sovereign",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 32
+  },
+  {
+   "id": "cde632e3fd59445e",
+   "title": "UK waters down ‘fit and proper’ rules set up to hold bankers to account",
+   "link": "https://www.ft.com/content/0a5c7582-133c-4e24-8e3d-daa30f5dad56?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T20:00+00:00",
+   "summary": "Existing regulatory regime was instrumental in actions against former Barclays boss Jes Staley and hedge fund owner Crispin Odey",
+   "themes": [
+    "vol_derivatives",
+    "banks",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 47
+  },
+  {
+   "id": "ebaa7900e1a4e9c2",
+   "title": "Creditors to Sanjeev Gupta’s first UK steel plant appoint liquidators",
+   "link": "https://www.ft.com/content/63ed58ac-f9ef-41b7-a172-dc540337b698?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T15:44+00:00",
+   "summary": "Collapse into insolvency of historic Welsh steelworks threatens future of 50-year-old plant",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "27be8b143580b1b4",
+   "title": "Could Anthropic’s IPO be a turning point for AI? You asked, we answered",
+   "link": "https://www.ft.com/content/8cdf338e-d472-460c-8642-a8f033b99462?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T15:00+00:00",
+   "summary": "Tech writer at large Richard Waters and venture capital correspondent George Hammond replied to reader questions",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "ff895c82a4ee740b",
+   "title": "Would you take out a mortgage backed by bitcoin?",
+   "link": "https://www.ft.com/content/42176f60-b2fd-431c-9f2c-e7e015b07315?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T15:00+00:00",
+   "summary": "US officials are encouraging the use of crypto holdings as home-loan collateral",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "c4ab74ab390d7f3d",
+   "title": "Britain secures gas supply from Belgium before winter crunch",
+   "link": "https://www.ft.com/content/a88ac504-4d86-4f27-a1e9-cf63db032ab5?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T14:26+00:00",
+   "summary": "Last-minute deal comes after years of falling domestic gas production",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 20
+  },
+  {
+   "id": "3830bc4ceebe8e84",
+   "title": "Shell and Exxon’s $8bn UK chemicals unit put up for sale",
+   "link": "https://www.ft.com/content/2d4876ae-c707-4df5-a3ae-ae3268343ef2?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T13:36+00:00",
+   "summary": "Infineum taps advisers at Bank of America to run a sale of the business as Shell focuses on core oil and gas operations",
+   "themes": [
+    "fx_commodities",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 27
+  },
+  {
+   "id": "435478a764b29ccb",
+   "title": "A bond is like a party balloon",
+   "link": "https://www.ft.com/content/7cd54d93-eff8-413a-896a-4fe5583147d7",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T12:10+00:00",
+   "summary": "(Bear with us)",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 25
+  },
+  {
+   "id": "1e6b1c28ec0c94c8",
+   "title": "Why climate could soon move back up the global agenda",
+   "link": "https://www.ft.com/content/e6185f87-0f7a-4e95-80db-94462133c266?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T11:00+00:00",
+   "summary": "IEA chief Fatih Birol told an FT summit that ‘quick’ and ‘cheap’ renewables could drive renewed focus even as energy disruption drags on",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "ffe10641ec4b2530",
+   "title": "Europe’s bracing reality on US bond yields",
+   "link": "https://www.ft.com/content/92e1700d-7990-4c6a-bd3f-63685df2fdf6?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T10:07+00:00",
+   "summary": "The region cannot just hope for a fall in borrowing costs across the Atlantic - it must tackle its own problems",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 25
+  },
+  {
+   "id": "a7f75d6365bd4ddd",
+   "title": "Europe’s underrated digital trailblazing",
+   "link": "https://www.ft.com/content/120fad19-1279-4e3c-8f60-2319acc21d11?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T10:00+00:00",
+   "summary": "At the frontier of public digital money, the EU is slowly developing a geopolitical monetary strategy",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "9672020eebcb098c",
+   "title": "Hyperscalers and how to rate them",
+   "link": "https://www.ft.com/content/9b1d9f37-bab2-448a-8a1a-e41c12bf9952?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T05:30+00:00",
+   "summary": "In the land of known unknowns",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 5
+  },
+  {
+   "id": "2277f3efd548eab3",
+   "title": "‘Eat. Sleep. Securitize. Repeat.’",
+   "link": "https://www.ft.com/content/7092a3c3-e62d-47d8-bb2d-757e38fd2346?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T04:00+00:00",
+   "summary": "The corporate debt machine looked unstoppable at this week’s ABS East conference in Miami Beach",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 25
+  },
+  {
+   "id": "90e43a710b58908b",
+   "title": "India mounts costly defence of rupee",
+   "link": "https://www.ft.com/content/4577cc43-d98b-43fc-8183-72777286ab80?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-22T04:00+00:00",
+   "summary": "Central bank has spent about $90bn of money raised from diaspora to shore up currency",
+   "themes": [
+    "central_banks",
+    "fx_commodities",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 50
+  },
+  {
+   "id": "c89c45c477634a5e",
+   "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-21T08:00+00:00",
+   "summary": "",
+   "themes": [
+    "banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 25
+  },
+  {
+   "id": "c66aeb50a0f620f8",
+   "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-21T04:15+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "18ada448671ff7fc",
+   "title": "Frank Elderson: Interview with Die Presse",
+   "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-20T07:00+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "69afe8bb3edd9dc9",
+   "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-19T06:00+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "e545c030814a8792",
+   "title": "Christine Lagarde: IMFC Statement",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-17T05:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 50
+  },
+  {
+   "id": "6e034382f9ff21cf",
+   "title": "Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB methodology review",
+   "link": "https://www.bis.org/media-releases/20261016-basel-committee-finalises-measures-address-window-dressing-g-sib-framework-and-consults-g-sib",
+   "source": "BRI",
+   "sources": [
+    "BRI"
+   ],
+   "published": "2026-10-16T00:00+00:00",
+   "summary": "The Basel Committee on Banking Supervision today published final amendments to address window dressing in the G-SIB framework and a consultation on the G-SIB methodology review.",
+   "themes": [
+    "regulation",
+    "banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 37
+  },
+  {
+   "id": "81e2cc6a2a3ece95",
+   "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-14T00:00+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "e80ae0579d2fd598",
+   "title": "Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses",
+   "link": "https://www.bis.org/media-releases/20261014-global-standard-setting-bodies-publish-final-report-guidance-fmis-general-business-risks-and",
+   "source": "BRI",
+   "sources": [
+    "BRI"
+   ],
+   "published": "2026-10-14T00:00+00:00",
+   "summary": "The Bank for International Settlements’ Committee on Payments and Market Infrastructures (CPMI) and the International Organization of Securities Commissions (IOSCO) today published a final report on financial market infrastructures’ (FMIs) management of general business risks and general business losses.",
+   "themes": [
+    "banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 25
+  },
+  {
+   "id": "31a2bbd9d03d7971",
+   "title": "Philip R. Lane: The AI opportunity for Europe",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-13T18:30+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "d85e5d3609348b27",
+   "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+   "source": "Fed",
+   "sources": [
+    "Fed"
+   ],
+   "published": "2026-10-13T18:00+00:00",
+   "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "e9e729b4534eb63a",
+   "title": "Basel Committee finds Australia, Japan, Korea, Switzerland compliant, and Canada, United Kingdom largely compliant with its leverage ratio framework",
+   "link": "https://www.bis.org/media-releases/20261013-basel-committee-finds-australia-japan-korea-switzerland-compliant-and-canada-united-kingdom",
+   "source": "BRI",
+   "sources": [
+    "BRI"
+   ],
+   "published": "2026-10-13T00:00+00:00",
+   "summary": "The Basel Committee has published assessment reports on the implementation of its leverage ratio framework (LEV) in Australia, Canada, Japan, Korea, Switzerland and the United Kingdom. Australia, Japan, Korea and Switzerland are assessed as compliant; Canada and the United Kingdom are assessed as largely compliant. This publication concludes the first round of multi-jurisdictional assessments of t",
+   "themes": [
+    "regulation"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 30
+  },
+  {
+   "id": "15b4b4b5fa4c87a3",
+   "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+   "source": "Fed",
+   "sources": [
+    "Fed"
+   ],
+   "published": "2026-10-09T14:00+00:00",
+   "summary": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 50
+  },
+  {
+   "id": "e95750d1b74189d7",
+   "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+   "source": "Fed",
+   "sources": [
+    "Fed"
+   ],
+   "published": "2026-10-08T20:30+00:00",
+   "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+   "themes": [
+    "central_banks",
+    "equities"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 57
+  },
+  {
+   "id": "115092f33ede014c",
+   "title": "Meeting of 9-10 September 2026",
+   "link": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-08T11:30+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "aa8623d070d6696c",
+   "title": "Piero Cipollone: Interview with Corriere della Sera",
+   "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-08T06:00+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "a487a879854db8c7",
+   "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+   "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-07T08:00+00:00",
+   "summary": "",
+   "themes": [
+    "vol_derivatives",
+    "credit_sovereign"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 62
+  },
+  {
+   "id": "cc53352957af0033",
+   "title": "Frank Elderson: Effective supervision through timely remediation",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-06T13:00+00:00",
+   "summary": "",
+   "themes": [
+    "regulation"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 30
+  },
+  {
+   "id": "5dae0e8c1ef8bd3b",
+   "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-06T13:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks",
+    "banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 57
+  },
+  {
+   "id": "985fd00dec50f302",
+   "title": "Philip R. Lane: Interview with Ansa",
+   "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-06T07:00+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 15
+  },
+  {
+   "id": "517b42d1a3c002af",
+   "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-10-05T08:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 50
+  },
+  {
+   "id": "aba687069a0445a3",
+   "title": "Basel III applicable in almost all member jurisdictions by 2027",
+   "link": "https://www.bis.org/media-releases/20261005-basel-iii-applicable-almost-all-member-jurisdictions-2027",
+   "source": "BRI",
+   "sources": [
+    "BRI"
+   ],
+   "published": "2026-10-05T00:00+00:00",
+   "summary": "Three quarters of the Basel Committee’s 27 member jurisdictions have now published regulations implementing the full set of Basel III standards. Almost all member jurisdictions have publicly announced that banks must apply Basel III by April 2027 or earlier. The Committee will continue to closely monitor and assess the full and consistent implementation of Basel III standards.",
+   "themes": [
+    "regulation",
+    "banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 37
+  },
+  {
+   "id": "fe551cc7e923e4e8",
+   "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+   "source": "Fed",
+   "sources": [
+    "Fed"
+   ],
+   "published": "2026-10-02T20:00+00:00",
+   "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+   "themes": [
+    "central_banks",
+    "regulation"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 60
+  },
+  {
+   "id": "b4323ecb88e561dd",
+   "title": "Basel Committee meets to advance supervisory and regulatory initiatives and discuss risks and vulnerabilities to the global banking system",
+   "link": "https://www.bis.org/media-releases/20261001-basel-committee-meets-advance-supervisory-and-regulatory-initiatives-and-discuss-risks-and",
+   "source": "BRI",
+   "sources": [
+    "BRI"
+   ],
+   "published": "2026-10-01T00:00+00:00",
+   "summary": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme...",
+   "themes": [
+    "banks",
+    "regulation"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 37
+  },
+  {
+   "id": "6f25d6bf59de9bc7",
+   "title": "International supervisory community meets to discuss the future of global bank supervision and regulation",
+   "link": "https://www.bis.org/media-releases/20261001-international-supervisory-community-meets-discuss-future-global-bank-supervision-and-regulation",
+   "source": "BRI",
+   "sources": [
+    "BRI"
+   ],
+   "published": "2026-10-01T00:00+00:00",
+   "summary": "Almost 300 central bankers and banking supervisors attended the International Conference of Banking Supervisors (ICBS) to discuss the future of supervision and the digitalisation of finance...",
+   "themes": [
+    "regulation",
+    "banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 37
+  },
+  {
+   "id": "975ec4f2519a9848",
+   "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+   "source": "Fed",
+   "sources": [
+    "Fed"
+   ],
+   "published": "2026-09-30T13:00+00:00",
+   "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+   "themes": [
+    "regulation",
+    "central_banks",
+    "vol_derivatives"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 70
+  },
+  {
+   "id": "1478a16716375972",
+   "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
+   "source": "Fed",
+   "sources": [
+    "Fed"
+   ],
+   "published": "2026-09-29T20:00+00:00",
+   "summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+   "themes": [
+    "banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 25
+  },
+  {
+   "id": "a09909ffdb688fe7",
+   "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+   "source": "Fed",
+   "sources": [
+    "Fed"
+   ],
+   "published": "2026-09-24T18:30+00:00",
+   "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-10-23T11:24+00:00",
+   "score": 50
+  }
+ ]
+}

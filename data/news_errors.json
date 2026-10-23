@@ -1,0 +1,28 @@
+{
+ "generated_at": "2026-10-23T11:24:18+00:00",
+ "errors": [
+  {
+   "source": "Les Echos – Marchés",
+   "url": "https://services.lesechos.fr/rss/les-echos-finance-marches.xml",
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://services.lesechos.fr/rss/les-echos-finance-marches.xml"
+  }
+ ],
+ "stats": [
+  {
+   "source": "BCE",
+   "items": 15
+  },
+  {
+   "source": "Fed",
+   "items": 20
+  },
+  {
+   "source": "BRI",
+   "items": 10
+  },
+  {
+   "source": "Financial Times – Markets",
+   "items": 25
+  }
+ ]
+}
