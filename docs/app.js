@@ -62,7 +62,10 @@ function timingKey(job) {
 function startLabel(job) {
   if (!job.start) return "";
   const [y, m] = job.start.split("-");
-  return m ? `Début ${MONTHS_FR[Number(m) - 1]} ${y}` : `Début ${y}`;
+  if (m) return `Démarre en ${MONTHS_FR[Number(m) - 1]} ${y}`;
+  if (job.timing === "summer") return `Summer ${y} · été`;
+  if (job.timing === "off-cycle") return `Off-cycle ${y} · mois à vérifier`;
+  return `Démarrage ${y} · mois à vérifier`;
 }
 
 // ---------------------------------------------------------------- recruiting calendar
@@ -556,16 +559,44 @@ function renderCard(job) {
   return node;
 }
 
+// Static priority (employer type, specialists, location: docs/employers.json)
+// plus what changes every day: open window, current offers, my contact status.
+function companyScore(c) {
+  const parts = { base: c.priority || 0, window: 0, offers: 0, contact: 0 };
+  const states = c.windows.map((w) => w.state);
+  parts.window = states.includes("open") ? 15 : states.includes("soon") ? 8 : 0;
+  const good = state.jobs.filter((j) => j.employer === c.name && !isClosed(j) && j.score >= 60).length;
+  parts.offers = Math.min(15, good * 5);
+  if ((state.contacts[c.name] || {}).status === "negative") parts.contact = -30;
+  const total = Math.max(0, Math.min(100, parts.base + parts.window + parts.offers + parts.contact));
+  return { total, parts, good };
+}
+
 function renderCompany(c) {
   const node = $("company-tpl").content.firstElementChild.cloneNode(true);
   const link = node.querySelector(".title a");
   link.href = c.careers_url;
   link.textContent = c.name;
+  const badge = node.querySelector(".score");
+  badge.textContent = c.score.total;
+  badge.classList.add(scoreClass(c.score.total));
+  const p = c.score.parts;
+  badge.title = `Priorité ${c.score.total} = type et profil ${p.base} + fenêtre ${p.window} + offres en cours ${p.offers}`
+    + (p.contact ? ` + contact ${p.contact}` : "");
   node.querySelector(".type").textContent = TYPE_LABEL[c.type] || c.type;
   const cov = node.querySelector(".coverage");
   cov.textContent = c.covered ? "Suivi automatique" : "À regarder à la main";
   cov.classList.add(c.covered ? "auto" : "manual");
   if (!c.covered && c.notes) cov.title = c.notes;
+  const meta = node.querySelector(".meta");
+  const extra = [...(c.reasons || [])];
+  if (c.score.good) extra.push(`${c.score.good} offre(s) pertinente(s) en cours`);
+  for (const r of extra) {
+    const span = document.createElement("span");
+    span.className = "tag";
+    span.textContent = r;
+    meta.append(span);
+  }
   const windows = node.querySelector(".windows");
   const list = c.windows.length ? c.windows : [{ label: "Campagnes ponctuelles : surveiller la page carrières", state: "later" }];
   for (const w of list) {
@@ -602,6 +633,7 @@ function renderCompanies() {
   const rank = { open: 0, soon: 1, later: 2 };
   const rows = state.companies
     .map((c) => ({ ...c, windows: nextWindows(c.type) }))
+    .map((c) => ({ ...c, score: companyScore(c) }))
     .filter((c) => {
       const states = c.windows.map((w) => w.state);
       const st = (state.contacts[c.name] || {}).status;
@@ -616,9 +648,12 @@ function renderCompanies() {
       return true;
     })
     .sort((a, b) => {
+      const sort = $("c-sort").value;
+      if (sort === "name") return a.name.localeCompare(b.name, "fr");
       const ra = Math.min(3, ...a.windows.map((w) => rank[w.state]));
       const rb = Math.min(3, ...b.windows.map((w) => rank[w.state]));
-      return ra - rb || a.name.localeCompare(b.name, "fr");
+      if (sort === "window") return ra - rb || b.score.total - a.score.total;
+      return b.score.total - a.score.total || ra - rb || a.name.localeCompare(b.name, "fr");
     });
   $("list").replaceChildren(...rows.map(renderCompany));
   $("result-line").textContent = `${rows.length} entreprise(s)`;
@@ -652,6 +687,8 @@ function render() {
   saveFilters();
 }
 
+const SOON_COLLAPSED = 8;
+
 function renderSoon() {
   const box = $("soon");
   const rows = state.tab === "companies" ? [] : state.jobs
@@ -661,7 +698,8 @@ function renderSoon() {
     .sort((a, b) => (a.deadline_source !== "annonce") - (b.deadline_source !== "annonce")
       || a.deadline.localeCompare(b.deadline) || b.score - a.score);
   box.hidden = rows.length === 0;
-  $("soon-list").replaceChildren(...rows.slice(0, 12).map((j) => {
+  const shown = state.soonExpanded ? rows : rows.slice(0, SOON_COLLAPSED);
+  $("soon-list").replaceChildren(...shown.map((j) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
     a.href = j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = j.title;
@@ -671,7 +709,10 @@ function renderSoon() {
     when.textContent = ` · ${deadlineLabel(j)} (${n === 0 ? "aujourd'hui" : `J-${n}`})`;
     li.append(a, ` — ${j.employer}`, when);
     return li;
-  }), ...(rows.length > 12 ? [Object.assign(document.createElement("li"), { textContent: `… et ${rows.length - 12} autres` })] : []));
+  }));
+  const more = $("soon-more");
+  more.hidden = rows.length <= SOON_COLLAPSED;
+  more.textContent = state.soonExpanded ? "Réduire la liste" : `Afficher les ${rows.length} échéances`;
 }
 
 function updateCounts() {
@@ -912,7 +953,11 @@ $("reset").addEventListener("click", () => {
   render();
 });
 $("export").addEventListener("click", exportCsv);
-for (const id of ["c-search", "c-type", "c-covered", "c-window", "c-contact"]) {
+$("soon-more").addEventListener("click", () => {
+  state.soonExpanded = !state.soonExpanded;
+  renderSoon();
+});
+for (const id of ["c-search", "c-type", "c-covered", "c-window", "c-contact", "c-sort"]) {
   $(id).addEventListener(id === "c-search" ? "input" : "change", render);
 }
 $("add-offer").addEventListener("click", () => openDialog());

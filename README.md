@@ -16,7 +16,9 @@ on GitHub Pages.
 - **Offers added by hand** (found elsewhere: forums, network, uncovered sites), editable and
   deletable, with a status summary of all applications
 - **Companies** tab: every employer of the list (scraped or not) with its careers page, the usual
-  application windows for its type (indicative), and a contact status
+  application windows for its type (indicative), a contact status, and a **priority score**
+  (employer type, structuring/pricing specialists and location from `tracker/company_score.py`,
+  plus open window, current relevant offers and contact status on the site)
 - Filters on timing (start in June, summer, off-cycle) and start year
 - **Deadlines**: read from the ad when stated ("Application deadline: 15 November 2026"),
   otherwise estimated from the usual recruiting calendar of the employer type; an "À ne pas

@@ -259,6 +259,7 @@ button.danger { color: var(--danger); }
 .coverage.manual { color: var(--mid); }
 .contact-notes { flex: 1; min-width: 180px; padding: 7px 8px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; font-size: 0.9rem; }
 .company-main > div { min-width: 0; }
+.company-body { flex: 1; }
 @media (max-width: 600px) {
   .windows { align-items: flex-start; max-width: 100%; }
   .window { white-space: normal; }
@@ -302,3 +303,5 @@ button.danger { color: var(--danger); }
 .soon .when { color: var(--mid); font-weight: 600; white-space: nowrap; }
 .tag.deadline { background: var(--surface-2); color: var(--text); }
 .tag.deadline.urgent { background: var(--danger-soft); color: var(--danger); font-weight: 600; }
+
+.soon-more { margin-top: 8px; background: var(--surface); }

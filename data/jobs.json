@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T10:26:31+00:00",
+ "generated_at": "2026-10-23T10:39:17+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -528,39 +528,6 @@
    "deadline_source": "estimée",
    "url": "https://www.squarepoint-capital.com/open-opportunities?id=243853&gh_jid=243853",
    "posted_at": "2023-07-06",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "barclays-3c631708f1d9",
-   "employer": "Barclays",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Sales, Trading and Structuring Summer Internship Programme 2027 London",
-   "location": "Canary Wharf, 1 Churchill Place",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 82,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Sales--Trading-and-Structuring-Summer-Internship-Programme-2027-London_JR-0000124692",
-   "posted_at": "2026-09-09",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -3561,41 +3528,6 @@
    "deadline_source": "estimée",
    "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Milan/Borsa-Italiana---Regulation-and-Post-Trading-internship_R27753-1",
    "posted_at": "2026-10-08",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "jump-trading-d6c2b2bd6132",
-   "employer": "Jump Trading",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern)",
-   "location": "Hong Kong; Shanghai; Hong Kong; China",
-   "countries": [
-    "HK",
-    "CN"
-   ],
-   "country_names": [
-    "Hong Kong",
-    "China"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 56,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://www.jumptrading.com/hr/job?gh_jid=8027898",
-   "posted_at": "2026-08-25",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -12727,72 +12659,6 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-2a0f7a1c1c2a",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - Fixed Income Sustainability Team",
-   "location": "Remote, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869913",
-   "posted_at": "2026-10-05",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-c9a6df992095",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - International Investment Marketing",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869923",
-   "posted_at": "2026-10-02",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "franklin-templeton-d982d657e909",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -12821,39 +12687,6 @@
    "deadline_source": "estimée",
    "url": "https://careers.franklintempleton.com/us/en/job/869912",
    "posted_at": "2026-10-01",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-08534342a716",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Investment Accounting and Control",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869915",
-   "posted_at": "2026-10-02",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -14753,6 +14586,72 @@
    "active": true
   },
   {
+   "id": "deloitte-f8add2cd509b",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-09",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "deloitte-f726047b8f20",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2028-01",
+   "deadline": "2027-10-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Winter-2028/361295",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "jpmorgan-1294d42116da",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -15851,72 +15750,6 @@
    "active": true
   },
   {
-   "id": "deloitte-9a5444160e7c",
-   "employer": "Deloitte",
-   "employer_type": "consulting",
-   "platform": "generic",
-   "title": "Audit & Assurance – Intern – AI and Data Science – Winter 2027",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "2027",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-AI-and-Data-Science-Winter-2027/361857",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "deloitte-f8add2cd509b",
-   "employer": "Deloitte",
-   "employer_type": "consulting",
-   "platform": "generic",
-   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "2027",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "deutsche-bank-00e7259a552e",
    "employer": "Deutsche Bank",
    "employer_type": "intl_bank",
@@ -16115,11 +15948,11 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-0bf126e8073c",
+   "id": "franklin-templeton-5e26a60d9c10",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
+   "title": "Intern (TGI - Equity Research/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -16141,74 +15974,8 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869532",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-733847b5ac25",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (Multi-Asset/ Investment Strategy)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869440",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-e5287d07cedb",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869422",
-   "posted_at": "2026-09-23",
+   "url": "https://careers.franklintempleton.com/us/en/job/869384",
+   "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -17501,19 +17268,15 @@
    "active": true
   },
   {
-   "id": "td-securities-b9403424b00d",
-   "employer": "TD Securities",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Global Markets, Customized Solutions Group Intern/ Co-op Winter 2027",
-   "location": "Toronto, Ontario",
-   "countries": [
-    "CA"
-   ],
-   "country_names": [
-    "Canada"
-   ],
-   "region": "Rest of world",
+   "id": "unicredit-2c14b6553397",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Curricular Internship - Investment and Protection Products Specialist",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
    "family": "Markets (other)",
    "role_level": "low",
    "score": 10,
@@ -17524,12 +17287,12 @@
     "timing": 0
    },
    "timing": "unknown",
-   "start": "2027",
-   "deadline": "2026-11-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets--Customized-Solutions-Group-Intern--Co-op-Winter-2027_R_1518509",
-   "posted_at": "2026-10-22",
-   "first_seen": "2026-10-23",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -17985,6 +17748,39 @@
    "active": false
   },
   {
+   "id": "barclays-3c631708f1d9",
+   "employer": "Barclays",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Sales, Trading and Structuring Summer Internship Programme 2027 London",
+   "location": "Canary Wharf, 1 Churchill Place",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 82,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Sales--Trading-and-Structuring-Summer-Internship-Programme-2027-London_JR-0000124692",
+   "posted_at": "2026-09-09",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "groupe-credit-agricole-556a654e6fc2",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
@@ -18164,6 +17960,41 @@
    "start": "2027-01",
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Paris/Structured-Trade-Export-Finance-Paris-Intern--f-m-x-_R0452722",
    "posted_at": "2026-09-28",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "jump-trading-d6c2b2bd6132",
+   "employer": "Jump Trading",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern)",
+   "location": "Hong Kong; Shanghai; Hong Kong; China",
+   "countries": [
+    "HK",
+    "CN"
+   ],
+   "country_names": [
+    "Hong Kong",
+    "China"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 56,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://www.jumptrading.com/hr/job?gh_jid=8027898",
+   "posted_at": "2026-08-25",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": false
@@ -19430,6 +19261,105 @@
    "active": false
   },
   {
+   "id": "franklin-templeton-2a0f7a1c1c2a",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - Fixed Income Sustainability Team",
+   "location": "Remote, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869913",
+   "posted_at": "2026-10-05",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-c9a6df992095",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - International Investment Marketing",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869923",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-08534342a716",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern – Investment Accounting and Control",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869915",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "pwc-d1c77a785e9f",
    "employer": "PwC",
    "employer_type": "consulting",
@@ -19656,11 +19586,11 @@
    "active": false
   },
   {
-   "id": "deloitte-f726047b8f20",
+   "id": "deloitte-9a5444160e7c",
    "employer": "Deloitte",
    "employer_type": "consulting",
    "platform": "generic",
-   "title": "Audit & Assurance – Intern – Financial Statement Audit – Winter 2028",
+   "title": "Audit & Assurance – Intern – AI and Data Science – Winter 2027",
    "location": "",
    "countries": [
     "US"
@@ -19678,18 +19608,22 @@
     "city": 0,
     "timing": 0
    },
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Winter-2028/361295",
+   "timing": "unknown",
+   "start": "2027",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-AI-and-Data-Science-Winter-2027/361857",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "active": false
   },
   {
-   "id": "franklin-templeton-5e26a60d9c10",
+   "id": "franklin-templeton-0bf126e8073c",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (TGI - Equity Research/ AI Automation)",
+   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -19709,8 +19643,76 @@
    },
    "timing": "unknown",
    "start": "",
-   "url": "https://careers.franklintempleton.com/us/en/job/869384",
-   "posted_at": "2026-09-08",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869532",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-733847b5ac25",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (Multi-Asset/ Investment Strategy)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869440",
+   "posted_at": "2026-10-13",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-e5287d07cedb",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869422",
+   "posted_at": "2026-09-23",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": false
@@ -19776,15 +19778,19 @@
    "active": false
   },
   {
-   "id": "unicredit-2c14b6553397",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Curricular Internship - Investment and Protection Products Specialist",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
+   "id": "td-securities-b9403424b00d",
+   "employer": "TD Securities",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Global Markets, Customized Solutions Group Intern/ Co-op Winter 2027",
+   "location": "Toronto, Ontario",
+   "countries": [
+    "CA"
+   ],
+   "country_names": [
+    "Canada"
+   ],
+   "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
    "score": 10,
@@ -19795,10 +19801,12 @@
     "timing": 0
    },
    "timing": "unknown",
-   "start": "",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets--Customized-Solutions-Group-Intern--Co-op-Winter-2027_R_1518509",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": false
   }

@@ -12,6 +12,12 @@ from tracker.timing import analyse
     ("Quant Intern", "Start date: June 2027. Applications close May 2027.", "summer", "2027-06"),
     ("Praktikum Marktrisiko", "ab Juni 2027 für 6 Monate", "summer", "2027-06"),
     ("Stage Structuration", "You may apply now.", "unknown", ""),
+    ("Stage Structuration - Début 2027", "", "off-cycle", "2027-01"),
+    ("Off-cycle Internship (Early 2027)", "", "off-cycle", "2027-01"),
+    ("Spring 2027 Off-Cycle Internship", "", "off-cycle", "2027-03"),
+    ("Markets Intern - Fall 2027", "", "off-cycle", "2027-09"),
+    ("Quant Intern", "The internship will start in early 2027.", "off-cycle", "2027-01"),
+    ("Quant Intern", "Candidates graduating in early 2027 are welcome.", "unknown", ""),
 ])
 def test_analyse(title, description, kind, start):
     t = analyse(title, description)

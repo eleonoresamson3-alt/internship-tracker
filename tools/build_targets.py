@@ -17,6 +17,9 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from tracker import company_score  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 
 HEADER = """\
@@ -80,8 +83,12 @@ def update_readme(employers: list[dict]) -> None:
 
 def write_site_list(employers: list[dict]) -> None:
     """docs/employers.json: every employer, for the "Entreprises" tab of the site."""
-    rows = [{"name": e["name"], "type": e["type"], "careers_url": e["careers_url"],
-             "covered": e.get("enabled", True), "notes": e.get("notes", "")} for e in employers]
+    rows = []
+    for e in employers:
+        points, reasons = company_score.score(e["name"], e["type"])
+        rows.append({"name": e["name"], "type": e["type"], "careers_url": e["careers_url"],
+                     "covered": e.get("enabled", True), "notes": e.get("notes", ""),
+                     "priority": points, "reasons": reasons})
     rows.sort(key=lambda r: r["name"].lower())
     (ROOT / "docs" / "employers.json").write_text(
         json.dumps(rows, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
