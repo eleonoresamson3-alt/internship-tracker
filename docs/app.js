@@ -28,6 +28,7 @@ const TYPE_LABEL = {
   consulting: "Conseil risque",
   commodities: "Trading matières premières",
   infrastructure: "Bourse / infrastructure",
+  corporate: "Grand groupe (trésorerie / marchés)",
 };
 
 const FAMILY_LABEL = {
@@ -37,6 +38,7 @@ const FAMILY_LABEL = {
   "Quant dev": "Quant dev / Strats",
   "Trading": "Trading",
   "Product control": "Product control",
+  "Treasury": "Trésorerie / financement",
   "Markets (other)": "Autres métiers marchés",
   "Other": "Autre",
 };
@@ -91,7 +93,7 @@ const CYCLES = {
 const TYPE_CYCLE = {
   intl_bank: "anglo", infrastructure: "anglo", hedge_fund: "trading",
   french_bank: "fr", european_bank: "fr", broker: "fr", asset_manager: "fr",
-  insurance: "fr", commodities: "fr", software: "fr", consulting: "consulting",
+  insurance: "fr", commodities: "fr", software: "fr", corporate: "fr", consulting: "consulting",
   institution: null,
 };
 

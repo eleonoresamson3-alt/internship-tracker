@@ -383,3 +383,44 @@ employers:
   - {name: Graham Capital, type: hedge_fund, careers_url: "https://www.grahamcapital.com/careers", slugs: [grahamcapital]}
   - {name: Capstone Investment Advisors, type: hedge_fund, careers_url: "https://www.capstoneco.com/careers", slugs: [capstone, capstoneinvestmentadvisors]}
   - {name: Lynx Asset Management, type: hedge_fund, careers_url: "https://www.lynxhedge.se/careers", slugs: [lynx, lynxassetmanagement]}
+  # ---------------------------------------------------------------- Large corporates (treasury / hedging / financing desks)
+  - {name: Danone, type: corporate, careers_url: "https://careers.danone.com/", slugs: [danone]}
+  - {name: L'Oréal, type: corporate, careers_url: "https://careers.loreal.com/", slugs: [loreal]}
+  - {name: LVMH, type: corporate, careers_url: "https://www.lvmh.com/join-us/our-job-offers", slugs: [lvmh]}
+  - {name: Kering, type: corporate, careers_url: "https://www.kering.com/en/talent/job-offers/", slugs: [kering]}
+  - {name: Hermès, type: corporate, careers_url: "https://www.hermes.com/careers/", slugs: [hermes]}
+  - {name: Pernod Ricard, type: corporate, careers_url: "https://www.pernod-ricard.com/en/careers", slugs: [pernodricard]}
+  - {name: Airbus, type: corporate, careers_url: "https://www.airbus.com/en/careers", candidates: [[workday, {url: "https://ag.wd3.myworkdayjobs.com/Airbus"}]]}
+  - {name: Safran, type: corporate, careers_url: "https://www.safran-group.com/jobs", slugs: [safran]}
+  - {name: Thales, type: corporate, careers_url: "https://careers.thalesgroup.com/", candidates: [[workday, {url: "https://thales.wd3.myworkdayjobs.com/Careers"}]]}
+  - {name: Dassault Systèmes, type: corporate, careers_url: "https://www.3ds.com/careers", slugs: [dassaultsystemes]}
+  - {name: Renault Group, type: corporate, careers_url: "https://www.renaultgroup.com/en/careers/", slugs: [renault]}
+  - {name: Stellantis, type: corporate, careers_url: "https://www.stellantis.com/en/careers", candidates: [[workday, {url: "https://stellantis.wd3.myworkdayjobs.com/External_Career_Site"}]]}
+  - {name: Michelin, type: corporate, careers_url: "https://recrutement.michelin.fr/", slugs: [michelin]}
+  - {name: Sanofi, type: corporate, careers_url: "https://jobs.sanofi.com/", candidates: [[workday, {url: "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers"}]]}
+  - {name: Schneider Electric, type: corporate, careers_url: "https://www.se.com/ww/en/about-us/careers/", slugs: [schneiderelectric]}
+  - {name: Saint-Gobain, type: corporate, careers_url: "https://joinus.saint-gobain.com/", slugs: [saintgobain]}
+  - {name: Air Liquide, type: corporate, careers_url: "https://www.airliquide.com/careers", candidates: [[workday, {url: "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer"}]]}
+  - {name: Orange, type: corporate, careers_url: "https://orange.jobs/", slugs: [orange]}
+  - {name: Vinci, type: corporate, careers_url: "https://jobs.vinci.com/", slugs: [vinci]}
+  - {name: Bouygues, type: corporate, careers_url: "https://www.bouygues.com/en/careers/", slugs: [bouygues]}
+  - {name: Veolia, type: corporate, careers_url: "https://www.veolia.com/en/careers", slugs: [veolia]}
+  - {name: EDF, type: corporate, careers_url: "https://www.edf.fr/edf-recrute", slugs: [edf]}
+  - {name: Carrefour, type: corporate, careers_url: "https://www.carrefour.com/en/careers", slugs: [carrefour]}
+  - {name: Capgemini, type: corporate, careers_url: "https://www.capgemini.com/careers/", slugs: [capgemini]}
+  - {name: Alstom, type: corporate, careers_url: "https://www.alstom.com/careers", slugs: [alstom]}
+  - {name: Mobilize Financial Services (RCI Bank), type: corporate, careers_url: "https://www.mobilize-fs.com/careers", slugs: [rcibank, mobilizefs]}
+  - {name: Nestlé, type: corporate, careers_url: "https://www.nestle.com/jobs", slugs: [nestle]}
+  - {name: Unilever, type: corporate, careers_url: "https://careers.unilever.com/", candidates: [[workday, {url: "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals"}]]}
+  - {name: Siemens, type: corporate, careers_url: "https://jobs.siemens.com/", slugs: [siemens]}
+  - {name: Volkswagen Financial Services, type: corporate, careers_url: "https://www.vwfs.com/en/career.html", slugs: [vwfs]}
+  - {name: ASML, type: corporate, careers_url: "https://www.asml.com/en/careers", slugs: [asml]}
+  - {name: ABB, type: corporate, careers_url: "https://careers.abb/global/en", slugs: [abb]}
+  - {name: Novartis, type: corporate, careers_url: "https://www.novartis.com/careers", candidates: [[workday, {url: "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"}]]}
+  - {name: Roche, type: corporate, careers_url: "https://careers.roche.com/", slugs: [roche]}
+  - {name: Philips, type: corporate, careers_url: "https://www.careers.philips.com/", candidates: [[workday, {url: "https://philips.wd3.myworkdayjobs.com/jobs-and-careers"}]]}
+  - {name: Heineken, type: corporate, careers_url: "https://careers.theheinekencompany.com/", slugs: [heineken]}
+  - {name: AB InBev, type: corporate, careers_url: "https://www.ab-inbev.com/careers/", slugs: [abinbev]}
+  - {name: Diageo, type: corporate, careers_url: "https://www.diageo.com/en/careers", slugs: [diageo]}
+  - {name: BP (corporate treasury), type: corporate, careers_url: "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html", slugs: [bp]}
+  - {name: Air France-KLM, type: corporate, careers_url: "https://www.airfrance.fr/recrutement", slugs: [airfranceklm]}

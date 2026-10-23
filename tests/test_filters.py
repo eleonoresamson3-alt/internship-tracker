@@ -2,7 +2,8 @@ import pytest
 
 from datetime import date
 
-from tracker.filters import description_says_internship, keep, looks_like_internship, out_of_window
+from tracker.filters import (corporate_markets_role, description_says_internship, keep, looks_like_internship,
+                             out_of_window)
 
 OCT_2026 = date(2026, 10, 23)
 
@@ -70,3 +71,14 @@ def test_description_internship_detection():
     assert description_says_internship("Over 10 weeks, interns will work with traders.")
     assert description_says_internship("This summer internship is open to students.")
     assert not description_says_internship("We also run a large internship programme for students.")
+
+
+def test_corporate_markets_roles():
+    assert corporate_markets_role("Stage Trésorerie Groupe - Couverture de change")
+    assert corporate_markets_role("Treasury Intern - FX Hedging")
+    assert corporate_markets_role("Stage Financement & Trésorerie (6 mois)")
+    assert corporate_markets_role("Commodity Risk Analyst Intern")
+    assert not corporate_markets_role("Stage Contrôle de gestion")
+    assert not corporate_markets_role("Finance Intern - Accounts Payable")
+    assert not corporate_markets_role("Stage Audit interne")
+    assert not corporate_markets_role("Change Management Intern")

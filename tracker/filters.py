@@ -89,3 +89,19 @@ _DESCRIPTION_INTERNSHIP = re.compile(
 
 def description_says_internship(description: str) -> bool:
     return bool(_DESCRIPTION_INTERNSHIP.search(_norm(description)))
+
+
+# Large corporates (type "corporate") post hundreds of finance internships
+# (controlling, audit, accounting...). Only titles naming a markets activity
+# are kept for them.
+_CORPORATE_MARKETS = re.compile(
+    r"\btreasury\b|\btresorerie\b|\bcash management\b|\bhedg|\bcouverture|\bfx\b|\bforex\b|\bchange\b"
+    r"|\bcurrenc|\bcommodit|\bmatieres premieres\b|\btrading\b|\btrader\b|\bmarket risk\b|\brisques? de marche\b"
+    r"|\bsalle des marches\b|\bderivati|\bderives?\b|\bpricing\b|\bstructur|\bfinancement|\bfunding\b|\bfinancing\b"
+    r"|\bcorporate finance\b|\bcapital markets\b|\bmarches de capitaux\b|\balm\b|\binvestor relations\b|\bm a\b"
+)
+
+
+def corporate_markets_role(title: str) -> bool:
+    text = re.sub(r"\bchange management\b|\bconduite du changement\b", " ", _norm(title).replace("&", " "))
+    return bool(_CORPORATE_MARKETS.search(text))

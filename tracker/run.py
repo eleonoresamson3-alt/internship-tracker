@@ -45,6 +45,8 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         employment_type = f"{employment_type} Internship"
     if not title or not raw.url or not filters.keep(title, employment_type):
         return None
+    if target.type == "corporate" and not filters.corporate_markets_role(title):
+        return None
     countries = list(dict.fromkeys(
         [c for c in raw.countries if c] + geo.detect_countries(raw.location)))
     if not countries:

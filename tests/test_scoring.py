@@ -26,6 +26,11 @@ def test_role_levels():
     assert role_match("Commercial & Investment Banking - Global Markets - Off-cycle Internship")[0] == "low"
 
 
+def test_corporate_treasury_roles():
+    assert role_match("Treasury Intern - FX Hedging")[0] == "medium"
+    assert role_match("Stage Trésorerie Groupe") == ("low", "Treasury")
+
+
 def test_role_families():
     assert role_match("Structuring Intern")[1] == "Structuring"
     assert role_match("Model Validation Intern")[1] == "Risk"

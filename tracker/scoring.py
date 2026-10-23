@@ -35,6 +35,8 @@ MEDIUM = [
     (r"\bstrats?\b", "Quant dev"),
     (r"\btrad(ing|er|ers)\b", "Trading"),
     (r"\bproduct control\b|\bcontrole produits?\b", "Product control"),
+    # Corporate treasury desks: hedging FX, rates and commodity exposures.
+    (r"\bhedg(e|es|ing)\b|\bcouvertures?\b|\b(fx|currency|commodity|interest rate) risk\b|\brisques? de (change|taux)\b", "Risk"),
     (r"\bquant(s|itative)?\b", "Pricing / Quant"),
 ]
 
@@ -43,7 +45,8 @@ LOW = [
     (r"\bsales\b|\bvente\b", "Markets (other)"),
     (r"\bfixed income\b|\brates\b|\btaux\b|\bcredit\b|\bfx\b|\bforex\b|\bchange\b", "Markets (other)"),
     (r"\bequit(y|ies)\b|\bactions\b|\bcommodit(y|ies)\b|\bmatieres premieres\b", "Markets (other)"),
-    (r"\brisk\b|\brisque\b|\brisques\b|\balm\b|\btreasury\b|\btresorerie\b", "Risk"),
+    (r"\brisk\b|\brisque\b|\brisques\b|\balm\b", "Risk"),
+    (r"\btreasury\b|\btresorerie\b|\bcash management\b|\bfinancement\b|\bfunding\b|\bcorporate finance\b", "Treasury"),
     (r"\bportfolio\b|\bportefeuille\b|\basset management\b|\bgestion d actifs\b|\binvestments?\b(?! bank)", "Markets (other)"),
     (r"\bresearch\b|\brecherche\b|\beconomist\b|\bdata scien(ce|tist)\b", "Markets (other)"),
     (r"\bfinance\b|\bfinancial\b|\bfinanciere?\b", "Markets (other)"),
