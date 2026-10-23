@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:21:44+00:00",
+ "generated_at": "2026-10-23T13:39:14+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -14487,39 +14487,6 @@
    "active": true
   },
   {
-   "id": "deloitte-f8add2cd509b",
-   "employer": "Deloitte",
-   "employer_type": "consulting",
-   "platform": "generic",
-   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027-09",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "deloitte-f726047b8f20",
    "employer": "Deloitte",
    "employer_type": "consulting",
@@ -19328,6 +19295,39 @@
    "posted_at": "2026-10-21",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
+   "active": false
+  },
+  {
+   "id": "deloitte-f8add2cd509b",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-09",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
    "active": false
   },
   {

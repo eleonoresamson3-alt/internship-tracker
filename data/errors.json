@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:21:44+00:00",
+ "generated_at": "2026-10-23T13:39:14+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -11,7 +11,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 666,
+   "fetched": 668,
    "kept": 43
   },
   {
@@ -101,7 +101,7 @@
   },
   {
    "employer": "Scotiabank",
-   "fetched": 272,
+   "fetched": 273,
    "kept": 1
   },
   {
@@ -191,7 +191,7 @@
   },
   {
    "employer": "Jane Street",
-   "fetched": 220,
+   "fetched": 221,
    "kept": 8
   },
   {
@@ -216,7 +216,7 @@
   },
   {
    "employer": "DRW",
-   "fetched": 163,
+   "fetched": 164,
    "kept": 6
   },
   {
@@ -246,7 +246,7 @@
   },
   {
    "employer": "Mako",
-   "fetched": 3,
+   "fetched": 2,
    "kept": 1
   },
   {
@@ -386,8 +386,8 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 11,
-   "kept": 3
+   "fetched": 10,
+   "kept": 2
   },
   {
    "employer": "EY",
@@ -396,8 +396,8 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 150,
-   "kept": 16
+   "fetched": 149,
+   "kept": 15
   },
   {
    "employer": "PwC",
@@ -411,7 +411,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 28,
+   "fetched": 26,
    "kept": 3
   },
   {
@@ -666,7 +666,7 @@
   },
   {
    "employer": "Sanofi",
-   "fetched": 53,
+   "fetched": 52,
    "kept": 0
   },
   {
@@ -691,12 +691,12 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 22,
+   "fetched": 23,
    "kept": 0
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 95,
+   "fetched": 96,
    "kept": 0
   },
   {
