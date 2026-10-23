@@ -177,13 +177,13 @@ Paid content (FT, L'Agefi) is only linked: log in on the publisher's site with y
 
 Free official sources, no API key: ECB Data Portal (EUR/USD reference rate, €STR, deposit
 facility rate), Deutsche Bundesbank (German 2-year and 10-year yields from the yield curve), FRED
-of the St. Louis Fed (S&P 500, VIX, Brent, US 2-year and 10-year Treasury yields). Each series is
+of the St. Louis Fed (S&P 500, Nasdaq Composite, Dow Jones, Nikkei 225, VIX, Brent, US 2-year and 10-year Treasury yields). Each series is
 configured in `news_sources.yaml`.
 
 | Series | Status | Why |
 |---|---|---|
-| CAC 40 | *indisponible* | Euronext does not publish free reusable data |
-| Euro Stoxx 50, VSTOXX | *indisponible* | STOXX indices are licensed |
+| CAC 40 | *indisponible* | Euronext data is licensed; the Banque de France Webstat series (`ECOFI.SPI.FR.FPE_IX._Z.D`) stopped in July 2024 |
+| Euro Stoxx 50, VSTOXX | *indisponible* | STOXX indices are licensed; the ECB no longer publishes them |
 | Gold | *indisponible* | the LBMA price is licensed and FRED no longer distributes it |
 | France 2-year and 10-year | from Banque de France Webstat (TEC 2, TEC 10) when the `WEBSTAT_API_KEY` secret is set | the Webstat API is free but needs a personal API key (see below) |
 

@@ -80,10 +80,13 @@ feeds:
 
 market:
   - {key: cac40, label: CAC 40, group: Actions, unit: pts, provider: unavailable,
-     note: "Euronext ne publie pas de données gratuites réutilisables"}
+     note: "pas de source officielle gratuite : Euronext est sous licence, la série Banque de France s'arrête en juillet 2024"}
   - {key: eurostoxx50, label: Euro Stoxx 50, group: Actions, unit: pts, provider: unavailable,
      note: "indice STOXX sous licence payante"}
   - {key: sp500, label: S&P 500, group: Actions, unit: pts, provider: fred, series: SP500}
+  - {key: nasdaq, label: Nasdaq Composite, group: Actions, unit: pts, provider: fred, series: NASDAQCOM}
+  - {key: dowjones, label: Dow Jones, group: Actions, unit: pts, provider: fred, series: DJIA}
+  - {key: nikkei, label: Nikkei 225, group: Actions, unit: pts, provider: fred, series: NIKKEI225}
   - {key: vix, label: VIX, group: Volatilité, unit: pts, provider: fred, series: VIXCLS}
   - {key: vstoxx, label: VSTOXX, group: Volatilité, unit: pts, provider: unavailable,
      note: "indice STOXX sous licence payante"}
