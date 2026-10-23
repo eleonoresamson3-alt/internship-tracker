@@ -5,6 +5,7 @@ params:
        (tenant and site are derived from it; a locale segment like /en-US is ignored)
   tenant / site: optional overrides when the URL does not follow the usual pattern
   details: false to skip the per-offer detail call (for hosts that rate-limit)
+  max_pages: result pages per search term (default config.MAX_PAGES_PER_TERM)
 """
 
 import html
@@ -38,7 +39,7 @@ def fetch(target, http):
 
     postings = {}
     for term in search_terms(target):
-        for page in range(config.MAX_PAGES_PER_TERM):
+        for page in range(target.params.get("max_pages", config.MAX_PAGES_PER_TERM)):
             data = http.post_json(f"{api}/jobs", {
                 "appliedFacets": {}, "limit": PAGE, "offset": page * PAGE, "searchText": term})
             items = data.get("jobPostings", [])
