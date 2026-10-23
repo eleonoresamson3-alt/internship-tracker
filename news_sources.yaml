@@ -3,9 +3,10 @@
 # feeds:   public RSS / Atom feeds. official: true for central banks, BIS, IMF,
 #          regulators (small score bonus). enabled: false keeps a source listed
 #          without fetching it; notes says why.
-# market:  daily market series. provider: ecb | bundesbank | fred | webstat | unavailable.
+# market:  daily market series. provider: ecb | bundesbank | fred | webstat | worldbank | unavailable.
 #          unit "%" = rate (changes in basis points), otherwise changes in %.
 #          step: true = only published when it changes (policy rates).
+#          monthly: true = monthly averages (only the 1-month change is shown).
 
 feeds:
   # Central banks, BIS and regulators (official: true)
@@ -80,10 +81,13 @@ feeds:
 
 market:
   - {key: cac40, label: CAC 40, group: Actions, unit: pts, provider: unavailable,
-     note: "Euronext ne publie pas de données gratuites réutilisables"}
+     note: "pas de source officielle gratuite : Euronext est sous licence, la série Banque de France s'arrête en juillet 2024"}
   - {key: eurostoxx50, label: Euro Stoxx 50, group: Actions, unit: pts, provider: unavailable,
      note: "indice STOXX sous licence payante"}
   - {key: sp500, label: S&P 500, group: Actions, unit: pts, provider: fred, series: SP500}
+  - {key: nasdaq, label: Nasdaq Composite, group: Actions, unit: pts, provider: fred, series: NASDAQCOM}
+  - {key: dowjones, label: Dow Jones, group: Actions, unit: pts, provider: fred, series: DJIA}
+  - {key: nikkei, label: Nikkei 225, group: Actions, unit: pts, provider: fred, series: NIKKEI225}
   - {key: vix, label: VIX, group: Volatilité, unit: pts, provider: fred, series: VIXCLS}
   - {key: vstoxx, label: VSTOXX, group: Volatilité, unit: pts, provider: unavailable,
      note: "indice STOXX sous licence payante"}
@@ -91,8 +95,9 @@ market:
      series: EXR/D.USD.EUR.SP00.A}
   - {key: brent, label: Brent ($/baril), group: Change et matières premières, unit: $, provider: fred,
      series: DCOILBRENTEU}
-  - {key: gold, label: Or, group: Change et matières premières, unit: $, provider: unavailable,
-     note: "prix LBMA sous licence ; FRED ne le diffuse plus"}
+  - {key: gold, label: "Or ($/once, moyenne mensuelle)", group: Change et matières premières, unit: $,
+     provider: worldbank, series: Gold, monthly: true,
+     note: "moyenne mensuelle publiée par la Banque mondiale (Pink Sheet) ; pas de cours quotidien gratuit"}
   - {key: estr, label: €STR, group: Taux, unit: "%", provider: ecb, series: EST/B.EU000A2X2A25.WT}
   - {key: dfr, label: Taux de dépôt BCE, group: Taux, unit: "%", provider: ecb, series: FM/B.U2.EUR.4F.KR.DFR.LEV,
      step: true}

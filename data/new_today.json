@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:18:13+00:00",
+ "generated_at": "2026-10-23T14:58:54+00:00",
  "date": "2026-10-23",
  "jobs": [
   {
@@ -1230,39 +1230,6 @@
    "active": true
   },
   {
-   "id": "deloitte-a8f793f0cff5",
-   "employer": "Deloitte",
-   "employer_type": "consulting",
-   "platform": "generic",
-   "title": "Consultative Offerings - Investment Banking Summer Associate - Corporate Finance",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Investment-Banking-Summer-Associate-Corporate-Finance/364093",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "franklin-templeton-d982d657e909",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -1377,6 +1344,39 @@
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://careers-stifel.icims.com/jobs/9994/treasury-management-intern--summer-2027/job?in_iframe=1",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "deloitte-f8add2cd509b",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit – Fall 2027",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-09",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Fall-2027/365635",
    "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
@@ -1568,6 +1568,39 @@
    "deadline_source": "estimée",
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/GREATER-SUDBURY--GRAND-SUDBURY-Ontario-Canada/Relationship-Manager-Business-Markets-Intern_R-0000190956",
    "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "rbc-capital-markets-5648bd9a2b29",
+   "employer": "RBC Capital Markets",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Relationship Manager Intern, Commercial Financial Services",
+   "location": "9 Locations",
+   "countries": [
+    "CA"
+   ],
+   "country_names": [
+    "Canada"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/Relationship-Manager-Intern--Commercial-Financial-Services_R-0000189795",
+   "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true

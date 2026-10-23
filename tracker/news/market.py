@@ -8,6 +8,7 @@ Providers:
   ecb         ECB Data Portal API (data-api.ecb.europa.eu), CSV
   bundesbank  Deutsche Bundesbank time-series API, CSV
   fred        Federal Reserve Bank of St. Louis (FRED) public CSV download
+  worldbank   World Bank "Pink Sheet" monthly commodity prices (CC BY 4.0), monthly averages
   webstat     Banque de France Webstat API (French government yields); needs a free
               API key in the WEBSTAT_API_KEY environment variable (GitHub secret)
 """
@@ -17,6 +18,7 @@ from __future__ import annotations
 import csv
 import io
 import os
+import re
 from datetime import date, timedelta
 
 from ..http import PoliteClient
@@ -104,7 +106,36 @@ def _webstat(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tup
     return [p for p in parse_webstat(rows) if p[0] >= cutoff]
 
 
-PROVIDERS = {"ecb": _ecb, "bundesbank": _bundesbank, "fred": _fred, "webstat": _webstat}
+WORLDBANK_PAGE = "https://www.worldbank.org/en/research/commodity-markets"
+
+
+def parse_pink_sheet(rows: list[tuple], column: str) -> list[tuple[date, float]]:
+    """Monthly values of one commodity from the 'Monthly Prices' sheet rows."""
+    header = next((r for r in rows[:15] if any(isinstance(c, str) and c.strip() == column for c in r)), None)
+    if header is None:
+        raise ValueError(f"column {column!r} not found in the Pink Sheet")
+    col = next(i for i, c in enumerate(header) if isinstance(c, str) and c.strip() == column)
+    points = []
+    for r in rows:
+        m = re.fullmatch(r"(\d{4})M(\d{2})", str(r[0] or ""))
+        if m and col < len(r) and isinstance(r[col], (int, float)):
+            points.append((date(int(m[1]), int(m[2]), 1), float(r[col])))
+    return points
+
+
+def _worldbank(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tuple[date, float]]:
+    import openpyxl  # only needed for this provider
+
+    page = http.get(WORLDBANK_PAGE).text
+    links = re.findall(r'https://thedocs\.worldbank\.org/[^"\']+CMO-Historical-Data-Monthly\.xlsx', page)
+    if not links:
+        raise ValueError("Pink Sheet link not found on the World Bank page")
+    book = openpyxl.load_workbook(io.BytesIO(http.get(links[0]).content), read_only=True, data_only=True)
+    rows = list(book["Monthly Prices"].iter_rows(values_only=True))
+    return parse_pink_sheet(rows, key)[-24:]
+
+
+PROVIDERS = {"ecb": _ecb, "bundesbank": _bundesbank, "fred": _fred, "webstat": _webstat, "worldbank": _worldbank}
 
 
 def _value_on_or_before(points: list[tuple[date, float]], day: date):
@@ -143,6 +174,15 @@ def changes(points: list[tuple[date, float]], unit: str, step: bool = False, tod
     return {"value": last, "date": last_day.isoformat(), "d1": delta(previous), "w1": delta(week), "m1": delta(month)}
 
 
+def monthly_changes(points: list[tuple[date, float]], unit: str) -> dict:
+    """Monthly averages: last month's level and its change over 1 month (no daily or weekly change)."""
+    points = sorted(points)
+    (last_day, last), previous = points[-1], (points[-2][1] if len(points) > 1 else None)
+    month = changes(points[-2:], unit)["d1"] if previous is not None else None
+    return {"value": last, "date": last_day.isoformat(), "period": last_day.isoformat()[:7],
+            "d1": None, "w1": None, "m1": month}
+
+
 def fetch_all(series: list[dict], http: PoliteClient) -> tuple[list[dict], list[dict]]:
     out, errors = [], []
     for s in series:
@@ -157,7 +197,10 @@ def fetch_all(series: list[dict], http: PoliteClient) -> tuple[list[dict], list[
             points = provider(http, s["series"], STEP_HISTORY_DAYS) if step else provider(http, s["series"])
             if not points:
                 raise ValueError("no data returned")
-            row.update(changes(points, s.get("unit", ""), step))
+            if s.get("monthly"):
+                row.update(monthly_changes(points, s.get("unit", "")))
+            else:
+                row.update(changes(points, s.get("unit", ""), step))
             row["status"] = "ok"
         except NotConfigured as exc:
             row["status"] = "indisponible"

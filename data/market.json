@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:27:01+00:00",
+ "generated_at": "2026-10-23T15:07:52+00:00",
  "series": [
   {
    "key": "cac40",
@@ -7,7 +7,7 @@
    "group": "Actions",
    "unit": "pts",
    "provider": "unavailable",
-   "note": "Euronext ne publie pas de données gratuites réutilisables",
+   "note": "pas de source officielle gratuite : Euronext est sous licence, la série Banque de France s'arrête en juillet 2024",
    "status": "indisponible"
   },
   {
@@ -31,6 +31,48 @@
    "d1": 0.58,
    "w1": 0.5,
    "m1": -0.1,
+   "status": "ok"
+  },
+  {
+   "key": "nasdaq",
+   "label": "Nasdaq Composite",
+   "group": "Actions",
+   "unit": "pts",
+   "provider": "fred",
+   "note": "",
+   "value": 26008.86,
+   "date": "2026-10-22",
+   "d1": -2.6,
+   "w1": -2.64,
+   "m1": -4.53,
+   "status": "ok"
+  },
+  {
+   "key": "dowjones",
+   "label": "Dow Jones",
+   "group": "Actions",
+   "unit": "pts",
+   "provider": "fred",
+   "note": "",
+   "value": 52867.98,
+   "date": "2026-10-22",
+   "d1": 0.02,
+   "w1": 1.32,
+   "m1": 1.94,
+   "status": "ok"
+  },
+  {
+   "key": "nikkei",
+   "label": "Nikkei 225",
+   "group": "Actions",
+   "unit": "pts",
+   "provider": "fred",
+   "note": "",
+   "value": 62693.16,
+   "date": "2026-10-23",
+   "d1": -0.34,
+   "w1": -4.03,
+   "m1": -3.58,
    "status": "ok"
   },
   {
@@ -86,12 +128,18 @@
   },
   {
    "key": "gold",
-   "label": "Or",
+   "label": "Or ($/once, moyenne mensuelle)",
    "group": "Change et matières premières",
    "unit": "$",
-   "provider": "unavailable",
-   "note": "prix LBMA sous licence ; FRED ne le diffuse plus",
-   "status": "indisponible"
+   "provider": "worldbank",
+   "note": "moyenne mensuelle publiée par la Banque mondiale (Pink Sheet) ; pas de cours quotidien gratuit",
+   "value": 4319.0,
+   "date": "2026-09-01",
+   "period": "2026-09",
+   "d1": null,
+   "w1": null,
+   "m1": -2.09,
+   "status": "ok"
   },
   {
    "key": "estr",
