@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:50:18+00:00",
+ "generated_at": "2026-10-23T17:45:53+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -279,7 +279,7 @@
    "employer_type": "intl_bank",
    "platform": "workday",
    "title": "Markets, Quantitative Analysis, Off Cycle Placement , London, UK, 2027",
-   "location": "London  United Kingdom",
+   "location": "London United Kingdom",
    "countries": [
     "GB"
    ],
@@ -1913,7 +1913,7 @@
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
    "title": "2027 - Internship, Software Engineering and Quantitative Development",
-   "location": "London, Paris, Wrocław, Zurich, Dubai, Aarhus, Amsterdam; Aarhus, Central Denmark Region, Denmark; Amsterdam; Dubai; London, Greater London, England, United Kingdom; Paris, France; Wrocław, Lower Silesian Voivodeship, Poland",
+   "location": "London, Paris, Wrocław, Zurich, Dubai, Aarhus, Amsterdam; Aarhus, Central Denmark Region, Denmark; Amsterdam; Dubai; London, Greater London, England, United Kingdom; Paris, France; Wrocław, Lower Sil…",
    "countries": [
     "GB",
     "NL",
@@ -2939,72 +2939,6 @@
    "active": true
   },
   {
-   "id": "optiver-71cca9464b01",
-   "employer": "Optiver",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Research Intern, PhD (Summer 2027)",
-   "location": "Chicago, Illinois, United States; Austin, Texas, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002",
-   "posted_at": "2026-07-01",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "optiver-721d4dffacb6",
-   "employer": "Optiver",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Research Intern, PhD (Summer 2027)",
-   "location": "Austin, Texas, United States; Chicago, Illinois, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002",
-   "posted_at": "2026-07-01",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "optiver-cf9d34e76b88",
    "employer": "Optiver",
    "employer_type": "hedge_fund",
@@ -3700,39 +3634,6 @@
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-e69dca4cbb99",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Client Onboarding Officer - Private Equity & Real Estate Solutions H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 52,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---client-onboarding-officer---private-equity-et-real-estate-solutions-hf-reference--2026-116823--/",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "groupe-credit-agricole-075b2df8bdd9",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
@@ -4166,6 +4067,39 @@
    "active": true
   },
   {
+   "id": "engineers-gate-8196369a69ee",
+   "employer": "Engineers Gate",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern",
+   "location": "Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 50,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/engineersgate/jobs/8317827",
+   "posted_at": "2026-10-23",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "imc-8a9695dbcb12",
    "employer": "IMC",
    "employer_type": "hedge_fund",
@@ -4371,7 +4305,7 @@
    "employer_type": "asset_manager",
    "platform": "greenhouse",
    "title": "Quant Research Analyst Intern",
-   "location": "Shanghai ",
+   "location": "Shanghai",
    "countries": [
     "CN"
    ],
@@ -7174,7 +7108,7 @@
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
    "title": "Deep Learning Research Intern - Summer 2027 - Amsterdam",
-   "location": "Amsterdam, Netherlands; New York, United States; Sydney,  Australia",
+   "location": "Amsterdam, Netherlands; New York, United States; Sydney, Australia",
    "countries": [
     "US",
     "NL",
@@ -7211,7 +7145,7 @@
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
    "title": "Deep Learning Research Intern - Summer 2027 - New York",
-   "location": "New York, United States; Amsterdam, Netherlands; Sydney,  Australia",
+   "location": "New York, United States; Amsterdam, Netherlands; Sydney, Australia",
    "countries": [
     "US",
     "NL",
@@ -7606,72 +7540,6 @@
    "active": true
   },
   {
-   "id": "optiver-b1253534d2a1",
-   "employer": "Optiver",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Intern (Summer 2027)",
-   "location": "Austin, Texas, United States; Chicago, Illinois, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002",
-   "posted_at": "2026-08-05",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "optiver-4f1aadd03628",
-   "employer": "Optiver",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Intern (Summer 2027)",
-   "location": "Chicago, Illinois, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://www.optiver.com/join-us/jobs/8402215002/?gh_jid=8402215002",
-   "posted_at": "2026-07-01",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "optiver-78529be01e9a",
    "employer": "Optiver",
    "employer_type": "hedge_fund",
@@ -7766,39 +7634,6 @@
    "deadline_source": "estimée",
    "url": "https://www.optiver.com/join-us/jobs/8011956002/?gh_jid=8011956002",
    "posted_at": "2025-06-27",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "optiver-1c0cdac3c130",
-   "employer": "Optiver",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Trading Automation and Operations Intern (Summer 2027)",
-   "location": "Chicago, Illinois, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://www.optiver.com/join-us/jobs/8489582002/?gh_jid=8489582002",
-   "posted_at": "2026-07-15",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -8266,39 +8101,6 @@
    "active": true
   },
   {
-   "id": "kpmg-058ea969cc35",
-   "employer": "KPMG",
-   "employer_type": "consulting",
-   "platform": "radancy",
-   "title": "Auditeur Financier Stagiaire (F/H)",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://emplois.kpmg.fr/emploi/marcq-en-bar%c5%93ul/auditeur-financier-stagiaire-f-h/2913/46168060288",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "kpmg-1840b4128cf9",
    "employer": "KPMG",
    "employer_type": "consulting",
@@ -8359,6 +8161,39 @@
    "deadline": "2027-03-31",
    "deadline_source": "estimée",
    "url": "https://emplois.kpmg.fr/emploi/baie-mahault/auditeur-financier-stagiaire-f-h-antilles-27-28/2913/45896413760",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "kpmg-27e1e200c5a7",
+   "employer": "KPMG",
+   "employer_type": "consulting",
+   "platform": "radancy",
+   "title": "Auditeur financier stagiaire (F/H)",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://emplois.kpmg.fr/emploi/la-defense/auditeur-financier-stagiaire-f-h/2913/29927078080",
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
@@ -9327,7 +9162,7 @@
    "employer_type": "intl_bank",
    "platform": "workday",
    "title": "Functions - Risk, Summer Analyst - Warsaw, 2027",
-   "location": "Warsaw  Poland",
+   "location": "Warsaw Poland",
    "countries": [
     "PL"
    ],
@@ -10152,7 +9987,7 @@
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
    "title": "Deep Learning Research Intern - 2027 - Sydney",
-   "location": "Sydney,  Australia; Amsterdam, Netherlands; New York, United States",
+   "location": "Sydney, Australia; Amsterdam, Netherlands; New York, United States",
    "countries": [
     "US",
     "NL",
@@ -12593,72 +12428,6 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-2a0f7a1c1c2a",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - Fixed Income Sustainability Team",
-   "location": "Remote, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869913",
-   "posted_at": "2026-10-05",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-c9a6df992095",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - International Investment Marketing",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869923",
-   "posted_at": "2026-10-02",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "franklin-templeton-d982d657e909",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -12687,39 +12456,6 @@
    "deadline_source": "estimée",
    "url": "https://careers.franklintempleton.com/us/en/job/869912",
    "posted_at": "2026-10-01",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-08534342a716",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Investment Accounting and Control",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869915",
-   "posted_at": "2026-10-02",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -13249,6 +12985,39 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6613",
    "posted_at": "2026-09-23",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "lazard-726e69abaf9d",
+   "employer": "Lazard",
+   "employer_type": "asset_manager",
+   "platform": "oracle",
+   "title": "2028 Summer Analyst - New York Corporate Finance Advisory",
+   "location": "New York, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2028",
+   "deadline": "2028-04-30",
+   "deadline_source": "estimée",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6767",
+   "posted_at": "2026-10-23",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -14450,6 +14219,39 @@
    "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/US-Graduate-Leadership-Program--Treasury---Finance_R_1508609",
    "posted_at": "2026-10-05",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "td-securities-cdf831c16fd7",
+   "employer": "TD Securities",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Global Markets Intern/ Co-op",
+   "location": "Toronto, Ontario",
+   "countries": [
+    "CA"
+   ],
+   "country_names": [
+    "Canada"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets-Intern--Co-op_R_1518670",
+   "posted_at": "2026-10-23",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -15915,11 +15717,11 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-0bf126e8073c",
+   "id": "franklin-templeton-5e26a60d9c10",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
+   "title": "Intern (TGI - Equity Research/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -15941,74 +15743,8 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869532",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-733847b5ac25",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (Multi-Asset/ Investment Strategy)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869440",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-e5287d07cedb",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869422",
-   "posted_at": "2026-09-23",
+   "url": "https://careers.franklintempleton.com/us/en/job/869384",
+   "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -16844,7 +16580,7 @@
    "employer_type": "intl_bank",
    "platform": "workday",
    "title": "Relationship Manager Intern, Business Markets",
-   "location": "PRINCE ALBERT, Saskatchewan, Canada; NORTH BATTLEFORD, Saskatchewan, Canada; MELFORT, Saskatchewan, Canada; TISDALE, Saskatchewan, Canada; MEADOW LAKE, Saskatchewan, Canada; NIPAWIN, Saskatchewan, Canada; HUMBOLDT, Saskatchewan, Canada",
+   "location": "PRINCE ALBERT, Saskatchewan, Canada; NORTH BATTLEFORD, Saskatchewan, Canada; MELFORT, Saskatchewan, Canada; TISDALE, Saskatchewan, Canada; MEADOW LAKE, Saskatchewan, Canada; NIPAWIN, Saskatchewan, Ca…",
    "countries": [
     "CA"
    ],
@@ -16877,7 +16613,7 @@
    "employer_type": "intl_bank",
    "platform": "workday",
    "title": "Relationship Manager Intern, Commercial Financial Services",
-   "location": "TORONTO, Ontario, Canada; RICHMOND HILL, Ontario, Canada; MISSISSAUGA, Ontario, Canada; 3601 HWY 7:MARKHAM; 610 APPLEWOOD CRES:VAUGHAN; VAUGHAN, Ontario, Canada; 6205 AIRPORT RD:MISSISSAUGA; 111 GRANGEWAY AVE:TORONTO; 4401 BATHURST ST:TORONTO",
+   "location": "TORONTO, Ontario, Canada; RICHMOND HILL, Ontario, Canada; MISSISSAUGA, Ontario, Canada; 3601 HWY 7:MARKHAM; 610 APPLEWOOD CRES:VAUGHAN; VAUGHAN, Ontario, Canada; 6205 AIRPORT RD:MISSISSAUGA; 111 GRAN…",
    "countries": [
     "CA"
    ],
@@ -17296,6 +17032,35 @@
    "deadline_source": "estimée",
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2214",
    "posted_at": "2026-10-08",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "unicredit-2c14b6553397",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Curricular Internship - Investment and Protection Products Specialist",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -17909,6 +17674,72 @@
    "active": false
   },
   {
+   "id": "optiver-71cca9464b01",
+   "employer": "Optiver",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern, PhD (Summer 2027)",
+   "location": "Chicago, Illinois, United States; Austin, Texas, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002",
+   "posted_at": "2026-07-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "optiver-721d4dffacb6",
+   "employer": "Optiver",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern, PhD (Summer 2027)",
+   "location": "Austin, Texas, United States; Chicago, Illinois, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002",
+   "posted_at": "2026-07-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "deutsche-bank-2279e255fa60",
    "employer": "Deutsche Bank",
    "employer_type": "intl_bank",
@@ -18065,6 +17896,39 @@
    "start": "2027-01",
    "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Paris/Stagiaire-Trsorerie-Internationale---Mars-2026_JR-052498-1",
    "posted_at": "2026-10-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "groupe-credit-agricole-e69dca4cbb99",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE - Client Onboarding Officer - Private Equity & Real Estate Solutions H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 52,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---client-onboarding-officer---private-equity-et-real-estate-solutions-hf-reference--2026-116823--/",
+   "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": false
@@ -18905,6 +18769,105 @@
    "active": false
   },
   {
+   "id": "optiver-b1253534d2a1",
+   "employer": "Optiver",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Intern (Summer 2027)",
+   "location": "Austin, Texas, United States; Chicago, Illinois, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002",
+   "posted_at": "2026-08-05",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "optiver-4f1aadd03628",
+   "employer": "Optiver",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Intern (Summer 2027)",
+   "location": "Chicago, Illinois, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://www.optiver.com/join-us/jobs/8402215002/?gh_jid=8402215002",
+   "posted_at": "2026-07-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "optiver-1c0cdac3c130",
+   "employer": "Optiver",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Trading Automation and Operations Intern (Summer 2027)",
+   "location": "Chicago, Illinois, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://www.optiver.com/join-us/jobs/8489582002/?gh_jid=8489582002",
+   "posted_at": "2026-07-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "lazard-69506241ce6b",
    "employer": "Lazard",
    "employer_type": "asset_manager",
@@ -19370,6 +19333,105 @@
    "active": false
   },
   {
+   "id": "franklin-templeton-2a0f7a1c1c2a",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - Fixed Income Sustainability Team",
+   "location": "Remote, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869913",
+   "posted_at": "2026-10-05",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-c9a6df992095",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - International Investment Marketing",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869923",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-08534342a716",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern – Investment Accounting and Control",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869915",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
    "id": "pwc-d1c77a785e9f",
    "employer": "PwC",
    "employer_type": "consulting",
@@ -19695,11 +19757,11 @@
    "active": false
   },
   {
-   "id": "franklin-templeton-5e26a60d9c10",
+   "id": "franklin-templeton-0bf126e8073c",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (TGI - Equity Research/ AI Automation)",
+   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -19721,8 +19783,74 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869384",
-   "posted_at": "2026-09-08",
+   "url": "https://careers.franklintempleton.com/us/en/job/869532",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-733847b5ac25",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (Multi-Asset/ Investment Strategy)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869440",
+   "posted_at": "2026-10-13",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-e5287d07cedb",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869422",
+   "posted_at": "2026-09-23",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": false
@@ -19850,35 +19978,6 @@
    "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets--Customized-Solutions-Group-Intern--Co-op-Winter-2027_R_1518509",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "unicredit-2c14b6553397",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Curricular Internship - Investment and Protection Products Specialist",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": false
   },

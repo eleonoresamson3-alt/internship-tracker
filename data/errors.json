@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-23T15:50:18+00:00",
+ "generated_at": "2026-10-23T17:45:53+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 8,
-   "kept": 4
+   "fetched": 7,
+   "kept": 3
   },
   {
    "employer": "JPMorgan",
-   "fetched": 667,
+   "fetched": 670,
    "kept": 43
   },
   {
@@ -51,7 +51,7 @@
   },
   {
    "employer": "MUFG",
-   "fetched": 25,
+   "fetched": 24,
    "kept": 9
   },
   {
@@ -96,8 +96,8 @@
   },
   {
    "employer": "TD Securities",
-   "fetched": 21,
-   "kept": 5
+   "fetched": 23,
+   "kept": 7
   },
   {
    "employer": "Scotiabank",
@@ -126,8 +126,8 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 98,
-   "kept": 9
+   "fetched": 107,
+   "kept": 10
   },
   {
    "employer": "BlackRock",
@@ -136,7 +136,7 @@
   },
   {
    "employer": "Schroders",
-   "fetched": 75,
+   "fetched": 76,
    "kept": 11
   },
   {
@@ -196,8 +196,8 @@
   },
   {
    "employer": "Optiver",
-   "fetched": 169,
-   "kept": 14
+   "fetched": 162,
+   "kept": 9
   },
   {
    "employer": "IMC",
@@ -211,7 +211,7 @@
   },
   {
    "employer": "Hudson River Trading",
-   "fetched": 88,
+   "fetched": 87,
    "kept": 3
   },
   {
@@ -266,7 +266,7 @@
   },
   {
    "employer": "Akuna Capital",
-   "fetched": 39,
+   "fetched": 38,
    "kept": 2
   },
   {
@@ -346,7 +346,7 @@
   },
   {
    "employer": "S&P Global",
-   "fetched": 16,
+   "fetched": 14,
    "kept": 9
   },
   {
@@ -386,12 +386,12 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 10,
+   "fetched": 9,
    "kept": 3
   },
   {
    "employer": "EY",
-   "fetched": 756,
+   "fetched": 758,
    "kept": 4
   },
   {
@@ -446,8 +446,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 17,
-   "kept": 8
+   "fetched": 19,
+   "kept": 9
   },
   {
    "employer": "BBVA",
@@ -481,12 +481,12 @@
   },
   {
    "employer": "Engineers Gate",
-   "fetched": 9,
-   "kept": 1
+   "fetched": 10,
+   "kept": 2
   },
   {
    "employer": "Belvedere Trading",
-   "fetched": 18,
+   "fetched": 17,
    "kept": 2
   },
   {
@@ -511,7 +511,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 723,
+   "fetched": 722,
    "kept": 0
   },
   {
@@ -526,7 +526,7 @@
   },
   {
    "employer": "Nasdaq (Calypso / Adenza)",
-   "fetched": 3,
+   "fetched": 4,
    "kept": 0
   },
   {
@@ -597,7 +597,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 7
+   "kept": 2
   },
   {
    "employer": "Capital Group",
@@ -651,7 +651,7 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 70,
+   "fetched": 71,
    "kept": 0
   },
   {
@@ -661,7 +661,7 @@
   },
   {
    "employer": "Michelin",
-   "fetched": 50,
+   "fetched": 51,
    "kept": 0
   },
   {
