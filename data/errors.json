@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T11:50:59+00:00",
+ "generated_at": "2026-10-23T12:01:34+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -411,8 +411,8 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 15,
-   "kept": 1
+   "fetched": 28,
+   "kept": 3
   },
   {
    "employer": "BearingPoint",
@@ -446,8 +446,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 19,
-   "kept": 9
+   "fetched": 18,
+   "kept": 8
   },
   {
    "employer": "BBVA",
@@ -676,7 +676,7 @@
   },
   {
    "employer": "Orange",
-   "fetched": 100,
+   "fetched": 110,
    "kept": 0
   },
   {
@@ -706,7 +706,7 @@
   },
   {
    "employer": "Philips",
-   "fetched": 52,
+   "fetched": 51,
    "kept": 0
   },
   {
