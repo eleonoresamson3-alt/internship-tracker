@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T07:37:00+00:00",
+ "generated_at": "2026-10-23T07:59:10+00:00",
  "employers_total": 91,
  "employers_failed": 1,
  "errors": [
@@ -8,7 +8,7 @@
    "platform": "workday",
    "careers_url": "https://www.accenture.com/fr-fr/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-23T07:39:56+00:00"
+   "at": "2026-10-23T08:02:08+00:00"
   }
  ],
  "stats": [
@@ -214,7 +214,7 @@
   },
   {
    "employer": "Flow Traders",
-   "fetched": 46,
+   "fetched": 47,
    "kept": 3
   },
   {
@@ -324,8 +324,8 @@
   },
   {
    "employer": "Euronext",
-   "fetched": 17,
-   "kept": 6
+   "fetched": 16,
+   "kept": 5
   },
   {
    "employer": "LSEG",
@@ -394,7 +394,7 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 9,
+   "fetched": 10,
    "kept": 4
   },
   {
@@ -410,7 +410,7 @@
   {
    "employer": "PwC",
    "fetched": 206,
-   "kept": 61
+   "kept": 59
   },
   {
    "employer": "Forvis Mazars",
@@ -459,7 +459,7 @@
   },
   {
    "employer": "Raiffeisen Bank International",
-   "fetched": 36,
+   "fetched": 35,
    "kept": 0
   }
  ]

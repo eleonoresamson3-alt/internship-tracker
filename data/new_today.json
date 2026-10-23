@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T07:37:00+00:00",
+ "generated_at": "2026-10-23T07:59:10+00:00",
  "date": "2026-10-23",
  "jobs": [
   {
@@ -25,7 +25,71 @@
     "city": 0,
     "timing": 0
    },
+   "timing": "unknown",
+   "start": "",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage-data-officer---data-management-pricing-hf-reference--2026-108286--/",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-e69dca4cbb99",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE - Client Onboarding Officer - Private Equity & Real Estate Solutions H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 52,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---client-onboarding-officer---private-equity-et-real-estate-solutions-hf-reference--2026-116823--/",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-075b2df8bdd9",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE - Products & Client Solutions - Private Equity & Real Estate Solutions M/F H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 52,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---products-et-client-solutions---private-equity-et-real-estate-solutions-mf-hf-reference--2026-116824--/",
    "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
@@ -51,44 +115,17 @@
    "region": "Rest of world",
    "family": "Pricing / Quant",
    "role_level": "high",
-   "score": 55,
+   "score": 50,
    "score_breakdown": {
     "role": 50,
     "geo": 0,
     "city": 0,
-    "timing": 5
-   },
-   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002",
-   "posted_at": "2026-08-24",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-e69dca4cbb99",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Client Onboarding Officer - Private Equity & Real Estate Solutions H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
     "timing": 0
    },
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---client-onboarding-officer---private-equity-et-real-estate-solutions-hf-reference--2026-116823--/",
-   "posted_at": "",
+   "timing": "unknown",
+   "start": "2027",
+   "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002",
+   "posted_at": "2026-08-24",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -116,36 +153,9 @@
     "city": 0,
     "timing": 0
    },
+   "timing": "unknown",
+   "start": "",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---forex-officer-hf-reference--2026-116280--/",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-075b2df8bdd9",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Products & Client Solutions - Private Equity & Real Estate Solutions M/F H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---products-et-client-solutions---private-equity-et-real-estate-solutions-mf-hf-reference--2026-116824--/",
    "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
@@ -174,6 +184,8 @@
     "city": 0,
     "timing": 0
    },
+   "timing": "unknown",
+   "start": "",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-136-stage---chargee-de-securite-financiere-et-prevention-de-la-fraude-hf-reference--2026-111699--/",
    "posted_at": "",
    "first_seen": "2026-10-23",
@@ -203,6 +215,8 @@
     "city": 0,
     "timing": 0
    },
+   "timing": "unknown",
+   "start": "",
    "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012806101",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
@@ -225,13 +239,15 @@
    "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 15,
+   "score": 22,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 5
+    "timing": 12
    },
+   "timing": "summer",
+   "start": "2027",
    "url": "https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Functions---Finance--Summer-Associate--New-York---USA--2027_26997257",
    "posted_at": "2026-09-29",
    "first_seen": "2026-10-23",
@@ -254,44 +270,17 @@
    "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 15,
+   "score": 22,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 5
+    "timing": 12
    },
+   "timing": "summer",
+   "start": "2027",
    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Japanese-Services-Group-Summer-2027/361864",
    "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "td-securities-b9403424b00d",
-   "employer": "TD Securities",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Global Markets, Customized Solutions Group Intern/ Co-op Winter 2027",
-   "location": "Toronto, Ontario",
-   "countries": [
-    "CA"
-   ],
-   "country_names": [
-    "Canada"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 15,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 5
-   },
-   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets--Customized-Solutions-Group-Intern--Co-op-Winter-2027_R_1518509",
-   "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -319,6 +308,8 @@
     "city": 0,
     "timing": 0
    },
+   "timing": "unknown",
+   "start": "",
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/HAMILTON-Ontario-Canada/Financial-Advisor_R-0000184478",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
@@ -348,7 +339,40 @@
     "city": 0,
     "timing": 0
    },
+   "timing": "unknown",
+   "start": "",
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/GREATER-SUDBURY--GRAND-SUDBURY-Ontario-Canada/Relationship-Manager-Business-Markets-Intern_R-0000190956",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "td-securities-b9403424b00d",
+   "employer": "TD Securities",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Global Markets, Customized Solutions Group Intern/ Co-op Winter 2027",
+   "location": "Toronto, Ontario",
+   "countries": [
+    "CA"
+   ],
+   "country_names": [
+    "Canada"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets--Customized-Solutions-Group-Intern--Co-op-Winter-2027_R_1518509",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
