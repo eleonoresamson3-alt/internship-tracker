@@ -185,7 +185,7 @@ configured in `news_sources.yaml`.
 | CAC 40 | *indisponible* | Euronext does not publish free reusable data |
 | Euro Stoxx 50, VSTOXX | *indisponible* | STOXX indices are licensed |
 | Gold | *indisponible* | the LBMA price is licensed and FRED no longer distributes it |
-| France 2-year and 10-year | *indisponible* until the Webstat key is set | the Banque de France Webstat API is free but needs a personal API key (see below) |
+| France 2-year and 10-year | from Banque de France Webstat (TEC 2, TEC 10) when the `WEBSTAT_API_KEY` secret is set | the Webstat API is free but needs a personal API key (see below) |
 
 FRED and some official series are published with a delay of one business day; each tile shows
 the date of its last value.
@@ -195,7 +195,7 @@ the date of its last value.
 settings, then add it as a repository secret: *Settings → Secrets and variables → Actions → New
 repository secret*, name `WEBSTAT_API_KEY`. Never paste the key in a file, an issue or a chat.
 Without the secret the two tiles show *indisponible*. Series keys are set in `news_sources.yaml`
-(`FM.D.FR.EUR.FR2.BB.FR2YT_RR.YLD`, `...FR10YT_RR.YLD`); if Webstat answers with no data, the
+(daily constant-maturity rates *TEC 2* and *TEC 10*: `FM.D.FR.EUR.FR2.BB.FRMOYTEC2.HSTA`, `...FRMOYTEC10.HSTA`); if Webstat answers with no data, the
 error shown on the site lists similar keys.
 
 Without any account, the ECB and FRED only publish a *monthly* French 10-year yield, which is why
