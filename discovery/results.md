@@ -226,21 +226,21 @@
 | Eleva Capital | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://www.google.fr |
 | La Financière de l'Echiquier | — | — | — |
 | Fourpoints IM | — | — | — |
-| Muzinich | **workday** `{"url": "https://muzinich.wd5.myworkdayjobs.com/muzinichcareers"}` | 0 / 0 |  · signatures: workday · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Muzinich | **workday** `{"url": "https://muzinich.wd5.myworkdayjobs.com/muzinichcareers"}` | 0 / 0 | workday: ok · signatures: workday · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
 | Seeyond | — | — | — |
 | Aequam Capital | — | — |  · page errors: ConnectionError: HTTPSConnectionPool(host='www.aequamcapital |
-| WorldQuant | **greenhouse** `{"board": "worldquant"}` | 3 / 95 |  · page errors: RobotsDisallowed: robots.txt disallows https://www.instagram; RobotsDisallowed: robots.txt disallows https://www.facebook.; RobotsDisallowed: robots.txt disallows https://www.instagram |
-| Voleon | **ashby** `{"board": "voleon"}` | 2 / 59 |  · signatures: ashby · page errors: HTTPError: 404 Client Error: Not Found for url: https://vole |
-| PDT Partners | **greenhouse** `{"board": "pdtpartners"}` | 3 / 11 |  · signatures: greenhouse |
-| Engineers Gate | **greenhouse** `{"board": "engineersgate"}` | 1 / 9 | — |
+| WorldQuant | **greenhouse** `{"board": "worldquant"}` | 3 / 95 | greenhouse: ok · page errors: RobotsDisallowed: robots.txt disallows https://www.instagram; RobotsDisallowed: robots.txt disallows https://www.facebook.; RobotsDisallowed: robots.txt disallows https://www.instagram |
+| Voleon | **ashby** `{"board": "voleon"}` | 2 / 59 | ashby: ok · signatures: ashby · page errors: HTTPError: 404 Client Error: Not Found for url: https://vole |
+| PDT Partners | **greenhouse** `{"board": "pdtpartners"}` | 3 / 11 | greenhouse: ok · signatures: greenhouse |
+| Engineers Gate | **greenhouse** `{"board": "engineersgate"}` | 1 / 9 | greenhouse: ok |
 | Old Mission | — | — |  · signatures: ashby |
 | Wolverine Trading | — | — | — |
 | Peak6 | — | — | — |
-| Belvedere Trading | **lever** `{"site": "belvederetrading"}` | 3 / 18 |  · signatures: lever |
-| Headlands Technologies | **greenhouse** `{"board": "headlandstechnologiesllc"}` | 0 / 8 |  · signatures: greenhouse |
-| Radix Trading | **greenhouse** `{"board": "radixuniversity"}` | 1 / 8 | recruitee: ok; greenhouse: ok · signatures: greenhouse · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Belvedere Trading | **lever** `{"site": "belvederetrading"}` | 3 / 18 | lever: ok · signatures: lever |
+| Headlands Technologies | **greenhouse** `{"board": "headlandstechnologiesllc"}` | 0 / 8 | greenhouse: ok · signatures: greenhouse |
+| Radix Trading | **greenhouse** `{"board": "radixuniversity"}` | 1 / 8 | recruitee: ok; greenhouse: ok; greenhouse: ok · signatures: greenhouse · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
 | Tibra | — | — |  · signatures: workable |
-| Eclipse Trading | **greenhouse** `{"board": "eclipsetrading"}` | 0 / 16 |  · signatures: greenhouse |
+| Eclipse Trading | **greenhouse** `{"board": "eclipsetrading"}` | 0 / 16 | greenhouse: ok · signatures: greenhouse |
 | Mint Tower | — | — |  · page errors: ConnectionError: HTTPSConnectionPool(host='www.minttowercapi |
 | All Options | — | — |  · page errors: ConnectionError: ('Connection aborted.', RemoteDisconnected( |
 | Nyenburgh | — | — |  · page errors: SSLError: HTTPSConnectionPool(host='www.nyenburgh.com', port; SSLError: HTTPSConnectionPool(host='www.nyenburgh.com', port |
@@ -251,7 +251,7 @@
 | BGC Group | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://www.; HTTPError: 403 Client Error: Forbidden for url: https://www. |
 | Tradition | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
 | Cantor Fitzgerald | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://www.; HTTPError: 403 Client Error: Forbidden for url: https://www. |
-| Stifel | **generic** `{"urls": ["https://careers-stifel.icims.com/jobs/search?ss=1&searchKeyword={term}&in_iframe=1"], "link_pattern": "/jobs/\\d+/"}` | 33 / 33 | successfactors: error · signatures: icims, successfactors |
+| Stifel | **generic** `{"urls": ["https://careers-stifel.icims.com/jobs/search?ss=1&searchKeyword={term}&in_iframe=1"], "link_pattern": "/jobs/\\d+/"}` | 33 / 33 | generic: ok; successfactors: error · signatures: icims, successfactors |
 | Crédit Mutuel Arkéa | — | — |  · page errors: HTTPError: 400 Client Error:  for url: https://www.cm-arkea.; HTTPError: 400 Client Error:  for url: https://www.cm-arkea.; HTTPError: 400 Client Error:  for url: https://www.cm-arkea. |
 | BRED | — | — | — |
 | Union Bancaire Privée | — | — | — |
@@ -261,17 +261,96 @@
 | Quintet Private Bank | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
 | Banque de Luxembourg | — | — | — |
 | d-fine | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
-| Capco | **greenhouse** `{"board": "capco"}` | 1 / 709 | — |
+| Capco | **greenhouse** `{"board": "capco"}` | 1 / 709 | greenhouse: ok |
 | Chappuis Halder & Co | — | — |  · page errors: SSLError: HTTPSConnectionPool(host='www.chappuishalder.com', |
 | Accuracy | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://www.instagram; RobotsDisallowed: robots.txt disallows https://www.instagram |
-| Quanteam | **generic** `{"urls": ["https://quanteam.fr/offres-demploi/support-orchestrade-geneve/"]}` | 0 / 1 | generic: ok · signatures: jsonld |
+| Quanteam | **generic** `{"urls": ["https://quanteam.fr/offres-demploi/support-orchestrade-geneve/"]}` | 0 / 1 | generic: ok; generic: ok · signatures: jsonld |
 | Lucht Probst Associates | — | — | — |
 | Fintegral | — | — |  · signatures: teamtailor |
 | Ailancy | — | — |  · signatures: welcometothejungle |
 | Square Management | — | — | — |
 | Alvarez & Marsal | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://www.; HTTPError: 403 Client Error: Forbidden for url: https://www. |
-| Grant Thornton | **recruitee** `{"company": "grantthornton"}` | 4 / 59 | teamtailor: ok · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Grant Thornton | **recruitee** `{"company": "grantthornton"}` | 4 / 59 | recruitee: ok; teamtailor: ok · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
 | Exton Consulting | — | — |  · page errors: ConnectionError: HTTPSConnectionPool(host='www.extonconsulti |
 | Quantifi | — | — | — |
 | Opensee | — | — |  · signatures: welcometothejungle |
-| Nasdaq (Calypso / Adenza) | **workday** `{"url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site"}` | 3 / 3 |  · page errors: ReadTimeout: HTTPSConnectionPool(host='www.nasdaq.com', port; ReadTimeout: HTTPSConnectionPool(host='www.nasdaq.com', port |
+| Nasdaq (Calypso / Adenza) | **workday** `{"url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site"}` | 3 / 3 | workday: ok · page errors: ReadTimeout: HTTPSConnectionPool(host='www.nasdaq.com', port; ReadTimeout: HTTPSConnectionPool(host='www.nasdaq.com', port |
+| Axpo | — | — |  · signatures: teamtailor · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Alpiq | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://alpi; RobotsDisallowed: robots.txt disallows https://www.linkedin. |
+| Statkraft | — | — | smartrecruiters: robots · signatures: smartrecruiters |
+| Uniper | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://www.; HTTPError: 403 Client Error: Forbidden for url: https://www. |
+| RWE Supply & Trading | — | — | — |
+| EnBW | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Ørsted | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://orst; HTTPError: 403 Client Error: Forbidden for url: https://orst |
+| Vattenfall | — | — | — |
+| Centrica Energy Trading | — | — | — |
+| Danske Commodities | — | — | — |
+| Hartree Partners | — | — |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://www.; HTTPError: 403 Client Error: Forbidden for url: https://www. |
+| Castleton Commodities | — | — | workday: error · signatures: workday · page errors: RobotsDisallowed: robots.txt disallows https://www.linkedin. |
+| Louis Dreyfus Company | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://www.linkedin.; RobotsDisallowed: robots.txt disallows https://b.xiumi.us/st; HTTPError: 403 Client Error: Forbidden for url: https://www. |
+| Cargill | **radancy** `{"base": "https://jobs.cargill.com.cn"}` | 0 / 0 | radancy: robots; successfactors: error; radancy: robots; successfactors: error · signatures: radancy, successfactors · page errors: RobotsDisallowed: robots.txt disallows https://career2.succe; RobotsDisallowed: robots.txt disallows https://www.facebook.; HTTPError: 403 Client Error: Forbidden for url: https://www. |
+| Keyrock | **ashby** `{"board": "keyrock"}` | 0 / 8 |  · page errors: HTTPError: 403 Client Error: Forbidden for url: https://keyr; HTTPError: 403 Client Error: Forbidden for url: https://keyr |
+| Flowdesk | **greenhouse** `{"board": "flowdesk"}` | 1 / 9 | — |
+| Wintermute | **lever** `{"site": "wintermute-trading"}` | 0 / 20 |  · signatures: lever |
+| B2C2 | **greenhouse** `{"board": "b2c2"}` | 0 / 4 |  · signatures: greenhouse · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| GSR | **greenhouse** `{"board": "gsrmarkets"}` | 0 / 6 |  · signatures: greenhouse · page errors: RobotsDisallowed: robots.txt disallows https://www.facebook.; RobotsDisallowed: robots.txt disallows https://twitter.com/i; RobotsDisallowed: robots.txt disallows https://www.linkedin. |
+| Deribit | — | — |  · signatures: recruitee · page errors: HTTPError: 503 Server Error: Service Unavailable for url: ht; HTTPError: 503 Server Error: Service Unavailable for url: ht |
+| Paradigm | **ashby** `{"board": "paradigm"}` | 0 / 7 |  · page errors: HTTPError: 410 Client Error: Gone for url: https://wellfound |
+| Helaba | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| DekaBank | **successfactors** `{"base": "https://karriere.deka.de"}` | 0 / 0 |  · signatures: successfactors |
+| BayernLB | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www.; HTTPError: 404 Client Error: Not Found for url: https://www. |
+| NORD/LB | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://instagram.com |
+| KfW | **generic** `{"urls": ["https://jobs.kfw.de/index.php?ac=jobad&code=Zmt7kA%2F9kkKQeP%2BUGPSIm93NwYSj2r07XJYLctu%2BSQ6hCySxoK55IT63n73AbXt%2FH8eNCAuj78iyQCyNQsPa2tD1TM0jWV4J"]}` | 0 / 1 |  · signatures: jsonld · page errors: ConnectTimeout: HTTPSConnectionPool(host='kfw-jobs.de', port |
+| DNB | **lever** `{"site": "dnb"}` | 0 / 94 | successfactors: ok · signatures: successfactors · page errors: HTTPError: 404 Client Error: Not Found for url: https://dnbe |
+| Swedbank | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Handelsbanken | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://www.linkedin. |
+| Erste Group | — | — | — |
+| CaixaBank | **successfactors** `{"base": "https://caixabankcareers.com"}` | 0 / 1 |  · signatures: successfactors · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Banco Sabadell | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Bankinter | — | — | — |
+| Equita | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Van Lanschot Kempen | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://www.facebook.; RobotsDisallowed: robots.txt disallows https://www.instagram; RobotsDisallowed: robots.txt disallows https://research.vanl |
+| LGT | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Banque Cantonale de Genève | — | — | — |
+| CACEIS | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| National Bank of Canada | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://jobs.nbc.ca/ |
+| Commonwealth Bank | **workday** `{"url": "https://cba.wd3.myworkdayjobs.com/CommBank_Careers"}` | 0 / 0 |  · signatures: workday, avature |
+| Tradeweb | — | — | — |
+| MarketAxess | — | — | — |
+| Cboe | **phenom** `{"base": "https://careers.cboe.com/us/en"}` | 10 / 100 |  · signatures: phenom |
+| SIX Group | — | — | successfactors: error · signatures: successfactors · page errors: HTTPError: 404 Client Error: Not Found for url: https://www.; RobotsDisallowed: robots.txt disallows https://gate.sic.ch/c; RobotsDisallowed: robots.txt disallows https://gate-x-e.np.s |
+| OpenGamma | — | — | — |
+| Orchestrade | — | — | — |
+| Quantitative Brokers | — | — | — |
+| Beacon Platform | — | — | — |
+| Clear Street | **greenhouse** `{"board": "clearstreet"}` | 0 / 45 |  · page errors: RobotsDisallowed: robots.txt disallows https://clearstreet-p; RobotsDisallowed: robots.txt disallows https://clearstreet-p |
+| Kaiko | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Hannover Re | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| PartnerRe | — | — |  · signatures: successfactors |
+| Milliman | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| WTW | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://www.facebook.; ReadTimeout: HTTPSConnectionPool(host='careers.wtwco.com', p |
+| Aon | **teamtailor** `{"base": "https://aon.teamtailor.com"}` | 0 / 0 |  · signatures: icims |
+| AllianceBernstein | **workday** `{"url": "https://abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers"}` | 0 / 0 |  · signatures: workday |
+| Wellington Management | **workday** `{"url": "https://wellington.wd5.myworkdayjobs.com/External"}` | 6 / 6 |  · signatures: workday |
+| T. Rowe Price | **workday** `{"url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice"}` | 0 / 0 | workday: ok · signatures: workday · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Franklin Templeton | **phenom** `{"base": "https://careers.franklintempleton.com/us/en"}` | 11 / 100 | workday: ok · signatures: phenom, workday |
+| Capital Group | **workday** `{"url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers"}` | 7 / 7 |  · signatures: workday |
+| Northern Trust | **workday** `{"url": "https://ntrs.wd1.myworkdayjobs.com/northerntrust"}` | 1 / 1 |  · signatures: workday |
+| Nuveen | — | — | — |
+| Columbia Threadneedle | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Ninety One | — | — |  · page errors: RobotsDisallowed: robots.txt disallows https://externalcaree; RobotsDisallowed: robots.txt disallows https://externalcaree |
+| Aberdeen | **workday** `{"url": "https://abrdn.wd3.myworkdayjobs.com/abrdn"}` | 0 / 0 | workday: ok · signatures: workday |
+| Insight Investment | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Vanguard | — | — | — |
+| Winton | **greenhouse** `{"board": "winton"}` | 0 / 7 |  · signatures: greenhouse · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Aspect Capital | — | — |  · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
+| Systematica Investments | — | — | — |
+| LMR Partners | — | — | — |
+| Rokos Capital | — | — | — |
+| Caxton Associates | — | — |  · signatures: workable · page errors: HTTPError: 429 Client Error: Too Many Requests for url: http |
+| Eisler Capital | — | — |  · page errors: ConnectionError: HTTPSConnectionPool(host='www.eislercapital; ConnectionError: HTTPSConnectionPool(host='www.eislercapital |
+| Fasanara Capital | — | — |  · signatures: workable |
+| Garda Capital | **greenhouse** `{"board": "gardacp"}` | 7 / 14 |  · signatures: greenhouse |
+| Graham Capital | — | — | — |
+| Capstone Investment Advisors | **greenhouse** `{"board": "capstoneinvestmentadvisors"}` | 8 / 14 |  · signatures: greenhouse |
+| Lynx Asset Management | **teamtailor** `{"base": "https://lynxassetmanagement.teamtailor.com"}` | 0 / 3 |  · signatures: teamtailor · page errors: HTTPError: 404 Client Error: Not Found for url: https://www. |
