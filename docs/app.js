@@ -12,6 +12,7 @@ const STATUSES = [
   ["interview", "Entretien"],
   ["rejected", "Refus"],
   ["offer", "Offre"],
+  ["hidden", "Masquée (pas intéressée)"],
 ];
 const STATUS_LABEL = Object.fromEntries(STATUSES);
 
@@ -192,6 +193,19 @@ function saveTracking() {
   }
 }
 
+function isHidden(job) {
+  return (state.tracking[job.id] || {}).status === "hidden";
+}
+
+let toastTimer;
+function showToast(text, undo) {
+  $("toast-text").textContent = text;
+  $("toast").hidden = false;
+  $("toast-undo").onclick = () => { undo(); $("toast").hidden = true; };
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { $("toast").hidden = true; }, 6000);
+}
+
 function updateTracking(job, patch) {
   const current = state.tracking[job.id] || {};
   const next = { ...current, ...patch, updated: new Date().toISOString() };
@@ -277,7 +291,7 @@ function renderStatus(generatedAt, errors) {
 
 // ---------------------------------------------------------------- filters
 
-const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-timing", "f-year", "f-date", "f-status", "f-score", "f-inactive"];
+const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-timing", "f-year", "f-date", "f-status", "f-score", "f-inactive", "f-hidden"];
 
 function fillSelect(id, entries) {
   const select = $(id);
@@ -331,6 +345,7 @@ function currentFilters() {
     status: $("f-status").value,
     minScore: Number($("f-score").value) || 0,
     inactive: $("f-inactive").checked,
+    hidden: $("f-hidden").checked,
   };
 }
 
@@ -368,6 +383,8 @@ function matches(job, f) {
   if (state.tab === "new" && !state.newIds.has(job.id)) return false;
   if (state.tab === "mine" && !t && !job.manual) return false;
   if (!f.inactive && !job.active && state.tab !== "mine") return false;
+  // Offers marked "not interested" disappear everywhere unless asked for.
+  if (isHidden(job) && !f.hidden && f.status !== "hidden") return false;
   if (f.employer && job.employer !== f.employer) return false;
   if (f.type && job.employer_type !== f.type) return false;
   if (f.country === "__none" && (job.countries || []).length) return false;
@@ -472,6 +489,25 @@ function renderCard(job) {
     notes.hidden = !notes.hidden;
     toggle.textContent = notes.hidden ? "Notes" : "Masquer les notes";
     if (!notes.hidden) notes.focus();
+  });
+  const hide = node.querySelector(".hide-offer");
+  if (isHidden(job)) {
+    node.classList.add("is-hidden");
+    hide.textContent = "Réafficher";
+  }
+  hide.addEventListener("click", () => {
+    const previous = { ...(state.tracking[job.id] || {}) };
+    if (isHidden(job)) {
+      updateTracking(job, { status: "" });
+      render();
+      return;
+    }
+    updateTracking(job, { status: "hidden" });
+    render();
+    showToast(`« ${job.title.slice(0, 60)} » masquée`, () => {
+      updateTracking(job, { status: previous.status || "" });
+      render();
+    });
   });
   if (job.manual) {
     const edit = node.querySelector(".edit-offer");
@@ -583,9 +619,10 @@ function render() {
 }
 
 function updateCounts() {
-  $("count-new").textContent = state.jobs.filter((j) => state.newIds.has(j.id)).length;
-  $("count-all").textContent = state.jobs.filter((j) => j.active).length;
-  const tracked = new Set([...Object.keys(state.tracking), ...state.manual.map((j) => j.id)]);
+  $("count-new").textContent = state.jobs.filter((j) => state.newIds.has(j.id) && !isHidden(j)).length;
+  $("count-all").textContent = state.jobs.filter((j) => j.active && !isHidden(j)).length;
+  const tracked = new Set([...Object.keys(state.tracking).filter((id) => state.tracking[id].status !== "hidden"),
+    ...state.manual.map((j) => j.id)]);
   $("count-mine").textContent = tracked.size;
   $("count-companies").textContent = state.companies.length;
   renderPipeline();

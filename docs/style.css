@@ -260,3 +260,12 @@ button.danger { color: var(--danger); }
   .windows { align-items: flex-start; max-width: 100%; }
   .window { white-space: normal; }
 }
+
+.toast {
+  position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%);
+  display: flex; gap: 12px; align-items: center;
+  background: var(--text); color: var(--bg); padding: 10px 14px; border-radius: 10px;
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.25); font-size: 0.9rem; max-width: calc(100vw - 32px);
+}
+.toast button { color: var(--bg); border-color: color-mix(in srgb, var(--bg) 40%, transparent); }
+.card.is-hidden { opacity: 0.55; }
