@@ -36,6 +36,20 @@ _START = re.compile(
     rf"a partir d[eu]|des|disponible( a partir)? d[eu]|ab|beginn( im| am)?|inizio|inicio)\s*[:\-]?\s*"
     rf"(le |en |el |im |in )?(\d{{1,2}}(er)? )?(?P<m>{_MONTH_ALT})\b\.?(\s+(?P<y>20\d\d))?"
 )
+# Vague periods: "début 2027", "early 2027", "Q1 2027", "spring 2027", "fall 2027"...
+# mapped to the first month they can mean.
+_PERIODS = [
+    (r"(early|debut|beginning of|start of|anfang|inizio|principios de)", 1),
+    (r"(q1|h1|first quarter|first half|1er trimestre|premier trimestre|premier semestre)", 1),
+    (r"(winter|hiver|invierno)", 1),
+    (r"(spring|printemps|fruhjahr|fruehjahr|primavera)", 3),
+    (r"(q2|second quarter)", 4),
+    (r"(autumn|fall|automne|herbst|otono)", 9),
+    (r"(q4|end of|fin|late|ende)", 10),
+]
+_PERIOD_RE = [(re.compile(rf"\b{words} (?P<y>20\d\d)\b"), month) for words, month in _PERIODS]
+_PERIOD_START_RE = [(re.compile(rf"\b(start\w*|commenc\w*|debut\w*)( in| en| du stage)?( the)? {words} (?P<y>20\d\d)\b"), month)
+                    for words, month in _PERIODS]
 _SUMMER = re.compile(r"\bsummer\b|\bete 20\d\d\b|\bstage d ete\b|\bsommer(praktikum)?\b|\bestate\b|\bverano\b")
 _OFF_CYCLE = re.compile(r"\boff[\s-]?cycle\b")
 _YEAR = re.compile(r"\b(20[2-3]\d)\b")
@@ -74,6 +88,11 @@ def _start_month(text: str, strict: bool = False):
     if match:
         year = match.group("y")
         return _MONTH_OF[match.group("m")], int(year) if year else None
+    # Vague periods: anywhere in a title, only after "start ..." in a description.
+    for pattern, month in (_PERIOD_START_RE if strict else _PERIOD_RE):
+        match = pattern.search(text)
+        if match:
+            return month, int(match.group("y"))
     return None, None
 
 

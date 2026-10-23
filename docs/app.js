@@ -62,7 +62,10 @@ function timingKey(job) {
 function startLabel(job) {
   if (!job.start) return "";
   const [y, m] = job.start.split("-");
-  return m ? `Début ${MONTHS_FR[Number(m) - 1]} ${y}` : `Début ${y}`;
+  if (m) return `Démarre en ${MONTHS_FR[Number(m) - 1]} ${y}`;
+  if (job.timing === "summer") return `Summer ${y} · été`;
+  if (job.timing === "off-cycle") return `Off-cycle ${y} · mois à vérifier`;
+  return `Démarrage ${y} · mois à vérifier`;
 }
 
 // ---------------------------------------------------------------- recruiting calendar
@@ -652,6 +655,8 @@ function render() {
   saveFilters();
 }
 
+const SOON_COLLAPSED = 8;
+
 function renderSoon() {
   const box = $("soon");
   const rows = state.tab === "companies" ? [] : state.jobs
@@ -661,7 +666,8 @@ function renderSoon() {
     .sort((a, b) => (a.deadline_source !== "annonce") - (b.deadline_source !== "annonce")
       || a.deadline.localeCompare(b.deadline) || b.score - a.score);
   box.hidden = rows.length === 0;
-  $("soon-list").replaceChildren(...rows.slice(0, 12).map((j) => {
+  const shown = state.soonExpanded ? rows : rows.slice(0, SOON_COLLAPSED);
+  $("soon-list").replaceChildren(...shown.map((j) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
     a.href = j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = j.title;
@@ -671,7 +677,10 @@ function renderSoon() {
     when.textContent = ` · ${deadlineLabel(j)} (${n === 0 ? "aujourd'hui" : `J-${n}`})`;
     li.append(a, ` — ${j.employer}`, when);
     return li;
-  }), ...(rows.length > 12 ? [Object.assign(document.createElement("li"), { textContent: `… et ${rows.length - 12} autres` })] : []));
+  }));
+  const more = $("soon-more");
+  more.hidden = rows.length <= SOON_COLLAPSED;
+  more.textContent = state.soonExpanded ? "Réduire la liste" : `Afficher les ${rows.length} échéances`;
 }
 
 function updateCounts() {
@@ -912,6 +921,10 @@ $("reset").addEventListener("click", () => {
   render();
 });
 $("export").addEventListener("click", exportCsv);
+$("soon-more").addEventListener("click", () => {
+  state.soonExpanded = !state.soonExpanded;
+  renderSoon();
+});
 for (const id of ["c-search", "c-type", "c-covered", "c-window", "c-contact"]) {
   $(id).addEventListener(id === "c-search" ? "input" : "change", render);
 }
