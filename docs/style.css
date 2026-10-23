@@ -373,3 +373,40 @@ button.small { padding: 3px 9px; font-size: 0.78rem; }
 .a-glossary dd { margin: 0 0 4px; color: var(--muted); }
 .a-sources { margin-top: 12px !important; font-size: 0.8rem !important; color: var(--muted); }
 .a-sources a { color: var(--muted); }
+
+/* formations */
+.f-overview { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 10px; margin-bottom: 12px; }
+@media (max-width: 640px) { .f-overview { grid-template-columns: minmax(0, 1fr); } }
+.f-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 2px 14px 10px; }
+.f-box.wide { grid-column: 1 / -1; }
+.f-box .section-title { font-size: 0.95rem; margin: 10px 0 6px; }
+.f-box .hint { margin: 0; }
+.f-big { margin: 0; font-size: 1.8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.f-current, .f-due { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.f-current-name { font-weight: 600; font-size: 0.9rem; }
+.f-bar { height: 8px; background: var(--surface-2); border-radius: 999px; overflow: hidden; margin: 4px 0 2px; }
+.f-bar span { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
+.f-due li { font-size: 0.88rem; padding: 6px 10px; border-radius: 8px; background: var(--surface-2); }
+.f-due li.soon-alert { background: var(--danger-soft); color: var(--danger); }
+.f-due li.soon-alert .meta { color: inherit; }
+.f-due-date { font-variant-numeric: tabular-nums; font-weight: 600; }
+.card.formation .fo-head { display: flex; gap: 10px; align-items: baseline; }
+.card.formation .title { margin: 0; }
+.card.formation.status-done, .card.formation.status-certified { border-left: 3px solid var(--high); }
+.card.formation.status-doing { border-left: 3px solid var(--accent); }
+.prio { flex: none; font-size: 0.72rem; font-weight: 700; padding: 1px 7px; border-radius: 6px; background: var(--surface-2); color: var(--muted); }
+.prio-1 { background: var(--accent-soft); color: var(--accent); }
+.tag.alert { background: var(--danger-soft); color: var(--danger); font-weight: 600; }
+.fo-why { margin: 6px 0 2px; font-size: 0.9rem; }
+.meta.small { font-size: 0.75rem; }
+.fo-missing { margin-top: 6px; font-size: 0.8rem; color: var(--muted); }
+.fo-missing summary { cursor: pointer; }
+.fo-missing ul { margin: 4px 0 0; padding-left: 18px; }
+.fo-cv { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 8px; padding: 8px 10px; background: var(--high-soft); border-radius: 8px; font-size: 0.88rem; }
+.fo-cv p { margin: 0; flex: 1 1 240px; }
+.fo-track { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); }
+.fo-track summary { cursor: pointer; font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+.fo-track .form-grid { margin-top: 8px; }
+.fo-hours { display: flex; gap: 6px; }
+.fo-hours input { flex: 1; min-width: 0; }
+.fo-track > button { margin: 6px 6px 0 0; }

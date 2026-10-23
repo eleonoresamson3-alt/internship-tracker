@@ -3,6 +3,10 @@ name: Daily scrape
 on:
   schedule:
     - cron: "0 5 * * *"   # every day at 05:00 UTC
+  push:
+    # Editing the trainings list only needs the site to be rebuilt.
+    branches: [main]
+    paths: [config/formations.yaml]
   workflow_dispatch:
     inputs:
       site_only:
@@ -23,6 +27,8 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    env:
+      SITE_ONLY: ${{ inputs.site_only || github.event_name == 'push' }}
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
@@ -32,26 +38,26 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Unit tests
-        if: ${{ !inputs.site_only }}
+        if: env.SITE_ONLY != 'true'
         run: python -m pytest -q 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: Scrape
-        if: ${{ !inputs.site_only }}
+        if: env.SITE_ONLY != 'true'
         run: python -m tracker.run 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: News watch
-        if: ${{ !inputs.site_only }}
+        if: env.SITE_ONLY != 'true'
         # Separate step: a news or market-data problem must not block the internship tracker.
         continue-on-error: true
         env:
           WEBSTAT_API_KEY: ${{ secrets.WEBSTAT_API_KEY }}   # optional: French yields, see README
         run: python -m tracker.news.run 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: News summary (optional, needs the ANTHROPIC_API_KEY secret)
-        if: ${{ !inputs.site_only }}
+        if: env.SITE_ONLY != 'true'
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m tracker.news.summary 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
       - name: Commit data
-        if: ${{ !inputs.site_only }}
+        if: env.SITE_ONLY != 'true'
         run: |
           exec > >(tee -a run.log) 2>&1
           git config user.name "github-actions[bot]"
@@ -67,10 +73,11 @@ jobs:
           cp -r docs/. _site/
           mkdir -p _site/data
           cp data/*.json _site/data/
+          python -m tracker.formations _site/formations.json
           # Version the assets so browsers load the new site after each update.
           sed -i "s/style.css\"/style.css?v=${GITHUB_SHA::7}\"/; s/app.js\"/app.js?v=${GITHUB_SHA::7}\"/" _site/index.html
       - name: Daily digest (e-mail through a GitHub issue comment)
-        if: github.ref == 'refs/heads/main' && !inputs.site_only
+        if: github.ref == 'refs/heads/main' && env.SITE_ONLY != 'true'
         continue-on-error: true   # a notification problem must not block the site update
         env:
           GH_TOKEN: ${{ github.token }}

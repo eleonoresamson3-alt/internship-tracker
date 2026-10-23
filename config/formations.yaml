@@ -1,0 +1,171 @@
+# Formations et certifications de l'onglet « Formations ».
+#
+# Modifiable directement (sur GitHub : ouvrir le fichier → icône crayon → Commit changes) ;
+# le site est mis à jour quelques minutes après.
+#
+# Champs de chaque formation :
+#   id             identifiant court, unique, sans espace (sert à relier ton suivi ; ne pas le changer ensuite)
+#   nom, organisme
+#   categorie      certification_reglementaire | marches | code | maths_financieres | risque
+#   priorite       1 (indispensable) à 3 (bonus)
+#   heures         durée estimée en heures (vide si inconnue)
+#   cout           texte libre, ex. "Gratuit", "600 USD" (vide si inconnu)
+#   lien           page officielle
+#   competences    liste des compétences visées
+#   utilite        en quoi c'est utile pour les entretiens (texte court)
+#   echeance       date limite d'inscription ou d'examen, AAAA-MM-JJ (vide si aucune)
+#   echeance_libelle  ce que représente cette date
+#   verifie_le     date de dernière vérification des informations, AAAA-MM-JJ
+#   a_verifier     informations introuvables sur le site officiel (laissées vides, jamais inventées)
+#   cv             optionnel : phrase de CV personnalisée ({date} = mois et année d'obtention)
+
+formations:
+  - id: amf
+    nom: Certification AMF
+    organisme: AMF (examen passé auprès d'un organisme certifié par l'AMF)
+    categorie: certification_reglementaire
+    priorite: 1
+    heures:
+    cout:
+    lien: https://www.amf-france.org/sites/institutionnel/files/private/2025-06/doc-2009-29-qr-certification.pdf
+    competences: [Réglementation des marchés financiers, Déontologie et conformité, Instruments financiers, Abus de marché, Finance durable]
+    utilite: >-
+      Souvent demandée (voire exigée) pour les postes en contact avec les marchés en France ; montre
+      que tu connais le cadre réglementaire dès le premier jour.
+    echeance:
+    echeance_libelle:
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Coût : fixé par chaque organisme certifié, pas de tarif unique publié par l'AMF."
+      - "Durée de préparation : non indiquée par l'AMF (l'examen lui-même : QCM de 120 questions, 2 heures maximum)."
+      - "Liste à jour des organismes certifiés : page « certification professionnelle » du site de l'AMF, non lisible automatiquement."
+
+  - id: bmc
+    nom: Bloomberg Market Concepts (BMC)
+    organisme: Bloomberg
+    categorie: marches
+    priorite: 1
+    heures:
+    cout:
+    lien: https://www.bloomberg.com/professional/product/bloomberg-market-concepts/
+    competences: [Indicateurs économiques, Devises, Taux et obligations, Actions, Terminal Bloomberg]
+    utilite: >-
+      Vocabulaire et réflexes de marché (taux, change, actions) attendus en entretien ; la familiarité
+      avec le terminal Bloomberg est un plus concret sur un CV.
+    echeance:
+    echeance_libelle:
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Durée et prix : la page officielle de Bloomberg refuse la lecture automatique. Des guides d'universités citent environ 8 h pour les modules principaux et 149 USD hors campus : à confirmer."
+      - "Gratuit si ton école donne accès à un terminal Bloomberg : à vérifier auprès de la bibliothèque HEC ou ENSAE."
+
+  - id: python-finance
+    nom: Python and Statistics for Financial Analysis
+    organisme: HKUST (Coursera)
+    categorie: code
+    priorite: 1
+    heures: 12
+    cout:
+    lien: https://www.coursera.org/learn/python-statistics-financial-analysis
+    competences: [Python, Pandas, Statistiques appliquées aux rendements, Régression linéaire, Tests d'hypothèses]
+    utilite: >-
+      Python est demandé dans quasiment toutes les offres de structuring et pricing ; permet de parler
+      d'un premier projet concret (analyse de rendements, stratégie simple).
+    echeance:
+    echeance_libelle:
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Coût : inclus dans Coursera Plus ; le prix du certificat seul n'est pas affiché sur la page."
+
+  - id: sql
+    nom: Intro to SQL + Advanced SQL
+    organisme: Kaggle Learn
+    categorie: code
+    priorite: 2
+    heures:
+    cout: Gratuit
+    lien: https://www.kaggle.com/learn/intro-to-sql
+    competences: [Requêtes SQL, Jointures, Agrégations, Fonctions analytiques, BigQuery]
+    utilite: >-
+      Les données de marché et de risque sont en base ; savoir écrire une requête est attendu en
+      risque et en data, et parfois testé en entretien technique.
+    echeance:
+    echeance_libelle:
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Durée : la page Kaggle est générée en JavaScript et n'a pas pu être lue (des sites tiers citent environ 3 h + 4 h)."
+
+  - id: cpp
+    nom: C++ Programming for Financial Engineering
+    organisme: QuantNet et Baruch College (Baruch MFE)
+    categorie: code
+    priorite: 3
+    heures:
+    cout:
+    lien: https://quantnet.com/cplusplus-programming-course/
+    competences: [C++ moderne, Programmation orientée objet, Bibliothèque standard (STL), Pricing d'options en C++]
+    utilite: >-
+      Utile surtout pour les postes de quant / strats où le C++ est la norme ; un bonus pour le
+      structuring, moins prioritaire que Python.
+    echeance:
+    echeance_libelle:
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Prix et durée : la page QuantNet n'a pas pu être lue automatiquement (des sites tiers citent 1 450 USD et 16 semaines) : à confirmer."
+
+  - id: columbia-ferm
+    nom: Financial Engineering and Risk Management (spécialisation)
+    organisme: Columbia University (Coursera)
+    categorie: maths_financieres
+    priorite: 1
+    heures: 80
+    cout:
+    lien: https://www.coursera.org/specializations/financialengineering
+    competences: [Pricing d'options (binomial, Black-Scholes), Structure par terme des taux, Dérivés de crédit, Optimisation de portefeuille, Calibration de modèles]
+    utilite: >-
+      Couvre exactement le socle technique des entretiens de pricing et structuring : dérivés,
+      courbe des taux, crédit, couverture delta.
+    echeance:
+    echeance_libelle:
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Durée : Coursera indique « 2 mois à 10 h par semaine » (environ 80 h) ; détail affiché : cours 1 = 20 h, 2 = 14 h, 3 = 14 h, 4 = 17 h, cours 5 non lu."
+      - "Coût : inclus dans Coursera Plus ; prix mensuel non lu sur la page."
+
+  - id: cfa-1
+    nom: CFA niveau I
+    organisme: CFA Institute
+    categorie: marches
+    priorite: 2
+    heures: 300
+    cout: "À partir de 1 140 USD (inscription anticipée)"
+    lien: https://www.cfainstitute.org/programs/cfa-program/dates-fees
+    competences: [Éthique professionnelle, Méthodes quantitatives, Analyse financière, Taux et obligations, Dérivés, Gestion de portefeuille]
+    utilite: >-
+      Signal fort de sérieux et de culture financière large ; « candidat CFA niveau I » se valorise
+      sur un CV même avant l'examen.
+    echeance:
+    echeance_libelle:
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Dates d'examen et dates limites 2027 : le calendrier de la page officielle est chargé dynamiquement et n'a pas pu être lu. À reporter ici une fois vérifiées."
+      - "Tarif standard : non affiché en clair (le site indique 3 520 à 4 570 USD pour les trois niveaux)."
+      - "Heures : « plus de 300 heures en moyenne par niveau » selon le CFA Institute."
+
+  - id: frm-1
+    nom: FRM partie I
+    organisme: GARP
+    categorie: risque
+    priorite: 2
+    heures: 240
+    cout: "600 USD (inscription anticipée) ou 800 USD (standard), plus 400 USD de frais d'inscription au programme"
+    lien: https://www.garp.org/frm/fees-payments
+    competences: [Fondements de la gestion des risques, Analyse quantitative, Marchés et produits financiers, Modèles de valorisation et de risque (VaR)]
+    utilite: >-
+      Référence en risque de marché ; très apprécié pour les stages en risk management et validation
+      de modèles, et utile pour parler de VaR et de sensibilités.
+    echeance: 2027-05-08
+    echeance_libelle: "Examen FRM partie I, fenêtre du 8 au 13 mai 2027 (inscription anticipée à partir du 1er décembre 2026)"
+    verifie_le: 2026-10-23
+    a_verifier:
+      - "Date limite d'inscription de mai 2027 : non affichée (seules les dates d'ouverture le sont). Autres fenêtres : 13-14 août et 13-18 novembre 2027."
