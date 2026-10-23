@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T10:26:31+00:00",
+ "generated_at": "2026-10-23T10:39:17+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -11,7 +11,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 665,
+   "fetched": 667,
    "kept": 43
   },
   {
@@ -31,8 +31,8 @@
   },
   {
    "employer": "Barclays",
-   "fetched": 66,
-   "kept": 17
+   "fetched": 65,
+   "kept": 16
   },
   {
    "employer": "Deutsche Bank",
@@ -97,7 +97,7 @@
   {
    "employer": "TD Securities",
    "fetched": 19,
-   "kept": 6
+   "kept": 5
   },
   {
    "employer": "Scotiabank",
@@ -186,7 +186,7 @@
   },
   {
    "employer": "Qube Research & Technologies",
-   "fetched": 195,
+   "fetched": 194,
    "kept": 4
   },
   {
@@ -237,7 +237,7 @@
   {
    "employer": "Jump Trading",
    "fetched": 95,
-   "kept": 15
+   "kept": 14
   },
   {
    "employer": "Point72",
@@ -386,7 +386,7 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 11,
+   "fetched": 12,
    "kept": 4
   },
   {
@@ -396,7 +396,7 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 149,
+   "fetched": 150,
    "kept": 16
   },
   {
@@ -411,7 +411,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 27,
+   "fetched": 28,
    "kept": 3
   },
   {
@@ -446,8 +446,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 19,
-   "kept": 9
+   "fetched": 20,
+   "kept": 10
   },
   {
    "employer": "BBVA",
@@ -597,7 +597,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 7
+   "kept": 2
   },
   {
    "employer": "Capital Group",
@@ -691,7 +691,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 24,
+   "fetched": 23,
    "kept": 0
   },
   {
