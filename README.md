@@ -184,7 +184,7 @@ configured in `news_sources.yaml`.
 |---|---|---|
 | CAC 40 | *indisponible* | Euronext data is licensed; the Banque de France Webstat series (`ECOFI.SPI.FR.FPE_IX._Z.D`) stopped in July 2024 |
 | Euro Stoxx 50, VSTOXX | *indisponible* | STOXX indices are licensed; the ECB no longer publishes them |
-| Gold | *indisponible* | the LBMA price is licensed and FRED no longer distributes it |
+| Gold | monthly average only | the daily LBMA price is licensed and FRED no longer distributes it; the World Bank *Pink Sheet* (CC BY 4.0) publishes a free monthly average, shown with its month and its 1-month change |
 | France 2-year and 10-year | from Banque de France Webstat (TEC 2, TEC 10) when the `WEBSTAT_API_KEY` secret is set | the Webstat API is free but needs a personal API key (see below) |
 
 FRED and some official series are published with a delay of one business day; each tile shows

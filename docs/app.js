@@ -884,7 +884,10 @@ function renderMarket() {
     }
     const asof = document.createElement("div");
     asof.className = "asof";
-    asof.textContent = `au ${frDate(s.date)}`;
+    asof.textContent = s.period
+      ? `moyenne de ${new Date(s.period + "-15").toLocaleDateString("fr-FR", { month: "long", year: "numeric" })}`
+      : `au ${frDate(s.date)}`;
+    if (s.note) tile.title = s.note;
     tile.append(chg, asof);
     return tile;
   }));

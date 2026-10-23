@@ -177,3 +177,13 @@ def test_parse_webstat_rows_and_missing_key(monkeypatch):
     rows, errors = market.fetch_all([{"key": "fr10y", "label": "France 10 ans", "unit": "%",
                                       "provider": "webstat", "series": "X"}], http=None)
     assert rows[0]["status"] == "indisponible" and "WEBSTAT_API_KEY" in rows[0]["note"] and errors == []
+
+
+def test_pink_sheet_gold_and_monthly_changes():
+    from tracker.news import market
+    rows = [("World Bank Commodity Price Data (The Pink Sheet)",), (None, "Crude oil, Brent", "Gold"),
+            (None, "($/bbl)", "($/troy oz)"), ("2026M08", 90.9, 4000.0), ("2026M09", 116.8, 4200.0), ("2026M10", "…", "…")]
+    pts = market.parse_pink_sheet(rows, "Gold")
+    assert pts == [(date(2026, 8, 1), 4000.0), (date(2026, 9, 1), 4200.0)]
+    c = market.monthly_changes(pts, "$")
+    assert (c["value"], c["period"], c["d1"], c["w1"], c["m1"]) == (4200.0, "2026-09", None, None, 5.0)

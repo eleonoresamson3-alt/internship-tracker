@@ -3,9 +3,10 @@
 # feeds:   public RSS / Atom feeds. official: true for central banks, BIS, IMF,
 #          regulators (small score bonus). enabled: false keeps a source listed
 #          without fetching it; notes says why.
-# market:  daily market series. provider: ecb | bundesbank | fred | webstat | unavailable.
+# market:  daily market series. provider: ecb | bundesbank | fred | webstat | worldbank | unavailable.
 #          unit "%" = rate (changes in basis points), otherwise changes in %.
 #          step: true = only published when it changes (policy rates).
+#          monthly: true = monthly averages (only the 1-month change is shown).
 
 feeds:
   # Central banks, BIS and regulators (official: true)
@@ -94,8 +95,9 @@ market:
      series: EXR/D.USD.EUR.SP00.A}
   - {key: brent, label: Brent ($/baril), group: Change et matières premières, unit: $, provider: fred,
      series: DCOILBRENTEU}
-  - {key: gold, label: Or, group: Change et matières premières, unit: $, provider: unavailable,
-     note: "prix LBMA sous licence ; FRED ne le diffuse plus"}
+  - {key: gold, label: "Or ($/once, moyenne mensuelle)", group: Change et matières premières, unit: $,
+     provider: worldbank, series: Gold, monthly: true,
+     note: "moyenne mensuelle publiée par la Banque mondiale (Pink Sheet) ; pas de cours quotidien gratuit"}
   - {key: estr, label: €STR, group: Taux, unit: "%", provider: ecb, series: EST/B.EU000A2X2A25.WT}
   - {key: dfr, label: Taux de dépôt BCE, group: Taux, unit: "%", provider: ecb, series: FM/B.U2.EUR.4F.KR.DFR.LEV,
      step: true}
