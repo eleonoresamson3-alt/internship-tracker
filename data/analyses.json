@@ -1,0 +1,197 @@
+{
+ "days": [
+  {
+   "date": "2026-10-23",
+   "generated_at": "2026-10-23T06:50:00+00:00",
+   "brief": [
+    "Dette française : le rendement des obligations françaises a dépassé 5 % (première fois depuis 2002) et Moody's doit réviser la note de la France ce soir, après la clôture américaine.",
+    "BCE et Fed se réunissent la semaine prochaine (Fed 27-28 octobre, BCE 28-29) ; le taux de dépôt de la BCE est à 2,5 % et le FT voit encore une hausse en 2026.",
+    "Marchés : forte baisse des rendements américains, selon la presse, dans le sillage d'une chute du Nasdaq après les annonces de dépenses d'IA de Meta ; nos données US s'arrêtent au 21 octobre (10 ans à 5,13 %).",
+    "Taux allemands en baisse : Bund 10 ans à 3,39 % (-5 points de base) et 2 ans à 3,02 % (-9 points de base) ce 23 octobre.",
+    "Pétrole : 114 $ selon le FT, un plus haut depuis mai ; inflation japonaise qui maintient la BoJ sur une voie de resserrement."
+   ],
+   "articles": [
+    {
+     "title": "Dette française : le 10 ans passe au-dessus de 5 % et Moody's se prononce ce soir",
+     "theme": "credit_sovereign",
+     "lead": "Les taux des obligations françaises ont dépassé 5 % pour la première fois depuis 2002, et l'agence Moody's doit réviser la note de la France après la clôture des marchés américains vendredi.",
+     "what": "Selon Le Monde, les rendements des obligations françaises ont franchi 5 % pour la première fois depuis 2002, ce qui fait réapparaître le spectre d'une véritable crise budgétaire. Le journal rappelle que la principale digue est la BCE, une éventuelle intervention du FMI étant évoquée en dernier recours. MarketWatch indique que Moody's doit actualiser sa note sur la dette française après la clôture des marchés américains vendredi, et que les turbulences de la dette française ont contribué à inverser la tendance des rendements du Trésor américain. Le Financial Times a réactualisé sa comparaison des spreads de la France avec ses pairs. Les séries de taux français ne sont pas disponibles dans nos données de marché aujourd'hui.",
+     "why": "Le taux d'une obligation d'État reflète le taux sans risque de la zone euro, ici le Bund allemand, plus une prime de risque propre à l'émetteur : le spread. Quand la trajectoire budgétaire inquiète, les investisseurs exigent cette prime plus élevée, ce qui renchérit le financement de l'État et alimente un cercle vicieux : plus d'intérêts à payer, donc plus de déficit. Une décision d'agence de notation compte parce que certains investisseurs institutionnels ont des règles de portefeuille liées aux notes : un abaissement peut forcer des ventes ou augmenter les décotes appliquées aux titres en collatéral. Le Bund 10 ans est à 3,39 % ce 23 octobre, ce qui donne un ordre de grandeur de l'écart par rapport à un seuil de 5 % pour la France, mais nous ne disposons pas du niveau exact de l'OAT du jour. L'article du Monde souligne le rôle de la BCE comme filet de sécurité ; ses outils anti-fragmentation sont au cœur du débat.",
+     "impact": "Un élargissement du spread OAT-Bund pèserait sur les banques françaises, grandes détentrices de dette souveraine, et sur les spreads de crédit des émetteurs français, qui se financent rarement moins cher que leur État. Sur les produits structurés, un coût de financement plus élevé pour les émetteurs pourrait modifier le coupon d'une note à capital protégé : un spread émetteur plus large réduit la valeur actuelle de la composante obligataire (zéro-coupon), ce qui laisse en principe plus de budget pour l'option, mais le client supporte un risque de crédit émetteur plus élevé. Une volatilité plus forte sur les taux français pourrait au contraire renchérir les options achetées et dégrader le prix des produits vendus. Ce sont des raisonnements, pas des faits constatés aujourd'hui.",
+     "interview": {
+      "question": "Une agence abaisse la note de la France d'un cran : quels effets attendez-vous sur le spread OAT-Bund, sur les banques et sur le prix d'un produit structuré émis par une banque française ?",
+      "hints": [
+       "Distinguer le taux sans risque (Bund) de la prime de risque pays (spread)",
+       "Effet sur les banques : détention de dette souveraine et coût de financement lié au souverain",
+       "Produit structuré : la composante obligataire dépend du spread de l'émetteur ; spread plus large = coupon facial potentiellement plus généreux mais risque émetteur plus élevé",
+       "Rôle de la BCE comme prêteur en dernier ressort du marché obligataire"
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Spread souverain",
+       "definition": "Écart de rendement entre une obligation d'État et la référence sans risque de la zone, souvent le Bund allemand à même maturité."
+      },
+      {
+       "term": "OAT",
+       "definition": "Obligation assimilable du Trésor, titre de dette à moyen et long terme émis par l'État français."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Qui viendra sauver la France en cas de crise de la dette ?",
+       "url": "https://www.lemonde.fr/economie/article/2026/10/23/qui-viendra-sauver-la-france-en-cas-de-crise-de-la-dette_6798902_3234.html",
+       "source": "Le Monde – Économie"
+      },
+      {
+       "title": "France is getting its credit rating reviewed. The French debt turmoil has helped turn U.S. Treasury yields around. What comes next?",
+       "url": "https://www.marketwatch.com/story/france-is-getting-its-credit-rating-reviewed-by-moodys-what-to-expect-as-french-debt-turmoil-spills-overseas-e39de111?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "How nervous are bond markets about France?",
+       "url": "https://www.ft.com/content/9aa4549e-26f4-4963-94eb-50cf0fc0b8f9",
+       "source": "Financial Times – Markets"
+      }
+     ]
+    },
+    {
+     "title": "BCE : semaine de réunion, une hausse de taux encore envisagée en 2026",
+     "theme": "central_banks",
+     "lead": "La BCE se réunit les 28 et 29 octobre alors que son taux de dépôt est à 2,5 % et que le Financial Times voit encore une hausse en 2026 ; la Fed se réunit la veille.",
+     "what": "Le calendrier officiel place la réunion de la Fed les 27 et 28 octobre et celle de la BCE les 28 et 29 octobre, avec décision et conférence de presse le dernier jour. Le taux de dépôt de la BCE est à 2,5 % et le €STR à 2,442 % (22 octobre). Le scénario d'octobre du Monetary Policy Radar du Financial Times indique que la BCE est sur la voie d'une nouvelle hausse de taux en 2026. La BCE a aussi publié ce 23 octobre les résultats de son enquête sur les anticipations des consommateurs de septembre. Dans une tribune au Monde, l'économiste Cédric Rogé soutient que la politique monétaire de la BCE a contribué à fabriquer de la dette publique et pourrait aussi aider à l'effacer ; c'est une opinion, pas une position de la BCE.",
+     "why": "Les anticipations d'inflation des ménages sont suivies de près par les banques centrales, car des anticipations qui se désancrent rendent l'inflation plus persistante. Une BCE qui envisage de monter ses taux alors que la croissance ralentit (les indices PMI de la zone euro ont reculé en octobre selon L'Agefi, avec une forte détérioration en France) est face à un dilemme classique entre stabilité des prix et soutien à l'activité. S'ajoute la tension sur les dettes souveraines : monter les taux renchérit le coût de la dette des États les plus endettés. Les marchés ont déjà réagi, le Bund 2 ans à 3,02 % ayant perdu 9 points de base en un jour (23 octobre) et 21 en un mois, ce qui peut traduire une baisse des anticipations de resserrement ou une fuite vers la qualité.",
+     "impact": "Une hausse de taux, ou simplement le maintien d'un biais restrictif, tend à aplatir ou inverser la courbe si le marché y voit un risque pour la croissance, et à faire monter le coût de financement des banques. Pour les produits structurés, des taux plus hauts augmentent généralement le budget d'option disponible dans une note à capital protégé, donc le coupon ou la participation possible, et des taux plus élevés relèvent le prix à terme (forward) de l'indice, ce qui tend aussi à améliorer le coupon des autocalls. La volatilité des taux autour des réunions peut aussi gonfler les prix des options sur taux. Ces effets sont des raisonnements et dépendent de ce que décidera réellement la BCE.",
+     "interview": {
+      "question": "La BCE relève ses taux de 25 points de base alors que la croissance ralentit : quel effet sur la courbe des taux et sur le coupon d'une note à capital protégé ?",
+      "hints": [
+       "Distinguer l'impact sur le court terme (directement lié au taux directeur) et sur le long terme (anticipations de croissance et de prime de terme)",
+       "Capital protégé = zéro-coupon + option : à taux plus élevés, le zéro-coupon coûte moins cher et laisse plus de budget pour l'option",
+       "Importance de ce qui est déjà anticipé : seule la surprise bouge les prix"
+      ]
+     },
+     "glossary": [
+      {
+       "term": "€STR",
+       "definition": "Taux à court terme de l'euro, calculé sur les emprunts interbancaires non garantis au jour le jour, référence du marché monétaire."
+      },
+      {
+       "term": "Taux de dépôt",
+       "definition": "Taux auquel la BCE rémunère les dépôts des banques ; c'est son principal taux directeur."
+      }
+     ],
+     "sources": [
+      {
+       "title": "ECB on course for another rate rise in 2026",
+       "url": "https://www.ft.com/content/93852564-cae6-41f6-aa79-8db53e2b7774",
+       "source": "Financial Times – Global economy"
+      },
+      {
+       "title": "ECB Consumer Expectations Survey results – September 2026",
+       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+       "source": "BCE"
+      },
+      {
+       "title": "« La politique monétaire de la BCE a fabriqué de la dette publique, elle peut aussi en effacer »",
+       "url": "https://www.lemonde.fr/idees/article/2026/10/22/la-politique-monetaire-de-la-bce-a-fabrique-de-la-dette-publique-elle-peut-aussi-en-effacer_6798617_3232.html",
+       "source": "Le Monde – Économie"
+      },
+      {
+       "title": "L'activité a ralenti plus que prévu en zone euro en octobre",
+       "url": "https://www.agefi.fr/news/economie-marches/lactivite-a-ralenti-plus-que-prevu-en-zone-euro-en-octobre",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Calendrier des réunions de politique monétaire de la BCE",
+       "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+       "source": "BCE"
+      }
+     ]
+    },
+    {
+     "title": "Obligations du Trésor américain : la plus forte baisse des rendements depuis 2023",
+     "theme": "macro_inflation",
+     "lead": "Le rendement du 10 ans américain a connu sa plus forte baisse quotidienne depuis la crise bancaire de 2023, dans un marché actions secoué par les craintes sur l'IA.",
+     "what": "MarketWatch rapporte que le rendement du Treasury 10 ans a enregistré sa plus forte baisse journalière depuis la faillite de Silicon Valley Bank, un mouvement que PGIM qualifie de « take-back trade » plutôt que de peur d'une récession. Le Financial Times lie ce mouvement à Meta, dont la capitalisation a perdu 124 milliards de dollars après son annonce de lever « des centaines de milliards de dollars » dans les années à venir pour ses dépenses d'IA, le Nasdaq reculant alors que les Treasuries montaient. Dans nos données, le 10 ans américain était à 5,13 % le 21 octobre (+1 point de base sur un jour, +17 sur un mois) et le 2 ans à 4,81 % : la baisse décrite par la presse est postérieure à cette date. Le VIX était à 16,68 à cette date, avant le mouvement.",
+     "why": "Quand les investisseurs fuient les actions, ils achètent des obligations d'État perçues comme sûres, ce qui fait baisser les rendements : c'est le flight-to-quality. Mais l'ampleur du mouvement compte aussi parce que les rendements avaient fortement monté sur un mois. Le FT s'interroge par ailleurs sur le choix du secrétaire au Trésor Bessent de raccourcir les maturités de la dette émise, un risque si l'inflation et la dette montent alors que l'optimisme sur l'IA s'effrite : le Trésor devrait alors refinancer plus souvent à des taux potentiellement plus élevés. La Fed se réunit les 27 et 28 octobre ; un recul des rendements modifie ce qu'elle trouvera dans les conditions financières.",
+     "impact": "Une baisse du rendement long réduit le taux d'actualisation, donc renchérit les obligations et peut pentifier ou aplatir la courbe selon que les taux courts suivent. La volatilité implicite actions pourrait monter si la correction sur l'IA se poursuit, ce qui renchérit les protections (puts) et, pour les produits structurés, augmente le coupon que peuvent offrir les autocalls ou reverse convertibles vendeurs d'options, mais aussi leur risque de barrière. À l'inverse, des taux plus bas réduisent le budget d'option des notes à capital protégé. Ce sont des conséquences à confirmer par les données de marché des prochains jours.",
+     "interview": {
+      "question": "Les actions chutent et le 10 ans américain baisse de manière inhabituelle : comment cela change-t-il le coupon d'un autocall sur indice et celui d'une note à capital protégé ?",
+      "hints": [
+       "Autocall : vente de volatilité par le client, donc coupon qui monte avec la vol implicite et les dividendes, qui descend avec la baisse des taux",
+       "Capital protégé : taux plus bas = zéro-coupon plus cher = moins de budget d'option",
+       "Distinguer effet taux et effet volatilité, qui jouent en sens opposés"
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Flight-to-quality",
+       "definition": "Ruée des investisseurs vers des actifs jugés sûrs, comme les obligations d'État, en période de stress, ce qui fait baisser leurs rendements."
+      },
+      {
+       "term": "Barrière",
+       "definition": "Niveau de l'indice sous-jacent en dessous duquel la protection d'un produit structuré disparaît à l'échéance."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here's what's going on.",
+       "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
+       "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+       "source": "Financial Times – Markets"
+      },
+      {
+       "title": "Beware Bessent's tilt towards short-term debt",
+       "url": "https://www.ft.com/content/bf959a1a-1cd8-41e2-8767-03aa1ac3ed48?syn-25a6b1a6=1",
+       "source": "Financial Times – Markets"
+      },
+      {
+       "title": "The U.S. stock market is fracturing into two camps, and it's leaving investors with a brutal case of whiplash",
+       "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole à 114 $ et inflation japonaise : la double menace pour les banques centrales",
+     "theme": "fx_commodities",
+     "lead": "Le pétrole retrouve un sommet depuis mai, tandis que l'inflation de septembre au Japon conforte la Banque du Japon dans son resserrement.",
+     "what": "Le Financial Times écrit que le pétrole a atteint 114 $ pour la première fois depuis mai, alors que les actions mondiales sont secouées par les craintes sur l'IA : les marchés font face à la fois à la hausse du brut et au doute sur la solidité du boom de l'IA. Notre série Brent (FRED) donnait 115,22 $ le 20 octobre, en baisse de 3,03 % sur un jour et de 8,4 % sur une semaine ; elle est donc antérieure à l'article et les deux chiffres ne sont pas directement comparables. Toujours selon le FT, l'inflation de septembre au Japon, dont les principales mesures progressent, maintient la Banque du Japon sur une trajectoire de resserrement. L'EUR/USD était à 1,1205 le 22 octobre (-0,26 % sur un jour, -2,25 % sur un mois).",
+     "why": "Un pétrole cher agit comme une taxe sur les consommateurs et alimente l'inflation headline, ce qui complique la tâche des banques centrales déjà confrontées à une inflation qui monte au Japon ou à des anticipations d'inflation suivies par la BCE. Elles distinguent en général choc d'offre, qu'elles tolèrent à court terme, et effet de second tour sur les salaires et les anticipations, qu'elles combattent. Un resserrement au Japon, longtemps pays de taux très bas, compte aussi parce que le yen a servi de monnaie de financement pour de nombreuses positions de portage : une hausse des taux japonais peut réduire ces positions.",
+     "impact": "Un brut plus cher soutient les points morts d'inflation et peut maintenir les rendements longs élevés ; il pèse sur les devises des importateurs d'énergie, comme l'euro, face au dollar. Sur le marché des dérivés, la volatilité des matières premières et des taux pourrait augmenter. Pour les produits structurés indexés sur matières premières ou sur l'inflation, des niveaux plus élevés renchérissent les options d'achat et réduisent la participation possible dans une note à capital protégé, à budget identique. Ce sont des raisonnements.",
+     "interview": {
+      "question": "Le pétrole monte de manière durable : quelle est la réponse optimale d'une banque centrale et quel effet sur les points morts d'inflation ?",
+      "hints": [
+       "Choc d'offre contre effet de second tour",
+       "Effet sur l'inflation headline et sur les anticipations",
+       "Impact sur les swaps d'inflation et sur les devises des pays importateurs"
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Point mort d'inflation",
+       "definition": "Écart entre le rendement d'une obligation nominale et d'une obligation indexée de même maturité, mesure de l'inflation anticipée."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Oil hits $114 for first time since May as global stocks knocked by AI fears",
+       "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+       "source": "Financial Times – Markets"
+      },
+      {
+       "title": "September inflation keeps BoJ on tightening course",
+       "url": "https://www.ft.com/content/f968f40c-ecc8-4981-ba60-a826f808505b",
+       "source": "Financial Times – Global economy"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "updated_at": "2026-10-23T06:50:00+00:00"
+}
