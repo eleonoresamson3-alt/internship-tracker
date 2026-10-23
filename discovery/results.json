@@ -9767,5 +9767,1412 @@
     "Master thesis - Degree work | Stockholm, Sweden"
    ]
   }
+ },
+ {
+  "name": "Danone",
+  "type": "corporate",
+  "careers_url": "https://careers.danone.com/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/DanoneCareers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "L'Oréal",
+  "type": "corporate",
+  "careers_url": "https://careers.loreal.com/",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://careers-apply.loreal.com/en_US/job/Login"
+  ],
+  "tests": [
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://careers.loreal.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://careers.loreal.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "LVMH",
+  "type": "corporate",
+  "careers_url": "https://www.lvmh.com/join-us/our-job-offers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "recruitee",
+    "params": {
+     "company": "lvmh"
+    },
+    "status": "ok",
+    "fetched": 32,
+    "internships": 0,
+    "sample": [
+     "Beauty Consultant (m/w/d) | München, Bayern, Deutschland",
+     "Counter Manager (m/w/d) | Hamburg, Hamburg, Deutschland",
+     "Beauty Consultant (m/w/d) | München, Bayern, Deutschland"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "recruitee",
+   "params": {
+    "company": "lvmh"
+   },
+   "status": "ok",
+   "fetched": 32,
+   "internships": 0,
+   "sample": [
+    "Beauty Consultant (m/w/d) | München, Bayern, Deutschland",
+    "Counter Manager (m/w/d) | Hamburg, Hamburg, Deutschland",
+    "Beauty Consultant (m/w/d) | München, Bayern, Deutschland"
+   ]
+  }
+ },
+ {
+  "name": "Kering",
+  "type": "corporate",
+  "careers_url": "https://www.kering.com/en/talent/job-offers/",
+  "signatures": {
+   "workday": [
+    "kering|wd3|Kering"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/sharing/share-offsite/?url=https://careers.kering.com/careers/R172711",
+   "RobotsDisallowed: robots.txt disallows https://x.com/intent/tweet?text=Job%20Family%20Group%20Description%20-%20Sales%20%2F%20Omni-Channel%3A%0ACombines%20all%20positions%20within%20the%20different%20",
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcareers.kering.com%2Fcareers%2FR172711"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://kering.wd3.myworkdayjobs.com/Kering"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://kering.wd3.myworkdayjobs.com/Kering"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Hermès",
+  "type": "corporate",
+  "careers_url": "https://www.hermes.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.hermes.com/careers/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.hermes.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Pernod Ricard",
+  "type": "corporate",
+  "careers_url": "https://www.pernod-ricard.com/en/careers",
+  "signatures": {
+   "workday": [
+    "pernodricard|wd3|pernod-ricard"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.irishdistillers.ie/careers/early-careers/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard"
+    },
+    "status": "ok",
+    "fetched": 39,
+    "internships": 39,
+    "sample": [
+     "Internal Control and Internal Audit Intern | Paris",
+     "Stage HR Controlling / Contrôle de Gestion Sociale (H/F) | Reims",
+     "Executive Assistant Intern | Paris",
+     "Program Management Intern | Paris",
+     "Financial Analyst Intern | Paris",
+     "Cash Performance Intern | Paris"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard"
+   },
+   "status": "ok",
+   "fetched": 39,
+   "internships": 39,
+   "sample": [
+    "Internal Control and Internal Audit Intern | Paris",
+    "Stage HR Controlling / Contrôle de Gestion Sociale (H/F) | Reims",
+    "Executive Assistant Intern | Paris",
+    "Program Management Intern | Paris",
+    "Financial Analyst Intern | Paris",
+    "Cash Performance Intern | Paris"
+   ]
+  }
+ },
+ {
+  "name": "Airbus",
+  "type": "corporate",
+  "careers_url": "https://www.airbus.com/en/careers",
+  "signatures": {
+   "workday": [
+    "ag|wd3|Airbus"
+   ],
+   "jsonld": [
+    "\"@type\" : \"JobPosting\""
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://ag.wd3.myworkdayjobs.com/Airbus"
+    },
+    "status": "ok",
+    "fetched": 22,
+    "internships": 22,
+    "sample": [
+     "Stage 2027 - Analyse d'un nouvel outil de planification et potentiel de l'IA (spatial) H/F | Toulouse Area",
+     "STAGE 2027 - Stage en IA & Automatisation des Processus (ALL GENDER) | Toulouse Area",
+     "STAGE 2027 - Gestion de projet IA et Qualité Industrialisation (ALL GENDER) | Saint Nazaire Area",
+     "ATR – Internship 2027 - Type Rating Practical Training Test Bench and associated material | Toulouse Area",
+     "STAGE 2027 - Ingénier Méthodes Qualité (ALL GENDER) | Nantes Area",
+     "Stage 2027 -Chef de Projets Stratégiques – Espace Militaire & Digital (h/f) | Toulouse Area"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bristol-Area/Safety---Reliability-Engineer_JR10451843?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=29247e57dbaf46fb855b224e03170bc7"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Safety &amp; Reliability Engineer | Filton, United Kingdom"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bristol-Area/Aerodynamic-Icing-Engineer_JR10440518-1?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=29247e57dbaf46fb855b224e03170bc7"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Aerodynamic Icing Engineer | Filton, United Kingdom"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Wichita-KS/Principal-Stress-Engineer_JR10447399-1?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=bc33aa3152ec42d4995f4791a106ed09"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Principal Stress Engineer | Wichita, KS, United States of America"
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Marseille-Area/Transfer-of-Work-Manager-Airframe_JR10429160-1?workerSubType=f5811cef9cb501a69768a71d470a6d15&locationCountry=54c5b6971ffb4bf0b116fe7651ec789a"
+     ]
+    },
+    "status": "ok",
+    "fetched": 1,
+    "internships": 0,
+    "sample": [
+     "Transfer of Work Manager Airframe | Marignane, France"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://ag.wd3.myworkdayjobs.com/Airbus"
+   },
+   "status": "ok",
+   "fetched": 22,
+   "internships": 22,
+   "sample": [
+    "Stage 2027 - Analyse d'un nouvel outil de planification et potentiel de l'IA (spatial) H/F | Toulouse Area",
+    "STAGE 2027 - Stage en IA & Automatisation des Processus (ALL GENDER) | Toulouse Area",
+    "STAGE 2027 - Gestion de projet IA et Qualité Industrialisation (ALL GENDER) | Saint Nazaire Area",
+    "ATR – Internship 2027 - Type Rating Practical Training Test Bench and associated material | Toulouse Area",
+    "STAGE 2027 - Ingénier Méthodes Qualité (ALL GENDER) | Nantes Area",
+    "Stage 2027 -Chef de Projets Stratégiques – Espace Militaire & Digital (h/f) | Toulouse Area"
+   ]
+  }
+ },
+ {
+  "name": "Safran",
+  "type": "corporate",
+  "careers_url": "https://www.safran-group.com/jobs",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.safran-group.com/jobs",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.safran-group.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Thales",
+  "type": "corporate",
+  "careers_url": "https://careers.thalesgroup.com/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ],
+   "workday": [
+    "thales|wd3|Careers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://thales.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 20,
+    "internships": 0,
+    "sample": [
+     "Nyutdannet Software Engineer (Fullstack) 2027 | Oslo, Norway",
+     "Prosjekt- og porteføljestøtte | Oslo, Norway",
+     "Head of Quality | Oslo, Norway"
+    ]
+   },
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.thalesgroup.com/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://thales.wd3.myworkdayjobs.com/Careers"
+    },
+    "status": "ok",
+    "fetched": 33,
+    "internships": 33,
+    "sample": [
+     "Intern | Noida",
+     "Finance Intern | Barcelona",
+     "DevOps Intern | Madrid",
+     "Finance Intern | Beijing",
+     "Finance Intern | Beijing",
+     "Software Engineer Intern | Singapore"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://thales.wd3.myworkdayjobs.com/Careers"
+   },
+   "status": "ok",
+   "fetched": 33,
+   "internships": 33,
+   "sample": [
+    "Intern | Noida",
+    "Finance Intern | Barcelona",
+    "DevOps Intern | Madrid",
+    "Finance Intern | Beijing",
+    "Finance Intern | Beijing",
+    "Software Engineer Intern | Singapore"
+   ]
+  }
+ },
+ {
+  "name": "Dassault Systèmes",
+  "type": "corporate",
+  "careers_url": "https://www.3ds.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/3DSCareers/",
+   "RobotsDisallowed: robots.txt disallows https://twitter.com/3DSCareers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Renault Group",
+  "type": "corporate",
+  "careers_url": "https://www.renaultgroup.com/en/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Stellantis",
+  "type": "corporate",
+  "careers_url": "https://www.stellantis.com/en/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://stellantis.wd3.myworkdayjobs.com/External_Career_Site"
+    },
+    "status": "error",
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://stellantis.wd3.myworkdayjobs.com/wday/cxs/stellantis/External_Career_Site/jobs"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "Michelin",
+  "type": "corporate",
+  "careers_url": "https://recrutement.michelin.fr/",
+  "signatures": {
+   "workday": [
+    "michelinhr|wd3|Michelin"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin"
+    },
+    "status": "ok",
+    "fetched": 35,
+    "internships": 35,
+    "sample": [
+     "2027 Summer Intern | Midland City, AL",
+     "2027 Summer Inclusion Strategy & Business Integration Intern | GREENVILLE, SC",
+     "Summer 2027 Intern (MBA Experience Level Professional) - Various Fields | GREENVILLE, SC",
+     "Summer 2027 Internship: Process Engineering Intern (Fountain Inn, SC) | FOUNTAIN INN, SC",
+     "Industrial Engineer Internship | Tan Uyen",
+     "Automation Engineer Internship | Tan Uyen"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin"
+   },
+   "status": "ok",
+   "fetched": 35,
+   "internships": 35,
+   "sample": [
+    "2027 Summer Intern | Midland City, AL",
+    "2027 Summer Inclusion Strategy & Business Integration Intern | GREENVILLE, SC",
+    "Summer 2027 Intern (MBA Experience Level Professional) - Various Fields | GREENVILLE, SC",
+    "Summer 2027 Internship: Process Engineering Intern (Fountain Inn, SC) | FOUNTAIN INN, SC",
+    "Industrial Engineer Internship | Tan Uyen",
+    "Automation Engineer Internship | Tan Uyen"
+   ]
+  }
+ },
+ {
+  "name": "Sanofi",
+  "type": "corporate",
+  "careers_url": "https://jobs.sanofi.com/",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://talentcareers.sanofi.com/flows/candidateportal",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/posts/ziv-bar-joseph-cmu_why-i-joined-sanofi-1-when-i-interviewed-activity-6929550926663798785-kRNR/"
+  ],
+  "tests": [
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.sanofi.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.sanofi.com/search-jobs/intern?p=1"
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers"
+    },
+    "status": "ok",
+    "fetched": 3,
+    "internships": 3,
+    "sample": [
+     "internship 6 months data and ia engineer | Lyon",
+     "Regulatory Affairs Intern– Rare Diseases | Amsterdam",
+     "Packaging Internship | Scoppito"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers"
+   },
+   "status": "ok",
+   "fetched": 3,
+   "internships": 3,
+   "sample": [
+    "internship 6 months data and ia engineer | Lyon",
+    "Regulatory Affairs Intern– Rare Diseases | Amsterdam",
+    "Packaging Internship | Scoppito"
+   ]
+  }
+ },
+ {
+  "name": "Schneider Electric",
+  "type": "corporate",
+  "careers_url": "https://www.se.com/ww/en/about-us/careers/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Saint-Gobain",
+  "type": "corporate",
+  "careers_url": "https://joinus.saint-gobain.com/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://joinus.saint-gobain.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Air Liquide",
+  "type": "corporate",
+  "careers_url": "https://www.airliquide.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.airliquide.com/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.airliquide.com/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer"
+    },
+    "status": "ok",
+    "fetched": 25,
+    "internships": 25,
+    "sample": [
+     "Treasury Intern | Argentina, Munro",
+     "2027 Summer Intern - Engineering | Houston, TX (HO) - NAM Corporate",
+     "OTC Cash Application Intern | Argentina, Munro",
+     "2027 Summer Intern - Non Engineering | Houston, TX (HO) - NAM Corporate",
+     "Internship - Head Office - Europe Procurement HR Intern (F/M) | France, Paris",
+     "Stage - SIÈGE - Automatisation du Contrôle Interne H/F | France, Paris"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer"
+   },
+   "status": "ok",
+   "fetched": 25,
+   "internships": 25,
+   "sample": [
+    "Treasury Intern | Argentina, Munro",
+    "2027 Summer Intern - Engineering | Houston, TX (HO) - NAM Corporate",
+    "OTC Cash Application Intern | Argentina, Munro",
+    "2027 Summer Intern - Non Engineering | Houston, TX (HO) - NAM Corporate",
+    "Internship - Head Office - Europe Procurement HR Intern (F/M) | France, Paris",
+    "Stage - SIÈGE - Automatisation du Contrôle Interne H/F | France, Paris"
+   ]
+  }
+ },
+ {
+  "name": "Orange",
+  "type": "corporate",
+  "careers_url": "https://orange.jobs/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://orange.jobs/gb/en"
+    },
+    "status": "ok",
+    "fetched": 100,
+    "internships": 2,
+    "sample": [
+     "Stagiaire Ingénieur DevSecOps F/H | MARSEILLE 3E ARRONDISSEMENT,FRANCE",
+     "Développeur web /PHP (Drupal) & IA (H/F) - Stage | LYON 2E ARRONDISSEMENT,FRANCE"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://orange.jobs/gb/en"
+   },
+   "status": "ok",
+   "fetched": 100,
+   "internships": 2,
+   "sample": [
+    "Stagiaire Ingénieur DevSecOps F/H | MARSEILLE 3E ARRONDISSEMENT,FRANCE",
+    "Développeur web /PHP (Drupal) & IA (H/F) - Stage | LYON 2E ARRONDISSEMENT,FRANCE"
+   ]
+  }
+ },
+ {
+  "name": "Vinci",
+  "type": "corporate",
+  "careers_url": "https://jobs.vinci.com/",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "HTTPError: 418 Client Error: I'm a teapot for url: https://www.vinci.com/vinci.nsf/en/item/careers-contacts.htm"
+  ],
+  "tests": [
+   {
+    "platform": "ashby",
+    "params": {
+     "board": "vinci"
+    },
+    "status": "ok",
+    "fetched": 35,
+    "internships": 0,
+    "sample": [
+     "Member of Technical Staff - Foundation Model Architecture & AI Infrastructure | Palo Alto HQ",
+     "Thermal Engineer | Palo Alto HQ",
+     "Strategic Account Executive | Palo Alto HQ"
+    ]
+   },
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://vinci.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.vinci.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.vinci.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": {
+   "platform": "ashby",
+   "params": {
+    "board": "vinci"
+   },
+   "status": "ok",
+   "fetched": 35,
+   "internships": 0,
+   "sample": [
+    "Member of Technical Staff - Foundation Model Architecture & AI Infrastructure | Palo Alto HQ",
+    "Thermal Engineer | Palo Alto HQ",
+    "Strategic Account Executive | Palo Alto HQ"
+   ]
+  }
+ },
+ {
+  "name": "Bouygues",
+  "type": "corporate",
+  "careers_url": "https://www.bouygues.com/en/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bouygues.com/en/careers/",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bouygues.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Veolia",
+  "type": "corporate",
+  "careers_url": "https://www.veolia.com/en/careers",
+  "signatures": {
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6558&lang=en_us&readid=listing__title%2Creadspeaker-content%2Chero-banner&readclass=listing__title%2Cread"
+  ],
+  "tests": [
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://jobs.veolia.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://jobs.veolia.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": null
+ },
+ {
+  "name": "EDF",
+  "type": "corporate",
+  "careers_url": "https://www.edf.fr/edf-recrute",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.edf.fr/edf-recrute",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.edf.fr/edf-recrute",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.edf.fr/edf-recrute/espace-candidat"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Carrefour",
+  "type": "corporate",
+  "careers_url": "https://www.carrefour.com/en/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.carrefour.com/en/careers",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.carrefour.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Capgemini",
+  "type": "corporate",
+  "careers_url": "https://www.capgemini.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https://www.capgemini.com/careers/",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/shareArticle?url=https://www.capgemini.com/careers/",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/shareArticle?url=https://www.capgemini.com/insights/research-library/technovision-2026-guide-for-ctos-and-cios/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Alstom",
+  "type": "corporate",
+  "careers_url": "https://www.alstom.com/careers",
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/sharer/sharer.php?u=https%3A//www.alstom.com/careers",
+   "RobotsDisallowed: robots.txt disallows https://twitter.com/intent/tweet?url=https%3A//www.alstom.com/careers&text=Your%20career%20at%20Alstom%20starts%20here"
+  ],
+  "tests": [
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://jobsearch.alstom.com"
+    },
+    "status": "ok",
+    "fetched": 250,
+    "internships": 23,
+    "sample": [
+     "Mechanical Calculation Intern | Saint-Bruno, QC, CA",
+     "Intern - Data Engineering (Winter 2027) | Saint-Bruno, QC, CA",
+     "Electrical Engineering Intern | Saint-Bruno, QC, CA",
+     "Intern - Electro-Mechanical (WINTER 2027) | Saint-Bruno, QC, CA",
+     "Intern - Project Configuration and Change Management (WINTER 2027) | Saint-Bruno, QC, CA",
+     "Business Analyst & Digital Transformation Intern | Saint-Ouen, FR"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "successfactors",
+   "params": {
+    "base": "https://jobsearch.alstom.com"
+   },
+   "status": "ok",
+   "fetched": 250,
+   "internships": 23,
+   "sample": [
+    "Mechanical Calculation Intern | Saint-Bruno, QC, CA",
+    "Intern - Data Engineering (Winter 2027) | Saint-Bruno, QC, CA",
+    "Electrical Engineering Intern | Saint-Bruno, QC, CA",
+    "Intern - Electro-Mechanical (WINTER 2027) | Saint-Bruno, QC, CA",
+    "Intern - Project Configuration and Change Management (WINTER 2027) | Saint-Bruno, QC, CA",
+    "Business Analyst & Digital Transformation Intern | Saint-Ouen, FR"
+   ]
+  }
+ },
+ {
+  "name": "Mobilize Financial Services (RCI Bank)",
+  "type": "corporate",
+  "careers_url": "https://www.mobilize-fs.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.mobilize-fs.com/careers"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Nestlé",
+  "type": "corporate",
+  "careers_url": "https://www.nestle.com/jobs",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.nestle.com/jobs",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.nestle.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Unilever",
+  "type": "corporate",
+  "careers_url": "https://careers.unilever.com/",
+  "signatures": {
+   "workday": [
+    "unilever|wd3|Unilever_Experienced_Professionals"
+   ],
+   "radancy": [
+    "tbcdn.talentbrew.com"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/UnileverCareers",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/unileverglobalcareers/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals"
+    },
+    "status": "ok",
+    "fetched": 12,
+    "internships": 12,
+    "sample": [
+     "Internship '27: Finance | Rotterdam - Hofplein 19",
+     "Internship '27: Marketing | Rotterdam - Hofplein 19",
+     "Internship '27: Digital Finance | Rotterdam - Hofplein 19",
+     "Internship '27: Human Resources | Rotterdam - Hofplein 19",
+     "Internship '27: Customer Development | Rotterdam - Hofplein 19",
+     "Internship '27: Finance Business Partner | Rotterdam - Hofplein 19"
+    ]
+   },
+   {
+    "platform": "radancy",
+    "params": {
+     "base": "https://careers.unilever.com"
+    },
+    "status": "robots",
+    "error": "robots.txt disallows https://careers.unilever.com/search-jobs/intern?p=1"
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals"
+   },
+   "status": "ok",
+   "fetched": 12,
+   "internships": 12,
+   "sample": [
+    "Internship '27: Finance | Rotterdam - Hofplein 19",
+    "Internship '27: Marketing | Rotterdam - Hofplein 19",
+    "Internship '27: Digital Finance | Rotterdam - Hofplein 19",
+    "Internship '27: Human Resources | Rotterdam - Hofplein 19",
+    "Internship '27: Customer Development | Rotterdam - Hofplein 19",
+    "Internship '27: Finance Business Partner | Rotterdam - Hofplein 19"
+   ]
+  }
+ },
+ {
+  "name": "Siemens",
+  "type": "corporate",
+  "careers_url": "https://jobs.siemens.com/",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/cs_CZ/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/de_DE/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/es_ES/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/fr_FR/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/ja_JP/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   },
+   {
+    "platform": "generic",
+    "params": {
+     "urls": [
+      "https://jobs.siemens.com/nl_NL/externaljobs/SearchJobs/?search={term}"
+     ],
+     "link_pattern": "JobDetail"
+    },
+    "status": "ok",
+    "fetched": 6,
+    "internships": 6,
+    "sample": [
+     "Business Development Internship -12 Months | ",
+     "Software Engineer Intern - Summer 2027 | ",
+     "Software Developer Intern: Strategic Student Program | ",
+     "Sales Operations Support Intern | ",
+     "Business Operations Intern (12 Months) | ",
+     "SkillBridge Internship – Field Technician | "
+    ]
+   }
+  ],
+  "best": {
+   "platform": "generic",
+   "params": {
+    "urls": [
+     "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?search={term}"
+    ],
+    "link_pattern": "JobDetail"
+   },
+   "status": "ok",
+   "fetched": 6,
+   "internships": 6,
+   "sample": [
+    "Business Development Internship -12 Months | ",
+    "Software Engineer Intern - Summer 2027 | ",
+    "Software Developer Intern: Strategic Student Program | ",
+    "Sales Operations Support Intern | ",
+    "Business Operations Intern (12 Months) | ",
+    "SkillBridge Internship – Field Technician | "
+   ]
+  }
+ },
+ {
+  "name": "Volkswagen Financial Services",
+  "type": "corporate",
+  "careers_url": "https://www.vwfs.com/en/career.html",
+  "signatures": {
+   "successfactors": [
+    "career5.successfactors.eu",
+    "rmkcdn.successfactors.com"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "teamtailor",
+    "params": {
+     "base": "https://volkswagenfinancialservices.teamtailor.com"
+    },
+    "status": "ok",
+    "fetched": 30,
+    "internships": 4,
+    "sample": [
+     "Stagiaire Juriste Contentieux et Précontentieux H/F | Roissy-en-France, France",
+     "Stage 6 mois - Communication interne et expérience collaborateur H/F | Roissy-en-France, France",
+     "Stage 6 mois - Assistant coordinateur de contrat prestataire H/F | Roissy-en-France, France",
+     "Stage 6 mois Janvier 2027 - Contrôleur permanent H/F | Roissy-en-France, France"
+    ]
+   },
+   {
+    "platform": "successfactors",
+    "params": {
+     "base": "https://jobs.volkswagen-group.com"
+    },
+    "status": "ok",
+    "fetched": 90,
+    "internships": 7,
+    "sample": [
+     "Praktikum Volkswagen Group Academy,    Redaktion & interne Kommunikation (w/m/d) | Wolfsburg, DE, 38436",
+     "Praktikum International Marketing Campaigns & Content (w/m/d) | Wolfsburg, DE, 38436",
+     "Praktikum UI-Design für nutzerzentrierte Softwarelösungen (m/w/d) | Wolfsburg, DE, 38436",
+     "Praktikant Consulting und Business Transformation (w/m/d) | Salzburg, AT, 5020",
+     "Praktikant Marketing, Produktmanagement & Training VW Nutzfahrzeuge (m/w/d) | Salzburg, AT, 5020",
+     "Praktikum Vertrieb Europa (w/m/d) | Hannover, DE, 30419"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "successfactors",
+   "params": {
+    "base": "https://jobs.volkswagen-group.com"
+   },
+   "status": "ok",
+   "fetched": 90,
+   "internships": 7,
+   "sample": [
+    "Praktikum Volkswagen Group Academy,    Redaktion & interne Kommunikation (w/m/d) | Wolfsburg, DE, 38436",
+    "Praktikum International Marketing Campaigns & Content (w/m/d) | Wolfsburg, DE, 38436",
+    "Praktikum UI-Design für nutzerzentrierte Softwarelösungen (m/w/d) | Wolfsburg, DE, 38436",
+    "Praktikant Consulting und Business Transformation (w/m/d) | Salzburg, AT, 5020",
+    "Praktikant Marketing, Produktmanagement & Training VW Nutzfahrzeuge (m/w/d) | Salzburg, AT, 5020",
+    "Praktikum Vertrieb Europa (w/m/d) | Hannover, DE, 30419"
+   ]
+  }
+ },
+ {
+  "name": "ASML",
+  "type": "corporate",
+  "careers_url": "https://www.asml.com/en/careers",
+  "signatures": {},
+  "page_errors": [],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "ABB",
+  "type": "corporate",
+  "careers_url": "https://careers.abb/global/en",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/ABBCareer/",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/abbcareer/"
+  ],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.abb/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://careers.abb/en"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Novartis",
+  "type": "corporate",
+  "careers_url": "https://www.novartis.com/careers",
+  "signatures": {},
+  "page_errors": [
+   "RobotsDisallowed: robots.txt disallows https://www.facebook.com/novartiscareers",
+   "RobotsDisallowed: robots.txt disallows https://www.instagram.com/novartiscareers/"
+  ],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+    },
+    "status": "ok",
+    "fetched": 2,
+    "internships": 2,
+    "sample": [
+     "Legal Intern | Istanbul Ataşehir",
+     "Lehre Chemieverfahrenstechnik (m/f/d)Profile for Interns | Schaftenau; Kundl"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+   },
+   "status": "ok",
+   "fetched": 2,
+   "internships": 2,
+   "sample": [
+    "Legal Intern | Istanbul Ataşehir",
+    "Lehre Chemieverfahrenstechnik (m/f/d)Profile for Interns | Schaftenau; Kundl"
+   ]
+  }
+ },
+ {
+  "name": "Roche",
+  "type": "corporate",
+  "careers_url": "https://careers.roche.com/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://careers.roche.com/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "phenom",
+   "params": {
+    "base": "https://careers.roche.com/en"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "Philips",
+  "type": "corporate",
+  "careers_url": "https://www.careers.philips.com/",
+  "signatures": {
+   "phenom": [
+    "cdn.phenompeople.com",
+    "phApp.ddo"
+   ],
+   "workday": [
+    "philips|wd3|jobs-and-careers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://www.careers.philips.com/en"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   },
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers"
+    },
+    "status": "ok",
+    "fetched": 40,
+    "internships": 40,
+    "sample": [
+     "CMM intern | Milano",
+     "HR Intern | Suzhou",
+     "Product Industrialization Intern | Suzhou",
+     "IT Infrastructure Intern | Ciudad de Panama",
+     "Intern Data Scientist | Taipei",
+     "Sales Operations Intern | Varginha"
+    ]
+   },
+   {
+    "platform": "phenom",
+    "params": {
+     "base": "https://www.careers.philips.com"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers"
+   },
+   "status": "ok",
+   "fetched": 40,
+   "internships": 40,
+   "sample": [
+    "CMM intern | Milano",
+    "HR Intern | Suzhou",
+    "Product Industrialization Intern | Suzhou",
+    "IT Infrastructure Intern | Ciudad de Panama",
+    "Intern Data Scientist | Taipei",
+    "Sales Operations Intern | Varginha"
+   ]
+  }
+ },
+ {
+  "name": "Heineken",
+  "type": "corporate",
+  "careers_url": "https://careers.theheinekencompany.com/",
+  "signatures": {},
+  "page_errors": [
+   "ReadTimeout: HTTPSConnectionPool(host='careers.theheinekencompany.com', port=443): Read timed out. (read timeout=20)"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "AB InBev",
+  "type": "corporate",
+  "careers_url": "https://www.ab-inbev.com/careers/",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 404 Client Error: Not Found for url: https://www.ab-inbev.com/careers",
+   "RobotsDisallowed: robots.txt disallows https://www.linkedin.com/company/ab-inbev/jobs/",
+   "HTTPError: 404 Client Error: Not Found for url: https://www.ab-inbev.com/careers"
+  ],
+  "tests": [
+   {
+    "platform": "greenhouse",
+    "params": {
+     "board": "abinbev"
+    },
+    "status": "ok",
+    "fetched": 62,
+    "internships": 0,
+    "sample": [
+     "AI Engineer  | Remote; Campinas, São Paulo, Brazil",
+     "Country Director | Melbourne, AU; Melbourne, Victoria, Australia",
+     "Data Product Manager | Remote, Brazil; Campinas, São Paulo, Brazil"
+    ]
+   }
+  ],
+  "best": {
+   "platform": "greenhouse",
+   "params": {
+    "board": "abinbev"
+   },
+   "status": "ok",
+   "fetched": 62,
+   "internships": 0,
+   "sample": [
+    "AI Engineer  | Remote; Campinas, São Paulo, Brazil",
+    "Country Director | Melbourne, AU; Melbourne, Victoria, Australia",
+    "Data Product Manager | Remote, Brazil; Campinas, São Paulo, Brazil"
+   ]
+  }
+ },
+ {
+  "name": "Diageo",
+  "type": "corporate",
+  "careers_url": "https://www.diageo.com/en/careers",
+  "signatures": {
+   "workday": [
+    "diageo|wd3|Diageo_Careers"
+   ]
+  },
+  "page_errors": [],
+  "tests": [
+   {
+    "platform": "workday",
+    "params": {
+     "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers"
+    },
+    "status": "ok",
+    "fetched": 0,
+    "internships": 0,
+    "sample": []
+   }
+  ],
+  "best": {
+   "platform": "workday",
+   "params": {
+    "url": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers"
+   },
+   "status": "ok",
+   "fetched": 0,
+   "internships": 0,
+   "sample": []
+  }
+ },
+ {
+  "name": "BP (corporate treasury)",
+  "type": "corporate",
+  "careers_url": "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html",
+  "signatures": {},
+  "page_errors": [
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bp.com/en/global/corporate/careers/students-and-graduates.html",
+   "HTTPError: 403 Client Error: Forbidden for url: https://www.bp.com/"
+  ],
+  "tests": [],
+  "best": null
+ },
+ {
+  "name": "Air France-KLM",
+  "type": "corporate",
+  "careers_url": "https://www.airfrance.fr/recrutement",
+  "signatures": {},
+  "page_errors": [
+   "ReadTimeout: HTTPSConnectionPool(host='www.airfrance.fr', port=443): Read timed out. (read timeout=20)",
+   "ReadTimeout: HTTPSConnectionPool(host='www.airfrance.fr', port=443): Read timed out. (read timeout=20)"
+  ],
+  "tests": [],
+  "best": null
  }
 ]
