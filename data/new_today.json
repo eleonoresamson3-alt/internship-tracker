@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:39:14+00:00",
+ "generated_at": "2026-10-23T14:05:59+00:00",
  "date": "2026-10-23",
  "jobs": [
   {
@@ -1192,6 +1192,72 @@
    "deadline_source": "estimée",
    "url": "https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Functions---Finance--Summer-Associate--New-York---USA--2027_26997257",
    "posted_at": "2026-09-29",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "deloitte-f17ae9ea20bb",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Consultative Offerings - Investment Banking Summer Analyst - Corporate Finance",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Investment-Banking-Summer-Analyst-Corporate-Finance/364072",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "deloitte-a8f793f0cff5",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Consultative Offerings - Investment Banking Summer Associate - Corporate Finance",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Investment-Banking-Summer-Associate-Corporate-Finance/364093",
+   "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true

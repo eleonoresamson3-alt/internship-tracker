@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:39:14+00:00",
+ "generated_at": "2026-10-23T14:05:59+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -61,12 +61,12 @@
   },
   {
    "employer": "RBC Capital Markets",
-   "fetched": 39,
-   "kept": 15
+   "fetched": 40,
+   "kept": 16
   },
   {
    "employer": "Jefferies",
-   "fetched": 41,
+   "fetched": 42,
    "kept": 15
   },
   {
@@ -316,7 +316,7 @@
   },
   {
    "employer": "Euronext",
-   "fetched": 16,
+   "fetched": 15,
    "kept": 2
   },
   {
@@ -386,8 +386,8 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 10,
-   "kept": 2
+   "fetched": 11,
+   "kept": 4
   },
   {
    "employer": "EY",
@@ -396,8 +396,8 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 149,
-   "kept": 15
+   "fetched": 150,
+   "kept": 16
   },
   {
    "employer": "PwC",
@@ -411,7 +411,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 26,
+   "fetched": 27,
    "kept": 3
   },
   {
@@ -651,7 +651,7 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 73,
+   "fetched": 72,
    "kept": 0
   },
   {
