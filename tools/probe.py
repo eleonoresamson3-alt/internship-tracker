@@ -6,14 +6,8 @@ OUT = []
 def say(*a): OUT.append(" ".join(str(x) for x in a))
 http = PoliteClient()
 PAGES = {
- "CFA exam": ("https://www.cfainstitute.org/en/programs/cfa/exam", r"USD|\$|hours|2027|deadline|fee|Level I"),
- "CFA prog exam": ("https://www.cfainstitute.org/programs/cfa-program/exam", r"USD|\$|hours|2027|deadline|fee|Level I"),
- "CFA fees": ("https://www.cfainstitute.org/programs/cfa-program/exam/fees", r"USD|\$|2027|deadline|fee"),
- "CFA fees b": ("https://www.cfainstitute.org/programs/cfa-program/fees", r"USD|\$|2027|deadline|fee"),
- "CFA dates": ("https://www.cfainstitute.org/programs/cfa-program/exam/dates", r"2027|deadline|Level I"),
- "CFA L1": ("https://www.cfainstitute.org/programs/cfa-program/levels/level-i", r"USD|\$|hours|2027|Level I"),
- "QuantNet courses": ("https://quantnet.com/courses", r"\$|weeks|C\+\+|tuition|certificate"),
- "AMF home": ("https://www.amf-france.org/fr", r"certification"),
+ "CFA dates-fees": ("https://www.cfainstitute.org/programs/cfa-program/dates-fees", r"USD|\$|2027|deadline|Early|Standard|Level I"),
+ "CFA L1 exam": ("https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-i-exam", r"hours|study|USD|2027"),
 }
 for name, (url, pat) in PAGES.items():
     try:
@@ -25,7 +19,7 @@ for name, (url, pat) in PAGES.items():
         for m in re.finditer(pat, text):
             s = text[max(0, m.start()-120): m.end()+160]
             if not any(s[:60] in h for h in hits): hits.append(s)
-            if len(hits) >= 10: break
+            if len(hits) >= 25: break
         say(f"== {name} {url} len={len(text)}")
         for h in hits: say("  ·", h)
         if name.startswith("AMF") or name.startswith("CFA"):
