@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T15:50:18+00:00",
+ "generated_at": "2026-10-23T17:45:53+00:00",
  "date": "2026-10-23",
  "jobs": [
   {
@@ -97,39 +97,6 @@
    "deadline_source": "estimée",
    "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8263031",
    "posted_at": "2026-10-07",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-e69dca4cbb99",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Client Onboarding Officer - Private Equity & Real Estate Solutions H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 52,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-136-stage---client-onboarding-officer---private-equity-et-real-estate-solutions-hf-reference--2026-116823--/",
-   "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -262,6 +229,39 @@
    "deadline_source": "estimée",
    "url": "https://job-boards.greenhouse.io/engineersgate/jobs/7946542",
    "posted_at": "2026-05-20",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "engineers-gate-8196369a69ee",
+   "employer": "Engineers Gate",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern",
+   "location": "Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 50,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/engineersgate/jobs/8317827",
+   "posted_at": "2026-10-23",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -1197,72 +1197,6 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-2a0f7a1c1c2a",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - Fixed Income Sustainability Team",
-   "location": "Remote, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869913",
-   "posted_at": "2026-10-05",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-c9a6df992095",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - International Investment Marketing",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869923",
-   "posted_at": "2026-10-02",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "franklin-templeton-d982d657e909",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -1296,34 +1230,34 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-08534342a716",
-   "employer": "Franklin Templeton",
+   "id": "lazard-726e69abaf9d",
+   "employer": "Lazard",
    "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Investment Accounting and Control",
-   "location": "Poznan, Poland",
+   "platform": "oracle",
+   "title": "2028 Summer Analyst - New York Corporate Finance Advisory",
+   "location": "New York, United States",
    "countries": [
-    "PL"
+    "US"
    ],
    "country_names": [
-    "Poland"
+    "United States"
    ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
+   "region": "Rest of world",
+   "family": "Treasury",
    "role_level": "low",
    "score": 22,
    "score_breakdown": {
     "role": 10,
-    "geo": 12,
+    "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
+   "timing": "summer",
+   "start": "2028",
+   "deadline": "2028-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869915",
-   "posted_at": "2026-10-02",
+   "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6767",
+   "posted_at": "2026-10-23",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -1411,6 +1345,39 @@
    "deadline_source": "estimée",
    "url": "https://careers-stifel.icims.com/jobs/9994/treasury-management-intern--summer-2027/job?in_iframe=1",
    "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "td-securities-cdf831c16fd7",
+   "employer": "TD Securities",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Global Markets Intern/ Co-op",
+   "location": "Toronto, Ontario",
+   "countries": [
+    "CA"
+   ],
+   "country_names": [
+    "Canada"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets-Intern--Co-op_R_1518670",
+   "posted_at": "2026-10-23",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -1507,11 +1474,11 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-0bf126e8073c",
+   "id": "franklin-templeton-5e26a60d9c10",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
+   "title": "Intern (TGI - Equity Research/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -1533,74 +1500,8 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869532",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-733847b5ac25",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (Multi-Asset/ Investment Strategy)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869440",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-e5287d07cedb",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869422",
-   "posted_at": "2026-09-23",
+   "url": "https://careers.franklintempleton.com/us/en/job/869384",
+   "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true

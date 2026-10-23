@@ -31,7 +31,7 @@ import yaml
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from tracker import filters  # noqa: E402
+from tracker import filters, gha  # noqa: E402
 from tracker.adapters import get_adapter  # noqa: E402
 from tracker.http import PoliteClient, RobotsDisallowed  # noqa: E402
 from tracker.models import Target, slugify  # noqa: E402
@@ -292,7 +292,7 @@ def main(argv=None) -> int:
     (OUT / "results.json").write_text(json.dumps(results, indent=1, ensure_ascii=False), encoding="utf-8")
     (OUT / "results.md").write_text(to_markdown(results), encoding="utf-8")
     found = sum(1 for r in results if r["best"])
-    print(f"::notice title=Discovery::{found}/{len(results)} employers with a working candidate")
+    gha.notice("Discovery", [f"{found}/{len(results)} employers with a working candidate"])
     return 0
 
 

@@ -175,7 +175,7 @@ function renderFoCard(f) {
   const title = el("h3", "title");
   if (f.lien) {
     const a = el("a", "", f.nom);
-    a.href = f.lien; a.target = "_blank"; a.rel = "noopener";
+    setLink(a, f.lien);
     title.append(a);
   } else {
     title.textContent = f.nom;

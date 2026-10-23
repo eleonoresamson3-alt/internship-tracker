@@ -173,6 +173,31 @@ const state = {
 
 const $ = (id) => document.getElementById(id);
 
+// Every URL shown on the site comes from scraped pages, RSS feeds or files the
+// user imports: only absolute http(s) links are ever put in an href.
+function safeUrl(value) {
+  if (typeof value !== "string" || !value.trim()) return "";
+  try {
+    const url = new URL(value.trim());
+    return (url.protocol === "https:" || url.protocol === "http:") && url.hostname ? url.href : "";
+  } catch {
+    return "";
+  }
+}
+
+// External link: checked URL, new tab, no opener and no referrer. An unsafe URL leaves plain text.
+function setLink(a, url) {
+  const safe = safeUrl(url);
+  if (safe) {
+    a.href = safe;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+  } else {
+    a.removeAttribute("href");
+  }
+  return a;
+}
+
 // ---------------------------------------------------------------- storage
 
 function loadTracking() {
@@ -362,19 +387,19 @@ function renderStatus(generatedAt, errors) {
   const fmt = when ? when.toLocaleString("fr-FR", { dateStyle: "medium", timeStyle: "short" }) : "inconnue";
   const failed = errors ? errors.employers_failed : 0;
   const total = errors ? errors.employers_total : 0;
-  $("status").innerHTML = `Dernière mise à jour : <strong>${fmt}</strong><br>` +
-    (errors ? `${total - failed}/${total} employeurs OK` : "");
+  const strong = document.createElement("strong");
+  strong.textContent = fmt;
+  $("status").replaceChildren("Dernière mise à jour : ", strong, document.createElement("br"),
+    errors ? `${total - failed}/${total} employeurs OK` : "");
   if (errors && errors.errors && errors.errors.length) {
     $("errors").hidden = false;
     $("errors-summary").textContent = `${errors.errors.length} employeur(s) en erreur lors du dernier passage`;
     const list = $("errors-list");
-    list.innerHTML = "";
+    list.replaceChildren();
     for (const e of errors.errors) {
       const li = document.createElement("li");
       const a = document.createElement("a");
-      a.href = e.careers_url;
-      a.target = "_blank";
-      a.rel = "noopener";
+      setLink(a, e.careers_url);
       a.textContent = e.employer;
       const code = document.createElement("code");
       code.textContent = ` ${e.platform} — ${e.error}`;
@@ -531,7 +556,7 @@ function renderCard(job) {
   }
 
   const link = node.querySelector(".title a");
-  if (job.url) link.href = job.url;
+  setLink(link, job.url);
   link.textContent = job.title;
   node.querySelector(".employer").textContent = job.employer;
   node.querySelector(".type").textContent = TYPE_LABEL[job.employer_type] || "";
@@ -635,7 +660,7 @@ function companyScore(c) {
 function renderCompany(c) {
   const node = $("company-tpl").content.firstElementChild.cloneNode(true);
   const link = node.querySelector(".title a");
-  link.href = c.careers_url;
+  setLink(link, c.careers_url);
   link.textContent = c.name;
   const badge = node.querySelector(".score");
   badge.textContent = c.score.total;
@@ -785,7 +810,7 @@ function renderSoon() {
   $("soon-list").replaceChildren(...shown.map((j) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
-    a.href = j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = j.title;
+    setLink(a, j.url); a.textContent = j.title;
     const when = document.createElement("span");
     when.className = "when";
     const n = daysLeft(j);
@@ -824,7 +849,9 @@ function renderPipeline() {
     const b = document.createElement("button");
     b.type = "button";
     b.className = current === value ? "on" : "";
-    b.innerHTML = `${label}<strong>${counts[value] || 0}</strong>`;
+    const n = document.createElement("strong");
+    n.textContent = counts[value] || 0;
+    b.append(label, n);
     b.addEventListener("click", () => {
       $("f-status").value = current === value ? "" : value;
       render();
@@ -917,7 +944,7 @@ function renderArticle(a) {
   badge.textContent = a.score;
   badge.classList.add(scoreClass(a.score));
   const link = node.querySelector(".title a");
-  link.href = a.link;
+  setLink(link, a.link);
   link.textContent = a.title;
   node.querySelector(".source").textContent = a.sources.length > 1 ? `${a.source} + ${a.sources.length - 1} autre(s)` : a.source;
   if (a.sources.length > 1) node.querySelector(".source").title = a.sources.join(", ");
@@ -988,7 +1015,7 @@ function renderCalendar() {
       + (m.note ? ` · ${m.note}` : "") + (after ? ` · suivante : ${frDate(after.date)}` : ""));
     if (m.source_url) {
       const a = document.createElement("a");
-      a.href = m.source_url; a.target = "_blank"; a.rel = "noopener"; a.className = "src";
+      setLink(a, m.source_url); a.className = "src";
       a.textContent = m.source === "manual" ? "liste manuelle" : "source";
       li.append(" ", a);
     }
@@ -1135,7 +1162,7 @@ function renderAnalyses() {
     (a.sources || []).forEach((s, i) => {
       if (i) src.append(" · ");
       const link = el("a", "", s.source ? `${s.source} – ${s.title}` : s.title);
-      link.href = s.url; link.target = "_blank"; link.rel = "noopener";
+      setLink(link, s.url);
       src.append(link);
     });
     card.append(src);
@@ -1161,7 +1188,7 @@ function renderNews() {
   $("must-read").replaceChildren(...day.slice(0, 10).map((a) => {
     const li = document.createElement("li");
     const link = document.createElement("a");
-    link.href = a.link; link.target = "_blank"; link.rel = "noopener"; link.textContent = a.title;
+    setLink(link, a.link); link.textContent = a.title;
     const meta = document.createElement("div");
     meta.className = "meta";
     meta.textContent = `${a.source} · ${fmtTime(articleTime(a))} · ${THEME_LABEL[a.themes[0]] || "Autre"}`;
@@ -1281,7 +1308,10 @@ function deleteEditing() {
 const CSV_COLUMNS = ["id", "employer", "title", "location", "country", "url", "score", "family", "timing", "start", "first_seen", "manual", "status", "applied_on", "notes"];
 
 function csvEscape(value) {
-  const s = String(value ?? "");
+  let s = String(value ?? "");
+  // A cell starting with = + - @ (or tab / CR) would be run as a formula by Excel or
+  // LibreOffice: scraped titles must never become formulas on the user's computer.
+  if (/^[=+\-@\t\r]/.test(s)) s = "'" + s;
   return /[",\n\r;]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
@@ -1341,7 +1371,8 @@ function importCsv(file) {
       if (!id) continue;
       const rawStatus = (r[col("status")] || "").trim();
       const status = labelToStatus[rawStatus.toLowerCase()] ?? (STATUS_LABEL[rawStatus] !== undefined ? rawStatus : "");
-      const get = (name) => (col(name) >= 0 ? r[col(name)] || "" : "").trim();
+      // The export prefixes formula-like cells with ' (see csvEscape): remove it again.
+      const get = (name) => (col(name) >= 0 ? r[col(name)] || "" : "").trim().replace(/^'(?=[=+\-@])/, "");
       let job = state.jobs.find((j) => j.id === id);
       if (!job && (get("manual") === "oui" || id.startsWith("manual-"))) {
         job = { id, manual: true, active: true, title: get("title"), employer: get("employer"), url: get("url"),
