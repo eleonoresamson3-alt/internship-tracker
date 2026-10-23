@@ -11,6 +11,14 @@ JOBS_FILE = DATA_DIR / "jobs.json"
 NEW_TODAY_FILE = DATA_DIR / "new_today.json"
 ERRORS_FILE = DATA_DIR / "errors.json"
 
+# News watch (tracker/news)
+NEWS_SOURCES_FILE = ROOT / "news_sources.yaml"
+NEWS_FILE = DATA_DIR / "news.json"
+MARKET_FILE = DATA_DIR / "market.json"
+NEWS_ERRORS_FILE = DATA_DIR / "news_errors.json"
+CALENDAR_FILE = DATA_DIR / "calendar.json"
+NEWS_SUMMARY_FILE = DATA_DIR / "news_summary.json"   # optional, see tracker/news/summary.py
+
 REPO_URL = "https://github.com/eleonoresamson3-alt/internship-tracker"
 USER_AGENT = (
     "InternshipTracker/1.0 (personal job-search tool; "

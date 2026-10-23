@@ -27,6 +27,8 @@ on GitHub Pages.
 - Offers that are gone (removed by the employer, or past a stated deadline) disappear by
   themselves, except those already applied to, which stay in *Mon suivi*
 - Last update time and the list of employers that failed on the last run
+- **Actualité** tab: a daily financial news watch for interview preparation (see
+  [News watch](#news-watch-actualité-tab))
 
 ## How it works
 
@@ -87,14 +89,145 @@ start and graduation are kept: set `EARLIEST_START` (June 2027) and `GRADUATION_
 ("Stage – Mars 2027") is dropped; an offer with only a year ("Off-cycle 2027") is kept. Offers with no date stay in the list, labelled
 "Calendrier inconnu".
 
+## News watch (*Actualité* tab)
+
+A second module, run by the same daily workflow (separate step: a news problem never blocks the
+internship tracker), prepares about ten minutes of reading for pricing / structuring interviews.
+
+```
+news_sources.yaml ──► tracker/news/run.py ──► feeds.py     (RSS / Atom, PoliteClient, robots.txt)
+                                │              classify.py  (9 themes, FR + EN keywords, score 0–100)
+                                │              dedupe.py    (same story across sources, 30-day history)
+                                │              market.py    (ECB, Bundesbank, FRED)
+                                │              calendar.py  (ECB and Fed meeting dates)
+                                ▼
+   data/news.json · market.json · calendar.json · news_errors.json ──► Actualité tab
+   tracker/news/summary.py (optional) ──► data/news_summary.json
+```
+
+**On the site.**
+
+- Market banner: level and 1-day / 1-week / 1-month change (in % for prices, in basis points for
+  rates), green / red. A series that cannot be obtained legally and for free shows *indisponible*
+  with the reason as a tooltip; nothing is ever estimated.
+- Next ECB and Fed monetary policy meetings.
+- *Aujourd'hui*: the optional summary, the 10 most important articles of the last 24 hours, then
+  all of them with search and theme / source filters.
+- *Semaine*: the important articles (score ≥ 30) of the last 7 days grouped by main theme.
+- *À retenir*: articles marked with ☆, with CSV export. "Lu" and "à retenir" marks are stored in
+  the browser's `localStorage` only (key `internship-tracker.v1.news`), never in the repository.
+- Sources or market series that failed on the last run are listed discreetly under the banner.
+
+**Themes and score** ([`tracker/news/classify.py`](tracker/news/classify.py)). Keywords in French
+and English, accents and case ignored, title counted twice. Score = weight of the main theme + half
+of the second theme's + 10 for an official source + 15 per additional source covering the same
+story (at most +30), capped at 100.
+
+| Theme | Weight |
+|---|---|
+| Central banks and rates; volatility and derivatives; structured products | 40 |
+| Credit and sovereign debt | 25 |
+| FX and commodities; macro and inflation; regulation | 20 |
+| Equity markets; banks and financial sector | 15 |
+| No theme | 5 |
+
+**Deduplication** ([`tracker/news/dedupe.py`](tracker/news/dedupe.py)). Two titles are the same
+story when they share at least 3 significant words and 60 % of the shorter title's significant
+words; the story keeps every source that covered it. History: 30 days in `data/news.json`, and
+the whole history is re-classified on each run.
+
+### Sources
+
+Only public, free RSS feeds are used: headlines, publication time and the publisher's own RSS
+abstract, with a link to the original article. `robots.txt` is checked before every request.
+Feeds are tested on each run; a failing feed is logged and the others continue. A feed whose
+newest item is more than 14 days old is reported as *stale*.
+
+| Source | Feed | Type |
+|---|---|---|
+| ECB (press releases, blog) | `ecb.europa.eu/rss/press.html`, `/rss/blog.html` | official |
+| Federal Reserve | `federalreserve.gov/feeds/press_all.xml` | official |
+| Bank of England | `bankofengland.co.uk/rss/news` | official |
+| BIS | `bis.org/doclist/all_pressrels.rss` | official |
+| AMF | `amf-france.org/fr/flux-rss/display/23` | official |
+| L'Agefi | `agefi.fr/index.rss` | press |
+| Financial Times (Markets, Global economy) | `ft.com/markets?format=rss`, `/global-economy?format=rss` | press |
+| MarketWatch Top Stories (Dow Jones public feed) | `feeds.content.dowjones.io/public/rss/mw_topstories` | press |
+| Investing.com France | `fr.investing.com/rss/news.rss` | press |
+| Le Monde – Économie | `lemonde.fr/economie/rss_full.xml` | press |
+
+Tested and rejected:
+
+| Source | Reason |
+|---|---|
+| Les Echos | every feed (`services.lesechos.fr/rss/...`, `lesechos.fr/rss`) answers 403 Forbidden to scripts |
+| Reuters | no public RSS feed since 2020 |
+| Banque de France | no RSS feed found (`/rss`, `/rss.xml`: 403 / 404); press releases are only an HTML page |
+| IMF | the RSS URLs (`imf.org/en/News/RSS`, `external/rss/feeds.aspx`) return 404 or an HTML page |
+| CNBC | `robots.txt` disallows its RSS search endpoint |
+| ESMA, Zonebourse | 403 Forbidden |
+| Boursorama, La Tribune | no RSS at the tested URLs (404) |
+| Risk.net | no public feed (404), and paid content |
+| MarketWatch Market Pulse | the feed answers but is frozen (newest item from July 2025) |
+
+Paid content (FT, L'Agefi) is only linked: log in on the publisher's site with your own account
+(an ENSAE / HEC subscription works) to read full articles. No credential is ever stored here.
+
+### Market data
+
+Free official sources, no API key: ECB Data Portal (EUR/USD reference rate, €STR, deposit
+facility rate), Deutsche Bundesbank (German 2-year and 10-year yields from the yield curve), FRED
+of the St. Louis Fed (S&P 500, VIX, Brent, US 2-year and 10-year Treasury yields). Each series is
+configured in `news_sources.yaml`.
+
+| Series | Status | Why |
+|---|---|---|
+| CAC 40 | *indisponible* | Euronext does not publish free reusable data |
+| Euro Stoxx 50, VSTOXX | *indisponible* | STOXX indices are licensed |
+| Gold | *indisponible* | the LBMA price is licensed and FRED no longer distributes it |
+| France 2-year and 10-year | *indisponible* | the Banque de France Webstat API needs a (free) key that is not configured |
+
+FRED and some official series are published with a delay of one business day; each tile shows
+the date of its last value.
+
+### Central bank calendar
+
+[`tracker/news/calendar.py`](tracker/news/calendar.py) reads the ECB Governing Council calendar
+and the Fed FOMC calendar from their official pages. If a page cannot be read, the manual list
+`calendar_manual` in `news_sources.yaml` is used for that bank (copied from the same official
+pages; update it once a year).
+
+### Optional daily summary (off by default)
+
+[`tracker/news/summary.py`](tracker/news/summary.py) runs only if the repository has an
+`ANTHROPIC_API_KEY` secret. It sends the headlines and RSS abstracts of the last 24 hours (top 40)
+and of the rest of the week (top 30) to the Anthropic API and shows on the site a French summary
+of about 200 words (5 facts and what they imply for rates, volatility and structured products)
+and 3 possible interview questions. The model is told to use only the headlines provided; the
+site labels the text as generated and to be checked against the articles.
+
+- **Turn it on:** create an API key at console.anthropic.com (with a payment method), then
+  *Settings → Secrets and variables → Actions → New repository secret*, name `ANTHROPIC_API_KEY`.
+  Delete the secret to turn it off.
+- **Cost:** model `claude-opus-5-5`, $4 per million input tokens and $20 per million output
+  tokens. One call per day of about 3,000–6,000 input tokens and 1,000–3,000 output tokens
+  (thinking included) costs about $0.03–0.08 per day, i.e. **about $1–2.5 per month**. Changing
+  `MODEL` to `claude-haiku-5-5` ($0.10 / $0.50 per million tokens) would cost a few cents per
+  month, with a less thorough summary. Setting a monthly spend limit in the Anthropic console is
+  recommended.
+- **Server-side fallback:** the call enables the API's server-side fallback, so a request declined
+  by a safety classifier is retried on a fallback model instead of failing.
+- If the call fails, nothing is written and the site simply shows no summary.
+
 ## Repository layout
 
 | Path | Content |
 |---|---|
 | `targets.yaml` | Employers: platform, careers URL, adapter parameters |
-| `tracker/` | Scraper (Python 3.11) |
-| `tests/` | Unit tests for the filter, the score, country detection and the history merge |
-| `data/` | `jobs.json` (history), `new_today.json`, `errors.json`, updated by the workflow |
+| `news_sources.yaml` | News feeds, market series and the manual central bank calendar |
+| `tracker/` | Scraper (Python 3.11); `tracker/news/` is the news watch |
+| `tests/` | Unit tests for the filter, the score, country detection, the history merge, news classification, deduplication and calendar parsing |
+| `data/` | `jobs.json` (history), `new_today.json`, `errors.json`, and the news files (`news.json`, `market.json`, `calendar.json`, `news_errors.json`, optional `news_summary.json`), updated by the workflow |
 | `docs/` | Static site (HTML / CSS / vanilla JS); `docs/employers.json` is generated by `tools/build_targets.py` |
 | `tools/` | `discover.py` (detects and tests each employer's platform), `employers.yaml` (its input), `build_targets.py` + `overrides.yaml` (generate `targets.yaml`) |
 | `.github/workflows/` | `daily.yml` (scrape + deploy at 05:00 UTC), `discover.yml` |
@@ -106,6 +239,7 @@ pip install -r requirements.txt
 python -m pytest -q
 python -m tracker.run --dry-run                 # print what would be kept
 python -m tracker.run --only "JPMorgan"         # update data/ for one employer
+python -m tracker.news.run                      # news, market data and calendar (--all also tries disabled feeds)
 python -m http.server -d docs                   # then copy data/*.json to docs/data/ to preview
 ```
 

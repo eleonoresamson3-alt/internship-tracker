@@ -1,4 +1,6 @@
 requests>=2.31
 PyYAML>=6.0
 beautifulsoup4>=4.12
+feedparser>=6.0
+anthropic>=2.1   # only used by the optional news summary
 pytest>=8.0

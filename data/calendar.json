@@ -1,0 +1,229 @@
+{
+ "generated_at": "2026-10-23T12:22:02+00:00",
+ "meetings": [
+  {
+   "bank": "Fed",
+   "date": "2026-10-27",
+   "end": "2026-10-28",
+   "note": "",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2026-10-28",
+   "end": "2026-10-29",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2026-12-08",
+   "end": "2026-12-09",
+   "note": "avec projections économiques (SEP)",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2026-12-16",
+   "end": "2026-12-17",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-01-26",
+   "end": "2027-01-27",
+   "note": "",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-02-03",
+   "end": "2027-02-04",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-03-16",
+   "end": "2027-03-17",
+   "note": "avec projections économiques (SEP)",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-03-17",
+   "end": "2027-03-18",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-04-27",
+   "end": "2027-04-28",
+   "note": "",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-04-28",
+   "end": "2027-04-29",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-06-08",
+   "end": "2027-06-09",
+   "note": "avec projections économiques (SEP)",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-06-09",
+   "end": "2027-06-10",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-07-21",
+   "end": "2027-07-22",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-07-27",
+   "end": "2027-07-28",
+   "note": "",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-09-08",
+   "end": "2027-09-09",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-09-14",
+   "end": "2027-09-15",
+   "note": "avec projections économiques (SEP)",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-10-26",
+   "end": "2027-10-27",
+   "note": "",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-10-27",
+   "end": "2027-10-28",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "Fed",
+   "date": "2027-12-07",
+   "end": "2027-12-08",
+   "note": "avec projections économiques (SEP)",
+   "source": "official",
+   "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "bank": "BCE",
+   "date": "2027-12-15",
+   "end": "2027-12-16",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-02-02",
+   "end": "2028-02-03",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-03-22",
+   "end": "2028-03-23",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-05-03",
+   "end": "2028-05-04",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-06-07",
+   "end": "2028-06-08",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-07-19",
+   "end": "2028-07-20",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-09-06",
+   "end": "2028-09-07",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-10-11",
+   "end": "2028-10-12",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  },
+  {
+   "bank": "BCE",
+   "date": "2028-12-06",
+   "end": "2028-12-07",
+   "note": "décision et conférence de presse le dernier jour",
+   "source": "official",
+   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+  }
+ ]
+}

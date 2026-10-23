@@ -1,0 +1,119 @@
+# Sources of the "Actualité" tab (tracker/news).
+#
+# feeds:   public RSS / Atom feeds. official: true for central banks, BIS, IMF,
+#          regulators (small score bonus). enabled: false keeps a source listed
+#          without fetching it; notes says why.
+# market:  daily market series. provider: ecb | bundesbank | fred | unavailable.
+#          unit "%" = rate (changes in basis points), otherwise changes in %.
+#          step: true = only published when it changes (policy rates).
+
+feeds:
+  # Central banks, BIS and regulators (official: true)
+  - name: BCE
+    url: https://www.ecb.europa.eu/rss/press.html
+    lang: en
+    official: true
+
+  - name: BCE – Blog
+    url: https://www.ecb.europa.eu/rss/blog.html
+    lang: en
+    official: true
+
+  - name: Fed
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+    lang: en
+    official: true
+
+  - name: Bank of England
+    url: https://www.bankofengland.co.uk/rss/news
+    lang: en
+    official: true
+
+  - name: BRI
+    url: https://www.bis.org/doclist/all_pressrels.rss
+    lang: en
+    official: true
+
+  - name: AMF
+    url: https://www.amf-france.org/fr/flux-rss/display/23
+    lang: fr
+    official: true
+    notes: "flux « actualités et communiqués » de la page https://www.amf-france.org/fr/abonnements-flux-rss"
+
+  # Financial press (headlines and RSS abstracts only; full articles stay on the publisher's site)
+  - name: L'Agefi
+    url: https://www.agefi.fr/index.rss
+    lang: fr
+
+  - name: Financial Times – Markets
+    url: https://www.ft.com/markets?format=rss
+    lang: en
+
+  - name: Financial Times – Global economy
+    url: https://www.ft.com/global-economy?format=rss
+    lang: en
+
+  - name: MarketWatch
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+    lang: en
+
+  - name: Investing.com France
+    url: https://fr.investing.com/rss/news.rss
+    lang: fr
+
+  - name: Le Monde – Économie
+    url: https://www.lemonde.fr/economie/rss_full.xml
+    lang: fr
+
+  # Tested and rejected (kept here so they are not tried again by mistake; see README)
+  - name: Les Echos – Marchés
+    url: https://services.lesechos.fr/rss/les-echos-finance-marches.xml
+    lang: fr
+    enabled: false
+    notes: "403 Forbidden for scripts (also the économie and marchés feeds and the /rss index)"
+
+  - name: MarketWatch – Market Pulse
+    url: https://feeds.content.dowjones.io/public/rss/mw_marketpulse
+    lang: en
+    enabled: false
+    notes: "answers, but frozen: newest item from July 2025"
+
+market:
+  - {key: cac40, label: CAC 40, group: Actions, unit: pts, provider: unavailable,
+     note: "Euronext ne publie pas de données gratuites réutilisables"}
+  - {key: eurostoxx50, label: Euro Stoxx 50, group: Actions, unit: pts, provider: unavailable,
+     note: "indice STOXX sous licence payante"}
+  - {key: sp500, label: S&P 500, group: Actions, unit: pts, provider: fred, series: SP500}
+  - {key: vix, label: VIX, group: Volatilité, unit: pts, provider: fred, series: VIXCLS}
+  - {key: vstoxx, label: VSTOXX, group: Volatilité, unit: pts, provider: unavailable,
+     note: "indice STOXX sous licence payante"}
+  - {key: eurusd, label: EUR/USD (réf. BCE), group: Change et matières premières, unit: "", provider: ecb,
+     series: EXR/D.USD.EUR.SP00.A}
+  - {key: brent, label: Brent ($/baril), group: Change et matières premières, unit: $, provider: fred,
+     series: DCOILBRENTEU}
+  - {key: gold, label: Or, group: Change et matières premières, unit: $, provider: unavailable,
+     note: "prix LBMA sous licence ; FRED ne le diffuse plus"}
+  - {key: estr, label: €STR, group: Taux, unit: "%", provider: ecb, series: EST/B.EU000A2X2A25.WT}
+  - {key: dfr, label: Taux de dépôt BCE, group: Taux, unit: "%", provider: ecb, series: FM/B.U2.EUR.4F.KR.DFR.LEV,
+     step: true}
+  - {key: de2y, label: Allemagne 2 ans, group: Taux, unit: "%", provider: bundesbank,
+     series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A}
+  - {key: de10y, label: Allemagne 10 ans, group: Taux, unit: "%", provider: bundesbank,
+     series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A}
+  - {key: fr2y, label: France 2 ans, group: Taux, unit: "%", provider: unavailable,
+     note: "Banque de France Webstat : clé API gratuite requise (à configurer)"}
+  - {key: fr10y, label: France 10 ans, group: Taux, unit: "%", provider: unavailable,
+     note: "Banque de France Webstat : clé API gratuite requise (à configurer)"}
+  - {key: us2y, label: États-Unis 2 ans, group: Taux, unit: "%", provider: fred, series: DGS2}
+  - {key: us10y, label: États-Unis 10 ans, group: Taux, unit: "%", provider: fred, series: DGS10}
+
+# Fallback when the official ECB or Fed calendar page cannot be read: copied by hand
+# from the official pages (ecb.europa.eu/press/calendars/mgcgc, federalreserve.gov
+# fomccalendars.htm). Never add a date that is not published there.
+calendar_manual:
+  - {bank: BCE, date: 2026-10-28, end: 2026-10-29}
+  - {bank: BCE, date: 2026-12-16, end: 2026-12-17}
+  - {bank: BCE, date: 2027-02-03, end: 2027-02-04}
+  - {bank: BCE, date: 2027-03-17, end: 2027-03-18}
+  - {bank: Fed, date: 2026-10-27, end: 2026-10-28}
+  - {bank: Fed, date: 2026-12-08, end: 2026-12-09, note: "avec projections économiques (SEP)"}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T11:37:24+00:00",
+ "generated_at": "2026-10-23T12:13:12+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -12626,6 +12626,72 @@
    "active": true
   },
   {
+   "id": "franklin-templeton-2a0f7a1c1c2a",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - Fixed Income Sustainability Team",
+   "location": "Remote, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869913",
+   "posted_at": "2026-10-05",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-c9a6df992095",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - International Investment Marketing",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869923",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "franklin-templeton-d982d657e909",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -12654,6 +12720,39 @@
    "deadline_source": "estimée",
    "url": "https://careers.franklintempleton.com/us/en/job/869912",
    "posted_at": "2026-10-01",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-08534342a716",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern – Investment Accounting and Control",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869915",
+   "posted_at": "2026-10-02",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -15915,11 +16014,11 @@
    "active": true
   },
   {
-   "id": "franklin-templeton-5e26a60d9c10",
+   "id": "franklin-templeton-0bf126e8073c",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (TGI - Equity Research/ AI Automation)",
+   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -15941,8 +16040,74 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869384",
-   "posted_at": "2026-09-08",
+   "url": "https://careers.franklintempleton.com/us/en/job/869532",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-733847b5ac25",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (Multi-Asset/ Investment Strategy)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869440",
+   "posted_at": "2026-10-13",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-e5287d07cedb",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869422",
+   "posted_at": "2026-09-23",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -17230,35 +17395,6 @@
    "deadline_source": "estimée",
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2214",
    "posted_at": "2026-10-08",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "unicredit-2c14b6553397",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Curricular Internship - Investment and Protection Products Specialist",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
-   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": true
@@ -19232,105 +19368,6 @@
    "active": false
   },
   {
-   "id": "franklin-templeton-2a0f7a1c1c2a",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - Fixed Income Sustainability Team",
-   "location": "Remote, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869913",
-   "posted_at": "2026-10-05",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "franklin-templeton-c9a6df992095",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern - International Investment Marketing",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869923",
-   "posted_at": "2026-10-02",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "franklin-templeton-08534342a716",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Investment Accounting and Control",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869915",
-   "posted_at": "2026-10-02",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
    "id": "pwc-d1c77a785e9f",
    "employer": "PwC",
    "employer_type": "consulting",
@@ -19590,11 +19627,11 @@
    "active": false
   },
   {
-   "id": "franklin-templeton-0bf126e8073c",
+   "id": "franklin-templeton-5e26a60d9c10",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
    "platform": "phenom",
-   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
+   "title": "Intern (TGI - Equity Research/ AI Automation)",
    "location": "Singapore, Singapore",
    "countries": [
     "SG"
@@ -19616,74 +19653,8 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869532",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "franklin-templeton-733847b5ac25",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (Multi-Asset/ Investment Strategy)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869440",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "franklin-templeton-e5287d07cedb",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869422",
-   "posted_at": "2026-09-23",
+   "url": "https://careers.franklintempleton.com/us/en/job/869384",
+   "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": false
@@ -19778,6 +19749,35 @@
    "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Global-Markets--Customized-Solutions-Group-Intern--Co-op-Winter-2027_R_1518509",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "unicredit-2c14b6553397",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Curricular Internship - Investment and Protection Products Specialist",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Curricular-Internship-Investment-and-Protection-Products-Specialist/44275",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": false
   },

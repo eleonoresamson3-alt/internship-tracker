@@ -1,0 +1,78 @@
+{
+ "generated_at": "2026-10-23T12:22:02+00:00",
+ "errors": [],
+ "stats": [
+  {
+   "source": "BCE",
+   "items": 15,
+   "newest": "2026-10-23T08:00+00:00",
+   "oldest": "2026-10-05T08:00+00:00"
+  },
+  {
+   "source": "BCE – Blog",
+   "items": 15,
+   "newest": "2026-10-21T09:00+00:00",
+   "oldest": "2026-08-07T09:00+00:00"
+  },
+  {
+   "source": "Fed",
+   "items": 20,
+   "newest": "2026-10-16T15:00+00:00",
+   "oldest": "2026-09-11T14:00+00:00"
+  },
+  {
+   "source": "Bank of England",
+   "items": 50,
+   "newest": "2026-10-22T20:00+00:00",
+   "oldest": "2026-07-02T09:26+00:00"
+  },
+  {
+   "source": "BRI",
+   "items": 10,
+   "newest": "2026-10-16T00:00+00:00",
+   "oldest": "2026-06-23T00:00+00:00"
+  },
+  {
+   "source": "AMF",
+   "items": 200,
+   "newest": "2026-10-21T08:21+00:00",
+   "oldest": "2022-10-21T14:07+00:00"
+  },
+  {
+   "source": "L'Agefi",
+   "items": 250,
+   "newest": "2026-10-23T11:37+00:00",
+   "oldest": "2026-10-16T04:55+00:00"
+  },
+  {
+   "source": "Financial Times – Markets",
+   "items": 25,
+   "newest": "2026-10-23T12:16+00:00",
+   "oldest": "2026-10-22T05:30+00:00"
+  },
+  {
+   "source": "Financial Times – Global economy",
+   "items": 25,
+   "newest": "2026-10-23T12:16+00:00",
+   "oldest": "2026-10-21T16:31+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "items": 10,
+   "newest": "2026-10-23T12:16+00:00",
+   "oldest": "2026-10-23T08:59+00:00"
+  },
+  {
+   "source": "Investing.com France",
+   "items": 10,
+   "newest": "2026-10-23T12:15+00:00",
+   "oldest": "2026-10-23T12:11+00:00"
+  },
+  {
+   "source": "Le Monde – Économie",
+   "items": 20,
+   "newest": "2026-10-23T12:00+00:00",
+   "oldest": "2026-10-22T07:00+00:00"
+  }
+ ]
+}

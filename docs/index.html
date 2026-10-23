@@ -30,6 +30,7 @@
       <button role="tab" class="tab" data-tab="all" aria-selected="false">Toutes les offres <span class="count" id="count-all">0</span></button>
       <button role="tab" class="tab" data-tab="mine" aria-selected="false">Mon suivi <span class="count" id="count-mine">0</span></button>
       <button role="tab" class="tab" data-tab="companies" aria-selected="false">Entreprises <span class="count" id="count-companies">0</span></button>
+      <button role="tab" class="tab" data-tab="news" aria-selected="false">Actualité <span class="count" id="count-news">0</span></button>
     </nav>
 
     <div class="pipeline" id="pipeline" hidden></div>
@@ -92,6 +93,60 @@
       <h2>⏰ À ne pas rater <span class="soon-hint">clôtures dans les 14 jours (score ≥ 40), hors offres postulées ou masquées</span></h2>
       <ul id="soon-list"></ul>
       <button type="button" class="ghost soon-more" id="soon-more" hidden></button>
+    </section>
+
+    <section id="news-view" hidden aria-label="Actualité">
+      <div class="market" id="market"></div>
+      <p class="news-status" id="news-status"></p>
+
+      <nav class="subnav" aria-label="Vues actualité">
+        <button type="button" class="chip" data-nview="today" aria-pressed="true">Aujourd'hui</button>
+        <button type="button" class="chip" data-nview="week" aria-pressed="false">Semaine</button>
+        <button type="button" class="chip" data-nview="kept" aria-pressed="false">À retenir <span class="count" id="count-kept">0</span></button>
+      </nav>
+
+      <section class="calendar" id="calendar" hidden aria-label="Réunions des banques centrales">
+        <h2 class="section-title">Prochaines réunions de politique monétaire</h2>
+        <ul id="calendar-list"></ul>
+      </section>
+
+      <div id="nview-today">
+      <section class="ai-summary" id="ai-summary" hidden aria-label="Résumé du jour">
+        <h2 class="section-title">Résumé du jour <span class="hint" id="ai-summary-meta"></span></h2>
+        <div id="ai-summary-text"></div>
+        <h3>Questions d'entretien possibles</h3>
+        <ol id="ai-questions"></ol>
+      </section>
+
+      <h2 class="section-title">À lire aujourd'hui</h2>
+      <ol class="must-read" id="must-read"></ol>
+
+      <h2 class="section-title">Tous les articles du jour <span class="count" id="news-day-count">0</span></h2>
+      <section class="filters news-filters" aria-label="Filtres actualité">
+        <input type="search" id="n-search" placeholder="Rechercher dans les titres et résumés" aria-label="Recherche actualité">
+        <div class="filter-grid">
+          <label>Thème<select id="n-theme"><option value="">Tous</option></select></label>
+          <label>Source<select id="n-source"><option value="">Toutes</option></select></label>
+        </div>
+      </section>
+      <div id="news-list" class="list news-list"></div>
+      <p class="empty" id="news-empty" hidden>Aucun article ne correspond.</p>
+      </div>
+
+      <div id="nview-week" hidden>
+        <p class="hint">Les articles importants des 7 derniers jours, groupés par thème principal.</p>
+        <div id="week-groups"></div>
+        <p class="empty" id="week-empty" hidden>Pas encore assez d'historique.</p>
+      </div>
+
+      <div id="nview-kept" hidden>
+        <div class="kept-actions">
+          <p class="hint">Gardés dans ce navigateur uniquement (rien n'est envoyé au dépôt).</p>
+          <button type="button" class="ghost" id="kept-export">Exporter en CSV</button>
+        </div>
+        <div id="kept-list" class="list news-list"></div>
+        <p class="empty" id="kept-empty" hidden>Aucun article retenu. Cliquez sur « ☆ À retenir » sous un article.</p>
+      </div>
     </section>
 
     <p class="result-line" id="result-line"></p>
@@ -177,6 +232,24 @@
   </template>
 
   <div class="toast" id="toast" role="status" hidden><span id="toast-text"></span><button type="button" class="ghost" id="toast-undo">Annuler</button></div>
+
+  <template id="article-tpl">
+    <article class="card article">
+      <div class="card-main">
+        <div class="score" title="Importance"></div>
+        <div class="card-body">
+          <h3 class="title"><a target="_blank" rel="noopener"></a></h3>
+          <p class="meta"><span class="employer source"></span><span class="time"></span></p>
+          <p class="summary"></p>
+          <p class="tags"></p>
+          <div class="article-actions">
+            <button type="button" class="ghost small read-btn">Marquer comme lu</button>
+            <button type="button" class="ghost small keep-btn">☆ À retenir</button>
+          </div>
+        </div>
+      </div>
+    </article>
+  </template>
 
   <script src="app.js"></script>
 </body>
