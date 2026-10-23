@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T11:24:18+00:00",
+ "generated_at": "2026-10-23T11:35:14+00:00",
  "items": [
   {
    "id": "be49da96e5c15cd0",
@@ -229,13 +229,12 @@
    "published": "2026-10-22T20:00+00:00",
    "summary": "Existing regulatory regime was instrumental in actions against former Barclays boss Jes Staley and hedge fund owner Crispin Odey",
    "themes": [
-    "vol_derivatives",
     "banks",
-    "equities"
+    "regulation"
    ],
    "official": false,
    "first_seen": "2026-10-23T11:24+00:00",
-   "score": 47
+   "score": 27
   },
   {
    "id": "ebaa7900e1a4e9c2",
@@ -638,12 +637,11 @@
    "published": "2026-10-08T20:30+00:00",
    "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
    "themes": [
-    "central_banks",
-    "equities"
+    "central_banks"
    ],
    "official": true,
    "first_seen": "2026-10-23T11:24+00:00",
-   "score": 57
+   "score": 50
   },
   {
    "id": "115092f33ede014c",
@@ -807,8 +805,8 @@
    "published": "2026-10-01T00:00+00:00",
    "summary": "Exchanges experiences and views on developments in artificial intelligence for the global banking system and supervisors, modernisation efforts and implications for the Committee’s future work programme...",
    "themes": [
-    "banks",
-    "regulation"
+    "regulation",
+    "banks"
    ],
    "official": true,
    "first_seen": "2026-10-23T11:24+00:00",
@@ -879,11 +877,12 @@
    "published": "2026-09-24T18:30+00:00",
    "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
    "themes": [
-    "central_banks"
+    "central_banks",
+    "regulation"
    ],
    "official": true,
    "first_seen": "2026-10-23T11:24+00:00",
-   "score": 50
+   "score": 60
   }
  ]
 }

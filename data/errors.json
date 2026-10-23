@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-10-23T11:15:28+00:00",
+ "generated_at": "2026-10-23T11:26:25+00:00",
  "employers_total": 143,
- "employers_failed": 0,
- "errors": [],
+ "employers_failed": 1,
+ "errors": [
+  {
+   "employer": "State Street",
+   "platform": "workday",
+   "careers_url": "https://careers.statestreet.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-23T11:27:01+00:00"
+  }
+ ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -73,11 +81,6 @@
    "employer": "BNY",
    "fetched": 355,
    "kept": 18
-  },
-  {
-   "employer": "State Street",
-   "fetched": 0,
-   "kept": 0
   },
   {
    "employer": "Macquarie",
@@ -436,7 +439,7 @@
   },
   {
    "employer": "Euroclear",
-   "fetched": 58,
+   "fetched": 57,
    "kept": 2
   },
   {
@@ -447,7 +450,7 @@
   {
    "employer": "UniCredit",
    "fetched": 19,
-   "kept": 8
+   "kept": 9
   },
   {
    "employer": "BBVA",
@@ -597,7 +600,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 2
+   "kept": 7
   },
   {
    "employer": "Capital Group",
@@ -651,12 +654,12 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 77,
+   "fetched": 75,
    "kept": 0
   },
   {
    "employer": "Thales",
-   "fetched": 109,
+   "fetched": 107,
    "kept": 0
   },
   {
@@ -691,7 +694,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 24,
+   "fetched": 22,
    "kept": 0
   },
   {
