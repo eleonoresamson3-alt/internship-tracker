@@ -166,6 +166,7 @@ const state = {
   newsSummary: null,
   calendar: [],
   newsView: "today",
+  analyses: [],
   newsMarks: loadNewsMarks(),
   contacts: loadContacts(),
 };
@@ -320,6 +321,10 @@ async function load() {
       fetchJson("data/news_summary.json").catch(() => null),
       fetchJson("data/calendar.json").catch(() => ({ meetings: [] })),
     ]);
+    state.analyses = ((await fetchJson("data/analyses.json").catch(() => null)) || {}).days || [];
+    // Open on the analyses when today's (or yesterday's) are there.
+    const recent = new Date(Date.now() - 36 * 3600000).toISOString().slice(0, 10);
+    if (state.analyses.length && state.analyses[0].date >= recent) state.newsView = "analyses";
     state.newsSummary = newsSummary;
     state.calendar = calendar.meetings || [];
     state.news = news.items || [];
@@ -1058,11 +1063,77 @@ function exportKeptCsv() {
   URL.revokeObjectURL(link.href);
 }
 
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;
+  return node;
+}
+
+function renderAnalyses() {
+  const days = state.analyses;
+  const select = $("a-day");
+  if (select.options.length !== days.length) {
+    select.replaceChildren(...days.map((d, i) => new Option(
+      new Date(d.date + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" }), i)));
+  }
+  $("a-empty").hidden = days.length > 0;
+  select.parentElement.hidden = days.length === 0;
+  const day = days[Number(select.value) || 0];
+  if (!day) {
+    $("a-brief").hidden = true;
+    $("a-articles").replaceChildren();
+    $("a-meta").textContent = "";
+    return;
+  }
+  $("a-meta").textContent = "Analyses rédigées automatiquement par Claude à partir des articles du jour : "
+    + "vérifiez les points importants dans les sources.";
+  $("a-brief").hidden = !(day.brief || []).length;
+  $("a-brief-list").replaceChildren(...(day.brief || []).map((b) => el("li", "", b)));
+  $("a-articles").replaceChildren(...day.articles.map((a) => {
+    const card = el("article", "card analysis");
+    const tag = el("span", "tag theme", THEME_LABEL[a.theme] || a.theme);
+    card.append(tag, el("h3", "a-title", a.title), el("p", "a-lead", a.lead));
+    for (const [key, label] of [["what", "Ce qui s'est passé"], ["why", "Pourquoi c'est important"], ["impact", "Impact sur les marchés et les produits"]]) {
+      if (!a[key]) continue;
+      card.append(el("h4", "", label), ...a[key].split(/\n\s*\n/).map((p) => el("p", "", p.trim())));
+    }
+    if (a.interview && a.interview.question) {
+      const box = el("div", "a-interview");
+      box.append(el("h4", "", "En entretien"), el("p", "a-question", a.interview.question));
+      if ((a.interview.hints || []).length) {
+        const ul = el("ul");
+        ul.append(...a.interview.hints.map((h) => el("li", "", h)));
+        const details = el("details");
+        details.append(el("summary", "", "Pistes de réponse"), ul);
+        box.append(details);
+      }
+      card.append(box);
+    }
+    if ((a.glossary || []).length) {
+      const dl = el("dl", "a-glossary");
+      for (const g of a.glossary) dl.append(el("dt", "", g.term), el("dd", "", g.definition));
+      card.append(el("h4", "", "Vocabulaire"), dl);
+    }
+    const src = el("p", "a-sources");
+    src.append("Sources : ");
+    (a.sources || []).forEach((s, i) => {
+      if (i) src.append(" · ");
+      const link = el("a", "", s.source ? `${s.source} – ${s.title}` : s.title);
+      link.href = s.url; link.target = "_blank"; link.rel = "noopener";
+      src.append(link);
+    });
+    card.append(src);
+    return card;
+  }));
+}
+
 function renderNews() {
   renderMarket();
   renderCalendar();
   for (const b of document.querySelectorAll("[data-nview]")) b.setAttribute("aria-pressed", String(b.dataset.nview === state.newsView));
-  for (const v of ["today", "week", "kept"]) $(`nview-${v}`).hidden = v !== state.newsView;
+  for (const v of ["analyses", "today", "week", "kept"]) $(`nview-${v}`).hidden = v !== state.newsView;
+  if (state.newsView === "analyses") renderAnalyses();
   if (state.newsView === "week") renderWeek();
   if (state.newsView === "kept") renderKept();
   renderSummary();
@@ -1304,6 +1375,7 @@ document.querySelectorAll("[data-nview]").forEach((b) => b.addEventListener("cli
   render();
 }));
 $("kept-export").addEventListener("click", exportKeptCsv);
+$("a-day").addEventListener("change", render);
 $("soon-more").addEventListener("click", () => {
   state.soonExpanded = !state.soonExpanded;
   renderSoon();

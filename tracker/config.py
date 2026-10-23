@@ -18,6 +18,7 @@ MARKET_FILE = DATA_DIR / "market.json"
 NEWS_ERRORS_FILE = DATA_DIR / "news_errors.json"
 CALENDAR_FILE = DATA_DIR / "calendar.json"
 NEWS_SUMMARY_FILE = DATA_DIR / "news_summary.json"   # optional, see tracker/news/summary.py
+ANALYSES_FILE = DATA_DIR / "analyses.json"     # written by the scheduled Claude Code session, see ANALYSES.md
 
 REPO_URL = "https://github.com/eleonoresamson3-alt/internship-tracker"
 USER_AGENT = (

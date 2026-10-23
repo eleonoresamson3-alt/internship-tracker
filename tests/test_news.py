@@ -132,3 +132,48 @@ def test_step_series_holds_its_value_until_the_next_change():
     pts = [(date(2026, 6, 11), 2.25), (date(2026, 9, 16), 2.5)]
     c = changes(pts, "%", step=True, today=date(2026, 10, 10))
     assert (c["value"], c["date"], c["d1"], c["w1"], c["m1"]) == (2.5, "2026-10-10", 0.0, 0.0, 25.0)
+
+
+# ---------------------------------------------------------------- analyses
+
+from tracker.news import analyses
+
+
+def _article(**over):
+    art = {"title": "La BCE maintient ses taux", "theme": "central_banks", "lead": "Statu quo attendu.",
+           "what": "Le taux de dépôt reste à 2,50 %.", "why": "L'inflation reste au-dessus de la cible.",
+           "impact": "Courbe plus pentue, volatilité des taux en baisse.",
+           "interview": {"question": "Quel impact sur un autocall ?", "hints": ["taux", "coût de la protection"]},
+           "sources": [{"title": "Communiqué", "url": "https://www.ecb.europa.eu/press/x.html", "source": "BCE"}]}
+    art.update(over)
+    return art
+
+
+def test_valid_analyses_pass():
+    data = {"days": [{"date": "2026-10-24", "brief": ["Statu quo BCE"], "articles": [_article()]}]}
+    assert analyses.validate(data) == []
+
+
+def test_invalid_analyses_are_reported():
+    data = {"days": [{"date": "24/10/2026", "articles": [_article(theme="sport", sources=[{"url": "http://x"}])]}]}
+    problems = " ".join(analyses.validate(data))
+    assert "date" in problems and "theme" in problems and "sources[0]" in problems
+    assert analyses.validate({"days": [{"date": "2026-10-24", "articles": []}]})
+
+
+def test_prune_keeps_recent_days_newest_first():
+    data = {"days": [{"date": "2026-08-01"}, {"date": "2026-10-20"}, {"date": "2026-10-23"}]}
+    kept = analyses.prune(data, today=date(2026, 10, 24))
+    assert [d["date"] for d in kept["days"]] == ["2026-10-23", "2026-10-20"]
+
+
+def test_parse_webstat_rows_and_missing_key(monkeypatch):
+    from tracker.news import market
+    rows = [{"series_key": "X", "time_period_start": "2026-10-22", "obs_value": 3.41},
+            {"series_key": "X", "time_period_start": "2026-10-21", "obs_value": "3.38"},
+            {"series_key": "X", "time_period_start": "2026-10-20", "obs_value": None}]
+    assert market.parse_webstat(rows) == [(date(2026, 10, 21), 3.38), (date(2026, 10, 22), 3.41)]
+    monkeypatch.delenv("WEBSTAT_API_KEY", raising=False)
+    rows, errors = market.fetch_all([{"key": "fr10y", "label": "France 10 ans", "unit": "%",
+                                      "provider": "webstat", "series": "X"}], http=None)
+    assert rows[0]["status"] == "indisponible" and "WEBSTAT_API_KEY" in rows[0]["note"] and errors == []

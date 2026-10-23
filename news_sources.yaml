@@ -3,7 +3,7 @@
 # feeds:   public RSS / Atom feeds. official: true for central banks, BIS, IMF,
 #          regulators (small score bonus). enabled: false keeps a source listed
 #          without fetching it; notes says why.
-# market:  daily market series. provider: ecb | bundesbank | fred | unavailable.
+# market:  daily market series. provider: ecb | bundesbank | fred | webstat | unavailable.
 #          unit "%" = rate (changes in basis points), otherwise changes in %.
 #          step: true = only published when it changes (policy rates).
 
@@ -100,10 +100,10 @@ market:
      series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A}
   - {key: de10y, label: Allemagne 10 ans, group: Taux, unit: "%", provider: bundesbank,
      series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A}
-  - {key: fr2y, label: France 2 ans, group: Taux, unit: "%", provider: unavailable,
-     note: "Banque de France Webstat : clé API gratuite requise (à configurer)"}
-  - {key: fr10y, label: France 10 ans, group: Taux, unit: "%", provider: unavailable,
-     note: "Banque de France Webstat : clé API gratuite requise (à configurer)"}
+  - {key: fr2y, label: France 2 ans, group: Taux, unit: "%", provider: webstat,
+     series: FM.D.FR.EUR.FR2.BB.FR2YT_RR.YLD}
+  - {key: fr10y, label: France 10 ans, group: Taux, unit: "%", provider: webstat,
+     series: FM.D.FR.EUR.FR2.BB.FR10YT_RR.YLD}
   - {key: us2y, label: États-Unis 2 ans, group: Taux, unit: "%", provider: fred, series: DGS2}
   - {key: us10y, label: États-Unis 10 ans, group: Taux, unit: "%", provider: fred, series: DGS10}
 
