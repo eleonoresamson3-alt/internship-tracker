@@ -1,4 +1,9 @@
-from tracker.scoring import role_match, score
+from tracker.scoring import role_match, score as _score
+from tracker.timing import analyse
+
+
+def score(title, location, countries, description=""):
+    return _score(title, location, countries, analyse(title, description))
 
 
 def test_role_levels():
@@ -57,7 +62,9 @@ def test_no_markets_signal_scores_zero():
 def test_timing_bonus():
     base = score("Structuring Intern", "Madrid", ["ES"]).total
     off = score("Structuring Off-Cycle Intern (6 months)", "Madrid", ["ES"]).total
-    assert off > base
+    summer = score("Structuring Summer Intern 2027", "Madrid", ["ES"]).total
+    june = score("Structuring Intern - June 2027", "Madrid", ["ES"]).total
+    assert june > summer > off > base
 
 
 def test_score_is_capped():

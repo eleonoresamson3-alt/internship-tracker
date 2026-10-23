@@ -41,6 +41,27 @@ const FAMILY_LABEL = {
   "Other": "Autre",
 };
 
+const TIMING_LABEL = {
+  june: "Début en juin",
+  summer: "Summer",
+  "off-cycle": "Off-cycle",
+  unknown: "Calendrier inconnu",
+};
+const MONTHS_FR = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
+  "septembre", "octobre", "novembre", "décembre"];
+
+// "june" is a sub-case of summer: offers starting in June are shown first.
+function timingKey(job) {
+  if ((job.start || "").endsWith("-06")) return "june";
+  return job.timing || "unknown";
+}
+
+function startLabel(job) {
+  if (!job.start) return "";
+  const [y, m] = job.start.split("-");
+  return m ? `Début ${MONTHS_FR[Number(m) - 1]} ${y}` : `Début ${y}`;
+}
+
 const state = {
   tab: "new",
   jobs: [],
@@ -150,7 +171,7 @@ function renderStatus(generatedAt, errors) {
 
 // ---------------------------------------------------------------- filters
 
-const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-date", "f-status", "f-score", "f-inactive"];
+const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-timing", "f-year", "f-date", "f-status", "f-score", "f-inactive"];
 
 function fillSelect(id, entries) {
   const select = $(id);
@@ -176,6 +197,15 @@ function fillFilters() {
   fillSelect("f-country", [["__none", "Non précisé"], ...countryEntries]);
   const families = uniq(state.jobs.map((j) => j.family));
   fillSelect("f-family", Object.keys(FAMILY_LABEL).filter((f) => families.includes(f)).map((f) => [f, FAMILY_LABEL[f]]));
+  fillSelect("f-timing", [
+    ["june", "Début en juin"],
+    ["summer", "Summer (dont juin)"],
+    ["off-cycle", "Off-cycle"],
+    ["unknown", "Calendrier inconnu"],
+  ]);
+  // Years come from the data, so new years (2029...) appear by themselves.
+  const years = uniq(state.jobs.map((j) => (j.start || "").slice(0, 4))).sort();
+  fillSelect("f-year", [...years.map((y) => [y, y]), ["__none", "Non précisée"]]);
   fillSelect("f-status", [["__any", "Suivie (tout statut)"], ...STATUSES.slice(1)]);
 }
 
@@ -186,6 +216,8 @@ function currentFilters() {
     type: $("f-type").value,
     country: $("f-country").value,
     family: $("f-family").value,
+    timing: $("f-timing").value,
+    year: $("f-year").value,
     days: Number($("f-date").value) || 0,
     status: $("f-status").value,
     minScore: Number($("f-score").value) || 0,
@@ -232,6 +264,13 @@ function matches(job, f) {
   if (f.country === "__none" && (job.countries || []).length) return false;
   if (f.country && f.country !== "__none" && !(job.countries || []).includes(f.country)) return false;
   if (f.family && job.family !== f.family) return false;
+  if (f.timing) {
+    const key = timingKey(job);
+    const ok = f.timing === "summer" ? key === "summer" || key === "june" : key === f.timing;
+    if (!ok) return false;
+  }
+  if (f.year === "__none" && job.start) return false;
+  if (f.year && f.year !== "__none" && !(job.start || "").startsWith(f.year)) return false;
   if (f.days && daysAgo(job.first_seen) >= f.days) return false;
   if (f.status === "__any" && !(t && t.status)) return false;
   if (f.status && f.status !== "__any" && (!t || t.status !== f.status)) return false;
@@ -285,6 +324,7 @@ function renderCard(job) {
   if (state.newIds.has(job.id)) addTag("Nouveau", "new");
   if (!job.active) addTag(job.archived ? "Archivée" : "Fermée", "closed");
   if (job.family) addTag(FAMILY_LABEL[job.family] || job.family);
+  if (job.timing) addTag(startLabel(job) || TIMING_LABEL[timingKey(job)], timingKey(job) === "june" ? "june" : "");
   (job.country_names || []).slice(0, 3).forEach((c) => addTag(c));
   if (job.first_seen) addTag(`Vue le ${frDate(job.first_seen)}`);
   if (job.posted_at) addTag(`Publiée le ${frDate(job.posted_at)}`);
@@ -364,7 +404,7 @@ function setTab(tab, rerender = true) {
 
 // ---------------------------------------------------------------- CSV
 
-const CSV_COLUMNS = ["id", "employer", "title", "location", "url", "score", "family", "first_seen", "status", "applied_on", "notes"];
+const CSV_COLUMNS = ["id", "employer", "title", "location", "url", "score", "family", "timing", "start", "first_seen", "status", "applied_on", "notes"];
 
 function csvEscape(value) {
   const s = String(value ?? "");

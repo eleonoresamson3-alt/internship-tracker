@@ -194,6 +194,7 @@ button.ghost { background: transparent; color: var(--accent); border-color: var(
   color: var(--muted);
 }
 .tag.new { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.tag.june { background: var(--high-soft); color: var(--high); font-weight: 600; }
 .tag.closed { background: var(--danger-soft); color: var(--danger); }
 
 .tracking { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); }

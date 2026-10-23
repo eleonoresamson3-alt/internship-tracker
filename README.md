@@ -57,9 +57,18 @@ as closed.
 | Role, low priority: other markets roles (sales, rates, credit, equities, risk, portfolio management…) | 10 |
 | Location: France / priority Europe (LU, CH, BE, UK, DE, NL, IT, ES) / other Europe / rest of world | 30 / 20 / 12 / 0 |
 | Paris or London | +5 |
-| Off-cycle, 6 months, 2027 | +10 / +10 / +5 |
+| Start in June / other summer internship / off-cycle | +15 / +12 / +6 |
+| 6-month internship | +5 |
 
 The role is read from the title only. Offers with no markets signal at all score 0 and are dropped.
+
+**Timing.** [`tracker/timing.py`](tracker/timing.py) reads the start month and year from the title
+("Stage – Structuration – Juin 2027") and, when the platform provides it, from the description
+("start date: January 2027", "début du stage : septembre 2027", "ab Juni 2027"), and labels each
+offer *summer*, *off-cycle* or *unknown*. Only internships starting between now and graduation are
+kept: set `GRADUATION_YEAR` in [`tracker/config.py`](tracker/config.py); the start of the window
+moves forward by itself every year. Offers with no date stay in the list, labelled
+"Calendrier inconnu".
 
 ## Repository layout
 

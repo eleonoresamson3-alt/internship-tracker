@@ -18,7 +18,7 @@ from urllib.parse import urlsplit
 
 import yaml
 
-from . import config, filters, geo, scoring, store
+from . import config, filters, geo, scoring, store, timing
 from .adapters import get_adapter
 from .http import PoliteClient
 from .models import RawJob, Target
@@ -54,7 +54,11 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         countries = geo.detect_countries(title) or geo.detect_countries(path)
     if not countries and target.params.get("default_country"):
         countries = [target.params["default_country"]]
-    s = scoring.score(title, raw.location, countries, raw.description)
+    when = timing.analyse(title, raw.description)
+    first, last = config.year_window()
+    if when.year and not first <= when.year <= last:
+        return None  # start date stated in the ad, outside the window
+    s = scoring.score(title, raw.location, countries, when)
     if s.total < config.MIN_SCORE:
         return None
     return {
@@ -71,6 +75,8 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         "role_level": s.role_level,
         "score": s.total,
         "score_breakdown": s.breakdown,
+        "timing": when.kind,
+        "start": when.start,
         "url": raw.url,
         "posted_at": raw.posted_at,
     }

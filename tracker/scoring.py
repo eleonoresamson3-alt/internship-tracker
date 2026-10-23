@@ -7,6 +7,7 @@ import unicodedata
 from dataclasses import dataclass
 
 from . import geo
+from .timing import Timing
 
 # (pattern, role family). Patterns are matched on a lower-case, accent-free text.
 HIGH = [
@@ -58,17 +59,15 @@ GEO_POINTS = {
 }
 CITY_BONUS = {"paris": 5, "london": 5, "la defense": 5}
 
-TIMING = [
-    (r"\boff[\s-]?cycle\b", 10),
-    (r"\b6[\s-]?(months?|mois)\b|\bsix months\b", 10),
-    (r"\b2027\b", 5),
-]
+# Timing priority: internships starting in June first, then other summer
+# internships, then off-cycle; 6-month internships get a small extra.
+TIMING_POINTS = {"june": 15, "summer": 12, "off-cycle": 6, "unknown": 0}
+SIX_MONTHS_POINTS = 5
 
 _COMPILED = {
     level: [(re.compile(p), fam) for p, fam in rules]
     for level, rules in (("high", HIGH), ("medium", MEDIUM), ("low", LOW))
 }
-_TIMING = [(re.compile(p), pts) for p, pts in TIMING]
 
 
 def _norm(text: str) -> str:
@@ -106,7 +105,12 @@ def best_region(countries: list[str]) -> str:
     return min((geo.region_of(c) for c in countries), key=order.index)
 
 
-def score(title: str, location: str, countries: list[str], description: str = "") -> Score:
+def timing_points(timing: Timing) -> int:
+    key = "june" if timing.month == 6 else timing.kind
+    return TIMING_POINTS[key] + (SIX_MONTHS_POINTS if timing.six_months else 0)
+
+
+def score(title: str, location: str, countries: list[str], timing: Timing) -> Score:
     level, family = role_match(title)
     role_pts = ROLE_POINTS.get(level, 0)
 
@@ -115,8 +119,7 @@ def score(title: str, location: str, countries: list[str], description: str = ""
     loc = _norm(location)
     city_pts = max((pts for city, pts in CITY_BONUS.items() if re.search(rf"\b{city}\b", loc)), default=0)
 
-    text = _norm(f"{title} {description[:500]}")
-    timing_pts = sum(pts for pattern, pts in _TIMING if pattern.search(text))
+    timing_pts = timing_points(timing)
 
     # No capital-markets signal at all: the offer is not relevant, whatever its location.
     total = 0 if role_pts == 0 else role_pts + geo_pts + city_pts + timing_pts

@@ -6,6 +6,7 @@ params:
   tenant / site: optional overrides when the URL does not follow the usual pattern
 """
 
+import html
 import re
 from urllib.parse import urlsplit
 
@@ -62,8 +63,9 @@ def fetch(target, http):
             countries = [country] if country else []
             posted = detail.get("startDate", "") or ""
             native_id = detail.get("jobReqId") or path
+            description = re.sub(r"<[^>]+>", " ", html.unescape(detail.get("jobDescription", "") or ""))[:4000]
         except Exception:
-            native_id = path
+            native_id, description = path, ""
         jobs.append(
             RawJob(
                 title=item.get("title", ""),
@@ -72,6 +74,7 @@ def fetch(target, http):
                 native_id=str(native_id),
                 posted_at=posted[:10],
                 countries=countries,
+                description=" ".join(description.split()),
             )
         )
     return dedupe_raw(jobs)
