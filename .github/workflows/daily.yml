@@ -45,6 +45,8 @@ jobs:
           cp -r docs/. _site/
           mkdir -p _site/data
           cp data/*.json _site/data/
+          # Version the assets so browsers load the new site after each update.
+          sed -i "s/style.css\"/style.css?v=${GITHUB_SHA::7}\"/; s/app.js\"/app.js?v=${GITHUB_SHA::7}\"/" _site/index.html
       - name: Report failure
         if: failure()
         run: |
