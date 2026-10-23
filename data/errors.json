@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T10:55:17+00:00",
+ "generated_at": "2026-10-23T11:37:24+00:00",
  "employers_total": 143,
  "employers_failed": 1,
  "errors": [
@@ -8,7 +8,7 @@
    "platform": "workday",
    "careers_url": "https://www.accenture.com/fr-fr/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-23T10:58:11+00:00"
+   "at": "2026-10-23T11:40:31+00:00"
   }
  ],
  "stats": [
@@ -19,7 +19,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 667,
+   "fetched": 666,
    "kept": 43
   },
   {
@@ -124,7 +124,7 @@
   },
   {
    "employer": "Amundi",
-   "fetched": 30,
+   "fetched": 29,
    "kept": 4
   },
   {
@@ -394,7 +394,7 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 12,
+   "fetched": 13,
    "kept": 4
   },
   {
@@ -439,7 +439,7 @@
   },
   {
    "employer": "Euroclear",
-   "fetched": 58,
+   "fetched": 57,
    "kept": 2
   },
   {
@@ -449,8 +449,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 20,
-   "kept": 10
+   "fetched": 19,
+   "kept": 9
   },
   {
    "employer": "BBVA",
@@ -600,7 +600,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 7
+   "kept": 2
   },
   {
    "employer": "Capital Group",
@@ -654,12 +654,12 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 79,
+   "fetched": 74,
    "kept": 0
   },
   {
    "employer": "Thales",
-   "fetched": 108,
+   "fetched": 107,
    "kept": 0
   },
   {
@@ -694,7 +694,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 22,
+   "fetched": 23,
    "kept": 0
   },
   {
