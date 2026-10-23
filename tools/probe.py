@@ -1,5 +1,8 @@
 """Temporary: test candidate news feeds and calendar pages (removed after use)."""
-import re, sys
+import re, sys, builtins
+OUT = []
+def print(*a, **k):
+    OUT.append(" ".join(str(x) for x in a))
 import feedparser
 from bs4 import BeautifulSoup
 from tracker.http import PoliteClient
@@ -74,3 +77,8 @@ for url in ["https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
                 print("   HTML:", str(p)[:2500])
     except Exception as e:
         print(f"CAL ERR {url} | {type(e).__name__}: {str(e)[:120]}")
+
+text = "\n".join(OUT)
+for n, i in enumerate(range(0, len(text), 3500)):
+    chunk = text[i:i+3500].replace("%", "%25").replace("\r", "").replace("\n", "%0A")
+    builtins.print(f"::notice title=Probe {n}::{chunk}")
