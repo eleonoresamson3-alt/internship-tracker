@@ -1,13 +1,21 @@
 {
- "generated_at": "2026-10-23T08:14:54+00:00",
- "employers_total": 105,
- "employers_failed": 0,
- "errors": [],
+ "generated_at": "2026-10-23T08:36:06+00:00",
+ "employers_total": 126,
+ "employers_failed": 1,
+ "errors": [
+  {
+   "employer": "Accenture",
+   "platform": "workday",
+   "careers_url": "https://www.accenture.com/fr-fr/careers",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
+   "at": "2026-10-23T08:39:02+00:00"
+  }
+ ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 6,
-   "kept": 6
+   "fetched": 7,
+   "kept": 5
   },
   {
    "employer": "JPMorgan",
@@ -376,7 +384,7 @@
   },
   {
    "employer": "Bank of England",
-   "fetched": 24,
+   "fetched": 25,
    "kept": 0
   },
   {
@@ -408,11 +416,6 @@
    "employer": "Forvis Mazars",
    "fetched": 145,
    "kept": 1
-  },
-  {
-   "employer": "Accenture",
-   "fetched": 69,
-   "kept": 7
   },
   {
    "employer": "BearingPoint",
@@ -511,7 +514,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 710,
+   "fetched": 714,
    "kept": 0
   },
   {
@@ -526,6 +529,111 @@
   },
   {
    "employer": "Nasdaq (Calypso / Adenza)",
+   "fetched": 3,
+   "kept": 0
+  },
+  {
+   "employer": "Keyrock",
+   "fetched": 8,
+   "kept": 0
+  },
+  {
+   "employer": "Flowdesk",
+   "fetched": 10,
+   "kept": 0
+  },
+  {
+   "employer": "Wintermute",
+   "fetched": 20,
+   "kept": 0
+  },
+  {
+   "employer": "B2C2",
+   "fetched": 4,
+   "kept": 0
+  },
+  {
+   "employer": "GSR",
+   "fetched": 6,
+   "kept": 0
+  },
+  {
+   "employer": "Paradigm",
+   "fetched": 7,
+   "kept": 0
+  },
+  {
+   "employer": "CaixaBank",
+   "fetched": 11,
+   "kept": 0
+  },
+  {
+   "employer": "Commonwealth Bank",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Cboe",
+   "fetched": 100,
+   "kept": 1
+  },
+  {
+   "employer": "Clear Street",
+   "fetched": 45,
+   "kept": 0
+  },
+  {
+   "employer": "AllianceBernstein",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Wellington Management",
+   "fetched": 6,
+   "kept": 1
+  },
+  {
+   "employer": "T. Rowe Price",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Franklin Templeton",
+   "fetched": 100,
+   "kept": 2
+  },
+  {
+   "employer": "Capital Group",
+   "fetched": 7,
+   "kept": 5
+  },
+  {
+   "employer": "Northern Trust",
+   "fetched": 1,
+   "kept": 0
+  },
+  {
+   "employer": "Aberdeen",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "Winton",
+   "fetched": 7,
+   "kept": 0
+  },
+  {
+   "employer": "Garda Capital",
+   "fetched": 14,
+   "kept": 4
+  },
+  {
+   "employer": "Capstone Investment Advisors",
+   "fetched": 14,
+   "kept": 5
+  },
+  {
+   "employer": "Lynx Asset Management",
    "fetched": 3,
    "kept": 0
   }

@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-10-23T08:14:54+00:00",
+ "generated_at": "2026-10-23T08:36:06+00:00",
  "date": "2026-10-23",
  "jobs": [
   {
-   "id": "groupe-credit-agricole-4b38b38efe15",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage Data Officer - Data Management Pricing H/F",
-   "location": "",
+   "id": "capstone-investment-advisors-296c78874e71",
+   "employer": "Capstone Investment Advisors",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Summer 2027 - Quant Internship",
+   "location": "London; London, England, United Kingdom",
    "countries": [
-    "FR"
+    "GB"
    ],
    "country_names": [
-    "France"
+    "United Kingdom"
    ],
-   "region": "France",
+   "region": "Europe (priority)",
    "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 80,
+   "role_level": "medium",
+   "score": 67,
    "score_breakdown": {
-    "role": 50,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
+    "role": 30,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
    },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage-data-officer---data-management-pricing-hf-reference--2026-108286--/",
-   "posted_at": "",
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8859054002",
+   "posted_at": "2026-09-30",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -224,6 +224,37 @@
    "active": true
   },
   {
+   "id": "wellington-management-422d921fafc9",
+   "employer": "Wellington Management",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Investment Platform Industrial Placement Internship Programme (London)",
+   "location": "London, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "url": "https://wellington.wd5.myworkdayjobs.com/External/job/London-United-Kingdom/XMLNAME-2027-Investment-Platform-Industrial-Placement-Internship-Programme--London-_R94930",
+   "posted_at": "2026-10-01",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "worldquant-df9592ffac2c",
    "employer": "WorldQuant",
    "employer_type": "hedge_fund",
@@ -255,6 +286,163 @@
    "active": true
   },
   {
+   "id": "capital-group-600d023da681",
+   "employer": "Capital Group",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "MBA Equity Investment Analyst Summer Associate (Europe)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/London/MBA-Equity-Investment-Analyst-Summer-Associate--Europe-_JR5920",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "capital-group-de7987886db3",
+   "employer": "Capital Group",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "MBA Fixed Income Investment Analyst Summer Associate (Europe)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/London/MBA-Fixed-Income-Investment-Analyst-Summer-Associate--Europe-_JR5922",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "capstone-investment-advisors-50b140b34d85",
+   "employer": "Capstone Investment Advisors",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Summer 2027 - Investment Internship LDN",
+   "location": "London; London, England, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8828058002",
+   "posted_at": "2026-09-21",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "capstone-investment-advisors-e2fdef0839c2",
+   "employer": "Capstone Investment Advisors",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Summer 2027 - Risk Internship",
+   "location": "London; London, England, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8888123002",
+   "posted_at": "2026-10-14",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "capstone-investment-advisors-a9cc4ae8d29c",
+   "employer": "Capstone Investment Advisors",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Summer 2027 - Risk Tech Internship",
+   "location": "London, New York; London, England, United Kingdom; New York, New York, United States",
+   "countries": [
+    "GB",
+    "US"
+   ],
+   "country_names": [
+    "United Kingdom",
+    "United States"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8867730002",
+   "posted_at": "2026-10-05",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "belvedere-trading-10b9ec6bd0e7",
    "employer": "Belvedere Trading",
    "employer_type": "hedge_fund",
@@ -281,6 +469,130 @@
    "start": "2027",
    "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
    "posted_at": "2026-08-04",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "garda-capital-665170ddf591",
+   "employer": "Garda Capital",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Trading Analyst Intern, Credit",
+   "location": "New York, New York, United States; NYC (New York) - Investment",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/gardacp/jobs/6163540004",
+   "posted_at": "2026-09-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "garda-capital-24a027f829ff",
+   "employer": "Garda Capital",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Trading Analyst Intern, Mortgages",
+   "location": "New York, New York, United States; NYC (New York) - Investment",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/gardacp/jobs/6179468004",
+   "posted_at": "2026-09-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "garda-capital-8ed43e08b9ef",
+   "employer": "Garda Capital",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Trading Analyst Intern, Rates",
+   "location": "New York, New York, United States; NYC (New York) - Investment",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/gardacp/jobs/4934006004",
+   "posted_at": "2023-07-17",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "garda-capital-8cd84afbd47b",
+   "employer": "Garda Capital",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Trading Assistant Intern",
+   "location": "Wayzata, Minnesota, United States; Wayzata (WYZ, MN, MPLS, Minneapolis) - Non-Investment",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/gardacp/jobs/4308947004",
+   "posted_at": "2022-06-14",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -534,6 +846,37 @@
    "active": true
   },
   {
+   "id": "cboe-87d88efa8cec",
+   "employer": "Cboe",
+   "employer_type": "infrastructure",
+   "platform": "phenom",
+   "title": "Quant & Data Analytics Intern",
+   "location": "Chicago, Illinois, United States of America",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 30,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.cboe.com/us/en/job/R-4708",
+   "posted_at": "2026-10-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "man-group-8d40e620408e",
    "employer": "Man Group",
    "employer_type": "asset_manager",
@@ -658,6 +1001,130 @@
    "active": true
   },
   {
+   "id": "capital-group-f18865672c43",
+   "employer": "Capital Group",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "MBA Equity Investment Analyst Summer Associate (Asia)",
+   "location": "Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/Singapore/MBA-Equity-Investment-Analyst-Summer-Associate--Asia-_JR5921",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "capital-group-824cbfb05abd",
+   "employer": "Capital Group",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "MBA Equity Investment Analyst Summer Associate (US)",
+   "location": "Los Angeles",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/Los-Angeles/MBA-Equity-Investment-Analyst-Summer-Associate--US-_JR5917",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "capital-group-774cef463fa4",
+   "employer": "Capital Group",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "MBA Fixed Income Investment Analyst Summer Associate (US)",
+   "location": "West Los Angeles",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/West-Los-Angeles/MBA-Fixed-Income-Investment-Analyst-Summer-Associate--US-_JR5918",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "capstone-investment-advisors-c16f1bf125b2",
+   "employer": "Capstone Investment Advisors",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Summer 2027 - Investment Internship NYC",
+   "location": "New York, New York; New York, New York, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8827973002",
+   "posted_at": "2026-09-21",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "citi-7face5db67c7",
    "employer": "Citi",
    "employer_type": "intl_bank",
@@ -715,6 +1182,37 @@
    "start": "2027",
    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Japanese-Services-Group-Summer-2027/361864",
    "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-d982d657e909",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern - Investment Operations",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.franklintempleton.com/us/en/job/869912",
+   "posted_at": "2026-10-01",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -796,6 +1294,37 @@
    "start": "2027",
    "url": "https://careers-stifel.icims.com/jobs/9994/treasury-management-intern--summer-2027/job?in_iframe=1",
    "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-5e26a60d9c10",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (TGI - Equity Research/ AI Automation)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://careers.franklintempleton.com/us/en/job/869384",
+   "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
