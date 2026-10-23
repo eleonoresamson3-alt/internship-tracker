@@ -19,7 +19,9 @@ THEMES = {
     ]),
     "vol_derivatives": (40, [
         "volatilite", "volatility", "vix", "vstoxx", "derive", "derives", "derivative", "derivatives", "option",
-        "options", "futures", "swaption", "swaptions", "swap", "swaps", "couverture", "hedging",
+        "options", "futures", "swaption", "swaptions", "swap", "swaps", "hedging",
+        # "couverture" alone also means analyst coverage ("initie une couverture").
+        "couverture de change", "couverture des risques", "couverture de taux", "strategie de couverture",
         "gamma", "skew", "implied vol", "volatilite implicite", "dispersion", "variance",
     ]),
     "structured": (40, [

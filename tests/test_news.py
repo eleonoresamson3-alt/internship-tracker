@@ -107,3 +107,28 @@ def test_calendar_falls_back_to_manual_list():
     meetings, errors = cal.fetch_all(manual, Broken())
     assert [(m["bank"], m["source"]) for m in meetings] == [("Fed", "manual")]
     assert {e["source"] for e in errors} == {"Calendrier BCE", "Calendrier Fed"}
+
+
+def test_analyst_coverage_is_not_hedging():
+    assert "vol_derivatives" not in themes_of("Needham initie une couverture de Diodes avec une recommandation d'achat")
+    assert "vol_derivatives" in themes_of("Les entreprises renforcent leur couverture de change")
+
+
+# ---------------------------------------------------------------- market changes
+
+from datetime import date
+
+from tracker.news.market import changes
+
+
+def test_rate_changes_in_basis_points_and_prices_in_percent():
+    pts = [(date(2026, 9, 1), 3.0), (date(2026, 10, 15), 3.1), (date(2026, 10, 22), 3.2), (date(2026, 10, 23), 3.25)]
+    c = changes(pts, "%")
+    assert (c["d1"], c["w1"], c["m1"]) == (5.0, 15.0, 25.0)
+    assert changes([(date(2026, 10, 22), 100.0), (date(2026, 10, 23), 101.0)], "pts")["d1"] == 1.0
+
+
+def test_step_series_holds_its_value_until_the_next_change():
+    pts = [(date(2026, 6, 11), 2.25), (date(2026, 9, 16), 2.5)]
+    c = changes(pts, "%", step=True, today=date(2026, 10, 10))
+    assert (c["value"], c["date"], c["d1"], c["w1"], c["m1"]) == (2.5, "2026-10-10", 0.0, 0.0, 25.0)

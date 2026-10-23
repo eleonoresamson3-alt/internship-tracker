@@ -5,6 +5,7 @@
 #          without fetching it; notes says why.
 # market:  daily market series. provider: ecb | bundesbank | fred | unavailable.
 #          unit "%" = rate (changes in basis points), otherwise changes in %.
+#          step: true = only published when it changes (policy rates).
 
 feeds:
   # Central banks, BIS and regulators (official: true)
@@ -52,8 +53,8 @@ feeds:
     url: https://www.ft.com/global-economy?format=rss
     lang: en
 
-  - name: MarketWatch – Market Pulse
-    url: https://feeds.content.dowjones.io/public/rss/mw_marketpulse
+  - name: MarketWatch
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories
     lang: en
 
   - name: Investing.com France
@@ -71,6 +72,12 @@ feeds:
     enabled: false
     notes: "403 Forbidden for scripts (also the économie and marchés feeds and the /rss index)"
 
+  - name: MarketWatch – Market Pulse
+    url: https://feeds.content.dowjones.io/public/rss/mw_marketpulse
+    lang: en
+    enabled: false
+    notes: "answers, but frozen: newest item from July 2025"
+
 market:
   - {key: cac40, label: CAC 40, group: Actions, unit: pts, provider: unavailable,
      note: "Euronext ne publie pas de données gratuites réutilisables"}
@@ -87,7 +94,8 @@ market:
   - {key: gold, label: Or, group: Change et matières premières, unit: $, provider: unavailable,
      note: "prix LBMA sous licence ; FRED ne le diffuse plus"}
   - {key: estr, label: €STR, group: Taux, unit: "%", provider: ecb, series: EST/B.EU000A2X2A25.WT}
-  - {key: dfr, label: Taux de dépôt BCE, group: Taux, unit: "%", provider: ecb, series: FM/B.U2.EUR.4F.KR.DFR.LEV}
+  - {key: dfr, label: Taux de dépôt BCE, group: Taux, unit: "%", provider: ecb, series: FM/B.U2.EUR.4F.KR.DFR.LEV,
+     step: true}
   - {key: de2y, label: Allemagne 2 ans, group: Taux, unit: "%", provider: bundesbank,
      series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A}
   - {key: de10y, label: Allemagne 10 ans, group: Taux, unit: "%", provider: bundesbank,

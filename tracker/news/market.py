@@ -21,16 +21,16 @@ from ..http import PoliteClient
 HISTORY_DAYS = 60
 
 
-def _ecb(http: PoliteClient, key: str) -> list[tuple[date, float]]:
+def _ecb(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tuple[date, float]]:
     flow, series = key.split("/", 1)
-    start = (date.today() - timedelta(days=HISTORY_DAYS)).isoformat()
+    start = (date.today() - timedelta(days=days)).isoformat()
     text = http.get(f"https://data-api.ecb.europa.eu/service/data/{flow}/{series}?format=csvdata&startPeriod={start}",
                     headers={"Accept": "text/csv"}).text
     rows = csv.DictReader(io.StringIO(text))
     return [(date.fromisoformat(r["TIME_PERIOD"][:10]), float(r["OBS_VALUE"])) for r in rows if r.get("OBS_VALUE")]
 
 
-def _bundesbank(http: PoliteClient, key: str) -> list[tuple[date, float]]:
+def _bundesbank(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tuple[date, float]]:
     flow, series = key.split("/", 1)
     text = http.get(f"https://api.statistiken.bundesbank.de/rest/download/{flow}/{series}?format=csv&lang=en").text
     points = []
@@ -44,8 +44,8 @@ def _bundesbank(http: PoliteClient, key: str) -> list[tuple[date, float]]:
     return points[-HISTORY_DAYS:]
 
 
-def _fred(http: PoliteClient, key: str) -> list[tuple[date, float]]:
-    start = (date.today() - timedelta(days=HISTORY_DAYS)).isoformat()
+def _fred(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tuple[date, float]]:
+    start = (date.today() - timedelta(days=days)).isoformat()
     text = http.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={key}&cosd={start}").text
     points = []
     for row in csv.reader(io.StringIO(text)):
@@ -62,13 +62,26 @@ def _value_on_or_before(points: list[tuple[date, float]], day: date):
     return candidates[-1] if candidates else None
 
 
-def changes(points: list[tuple[date, float]], unit: str) -> dict:
-    """Last value and changes: in % for prices and indices, in basis points for rates."""
+STEP_HISTORY_DAYS = 800   # policy rates only change at meetings: look further back
+
+
+def changes(points: list[tuple[date, float]], unit: str, step: bool = False, today: date | None = None) -> dict:
+    """Last value and changes: in % for prices and indices, in basis points for rates.
+
+    step: the series only has a point when the value changes (policy rates); the
+    value holds until the next point, so changes are measured from today."""
     points = sorted(points)
     last_day, last = points[-1]
-    previous = points[-2][1] if len(points) > 1 else None
-    week = _value_on_or_before(points, last_day - timedelta(days=7))
-    month = _value_on_or_before(points, last_day - timedelta(days=30))
+    if step:
+        today = today or date.today()
+        previous = _value_on_or_before(points, today - timedelta(days=1))
+        week = _value_on_or_before(points, today - timedelta(days=7))
+        month = _value_on_or_before(points, today - timedelta(days=30))
+        last_day = today
+    else:
+        previous = points[-2][1] if len(points) > 1 else None
+        week = _value_on_or_before(points, last_day - timedelta(days=7))
+        month = _value_on_or_before(points, last_day - timedelta(days=30))
 
     def delta(ref):
         if ref is None or ref == 0:
@@ -90,10 +103,11 @@ def fetch_all(series: list[dict], http: PoliteClient) -> tuple[list[dict], list[
             out.append(row)
             continue
         try:
-            points = provider(http, s["series"])
+            step = bool(s.get("step"))
+            points = provider(http, s["series"], STEP_HISTORY_DAYS) if step else provider(http, s["series"])
             if not points:
                 raise ValueError("no data returned")
-            row.update(changes(points, s.get("unit", "")))
+            row.update(changes(points, s.get("unit", ""), step))
             row["status"] = "ok"
         except Exception as exc:  # one series failing never stops the others
             row["status"] = "indisponible"

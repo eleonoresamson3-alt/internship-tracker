@@ -140,7 +140,8 @@ the whole history is re-classified on each run.
 
 Only public, free RSS feeds are used: headlines, publication time and the publisher's own RSS
 abstract, with a link to the original article. `robots.txt` is checked before every request.
-Feeds are tested on each run; a failing feed is logged and the others continue.
+Feeds are tested on each run; a failing feed is logged and the others continue. A feed whose
+newest item is more than 14 days old is reported as *stale*.
 
 | Source | Feed | Type |
 |---|---|---|
@@ -151,7 +152,7 @@ Feeds are tested on each run; a failing feed is logged and the others continue.
 | AMF | `amf-france.org/fr/flux-rss/display/23` | official |
 | L'Agefi | `agefi.fr/index.rss` | press |
 | Financial Times (Markets, Global economy) | `ft.com/markets?format=rss`, `/global-economy?format=rss` | press |
-| MarketWatch Market Pulse (Dow Jones public feed) | `feeds.content.dowjones.io/public/rss/mw_marketpulse` | press |
+| MarketWatch Top Stories (Dow Jones public feed) | `feeds.content.dowjones.io/public/rss/mw_topstories` | press |
 | Investing.com France | `fr.investing.com/rss/news.rss` | press |
 | Le Monde – Économie | `lemonde.fr/economie/rss_full.xml` | press |
 
@@ -167,6 +168,7 @@ Tested and rejected:
 | ESMA, Zonebourse | 403 Forbidden |
 | Boursorama, La Tribune | no RSS at the tested URLs (404) |
 | Risk.net | no public feed (404), and paid content |
+| MarketWatch Market Pulse | the feed answers but is frozen (newest item from July 2025) |
 
 Paid content (FT, L'Agefi) is only linked: log in on the publisher's site with your own account
 (an ENSAE / HEC subscription works) to read full articles. No credential is ever stored here.

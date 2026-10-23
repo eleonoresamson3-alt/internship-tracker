@@ -10,7 +10,7 @@ import logging
 import os
 import sys
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import yaml
 
@@ -20,6 +20,7 @@ from . import calendar, classify, dedupe, feeds, market
 
 log = logging.getLogger("news")
 KEEP_DAYS = 30
+STALE_DAYS = 14
 
 
 def load_sources(path=config.NEWS_SOURCES_FILE) -> dict:
@@ -45,6 +46,11 @@ def fetch_feeds(sources: list[dict], http: PoliteClient):
                 item["official"] = bool(source.get("official"))
             items.extend(got)
             dates = sorted(i["published"] for i in got if i["published"])
+            if dates and dates[-1] < (datetime.now(timezone.utc) - timedelta(days=STALE_DAYS)).isoformat():
+                # A feed that still answers but stopped being updated (its items fall out of the history).
+                errors.append({"source": source["name"], "url": source["url"],
+                               "error": f"stale feed: newest item published {dates[-1][:10]}"})
+                log.warning("%-30s STALE: newest item %s", source["name"], dates[-1])
             stats.append({"source": source["name"], "items": len(got),
                           "newest": dates[-1] if dates else "", "oldest": dates[0] if dates else ""})
             log.info("%-30s %3d items", source["name"], len(got))
@@ -103,6 +109,8 @@ def main(argv=None) -> int:
 
     series, market_errors = market.fetch_all(sources.get("market", []), http)
     meetings, calendar_errors = calendar.fetch_all(sources.get("calendar_manual", []), http)
+    recent = (now - timedelta(days=30)).date().isoformat()
+    meetings = [m for m in meetings if m["end"] >= recent]   # past years are of no use on the site
     generated_at = now.isoformat(timespec="seconds")
     store.save_json(config.NEWS_FILE, {"generated_at": generated_at, "items": merged})
     store.save_json(config.MARKET_FILE, {"generated_at": generated_at, "series": series})
