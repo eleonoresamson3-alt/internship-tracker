@@ -2217,3 +2217,650 @@ employers:
   careers_url: https://www.nasdaq.com/about/careers
   params:
     url: https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site
+- name: Axpo
+  type: commodities
+  platform: generic
+  careers_url: https://www.axpo.com/ch/en/about-us/careers.html
+  params:
+    urls:
+    - https://www.axpo.com/ch/en/about-us/careers.html
+  enabled: false
+  notes: uses teamtailor, which has no public job API supported yet
+- name: Alpiq
+  type: commodities
+  platform: generic
+  careers_url: https://www.alpiq.com/career
+  params:
+    urls:
+    - https://www.alpiq.com/career
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Statkraft
+  type: commodities
+  platform: generic
+  careers_url: https://www.statkraft.com/careers/
+  params:
+    urls:
+    - https://www.statkraft.com/careers/
+  enabled: false
+  notes: robots.txt disallows automated access to its job search
+- name: Uniper
+  type: commodities
+  platform: generic
+  careers_url: https://www.uniper.energy/careers
+  params:
+    urls:
+    - https://www.uniper.energy/careers
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: RWE Supply & Trading
+  type: commodities
+  platform: generic
+  careers_url: https://www.rwe.com/en/careers/
+  params:
+    urls:
+    - https://www.rwe.com/en/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: EnBW
+  type: commodities
+  platform: generic
+  careers_url: https://www.enbw.com/careers/
+  params:
+    urls:
+    - https://www.enbw.com/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.enbw.com/careers/)'
+- name: Ørsted
+  type: commodities
+  platform: generic
+  careers_url: https://orsted.com/en/careers
+  params:
+    urls:
+    - https://orsted.com/en/careers
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Vattenfall
+  type: commodities
+  platform: generic
+  careers_url: https://group.vattenfall.com/careers
+  params:
+    urls:
+    - https://group.vattenfall.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Centrica Energy Trading
+  type: commodities
+  platform: generic
+  careers_url: https://www.centrica.com/careers/
+  params:
+    urls:
+    - https://www.centrica.com/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Danske Commodities
+  type: commodities
+  platform: generic
+  careers_url: https://danskecommodities.com/careers/
+  params:
+    urls:
+    - https://danskecommodities.com/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Hartree Partners
+  type: commodities
+  platform: generic
+  careers_url: https://www.hartreepartners.com/careers/
+  params:
+    urls:
+    - https://www.hartreepartners.com/careers/
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Castleton Commodities
+  type: commodities
+  platform: generic
+  careers_url: https://www.cci.com/careers/
+  params:
+    urls:
+    - https://www.cci.com/careers/
+  enabled: false
+  notes: 'candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://osv-cci.wd1.m)'
+- name: Louis Dreyfus Company
+  type: commodities
+  platform: generic
+  careers_url: https://www.ldc.com/careers/
+  params:
+    urls:
+    - https://www.ldc.com/careers/
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Cargill
+  type: commodities
+  platform: generic
+  careers_url: https://careers.cargill.com/
+  params:
+    urls:
+    - https://careers.cargill.com/
+  enabled: false
+  notes: robots.txt disallows automated access to its job search
+- name: Keyrock
+  type: hedge_fund
+  platform: ashby
+  careers_url: https://keyrock.com/careers/
+  params:
+    board: keyrock
+- name: Flowdesk
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.flowdesk.co/careers
+  params:
+    board: flowdesk
+- name: Wintermute
+  type: hedge_fund
+  platform: lever
+  careers_url: https://www.wintermute.com/careers
+  params:
+    site: wintermute-trading
+- name: B2C2
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.b2c2.com/careers
+  params:
+    board: b2c2
+- name: GSR
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.gsr.io/careers
+  params:
+    board: gsrmarkets
+- name: Deribit
+  type: infrastructure
+  platform: generic
+  careers_url: https://www.deribit.com/
+  params:
+    urls:
+    - https://www.deribit.com/
+  enabled: false
+  notes: uses recruitee, which has no public job API supported yet
+- name: Paradigm
+  type: infrastructure
+  platform: ashby
+  careers_url: https://www.paradigm.co/careers
+  params:
+    board: paradigm
+- name: Helaba
+  type: european_bank
+  platform: generic
+  careers_url: https://www.helaba.com/int/careers/
+  params:
+    urls:
+    - https://www.helaba.com/int/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.helaba.com/int/caree)'
+- name: DekaBank
+  type: european_bank
+  platform: generic
+  careers_url: https://www.deka.de/deka-gruppe/karriere
+  params:
+    urls:
+    - https://www.deka.de/deka-gruppe/karriere
+  enabled: false
+  notes: uses successfactors, which has no public job API supported yet
+- name: BayernLB
+  type: european_bank
+  platform: generic
+  careers_url: https://www.bayernlb.com/internet/en/blb/resp/karriere/
+  params:
+    urls:
+    - https://www.bayernlb.com/internet/en/blb/resp/karriere/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.bayernlb.com/interne)'
+- name: NORD/LB
+  type: european_bank
+  platform: generic
+  careers_url: https://www.nordlb.com/
+  params:
+    urls:
+    - https://www.nordlb.com/
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: KfW
+  type: european_bank
+  platform: generic
+  careers_url: https://www.kfw.de/About-KfW/Careers/
+  params:
+    urls:
+    - https://jobs.kfw.de/index.php?ac=jobad&code=Zmt7kA%2F9kkKQeP%2BUGPSIm93NwYSj2r07XJYLctu%2BSQ6hCySxoK55IT63n73AbXt%2FH8eNCAuj78iyQCyNQsPa2tD1TM0jWV4J
+  enabled: false
+  notes: jobs.kfw.de exposes no list of offers that can be read automatically.
+- name: DNB
+  type: european_bank
+  platform: lever
+  careers_url: https://www.dnb.no/en/about-us/careers
+  params:
+    site: dnb
+  enabled: false
+  notes: the Lever board "dnb" belongs to Dun & Bradstreet, not to DNB bank; dnb.no careers is in-house.
+- name: Swedbank
+  type: european_bank
+  platform: generic
+  careers_url: https://www.swedbank.com/about-swedbank/career.html
+  params:
+    urls:
+    - https://www.swedbank.com/about-swedbank/career.html
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.swedbank.com/about-s)'
+- name: Handelsbanken
+  type: european_bank
+  platform: generic
+  careers_url: https://www.handelsbanken.com/en/careers
+  params:
+    urls:
+    - https://www.handelsbanken.com/en/careers
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: Erste Group
+  type: european_bank
+  platform: generic
+  careers_url: https://www.erstegroup.com/en/career
+  params:
+    urls:
+    - https://www.erstegroup.com/en/career
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: CaixaBank
+  type: european_bank
+  platform: successfactors
+  careers_url: https://www.caixabank.com/en/careers
+  params:
+    base: https://caixabankcareers.com
+- name: Banco Sabadell
+  type: european_bank
+  platform: generic
+  careers_url: https://www.grupbancsabadell.com/corp/en/careers.html
+  params:
+    urls:
+    - https://www.grupbancsabadell.com/corp/en/careers.html
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.grupbancsabadell.com)'
+- name: Bankinter
+  type: european_bank
+  platform: generic
+  careers_url: https://www.bankinter.com/
+  params:
+    urls:
+    - https://www.bankinter.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Equita
+  type: broker
+  platform: generic
+  careers_url: https://www.equita.eu/en/careers
+  params:
+    urls:
+    - https://www.equita.eu/en/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.equita.eu/en/careers)'
+- name: Van Lanschot Kempen
+  type: european_bank
+  platform: generic
+  careers_url: https://www.vanlanschotkempen.com/en/careers
+  params:
+    urls:
+    - https://www.vanlanschotkempen.com/en/careers
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: LGT
+  type: european_bank
+  platform: generic
+  careers_url: https://www.lgt.com/global-en/careers
+  params:
+    urls:
+    - https://www.lgt.com/global-en/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.lgt.com/global-en/ca)'
+- name: Banque Cantonale de Genève
+  type: european_bank
+  platform: generic
+  careers_url: https://www.bcge.ch/
+  params:
+    urls:
+    - https://www.bcge.ch/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: CACEIS
+  type: european_bank
+  platform: generic
+  careers_url: https://www.caceis.com/careers/
+  params:
+    urls:
+    - https://www.caceis.com/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.caceis.com/careers/)'
+- name: National Bank of Canada
+  type: intl_bank
+  platform: generic
+  careers_url: https://jobs.nbc.ca/
+  params:
+    urls:
+    - https://jobs.nbc.ca/
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: Commonwealth Bank
+  type: intl_bank
+  platform: workday
+  careers_url: https://www.commbank.com.au/about-us/careers.html
+  params:
+    url: https://cba.wd3.myworkdayjobs.com/CommBank_Careers
+- name: Tradeweb
+  type: infrastructure
+  platform: generic
+  careers_url: https://www.tradeweb.com/careers/
+  params:
+    urls:
+    - https://www.tradeweb.com/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: MarketAxess
+  type: infrastructure
+  platform: generic
+  careers_url: https://www.marketaxess.com/careers
+  params:
+    urls:
+    - https://www.marketaxess.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Cboe
+  type: infrastructure
+  platform: phenom
+  careers_url: https://www.cboe.com/about/careers/
+  params:
+    base: https://careers.cboe.com/us/en
+- name: SIX Group
+  type: infrastructure
+  platform: generic
+  careers_url: https://www.six-group.com/en/company/career.html
+  params:
+    urls:
+    - https://www.six-group.com/en/company/career.html
+  enabled: false
+  notes: 'candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://www.six-group.com/search)'
+- name: OpenGamma
+  type: software
+  platform: generic
+  careers_url: https://opengamma.com/careers/
+  params:
+    urls:
+    - https://opengamma.com/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Orchestrade
+  type: software
+  platform: generic
+  careers_url: https://www.orchestrade.com/careers
+  params:
+    urls:
+    - https://www.orchestrade.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Quantitative Brokers
+  type: software
+  platform: generic
+  careers_url: https://www.quantitativebrokers.com/careers
+  params:
+    urls:
+    - https://www.quantitativebrokers.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Beacon Platform
+  type: software
+  platform: generic
+  careers_url: https://www.beacon.io/careers
+  params:
+    urls:
+    - https://www.beacon.io/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Clear Street
+  type: broker
+  platform: greenhouse
+  careers_url: https://clearstreet.io/careers
+  params:
+    board: clearstreet
+- name: Kaiko
+  type: software
+  platform: generic
+  careers_url: https://www.kaiko.com/careers
+  params:
+    urls:
+    - https://www.kaiko.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.kaiko.com/careers)'
+- name: Hannover Re
+  type: insurance
+  platform: generic
+  careers_url: https://www.hannover-re.com/careers
+  params:
+    urls:
+    - https://www.hannover-re.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.hannover-re.com/care)'
+- name: PartnerRe
+  type: insurance
+  platform: generic
+  careers_url: https://partnerre.com/careers/
+  params:
+    urls:
+    - https://partnerre.com/careers/
+  enabled: false
+  notes: uses successfactors, which has no public job API supported yet
+- name: Milliman
+  type: consulting
+  platform: generic
+  careers_url: https://www.milliman.com/en/careers
+  params:
+    urls:
+    - https://www.milliman.com/en/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.milliman.com/en/care)'
+- name: WTW
+  type: consulting
+  platform: generic
+  careers_url: https://careers.wtwco.com/
+  params:
+    urls:
+    - https://careers.wtwco.com/
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: Aon
+  type: consulting
+  platform: teamtailor
+  careers_url: https://jobs.aon.com/
+  params:
+    base: https://aon.teamtailor.com
+  enabled: false
+  notes: the Teamtailor site found is empty; jobs.aon.com has no machine-readable job list supported yet.
+- name: AllianceBernstein
+  type: asset_manager
+  platform: workday
+  careers_url: https://www.alliancebernstein.com/corporate/en/careers.html
+  params:
+    url: https://abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers
+- name: Wellington Management
+  type: asset_manager
+  platform: workday
+  careers_url: https://www.wellington.com/en/careers
+  params:
+    url: https://wellington.wd5.myworkdayjobs.com/External
+- name: T. Rowe Price
+  type: asset_manager
+  platform: workday
+  careers_url: https://www.troweprice.com/corporate/careers
+  params:
+    url: https://troweprice.wd5.myworkdayjobs.com/TRowePrice
+- name: Franklin Templeton
+  type: asset_manager
+  platform: phenom
+  careers_url: https://www.franklintempletoncareers.com/
+  params:
+    base: https://careers.franklintempleton.com/us/en
+- name: Capital Group
+  type: asset_manager
+  platform: workday
+  careers_url: https://www.capitalgroup.com/about-us/careers.html
+  params:
+    url: https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers
+- name: Northern Trust
+  type: asset_manager
+  platform: workday
+  careers_url: https://careers.northerntrust.com/
+  params:
+    url: https://ntrs.wd1.myworkdayjobs.com/northerntrust
+- name: Nuveen
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.nuveen.com/en-us/about-us/careers
+  params:
+    urls:
+    - https://www.nuveen.com/en-us/about-us/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Columbia Threadneedle
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.columbiathreadneedle.com/en/careers/
+  params:
+    urls:
+    - https://www.columbiathreadneedle.com/en/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.columbiathreadneedle)'
+- name: Ninety One
+  type: asset_manager
+  platform: generic
+  careers_url: https://ninetyone.com/en/careers
+  params:
+    urls:
+    - https://ninetyone.com/en/careers
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: Aberdeen
+  type: asset_manager
+  platform: workday
+  careers_url: https://www.aberdeenplc.com/en-gb/careers
+  params:
+    url: https://abrdn.wd3.myworkdayjobs.com/abrdn
+- name: Insight Investment
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.insightinvestment.com/careers/
+  params:
+    urls:
+    - https://www.insightinvestment.com/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.insightinvestment.co)'
+- name: Vanguard
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.vanguardjobs.com/
+  params:
+    urls:
+    - https://www.vanguardjobs.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Winton
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.winton.com/careers
+  params:
+    board: winton
+- name: Aspect Capital
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.aspectcapital.com/careers/
+  params:
+    urls:
+    - https://www.aspectcapital.com/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.aspectcapital.com/ca)'
+- name: Systematica Investments
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.systematica.com/careers
+  params:
+    urls:
+    - https://www.systematica.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: LMR Partners
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.lmrpartners.com/careers
+  params:
+    urls:
+    - https://www.lmrpartners.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Rokos Capital
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.rokoscapital.com/careers
+  params:
+    urls:
+    - https://www.rokoscapital.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Caxton Associates
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.caxton.com/careers
+  params:
+    urls:
+    - https://www.caxton.com/careers
+  enabled: false
+  notes: uses workable, which has no public job API supported yet
+- name: Eisler Capital
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.eislercapital.com/careers
+  params:
+    urls:
+    - https://www.eislercapital.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''www.eislercapital.com'', port=443):
+    Ma)'
+- name: Fasanara Capital
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.fasanara.com/careers
+  params:
+    urls:
+    - https://www.fasanara.com/careers
+  enabled: false
+  notes: uses workable, which has no public job API supported yet
+- name: Garda Capital
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.gardacp.com/careers
+  params:
+    board: gardacp
+- name: Graham Capital
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.grahamcapital.com/careers
+  params:
+    urls:
+    - https://www.grahamcapital.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Capstone Investment Advisors
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.capstoneco.com/careers
+  params:
+    board: capstoneinvestmentadvisors
+- name: Lynx Asset Management
+  type: hedge_fund
+  platform: teamtailor
+  careers_url: https://www.lynxhedge.se/careers
+  params:
+    base: https://lynxassetmanagement.teamtailor.com

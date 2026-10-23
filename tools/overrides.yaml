@@ -66,3 +66,15 @@ employers:
 
   - name: Amundi
     params: {urls: ["https://jobs.amundi.com/job/list-of-all-jobs.aspx?all=1&mode=list"], link_pattern: '/job/job-.*_\d+\.aspx', warmup_url: "https://jobs.amundi.com/accueil.aspx?LCID=2057"}
+
+  - name: DNB
+    enabled: false
+    notes: the Lever board "dnb" belongs to Dun & Bradstreet, not to DNB bank; dnb.no careers is in-house.
+
+  - name: Aon
+    enabled: false
+    notes: the Teamtailor site found is empty; jobs.aon.com has no machine-readable job list supported yet.
+
+  - name: KfW
+    enabled: false
+    notes: jobs.kfw.de exposes no list of offers that can be read automatically.

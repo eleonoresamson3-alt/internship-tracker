@@ -136,17 +136,20 @@ happens, re-enable *Daily scrape* from the Actions tab.
 ## Coverage
 
 <!-- coverage:start -->
-105 of 273 employers are scraped daily.
+126 of 352 employers are scraped daily.
 
 | Employer | Platform |
 |---|---|
+| Aberdeen | workday |
 | Accenture | workday |
 | Akuna Capital | greenhouse |
+| AllianceBernstein | workday |
 | Allianz | phenom |
 | Amundi | generic |
 | AQR | greenhouse |
 | Arrowstreet Capital | workday |
 | Aviva Investors | workday |
+| B2C2 | greenhouse |
 | Bank of America | generic |
 | Bank of England | oracle |
 | Banque de France | workday |
@@ -160,9 +163,15 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | BMO Capital Markets | phenom |
 | BNY | oracle |
 | Brevan Howard | phenom |
+| CaixaBank | successfactors |
 | Capco | greenhouse |
+| Capital Group | workday |
+| Capstone Investment Advisors | greenhouse |
+| Cboe | phenom |
 | Citi | workday |
+| Clear Street | greenhouse |
 | CME Group | workday |
+| Commonwealth Bank | workday |
 | Da Vinci | greenhouse |
 | Daiwa | teamtailor |
 | Deloitte | generic |
@@ -180,9 +189,13 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | Fidelity International | workday |
 | Five Rings | greenhouse |
 | Flow Traders | greenhouse |
+| Flowdesk | greenhouse |
 | Forvis Mazars | greenhouse |
+| Franklin Templeton | phenom |
+| Garda Capital | greenhouse |
 | Grant Thornton | recruitee |
 | Groupe Crédit Agricole | generic |
+| GSR | greenhouse |
 | Gunvor | workday |
 | Headlands Technologies | greenhouse |
 | Hudson River Trading | greenhouse |
@@ -193,11 +206,13 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | JPMorgan | oracle |
 | Jump Trading | greenhouse |
 | Kepler Cheuvreux | teamtailor |
+| Keyrock | ashby |
 | KPMG | radancy |
 | Lazard | oracle |
 | Lloyds Banking Group | workday |
 | Lombard Odier | workday |
 | LSEG | workday |
+| Lynx Asset Management | teamtailor |
 | M&G | workday |
 | Macquarie | generic |
 | Mako | greenhouse |
@@ -211,8 +226,10 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | Muzinich | workday |
 | Nasdaq (Calypso / Adenza) | workday |
 | Nomura | generic |
+| Northern Trust | workday |
 | Numerix | greenhouse |
 | Optiver | greenhouse |
+| Paradigm | ashby |
 | PDT Partners | greenhouse |
 | PIMCO | workday |
 | Point72 | greenhouse |
@@ -234,6 +251,7 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | Squarepoint | greenhouse |
 | State Street | workday |
 | Stifel | generic |
+| T. Rowe Price | workday |
 | TD Securities | workday |
 | Tower Research | greenhouse |
 | Trafigura | workday |
@@ -241,6 +259,9 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | Virtu Financial | greenhouse |
 | Voleon | ashby |
 | Vontobel | workday |
+| Wellington Management | workday |
+| Wintermute | lever |
+| Winton | greenhouse |
 | WorldQuant | greenhouse |
 | XTX Markets | greenhouse |
 | Zanders | teamtailor |
@@ -258,20 +279,29 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | Ailancy | uses welcometothejungle, which has no public job API supported yet |
 | All Options | careers site not reachable by a script (ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed c) |
 | Allianz GI | covered by the Allianz entry (careers.allianz.com lists all Allianz companies, including Allianz Global Investors). |
+| Alpiq | careers site blocks automated requests (HTTP 403) |
 | Alvarez & Marsal | careers site blocks automated requests (HTTP 403) |
 | AMF | robots.txt disallows automated access to the careers pages |
 | Amundi Luxembourg | covered by the Amundi entry (jobs.amundi.com lists all Amundi entities, including Luxembourg). |
+| Aon | the Teamtailor site found is empty; jobs.aon.com has no machine-readable job list supported yet. |
+| Aspect Capital | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.aspectcapital.com/ca) |
 | Avantage Reply | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.reply.com/en/careers) |
 | AXA | candidate platforms failed (HTTPError: 403 Client Error: Forbidden for url: https://recrutement.axa.fr/searc) |
 | AXA IM | careers site blocks automated requests (HTTP 403) |
 | AXA XL | uses cornerstone, which has no public job API supported yet |
+| Axpo | uses teamtailor, which has no public job API supported yet |
 | Balyasny | in-house careers site with no machine-readable job list found |
+| Banco Sabadell | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.grupbancsabadell.com) |
+| Bankinter | in-house careers site with no machine-readable job list found |
+| Banque Cantonale de Genève | in-house careers site with no machine-readable job list found |
 | Banque Cantonale Vaudoise | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.bcv.ch/fr/la-bcv/emp) |
 | Banque centrale du Luxembourg | in-house careers site with no machine-readable job list found |
 | Banque de Luxembourg | in-house careers site with no machine-readable job list found |
 | Banque Internationale à Luxembourg | in-house careers site with no machine-readable job list found |
 | Banque mondiale | uses cornerstone, which has no public job API supported yet |
 | Banque Syz | in-house careers site with no machine-readable job list found |
+| BayernLB | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.bayernlb.com/interne) |
+| Beacon Platform | in-house careers site with no machine-readable job list found |
 | BEI (EIB) | robots.txt disallows automated access to the careers pages |
 | Belfius | careers site not reachable by a script (HTTPError: 500 Server Error: Internal Server Error for url: https://www.belfius.) |
 | BGC Group | careers site blocks automated requests (HTTP 403) |
@@ -287,18 +317,24 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | BRED | in-house careers site with no machine-readable job list found |
 | BRI (BIS) | in-house careers site with no machine-readable job list found |
 | Bundesbank | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.bundesbank.de/en/bun) |
+| CACEIS | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.caceis.com/careers/) |
 | Caisse des Dépôts | in-house careers site with no machine-readable job list found |
 | Candriam | in-house careers site with no machine-readable job list found |
 | Cantor Fitzgerald | careers site blocks automated requests (HTTP 403) |
 | Capgemini Invent | robots.txt disallows automated access to the careers pages |
 | Capula | careers site not reachable by a script (HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.c) |
+| Cargill | robots.txt disallows automated access to its job search |
 | Carmignac | in-house careers site with no machine-readable job list found |
+| Castleton Commodities | candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://osv-cci.wd1.m) |
+| Caxton Associates | uses workable, which has no public job API supported yet |
+| Centrica Energy Trading | in-house careers site with no machine-readable job list found |
 | CFM | the Greenhouse board "cfm" belongs to another company; cfm.com publishes no machine-readable job list. |
 | Chappuis Halder & Co | careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.chappuishalder.com', port=443): Max retr) |
 | CIC Market Solutions | robots.txt disallows automated access to the careers pages |
 | Citadel | careers site blocks automated requests (HTTP 403) |
 | Citadel Securities | careers site blocks automated requests (HTTP 403) |
 | CNP Assurances | robots.txt disallows automated access to the careers pages |
+| Columbia Threadneedle | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.columbiathreadneedle) |
 | Comgest | careers site not reachable by a script (HTTPError: 404 Client Error: Page not found for url: https://www.comgest.com/en/) |
 | Commerzbank | robots.txt disallows automated access to the careers pages |
 | Covéa | robots.txt disallows automated access to its job search |
@@ -307,19 +343,28 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | d-fine | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.d-fine.com/en/career) |
 | D. E. Shaw | in-house careers site with no machine-readable job list found |
 | Danske Bank | robots.txt disallows automated access to the careers pages |
+| Danske Commodities | in-house careers site with no machine-readable job list found |
 | De Nederlandsche Bank | in-house careers site with no machine-readable job list found |
 | Degroof Petercam | in-house careers site with no machine-readable job list found |
+| DekaBank | uses successfactors, which has no public job API supported yet |
+| Deribit | uses recruitee, which has no public job API supported yet |
 | Deutsche Börse / Eurex | the only Workday site found belongs to ISS (a subsidiary), not to Deutsche Börse / Eurex; careers site is in-house. |
+| DNB | the Lever board "dnb" belongs to Dun & Bradstreet, not to DNB bank; dnb.no careers is in-house. |
 | DNCA Finance | in-house careers site with no machine-readable job list found |
 | EBA | careers site blocks automated requests (HTTP 403) |
 | Edmond de Rothschild | candidate platforms failed (ConnectionError: HTTPSConnectionPool(host='fa-evht-saasfaprod1.fa.ocs.oracleclou) |
 | EFG International | careers site blocks automated requests (HTTP 403) |
+| Eisler Capital | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.eislercapital.com', port=443): Ma) |
 | Eleva Capital | robots.txt disallows automated access to the careers pages |
+| EnBW | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.enbw.com/careers/) |
 | Engie GEMS | robots.txt disallows automated access to its job search |
+| Equita | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.equita.eu/en/careers) |
+| Erste Group | in-house careers site with no machine-readable job list found |
 | ESMA | careers site blocks automated requests (HTTP 403) |
 | Exane (BNP Paribas) | careers site not reachable by a script (ReadTimeout: HTTPSConnectionPool(host='www.exane.com', port=443): Read timed out) |
 | Exton Consulting | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.extonconsulting.com', port=443): ) |
 | FactSet | candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://factset.wd1.m) |
+| Fasanara Capital | uses workable, which has no public job API supported yet |
 | FEI (EIF) | in-house careers site with no machine-readable job list found |
 | Finalyse | in-house careers site with no machine-readable job list found |
 | Finastra | candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://finastra.wd3.myworkdayjo) |
@@ -333,20 +378,28 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | Glencore | in-house careers site with no machine-readable job list found |
 | Global Trading Systems | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.gts.com', port=443): Max retries ) |
 | Goldman Sachs | uses avature, which has no public job API supported yet |
+| Graham Capital | in-house careers site with no machine-readable job list found |
 | Groupama AM | in-house careers site with no machine-readable job list found |
 | H2O AM | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='careers.h2o-am.com', port=443): Max r) |
+| Handelsbanken | robots.txt disallows automated access to the careers pages |
+| Hannover Re | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.hannover-re.com/care) |
+| Hartree Partners | careers site blocks automated requests (HTTP 403) |
+| Helaba | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.helaba.com/int/caree) |
 | HSBC | robots.txt disallows automated access to the careers pages |
 | HSBC Continental Europe | robots.txt disallows automated access to the careers pages |
 | Hutchin Hill | careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.hutchinhill.com', port=443): Max retries) |
 | ICE | candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://intercontinen) |
 | ING | robots.txt disallows automated access to its job search |
+| Insight Investment | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.insightinvestment.co) |
 | Intesa Sanpaolo | in-house careers site with no machine-readable job list found |
 | Investec | candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://investec.wd3.) |
 | ION Group | in-house careers site with no machine-readable job list found |
 | J. Safra Sarasin | in-house careers site with no machine-readable job list found |
 | Janus Henderson | candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://janushenderso) |
 | Julius Baer | careers site blocks automated requests (HTTP 403) |
+| Kaiko | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.kaiko.com/careers) |
 | KBC | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.kbc.com/en/careers.h) |
+| KfW | jobs.kfw.de exposes no list of offers that can be read automatically. |
 | La Banque Postale | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.labanquepostale.com/) |
 | La Financière de l'Echiquier | in-house careers site with no machine-readable job list found |
 | La Française | in-house careers site with no machine-readable job list found |
@@ -354,13 +407,18 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | LBBW | careers site not reachable by a script (ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection r) |
 | Legal & General | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.legalandgeneralgroup.com', port=4) |
 | Leonteq | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.leonteq.com/company/) |
+| LGT | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.lgt.com/global-en/ca) |
 | Liquid Capital | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.liquidcapital.com', port=443): Ma) |
+| LMR Partners | in-house careers site with no machine-readable job list found |
+| Louis Dreyfus Company | careers site blocks automated requests (HTTP 403) |
 | Lucht Probst Associates | in-house careers site with no machine-readable job list found |
 | Marex | careers site not reachable by a script (ConnectionError: HTTPConnectionPool(host='www.marex.test', port=80): Max retries) |
+| MarketAxess | in-house careers site with no machine-readable job list found |
 | Mediobanca | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.mediobanca.com/en/ca) |
 | Mercuria | careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='mercuria.com', port=443): Max retries exceed) |
 | MES (ESM) | robots.txt disallows automated access to the careers pages |
 | Millennium | robots.txt disallows automated access to its job search |
+| Milliman | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.milliman.com/en/care) |
 | Mint Tower | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.minttowercapital.comcareers', por) |
 | Mirabaud | in-house careers site with no machine-readable job list found |
 | Mirova | in-house careers site with no machine-readable job list found |
@@ -368,54 +426,75 @@ happens, re-enable *Daily scrape* from the Actions tab.
 | Moody's | robots.txt disallows automated access to its job search |
 | MSCI | candidate platforms failed (HTTPError: 401 Client Error: Unauthorized for url: https://msci.wd1.myworkdayjob) |
 | Munich Re | robots.txt disallows automated access to its job search |
+| National Bank of Canada | robots.txt disallows automated access to the careers pages |
 | Natixis CIB | in-house careers site with no machine-readable job list found |
 | Natixis IM | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.im.natixis.com/en-in) |
 | NatWest Markets | careers site blocks automated requests (HTTP 403) |
+| Ninety One | robots.txt disallows automated access to the careers pages |
+| NORD/LB | robots.txt disallows automated access to the careers pages |
 | Nordea | the Teamtailor site found is empty / not Nordea's main careers site; nordea.com careers is in-house. |
+| Nuveen | in-house careers site with no machine-readable job list found |
 | Nyenburgh | careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.nyenburgh.com', port=443): Max retries e) |
 | Oddo BHF | in-house careers site with no machine-readable job list found |
 | Ofi Invest | in-house careers site with no machine-readable job list found |
 | Old Mission | uses ashby, which has no public job API supported yet |
+| OpenGamma | in-house careers site with no machine-readable job list found |
 | Opensee | uses welcometothejungle, which has no public job API supported yet |
+| Orchestrade | in-house careers site with no machine-readable job list found |
 | Ossiam | in-house careers site with no machine-readable job list found |
 | Ostrum | in-house careers site with no machine-readable job list found |
+| PartnerRe | uses successfactors, which has no public job API supported yet |
 | Peak6 | in-house careers site with no machine-readable job list found |
 | Pictet | uses successfactors, which has no public job API supported yet |
 | Quantifi | in-house careers site with no machine-readable job list found |
+| Quantitative Brokers | in-house careers site with no machine-readable job list found |
 | Quintet Private Bank | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.quintet.com/en-gb/ca) |
 | Rabobank | careers site blocks automated requests (HTTP 403) |
 | Robeco | in-house careers site with no machine-readable job list found |
+| Rokos Capital | in-house careers site with no machine-readable job list found |
+| RWE Supply & Trading | in-house careers site with no machine-readable job list found |
 | SEB | in-house careers site with no machine-readable job list found |
 | Seeyond | in-house careers site with no machine-readable job list found |
 | Sia Partners | robots.txt disallows automated access to its job search |
 | Sienna IM | robots.txt disallows automated access to its job search |
 | SimCorp | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.simcorp.com/careers) |
+| SIX Group | candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://www.six-group.com/search) |
 | SMBC | uses successfactors, which has no public job API supported yet |
 | Société Générale | careers.societegenerale.com renders its search in JavaScript and exposes no public job endpoint (Taleo back-office is not public). |
 | Société Générale Luxembourg | in-house careers site with no machine-readable job list found |
 | Spuerkeess (BCEE) | uses cornerstone, which has no public job API supported yet |
 | Square Management | in-house careers site with no machine-readable job list found |
 | Standard Chartered | robots.txt disallows automated access to its job search |
+| Statkraft | robots.txt disallows automated access to its job search |
 | Susquehanna (SIG) | robots.txt disallows automated access to its job search |
+| Swedbank | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.swedbank.com/about-s) |
 | Swiss Life AM | careers site blocks automated requests (HTTP 403) |
 | Swiss Re | candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://www.swissre.com/search/?) |
 | Swissquote | robots.txt disallows automated access to its job search |
 | Sycomore AM | robots.txt disallows automated access to its job search |
 | Syquant Capital | careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.syquant.com', port=443): Max retr) |
+| Systematica Investments | in-house careers site with no machine-readable job list found |
 | Tibra | uses workable, which has no public job API supported yet |
 | Tikehau Capital | in-house careers site with no machine-readable job list found |
 | TOBAM | in-house careers site with no machine-readable job list found |
 | TotalEnergies Trading | robots.txt disallows automated access to the careers pages |
 | TP ICAP | careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.tpicap.com', port=443): Max retries exce) |
+| Tradeweb | in-house careers site with no machine-readable job list found |
 | Tradition | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.trad-x.com/news/2014) |
 | Two Sigma | in-house careers site with no machine-readable job list found |
 | UBS | candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://www.ubs.com/search-jobs/) |
 | Unigestion | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://unigestion.com/careers) |
 | Union Bancaire Privée | in-house careers site with no machine-readable job list found |
+| Uniper | careers site blocks automated requests (HTTP 403) |
+| Van Lanschot Kempen | robots.txt disallows automated access to the careers pages |
+| Vanguard | in-house careers site with no machine-readable job list found |
 | Varenne Capital | in-house careers site with no machine-readable job list found |
+| Vattenfall | in-house careers site with no machine-readable job list found |
 | Vitol | robots.txt disallows automated access to its job search |
 | Wavestone | in-house careers site with no machine-readable job list found |
 | Wells Fargo | in-house careers site with no machine-readable job list found |
 | Wolverine Trading | in-house careers site with no machine-readable job list found |
+| WTW | robots.txt disallows automated access to the careers pages |
 | Zürcher Kantonalbank | careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.zkb.ch/de/ueber-uns/) |
+| Ørsted | careers site blocks automated requests (HTTP 403) |
 <!-- coverage:end -->
