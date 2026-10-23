@@ -246,3 +246,17 @@ dialog h2 { margin: 0 0 4px; font-size: 1.15rem; }
 .dialog-actions { display: flex; gap: 8px; margin-top: 16px; align-items: center; }
 button.danger { color: var(--danger); }
 @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
+
+.company-main { display: flex; gap: 12px; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; }
+.windows { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; }
+.window { font-size: 0.8rem; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); white-space: nowrap; }
+.window.open { background: var(--high-soft); color: var(--high); font-weight: 600; }
+.window.soon { background: var(--mid-soft); color: var(--mid); font-weight: 600; }
+.coverage.auto { color: var(--high); }
+.coverage.manual { color: var(--mid); }
+.contact-notes { flex: 1; min-width: 180px; padding: 7px 8px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; font-size: 0.9rem; }
+.company-main > div { min-width: 0; }
+@media (max-width: 600px) {
+  .windows { align-items: flex-start; max-width: 100%; }
+  .window { white-space: normal; }
+}

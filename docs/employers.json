@@ -1,0 +1,1913 @@
+[
+ {
+  "name": "ABN AMRO",
+  "type": "european_bank",
+  "careers_url": "https://www.abnamro.com/en/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 503 Server Error: Service Unavailable for url: https://www.abnamro.co)"
+ },
+ {
+  "name": "Accenture",
+  "type": "consulting",
+  "careers_url": "https://www.accenture.com/fr-fr/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Accuracy",
+  "type": "consulting",
+  "careers_url": "https://www.accuracy.com/careers",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "ACPR",
+  "type": "institution",
+  "careers_url": "https://acpr.banque-france.fr/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Aequam Capital",
+  "type": "asset_manager",
+  "careers_url": "https://www.aequamcapital.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.aequamcapital.com', port=443): Ma)"
+ },
+ {
+  "name": "Agence France Trésor",
+  "type": "institution",
+  "careers_url": "https://www.aft.gouv.fr/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Ailancy",
+  "type": "consulting",
+  "careers_url": "https://www.ailancy.com/",
+  "covered": false,
+  "notes": "uses welcometothejungle, which has no public job API supported yet"
+ },
+ {
+  "name": "Akuna Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://akunacapital.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "All Options",
+  "type": "hedge_fund",
+  "careers_url": "https://www.alloptions.nl/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed c)"
+ },
+ {
+  "name": "Allianz",
+  "type": "insurance",
+  "careers_url": "https://careers.allianz.com/global/en",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Allianz GI",
+  "type": "asset_manager",
+  "careers_url": "https://careers.allianz.com/global/en",
+  "covered": false,
+  "notes": "covered by the Allianz entry (careers.allianz.com lists all Allianz companies, including Allianz Global Investors)."
+ },
+ {
+  "name": "Alvarez & Marsal",
+  "type": "consulting",
+  "careers_url": "https://www.alvarezandmarsal.com/careers",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "AMF",
+  "type": "institution",
+  "careers_url": "https://www.amf-france.org/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Amundi",
+  "type": "asset_manager",
+  "careers_url": "https://jobs.amundi.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Amundi Luxembourg",
+  "type": "asset_manager",
+  "careers_url": "https://www.amundi.lu/",
+  "covered": false,
+  "notes": "covered by the Amundi entry (jobs.amundi.com lists all Amundi entities, including Luxembourg)."
+ },
+ {
+  "name": "AQR",
+  "type": "hedge_fund",
+  "careers_url": "https://careers.aqr.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Arrowstreet Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.arrowstreetcapital.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Avantage Reply",
+  "type": "consulting",
+  "careers_url": "https://www.reply.com/en/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.reply.com/en/careers)"
+ },
+ {
+  "name": "Aviva Investors",
+  "type": "asset_manager",
+  "careers_url": "https://www.avivainvestors.com/en-gb/about/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "AXA",
+  "type": "insurance",
+  "careers_url": "https://recrutement.axa.fr/search-job?ReqTypeId=ETUD",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 403 Client Error: Forbidden for url: https://recrutement.axa.fr/searc)"
+ },
+ {
+  "name": "AXA IM",
+  "type": "asset_manager",
+  "careers_url": "https://www.axa-im.com/careers",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "AXA XL",
+  "type": "insurance",
+  "careers_url": "https://axaxl.com/careers",
+  "covered": false,
+  "notes": "uses cornerstone, which has no public job API supported yet"
+ },
+ {
+  "name": "Balyasny",
+  "type": "hedge_fund",
+  "careers_url": "https://www.bamfunds.com/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Bank of America",
+  "type": "intl_bank",
+  "careers_url": "https://careers.bankofamerica.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Bank of England",
+  "type": "institution",
+  "careers_url": "https://www.bankofengland.co.uk/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Banque Cantonale Vaudoise",
+  "type": "european_bank",
+  "careers_url": "https://www.bcv.ch/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.bcv.ch/fr/la-bcv/emp)"
+ },
+ {
+  "name": "Banque centrale du Luxembourg",
+  "type": "institution",
+  "careers_url": "https://www.bcl.lu/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Banque de France",
+  "type": "institution",
+  "careers_url": "https://www.banque-france.fr/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Banque de Luxembourg",
+  "type": "european_bank",
+  "careers_url": "https://www.banquedeluxembourg.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Banque Internationale à Luxembourg",
+  "type": "european_bank",
+  "careers_url": "https://www.bil.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Banque mondiale",
+  "type": "institution",
+  "careers_url": "https://www.worldbank.org/en/about/careers",
+  "covered": false,
+  "notes": "uses cornerstone, which has no public job API supported yet"
+ },
+ {
+  "name": "Banque Syz",
+  "type": "european_bank",
+  "careers_url": "https://www.syzgroup.com/en/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Barclays",
+  "type": "intl_bank",
+  "careers_url": "https://search.jobs.barclays/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "BBVA",
+  "type": "european_bank",
+  "careers_url": "https://careers.bbva.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "BCE (ECB)",
+  "type": "institution",
+  "careers_url": "https://talent.ecb.europa.eu/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "BearingPoint",
+  "type": "consulting",
+  "careers_url": "https://www.bearingpoint.com/en/careers/",
+  "covered": true,
+  "notes": "Teamtailor site covers BearingPoint Norway only."
+ },
+ {
+  "name": "BEI (EIB)",
+  "type": "institution",
+  "careers_url": "https://www.eib.org/en/about/careers/index",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Belfius",
+  "type": "european_bank",
+  "careers_url": "https://www.belfius.be/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 500 Server Error: Internal Server Error for url: https://www.belfius.)"
+ },
+ {
+  "name": "Belvedere Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.belvederetrading.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "BGC Group",
+  "type": "broker",
+  "careers_url": "https://www.bgcg.com/careers",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "BGL BNP Paribas",
+  "type": "european_bank",
+  "careers_url": "https://www.bgl.lu/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "BlackRock",
+  "type": "asset_manager",
+  "careers_url": "https://careers.blackrock.com/",
+  "covered": true,
+  "notes": "careers.blackrock.com (Radancy) disallows /search-jobs in robots.txt, so the underlying Workday site is used."
+ },
+ {
+  "name": "Bloomberg",
+  "type": "software",
+  "careers_url": "https://bloomberg.avature.net/careers",
+  "covered": true,
+  "notes": "Avature job list parsed; no internship open at discovery time."
+ },
+ {
+  "name": "BlueCrest",
+  "type": "hedge_fund",
+  "careers_url": "https://www.bluecrestcapital.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.bluecrestcapital.com)"
+ },
+ {
+  "name": "BMO Capital Markets",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.bmo.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "BNP Paribas",
+  "type": "french_bank",
+  "careers_url": "https://group.bnpparibas/en/careers/all-job-offers",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 403 Client Error: Forbidden for url: https://group.bnpparibas/en/care)"
+ },
+ {
+  "name": "BNP Paribas AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.bnpparibas-am.com/en/careers/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "BNP Paribas Cardif",
+  "type": "insurance",
+  "careers_url": "https://www.bnpparibascardif.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "BNP Paribas Fortis",
+  "type": "european_bank",
+  "careers_url": "https://www.bnpparibasfortis.be/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 503 Server Error: Service Unavailable for url: https://www.bnpparibas)"
+ },
+ {
+  "name": "BNS (SNB)",
+  "type": "institution",
+  "careers_url": "https://www.snb.ch/en/the-snb/mandates-goals/snb-employer",
+  "covered": false,
+  "notes": "uses successfactors, which has no public job API supported yet"
+ },
+ {
+  "name": "BNY",
+  "type": "intl_bank",
+  "careers_url": "https://www.bny.com/corporate/global/en/careers.html",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "BP Trading",
+  "type": "commodities",
+  "careers_url": "https://www.bp.com/en/global/corporate/careers.html",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Bpifrance",
+  "type": "institution",
+  "careers_url": "https://www.bpifrance.fr/nous-decouvrir/nous-rejoindre",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "BRED",
+  "type": "french_bank",
+  "careers_url": "https://www.bred.fr/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Brevan Howard",
+  "type": "hedge_fund",
+  "careers_url": "https://www.brevanhoward.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "BRI (BIS)",
+  "type": "institution",
+  "careers_url": "https://www.bis.org/careers/index.htm",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Bundesbank",
+  "type": "institution",
+  "careers_url": "https://www.bundesbank.de/en/bundesbank/career",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.bundesbank.de/en/bun)"
+ },
+ {
+  "name": "Caisse des Dépôts",
+  "type": "institution",
+  "careers_url": "https://www.caissedesdepots.fr/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Candriam",
+  "type": "asset_manager",
+  "careers_url": "https://www.candriam.com/en/professional/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Cantor Fitzgerald",
+  "type": "broker",
+  "careers_url": "https://www.cantor.com/careers/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Capco",
+  "type": "consulting",
+  "careers_url": "https://www.capco.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Capgemini Invent",
+  "type": "consulting",
+  "careers_url": "https://www.capgemini.com/fr-fr/carrieres/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Capula",
+  "type": "hedge_fund",
+  "careers_url": "https://www.capulaglobal.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 429 Client Error: Too Many Requests for url: https://apply.workable.c)"
+ },
+ {
+  "name": "Carmignac",
+  "type": "asset_manager",
+  "careers_url": "https://www.carmignac.com/en/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "CFM",
+  "type": "hedge_fund",
+  "careers_url": "https://www.cfm.com/",
+  "covered": false,
+  "notes": "the Greenhouse board \"cfm\" belongs to another company; cfm.com publishes no machine-readable job list."
+ },
+ {
+  "name": "Chappuis Halder & Co",
+  "type": "consulting",
+  "careers_url": "https://www.chappuishalder.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.chappuishalder.com', port=443): Max retr)"
+ },
+ {
+  "name": "CIC Market Solutions",
+  "type": "french_bank",
+  "careers_url": "https://recrutement.creditmutuel.fr/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Citadel",
+  "type": "hedge_fund",
+  "careers_url": "https://www.citadel.com/careers/open-opportunities/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Citadel Securities",
+  "type": "hedge_fund",
+  "careers_url": "https://www.citadelsecurities.com/careers/open-opportunities/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Citi",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.citi.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "CME Group",
+  "type": "infrastructure",
+  "careers_url": "https://www.cmegroup.com/careers.html",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "CNP Assurances",
+  "type": "insurance",
+  "careers_url": "https://cnp-assurances.careerpages.rec-marketing.dc3.pageuppeople.com/fr-FR/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Comgest",
+  "type": "asset_manager",
+  "careers_url": "https://www.comgest.com/en/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Page not found for url: https://www.comgest.com/en/)"
+ },
+ {
+  "name": "Commerzbank",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.commerzbank.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Covéa",
+  "type": "insurance",
+  "careers_url": "https://www.covea.com/fr/carrieres",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Crédit Agricole Indosuez",
+  "type": "french_bank",
+  "careers_url": "https://ca-indosuez.com/en/careers",
+  "covered": false,
+  "notes": "covered by the Groupe Crédit Agricole entry (groupecreditagricole.jobs lists all group entities)."
+ },
+ {
+  "name": "Crédit Mutuel Arkéa",
+  "type": "french_bank",
+  "careers_url": "https://www.arkea.com/banque/assurance/credit/mutuel/ecb_5034/fr/carrieres",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 400 Client Error:  for url: https://www.cm-arkea.com/arkea/banque/ass)"
+ },
+ {
+  "name": "d-fine",
+  "type": "consulting",
+  "careers_url": "https://www.d-fine.com/en/careers/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.d-fine.com/en/career)"
+ },
+ {
+  "name": "D. E. Shaw",
+  "type": "hedge_fund",
+  "careers_url": "https://www.deshaw.com/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Da Vinci",
+  "type": "hedge_fund",
+  "careers_url": "https://www.davincitrading.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Daiwa",
+  "type": "intl_bank",
+  "careers_url": "https://www.daiwa-cm.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Danske Bank",
+  "type": "european_bank",
+  "careers_url": "https://danskebank.com/careers",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "De Nederlandsche Bank",
+  "type": "institution",
+  "careers_url": "https://www.werkenbijdnb.nl/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Degroof Petercam",
+  "type": "european_bank",
+  "careers_url": "https://www.degroofpetercam.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Deloitte",
+  "type": "consulting",
+  "careers_url": "https://www.deloitte.com/fr/fr/careers.html",
+  "covered": true,
+  "notes": "apply.deloitte.com covers Deloitte US; Deloitte France has no machine-readable job list."
+ },
+ {
+  "name": "Deutsche Bank",
+  "type": "intl_bank",
+  "careers_url": "https://careers.db.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Deutsche Börse / Eurex",
+  "type": "infrastructure",
+  "careers_url": "https://careers.deutsche-boerse.com/",
+  "covered": false,
+  "notes": "the only Workday site found belongs to ISS (a subsidiary), not to Deutsche Börse / Eurex; careers site is in-house."
+ },
+ {
+  "name": "DNCA Finance",
+  "type": "asset_manager",
+  "careers_url": "https://www.dnca-investments.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "DRW",
+  "type": "hedge_fund",
+  "careers_url": "https://drw.com/work-at-drw/listings",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "DZ Bank",
+  "type": "european_bank",
+  "careers_url": "https://www.karriere.dzbank.de/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "EBA",
+  "type": "institution",
+  "careers_url": "https://www.eba.europa.eu/about-us/careers",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Eclipse Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.eclipsetrading.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "EDF Trading",
+  "type": "commodities",
+  "careers_url": "https://www.edftrading.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Edmond de Rothschild",
+  "type": "asset_manager",
+  "careers_url": "https://www.edmond-de-rothschild.com/en/careers",
+  "covered": false,
+  "notes": "candidate platforms failed (ConnectionError: HTTPSConnectionPool(host='fa-evht-saasfaprod1.fa.ocs.oracleclou)"
+ },
+ {
+  "name": "EFG International",
+  "type": "european_bank",
+  "careers_url": "https://www.efginternational.com/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Eleva Capital",
+  "type": "asset_manager",
+  "careers_url": "https://www.elevacapital.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Engie GEMS",
+  "type": "commodities",
+  "careers_url": "https://jobs.engie.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Engineers Gate",
+  "type": "hedge_fund",
+  "careers_url": "https://www.engineersgate.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "ESMA",
+  "type": "institution",
+  "careers_url": "https://www.esma.europa.eu/about-esma/careers",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Euroclear",
+  "type": "european_bank",
+  "careers_url": "https://www.euroclear.com/about/en/careers.html",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Euronext",
+  "type": "infrastructure",
+  "careers_url": "https://www.euronext.com/en/about/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Exane (BNP Paribas)",
+  "type": "broker",
+  "careers_url": "https://www.exane.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ReadTimeout: HTTPSConnectionPool(host='www.exane.com', port=443): Read timed out)"
+ },
+ {
+  "name": "ExodusPoint",
+  "type": "hedge_fund",
+  "careers_url": "https://www.exoduspoint.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Exton Consulting",
+  "type": "consulting",
+  "careers_url": "https://www.extonconsulting.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.extonconsulting.com', port=443): )"
+ },
+ {
+  "name": "EY",
+  "type": "consulting",
+  "careers_url": "https://careers.ey.com/ey/search/?q=intern",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "FactSet",
+  "type": "software",
+  "careers_url": "https://www.factset.com/careers",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://factset.wd1.m)"
+ },
+ {
+  "name": "FCA",
+  "type": "institution",
+  "careers_url": "https://www.fca.org.uk/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "FEI (EIF)",
+  "type": "institution",
+  "careers_url": "https://www.eif.org/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Fidelity International",
+  "type": "asset_manager",
+  "careers_url": "https://careers.fidelityinternational.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Finalyse",
+  "type": "consulting",
+  "careers_url": "https://www.finalyse.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Finastra",
+  "type": "software",
+  "careers_url": "https://www.finastra.com/careers",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://finastra.wd3.myworkdayjo)"
+ },
+ {
+  "name": "Fintegral",
+  "type": "consulting",
+  "careers_url": "https://www.fintegral.com/careers",
+  "covered": false,
+  "notes": "uses teamtailor, which has no public job API supported yet"
+ },
+ {
+  "name": "Fitch Ratings",
+  "type": "software",
+  "careers_url": "https://careers.fitch.group/",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://fitch.wd1.myw)"
+ },
+ {
+  "name": "Five Rings",
+  "type": "hedge_fund",
+  "careers_url": "https://fiveringsllc.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Flow Traders",
+  "type": "hedge_fund",
+  "careers_url": "https://www.flowtraders.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "FMI (IMF)",
+  "type": "institution",
+  "careers_url": "https://www.imf.org/en/Careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.imf.org/en/Careers)"
+ },
+ {
+  "name": "Forvis Mazars",
+  "type": "consulting",
+  "careers_url": "https://www.forvismazars.com/fr/fr/carrieres",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Fourpoints IM",
+  "type": "asset_manager",
+  "careers_url": "https://www.fourpointsim.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "G-Research",
+  "type": "hedge_fund",
+  "careers_url": "https://www.gresearch.com/join-us/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Generali",
+  "type": "insurance",
+  "careers_url": "https://www.generali.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.generali.com/careers)"
+ },
+ {
+  "name": "Generali Investments",
+  "type": "asset_manager",
+  "careers_url": "https://www.generali-investments.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Glencore",
+  "type": "commodities",
+  "careers_url": "https://www.glencore.com/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Global Trading Systems",
+  "type": "hedge_fund",
+  "careers_url": "https://www.gts.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.gts.com', port=443): Max retries )"
+ },
+ {
+  "name": "Goldman Sachs",
+  "type": "intl_bank",
+  "careers_url": "https://higher.gs.com/roles",
+  "covered": false,
+  "notes": "uses avature, which has no public job API supported yet"
+ },
+ {
+  "name": "Grant Thornton",
+  "type": "consulting",
+  "careers_url": "https://www.grantthornton.fr/fr/carrieres/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Groupama AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.groupama-am.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Groupe Crédit Agricole",
+  "type": "french_bank",
+  "careers_url": "https://groupecreditagricole.jobs/fr/nos-offres/",
+  "covered": true,
+  "notes": "groupecreditagricole.jobs lists all group entities (CA-CIB, Amundi, Indosuez, LCL...)."
+ },
+ {
+  "name": "Gunvor",
+  "type": "commodities",
+  "careers_url": "https://gunvorgroup.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "H2O AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.h2o-am.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='careers.h2o-am.com', port=443): Max r)"
+ },
+ {
+  "name": "Headlands Technologies",
+  "type": "hedge_fund",
+  "careers_url": "https://www.headlandstech.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "HSBC",
+  "type": "intl_bank",
+  "careers_url": "https://mycareer.hsbc.com/en_GB/external/SearchJobs",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "HSBC Continental Europe",
+  "type": "french_bank",
+  "careers_url": "https://www.hsbc.fr/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Hudson River Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.hudsonrivertrading.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Hutchin Hill",
+  "type": "hedge_fund",
+  "careers_url": "https://www.hutchinhill.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.hutchinhill.com', port=443): Max retries)"
+ },
+ {
+  "name": "ICE",
+  "type": "infrastructure",
+  "careers_url": "https://careers.ice.com/",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://intercontinen)"
+ },
+ {
+  "name": "IMC",
+  "type": "hedge_fund",
+  "careers_url": "https://www.imc.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "ING",
+  "type": "intl_bank",
+  "careers_url": "https://www.ing.jobs/global/careers.htm",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Intesa Sanpaolo",
+  "type": "european_bank",
+  "careers_url": "https://www.intesasanpaolo.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Invesco",
+  "type": "asset_manager",
+  "careers_url": "https://careers.invesco.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Investec",
+  "type": "intl_bank",
+  "careers_url": "https://www.investec.com/en_gb/careers.html",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://investec.wd3.)"
+ },
+ {
+  "name": "ION Group",
+  "type": "software",
+  "careers_url": "https://iongroup.com/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "J. Safra Sarasin",
+  "type": "european_bank",
+  "careers_url": "https://www.jsafrasarasin.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Jane Street",
+  "type": "hedge_fund",
+  "careers_url": "https://www.janestreet.com/join-jane-street/open-roles/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Janus Henderson",
+  "type": "asset_manager",
+  "careers_url": "https://www.janushenderson.com/en-us/careers/",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 422 Client Error: Unprocessable Entity for url: https://janushenderso)"
+ },
+ {
+  "name": "Jefferies",
+  "type": "intl_bank",
+  "careers_url": "https://www.jefferies.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "JPMorgan",
+  "type": "intl_bank",
+  "careers_url": "https://www.jpmorganchase.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Julius Baer",
+  "type": "european_bank",
+  "careers_url": "https://www.juliusbaer.com/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Jump Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.jumptrading.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "KBC",
+  "type": "european_bank",
+  "careers_url": "https://www.kbc.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.kbc.com/en/careers.h)"
+ },
+ {
+  "name": "Kepler Cheuvreux",
+  "type": "broker",
+  "careers_url": "https://keplercheuvreux.teamtailor.com/jobs",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "KPMG",
+  "type": "consulting",
+  "careers_url": "https://emplois.kpmg.fr/",
+  "covered": true,
+  "notes": "KPMG France careers site."
+ },
+ {
+  "name": "La Banque Postale",
+  "type": "french_bank",
+  "careers_url": "https://www.labanquepostale.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.labanquepostale.com/)"
+ },
+ {
+  "name": "La Financière de l'Echiquier",
+  "type": "asset_manager",
+  "careers_url": "https://www.lfde.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "La Française",
+  "type": "asset_manager",
+  "careers_url": "https://www.la-francaise.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Lazard",
+  "type": "asset_manager",
+  "careers_url": "https://www.lazard.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Lazard Frères Gestion",
+  "type": "asset_manager",
+  "careers_url": "https://www.lazardfreresgestion.fr/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.lazardfreresgestion.fr', port=443): Max )"
+ },
+ {
+  "name": "LBBW",
+  "type": "european_bank",
+  "careers_url": "https://www.lbbw.de/karriere",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection r)"
+ },
+ {
+  "name": "Legal & General",
+  "type": "asset_manager",
+  "careers_url": "https://www.legalandgeneralgroup.com/careers/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.legalandgeneralgroup.com', port=4)"
+ },
+ {
+  "name": "Leonteq",
+  "type": "broker",
+  "careers_url": "https://www.leonteq.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.leonteq.com/company/)"
+ },
+ {
+  "name": "Liquid Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.liquidcapital.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.liquidcapital.com', port=443): Ma)"
+ },
+ {
+  "name": "Lloyds Banking Group",
+  "type": "intl_bank",
+  "careers_url": "https://www.lloydsbankinggroup.com/careers.html",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Lombard Odier",
+  "type": "european_bank",
+  "careers_url": "https://www.lombardodier.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "LSEG",
+  "type": "infrastructure",
+  "careers_url": "https://www.lseg.com/en/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Lucht Probst Associates",
+  "type": "consulting",
+  "careers_url": "https://www.l-p-a.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "M&G",
+  "type": "asset_manager",
+  "careers_url": "https://www.mandg.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Macquarie",
+  "type": "intl_bank",
+  "careers_url": "https://www.macquarie.com/au/en/careers.html",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Mako",
+  "type": "hedge_fund",
+  "careers_url": "https://www.mako.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Man Group",
+  "type": "asset_manager",
+  "careers_url": "https://www.man.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Marex",
+  "type": "broker",
+  "careers_url": "https://www.marex.com/careers/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPConnectionPool(host='www.marex.test', port=80): Max retries)"
+ },
+ {
+  "name": "Marshall Wace",
+  "type": "hedge_fund",
+  "careers_url": "https://www.mwam.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Maven Securities",
+  "type": "hedge_fund",
+  "careers_url": "https://www.mavensecurities.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Mediobanca",
+  "type": "european_bank",
+  "careers_url": "https://www.mediobanca.com/en/careers/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.mediobanca.com/en/ca)"
+ },
+ {
+  "name": "Mercuria",
+  "type": "commodities",
+  "careers_url": "https://mercuria.com/careers/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='mercuria.com', port=443): Max retries exceed)"
+ },
+ {
+  "name": "MES (ESM)",
+  "type": "institution",
+  "careers_url": "https://www.esm.europa.eu/careers",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Millennium",
+  "type": "hedge_fund",
+  "careers_url": "https://www.mlp.com/careers/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Mint Tower",
+  "type": "hedge_fund",
+  "careers_url": "https://www.minttower.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.minttowercapital.comcareers', por)"
+ },
+ {
+  "name": "Mirabaud",
+  "type": "european_bank",
+  "careers_url": "https://www.mirabaud.com/en/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Mirova",
+  "type": "asset_manager",
+  "careers_url": "https://www.mirova.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Mizuho",
+  "type": "intl_bank",
+  "careers_url": "https://www.mizuhogroup.com/emea/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Moneta AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.moneta.fr/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Moody's",
+  "type": "software",
+  "careers_url": "https://careers.moodys.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Morgan Stanley",
+  "type": "intl_bank",
+  "careers_url": "https://www.morganstanley.com/careers/students-graduates",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "MSCI",
+  "type": "software",
+  "careers_url": "https://careers.msci.com/",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 401 Client Error: Unauthorized for url: https://msci.wd1.myworkdayjob)"
+ },
+ {
+  "name": "MUFG",
+  "type": "intl_bank",
+  "careers_url": "https://www.mufgemea.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Munich Re",
+  "type": "insurance",
+  "careers_url": "https://www.munichre.com/en/careers.html",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Murex",
+  "type": "software",
+  "careers_url": "https://www.murex.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Muzinich",
+  "type": "asset_manager",
+  "careers_url": "https://www.muzinich.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Nasdaq (Calypso / Adenza)",
+  "type": "software",
+  "careers_url": "https://www.nasdaq.com/about/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Natixis CIB",
+  "type": "french_bank",
+  "careers_url": "https://recrutement.natixis.com/en",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Natixis IM",
+  "type": "asset_manager",
+  "careers_url": "https://www.im.natixis.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.im.natixis.com/en-in)"
+ },
+ {
+  "name": "NatWest Markets",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.natwestgroup.com/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Nomura",
+  "type": "intl_bank",
+  "careers_url": "https://www.nomura.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Nordea",
+  "type": "european_bank",
+  "careers_url": "https://www.nordea.com/en/careers",
+  "covered": false,
+  "notes": "the Teamtailor site found is empty / not Nordea's main careers site; nordea.com careers is in-house."
+ },
+ {
+  "name": "Numerix",
+  "type": "software",
+  "careers_url": "https://www.numerix.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Nyenburgh",
+  "type": "hedge_fund",
+  "careers_url": "https://www.nyenburgh.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.nyenburgh.com', port=443): Max retries e)"
+ },
+ {
+  "name": "Oddo BHF",
+  "type": "broker",
+  "careers_url": "https://www.oddo-bhf.com/discover-our-jobs/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Ofi Invest",
+  "type": "asset_manager",
+  "careers_url": "https://www.ofi-invest.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Old Mission",
+  "type": "hedge_fund",
+  "careers_url": "https://www.oldmissioncapital.com/careers",
+  "covered": false,
+  "notes": "uses ashby, which has no public job API supported yet"
+ },
+ {
+  "name": "Opensee",
+  "type": "software",
+  "careers_url": "https://www.opensee.io/careers",
+  "covered": false,
+  "notes": "uses welcometothejungle, which has no public job API supported yet"
+ },
+ {
+  "name": "Optiver",
+  "type": "hedge_fund",
+  "careers_url": "https://optiver.com/working-at-optiver/career-opportunities/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Ossiam",
+  "type": "asset_manager",
+  "careers_url": "https://www.ossiam.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Ostrum",
+  "type": "asset_manager",
+  "careers_url": "https://www.ostrum.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "PDT Partners",
+  "type": "hedge_fund",
+  "careers_url": "https://pdtpartners.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Peak6",
+  "type": "hedge_fund",
+  "careers_url": "https://peak6.com/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Pictet",
+  "type": "european_bank",
+  "careers_url": "https://www.group.pictet/careers",
+  "covered": false,
+  "notes": "uses successfactors, which has no public job API supported yet"
+ },
+ {
+  "name": "PIMCO",
+  "type": "asset_manager",
+  "careers_url": "https://www.pimco.com/en-us/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Point72",
+  "type": "hedge_fund",
+  "careers_url": "https://careers.point72.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "PwC",
+  "type": "consulting",
+  "careers_url": "https://www.pwc.fr/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Quadrature Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.quadrature.ai/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Quanteam",
+  "type": "consulting",
+  "careers_url": "https://www.quanteam.fr/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Quantifi",
+  "type": "software",
+  "careers_url": "https://www.quantifisolutions.com/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Qube Research & Technologies",
+  "type": "hedge_fund",
+  "careers_url": "https://www.qube-rt.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Quintet Private Bank",
+  "type": "european_bank",
+  "careers_url": "https://www.quintet.com/en-gb/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.quintet.com/en-gb/ca)"
+ },
+ {
+  "name": "Rabobank",
+  "type": "european_bank",
+  "careers_url": "https://rabobank.jobs/en/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Radix Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.radixtrading.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Raiffeisen Bank International",
+  "type": "european_bank",
+  "careers_url": "https://www.rbinternational.com/en/careers.html",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "RBC Capital Markets",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.rbc.com/ca/en",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Robeco",
+  "type": "asset_manager",
+  "careers_url": "https://www.robeco.com/en-int/about-us/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Rothschild & Co",
+  "type": "asset_manager",
+  "careers_url": "https://www.rothschildandco.com/en/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "S&P Global",
+  "type": "software",
+  "careers_url": "https://careers.spglobal.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Santander CIB",
+  "type": "intl_bank",
+  "careers_url": "https://www.santandercib.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Schonfeld",
+  "type": "hedge_fund",
+  "careers_url": "https://www.schonfeld.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Schroders",
+  "type": "asset_manager",
+  "careers_url": "https://www.schroders.com/en/global/individual/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "SCOR",
+  "type": "insurance",
+  "careers_url": "https://www.scor.com/en/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Scotiabank",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.scotiabank.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "SEB",
+  "type": "european_bank",
+  "careers_url": "https://sebgroup.com/career",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Seeyond",
+  "type": "asset_manager",
+  "careers_url": "https://www.seeyond-am.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Shell Trading",
+  "type": "commodities",
+  "careers_url": "https://www.shell.com/careers.html",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Sia Partners",
+  "type": "consulting",
+  "careers_url": "https://www.sia-partners.com/en/careers",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Sienna IM",
+  "type": "asset_manager",
+  "careers_url": "https://www.sienna-im.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "SimCorp",
+  "type": "software",
+  "careers_url": "https://www.simcorp.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.simcorp.com/careers)"
+ },
+ {
+  "name": "SMBC",
+  "type": "intl_bank",
+  "careers_url": "https://www.smbcgroup.com/emea/careers",
+  "covered": false,
+  "notes": "uses successfactors, which has no public job API supported yet"
+ },
+ {
+  "name": "Société Générale",
+  "type": "french_bank",
+  "careers_url": "https://careers.societegenerale.com/en/search?query=intern",
+  "covered": false,
+  "notes": "careers.societegenerale.com renders its search in JavaScript and exposes no public job endpoint (Taleo back-office is not public)."
+ },
+ {
+  "name": "Société Générale Luxembourg",
+  "type": "european_bank",
+  "careers_url": "https://www.societegenerale.lu/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Spuerkeess (BCEE)",
+  "type": "european_bank",
+  "careers_url": "https://www.spuerkeess.lu/en/careers/",
+  "covered": false,
+  "notes": "uses cornerstone, which has no public job API supported yet"
+ },
+ {
+  "name": "Square Management",
+  "type": "consulting",
+  "careers_url": "https://www.square-management.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Squarepoint",
+  "type": "hedge_fund",
+  "careers_url": "https://www.squarepoint-capital.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Standard Chartered",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.standardchartered.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "State Street",
+  "type": "intl_bank",
+  "careers_url": "https://careers.statestreet.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Stifel",
+  "type": "broker",
+  "careers_url": "https://www.stifel.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Susquehanna (SIG)",
+  "type": "hedge_fund",
+  "careers_url": "https://careers.sig.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Swiss Life AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.swisslife-am.com/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Swiss Re",
+  "type": "insurance",
+  "careers_url": "https://www.swissre.com/careers.html",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://www.swissre.com/search/?)"
+ },
+ {
+  "name": "Swissquote",
+  "type": "european_bank",
+  "careers_url": "https://www.swissquote.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Sycomore AM",
+  "type": "asset_manager",
+  "careers_url": "https://www.sycomore-am.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Syquant Capital",
+  "type": "hedge_fund",
+  "careers_url": "https://www.syquant.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host='www.syquant.com', port=443): Max retr)"
+ },
+ {
+  "name": "TD Securities",
+  "type": "intl_bank",
+  "careers_url": "https://jobs.td.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Tibra",
+  "type": "hedge_fund",
+  "careers_url": "https://tibra.com/careers",
+  "covered": false,
+  "notes": "uses workable, which has no public job API supported yet"
+ },
+ {
+  "name": "Tikehau Capital",
+  "type": "asset_manager",
+  "careers_url": "https://tikehau-capital-career.talentview.io/en",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "TOBAM",
+  "type": "asset_manager",
+  "careers_url": "https://www.tobam.fr/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "TotalEnergies Trading",
+  "type": "commodities",
+  "careers_url": "https://jobs.totalenergies.com/en_US/careers",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
+  "name": "Tower Research",
+  "type": "hedge_fund",
+  "careers_url": "https://www.tower-research.com/open-positions",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "TP ICAP",
+  "type": "broker",
+  "careers_url": "https://www.tpicap.com/tpicap/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (SSLError: HTTPSConnectionPool(host='www.tpicap.com', port=443): Max retries exce)"
+ },
+ {
+  "name": "Tradition",
+  "type": "broker",
+  "careers_url": "https://www.tradition.com/careers/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.trad-x.com/news/2014)"
+ },
+ {
+  "name": "Trafigura",
+  "type": "commodities",
+  "careers_url": "https://www.trafigura.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Two Sigma",
+  "type": "hedge_fund",
+  "careers_url": "https://www.twosigma.com/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "UBS",
+  "type": "intl_bank",
+  "careers_url": "https://www.ubs.com/global/en/careers/search-jobs.html",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://www.ubs.com/search-jobs/)"
+ },
+ {
+  "name": "UniCredit",
+  "type": "european_bank",
+  "careers_url": "https://careers.unicredit.eu/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Unigestion",
+  "type": "asset_manager",
+  "careers_url": "https://www.unigestion.com/careers/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://unigestion.com/careers)"
+ },
+ {
+  "name": "Union Bancaire Privée",
+  "type": "european_bank",
+  "careers_url": "https://www.ubp.com/en/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Varenne Capital",
+  "type": "asset_manager",
+  "careers_url": "https://www.varennecapital.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Virtu Financial",
+  "type": "hedge_fund",
+  "careers_url": "https://www.virtu.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Vitol",
+  "type": "commodities",
+  "careers_url": "https://www.vitol.com/careers/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Voleon",
+  "type": "hedge_fund",
+  "careers_url": "https://voleon.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Vontobel",
+  "type": "european_bank",
+  "careers_url": "https://www.vontobel.com/en-ch/about-vontobel/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Wavestone",
+  "type": "consulting",
+  "careers_url": "https://www.wavestone.com/en/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Wells Fargo",
+  "type": "intl_bank",
+  "careers_url": "https://www.wellsfargojobs.com/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Wolverine Trading",
+  "type": "hedge_fund",
+  "careers_url": "https://www.wolve.com/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "WorldQuant",
+  "type": "hedge_fund",
+  "careers_url": "https://www.worldquant.com/career-listing/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "XTX Markets",
+  "type": "hedge_fund",
+  "careers_url": "https://www.xtxmarkets.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Zanders",
+  "type": "consulting",
+  "careers_url": "https://zandersgroup.com/en/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Zurich",
+  "type": "insurance",
+  "careers_url": "https://www.zurich.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Zürcher Kantonalbank",
+  "type": "european_bank",
+  "careers_url": "https://www.zkb.ch/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.zkb.ch/de/ueber-uns/)"
+ }
+]

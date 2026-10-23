@@ -29,6 +29,7 @@
       <button role="tab" class="tab active" data-tab="new" aria-selected="true">Nouveautés du jour <span class="count" id="count-new">0</span></button>
       <button role="tab" class="tab" data-tab="all" aria-selected="false">Toutes les offres <span class="count" id="count-all">0</span></button>
       <button role="tab" class="tab" data-tab="mine" aria-selected="false">Mon suivi <span class="count" id="count-mine">0</span></button>
+      <button role="tab" class="tab" data-tab="companies" aria-selected="false">Entreprises <span class="count" id="count-companies">0</span></button>
     </nav>
 
     <div class="pipeline" id="pipeline" hidden></div>
@@ -59,6 +60,25 @@
         <button type="button" id="export">Exporter CSV</button>
         <label class="button" for="import">Importer CSV</label>
         <input type="file" id="import" accept=".csv,text/csv" hidden>
+      </div>
+    </section>
+
+    <section class="filters" id="company-filters" aria-label="Filtres entreprises" hidden>
+      <p class="hint">Fenêtres de candidature <strong>indicatives</strong>, d'après les calendriers habituels de chaque type d'acteur : vérifie toujours sur le site de l'entreprise. Les entreprises « à regarder à la main » ne sont pas couvertes par le suivi automatique.</p>
+      <input type="search" id="c-search" placeholder="Rechercher une entreprise" aria-label="Recherche entreprise">
+      <div class="filter-grid">
+        <label>Type d'acteur<select id="c-type"><option value="">Tous</option></select></label>
+        <label>Suivi<select id="c-covered">
+          <option value="">Tous</option>
+          <option value="auto">Suivi automatique</option>
+          <option value="manual">À regarder à la main</option>
+        </select></label>
+        <label>Fenêtre<select id="c-window">
+          <option value="">Toutes</option>
+          <option value="open">Ouverte maintenant</option>
+          <option value="soon">Ouvre dans moins de 3 mois</option>
+        </select></label>
+        <label>Contact<select id="c-contact"><option value="">Tous</option></select></label>
       </div>
     </section>
 
@@ -122,6 +142,23 @@
         <button type="button" class="ghost edit-offer" hidden>Modifier</button>
       </div>
       <textarea class="notes" placeholder="Notes (contacts, échéances, impressions…)" hidden></textarea>
+    </article>
+  </template>
+
+  <template id="company-tpl">
+    <article class="card company">
+      <div class="company-main">
+        <div>
+          <h2 class="title"><a target="_blank" rel="noopener"></a></h2>
+          <p class="meta"><span class="type"></span><span class="coverage"></span></p>
+        </div>
+        <div class="windows"></div>
+      </div>
+      <div class="tracking">
+        <select class="contact-select" aria-label="Contact"></select>
+        <label class="applied">Le <input type="date" class="contact-date"></label>
+        <input type="text" class="contact-notes" placeholder="Notes (contact, personne rencontrée…)">
+      </div>
     </article>
   </template>
 
