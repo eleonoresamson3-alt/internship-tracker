@@ -1694,3 +1694,526 @@ employers:
     - https://danskebank.com/careers
   enabled: false
   notes: robots.txt disallows automated access to the careers pages
+- name: TOBAM
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.tobam.fr/
+  params:
+    urls:
+    - https://www.tobam.fr/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Syquant Capital
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.syquant.com/
+  params:
+    urls:
+    - https://www.syquant.com/
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''www.syquant.com'', port=443):
+    Max retr)'
+- name: Ossiam
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.ossiam.com/
+  params:
+    urls:
+    - https://www.ossiam.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Unigestion
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.unigestion.com/careers/
+  params:
+    urls:
+    - https://www.unigestion.com/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://unigestion.com/careers)'
+- name: H2O AM
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.h2o-am.com/
+  params:
+    urls:
+    - https://www.h2o-am.com/
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''careers.h2o-am.com'', port=443):
+    Max r)'
+- name: Sienna IM
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.sienna-im.com/
+  params:
+    urls:
+    - https://www.sienna-im.com/
+  enabled: false
+  notes: robots.txt disallows automated access to its job search
+- name: Moneta AM
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.moneta.fr/
+  params:
+    urls:
+    - https://www.moneta.fr/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Varenne Capital
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.varennecapital.com/
+  params:
+    urls:
+    - https://www.varennecapital.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Lazard Frères Gestion
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.lazardfreresgestion.fr/
+  params:
+    urls:
+    - https://www.lazardfreresgestion.fr/
+  enabled: false
+  notes: 'careers site not reachable by a script (SSLError: HTTPSConnectionPool(host=''www.lazardfreresgestion.fr'', port=443):
+    Max )'
+- name: Eleva Capital
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.elevacapital.com/
+  params:
+    urls:
+    - https://www.elevacapital.com/
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: La Financière de l'Echiquier
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.lfde.com/
+  params:
+    urls:
+    - https://www.lfde.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Fourpoints IM
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.fourpointsim.com/
+  params:
+    urls:
+    - https://www.fourpointsim.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Muzinich
+  type: asset_manager
+  platform: workday
+  careers_url: https://www.muzinich.com/careers
+  params:
+    url: https://muzinich.wd5.myworkdayjobs.com/muzinichcareers
+- name: Seeyond
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.seeyond-am.com/
+  params:
+    urls:
+    - https://www.seeyond-am.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Aequam Capital
+  type: asset_manager
+  platform: generic
+  careers_url: https://www.aequamcapital.com/
+  params:
+    urls:
+    - https://www.aequamcapital.com/
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''www.aequamcapital.com'', port=443):
+    Ma)'
+- name: WorldQuant
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.worldquant.com/career-listing/
+  params:
+    board: worldquant
+- name: Voleon
+  type: hedge_fund
+  platform: ashby
+  careers_url: https://voleon.com/careers/
+  params:
+    board: voleon
+- name: PDT Partners
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://pdtpartners.com/careers
+  params:
+    board: pdtpartners
+- name: Engineers Gate
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.engineersgate.com/careers
+  params:
+    board: engineersgate
+- name: Old Mission
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.oldmissioncapital.com/careers
+  params:
+    urls:
+    - https://www.oldmissioncapital.com/careers
+  enabled: false
+  notes: uses ashby, which has no public job API supported yet
+- name: Wolverine Trading
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.wolve.com/careers
+  params:
+    urls:
+    - https://www.wolve.com/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Peak6
+  type: hedge_fund
+  platform: generic
+  careers_url: https://peak6.com/careers/
+  params:
+    urls:
+    - https://peak6.com/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Belvedere Trading
+  type: hedge_fund
+  platform: lever
+  careers_url: https://www.belvederetrading.com/careers
+  params:
+    site: belvederetrading
+- name: Headlands Technologies
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.headlandstech.com/careers
+  params:
+    board: headlandstechnologiesllc
+- name: Radix Trading
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.radixtrading.com/careers
+  params:
+    board: radixuniversity
+- name: Tibra
+  type: hedge_fund
+  platform: generic
+  careers_url: https://tibra.com/careers
+  params:
+    urls:
+    - https://tibra.com/careers
+  enabled: false
+  notes: uses workable, which has no public job API supported yet
+- name: Eclipse Trading
+  type: hedge_fund
+  platform: greenhouse
+  careers_url: https://www.eclipsetrading.com/careers
+  params:
+    board: eclipsetrading
+- name: Mint Tower
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.minttower.com/careers
+  params:
+    urls:
+    - https://www.minttower.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''www.minttowercapital.comcareers'',
+    por)'
+- name: All Options
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.alloptions.nl/careers
+  params:
+    urls:
+    - https://www.alloptions.nl/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: (''Connection aborted.'', RemoteDisconnected(''Remote end
+    closed c)'
+- name: Nyenburgh
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.nyenburgh.com/careers
+  params:
+    urls:
+    - https://www.nyenburgh.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (SSLError: HTTPSConnectionPool(host=''www.nyenburgh.com'', port=443): Max
+    retries e)'
+- name: Liquid Capital
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.liquidcapital.com/careers
+  params:
+    urls:
+    - https://www.liquidcapital.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''www.liquidcapital.com'', port=443):
+    Ma)'
+- name: Global Trading Systems
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.gts.com/careers
+  params:
+    urls:
+    - https://www.gts.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''www.gts.com'', port=443): Max
+    retries )'
+- name: Hutchin Hill
+  type: hedge_fund
+  platform: generic
+  careers_url: https://www.hutchinhill.com/careers
+  params:
+    urls:
+    - https://www.hutchinhill.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (SSLError: HTTPSConnectionPool(host=''www.hutchinhill.com'', port=443): Max
+    retries)'
+- name: TP ICAP
+  type: broker
+  platform: generic
+  careers_url: https://www.tpicap.com/tpicap/careers
+  params:
+    urls:
+    - https://www.tpicap.com/tpicap/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (SSLError: HTTPSConnectionPool(host=''www.tpicap.com'', port=443): Max retries
+    exce)'
+- name: BGC Group
+  type: broker
+  platform: generic
+  careers_url: https://www.bgcg.com/careers
+  params:
+    urls:
+    - https://www.bgcg.com/careers
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Tradition
+  type: broker
+  platform: generic
+  careers_url: https://www.tradition.com/careers/
+  params:
+    urls:
+    - https://www.tradition.com/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.trad-x.com/news/2014)'
+- name: Cantor Fitzgerald
+  type: broker
+  platform: generic
+  careers_url: https://www.cantor.com/careers/
+  params:
+    urls:
+    - https://www.cantor.com/careers/
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Stifel
+  type: broker
+  platform: generic
+  careers_url: https://www.stifel.com/careers
+  params:
+    urls:
+    - https://careers-stifel.icims.com/jobs/search?ss=1&searchKeyword={term}&in_iframe=1
+    link_pattern: /jobs/\d+/
+- name: Crédit Mutuel Arkéa
+  type: french_bank
+  platform: generic
+  careers_url: https://www.arkea.com/banque/assurance/credit/mutuel/ecb_5034/fr/carrieres
+  params:
+    urls:
+    - https://www.arkea.com/banque/assurance/credit/mutuel/ecb_5034/fr/carrieres
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 400 Client Error:  for url: https://www.cm-arkea.com/arkea/banque/ass)'
+- name: BRED
+  type: french_bank
+  platform: generic
+  careers_url: https://www.bred.fr/
+  params:
+    urls:
+    - https://www.bred.fr/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Union Bancaire Privée
+  type: european_bank
+  platform: generic
+  careers_url: https://www.ubp.com/en/careers
+  params:
+    urls:
+    - https://www.ubp.com/en/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: J. Safra Sarasin
+  type: european_bank
+  platform: generic
+  careers_url: https://www.jsafrasarasin.com/
+  params:
+    urls:
+    - https://www.jsafrasarasin.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Mirabaud
+  type: european_bank
+  platform: generic
+  careers_url: https://www.mirabaud.com/en/careers
+  params:
+    urls:
+    - https://www.mirabaud.com/en/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Banque Syz
+  type: european_bank
+  platform: generic
+  careers_url: https://www.syzgroup.com/en/careers
+  params:
+    urls:
+    - https://www.syzgroup.com/en/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Quintet Private Bank
+  type: european_bank
+  platform: generic
+  careers_url: https://www.quintet.com/en-gb/careers
+  params:
+    urls:
+    - https://www.quintet.com/en-gb/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.quintet.com/en-gb/ca)'
+- name: Banque de Luxembourg
+  type: european_bank
+  platform: generic
+  careers_url: https://www.banquedeluxembourg.com/
+  params:
+    urls:
+    - https://www.banquedeluxembourg.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: d-fine
+  type: consulting
+  platform: generic
+  careers_url: https://www.d-fine.com/en/careers/
+  params:
+    urls:
+    - https://www.d-fine.com/en/careers/
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.d-fine.com/en/career)'
+- name: Capco
+  type: consulting
+  platform: greenhouse
+  careers_url: https://www.capco.com/careers
+  params:
+    board: capco
+- name: Chappuis Halder & Co
+  type: consulting
+  platform: generic
+  careers_url: https://www.chappuishalder.com/
+  params:
+    urls:
+    - https://www.chappuishalder.com/
+  enabled: false
+  notes: 'careers site not reachable by a script (SSLError: HTTPSConnectionPool(host=''www.chappuishalder.com'', port=443):
+    Max retr)'
+- name: Accuracy
+  type: consulting
+  platform: generic
+  careers_url: https://www.accuracy.com/careers
+  params:
+    urls:
+    - https://www.accuracy.com/careers
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: Quanteam
+  type: consulting
+  platform: generic
+  careers_url: https://www.quanteam.fr/
+  params:
+    urls:
+    - https://quanteam.fr/offres-demploi/support-orchestrade-geneve/
+- name: Lucht Probst Associates
+  type: consulting
+  platform: generic
+  careers_url: https://www.l-p-a.com/
+  params:
+    urls:
+    - https://www.l-p-a.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Fintegral
+  type: consulting
+  platform: generic
+  careers_url: https://www.fintegral.com/careers
+  params:
+    urls:
+    - https://www.fintegral.com/careers
+  enabled: false
+  notes: uses teamtailor, which has no public job API supported yet
+- name: Ailancy
+  type: consulting
+  platform: generic
+  careers_url: https://www.ailancy.com/
+  params:
+    urls:
+    - https://www.ailancy.com/
+  enabled: false
+  notes: uses welcometothejungle, which has no public job API supported yet
+- name: Square Management
+  type: consulting
+  platform: generic
+  careers_url: https://www.square-management.com/
+  params:
+    urls:
+    - https://www.square-management.com/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Alvarez & Marsal
+  type: consulting
+  platform: generic
+  careers_url: https://www.alvarezandmarsal.com/careers
+  params:
+    urls:
+    - https://www.alvarezandmarsal.com/careers
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Grant Thornton
+  type: consulting
+  platform: recruitee
+  careers_url: https://www.grantthornton.fr/fr/carrieres/
+  params:
+    company: grantthornton
+- name: Exton Consulting
+  type: consulting
+  platform: generic
+  careers_url: https://www.extonconsulting.com/
+  params:
+    urls:
+    - https://www.extonconsulting.com/
+  enabled: false
+  notes: 'careers site not reachable by a script (ConnectionError: HTTPSConnectionPool(host=''www.extonconsulting.com'', port=443):
+    )'
+- name: Quantifi
+  type: software
+  platform: generic
+  careers_url: https://www.quantifisolutions.com/careers/
+  params:
+    urls:
+    - https://www.quantifisolutions.com/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Opensee
+  type: software
+  platform: generic
+  careers_url: https://www.opensee.io/careers
+  params:
+    urls:
+    - https://www.opensee.io/careers
+  enabled: false
+  notes: uses welcometothejungle, which has no public job API supported yet
+- name: Nasdaq (Calypso / Adenza)
+  type: software
+  platform: workday
+  careers_url: https://www.nasdaq.com/about/careers
+  params:
+    url: https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site
