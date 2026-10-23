@@ -1,0 +1,59 @@
+# Sources of the "Actualité" tab (tracker/news).
+#
+# feeds:   public RSS / Atom feeds. official: true for central banks, BIS, IMF,
+#          regulators (small score bonus). enabled: false keeps a source listed
+#          without fetching it; notes says why.
+# market:  daily market series. provider: ecb | bundesbank | fred | unavailable.
+#          unit "%" = rate (changes in basis points), otherwise changes in %.
+
+feeds:
+  - name: BCE
+    url: https://www.ecb.europa.eu/rss/press.html
+    lang: en
+    official: true
+
+  - name: Fed
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+    lang: en
+    official: true
+
+  - name: BRI
+    url: https://www.bis.org/doclist/all_pressrels.rss
+    lang: en
+    official: true
+
+  - name: Les Echos – Marchés
+    url: https://services.lesechos.fr/rss/les-echos-finance-marches.xml
+    lang: fr
+
+  - name: Financial Times – Markets
+    url: https://www.ft.com/markets?format=rss
+    lang: en
+
+market:
+  - {key: cac40, label: CAC 40, group: Actions, unit: pts, provider: unavailable,
+     note: "Euronext ne publie pas de données gratuites réutilisables"}
+  - {key: eurostoxx50, label: Euro Stoxx 50, group: Actions, unit: pts, provider: unavailable,
+     note: "indice STOXX sous licence payante"}
+  - {key: sp500, label: S&P 500, group: Actions, unit: pts, provider: fred, series: SP500}
+  - {key: vix, label: VIX, group: Volatilité, unit: pts, provider: fred, series: VIXCLS}
+  - {key: vstoxx, label: VSTOXX, group: Volatilité, unit: pts, provider: unavailable,
+     note: "indice STOXX sous licence payante"}
+  - {key: eurusd, label: EUR/USD (réf. BCE), group: Change et matières premières, unit: "", provider: ecb,
+     series: EXR/D.USD.EUR.SP00.A}
+  - {key: brent, label: Brent ($/baril), group: Change et matières premières, unit: $, provider: fred,
+     series: DCOILBRENTEU}
+  - {key: gold, label: Or, group: Change et matières premières, unit: $, provider: unavailable,
+     note: "prix LBMA sous licence ; FRED ne le diffuse plus"}
+  - {key: estr, label: €STR, group: Taux, unit: "%", provider: ecb, series: EST/B.EU000A2X2A25.WT}
+  - {key: dfr, label: Taux de dépôt BCE, group: Taux, unit: "%", provider: ecb, series: FM/B.U2.EUR.4F.KR.DFR.LEV}
+  - {key: de2y, label: Allemagne 2 ans, group: Taux, unit: "%", provider: bundesbank,
+     series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R02XX.R.A.A._Z._Z.A}
+  - {key: de10y, label: Allemagne 10 ans, group: Taux, unit: "%", provider: bundesbank,
+     series: BBSIS/D.I.ZST.ZI.EUR.S1311.B.A604.R10XX.R.A.A._Z._Z.A}
+  - {key: fr2y, label: France 2 ans, group: Taux, unit: "%", provider: unavailable,
+     note: "Banque de France Webstat : clé API gratuite requise (à configurer)"}
+  - {key: fr10y, label: France 10 ans, group: Taux, unit: "%", provider: unavailable,
+     note: "Banque de France Webstat : clé API gratuite requise (à configurer)"}
+  - {key: us2y, label: États-Unis 2 ans, group: Taux, unit: "%", provider: fred, series: DGS2}
+  - {key: us10y, label: États-Unis 10 ans, group: Taux, unit: "%", provider: fred, series: DGS10}
