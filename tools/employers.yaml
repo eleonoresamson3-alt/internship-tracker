@@ -229,3 +229,70 @@ employers:
   - {name: Raiffeisen Bank International, type: european_bank, careers_url: "https://www.rbinternational.com/en/careers.html"}
   - {name: SEB, type: european_bank, careers_url: "https://sebgroup.com/career"}
   - {name: Danske Bank, type: european_bank, careers_url: "https://danskebank.com/careers"}
+  # ---------------------------------------------------------------- Smaller firms (fallback options)
+  # Boutique asset managers / quant funds (France & Switzerland)
+  - {name: TOBAM, type: asset_manager, careers_url: "https://www.tobam.fr/", slugs: [tobam]}
+  - {name: Syquant Capital, type: hedge_fund, careers_url: "https://www.syquant.com/", slugs: [syquant, syquantcapital]}
+  - {name: Ossiam, type: asset_manager, careers_url: "https://www.ossiam.com/", slugs: [ossiam]}
+  - {name: Unigestion, type: asset_manager, careers_url: "https://www.unigestion.com/careers/", slugs: [unigestion]}
+  - {name: H2O AM, type: asset_manager, careers_url: "https://www.h2o-am.com/", slugs: [h2oam]}
+  - {name: Sienna IM, type: asset_manager, careers_url: "https://www.sienna-im.com/", slugs: [siennaim, sienna]}
+  - {name: Moneta AM, type: asset_manager, careers_url: "https://www.moneta.fr/", slugs: [moneta]}
+  - {name: Varenne Capital, type: asset_manager, careers_url: "https://www.varennecapital.com/", slugs: [varennecapital]}
+  - {name: Lazard Frères Gestion, type: asset_manager, careers_url: "https://www.lazardfreresgestion.fr/", slugs: [lazardfreresgestion]}
+  - {name: Eleva Capital, type: asset_manager, careers_url: "https://www.elevacapital.com/", slugs: [elevacapital]}
+  - {name: La Financière de l'Echiquier, type: asset_manager, careers_url: "https://www.lfde.com/", slugs: [lfde]}
+  - {name: Fourpoints IM, type: asset_manager, careers_url: "https://www.fourpointsim.com/", slugs: [fourpointsim]}
+  - {name: Muzinich, type: asset_manager, careers_url: "https://www.muzinich.com/careers", slugs: [muzinich]}
+  - {name: Seeyond, type: asset_manager, careers_url: "https://www.seeyond-am.com/", slugs: [seeyond]}
+  - {name: Aequam Capital, type: asset_manager, careers_url: "https://www.aequamcapital.com/", slugs: [aequam, aequamcapital]}
+  # Smaller trading firms / market makers
+  - {name: WorldQuant, type: hedge_fund, careers_url: "https://www.worldquant.com/career-listing/", slugs: [worldquant]}
+  - {name: Voleon, type: hedge_fund, careers_url: "https://voleon.com/careers/", slugs: [voleon]}
+  - {name: PDT Partners, type: hedge_fund, careers_url: "https://pdtpartners.com/careers", slugs: [pdtpartners]}
+  - {name: Engineers Gate, type: hedge_fund, careers_url: "https://www.engineersgate.com/careers", slugs: [engineersgate]}
+  - {name: Old Mission, type: hedge_fund, careers_url: "https://www.oldmissioncapital.com/careers", slugs: [oldmission, oldmissioncapital]}
+  - {name: Wolverine Trading, type: hedge_fund, careers_url: "https://www.wolve.com/careers", slugs: [wolverinetrading, wolve]}
+  - {name: Peak6, type: hedge_fund, careers_url: "https://peak6.com/careers/", slugs: [peak6]}
+  - {name: Belvedere Trading, type: hedge_fund, careers_url: "https://www.belvederetrading.com/careers", slugs: [belvederetrading]}
+  - {name: Headlands Technologies, type: hedge_fund, careers_url: "https://www.headlandstech.com/careers", slugs: [headlandstech, headlandstechnologies]}
+  - {name: Radix Trading, type: hedge_fund, careers_url: "https://www.radixtrading.com/careers", slugs: [radixtrading, radix]}
+  - {name: Tibra, type: hedge_fund, careers_url: "https://tibra.com/careers", slugs: [tibra]}
+  - {name: Eclipse Trading, type: hedge_fund, careers_url: "https://www.eclipsetrading.com/careers", slugs: [eclipsetrading]}
+  - {name: Mint Tower, type: hedge_fund, careers_url: "https://www.minttower.com/careers", slugs: [minttower]}
+  - {name: All Options, type: hedge_fund, careers_url: "https://www.alloptions.nl/careers", slugs: [alloptions]}
+  - {name: Nyenburgh, type: hedge_fund, careers_url: "https://www.nyenburgh.com/careers", slugs: [nyenburgh]}
+  - {name: Liquid Capital, type: hedge_fund, careers_url: "https://www.liquidcapital.com/careers", slugs: [liquidcapital]}
+  - {name: Global Trading Systems, type: hedge_fund, careers_url: "https://www.gts.com/careers", slugs: [gts, globaltradingsystems]}
+  - {name: Hutchin Hill, type: hedge_fund, careers_url: "https://www.hutchinhill.com/careers", slugs: [hutchinhill]}
+  # Interdealer brokers / smaller brokers
+  - {name: TP ICAP, type: broker, careers_url: "https://www.tpicap.com/tpicap/careers", slugs: [tpicap]}
+  - {name: BGC Group, type: broker, careers_url: "https://www.bgcg.com/careers", slugs: [bgcpartners, bgcgroup]}
+  - {name: Tradition, type: broker, careers_url: "https://www.tradition.com/careers/", slugs: [tradition]}
+  - {name: Cantor Fitzgerald, type: broker, careers_url: "https://www.cantor.com/careers/", slugs: [cantor, cantorfitzgerald]}
+  - {name: Stifel, type: broker, careers_url: "https://www.stifel.com/careers", slugs: [stifel]}
+  # Smaller banks / private banks
+  - {name: Crédit Mutuel Arkéa, type: french_bank, careers_url: "https://www.arkea.com/banque/assurance/credit/mutuel/ecb_5034/fr/carrieres"}
+  - {name: BRED, type: french_bank, careers_url: "https://www.bred.fr/"}
+  - {name: Union Bancaire Privée, type: european_bank, careers_url: "https://www.ubp.com/en/careers", slugs: [ubp]}
+  - {name: J. Safra Sarasin, type: european_bank, careers_url: "https://www.jsafrasarasin.com/", slugs: [jsafrasarasin]}
+  - {name: Mirabaud, type: european_bank, careers_url: "https://www.mirabaud.com/en/careers", slugs: [mirabaud]}
+  - {name: Banque Syz, type: european_bank, careers_url: "https://www.syzgroup.com/en/careers", slugs: [syz, syzgroup]}
+  - {name: Quintet Private Bank, type: european_bank, careers_url: "https://www.quintet.com/en-gb/careers", slugs: [quintet]}
+  - {name: Banque de Luxembourg, type: european_bank, careers_url: "https://www.banquedeluxembourg.com/"}
+  # Quant / risk consulting and software boutiques
+  - {name: d-fine, type: consulting, careers_url: "https://www.d-fine.com/en/careers/", slugs: [dfine, d-fine]}
+  - {name: Capco, type: consulting, careers_url: "https://www.capco.com/careers", slugs: [capco]}
+  - {name: Chappuis Halder & Co, type: consulting, careers_url: "https://www.chappuishalder.com/", slugs: [chappuishalder]}
+  - {name: Accuracy, type: consulting, careers_url: "https://www.accuracy.com/careers", slugs: [accuracy]}
+  - {name: Quanteam, type: consulting, careers_url: "https://www.quanteam.fr/", slugs: [quanteam]}
+  - {name: Lucht Probst Associates, type: consulting, careers_url: "https://www.l-p-a.com/", slugs: [lpa, luchtprobstassociates]}
+  - {name: Fintegral, type: consulting, careers_url: "https://www.fintegral.com/careers", slugs: [fintegral]}
+  - {name: Ailancy, type: consulting, careers_url: "https://www.ailancy.com/", slugs: [ailancy]}
+  - {name: Square Management, type: consulting, careers_url: "https://www.square-management.com/", slugs: [squaremanagement]}
+  - {name: Alvarez & Marsal, type: consulting, careers_url: "https://www.alvarezandmarsal.com/careers", slugs: [alvarezandmarsal]}
+  - {name: Grant Thornton, type: consulting, careers_url: "https://www.grantthornton.fr/fr/carrieres/"}
+  - {name: Exton Consulting, type: consulting, careers_url: "https://www.extonconsulting.com/", slugs: [extonconsulting]}
+  - {name: Quantifi, type: software, careers_url: "https://www.quantifisolutions.com/careers/", slugs: [quantifi, quantifisolutions]}
+  - {name: Opensee, type: software, careers_url: "https://www.opensee.io/careers", slugs: [opensee]}
+  - {name: Nasdaq (Calypso / Adenza), type: software, careers_url: "https://www.nasdaq.com/about/careers", candidates: [[workday, {url: "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site"}]]}
