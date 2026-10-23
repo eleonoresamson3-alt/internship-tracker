@@ -58,7 +58,7 @@ as closed.
 | Component | Points |
 |---|---|
 | Role, high priority: structuring, pricing, quantitative analyst / research, financial modelling, derivatives, model validation, XVA, market risk | 50 |
-| Role, medium priority: quant developer, strats, trading, product control | 30 |
+| Role, medium priority: quant developer, strats, trading / front office, product control, hedging (FX, rates, commodities) | 30 |
 | Role, low priority: other markets roles (sales, rates, credit, equities, risk, portfolio management…) | 10 |
 | Location: France / priority Europe (LU, CH, BE, UK, DE, NL, IT, ES) / other Europe / rest of world | 30 / 20 / 12 / 0 |
 | Paris or London | +5 |
@@ -66,6 +66,9 @@ as closed.
 | 6-month internship | +5 |
 
 The role is read from the title only. Offers with no markets signal at all score 0 and are dropped.
+For large corporates (type `corporate`: Airbus, Air Liquide, Pernod Ricard, Thales...), only titles
+naming a markets activity are kept (treasury, hedging, FX, commodities, financing, front office...),
+since these groups post many unrelated finance internships (controlling, audit, accounting).
 
 **Timing.** [`tracker/timing.py`](tracker/timing.py) reads the start month and year from the title
 ("Stage – Structuration – Juin 2027") and, when the platform provides it, from the description
