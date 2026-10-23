@@ -259,6 +259,7 @@ button.danger { color: var(--danger); }
 .coverage.manual { color: var(--mid); }
 .contact-notes { flex: 1; min-width: 180px; padding: 7px 8px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; font-size: 0.9rem; }
 .company-main > div { min-width: 0; }
+.company-body { flex: 1; }
 @media (max-width: 600px) {
   .windows { align-items: flex-start; max-width: 100%; }
   .window { white-space: normal; }

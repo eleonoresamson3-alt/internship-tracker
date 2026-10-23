@@ -80,6 +80,11 @@
           <option value="soon">Ouvre dans moins de 3 mois</option>
         </select></label>
         <label>Contact<select id="c-contact"><option value="">Tous</option></select></label>
+        <label>Trier par<select id="c-sort">
+          <option value="score">Priorité</option>
+          <option value="window">Fenêtre de candidature</option>
+          <option value="name">Nom</option>
+        </select></label>
       </div>
     </section>
 
@@ -156,7 +161,8 @@
   <template id="company-tpl">
     <article class="card company">
       <div class="company-main">
-        <div>
+        <div class="score" title="Priorité"></div>
+        <div class="company-body">
           <h2 class="title"><a target="_blank" rel="noopener"></a></h2>
           <p class="meta"><span class="type"></span><span class="coverage"></span></p>
         </div>
