@@ -135,9 +135,9 @@ def test_page_has_strict_csp_and_no_inline_code():
     assert "script-src 'self'" in csp and "default-src 'none'" in csp and "object-src 'none'" in csp
     assert "unsafe-inline" not in csp and "unsafe-eval" not in csp
     assert '<meta name="referrer" content="no-referrer">' in page
-    assert not re.search(r"<script(?![^>]*\bsrc=)[^>]*>", page), "inline <script>"
-    assert not re.search(r"\son[a-z]+\s*=", page), "inline event handler"
-    assert not re.search(r'<script[^>]+src="(https?:)?//', page), "external script"
+    assert not re.search(r"<script(?![^>]*\bsrc=)[^>]*>", page, re.IGNORECASE), "inline <script>"
+    assert not re.search(r"\son[a-z]+\s*=", page, re.IGNORECASE), "inline event handler"
+    assert not re.search(r'<script[^>]+src="(https?:)?//', page, re.IGNORECASE), "external script"
 
 
 # ---------------------------------------------------------------- site: browser test
