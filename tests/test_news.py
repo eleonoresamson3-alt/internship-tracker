@@ -15,6 +15,9 @@ def test_themes_french_and_english():
     assert "fx_commodities" in themes_of("Brent crude falls as OPEC raises output")
     assert "regulation" in themes_of("FRTB : l'EBA repousse l'entrée en vigueur")
     assert themes_of("Le Louvre accueille une nouvelle exposition") == []
+    # "hedge fund" is not hedging, and English "actions" are not equities.
+    t = themes_of("UK waters down rules", "Regulatory regime behind actions against a hedge fund owner")
+    assert t[0] == "regulation" and "vol_derivatives" not in t and "equities" not in t
 
 
 def test_title_counts_more_than_summary():

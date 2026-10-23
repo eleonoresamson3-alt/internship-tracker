@@ -74,7 +74,9 @@ def build_records(items: list[dict], now: datetime) -> list[dict]:
 
 
 def rescore(records: list[dict]) -> None:
+    """Re-classify and re-score every record, so keyword changes also apply to the history."""
     for r in records:
+        r["themes"] = classify.themes_of(r["title"], r.get("summary", ""))
         r["score"] = classify.score(r["themes"], len(r["sources"]), r.get("official", False))
 
 

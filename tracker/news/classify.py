@@ -19,7 +19,7 @@ THEMES = {
     ]),
     "vol_derivatives": (40, [
         "volatilite", "volatility", "vix", "vstoxx", "derive", "derives", "derivative", "derivatives", "option",
-        "options", "futures", "swaption", "swaptions", "swap", "swaps", "couverture", "hedging", "hedge",
+        "options", "futures", "swaption", "swaptions", "swap", "swaps", "couverture", "hedging",
         "gamma", "skew", "implied vol", "volatilite implicite", "dispersion", "variance",
     ]),
     "structured": (40, [
@@ -47,11 +47,14 @@ THEMES = {
     ]),
     "regulation": (20, [
         "bale", "basel", "frtb", "amf", "esma", "eba", "acpr", "regulation", "reglementation", "regulator",
+        "regulatory", "reglementaire",
         "regulateur", "supervision", "superviseur", "mifid", "emir", "sfdr", "crr", "crd", "stress test",
         "stress tests", "sanction", "sanctions", "sec", "cftc", "prudentiel", "prudential", "capital requirements",
     ]),
     "equities": (15, [
-        "action", "actions", "equity", "equities", "stock", "stocks", "bourse", "bourses", "cac 40", "cac",
+        # "actions" alone is avoided: in English it also means legal or policy actions.
+        "marche actions", "marches actions", "les actions", "actions europeennes", "actions americaines",
+        "equity", "equities", "stock", "stocks", "bourse", "bourses", "cac 40", "cac",
         "euro stoxx", "stoxx", "s p 500", "nasdaq", "dow jones", "dax", "ftse", "nikkei", "ipo",
         "introduction en bourse", "earnings", "dividende", "dividend", "wall street", "rachat d actions", "buyback",
     ]),

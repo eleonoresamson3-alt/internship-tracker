@@ -30,6 +30,7 @@
       <button role="tab" class="tab" data-tab="all" aria-selected="false">Toutes les offres <span class="count" id="count-all">0</span></button>
       <button role="tab" class="tab" data-tab="mine" aria-selected="false">Mon suivi <span class="count" id="count-mine">0</span></button>
       <button role="tab" class="tab" data-tab="companies" aria-selected="false">Entreprises <span class="count" id="count-companies">0</span></button>
+      <button role="tab" class="tab" data-tab="news" aria-selected="false">Actualité <span class="count" id="count-news">0</span></button>
     </nav>
 
     <div class="pipeline" id="pipeline" hidden></div>
@@ -92,6 +93,25 @@
       <h2>⏰ À ne pas rater <span class="soon-hint">clôtures dans les 14 jours (score ≥ 40), hors offres postulées ou masquées</span></h2>
       <ul id="soon-list"></ul>
       <button type="button" class="ghost soon-more" id="soon-more" hidden></button>
+    </section>
+
+    <section id="news-view" hidden aria-label="Actualité">
+      <div class="market" id="market"></div>
+      <p class="news-status" id="news-status"></p>
+
+      <h2 class="section-title">À lire aujourd'hui</h2>
+      <ol class="must-read" id="must-read"></ol>
+
+      <h2 class="section-title">Tous les articles du jour <span class="count" id="news-day-count">0</span></h2>
+      <section class="filters news-filters" aria-label="Filtres actualité">
+        <input type="search" id="n-search" placeholder="Rechercher dans les titres et résumés" aria-label="Recherche actualité">
+        <div class="filter-grid">
+          <label>Thème<select id="n-theme"><option value="">Tous</option></select></label>
+          <label>Source<select id="n-source"><option value="">Toutes</option></select></label>
+        </div>
+      </section>
+      <div id="news-list" class="list news-list"></div>
+      <p class="empty" id="news-empty" hidden>Aucun article ne correspond.</p>
     </section>
 
     <p class="result-line" id="result-line"></p>
@@ -177,6 +197,20 @@
   </template>
 
   <div class="toast" id="toast" role="status" hidden><span id="toast-text"></span><button type="button" class="ghost" id="toast-undo">Annuler</button></div>
+
+  <template id="article-tpl">
+    <article class="card article">
+      <div class="card-main">
+        <div class="score" title="Importance"></div>
+        <div class="card-body">
+          <h3 class="title"><a target="_blank" rel="noopener"></a></h3>
+          <p class="meta"><span class="employer source"></span><span class="time"></span></p>
+          <p class="summary"></p>
+          <p class="tags"></p>
+        </div>
+      </div>
+    </article>
+  </template>
 
   <script src="app.js"></script>
 </body>

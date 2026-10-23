@@ -140,6 +140,18 @@ const CONTACT_STATUSES = [
   ["negative", "Refus"],
 ];
 
+const THEME_LABEL = {
+  central_banks: "Banques centrales et taux",
+  vol_derivatives: "Volatilité et dérivés",
+  structured: "Produits structurés",
+  credit_sovereign: "Crédit et dette souveraine",
+  fx_commodities: "Change et matières premières",
+  macro_inflation: "Macro et inflation",
+  regulation: "Régulation",
+  equities: "Marchés actions",
+  banks: "Banques et secteur financier",
+};
+
 const state = {
   tab: "new",
   jobs: [],
@@ -148,6 +160,9 @@ const state = {
   tracking: loadTracking(),
   manual: loadManual(),
   companies: [],
+  news: [],
+  market: [],
+  newsErrors: null,
   contacts: loadContacts(),
 };
 
@@ -272,6 +287,15 @@ async function load() {
       fetchJson("employers.json").catch(() => []),
     ]);
     state.companies = companies;
+    const [news, market, newsErrors] = await Promise.all([
+      fetchJson("data/news.json").catch(() => ({ items: [] })),
+      fetchJson("data/market.json").catch(() => ({ series: [] })),
+      fetchJson("data/news_errors.json").catch(() => null),
+    ]);
+    state.news = news.items || [];
+    state.market = market.series || [];
+    state.newsErrors = newsErrors;
+    state.newsGeneratedAt = news.generated_at;
     state.jobs = jobs.jobs || [];
     state.newIds = new Set((fresh.jobs || []).map((j) => j.id));
     state.runDate = fresh.date || "";
@@ -663,8 +687,21 @@ function renderCompanies() {
 
 function render() {
   const companiesTab = state.tab === "companies";
-  $("filters").hidden = companiesTab;
+  const newsTab = state.tab === "news";
+  $("filters").hidden = companiesTab || newsTab;
   $("company-filters").hidden = !companiesTab;
+  $("news-view").hidden = !newsTab;
+  for (const id of ["list", "result-line"]) $(id).hidden = newsTab;
+  if (newsTab) {
+    $("pipeline").hidden = true;
+    $("soon").hidden = true;
+    $("empty").hidden = true;
+    renderNews();
+    updateCounts();
+    $("soon").hidden = true;
+    saveFilters();
+    return;
+  }
   if (companiesTab) {
     $("pipeline").hidden = true;
     renderCompanies();
@@ -723,6 +760,7 @@ function updateCounts() {
     && !(isClosed(j) && !applied(j)));
   $("count-mine").textContent = mine.length;
   $("count-companies").textContent = state.companies.length;
+  $("count-news").textContent = todaysNews().length;
   renderPipeline();
 }
 
@@ -755,6 +793,129 @@ function setTab(tab, rerender = true) {
     b.setAttribute("aria-selected", on);
   });
   if (rerender) render();
+}
+
+// ---------------------------------------------------------------- news
+
+const NEWS_DAY_HOURS = 24;
+
+function articleTime(a) {
+  return a.published || a.first_seen || "";
+}
+
+function todaysNews() {
+  const since = new Date(Date.now() - NEWS_DAY_HOURS * 3600000).toISOString();
+  return state.news.filter((a) => articleTime(a) >= since.slice(0, 16));
+}
+
+function fmtNumber(v, digits) {
+  return v.toLocaleString("fr-FR", { minimumFractionDigits: digits, maximumFractionDigits: digits });
+}
+
+function renderMarket() {
+  const box = $("market");
+  box.replaceChildren(...state.market.map((s) => {
+    const tile = document.createElement("div");
+    tile.className = "tile";
+    const label = document.createElement("div");
+    label.className = "label";
+    label.textContent = s.label;
+    const value = document.createElement("div");
+    tile.append(label, value);
+    if (s.status !== "ok") {
+      value.className = "value na";
+      value.textContent = "indisponible";
+      tile.title = s.note || "source indisponible aujourd'hui";
+      return tile;
+    }
+    const isRate = s.unit === "%";
+    value.className = "value";
+    value.textContent = isRate ? `${fmtNumber(s.value, 2)} %` : fmtNumber(s.value, s.value < 10 ? 4 : 2);
+    const chg = document.createElement("div");
+    chg.className = "chg";
+    for (const [key, name] of [["d1", "1j"], ["w1", "1s"], ["m1", "1m"]]) {
+      const span = document.createElement("span");
+      const d = s[key];
+      if (d === null || d === undefined) {
+        span.textContent = `${name} —`;
+      } else {
+        span.className = d > 0 ? "up" : d < 0 ? "down" : "";
+        const sign = d > 0 ? "+" : "";
+        const bp = Math.abs(d) < 10 ? fmtNumber(d, 1) : fmtNumber(d, 0);
+        span.textContent = isRate ? `${name} ${sign}${bp} pb` : `${name} ${sign}${fmtNumber(d, 1)} %`;
+      }
+      chg.append(span);
+    }
+    const asof = document.createElement("div");
+    asof.className = "asof";
+    asof.textContent = `au ${frDate(s.date)}`;
+    tile.append(chg, asof);
+    return tile;
+  }));
+}
+
+function fmtTime(iso) {
+  if (!iso) return "";
+  const d = new Date(iso.length === 16 ? iso + ":00Z" : iso);
+  return d.toLocaleString("fr-FR", { weekday: "short", hour: "2-digit", minute: "2-digit" });
+}
+
+function renderArticle(a) {
+  const node = $("article-tpl").content.firstElementChild.cloneNode(true);
+  const badge = node.querySelector(".score");
+  badge.textContent = a.score;
+  badge.classList.add(scoreClass(a.score));
+  const link = node.querySelector(".title a");
+  link.href = a.link;
+  link.textContent = a.title;
+  node.querySelector(".source").textContent = a.sources.length > 1 ? `${a.source} + ${a.sources.length - 1} autre(s)` : a.source;
+  if (a.sources.length > 1) node.querySelector(".source").title = a.sources.join(", ");
+  node.querySelector(".time").textContent = fmtTime(articleTime(a));
+  node.querySelector(".summary").textContent = a.summary || "";
+  const tags = node.querySelector(".tags");
+  for (const t of a.themes.slice(0, 3)) {
+    const span = document.createElement("span");
+    span.className = "tag theme";
+    span.textContent = THEME_LABEL[t] || t;
+    tags.append(span);
+  }
+  return node;
+}
+
+function renderNews() {
+  renderMarket();
+  const day = todaysNews().sort((a, b) => b.score - a.score || articleTime(b).localeCompare(articleTime(a)));
+  const errors = (state.newsErrors && state.newsErrors.errors) || [];
+  const when = state.newsGeneratedAt ? new Date(state.newsGeneratedAt).toLocaleString("fr-FR", { dateStyle: "medium", timeStyle: "short" }) : "—";
+  $("news-status").textContent = `Mise à jour : ${when} · ${day.length} article(s) sur 24 h`
+    + (errors.length ? ` · ${errors.length} source(s) en erreur : ${errors.map((e) => e.source).join(", ")}` : "");
+
+  $("must-read").replaceChildren(...day.slice(0, 10).map((a) => {
+    const li = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = a.link; link.target = "_blank"; link.rel = "noopener"; link.textContent = a.title;
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.textContent = `${a.source} · ${fmtTime(articleTime(a))} · ${THEME_LABEL[a.themes[0]] || "Autre"}`;
+    li.append(link, meta);
+    return li;
+  }));
+
+  const sel = (id, entries) => {
+    const el = $(id);
+    if (el.options.length > 1) return;
+    for (const [v, l] of entries) el.append(new Option(l, v));
+  };
+  sel("n-theme", Object.entries(THEME_LABEL));
+  sel("n-source", [...new Set(state.news.flatMap((a) => a.sources))].sort().map((s) => [s, s]));
+
+  const q = $("n-search").value.trim().toLowerCase();
+  const theme = $("n-theme").value, source = $("n-source").value;
+  const rows = day.filter((a) => (!theme || a.themes.includes(theme)) && (!source || a.sources.includes(source))
+    && (!q || `${a.title} ${a.summary}`.toLowerCase().includes(q)));
+  $("news-day-count").textContent = rows.length;
+  $("news-list").replaceChildren(...rows.map(renderArticle));
+  $("news-empty").hidden = rows.length > 0;
 }
 
 // ---------------------------------------------------------------- manual offers
@@ -953,6 +1114,9 @@ $("reset").addEventListener("click", () => {
   render();
 });
 $("export").addEventListener("click", exportCsv);
+for (const id of ["n-search", "n-theme", "n-source"]) {
+  $(id).addEventListener(id === "n-search" ? "input" : "change", render);
+}
 $("soon-more").addEventListener("click", () => {
   state.soonExpanded = !state.soonExpanded;
   renderSoon();
