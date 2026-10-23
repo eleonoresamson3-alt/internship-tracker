@@ -1411,6 +1411,8 @@ employers:
   careers_url: https://www.accenture.com/fr-fr/careers
   params:
     url: https://accenture.wd103.myworkdayjobs.com/AccentureCareers
+    search_terms:
+    - intern
 - name: Capgemini Invent
   type: consulting
   platform: generic
