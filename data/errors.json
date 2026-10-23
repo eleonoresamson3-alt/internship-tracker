@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:58:54+00:00",
+ "generated_at": "2026-10-23T15:50:18+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -11,7 +11,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 665,
+   "fetched": 667,
    "kept": 43
   },
   {
@@ -61,8 +61,8 @@
   },
   {
    "employer": "RBC Capital Markets",
-   "fetched": 40,
-   "kept": 16
+   "fetched": 39,
+   "kept": 15
   },
   {
    "employer": "Jefferies",
@@ -126,13 +126,13 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 93,
+   "fetched": 98,
    "kept": 9
   },
   {
    "employer": "BlackRock",
-   "fetched": 14,
-   "kept": 13
+   "fetched": 13,
+   "kept": 12
   },
   {
    "employer": "Schroders",
@@ -186,7 +186,7 @@
   },
   {
    "employer": "Qube Research & Technologies",
-   "fetched": 194,
+   "fetched": 193,
    "kept": 4
   },
   {
@@ -361,7 +361,7 @@
   },
   {
    "employer": "Zurich",
-   "fetched": 300,
+   "fetched": 299,
    "kept": 6
   },
   {
@@ -387,7 +387,7 @@
   {
    "employer": "Deloitte",
    "fetched": 10,
-   "kept": 4
+   "kept": 3
   },
   {
    "employer": "EY",
@@ -401,7 +401,7 @@
   },
   {
    "employer": "PwC",
-   "fetched": 208,
+   "fetched": 209,
    "kept": 54
   },
   {
@@ -446,7 +446,7 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 18,
+   "fetched": 17,
    "kept": 8
   },
   {
@@ -471,7 +471,7 @@
   },
   {
    "employer": "Voleon",
-   "fetched": 59,
+   "fetched": 60,
    "kept": 1
   },
   {
@@ -597,7 +597,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 2
+   "kept": 7
   },
   {
    "employer": "Capital Group",
@@ -651,22 +651,22 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 72,
+   "fetched": 70,
    "kept": 0
   },
   {
    "employer": "Thales",
-   "fetched": 108,
+   "fetched": 109,
    "kept": 0
   },
   {
    "employer": "Michelin",
-   "fetched": 48,
+   "fetched": 50,
    "kept": 0
   },
   {
    "employer": "Sanofi",
-   "fetched": 51,
+   "fetched": 52,
    "kept": 0
   },
   {
@@ -691,7 +691,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 24,
+   "fetched": 22,
    "kept": 0
   },
   {

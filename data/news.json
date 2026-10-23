@@ -1,6 +1,236 @@
 {
- "generated_at": "2026-10-23T15:07:52+00:00",
+ "generated_at": "2026-10-23T15:59:09+00:00",
  "items": [
+  {
+   "id": "8b54fe70f1c0ed6c",
+   "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
+   "link": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T15:56+00:00",
+   "summary": "Market turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "0fc653129dce9297",
+   "title": "La Chine reconstitue activement ses stocks de pétrole brut",
+   "link": "https://www.agefi.fr/news/economie-marches/la-chine-reconstitue-activement-ses-stocks-de-petrole-brut",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T15:52+00:00",
+   "summary": "D’après les données de Kpler, les stocks de pétrole en Chine sont au plus bas. Le pays augmente ses achats depuis juillet afin de les reconstituer, profitant de l’offre disponible au Moyen-Orient, avant une éventuelle escalade du conflit.",
+   "themes": [
+    "fx_commodities",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 27
+  },
+  {
+   "id": "c49b14263b807797",
+   "title": "A la RATP, FO devient le premier syndicat devant la CGT",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/23/a-la-ratp-fo-devient-le-premier-syndicat-devant-la-cgt_6799112_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-23T15:45+00:00",
+   "summary": "A l’occasion des élections professionnelles organisées du 19 au 23 octobre, Force ouvrière est devenue la première organisation syndicale de la régie parisienne, devant la CGT, désormais deuxième.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "6db5ec2a4948d66a",
+   "title": "Le gérant de cryptoactifs Tilvest vise une collecte de 30 millions d’euros d’ici fin 2027",
+   "link": "https://www.agefi.fr/patrimoine/actualites/le-gerant-de-cryptoactifs-tilvest-vise-une-collecte-de-30-millions-deuros-dici-fin-2027",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T15:44+00:00",
+   "summary": "La plateforme d’investissement en cryptoactifs, partenaire des conseillers patrimoniaux, a été rachetée par Coinhouse en juin. Sa stratégie a été repensée.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "c8433c32b8236f2a",
+   "title": "Gucci met la patience des actionnaires de Kering à rude épreuve",
+   "link": "https://www.agefi.fr/news/entreprises/gucci-met-la-patience-des-actionnaires-de-kering-a-rude-epreuve",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T15:42+00:00",
+   "summary": "Le délai réclamé pour relancer la marque florentine est plus long que prévu. Un contretemps qui se paie cher comme en témoigne le plongeon de 16 % de l'action Kering, vendredi.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "97411d04936155e7",
+   "title": "Stifel relève son objectif de cours sur Tango Therapeutics après des données d’essai",
+   "link": "https://fr.investing.com/news/analyst-ratings/stifel-releve-son-objectif-de-cours-sur-tango-therapeutics-apres-des-donnees-dessai-93CH-3651470",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "2106cf5642eb77ef",
+   "title": "La vente massive de puces IA est « déconnectée des fondamentaux », selon LYNX",
+   "link": "https://fr.investing.com/news/stock-market-news/la-vente-massive-de-puces-ia-est--deconnectee-des-fondamentaux--selon-lynx-3651468",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:34+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "fcf2ae4e4adb8e63",
+   "title": "Mobilisations sociales : les chaînes de télévision appelées par l’Arcom « à la plus grande vigilance » après des excès, « fake news » et dérapages depuis le 17 octobre",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/23/mobilisations-sociales-les-chaines-tele-appelees-par-l-arcom-a-la-plus-grande-vigilance-apres-des-exces-fake-news-et-derapages-depuis-le-17-octobre_6799106_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-23T15:30+00:00",
+   "summary": "La couverture de la manifestation de samedi et des dégradations commises en marge des cortèges, sur les chaînes d’info mais pas seulement, a provoqué de multiples saisines de l’Autorité de régulation de l’audiovisuel.",
+   "themes": [
+    "regulation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 20
+  },
+  {
+   "id": "8caba4babc5c06c4",
+   "title": "L’action Halozyme Therapeutics atteint un record historique à 125,53 USD",
+   "link": "https://fr.investing.com/news/company-news/laction-halozyme-therapeutics-atteint-un-record-historique-a-12553-usd-93CH-3651464",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:27+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "8df4479847ea0678",
+   "title": "Generali va supprimer 9% de ses effectifs en Allemagne et consolider ses sites",
+   "link": "https://fr.investing.com/news/stock-market-news/generali-va-supprimer-9-de-ses-effectifs-en-allemagne-et-consolider-ses-sites-3651460",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:22+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "34c912d410a43c23",
+   "title": "Forestalia explore la vente d’actifs énergétiques pour data centers",
+   "link": "https://fr.investing.com/news/stock-market-news/forestalia-explore-la-vente-dactifs-energetiques-pour-data-centers-93CH-3651459",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "4b4a6f0a29907ab5",
+   "title": "Byline Bancorp dépasse les prévisions du T3 2026 avec un bénéfice record",
+   "link": "https://fr.investing.com/news/transcripts/byline-bancorp-depasse-les-previsions-du-t3-2026-avec-un-benefice-record-93CH-3651458",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "ce2aea3653cd7231",
+   "title": "Compte de résultats GrafTech T3 2026 : le chiffre d’affaires dépasse les attentes, l’action bondit de 21%",
+   "link": "https://fr.investing.com/news/transcripts/compte-de-resultats-graftech-t3-2026--le-chiffre-daffaires-depasse-les-attentes-laction-bondit-de-21-93CH-3651455",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:12+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "17fa39a616b41df1",
+   "title": "Les cybermenaces alimentées par l’IA dopent les valeurs de cybersécurité",
+   "link": "https://fr.investing.com/news/stock-market-news/les-cybermenaces-dopees-a-lia-font-flamber-les-valeurs-de-cybersecurite-3651453",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-23T15:10+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
+  {
+   "id": "2760d07542bfe3bb",
+   "title": "Le premier iPhone pliant fait face aux contraintes de la chaîne d'approvisionnement",
+   "link": "https://www.agefi.fr/news/entreprises/le-premier-iphone-pliant-fait-face-aux-contraintes-de-la-chaine-dapprovisionnement",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T15:08+00:00",
+   "summary": "Le lancement de l’iPhone Duo, premier smartphone pliant de la marque à la pomme, pose des questions sur ses capacités d’approvisionnement. Vendredi 23 octobre, Apple le proposait en livraison pour fin janvier 2027 dans la plupart des pays.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-23T15:59+00:00",
+   "score": 5
+  },
   {
    "id": "32201405feae968f",
    "title": "DA Davidson abaisse son objectif de cours sur Graco en raison de retards",
