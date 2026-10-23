@@ -12,6 +12,12 @@ def ws(path, **params):
         return r.json()
     except Exception as e:
         say("ERR", path, e); return {}
+def raw(url):
+    try:
+        t = http.get(url, retries=0).text
+        say("RAW", url, "|", t[:400].replace("\n", " / "))
+    except Exception as e:
+        say("ERR", url, type(e).__name__, str(e)[:150])
 r = ws("/series/records", where='dataset_id="ECOFI"', limit=100, select="series_key,title_fr")
 say("ECOFI", r.get("total_count"), json.dumps([(x["series_key"], x.get("title_fr")) for x in r.get("results", [])], ensure_ascii=False)[:3000])
 for q in ["XAU", "cours de l'or", "prix de l'or", "Euro Stoxx", "EuroStoxx", "DJ Euro", "Dow Jones", "SBF", "volatilité implicite"]:
