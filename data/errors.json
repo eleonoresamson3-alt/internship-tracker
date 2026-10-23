@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-23T10:08:09+00:00",
+ "generated_at": "2026-10-23T10:26:31+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 6,
+   "fetched": 8,
    "kept": 4
   },
   {
    "employer": "JPMorgan",
-   "fetched": 664,
+   "fetched": 665,
    "kept": 43
   },
   {
@@ -116,7 +116,7 @@
   },
   {
    "employer": "Amundi",
-   "fetched": 29,
+   "fetched": 30,
    "kept": 4
   },
   {
@@ -396,7 +396,7 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 150,
+   "fetched": 149,
    "kept": 16
   },
   {
@@ -411,7 +411,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 28,
+   "fetched": 27,
    "kept": 3
   },
   {
