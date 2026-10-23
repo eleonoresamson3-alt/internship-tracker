@@ -67,28 +67,32 @@ function startLabel(job) {
 
 // ---------------------------------------------------------------- recruiting calendar
 
-// Keep in sync with GRADUATION_YEAR in tracker/config.py.
+// Keep in sync with EARLIEST_START and GRADUATION_YEAR in tracker/config.py.
+const EARLIEST_START = [2027, 6];
 const GRADUATION_YEAR = 2029;
 const MONTHS_SHORT = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."];
 
 // Usual application windows, relative to the start year Y of the internship:
-// [year offset, month]. Indicative only; the site says so.
+// [year offset, month]. "start" is when the internship begins. Indicative only.
 const CYCLES = {
   anglo: [
-    { name: "Summer", open: [-1, 7], close: [-1, 11] },
-    { name: "Off-cycle janv.", open: [-1, 9], close: [-1, 11] },
+    { name: "Summer", start: [0, 6], open: [-1, 7], close: [-1, 11] },
+    { name: "Off-cycle juil.", start: [0, 7], open: [0, 1], close: [0, 4] },
+    { name: "Off-cycle janv.", start: [0, 1], open: [-1, 9], close: [-1, 11] },
   ],
   trading: [
-    { name: "Summer", open: [-1, 6], close: [-1, 10] },
-    { name: "Off-cycle", open: [-1, 8], close: [-1, 12] },
+    { name: "Summer", start: [0, 6], open: [-1, 6], close: [-1, 10] },
+    { name: "Off-cycle juil.", start: [0, 7], open: [0, 1], close: [0, 4] },
+    { name: "Off-cycle janv.", start: [0, 1], open: [-1, 8], close: [-1, 12] },
   ],
   fr: [
-    { name: "Stage dès juin", open: [0, 1], close: [0, 4] },
-    { name: "Stage dès janv.", open: [-1, 9], close: [-1, 11] },
+    { name: "Stage dès juin", start: [0, 6], open: [0, 1], close: [0, 4] },
+    { name: "Stage dès sept.", start: [0, 9], open: [0, 4], close: [0, 7] },
+    { name: "Stage dès janv.", start: [0, 1], open: [-1, 9], close: [-1, 11] },
   ],
   consulting: [
-    { name: "Stage dès juin", open: [-1, 10], close: [0, 3] },
-    { name: "Stage dès janv.", open: [-1, 7], close: [-1, 10] },
+    { name: "Stage dès juin", start: [0, 6], open: [-1, 10], close: [0, 3] },
+    { name: "Stage dès janv.", start: [0, 1], open: [-1, 7], close: [-1, 10] },
   ],
 };
 const TYPE_CYCLE = {
@@ -100,25 +104,28 @@ const TYPE_CYCLE = {
 
 const monthIndex = (y, m) => y * 12 + (m - 1);
 
-// For each usual window, the next one that is not over yet (up to graduation).
+// For each usual window, the next one that is not over yet, for an internship
+// starting between EARLIEST_START and graduation.
 function nextWindows(type) {
   const cycle = CYCLES[TYPE_CYCLE[type]];
   if (!cycle) return [];
   const now = new Date();
   const today = monthIndex(now.getFullYear(), now.getMonth() + 1);
+  const earliest = monthIndex(...EARLIEST_START);
   const out = [];
   for (const w of cycle) {
     for (let y = now.getFullYear(); y <= GRADUATION_YEAR; y++) {
+      const start = monthIndex(y + w.start[0], w.start[1]);
       const open = monthIndex(y + w.open[0], w.open[1]);
       const close = monthIndex(y + w.close[0], w.close[1]);
-      if (close < today) continue;
+      if (start < earliest || close < today) continue;
       const state = open <= today ? "open" : open - today <= 3 ? "soon" : "later";
       const fmt = (i) => `${MONTHS_SHORT[i % 12]} ${Math.floor(i / 12)}`;
       out.push({ label: `${w.name} ${y} : ${fmt(open)} → ${fmt(close)}`, state, open });
       break;
     }
   }
-  return out;
+  return out.sort((a, b) => a.open - b.open);
 }
 
 const CONTACT_STATUSES = [

@@ -73,9 +73,10 @@ since these groups post many unrelated finance internships (controlling, audit, 
 **Timing.** [`tracker/timing.py`](tracker/timing.py) reads the start month and year from the title
 ("Stage – Structuration – Juin 2027") and, when the platform provides it, from the description
 ("start date: January 2027", "début du stage : septembre 2027", "ab Juni 2027"), and labels each
-offer *summer*, *off-cycle* or *unknown*. Only internships starting between now and graduation are
-kept: set `GRADUATION_YEAR` in [`tracker/config.py`](tracker/config.py); the start of the window
-moves forward by itself every year. Offers with no date stay in the list, labelled
+offer *summer*, *off-cycle* or *unknown*. Only internships starting between the earliest possible
+start and graduation are kept: set `EARLIEST_START` (June 2027) and `GRADUATION_YEAR` (2029) in
+[`tracker/config.py`](tracker/config.py). An offer whose stated start month is earlier
+("Stage – Mars 2027") is dropped; an offer with only a year ("Off-cycle 2027") is kept. Offers with no date stay in the list, labelled
 "Calendrier inconnu".
 
 ## Repository layout

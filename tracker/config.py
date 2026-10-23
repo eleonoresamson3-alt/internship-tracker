@@ -39,7 +39,9 @@ PRUNE_AFTER_DAYS = 45
 # Offers scoring below this threshold are dropped (no capital-markets signal).
 MIN_SCORE = 1
 
-# Graduation date: internships starting after it are not relevant.
+# Earliest start date possible for an internship (YYYY, MM): offers whose
+# stated start is earlier are dropped. Graduation date: later starts are dropped.
+EARLIEST_START = (2027, 6)
 GRADUATION_YEAR = 2029
 GRADUATION_MONTH = 6
 
@@ -52,4 +54,11 @@ def year_window(today: date | None = None) -> tuple[int, int]:
     """
     today = today or date.today()
     first = today.year + 1 if today.month >= 9 else today.year
-    return first, GRADUATION_YEAR
+    return max(first, EARLIEST_START[0]), GRADUATION_YEAR
+
+
+def starts_too_early(year: int, month: int, today: date | None = None) -> bool:
+    """True when a known start month is before EARLIEST_START (or already past)."""
+    today = today or date.today()
+    earliest = max(EARLIEST_START, (today.year, today.month))
+    return (year, month) < earliest
