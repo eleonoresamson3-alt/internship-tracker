@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T09:35:08+00:00",
+ "generated_at": "2026-10-23T09:46:18+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -181,7 +181,7 @@
   },
   {
    "employer": "Squarepoint",
-   "fetched": 92,
+   "fetched": 91,
    "kept": 1
   },
   {
@@ -396,7 +396,7 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 149,
+   "fetched": 150,
    "kept": 16
   },
   {
@@ -597,7 +597,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 2
+   "kept": 7
   },
   {
    "employer": "Capital Group",
@@ -646,7 +646,7 @@
   },
   {
    "employer": "Pernod Ricard",
-   "fetched": 95,
+   "fetched": 94,
    "kept": 0
   },
   {
