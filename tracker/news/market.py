@@ -8,12 +8,15 @@ Providers:
   ecb         ECB Data Portal API (data-api.ecb.europa.eu), CSV
   bundesbank  Deutsche Bundesbank time-series API, CSV
   fred        Federal Reserve Bank of St. Louis (FRED) public CSV download
+  webstat     Banque de France Webstat API (French government yields); needs a free
+              API key in the WEBSTAT_API_KEY environment variable (GitHub secret)
 """
 
 from __future__ import annotations
 
 import csv
 import io
+import os
 from datetime import date, timedelta
 
 from ..http import PoliteClient
@@ -54,7 +57,51 @@ def _fred(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tuple[
     return points
 
 
-PROVIDERS = {"ecb": _ecb, "bundesbank": _bundesbank, "fred": _fred}
+class NotConfigured(Exception):
+    """The source needs a key that is not set: shown as unavailable, not as an error."""
+
+
+WEBSTAT_URL = "https://webstat.banque-france.fr/api/explore/v2.1/catalog/datasets/observations/exports/json"
+_DATE_FIELDS = ("time_period_start", "time_period", "date")
+_VALUE_FIELDS = ("obs_value", "value")
+
+
+def parse_webstat(rows: list[dict]) -> list[tuple[date, float]]:
+    points = []
+    for row in rows:
+        day = next((str(row[f])[:10] for f in _DATE_FIELDS if row.get(f)), "")
+        value = next((row[f] for f in _VALUE_FIELDS if row.get(f) not in (None, "")), None)
+        try:
+            points.append((date.fromisoformat(day), float(value)))
+        except (TypeError, ValueError):
+            continue
+    if rows and not points:
+        raise ValueError(f"unexpected Webstat fields: {sorted(rows[0])[:15]}")
+    return sorted(points)
+
+
+def _webstat(http: PoliteClient, key: str, days: int = HISTORY_DAYS) -> list[tuple[date, float]]:
+    api_key = os.environ.get("WEBSTAT_API_KEY", "").strip()
+    if not api_key:
+        raise NotConfigured("clé API Webstat (gratuite) non configurée : secret WEBSTAT_API_KEY")
+    headers = {"Authorization": f"Apikey {api_key}"}
+    rows = http.get(WEBSTAT_URL, params={"where": f'series_key="{key}"'}, headers=headers, retries=1).json()
+    if not rows:
+        # Help fixing the series key: list the keys that look alike.
+        stem = key.split(".")[-2] if key.count(".") >= 2 else key
+        try:
+            alike = http.get(WEBSTAT_URL, params={"where": f'series_key like "%{stem}%"', "select": "series_key",
+                                                  "group_by": "series_key", "limit": 20},
+                             headers=headers, retries=0).json()
+            hint = f"; similar keys: {[r.get('series_key') for r in alike]}"
+        except Exception:
+            hint = ""
+        raise ValueError(f"no observation for {key}{hint}")
+    cutoff = date.today() - timedelta(days=days)
+    return [p for p in parse_webstat(rows) if p[0] >= cutoff]
+
+
+PROVIDERS = {"ecb": _ecb, "bundesbank": _bundesbank, "fred": _fred, "webstat": _webstat}
 
 
 def _value_on_or_before(points: list[tuple[date, float]], day: date):
@@ -109,6 +156,9 @@ def fetch_all(series: list[dict], http: PoliteClient) -> tuple[list[dict], list[
                 raise ValueError("no data returned")
             row.update(changes(points, s.get("unit", ""), step))
             row["status"] = "ok"
+        except NotConfigured as exc:
+            row["status"] = "indisponible"
+            row["note"] = str(exc)
         except Exception as exc:  # one series failing never stops the others
             row["status"] = "indisponible"
             errors.append({"source": f"marché: {s['label']}", "error": f"{type(exc).__name__}: {exc}"[:300]})

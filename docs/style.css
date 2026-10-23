@@ -352,3 +352,24 @@ button.small { padding: 3px 9px; font-size: 0.78rem; }
 .kept-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin: 8px 0; }
 .kept-actions .hint { margin: 0; }
 .week-group { margin-bottom: 8px; }
+
+/* news: morning analyses */
+.analyses-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 10px 0; }
+.analyses-head label { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--muted); }
+.analyses-head .hint { margin: 0; font-size: 0.78rem; }
+.brief { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 2px 14px 8px; margin-bottom: 12px; }
+.brief ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: 0.92rem; }
+.card.analysis { display: block; padding: 14px 16px; margin-bottom: 12px; }
+.analysis .a-title { margin: 6px 0 4px; font-size: 1.08rem; }
+.analysis .a-lead { margin: 0 0 6px; font-weight: 600; color: var(--text); }
+.analysis h4 { margin: 12px 0 2px; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--accent); }
+.analysis p { margin: 4px 0; font-size: 0.92rem; line-height: 1.5; }
+.a-interview { background: var(--bg); border-radius: var(--radius); padding: 2px 12px 8px; margin-top: 12px; }
+.a-interview .a-question { font-style: italic; }
+.a-interview summary { cursor: pointer; font-size: 0.85rem; color: var(--accent); }
+.a-interview ul { margin: 4px 0 0; padding-left: 18px; font-size: 0.88rem; }
+.a-glossary { margin: 4px 0 0; font-size: 0.86rem; }
+.a-glossary dt { font-weight: 600; }
+.a-glossary dd { margin: 0 0 4px; color: var(--muted); }
+.a-sources { margin-top: 12px !important; font-size: 0.8rem !important; color: var(--muted); }
+.a-sources a { color: var(--muted); }

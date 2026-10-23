@@ -100,6 +100,7 @@
       <p class="news-status" id="news-status"></p>
 
       <nav class="subnav" aria-label="Vues actualité">
+        <button type="button" class="chip" data-nview="analyses" aria-pressed="false">Analyses</button>
         <button type="button" class="chip" data-nview="today" aria-pressed="true">Aujourd'hui</button>
         <button type="button" class="chip" data-nview="week" aria-pressed="false">Semaine</button>
         <button type="button" class="chip" data-nview="kept" aria-pressed="false">À retenir <span class="count" id="count-kept">0</span></button>
@@ -109,6 +110,19 @@
         <h2 class="section-title">Prochaines réunions de politique monétaire</h2>
         <ul id="calendar-list"></ul>
       </section>
+
+      <div id="nview-analyses" hidden>
+        <div class="analyses-head">
+          <label>Jour <select id="a-day"></select></label>
+          <p class="hint" id="a-meta"></p>
+        </div>
+        <section class="brief" id="a-brief" hidden aria-label="L'essentiel">
+          <h2 class="section-title">L'essentiel en une minute</h2>
+          <ul id="a-brief-list"></ul>
+        </section>
+        <div id="a-articles"></div>
+        <p class="empty" id="a-empty" hidden>Pas encore d'analyse. Elles sont écrites chaque matin, après la mise à jour de l'actualité.</p>
+      </div>
 
       <div id="nview-today">
       <section class="ai-summary" id="ai-summary" hidden aria-label="Résumé du jour">
