@@ -13,12 +13,12 @@ import os
 import sys
 import traceback
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from urllib.parse import urlsplit
 
 import yaml
 
-from . import config, filters, geo, scoring, store, timing
+from . import config, deadlines, filters, geo, scoring, store, timing
 from .adapters import get_adapter
 from .http import PoliteClient
 from .models import RawJob, Target
@@ -62,6 +62,13 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         return None  # start year stated in the ad, outside the window
     if when.year and when.month and config.starts_too_early(when.year, when.month):
         return None  # e.g. "Stage - Mars 2027" when the earliest start is June 2027
+    deadline = deadlines.parse(raw.description)
+    if deadline and deadline < date.today():
+        return None  # the ad says applications are closed
+    deadline_source = "annonce" if deadline else ""
+    if not deadline:
+        deadline = deadlines.estimate(target.type, when)
+        deadline_source = "estimée" if deadline else ""
     s = scoring.score(title, raw.location, countries, when)
     if s.total < config.MIN_SCORE:
         return None
@@ -81,6 +88,8 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         "score_breakdown": s.breakdown,
         "timing": when.kind,
         "start": when.start,
+        "deadline": deadline.isoformat() if deadline else "",
+        "deadline_source": deadline_source,
         "url": raw.url,
         "posted_at": raw.posted_at,
     }

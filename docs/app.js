@@ -200,6 +200,31 @@ function saveTracking() {
   }
 }
 
+// Statuses meaning "I applied": these offers stay in Mon suivi even once closed.
+const APPLIED = new Set(["applied", "interview", "rejected", "offer"]);
+const todayIso = () => new Date().toISOString().slice(0, 10);
+
+function applied(job) {
+  return APPLIED.has((state.tracking[job.id] || {}).status);
+}
+
+// Closed: removed by the employer, or past a deadline stated in the ad.
+function isClosed(job) {
+  if (job.manual) return false;
+  return !job.active || (job.deadline_source === "annonce" && job.deadline && job.deadline < todayIso());
+}
+
+function daysLeft(job) {
+  if (!job.deadline) return Infinity;
+  return Math.round((new Date(job.deadline + "T23:59:59") - new Date()) / 86400000);
+}
+
+function deadlineLabel(job) {
+  const [y, m, d] = job.deadline.split("-");
+  if (job.deadline_source === "annonce") return `Clôture le ${d}/${m}/${y}`;
+  return `Clôture estimée fin ${MONTHS_SHORT[Number(m) - 1]} ${y}`;
+}
+
 function isHidden(job) {
   return (state.tracking[job.id] || {}).status === "hidden";
 }
@@ -389,7 +414,8 @@ function matches(job, f) {
   const t = state.tracking[job.id];
   if (state.tab === "new" && !state.newIds.has(job.id)) return false;
   if (state.tab === "mine" && !t && !job.manual) return false;
-  if (!f.inactive && !job.active && state.tab !== "mine") return false;
+  // An offer that is gone disappears unless I applied to it (then it stays in Mon suivi).
+  if (isClosed(job) && !f.inactive && !(state.tab === "mine" && applied(job))) return false;
   // Offers marked "not interested" disappear everywhere unless asked for.
   if (isHidden(job) && !f.hidden && f.status !== "hidden") return false;
   if (f.employer && job.employer !== f.employer) return false;
@@ -460,6 +486,7 @@ function renderCard(job) {
   if (!job.active) addTag(job.archived ? "Archivée" : "Fermée", "closed");
   if (job.family) addTag(FAMILY_LABEL[job.family] || job.family);
   if (job.timing) addTag(startLabel(job) || TIMING_LABEL[timingKey(job)], timingKey(job) === "june" ? "june" : "");
+  if (job.deadline && !isClosed(job)) addTag(deadlineLabel(job), daysLeft(job) <= 14 ? "deadline urgent" : "deadline");
   (job.country_names || []).slice(0, 3).forEach((c) => addTag(c));
   if (job.first_seen) addTag(`Vue le ${frDate(job.first_seen)}`);
   if (job.posted_at) addTag(`Publiée le ${frDate(job.posted_at)}`);
@@ -625,12 +652,32 @@ function render() {
   saveFilters();
 }
 
+function renderSoon() {
+  const box = $("soon");
+  const rows = state.tab === "companies" ? [] : state.jobs
+    .filter((j) => j.deadline && !isClosed(j) && !isHidden(j) && !applied(j) && daysLeft(j) >= 0 && daysLeft(j) <= 14)
+    .sort((a, b) => a.deadline.localeCompare(b.deadline) || b.score - a.score);
+  box.hidden = rows.length === 0;
+  $("soon-list").replaceChildren(...rows.slice(0, 12).map((j) => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = j.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = j.title;
+    const when = document.createElement("span");
+    when.className = "when";
+    const n = daysLeft(j);
+    when.textContent = ` · ${deadlineLabel(j)} (${n === 0 ? "aujourd'hui" : `J-${n}`})`;
+    li.append(a, ` — ${j.employer}`, when);
+    return li;
+  }), ...(rows.length > 12 ? [Object.assign(document.createElement("li"), { textContent: `… et ${rows.length - 12} autres` })] : []));
+}
+
 function updateCounts() {
-  $("count-new").textContent = state.jobs.filter((j) => state.newIds.has(j.id) && !isHidden(j)).length;
-  $("count-all").textContent = state.jobs.filter((j) => j.active && !isHidden(j)).length;
-  const tracked = new Set([...Object.keys(state.tracking).filter((id) => state.tracking[id].status !== "hidden"),
-    ...state.manual.map((j) => j.id)]);
-  $("count-mine").textContent = tracked.size;
+  renderSoon();
+  $("count-new").textContent = state.jobs.filter((j) => state.newIds.has(j.id) && !isHidden(j) && !isClosed(j)).length;
+  $("count-all").textContent = state.jobs.filter((j) => !isClosed(j) && !isHidden(j)).length;
+  const mine = state.jobs.filter((j) => (state.tracking[j.id] || j.manual) && !isHidden(j)
+    && !(isClosed(j) && !applied(j)));
+  $("count-mine").textContent = mine.length;
   $("count-companies").textContent = state.companies.length;
   renderPipeline();
 }
