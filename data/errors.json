@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-10-23T12:01:34+00:00",
+ "generated_at": "2026-10-23T12:13:12+00:00",
  "employers_total": 143,
- "employers_failed": 0,
- "errors": [],
+ "employers_failed": 1,
+ "errors": [
+  {
+   "employer": "Accenture",
+   "platform": "workday",
+   "careers_url": "https://www.accenture.com/fr-fr/careers",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
+   "at": "2026-10-23T12:16:08+00:00"
+  }
+ ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -11,7 +19,7 @@
   },
   {
    "employer": "JPMorgan",
-   "fetched": 666,
+   "fetched": 667,
    "kept": 43
   },
   {
@@ -126,7 +134,7 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 93,
+   "fetched": 92,
    "kept": 9
   },
   {
@@ -410,11 +418,6 @@
    "kept": 0
   },
   {
-   "employer": "Accenture",
-   "fetched": 28,
-   "kept": 3
-  },
-  {
    "employer": "BearingPoint",
    "fetched": 14,
    "kept": 0
@@ -661,7 +664,7 @@
   },
   {
    "employer": "Michelin",
-   "fetched": 47,
+   "fetched": 46,
    "kept": 0
   },
   {
@@ -676,7 +679,7 @@
   },
   {
    "employer": "Orange",
-   "fetched": 110,
+   "fetched": 100,
    "kept": 0
   },
   {
