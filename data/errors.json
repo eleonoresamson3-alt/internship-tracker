@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:55:26+00:00",
+ "generated_at": "2026-10-23T07:37:00+00:00",
  "employers_total": 91,
  "employers_failed": 1,
  "errors": [
@@ -8,18 +8,18 @@
    "platform": "workday",
    "careers_url": "https://www.accenture.com/fr-fr/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-22T19:58:52+00:00"
+   "at": "2026-10-23T07:39:56+00:00"
   }
  ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
    "fetched": 6,
-   "kept": 2
+   "kept": 6
   },
   {
    "employer": "JPMorgan",
-   "fetched": 666,
+   "fetched": 663,
    "kept": 43
   },
   {
@@ -30,12 +30,12 @@
   {
    "employer": "Citi",
    "fetched": 43,
-   "kept": 4
+   "kept": 5
   },
   {
    "employer": "Bank of America",
-   "fetched": 35,
-   "kept": 17
+   "fetched": 34,
+   "kept": 16
   },
   {
    "employer": "Barclays",
@@ -69,8 +69,8 @@
   },
   {
    "employer": "RBC Capital Markets",
-   "fetched": 38,
-   "kept": 14
+   "fetched": 39,
+   "kept": 15
   },
   {
    "employer": "Jefferies",
@@ -104,12 +104,12 @@
   },
   {
    "employer": "TD Securities",
-   "fetched": 18,
-   "kept": 5
+   "fetched": 19,
+   "kept": 6
   },
   {
    "employer": "Scotiabank",
-   "fetched": 273,
+   "fetched": 272,
    "kept": 1
   },
   {
@@ -134,8 +134,8 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 95,
-   "kept": 24
+   "fetched": 93,
+   "kept": 22
   },
   {
    "employer": "BlackRock",
@@ -144,13 +144,13 @@
   },
   {
    "employer": "Schroders",
-   "fetched": 75,
+   "fetched": 76,
    "kept": 11
   },
   {
    "employer": "Man Group",
-   "fetched": 60,
-   "kept": 1
+   "fetched": 61,
+   "kept": 2
   },
   {
    "employer": "PIMCO",
@@ -169,7 +169,7 @@
   },
   {
    "employer": "M&G",
-   "fetched": 1,
+   "fetched": 0,
    "kept": 0
   },
   {
@@ -194,8 +194,8 @@
   },
   {
    "employer": "Qube Research & Technologies",
-   "fetched": 195,
-   "kept": 3
+   "fetched": 194,
+   "kept": 4
   },
   {
    "employer": "Jane Street",
@@ -204,12 +204,12 @@
   },
   {
    "employer": "Optiver",
-   "fetched": 168,
+   "fetched": 169,
    "kept": 14
   },
   {
    "employer": "IMC",
-   "fetched": 169,
+   "fetched": 168,
    "kept": 12
   },
   {
@@ -224,7 +224,7 @@
   },
   {
    "employer": "DRW",
-   "fetched": 165,
+   "fetched": 163,
    "kept": 6
   },
   {
@@ -249,7 +249,7 @@
   },
   {
    "employer": "Point72",
-   "fetched": 213,
+   "fetched": 212,
    "kept": 15
   },
   {
@@ -264,7 +264,7 @@
   },
   {
    "employer": "Maven Securities",
-   "fetched": 40,
+   "fetched": 38,
    "kept": 3
   },
   {
@@ -329,8 +329,8 @@
   },
   {
    "employer": "LSEG",
-   "fetched": 12,
-   "kept": 3
+   "fetched": 10,
+   "kept": 1
   },
   {
    "employer": "CME Group",
@@ -369,7 +369,7 @@
   },
   {
    "employer": "Zurich",
-   "fetched": 305,
+   "fetched": 304,
    "kept": 5
   },
   {
@@ -394,8 +394,8 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 12,
-   "kept": 5
+   "fetched": 9,
+   "kept": 4
   },
   {
    "employer": "EY",
@@ -409,12 +409,12 @@
   },
   {
    "employer": "PwC",
-   "fetched": 207,
-   "kept": 63
+   "fetched": 206,
+   "kept": 61
   },
   {
    "employer": "Forvis Mazars",
-   "fetched": 143,
+   "fetched": 145,
    "kept": 1
   },
   {
@@ -449,8 +449,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 19,
-   "kept": 10
+   "fetched": 18,
+   "kept": 9
   },
   {
    "employer": "BBVA",
