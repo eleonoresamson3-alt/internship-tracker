@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T07:59:10+00:00",
+ "generated_at": "2026-10-23T08:14:54+00:00",
  "jobs": [
   {
    "id": "deutsche-bank-a905eeb72bb8",
@@ -3013,6 +3013,37 @@
    "active": true
   },
   {
+   "id": "pdt-partners-aba64e001304",
+   "employer": "PDT Partners",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Summer 2027 Quantitative Research Intern - PhD/Postdoctoral",
+   "location": "New York, NY; New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8263031",
+   "posted_at": "2026-10-07",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "pimco-1babf74d7b5b",
    "employer": "PIMCO",
    "employer_type": "asset_manager",
@@ -4540,6 +4571,37 @@
    "active": true
   },
   {
+   "id": "accenture-9b792a016468",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Consultant stagiaire Financial Services - Banking & Capital Markets - F/H",
+   "location": "Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Paris/Consultant-stagiaire-Financial-Services---Banking---Capital-Markets---F-H_R00365955-1",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "da-vinci-c43b313e1e4e",
    "employer": "Da Vinci",
    "employer_type": "hedge_fund",
@@ -4598,6 +4660,37 @@
    "url": "https://careers.ey.com/ey/job/Zurich-Quant-&-Analytics-Intern-Financial-Services-Risk-Consulting-8005/1417103933/",
    "posted_at": "",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "engineers-gate-e76690118dbb",
+   "employer": "Engineers Gate",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern",
+   "location": "Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 50,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/engineersgate/jobs/7946542",
+   "posted_at": "2026-05-20",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -5131,6 +5224,37 @@
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2049",
    "posted_at": "2026-09-25",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "worldquant-df9592ffac2c",
+   "employer": "WorldQuant",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern",
+   "location": "Beijing OR Shanghai; Chaoyang Qu, Guangdong, China",
+   "countries": [
+    "CN"
+   ],
+   "country_names": [
+    "China"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 50,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4084570006",
+   "posted_at": "2023-08-22",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -6801,6 +6925,37 @@
    "active": true
   },
   {
+   "id": "belvedere-trading-10b9ec6bd0e7",
+   "employer": "Belvedere Trading",
+   "employer_type": "hedge_fund",
+   "platform": "lever",
+   "title": "Quantitative Trading Intern - Summer 2027",
+   "location": "Chicago, Illinois",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
+   "posted_at": "2026-08-04",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "blackrock-b69f7045fcca",
    "employer": "BlackRock",
    "employer_type": "asset_manager",
@@ -7859,6 +8014,37 @@
    "url": "https://boards.greenhouse.io/point72/jobs/7609197002?gh_jid=7609197002",
    "posted_at": "2024-08-23",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "radix-trading-f0fa4fa91911",
+   "employer": "Radix Trading",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Technologist (C++ Intern)",
+   "location": "Chicago; Chicago, Illinois, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/radixuniversity/jobs/8500265002",
+   "posted_at": "2026-04-09",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -9227,6 +9413,37 @@
    "active": true
   },
   {
+   "id": "voleon-43ac840b91b3",
+   "employer": "Voleon",
+   "employer_type": "hedge_fund",
+   "platform": "ashby",
+   "title": "Research Intern (London)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 35,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://jobs.ashbyhq.com/voleon/ef2b0892-1772-4240-a535-4043d66d848e",
+   "posted_at": "2026-09-16",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "citi-f7d7fa16e8ef",
    "employer": "Citi",
    "employer_type": "intl_bank",
@@ -9413,6 +9630,99 @@
    "active": true
   },
   {
+   "id": "accenture-e2d2475035e2",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Finance Transformation - Working Internship",
+   "location": "Amsterdam",
+   "countries": [
+    "NL"
+   ],
+   "country_names": [
+    "Netherlands"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Finance-Transformation---Working-Internship_R00336967",
+   "posted_at": "2026-06-19",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "accenture-b9e966bf5d25",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Finance Transformation Analyst - Intern",
+   "location": "Assago, Via del Mulino 11a; Padova, Via Transalgardo Gauslino 1; Roma; Torino",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago-Via-del-Mulino-11a/Finance-Transformation-Analyst---Intern_R00356849",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "accenture-8754d6cff6a6",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Financial Services - Intern",
+   "location": "Assago",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago/Banking-and-Financial-Regulation-Intern_R00279783",
+   "posted_at": "2026-07-02",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "bny-c85a99bf92f8",
    "employer": "BNY",
    "employer_type": "intl_bank",
@@ -9502,6 +9812,37 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14455-2027-Brazil-Fixed-Income-Sales-Trading-Desk-Internship-Program/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "belvedere-trading-0aa91ce0b93c",
+   "employer": "Belvedere Trading",
+   "employer_type": "hedge_fund",
+   "platform": "lever",
+   "title": "Quantitative Trading Intern - Winter Quarter 2027",
+   "location": "Chicago, Illinois",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 30,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "url": "https://jobs.lever.co/belvederetrading/8f06f221-8777-4a4d-b035-40882db5f4a0",
+   "posted_at": "2026-08-04",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -11277,6 +11618,99 @@
    "url": "https://careers.aqr.com/jobs?gh_jid=8156993&gh_jid=8156993",
    "posted_at": "2026-08-25",
    "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "accenture-3a13590fd10e",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Client Financial Management Summer Analyst - Chicago - NAELFY27",
+   "location": "Chicago, Accenture Tower, Corp",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/Client-Financial-Management-Summer-Analyst---Chicago---NAELFY27_R00357961",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "accenture-921985873bff",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Client Financial Management Summer Analyst - Dallas - NAELFY27",
+   "location": "Dallas, 5205 N OConnor Las Colinas, Corp",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dallas-5205-N-OConnor-Las-Colinas-Corp/Client-Financial-Management-Summer-Analyst---Dallas---NAELFY27_R00357935",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "accenture-4bca46d75687",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Client Financial Management Summer Analyst - Morristown- NAELFY27",
+   "location": "Morristown, 1 Speedwell Ave, Corp",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Morristown-1-Speedwell-Ave-Corp/Client-Financial-Management-Summer-Analyst---Morristown--NAELFY27_R00357960",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
   },
@@ -13594,6 +14028,87 @@
    "active": true
   },
   {
+   "id": "stifel-9b70c8e939ab",
+   "employer": "Stifel",
+   "employer_type": "broker",
+   "platform": "generic",
+   "title": "Title Enterprise Risk Management Intern- Summer 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://careers-stifel.icims.com/jobs/9958/enterprise-risk-management-intern--summer-2027/job?in_iframe=1",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "stifel-cade58969085",
+   "employer": "Stifel",
+   "employer_type": "broker",
+   "platform": "generic",
+   "title": "Title Marketing Research Intern- Summer 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://careers-stifel.icims.com/jobs/9921/marketing-research-intern--summer-2027/job?in_iframe=1",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "stifel-ad5a1f568263",
+   "employer": "Stifel",
+   "employer_type": "broker",
+   "platform": "generic",
+   "title": "Title Treasury Management Intern- Summer 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "url": "https://careers-stifel.icims.com/jobs/9994/treasury-management-intern--summer-2027/job?in_iframe=1",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "td-securities-e74ef852c3a8",
    "employer": "TD Securities",
    "employer_type": "intl_bank",
@@ -15298,37 +15813,6 @@
    "active": true
   },
   {
-   "id": "lseg-af720da9b570",
-   "employer": "LSEG",
-   "employer_type": "infrastructure",
-   "platform": "workday",
-   "title": "Research Intern (Mandarin)",
-   "location": "MYS-Penang-One Precinct",
-   "countries": [
-    "MY"
-   ],
-   "country_names": [
-    "Malaysia"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/MYS-Penang-One-Precinct/Research-Intern--Mandarin-_R0123751",
-   "posted_at": "2026-10-22",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
    "id": "macquarie-ead8e06d3b56",
    "employer": "Macquarie",
    "employer_type": "intl_bank",
@@ -16595,6 +17079,37 @@
    "active": true
   },
   {
+   "id": "worldquant-54d88f854ac5",
+   "employer": "WorldQuant",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Data Science Intern",
+   "location": "Beijing OR Shanghai; Chaoyang Qu, Guangdong, China",
+   "countries": [
+    "CN"
+   ],
+   "country_names": [
+    "China"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069460006",
+   "posted_at": "2023-08-22",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "zurich-3cc24fc5a4ff",
    "employer": "Zurich",
    "employer_type": "insurance",
@@ -16944,6 +17459,37 @@
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
+   "active": false
+  },
+  {
+   "id": "lseg-af720da9b570",
+   "employer": "LSEG",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Research Intern (Mandarin)",
+   "location": "MYS-Penang-One Precinct",
+   "countries": [
+    "MY"
+   ],
+   "country_names": [
+    "Malaysia"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/MYS-Penang-One-Precinct/Research-Intern--Mandarin-_R0123751",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "active": false
   },
   {

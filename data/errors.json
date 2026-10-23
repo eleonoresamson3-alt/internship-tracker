@@ -1,16 +1,8 @@
 {
- "generated_at": "2026-10-23T07:59:10+00:00",
- "employers_total": 91,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Accenture",
-   "platform": "workday",
-   "careers_url": "https://www.accenture.com/fr-fr/careers",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-23T08:02:08+00:00"
-  }
- ],
+ "generated_at": "2026-10-23T08:14:54+00:00",
+ "employers_total": 105,
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -329,8 +321,8 @@
   },
   {
    "employer": "LSEG",
-   "fetched": 10,
-   "kept": 1
+   "fetched": 9,
+   "kept": 0
   },
   {
    "employer": "CME Group",
@@ -418,6 +410,11 @@
    "kept": 1
   },
   {
+   "employer": "Accenture",
+   "fetched": 69,
+   "kept": 7
+  },
+  {
    "employer": "BearingPoint",
    "fetched": 14,
    "kept": 0
@@ -460,6 +457,76 @@
   {
    "employer": "Raiffeisen Bank International",
    "fetched": 35,
+   "kept": 0
+  },
+  {
+   "employer": "Muzinich",
+   "fetched": 0,
+   "kept": 0
+  },
+  {
+   "employer": "WorldQuant",
+   "fetched": 95,
+   "kept": 2
+  },
+  {
+   "employer": "Voleon",
+   "fetched": 59,
+   "kept": 1
+  },
+  {
+   "employer": "PDT Partners",
+   "fetched": 11,
+   "kept": 1
+  },
+  {
+   "employer": "Engineers Gate",
+   "fetched": 9,
+   "kept": 1
+  },
+  {
+   "employer": "Belvedere Trading",
+   "fetched": 18,
+   "kept": 2
+  },
+  {
+   "employer": "Headlands Technologies",
+   "fetched": 8,
+   "kept": 0
+  },
+  {
+   "employer": "Radix Trading",
+   "fetched": 8,
+   "kept": 1
+  },
+  {
+   "employer": "Eclipse Trading",
+   "fetched": 16,
+   "kept": 0
+  },
+  {
+   "employer": "Stifel",
+   "fetched": 35,
+   "kept": 3
+  },
+  {
+   "employer": "Capco",
+   "fetched": 710,
+   "kept": 0
+  },
+  {
+   "employer": "Quanteam",
+   "fetched": 1,
+   "kept": 0
+  },
+  {
+   "employer": "Grant Thornton",
+   "fetched": 59,
+   "kept": 0
+  },
+  {
+   "employer": "Nasdaq (Calypso / Adenza)",
+   "fetched": 3,
    "kept": 0
   }
  ]
