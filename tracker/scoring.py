@@ -33,7 +33,7 @@ HIGH = [
 MEDIUM = [
     (r"\bquant(itative)? dev(eloper)?\b", "Quant dev"),
     (r"\bstrats?\b", "Quant dev"),
-    (r"\btrad(ing|er|ers)\b", "Trading"),
+    (r"\btrad(ing|er|ers)\b|\bsalle des marches\b|\bfront office\b", "Trading"),
     (r"\bproduct control\b|\bcontrole produits?\b", "Product control"),
     # Corporate treasury desks: hedging FX, rates and commodity exposures.
     (r"\bhedg(e|es|ing)\b|\bcouvertures?\b|\b(fx|currency|commodity|interest rate) risk\b|\brisques? de (change|taux)\b", "Risk"),

@@ -82,3 +82,5 @@ def test_corporate_markets_roles():
     assert not corporate_markets_role("Finance Intern - Accounts Payable")
     assert not corporate_markets_role("Stage Audit interne")
     assert not corporate_markets_role("Change Management Intern")
+    assert not corporate_markets_role("Internship 6 months global market access and pricing")
+    assert corporate_markets_role("Stage - Front Office / Salle des marchés")

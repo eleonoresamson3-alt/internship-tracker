@@ -80,9 +80,9 @@ employers:
     notes: jobs.kfw.de exposes no list of offers that can be read automatically.
 
   - name: Accenture
-    # One search term only: the shared Workday host (wd103) answers 429 when
-    # several searches with many result pages are sent.
-    params: {url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers", search_terms: [intern]}
+    # The shared Workday host (wd103) answers 429 to many requests: one search
+    # term, no per-offer detail calls.
+    params: {url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers", search_terms: [intern], details: false}
 
   - name: Vinci
     enabled: false

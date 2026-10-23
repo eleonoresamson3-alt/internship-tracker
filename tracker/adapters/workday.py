@@ -4,6 +4,7 @@ params:
   url: public site URL, e.g. https://ms.wd5.myworkdayjobs.com/External
        (tenant and site are derived from it; a locale segment like /en-US is ignored)
   tenant / site: optional overrides when the URL does not follow the usual pattern
+  details: false to skip the per-offer detail call (for hosts that rate-limit)
 """
 
 import html
@@ -56,6 +57,8 @@ def fetch(target, http):
         # Only offers that pass the title filter get a detail call, to resolve
         # "3 Locations" into real places and to get the country.
         try:
+            if target.params.get("details") is False:
+                raise LookupError("detail calls disabled for this employer")
             detail = http.get_json(f"{api}{path}").get("jobPostingInfo", {})
             locs = [detail.get("location", "")] + list(detail.get("additionalLocations", []) or [])
             location = "; ".join(filter(None, locs)) or location

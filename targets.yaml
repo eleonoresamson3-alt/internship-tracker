@@ -1413,6 +1413,7 @@ employers:
     url: https://accenture.wd103.myworkdayjobs.com/AccentureCareers
     search_terms:
     - intern
+    details: false
 - name: Capgemini Invent
   type: consulting
   platform: generic
