@@ -59,7 +59,9 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
     when = timing.analyse(title, raw.description)
     first, last = config.year_window()
     if when.year and not first <= when.year <= last:
-        return None  # start date stated in the ad, outside the window
+        return None  # start year stated in the ad, outside the window
+    if when.year and when.month and config.starts_too_early(when.year, when.month):
+        return None  # e.g. "Stage - Mars 2027" when the earliest start is June 2027
     s = scoring.score(title, raw.location, countries, when)
     if s.total < config.MIN_SCORE:
         return None

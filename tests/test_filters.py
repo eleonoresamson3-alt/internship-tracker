@@ -63,7 +63,9 @@ def test_year_window():
 
 
 def test_window_moves_with_time():
-    assert not out_of_window("Summer 2026 Internship", date(2026, 3, 1))
+    # Never before the earliest start year (2027), then moves forward by itself.
+    assert out_of_window("Summer 2026 Internship", date(2026, 3, 1))
+    assert not out_of_window("Summer 2027 Internship", date(2027, 3, 1))
     assert out_of_window("Summer 2027 Internship", date(2027, 10, 1))
 
 
@@ -84,3 +86,12 @@ def test_corporate_markets_roles():
     assert not corporate_markets_role("Change Management Intern")
     assert not corporate_markets_role("Internship 6 months global market access and pricing")
     assert corporate_markets_role("Stage - Front Office / Salle des marchés")
+
+
+def test_earliest_start():
+    from tracker import config
+    oct_2026 = OCT_2026
+    assert config.starts_too_early(2027, 1, oct_2026)
+    assert config.starts_too_early(2027, 3, oct_2026)
+    assert not config.starts_too_early(2027, 6, oct_2026)
+    assert not config.starts_too_early(2028, 1, oct_2026)
