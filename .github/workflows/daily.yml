@@ -1,0 +1,67 @@
+name: Daily scrape
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # every day at 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m pytest -q 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
+      - name: Scrape
+        run: python -m tracker.run 2>&1 | tee -a run.log; exit ${PIPESTATUS[0]}
+      - name: Commit data
+        run: |
+          exec > >(tee -a run.log) 2>&1
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily data update $(date -u +%Y-%m-%d)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp -r docs/. _site/
+          mkdir -p _site/data
+          cp data/*.json _site/data/
+      - name: Report failure
+        if: failure()
+        run: |
+          msg=$(tail -c 3000 run.log 2>/dev/null | sed 's/%/%25/g' | awk '{printf "%s%%0A", $0}')
+          echo "::error title=Failure log::${msg}"
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: scrape
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
