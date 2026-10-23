@@ -1,5 +1,19 @@
 [
  {
+  "name": "AB InBev",
+  "type": "corporate",
+  "careers_url": "https://www.ab-inbev.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "ABB",
+  "type": "corporate",
+  "careers_url": "https://careers.abb/global/en",
+  "covered": false,
+  "notes": "uses phenom, which has no public job API supported yet"
+ },
+ {
   "name": "Aberdeen",
   "type": "asset_manager",
   "careers_url": "https://www.aberdeenplc.com/en-gb/careers",
@@ -56,6 +70,27 @@
   "notes": "uses welcometothejungle, which has no public job API supported yet"
  },
  {
+  "name": "Air France-KLM",
+  "type": "corporate",
+  "careers_url": "https://www.airfrance.fr/recrutement",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ReadTimeout: HTTPSConnectionPool(host='www.airfrance.fr', port=443): Read timed )"
+ },
+ {
+  "name": "Air Liquide",
+  "type": "corporate",
+  "careers_url": "https://www.airliquide.com/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Airbus",
+  "type": "corporate",
+  "careers_url": "https://www.airbus.com/en/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
   "name": "Akuna Capital",
   "type": "hedge_fund",
   "careers_url": "https://akunacapital.com/careers",
@@ -96,6 +131,13 @@
   "careers_url": "https://www.alpiq.com/career",
   "covered": false,
   "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Alstom",
+  "type": "corporate",
+  "careers_url": "https://www.alstom.com/careers",
+  "covered": true,
+  "notes": ""
  },
  {
   "name": "Alvarez & Marsal",
@@ -145,6 +187,13 @@
   "careers_url": "https://www.arrowstreetcapital.com/careers",
   "covered": true,
   "notes": ""
+ },
+ {
+  "name": "ASML",
+  "type": "corporate",
+  "careers_url": "https://www.asml.com/en/careers",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
  },
  {
   "name": "Aspect Capital",
@@ -441,6 +490,20 @@
   "notes": ""
  },
  {
+  "name": "Bouygues",
+  "type": "corporate",
+  "careers_url": "https://www.bouygues.com/en/careers/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "BP (corporate treasury)",
+  "type": "corporate",
+  "careers_url": "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
   "name": "BP Trading",
   "type": "commodities",
   "careers_url": "https://www.bp.com/en/global/corporate/careers.html",
@@ -525,6 +588,13 @@
   "notes": ""
  },
  {
+  "name": "Capgemini",
+  "type": "corporate",
+  "careers_url": "https://www.capgemini.com/careers/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
   "name": "Capgemini Invent",
   "type": "consulting",
   "careers_url": "https://www.capgemini.com/fr-fr/carrieres/",
@@ -565,6 +635,13 @@
   "careers_url": "https://www.carmignac.com/en/careers",
   "covered": false,
   "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Carrefour",
+  "type": "corporate",
+  "careers_url": "https://www.carrefour.com/en/careers",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
  },
  {
   "name": "Castleton Commodities",
@@ -735,6 +812,13 @@
   "notes": ""
  },
  {
+  "name": "Danone",
+  "type": "corporate",
+  "careers_url": "https://careers.danone.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
+ },
+ {
   "name": "Danske Bank",
   "type": "european_bank",
   "careers_url": "https://danskebank.com/careers",
@@ -747,6 +831,13 @@
   "careers_url": "https://danskecommodities.com/careers/",
   "covered": false,
   "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Dassault Systèmes",
+  "type": "corporate",
+  "careers_url": "https://www.3ds.com/careers",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to the careers pages"
  },
  {
   "name": "De Nederlandsche Bank",
@@ -798,6 +889,13 @@
   "notes": "the only Workday site found belongs to ISS (a subsidiary), not to Deutsche Börse / Eurex; careers site is in-house."
  },
  {
+  "name": "Diageo",
+  "type": "corporate",
+  "careers_url": "https://www.diageo.com/en/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
   "name": "DNB",
   "type": "european_bank",
   "careers_url": "https://www.dnb.no/en/about-us/careers",
@@ -838,6 +936,13 @@
   "careers_url": "https://www.eclipsetrading.com/careers",
   "covered": true,
   "notes": ""
+ },
+ {
+  "name": "EDF",
+  "type": "corporate",
+  "careers_url": "https://www.edf.fr/edf-recrute",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
  },
  {
   "name": "EDF Trading",
@@ -1197,11 +1302,25 @@
   "notes": ""
  },
  {
+  "name": "Heineken",
+  "type": "corporate",
+  "careers_url": "https://careers.theheinekencompany.com/",
+  "covered": false,
+  "notes": "careers site not reachable by a script (ReadTimeout: HTTPSConnectionPool(host='careers.theheinekencompany.com', port=443)"
+ },
+ {
   "name": "Helaba",
   "type": "european_bank",
   "careers_url": "https://www.helaba.com/int/careers/",
   "covered": false,
   "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.helaba.com/int/caree)"
+ },
+ {
+  "name": "Hermès",
+  "type": "corporate",
+  "careers_url": "https://www.hermes.com/careers/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
  },
  {
   "name": "HSBC",
@@ -1358,6 +1477,13 @@
   "notes": ""
  },
  {
+  "name": "Kering",
+  "type": "corporate",
+  "careers_url": "https://www.kering.com/en/talent/job-offers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
   "name": "Keyrock",
   "type": "hedge_fund",
   "careers_url": "https://keyrock.com/careers/",
@@ -1377,6 +1503,13 @@
   "careers_url": "https://emplois.kpmg.fr/",
   "covered": true,
   "notes": "KPMG France careers site."
+ },
+ {
+  "name": "L'Oréal",
+  "type": "corporate",
+  "careers_url": "https://careers.loreal.com/",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
  },
  {
   "name": "La Banque Postale",
@@ -1491,6 +1624,13 @@
   "notes": "in-house careers site with no machine-readable job list found"
  },
  {
+  "name": "LVMH",
+  "type": "corporate",
+  "careers_url": "https://www.lvmh.com/join-us/our-job-offers",
+  "covered": true,
+  "notes": "the Recruitee board covers only some LVMH companies (mostly retail roles in Germany)."
+ },
+ {
   "name": "Lynx Asset Management",
   "type": "hedge_fund",
   "careers_url": "https://www.lynxhedge.se/careers",
@@ -1575,6 +1715,13 @@
   "notes": "robots.txt disallows automated access to the careers pages"
  },
  {
+  "name": "Michelin",
+  "type": "corporate",
+  "careers_url": "https://recrutement.michelin.fr/",
+  "covered": true,
+  "notes": ""
+ },
+ {
   "name": "Millennium",
   "type": "hedge_fund",
   "careers_url": "https://www.mlp.com/careers/",
@@ -1615,6 +1762,13 @@
   "careers_url": "https://www.mizuhogroup.com/emea/careers",
   "covered": true,
   "notes": ""
+ },
+ {
+  "name": "Mobilize Financial Services (RCI Bank)",
+  "type": "corporate",
+  "careers_url": "https://www.mobilize-fs.com/careers",
+  "covered": false,
+  "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.mobilize-fs.com/care)"
  },
  {
   "name": "Moneta AM",
@@ -1708,6 +1862,13 @@
   "notes": "careers site blocks automated requests (HTTP 403)"
  },
  {
+  "name": "Nestlé",
+  "type": "corporate",
+  "careers_url": "https://www.nestle.com/jobs",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
   "name": "Ninety One",
   "type": "asset_manager",
   "careers_url": "https://ninetyone.com/en/careers",
@@ -1739,6 +1900,13 @@
   "name": "Northern Trust",
   "type": "asset_manager",
   "careers_url": "https://careers.northerntrust.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Novartis",
+  "type": "corporate",
+  "careers_url": "https://www.novartis.com/careers",
   "covered": true,
   "notes": ""
  },
@@ -1806,6 +1974,13 @@
   "notes": ""
  },
  {
+  "name": "Orange",
+  "type": "corporate",
+  "careers_url": "https://orange.jobs/",
+  "covered": true,
+  "notes": ""
+ },
+ {
   "name": "Orchestrade",
   "type": "software",
   "careers_url": "https://www.orchestrade.com/careers",
@@ -1853,6 +2028,20 @@
   "careers_url": "https://peak6.com/careers/",
   "covered": false,
   "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Pernod Ricard",
+  "type": "corporate",
+  "careers_url": "https://www.pernod-ricard.com/en/careers",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Philips",
+  "type": "corporate",
+  "careers_url": "https://www.careers.philips.com/",
+  "covered": true,
+  "notes": ""
  },
  {
   "name": "Pictet",
@@ -1953,11 +2142,25 @@
   "notes": ""
  },
  {
+  "name": "Renault Group",
+  "type": "corporate",
+  "careers_url": "https://www.renaultgroup.com/en/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
   "name": "Robeco",
   "type": "asset_manager",
   "careers_url": "https://www.robeco.com/en-int/about-us/careers",
   "covered": false,
   "notes": "in-house careers site with no machine-readable job list found"
+ },
+ {
+  "name": "Roche",
+  "type": "corporate",
+  "careers_url": "https://careers.roche.com/",
+  "covered": false,
+  "notes": "uses phenom, which has no public job API supported yet"
  },
  {
   "name": "Rokos Capital",
@@ -1988,11 +2191,39 @@
   "notes": ""
  },
  {
+  "name": "Safran",
+  "type": "corporate",
+  "careers_url": "https://www.safran-group.com/jobs",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Saint-Gobain",
+  "type": "corporate",
+  "careers_url": "https://joinus.saint-gobain.com/",
+  "covered": false,
+  "notes": "careers site blocks automated requests (HTTP 403)"
+ },
+ {
+  "name": "Sanofi",
+  "type": "corporate",
+  "careers_url": "https://jobs.sanofi.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
   "name": "Santander CIB",
   "type": "intl_bank",
   "careers_url": "https://www.santandercib.com/careers",
   "covered": true,
   "notes": ""
+ },
+ {
+  "name": "Schneider Electric",
+  "type": "corporate",
+  "careers_url": "https://www.se.com/ww/en/about-us/careers/",
+  "covered": false,
+  "notes": "in-house careers site with no machine-readable job list found"
  },
  {
   "name": "Schonfeld",
@@ -2049,6 +2280,13 @@
   "careers_url": "https://www.sia-partners.com/en/careers",
   "covered": false,
   "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Siemens",
+  "type": "corporate",
+  "careers_url": "https://jobs.siemens.com/",
+  "covered": true,
+  "notes": ""
  },
  {
   "name": "Sienna IM",
@@ -2135,6 +2373,13 @@
   "notes": "robots.txt disallows automated access to its job search"
  },
  {
+  "name": "Stellantis",
+  "type": "corporate",
+  "careers_url": "https://www.stellantis.com/en/careers",
+  "covered": false,
+  "notes": "candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://stellantis.wd3.myworkday)"
+ },
+ {
   "name": "Stifel",
   "type": "broker",
   "careers_url": "https://www.stifel.com/careers",
@@ -2208,6 +2453,13 @@
   "name": "TD Securities",
   "type": "intl_bank",
   "careers_url": "https://jobs.td.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Thales",
+  "type": "corporate",
+  "careers_url": "https://careers.thalesgroup.com/",
   "covered": true,
   "notes": ""
  },
@@ -2303,6 +2555,13 @@
   "notes": "careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://unigestion.com/careers)"
  },
  {
+  "name": "Unilever",
+  "type": "corporate",
+  "careers_url": "https://careers.unilever.com/",
+  "covered": true,
+  "notes": ""
+ },
+ {
   "name": "Union Bancaire Privée",
   "type": "european_bank",
   "careers_url": "https://www.ubp.com/en/careers",
@@ -2345,6 +2604,20 @@
   "notes": "in-house careers site with no machine-readable job list found"
  },
  {
+  "name": "Veolia",
+  "type": "corporate",
+  "careers_url": "https://www.veolia.com/en/careers",
+  "covered": false,
+  "notes": "robots.txt disallows automated access to its job search"
+ },
+ {
+  "name": "Vinci",
+  "type": "corporate",
+  "careers_url": "https://jobs.vinci.com/",
+  "covered": false,
+  "notes": "the Ashby board \"vinci\" belongs to an AI start-up, not to the Vinci group; jobs.vinci.com has no machine-readable job list supported yet."
+ },
+ {
   "name": "Virtu Financial",
   "type": "hedge_fund",
   "careers_url": "https://www.virtu.com/careers/",
@@ -2362,6 +2635,13 @@
   "name": "Voleon",
   "type": "hedge_fund",
   "careers_url": "https://voleon.com/careers/",
+  "covered": true,
+  "notes": ""
+ },
+ {
+  "name": "Volkswagen Financial Services",
+  "type": "corporate",
+  "careers_url": "https://www.vwfs.com/en/career.html",
   "covered": true,
   "notes": ""
  },

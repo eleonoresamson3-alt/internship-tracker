@@ -83,3 +83,10 @@ employers:
     # One search term only: the shared Workday host (wd103) answers 429 when
     # several searches with many result pages are sent.
     params: {url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers", search_terms: [intern]}
+
+  - name: Vinci
+    enabled: false
+    notes: the Ashby board "vinci" belongs to an AI start-up, not to the Vinci group; jobs.vinci.com has no machine-readable job list supported yet.
+
+  - name: LVMH
+    notes: the Recruitee board covers only some LVMH companies (mostly retail roles in Germany).

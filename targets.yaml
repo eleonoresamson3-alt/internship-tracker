@@ -2866,3 +2866,317 @@ employers:
   careers_url: https://www.lynxhedge.se/careers
   params:
     base: https://lynxassetmanagement.teamtailor.com
+- name: Danone
+  type: corporate
+  platform: generic
+  careers_url: https://careers.danone.com/
+  params:
+    urls:
+    - https://careers.danone.com/
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: L'Oréal
+  type: corporate
+  platform: generic
+  careers_url: https://careers.loreal.com/
+  params:
+    urls:
+    - https://careers.loreal.com/
+  enabled: false
+  notes: robots.txt disallows automated access to its job search
+- name: LVMH
+  type: corporate
+  platform: recruitee
+  careers_url: https://www.lvmh.com/join-us/our-job-offers
+  params:
+    company: lvmh
+  notes: the Recruitee board covers only some LVMH companies (mostly retail roles in Germany).
+- name: Kering
+  type: corporate
+  platform: workday
+  careers_url: https://www.kering.com/en/talent/job-offers/
+  params:
+    url: https://kering.wd3.myworkdayjobs.com/Kering
+- name: Hermès
+  type: corporate
+  platform: generic
+  careers_url: https://www.hermes.com/careers/
+  params:
+    urls:
+    - https://www.hermes.com/careers/
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Pernod Ricard
+  type: corporate
+  platform: workday
+  careers_url: https://www.pernod-ricard.com/en/careers
+  params:
+    url: https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard
+- name: Airbus
+  type: corporate
+  platform: workday
+  careers_url: https://www.airbus.com/en/careers
+  params:
+    url: https://ag.wd3.myworkdayjobs.com/Airbus
+- name: Safran
+  type: corporate
+  platform: generic
+  careers_url: https://www.safran-group.com/jobs
+  params:
+    urls:
+    - https://www.safran-group.com/jobs
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Thales
+  type: corporate
+  platform: workday
+  careers_url: https://careers.thalesgroup.com/
+  params:
+    url: https://thales.wd3.myworkdayjobs.com/Careers
+- name: Dassault Systèmes
+  type: corporate
+  platform: generic
+  careers_url: https://www.3ds.com/careers
+  params:
+    urls:
+    - https://www.3ds.com/careers
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: Renault Group
+  type: corporate
+  platform: generic
+  careers_url: https://www.renaultgroup.com/en/careers/
+  params:
+    urls:
+    - https://www.renaultgroup.com/en/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Stellantis
+  type: corporate
+  platform: generic
+  careers_url: https://www.stellantis.com/en/careers
+  params:
+    urls:
+    - https://www.stellantis.com/en/careers
+  enabled: false
+  notes: 'candidate platforms failed (HTTPError: 404 Client Error: Not Found for url: https://stellantis.wd3.myworkday)'
+- name: Michelin
+  type: corporate
+  platform: workday
+  careers_url: https://recrutement.michelin.fr/
+  params:
+    url: https://michelinhr.wd3.myworkdayjobs.com/Michelin
+- name: Sanofi
+  type: corporate
+  platform: workday
+  careers_url: https://jobs.sanofi.com/
+  params:
+    url: https://sanofi.wd3.myworkdayjobs.com/SanofiCareers
+- name: Schneider Electric
+  type: corporate
+  platform: generic
+  careers_url: https://www.se.com/ww/en/about-us/careers/
+  params:
+    urls:
+    - https://www.se.com/ww/en/about-us/careers/
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: Saint-Gobain
+  type: corporate
+  platform: generic
+  careers_url: https://joinus.saint-gobain.com/
+  params:
+    urls:
+    - https://joinus.saint-gobain.com/
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Air Liquide
+  type: corporate
+  platform: workday
+  careers_url: https://www.airliquide.com/careers
+  params:
+    url: https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer
+- name: Orange
+  type: corporate
+  platform: phenom
+  careers_url: https://orange.jobs/
+  params:
+    base: https://orange.jobs/gb/en
+- name: Vinci
+  type: corporate
+  platform: ashby
+  careers_url: https://jobs.vinci.com/
+  params:
+    board: vinci
+  enabled: false
+  notes: the Ashby board "vinci" belongs to an AI start-up, not to the Vinci group; jobs.vinci.com has no machine-readable
+    job list supported yet.
+- name: Bouygues
+  type: corporate
+  platform: generic
+  careers_url: https://www.bouygues.com/en/careers/
+  params:
+    urls:
+    - https://www.bouygues.com/en/careers/
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Veolia
+  type: corporate
+  platform: generic
+  careers_url: https://www.veolia.com/en/careers
+  params:
+    urls:
+    - https://www.veolia.com/en/careers
+  enabled: false
+  notes: robots.txt disallows automated access to its job search
+- name: EDF
+  type: corporate
+  platform: generic
+  careers_url: https://www.edf.fr/edf-recrute
+  params:
+    urls:
+    - https://www.edf.fr/edf-recrute
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Carrefour
+  type: corporate
+  platform: generic
+  careers_url: https://www.carrefour.com/en/careers
+  params:
+    urls:
+    - https://www.carrefour.com/en/careers
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Capgemini
+  type: corporate
+  platform: generic
+  careers_url: https://www.capgemini.com/careers/
+  params:
+    urls:
+    - https://www.capgemini.com/careers/
+  enabled: false
+  notes: robots.txt disallows automated access to the careers pages
+- name: Alstom
+  type: corporate
+  platform: successfactors
+  careers_url: https://www.alstom.com/careers
+  params:
+    base: https://jobsearch.alstom.com
+- name: Mobilize Financial Services (RCI Bank)
+  type: corporate
+  platform: generic
+  careers_url: https://www.mobilize-fs.com/careers
+  params:
+    urls:
+    - https://www.mobilize-fs.com/careers
+  enabled: false
+  notes: 'careers site not reachable by a script (HTTPError: 404 Client Error: Not Found for url: https://www.mobilize-fs.com/care)'
+- name: Nestlé
+  type: corporate
+  platform: generic
+  careers_url: https://www.nestle.com/jobs
+  params:
+    urls:
+    - https://www.nestle.com/jobs
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Unilever
+  type: corporate
+  platform: workday
+  careers_url: https://careers.unilever.com/
+  params:
+    url: https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals
+- name: Siemens
+  type: corporate
+  platform: generic
+  careers_url: https://jobs.siemens.com/
+  params:
+    urls:
+    - https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?search={term}
+    link_pattern: JobDetail
+- name: Volkswagen Financial Services
+  type: corporate
+  platform: successfactors
+  careers_url: https://www.vwfs.com/en/career.html
+  params:
+    base: https://jobs.volkswagen-group.com
+- name: ASML
+  type: corporate
+  platform: generic
+  careers_url: https://www.asml.com/en/careers
+  params:
+    urls:
+    - https://www.asml.com/en/careers
+  enabled: false
+  notes: in-house careers site with no machine-readable job list found
+- name: ABB
+  type: corporate
+  platform: generic
+  careers_url: https://careers.abb/global/en
+  params:
+    urls:
+    - https://careers.abb/global/en
+  enabled: false
+  notes: uses phenom, which has no public job API supported yet
+- name: Novartis
+  type: corporate
+  platform: workday
+  careers_url: https://www.novartis.com/careers
+  params:
+    url: https://novartis.wd3.myworkdayjobs.com/Novartis_Careers
+- name: Roche
+  type: corporate
+  platform: generic
+  careers_url: https://careers.roche.com/
+  params:
+    urls:
+    - https://careers.roche.com/
+  enabled: false
+  notes: uses phenom, which has no public job API supported yet
+- name: Philips
+  type: corporate
+  platform: workday
+  careers_url: https://www.careers.philips.com/
+  params:
+    url: https://philips.wd3.myworkdayjobs.com/jobs-and-careers
+- name: Heineken
+  type: corporate
+  platform: generic
+  careers_url: https://careers.theheinekencompany.com/
+  params:
+    urls:
+    - https://careers.theheinekencompany.com/
+  enabled: false
+  notes: 'careers site not reachable by a script (ReadTimeout: HTTPSConnectionPool(host=''careers.theheinekencompany.com'',
+    port=443)'
+- name: AB InBev
+  type: corporate
+  platform: greenhouse
+  careers_url: https://www.ab-inbev.com/careers/
+  params:
+    board: abinbev
+- name: Diageo
+  type: corporate
+  platform: workday
+  careers_url: https://www.diageo.com/en/careers
+  params:
+    url: https://diageo.wd3.myworkdayjobs.com/Diageo_Careers
+- name: BP (corporate treasury)
+  type: corporate
+  platform: generic
+  careers_url: https://www.bp.com/en/global/corporate/careers/students-and-graduates.html
+  params:
+    urls:
+    - https://www.bp.com/en/global/corporate/careers/students-and-graduates.html
+  enabled: false
+  notes: careers site blocks automated requests (HTTP 403)
+- name: Air France-KLM
+  type: corporate
+  platform: generic
+  careers_url: https://www.airfrance.fr/recrutement
+  params:
+    urls:
+    - https://www.airfrance.fr/recrutement
+  enabled: false
+  notes: 'careers site not reachable by a script (ReadTimeout: HTTPSConnectionPool(host=''www.airfrance.fr'', port=443): Read
+    timed )'
