@@ -296,3 +296,90 @@ employers:
   - {name: Quantifi, type: software, careers_url: "https://www.quantifisolutions.com/careers/", slugs: [quantifi, quantifisolutions]}
   - {name: Opensee, type: software, careers_url: "https://www.opensee.io/careers", slugs: [opensee]}
   - {name: Nasdaq (Calypso / Adenza), type: software, careers_url: "https://www.nasdaq.com/about/careers", candidates: [[workday, {url: "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site"}]]}
+  # ---------------------------------------------------------------- Batch 3: lesser-known employers
+  # Energy trading (structuring / origination / pricing)
+  - {name: Axpo, type: commodities, careers_url: "https://www.axpo.com/ch/en/about-us/careers.html", slugs: [axpo]}
+  - {name: Alpiq, type: commodities, careers_url: "https://www.alpiq.com/career", slugs: [alpiq]}
+  - {name: Statkraft, type: commodities, careers_url: "https://www.statkraft.com/careers/", slugs: [statkraft]}
+  - {name: Uniper, type: commodities, careers_url: "https://www.uniper.energy/careers", slugs: [uniper]}
+  - {name: RWE Supply & Trading, type: commodities, careers_url: "https://www.rwe.com/en/careers/", slugs: [rwe]}
+  - {name: EnBW, type: commodities, careers_url: "https://www.enbw.com/careers/", slugs: [enbw]}
+  - {name: Ørsted, type: commodities, careers_url: "https://orsted.com/en/careers", slugs: [orsted]}
+  - {name: Vattenfall, type: commodities, careers_url: "https://group.vattenfall.com/careers", slugs: [vattenfall]}
+  - {name: Centrica Energy Trading, type: commodities, careers_url: "https://www.centrica.com/careers/", slugs: [centrica]}
+  - {name: Danske Commodities, type: commodities, careers_url: "https://danskecommodities.com/careers/", slugs: [danskecommodities]}
+  - {name: Hartree Partners, type: commodities, careers_url: "https://www.hartreepartners.com/careers/", slugs: [hartreepartners]}
+  - {name: Castleton Commodities, type: commodities, careers_url: "https://www.cci.com/careers/", slugs: [castletoncommodities, cci]}
+  - {name: Louis Dreyfus Company, type: commodities, careers_url: "https://www.ldc.com/careers/", slugs: [ldc, louisdreyfuscompany]}
+  - {name: Cargill, type: commodities, careers_url: "https://careers.cargill.com/", slugs: [cargill]}
+  # Crypto / digital-asset market makers
+  - {name: Keyrock, type: hedge_fund, careers_url: "https://keyrock.com/careers/", slugs: [keyrock]}
+  - {name: Flowdesk, type: hedge_fund, careers_url: "https://www.flowdesk.co/careers", slugs: [flowdesk]}
+  - {name: Wintermute, type: hedge_fund, careers_url: "https://www.wintermute.com/careers", slugs: [wintermute, wintermutetrading]}
+  - {name: B2C2, type: hedge_fund, careers_url: "https://www.b2c2.com/careers", slugs: [b2c2]}
+  - {name: GSR, type: hedge_fund, careers_url: "https://www.gsr.io/careers", slugs: [gsr, gsrmarkets]}
+  - {name: Deribit, type: infrastructure, careers_url: "https://www.deribit.com/", slugs: [deribit]}
+  - {name: Paradigm, type: infrastructure, careers_url: "https://www.paradigm.co/careers", slugs: [paradigm, paradigmco]}
+  # Regional European banks with markets desks
+  - {name: Helaba, type: european_bank, careers_url: "https://www.helaba.com/int/careers/", slugs: [helaba]}
+  - {name: DekaBank, type: european_bank, careers_url: "https://www.deka.de/deka-gruppe/karriere", slugs: [deka]}
+  - {name: BayernLB, type: european_bank, careers_url: "https://www.bayernlb.com/internet/en/blb/resp/karriere/", slugs: [bayernlb]}
+  - {name: NORD/LB, type: european_bank, careers_url: "https://www.nordlb.com/", slugs: [nordlb]}
+  - {name: KfW, type: european_bank, careers_url: "https://www.kfw.de/About-KfW/Careers/", slugs: [kfw]}
+  - {name: DNB, type: european_bank, careers_url: "https://www.dnb.no/en/about-us/careers", slugs: [dnb]}
+  - {name: Swedbank, type: european_bank, careers_url: "https://www.swedbank.com/about-swedbank/career.html", slugs: [swedbank]}
+  - {name: Handelsbanken, type: european_bank, careers_url: "https://www.handelsbanken.com/en/careers", slugs: [handelsbanken]}
+  - {name: Erste Group, type: european_bank, careers_url: "https://www.erstegroup.com/en/career", slugs: [erstegroup]}
+  - {name: CaixaBank, type: european_bank, careers_url: "https://www.caixabank.com/en/careers", slugs: [caixabank]}
+  - {name: Banco Sabadell, type: european_bank, careers_url: "https://www.grupbancsabadell.com/corp/en/careers.html", slugs: [bancsabadell]}
+  - {name: Bankinter, type: european_bank, careers_url: "https://www.bankinter.com/", slugs: [bankinter]}
+  - {name: Equita, type: broker, careers_url: "https://www.equita.eu/en/careers", slugs: [equita]}
+  - {name: Van Lanschot Kempen, type: european_bank, careers_url: "https://www.vanlanschotkempen.com/en/careers", slugs: [vanlanschotkempen]}
+  - {name: LGT, type: european_bank, careers_url: "https://www.lgt.com/global-en/careers", slugs: [lgt]}
+  - {name: Banque Cantonale de Genève, type: european_bank, careers_url: "https://www.bcge.ch/", slugs: [bcge]}
+  - {name: CACEIS, type: european_bank, careers_url: "https://www.caceis.com/careers/", slugs: [caceis]}
+  - {name: National Bank of Canada, type: intl_bank, careers_url: "https://jobs.nbc.ca/", slugs: [nbc, nationalbankofcanada]}
+  - {name: Commonwealth Bank, type: intl_bank, careers_url: "https://www.commbank.com.au/about-us/careers.html", slugs: [commbank]}
+  # Market infrastructure / trading venues / pricing software
+  - {name: Tradeweb, type: infrastructure, careers_url: "https://www.tradeweb.com/careers/", slugs: [tradeweb]}
+  - {name: MarketAxess, type: infrastructure, careers_url: "https://www.marketaxess.com/careers", slugs: [marketaxess]}
+  - {name: Cboe, type: infrastructure, careers_url: "https://www.cboe.com/about/careers/", slugs: [cboe]}
+  - {name: SIX Group, type: infrastructure, careers_url: "https://www.six-group.com/en/company/career.html", slugs: [six, sixgroup]}
+  - {name: OpenGamma, type: software, careers_url: "https://opengamma.com/careers/", slugs: [opengamma]}
+  - {name: Orchestrade, type: software, careers_url: "https://www.orchestrade.com/careers", slugs: [orchestrade]}
+  - {name: Quantitative Brokers, type: software, careers_url: "https://www.quantitativebrokers.com/careers", slugs: [quantitativebrokers]}
+  - {name: Beacon Platform, type: software, careers_url: "https://www.beacon.io/careers", slugs: [beaconplatform, beacon]}
+  - {name: Clear Street, type: broker, careers_url: "https://clearstreet.io/careers", slugs: [clearstreet]}
+  - {name: Kaiko, type: software, careers_url: "https://www.kaiko.com/careers", slugs: [kaiko]}
+  # Insurance / actuarial & risk consulting
+  - {name: Hannover Re, type: insurance, careers_url: "https://www.hannover-re.com/careers", slugs: [hannoverre]}
+  - {name: PartnerRe, type: insurance, careers_url: "https://partnerre.com/careers/", slugs: [partnerre]}
+  - {name: Milliman, type: consulting, careers_url: "https://www.milliman.com/en/careers", slugs: [milliman]}
+  - {name: WTW, type: consulting, careers_url: "https://careers.wtwco.com/", slugs: [wtw, willistowerswatson]}
+  - {name: Aon, type: consulting, careers_url: "https://jobs.aon.com/", slugs: [aon]}
+  # Asset managers (international, less obvious)
+  - {name: AllianceBernstein, type: asset_manager, careers_url: "https://www.alliancebernstein.com/corporate/en/careers.html", slugs: [alliancebernstein]}
+  - {name: Wellington Management, type: asset_manager, careers_url: "https://www.wellington.com/en/careers", slugs: [wellington, wellingtonmanagement]}
+  - {name: T. Rowe Price, type: asset_manager, careers_url: "https://www.troweprice.com/corporate/careers", slugs: [troweprice]}
+  - {name: Franklin Templeton, type: asset_manager, careers_url: "https://www.franklintempletoncareers.com/", slugs: [franklintempleton]}
+  - {name: Capital Group, type: asset_manager, careers_url: "https://www.capitalgroup.com/about-us/careers.html", slugs: [capitalgroup]}
+  - {name: Northern Trust, type: asset_manager, careers_url: "https://careers.northerntrust.com/", slugs: [northerntrust]}
+  - {name: Nuveen, type: asset_manager, careers_url: "https://www.nuveen.com/en-us/about-us/careers", slugs: [nuveen]}
+  - {name: Columbia Threadneedle, type: asset_manager, careers_url: "https://www.columbiathreadneedle.com/en/careers/", slugs: [columbiathreadneedle]}
+  - {name: Ninety One, type: asset_manager, careers_url: "https://ninetyone.com/en/careers", slugs: [ninetyone]}
+  - {name: Aberdeen, type: asset_manager, careers_url: "https://www.aberdeenplc.com/en-gb/careers", slugs: [aberdeen]}
+  - {name: Insight Investment, type: asset_manager, careers_url: "https://www.insightinvestment.com/careers/", slugs: [insightinvestment]}
+  - {name: Vanguard, type: asset_manager, careers_url: "https://www.vanguardjobs.com/", slugs: [vanguard]}
+  # Hedge funds (less known)
+  - {name: Winton, type: hedge_fund, careers_url: "https://www.winton.com/careers", slugs: [winton]}
+  - {name: Aspect Capital, type: hedge_fund, careers_url: "https://www.aspectcapital.com/careers/", slugs: [aspectcapital]}
+  - {name: Systematica Investments, type: hedge_fund, careers_url: "https://www.systematica.com/careers", slugs: [systematica, systematicainvestments]}
+  - {name: LMR Partners, type: hedge_fund, careers_url: "https://www.lmrpartners.com/careers", slugs: [lmrpartners]}
+  - {name: Rokos Capital, type: hedge_fund, careers_url: "https://www.rokoscapital.com/careers", slugs: [rokoscapital, rokos]}
+  - {name: Caxton Associates, type: hedge_fund, careers_url: "https://www.caxton.com/careers", slugs: [caxton, caxtonassociates]}
+  - {name: Eisler Capital, type: hedge_fund, careers_url: "https://www.eislercapital.com/careers", slugs: [eislercapital]}
+  - {name: Fasanara Capital, type: hedge_fund, careers_url: "https://www.fasanara.com/careers", slugs: [fasanara, fasanaracapital]}
+  - {name: Garda Capital, type: hedge_fund, careers_url: "https://www.gardacp.com/careers", slugs: [gardacapital, gardacp]}
+  - {name: Graham Capital, type: hedge_fund, careers_url: "https://www.grahamcapital.com/careers", slugs: [grahamcapital]}
+  - {name: Capstone Investment Advisors, type: hedge_fund, careers_url: "https://www.capstoneco.com/careers", slugs: [capstone, capstoneinvestmentadvisors]}
+  - {name: Lynx Asset Management, type: hedge_fund, careers_url: "https://www.lynxhedge.se/careers", slugs: [lynx, lynxassetmanagement]}
