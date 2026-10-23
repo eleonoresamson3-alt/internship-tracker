@@ -43,6 +43,9 @@
 
 * { box-sizing: border-box; }
 
+/* Elements with display: flex/grid must still disappear when hidden. */
+[hidden] { display: none !important; }
+
 body {
   margin: 0;
   background: var(--bg);
@@ -265,7 +268,24 @@ button.danger { color: var(--danger); }
   position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%);
   display: flex; gap: 12px; align-items: center;
   background: var(--text); color: var(--bg); padding: 10px 14px; border-radius: 10px;
-  box-shadow: 0 6px 24px rgb(0 0 0 / 0.25); font-size: 0.9rem; max-width: calc(100vw - 32px);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.25); font-size: 0.9rem; width: max-content; max-width: calc(100vw - 32px);
 }
 .toast button { color: var(--bg); border-color: color-mix(in srgb, var(--bg) 40%, transparent); }
 .card.is-hidden { opacity: 0.55; }
+
+.hide-offer {
+  flex: none;
+  align-self: flex-start;
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+.hide-offer:hover { color: var(--danger); border-color: var(--danger); }
+@media (max-width: 600px) {
+  .card-main { flex-wrap: wrap; }
+  .card-main .card-body { flex-basis: calc(100% - 52px); }
+  .hide-offer { margin-left: 50px; }
+}

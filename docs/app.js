@@ -500,7 +500,7 @@ function renderCard(job) {
   const hide = node.querySelector(".hide-offer");
   if (isHidden(job)) {
     node.classList.add("is-hidden");
-    hide.textContent = "Réafficher";
+    hide.textContent = "↺ Réafficher";
   }
   hide.addEventListener("click", () => {
     const previous = { ...(state.tracking[job.id] || {}) };
