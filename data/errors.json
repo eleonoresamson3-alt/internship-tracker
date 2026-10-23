@@ -1,16 +1,8 @@
 {
- "generated_at": "2026-10-23T08:54:38+00:00",
+ "generated_at": "2026-10-23T09:04:34+00:00",
  "employers_total": 143,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Accenture",
-   "platform": "workday",
-   "careers_url": "https://www.accenture.com/fr-fr/careers",
-   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-10-23T08:57:39+00:00"
-  }
- ],
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -234,7 +226,7 @@
   },
   {
    "employer": "Brevan Howard",
-   "fetched": 26,
+   "fetched": 27,
    "kept": 11
   },
   {
@@ -369,8 +361,8 @@
   },
   {
    "employer": "Zurich",
-   "fetched": 301,
-   "kept": 5
+   "fetched": 299,
+   "kept": 6
   },
   {
    "employer": "Banque de France",
@@ -404,7 +396,7 @@
   },
   {
    "employer": "KPMG",
-   "fetched": 150,
+   "fetched": 149,
    "kept": 16
   },
   {
@@ -416,6 +408,11 @@
    "employer": "Forvis Mazars",
    "fetched": 145,
    "kept": 1
+  },
+  {
+   "employer": "Accenture",
+   "fetched": 28,
+   "kept": 3
   },
   {
    "employer": "BearingPoint",
@@ -649,7 +646,7 @@
   },
   {
    "employer": "Pernod Ricard",
-   "fetched": 96,
+   "fetched": 95,
    "kept": 1
   },
   {
@@ -659,7 +656,7 @@
   },
   {
    "employer": "Thales",
-   "fetched": 107,
+   "fetched": 108,
    "kept": 1
   },
   {
@@ -670,7 +667,7 @@
   {
    "employer": "Sanofi",
    "fetched": 52,
-   "kept": 1
+   "kept": 0
   },
   {
    "employer": "Air Liquide",

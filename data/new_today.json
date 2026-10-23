@@ -1,38 +1,7 @@
 {
- "generated_at": "2026-10-23T08:54:38+00:00",
+ "generated_at": "2026-10-23T09:04:34+00:00",
  "date": "2026-10-23",
  "jobs": [
-  {
-   "id": "sanofi-39a271f1f587",
-   "employer": "Sanofi",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "internship 6 months global market access and pricing",
-   "location": "Lyon",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 91,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 30,
-    "city": 0,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-01",
-   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Lyon/internship-6-months--global-market-access-and-pricing_R2874165",
-   "posted_at": "2026-10-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
   {
    "id": "capstone-investment-advisors-296c78874e71",
    "employer": "Capstone Investment Advisors",
@@ -60,6 +29,37 @@
    "start": "2027",
    "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8859054002",
    "posted_at": "2026-09-30",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "air-liquide-d8d2c02feca5",
+   "employer": "Air Liquide",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "STAGE - SIEGE SOCIAL - Front Office / Salle des marchés H/F",
+   "location": "France, Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 65,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/STAGE---SIEGE-SOCIAL---Front-Office---Salle-des-marchs-H-F_R10101872",
+   "posted_at": "2026-09-28",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -215,37 +215,6 @@
    "start": "2027-01",
    "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Meudon/STAGE---Trsorerie-Cash-Management---F-H_R0341442-2",
    "posted_at": "2026-09-29",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "accenture-9b792a016468",
-   "employer": "Accenture",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Consultant stagiaire Financial Services - Banking & Capital Markets - F/H",
-   "location": "Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 50,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 5
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Paris/Consultant-stagiaire-Financial-Services---Banking---Capital-Markets---F-H_R00365955-1",
-   "posted_at": "2026-10-22",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -441,6 +410,37 @@
    "active": true
   },
   {
+   "id": "zurich-d1e5c7a8ab17",
+   "employer": "Zurich",
+   "employer_type": "insurance",
+   "platform": "successfactors",
+   "title": "Front Office Systems Intern",
+   "location": "Barcelona, ES",
+   "countries": [
+    "ES"
+   ],
+   "country_names": [
+    "Spain"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 50,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://www.careers.zurich.com/job/Barcelona-Front-Office-Systems-Intern/1366576657/",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
    "id": "capital-group-600d023da681",
    "employer": "Capital Group",
    "employer_type": "asset_manager",
@@ -593,37 +593,6 @@
    "start": "2027",
    "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8867730002",
    "posted_at": "2026-10-05",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "air-liquide-d8d2c02feca5",
-   "employer": "Air Liquide",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "STAGE - SIEGE SOCIAL - Front Office / Salle des marchés H/F",
-   "location": "France, Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 45,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/STAGE---SIEGE-SOCIAL---Front-Office---Salle-des-marchs-H-F_R10101872",
-   "posted_at": "2026-09-28",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -939,12 +908,12 @@
    "active": true
   },
   {
-   "id": "accenture-e2d2475035e2",
+   "id": "accenture-0478cbed4baa",
    "employer": "Accenture",
    "employer_type": "consulting",
    "platform": "workday",
    "title": "Finance Transformation - Working Internship",
-   "location": "Amsterdam",
+   "location": "",
    "countries": [
     "NL"
    ],
@@ -964,69 +933,7 @@
    "timing": "unknown",
    "start": "",
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Finance-Transformation---Working-Internship_R00336967",
-   "posted_at": "2026-06-19",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "accenture-b9e966bf5d25",
-   "employer": "Accenture",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Finance Transformation Analyst - Intern",
-   "location": "Assago, Via del Mulino 11a; Padova, Via Transalgardo Gauslino 1; Roma; Torino",
-   "countries": [
-    "IT"
-   ],
-   "country_names": [
-    "Italy"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 30,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago-Via-del-Mulino-11a/Finance-Transformation-Analyst---Intern_R00356849",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "accenture-8754d6cff6a6",
-   "employer": "Accenture",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Financial Services - Intern",
-   "location": "Assago",
-   "countries": [
-    "IT"
-   ],
-   "country_names": [
-    "Italy"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 30,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago/Banking-and-Financial-Regulation-Intern_R00279783",
-   "posted_at": "2026-07-02",
+   "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -1151,99 +1058,6 @@
    "start": "",
    "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012806101",
    "posted_at": "2026-10-22",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "accenture-3a13590fd10e",
-   "employer": "Accenture",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Client Financial Management Summer Analyst - Chicago - NAELFY27",
-   "location": "Chicago, Accenture Tower, Corp",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Chicago-Accenture-Tower-Corp/Client-Financial-Management-Summer-Analyst---Chicago---NAELFY27_R00357961",
-   "posted_at": "2026-10-21",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "accenture-921985873bff",
-   "employer": "Accenture",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Client Financial Management Summer Analyst - Dallas - NAELFY27",
-   "location": "Dallas, 5205 N OConnor Las Colinas, Corp",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Dallas-5205-N-OConnor-Las-Colinas-Corp/Client-Financial-Management-Summer-Analyst---Dallas---NAELFY27_R00357935",
-   "posted_at": "2026-10-21",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "active": true
-  },
-  {
-   "id": "accenture-4bca46d75687",
-   "employer": "Accenture",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Client Financial Management Summer Analyst - Morristown- NAELFY27",
-   "location": "Morristown, 1 Speedwell Ave, Corp",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Morristown-1-Speedwell-Ave-Corp/Client-Financial-Management-Summer-Analyst---Morristown--NAELFY27_R00357960",
-   "posted_at": "2026-10-21",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
    "active": true
@@ -1541,6 +1355,60 @@
    "timing": "summer",
    "start": "2027",
    "url": "https://careers-stifel.icims.com/jobs/9994/treasury-management-intern--summer-2027/job?in_iframe=1",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "accenture-50bbf7028b1e",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Finance Transformation Analyst - Intern",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago-Via-del-Mulino-11a/Finance-Transformation-Analyst---Intern_R00356849",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "active": true
+  },
+  {
+   "id": "accenture-e9cf0cb619e1",
+   "employer": "Accenture",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Financial Services - Intern",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago/Banking-and-Financial-Regulation-Intern_R00279783",
    "posted_at": "",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
