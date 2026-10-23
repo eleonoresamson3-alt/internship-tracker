@@ -314,6 +314,7 @@ async function load() {
       fetchJson("employers.json").catch(() => []),
     ]);
     state.companies = companies;
+    if (typeof loadFormations === "function") await loadFormations();
     const [news, market, newsErrors, newsSummary, calendar] = await Promise.all([
       fetchJson("data/news.json").catch(() => ({ items: [] })),
       fetchJson("data/market.json").catch(() => ({ series: [] })),
@@ -723,10 +724,20 @@ function renderCompanies() {
 function render() {
   const companiesTab = state.tab === "companies";
   const newsTab = state.tab === "news";
-  $("filters").hidden = companiesTab || newsTab;
+  const formationsTab = state.tab === "formations";
+  $("filters").hidden = companiesTab || newsTab || formationsTab;
   $("company-filters").hidden = !companiesTab;
   $("news-view").hidden = !newsTab;
-  for (const id of ["list", "result-line"]) $(id).hidden = newsTab;
+  $("formations-view").hidden = !formationsTab;
+  for (const id of ["list", "result-line"]) $(id).hidden = newsTab || formationsTab;
+  if (formationsTab) {
+    for (const id of ["pipeline", "empty"]) $(id).hidden = true;
+    renderFormations();
+    updateCounts();
+    $("soon").hidden = true;   // updateCounts re-renders the job deadline panel
+    saveFilters();
+    return;
+  }
   if (newsTab) {
     $("pipeline").hidden = true;
     $("soon").hidden = true;
@@ -797,6 +808,7 @@ function updateCounts() {
   $("count-companies").textContent = state.companies.length;
   $("count-news").textContent = todaysNews().length;
   $("count-kept").textContent = Object.keys(state.newsMarks.kept).length;
+  if (typeof formationsCount === "function") $("count-formations").textContent = formationsCount();
   renderPipeline();
 }
 
