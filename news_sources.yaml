@@ -7,8 +7,14 @@
 #          unit "%" = rate (changes in basis points), otherwise changes in %.
 
 feeds:
+  # Central banks, BIS and regulators (official: true)
   - name: BCE
     url: https://www.ecb.europa.eu/rss/press.html
+    lang: en
+    official: true
+
+  - name: BCE – Blog
+    url: https://www.ecb.europa.eu/rss/blog.html
     lang: en
     official: true
 
@@ -17,18 +23,53 @@ feeds:
     lang: en
     official: true
 
+  - name: Bank of England
+    url: https://www.bankofengland.co.uk/rss/news
+    lang: en
+    official: true
+
   - name: BRI
     url: https://www.bis.org/doclist/all_pressrels.rss
     lang: en
     official: true
 
-  - name: Les Echos – Marchés
-    url: https://services.lesechos.fr/rss/les-echos-finance-marches.xml
+  - name: AMF
+    url: https://www.amf-france.org/fr/flux-rss/display/23
+    lang: fr
+    official: true
+    notes: "flux « actualités et communiqués » de la page https://www.amf-france.org/fr/abonnements-flux-rss"
+
+  # Financial press (headlines and RSS abstracts only; full articles stay on the publisher's site)
+  - name: L'Agefi
+    url: https://www.agefi.fr/index.rss
     lang: fr
 
   - name: Financial Times – Markets
     url: https://www.ft.com/markets?format=rss
     lang: en
+
+  - name: Financial Times – Global economy
+    url: https://www.ft.com/global-economy?format=rss
+    lang: en
+
+  - name: MarketWatch – Market Pulse
+    url: https://feeds.content.dowjones.io/public/rss/mw_marketpulse
+    lang: en
+
+  - name: Investing.com France
+    url: https://fr.investing.com/rss/news.rss
+    lang: fr
+
+  - name: Le Monde – Économie
+    url: https://www.lemonde.fr/economie/rss_full.xml
+    lang: fr
+
+  # Tested and rejected (kept here so they are not tried again by mistake; see README)
+  - name: Les Echos – Marchés
+    url: https://services.lesechos.fr/rss/les-echos-finance-marches.xml
+    lang: fr
+    enabled: false
+    notes: "403 Forbidden for scripts (also the économie and marchés feeds and the /rss index)"
 
 market:
   - {key: cac40, label: CAC 40, group: Actions, unit: pts, provider: unavailable,
@@ -57,3 +98,14 @@ market:
      note: "Banque de France Webstat : clé API gratuite requise (à configurer)"}
   - {key: us2y, label: États-Unis 2 ans, group: Taux, unit: "%", provider: fred, series: DGS2}
   - {key: us10y, label: États-Unis 10 ans, group: Taux, unit: "%", provider: fred, series: DGS10}
+
+# Fallback when the official ECB or Fed calendar page cannot be read: copied by hand
+# from the official pages (ecb.europa.eu/press/calendars/mgcgc, federalreserve.gov
+# fomccalendars.htm). Never add a date that is not published there.
+calendar_manual:
+  - {bank: BCE, date: 2026-10-28, end: 2026-10-29}
+  - {bank: BCE, date: 2026-12-16, end: 2026-12-17}
+  - {bank: BCE, date: 2027-02-03, end: 2027-02-04}
+  - {bank: BCE, date: 2027-03-17, end: 2027-03-18}
+  - {bank: Fed, date: 2026-10-27, end: 2026-10-28}
+  - {bank: Fed, date: 2026-12-08, end: 2026-12-09, note: "avec projections économiques (SEP)"}

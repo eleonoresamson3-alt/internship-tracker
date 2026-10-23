@@ -99,6 +99,25 @@
       <div class="market" id="market"></div>
       <p class="news-status" id="news-status"></p>
 
+      <nav class="subnav" aria-label="Vues actualité">
+        <button type="button" class="chip" data-nview="today" aria-pressed="true">Aujourd'hui</button>
+        <button type="button" class="chip" data-nview="week" aria-pressed="false">Semaine</button>
+        <button type="button" class="chip" data-nview="kept" aria-pressed="false">À retenir <span class="count" id="count-kept">0</span></button>
+      </nav>
+
+      <section class="calendar" id="calendar" hidden aria-label="Réunions des banques centrales">
+        <h2 class="section-title">Prochaines réunions de politique monétaire</h2>
+        <ul id="calendar-list"></ul>
+      </section>
+
+      <div id="nview-today">
+      <section class="ai-summary" id="ai-summary" hidden aria-label="Résumé du jour">
+        <h2 class="section-title">Résumé du jour <span class="hint" id="ai-summary-meta"></span></h2>
+        <div id="ai-summary-text"></div>
+        <h3>Questions d'entretien possibles</h3>
+        <ol id="ai-questions"></ol>
+      </section>
+
       <h2 class="section-title">À lire aujourd'hui</h2>
       <ol class="must-read" id="must-read"></ol>
 
@@ -112,6 +131,22 @@
       </section>
       <div id="news-list" class="list news-list"></div>
       <p class="empty" id="news-empty" hidden>Aucun article ne correspond.</p>
+      </div>
+
+      <div id="nview-week" hidden>
+        <p class="hint">Les articles importants des 7 derniers jours, groupés par thème principal.</p>
+        <div id="week-groups"></div>
+        <p class="empty" id="week-empty" hidden>Pas encore assez d'historique.</p>
+      </div>
+
+      <div id="nview-kept" hidden>
+        <div class="kept-actions">
+          <p class="hint">Gardés dans ce navigateur uniquement (rien n'est envoyé au dépôt).</p>
+          <button type="button" class="ghost" id="kept-export">Exporter en CSV</button>
+        </div>
+        <div id="kept-list" class="list news-list"></div>
+        <p class="empty" id="kept-empty" hidden>Aucun article retenu. Cliquez sur « ☆ À retenir » sous un article.</p>
+      </div>
     </section>
 
     <p class="result-line" id="result-line"></p>
@@ -207,6 +242,10 @@
           <p class="meta"><span class="employer source"></span><span class="time"></span></p>
           <p class="summary"></p>
           <p class="tags"></p>
+          <div class="article-actions">
+            <button type="button" class="ghost small read-btn">Marquer comme lu</button>
+            <button type="button" class="ghost small keep-btn">☆ À retenir</button>
+          </div>
         </div>
       </div>
     </article>

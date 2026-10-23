@@ -58,3 +58,52 @@ def test_merge_history_merges_sources_and_prunes():
     merged = merge_history([old, stale], [fresh], NOW)
     assert [m["id"] for m in merged] == ["a"]
     assert merged[0]["sources"] == ["BCE", "Les Echos"]
+
+
+# ---------------------------------------------------------------- calendar
+
+from tracker.news import calendar as cal
+
+ECB_HTML = """<div class="definition-list -zebra"><dl>
+<dt> 28/10/2026 </dt><dd> Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 1)<br/></dd>
+<dt> 29/10/2026 </dt><dd> Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 2), followed by press conference</dd>
+<dt> 29/10/2026 </dt><dd> Press conference following the Governing Council meeting of the ECB in Frankfurt</dd>
+<dt> 25/11/2026 </dt><dd> Governing Council of the ECB: non-monetary policy meeting (in Frankfurt)</dd>
+<dt> 26/11/2026 </dt><dd> General Council meeting of the ECB in Frankfurt</dd>
+<dt> 16/12/2026 </dt><dd> Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 1)</dd>
+<dt> 17/12/2026 </dt><dd> Governing Council of the ECB: monetary policy meeting in Frankfurt (Day 2), followed by press conference</dd>
+</dl></div>"""
+
+FED_HTML = """<div class="panel panel-default"><div class="panel-heading"><h4><a id="1">2026 FOMC Meetings</a></h4></div>
+<div class="row fomc-meeting"><div class="fomc-meeting__month"><strong>October</strong></div>
+<div class="fomc-meeting__date">27-28</div></div>
+<div class="row fomc-meeting"><div class="fomc-meeting__month"><strong>Dec</strong></div>
+<div class="fomc-meeting__date">8-9*</div></div>
+<div class="row fomc-meeting"><div class="fomc-meeting__month"><strong>Apr/May</strong></div>
+<div class="fomc-meeting__date">30-1</div></div>
+<div class="row fomc-meeting"><div class="fomc-meeting__month"><strong>March</strong></div>
+<div class="fomc-meeting__date">9 (unscheduled)</div></div>
+</div>"""
+
+
+def test_parse_ecb_groups_two_day_meetings_and_skips_other_meetings():
+    got = cal.parse_ecb(ECB_HTML)
+    assert [(m["date"], m["end"]) for m in got] == [("2026-10-28", "2026-10-29"), ("2026-12-16", "2026-12-17")]
+    assert all(m["bank"] == "BCE" and m["source"] == "official" for m in got)
+
+
+def test_parse_fed_handles_projections_cross_month_and_unscheduled():
+    got = cal.parse_fed(FED_HTML)
+    assert [(m["date"], m["end"]) for m in got] == [
+        ("2026-04-30", "2026-05-01"), ("2026-10-27", "2026-10-28"), ("2026-12-08", "2026-12-09")]
+    assert "SEP" in got[2]["note"] and got[1]["note"] == ""
+
+
+def test_calendar_falls_back_to_manual_list():
+    class Broken:
+        def get(self, url):
+            raise OSError("down")
+    manual = [{"bank": "Fed", "date": "2026-12-08", "end": "2026-12-09"}]
+    meetings, errors = cal.fetch_all(manual, Broken())
+    assert [(m["bank"], m["source"]) for m in meetings] == [("Fed", "manual")]
+    assert {e["source"] for e in errors} == {"Calendrier BCE", "Calendrier Fed"}

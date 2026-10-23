@@ -163,6 +163,10 @@ const state = {
   news: [],
   market: [],
   newsErrors: null,
+  newsSummary: null,
+  calendar: [],
+  newsView: "today",
+  newsMarks: loadNewsMarks(),
   contacts: loadContacts(),
 };
 
@@ -193,6 +197,28 @@ function saveManual() {
   } catch {
     alert("Impossible d'enregistrer dans ce navigateur (navigation privée ?). Exportez un CSV pour ne rien perdre.");
   }
+}
+
+// Read / "à retenir" marks of news articles: this browser only. Kept articles
+// store their own copy so they survive the 30-day history window.
+const NEWS_KEY = STORAGE_KEY + ".news";
+
+function loadNewsMarks() {
+  try {
+    const m = JSON.parse(localStorage.getItem(NEWS_KEY)) || {};
+    return { read: m.read || {}, kept: m.kept || {} };
+  } catch {
+    return { read: {}, kept: {} };
+  }
+}
+
+function saveNewsMarks() {
+  // Read marks older than the history window are useless: drop them.
+  const cutoff = new Date(Date.now() - 40 * 86400000).toISOString().slice(0, 10);
+  for (const [id, day] of Object.entries(state.newsMarks.read)) if (day < cutoff) delete state.newsMarks.read[id];
+  try {
+    localStorage.setItem(NEWS_KEY, JSON.stringify(state.newsMarks));
+  } catch { /* private browsing: marks last until the page closes */ }
 }
 
 function loadContacts() {
@@ -287,11 +313,15 @@ async function load() {
       fetchJson("employers.json").catch(() => []),
     ]);
     state.companies = companies;
-    const [news, market, newsErrors] = await Promise.all([
+    const [news, market, newsErrors, newsSummary, calendar] = await Promise.all([
       fetchJson("data/news.json").catch(() => ({ items: [] })),
       fetchJson("data/market.json").catch(() => ({ series: [] })),
       fetchJson("data/news_errors.json").catch(() => null),
+      fetchJson("data/news_summary.json").catch(() => null),
+      fetchJson("data/calendar.json").catch(() => ({ meetings: [] })),
     ]);
+    state.newsSummary = newsSummary;
+    state.calendar = calendar.meetings || [];
     state.news = news.items || [];
     state.market = market.series || [];
     state.newsErrors = newsErrors;
@@ -761,6 +791,7 @@ function updateCounts() {
   $("count-mine").textContent = mine.length;
   $("count-companies").textContent = state.companies.length;
   $("count-news").textContent = todaysNews().length;
+  $("count-kept").textContent = Object.keys(state.newsMarks.kept).length;
   renderPipeline();
 }
 
@@ -879,11 +910,162 @@ function renderArticle(a) {
     span.textContent = THEME_LABEL[t] || t;
     tags.append(span);
   }
+  const marks = state.newsMarks;
+  const isRead = Boolean(marks.read[a.id]);
+  node.classList.toggle("read", isRead);
+  const readBtn = node.querySelector(".read-btn");
+  readBtn.textContent = isRead ? "✓ Lu" : "Marquer comme lu";
+  readBtn.setAttribute("aria-pressed", String(isRead));
+  readBtn.addEventListener("click", () => {
+    if (marks.read[a.id]) delete marks.read[a.id];
+    else marks.read[a.id] = todayIso();
+    saveNewsMarks();
+    render();
+  });
+  const isKept = Boolean(marks.kept[a.id]);
+  const keepBtn = node.querySelector(".keep-btn");
+  keepBtn.textContent = isKept ? "★ Retenu" : "☆ À retenir";
+  keepBtn.setAttribute("aria-pressed", String(isKept));
+  keepBtn.classList.toggle("on", isKept);
+  keepBtn.addEventListener("click", () => {
+    if (marks.kept[a.id]) delete marks.kept[a.id];
+    else marks.kept[a.id] = { id: a.id, title: a.title, link: a.link, source: a.source, sources: a.sources,
+      published: articleTime(a), summary: a.summary || "", themes: a.themes, score: a.score, kept_on: todayIso() };
+    saveNewsMarks();
+    render();
+  });
+  // Clicking the title also counts as read.
+  link.addEventListener("click", () => {
+    if (!marks.read[a.id]) { marks.read[a.id] = todayIso(); saveNewsMarks(); setTimeout(render, 0); }
+  });
   return node;
+}
+
+const WEEK_PER_THEME = 8;
+const WEEK_MIN_SCORE = 30;
+
+function renderCalendar() {
+  const today = todayIso();
+  const next = {};
+  for (const m of state.calendar) {
+    if ((m.end || m.date) >= today && !next[m.bank]) next[m.bank] = m;
+  }
+  const items = Object.values(next).sort((a, b) => a.date.localeCompare(b.date));
+  // The two next meetings per bank, so the date after the next one is visible too.
+  const rows = [];
+  for (const m of items) {
+    const after = state.calendar.find((x) => x.bank === m.bank && x.date > m.date);
+    rows.push([m, after]);
+  }
+  $("calendar").hidden = rows.length === 0;
+  $("calendar-list").replaceChildren(...rows.map(([m, after]) => {
+    const li = document.createElement("li");
+    const days = Math.max(0, Math.round((new Date(m.date) - new Date(today)) / 86400000));
+    const strong = document.createElement("strong");
+    strong.textContent = m.bank;
+    const when = days === 0 ? "en cours ou aujourd'hui" : days === 1 ? "demain" : `dans ${days} jours`;
+    li.append(strong, ` : ${frDate(m.date)}${m.end && m.end !== m.date ? ` – ${frDate(m.end)}` : ""} (${when})`
+      + (m.note ? ` · ${m.note}` : "") + (after ? ` · suivante : ${frDate(after.date)}` : ""));
+    if (m.source_url) {
+      const a = document.createElement("a");
+      a.href = m.source_url; a.target = "_blank"; a.rel = "noopener"; a.className = "src";
+      a.textContent = m.source === "manual" ? "liste manuelle" : "source";
+      li.append(" ", a);
+    }
+    return li;
+  }));
+}
+
+function renderSummary() {
+  const s = state.newsSummary;
+  const fresh = s && s.generated_at && Date.now() - new Date(s.generated_at) < 36 * 3600000;
+  $("ai-summary").hidden = !fresh;
+  if (!fresh) return;
+  $("ai-summary-meta").textContent = `généré automatiquement (${s.model}) — à vérifier dans les articles`;
+  const box = $("ai-summary-text");
+  // Plain text with paragraphs and "- " bullets; no HTML is injected.
+  box.replaceChildren(...s.summary.split(/\n\s*\n/).map((block) => {
+    const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
+    if (lines.length && lines.every((l) => /^([-*•]|\d+[.)])\s/.test(l))) {
+      const ul = document.createElement("ul");
+      for (const l of lines) {
+        const li = document.createElement("li");
+        li.textContent = l.replace(/^([-*•]|\d+[.)])\s+/, "").replace(/\*\*/g, "");
+        ul.append(li);
+      }
+      return ul;
+    }
+    const p = document.createElement("p");
+    p.textContent = lines.join(" ").replace(/\*\*/g, "");
+    return p;
+  }));
+  $("ai-questions").replaceChildren(...(s.questions || []).map((q) => {
+    const li = document.createElement("li");
+    li.textContent = q;
+    return li;
+  }));
+}
+
+function renderWeek() {
+  const since = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 16);
+  const groups = new Map(Object.keys(THEME_LABEL).map((t) => [t, []]));
+  for (const a of state.news) {
+    if (articleTime(a) < since || a.score < WEEK_MIN_SCORE || !a.themes.length) continue;
+    groups.get(a.themes[0])?.push(a);
+  }
+  const sections = [];
+  for (const [theme, rows] of groups) {
+    if (!rows.length) continue;
+    rows.sort((a, b) => b.score - a.score || articleTime(b).localeCompare(articleTime(a)));
+    const sec = document.createElement("section");
+    sec.className = "week-group";
+    const h = document.createElement("h2");
+    h.className = "section-title";
+    h.textContent = `${THEME_LABEL[theme]} `;
+    const count = document.createElement("span");
+    count.className = "count";
+    count.textContent = rows.length;
+    h.append(count);
+    const list = document.createElement("div");
+    list.className = "list news-list";
+    list.append(...rows.slice(0, WEEK_PER_THEME).map(renderArticle));
+    sec.append(h, list);
+    sections.push(sec);
+  }
+  $("week-groups").replaceChildren(...sections);
+  $("week-empty").hidden = sections.length > 0;
+}
+
+function renderKept() {
+  const rows = Object.values(state.newsMarks.kept).sort((a, b) => (b.kept_on + b.published).localeCompare(a.kept_on + a.published));
+  $("kept-list").replaceChildren(...rows.map((a) => renderArticle({ sources: [a.source], themes: [], ...a })));
+  $("kept-empty").hidden = rows.length > 0;
+  $("kept-export").disabled = rows.length === 0;
+}
+
+function exportKeptCsv() {
+  const cols = ["kept_on", "published", "source", "title", "link", "themes", "score", "summary"];
+  const lines = [cols.join(",")];
+  for (const a of Object.values(state.newsMarks.kept)) {
+    const row = { ...a, themes: (a.themes || []).map((t) => THEME_LABEL[t] || t).join(" / ") };
+    lines.push(cols.map((c) => csvEscape(row[c])).join(","));
+  }
+  const blob = new Blob(["\ufeff" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = `actualite-a-retenir-${todayIso()}.csv`;
+  link.click();
+  URL.revokeObjectURL(link.href);
 }
 
 function renderNews() {
   renderMarket();
+  renderCalendar();
+  for (const b of document.querySelectorAll("[data-nview]")) b.setAttribute("aria-pressed", String(b.dataset.nview === state.newsView));
+  for (const v of ["today", "week", "kept"]) $(`nview-${v}`).hidden = v !== state.newsView;
+  if (state.newsView === "week") renderWeek();
+  if (state.newsView === "kept") renderKept();
+  renderSummary();
   const day = todaysNews().sort((a, b) => b.score - a.score || articleTime(b).localeCompare(articleTime(a)));
   const errors = (state.newsErrors && state.newsErrors.errors) || [];
   const when = state.newsGeneratedAt ? new Date(state.newsGeneratedAt).toLocaleString("fr-FR", { dateStyle: "medium", timeStyle: "short" }) : "—";
@@ -1117,6 +1299,11 @@ $("export").addEventListener("click", exportCsv);
 for (const id of ["n-search", "n-theme", "n-source"]) {
   $(id).addEventListener(id === "n-search" ? "input" : "change", render);
 }
+document.querySelectorAll("[data-nview]").forEach((b) => b.addEventListener("click", () => {
+  state.newsView = b.dataset.nview;
+  render();
+}));
+$("kept-export").addEventListener("click", exportKeptCsv);
 $("soon-more").addEventListener("click", () => {
   state.soonExpanded = !state.soonExpanded;
   renderSoon();

@@ -16,7 +16,7 @@ import yaml
 
 from .. import config, store
 from ..http import PoliteClient
-from . import classify, dedupe, feeds, market
+from . import calendar, classify, dedupe, feeds, market
 
 log = logging.getLogger("news")
 KEEP_DAYS = 30
@@ -100,15 +100,18 @@ def main(argv=None) -> int:
     rescore(merged)
 
     series, market_errors = market.fetch_all(sources.get("market", []), http)
+    meetings, calendar_errors = calendar.fetch_all(sources.get("calendar_manual", []), http)
     generated_at = now.isoformat(timespec="seconds")
     store.save_json(config.NEWS_FILE, {"generated_at": generated_at, "items": merged})
     store.save_json(config.MARKET_FILE, {"generated_at": generated_at, "series": series})
-    errors = feed_errors + market_errors
+    store.save_json(config.CALENDAR_FILE, {"generated_at": generated_at, "meetings": meetings})
+    errors = feed_errors + market_errors + calendar_errors
     store.save_json(config.NEWS_ERRORS_FILE, {"generated_at": generated_at, "errors": errors, "stats": stats})
 
     ok = sum(1 for s in series if s["status"] == "ok")
     summary = (f"{len(fresh)} articles fetched, {len(merged)} in 30-day history, "
-               f"{len(feed_errors)}/{len(feed_sources)} feeds failed, {ok}/{len(series)} market series available")
+               f"{len(feed_errors)}/{len(feed_sources)} feeds failed, {ok}/{len(series)} market series available, "
+               f"{len(meetings)} central bank meetings")
     log.info(summary)
     if os.environ.get("GITHUB_ACTIONS"):
         lines = [summary] + [f"{s['source']}: {s['items']}" for s in stats] + \
