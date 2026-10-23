@@ -1,16 +1,8 @@
 {
- "generated_at": "2026-10-23T11:26:25+00:00",
+ "generated_at": "2026-10-23T11:50:59+00:00",
  "employers_total": 143,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "State Street",
-   "platform": "workday",
-   "careers_url": "https://careers.statestreet.com/",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-23T11:27:01+00:00"
-  }
- ],
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
@@ -81,6 +73,11 @@
    "employer": "BNY",
    "fetched": 355,
    "kept": 18
+  },
+  {
+   "employer": "State Street",
+   "fetched": 0,
+   "kept": 0
   },
   {
    "employer": "Macquarie",
@@ -414,8 +411,8 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 28,
-   "kept": 3
+   "fetched": 15,
+   "kept": 1
   },
   {
    "employer": "BearingPoint",
@@ -424,7 +421,7 @@
   },
   {
    "employer": "Zanders",
-   "fetched": 25,
+   "fetched": 24,
    "kept": 0
   },
   {
@@ -514,7 +511,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 715,
+   "fetched": 714,
    "kept": 0
   },
   {
@@ -654,12 +651,12 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 75,
+   "fetched": 74,
    "kept": 0
   },
   {
    "employer": "Thales",
-   "fetched": 107,
+   "fetched": 109,
    "kept": 0
   },
   {

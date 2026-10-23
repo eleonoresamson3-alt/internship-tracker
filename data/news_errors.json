@@ -1,15 +1,13 @@
 {
- "generated_at": "2026-10-23T11:35:14+00:00",
- "errors": [
-  {
-   "source": "Les Echos – Marchés",
-   "url": "https://services.lesechos.fr/rss/les-echos-finance-marches.xml",
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://services.lesechos.fr/rss/les-echos-finance-marches.xml"
-  }
- ],
+ "generated_at": "2026-10-23T11:59:48+00:00",
+ "errors": [],
  "stats": [
   {
    "source": "BCE",
+   "items": 15
+  },
+  {
+   "source": "BCE – Blog",
    "items": 15
   },
   {
@@ -17,12 +15,40 @@
    "items": 20
   },
   {
+   "source": "Bank of England",
+   "items": 50
+  },
+  {
    "source": "BRI",
    "items": 10
   },
   {
+   "source": "AMF",
+   "items": 200
+  },
+  {
+   "source": "L'Agefi",
+   "items": 250
+  },
+  {
    "source": "Financial Times – Markets",
    "items": 25
+  },
+  {
+   "source": "Financial Times – Global economy",
+   "items": 25
+  },
+  {
+   "source": "MarketWatch – Market Pulse",
+   "items": 30
+  },
+  {
+   "source": "Investing.com France",
+   "items": 10
+  },
+  {
+   "source": "Le Monde – Économie",
+   "items": 20
   }
  ]
 }
