@@ -36,6 +36,13 @@ _RANGE = re.compile(
 )
 _RANGE_CONTEXT = re.compile(r"\b(internship|stage|praktikum|period\w*|duration|duree|dates?|from|de|du|vom|dal|start\w*|"
                             r"debut\w*|placement|programme|program)\b[^.]*$")
+# In a description, "June 2027" counts only right after a start / period word
+# ("starting in", "available from", "internship period", "duree du stage"...).
+_MONTH_CONTEXT = re.compile(r"\b(start\w*|commenc\w*|debut\w*|intake|available|disponib\w*|period\w*|duration|duree|"
+                            r"beginning|a partir|from|des le|ab|beginn\w*|inizio|inicio)\b[^.]{0,85}$")   # long enough for "x ou y ou z"
+# "Start date: 2027-04-01", "start date: 15/04/2027" (day/month order only when unambiguous)
+_START_ISO = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<y>20\d\d)-(?P<m>\d\d)-\d\d\b")
+_START_DMY = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<a>\d{1,2})/(?P<b>\d{1,2})/(?P<y>20\d\d)\b")
 # "Feb2027" -> "Feb 2027"
 _GLUED = re.compile(rf"\b({_MONTH_ALT})(20\d\d)\b")
 # "June 2027", "juin 2027", "06/2027"
@@ -96,12 +103,35 @@ def _start_month(text: str, strict: bool = False):
             year = int(match.group("y"))
             return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
     else:
-        # In a description, a range counts only when introduced as the internship period
+        # In a description every explicit start found counts, and the LATEST one wins:
+        # "start dates: January to June 2027, July to December 2027" offers a July start,
+        # so the offer must not be dropped as starting in January (in doubt, keep).
+        found = []
+        # A range counts only when introduced as the internship period
         # ("internship period: April - September 2027", "du stage : de avril a septembre 2027").
-        for match in _RANGE.finditer(text):
+        ranges = list(_RANGE.finditer(text))
+        for match in ranges:
             if _RANGE_CONTEXT.search(text[max(0, match.start() - 60):match.start()]):
                 year = int(match.group("y"))
-                return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
+                found.append((year if year > 2000 else 2000 + year, _MONTH_OF[match.group("m1")]))
+        inside_range = lambda pos: any(r.start() <= pos < r.end() for r in ranges)   # "... to June 2027" is an end
+        for match in _MONTH_YEAR.finditer(text):
+            if match.group("m") and not inside_range(match.start()) \
+                    and _MONTH_CONTEXT.search(text[max(0, match.start() - 100):match.start()]):
+                found.append((int(match.group("y")), _MONTH_OF[match.group("m")]))
+        for match in _START_ISO.finditer(text):
+            if 1 <= int(match.group("m")) <= 12:
+                found.append((int(match.group("y")), int(match.group("m"))))
+        for match in _START_DMY.finditer(text):
+            a, b = int(match.group("a")), int(match.group("b"))
+            if a > 12 and 1 <= b <= 12:      # 15/04/2027: day first, month = 4
+                found.append((int(match.group("y")), b))
+            elif b > 12 and 1 <= a <= 12:    # 04/15/2027: month first
+                found.append((int(match.group("y")), a))
+            # 01/04/2027 is ambiguous (1 April or 4 January): left unknown.
+        if found:
+            year, month = max(found)
+            return month, year
     match = None if strict else _MONTH_YEAR.search(text)
     if match:
         if match.group("m"):
@@ -120,7 +150,7 @@ def _start_month(text: str, strict: bool = False):
 
 
 def analyse(title: str, description: str = "") -> Timing:
-    t, d = _GLUED.sub(r"\1 \2", _norm(title)), _GLUED.sub(r"\1 \2", _norm(description[:4000]))
+    t, d = _GLUED.sub(r"\1 \2", _norm(title)), _GLUED.sub(r"\1 \2", _norm(description[:16000]))
     month, year = _start_month(t)
     if month is None and d:
         month, year = _start_month(d, strict=True)

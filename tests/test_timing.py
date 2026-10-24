@@ -32,6 +32,16 @@ from tracker.timing import analyse
     ("Markets Intern", "Internship period: April - September 2027, Paris.", "off-cycle", "2027-04"),
     ("Stage Structuration", "Durée du stage : de avril à septembre 2027.", "off-cycle", "2027-04"),
     ("Quant Intern", "Applications are reviewed January - March 2027.", "unknown", ""),
+    ("Quant Intern", "This 6-month internship is available from April 2027 in Paris.", "off-cycle", "2027-04"),
+    ("Stage Pricing", "Date de début : 15/04/2027. Durée 6 mois.", "off-cycle", "2027-04"),
+    ("Risk Intern", "Start date: 2027-03-01", "off-cycle", "2027-03"),
+    ("Risk Intern", "Start date: 01/04/2027", "unknown", ""),
+    ("Rates Structuring Off Cycle Intern 2027",
+     "Looking for an intern for the following start dates: January to June 2027, July to December 2027.",
+     "off-cycle", "2027-07"),
+    ("Stagiaire Audit financier", "Date de début prévue : janvier 2027 ou février 2027 ou septembre 2027. Mode : hybride.",
+     "off-cycle", "2027-09"),
+    ("Risk Intern", "Applications close in March 2027; interviews in April 2027.", "unknown", ""),
     ("Stage estate 2027 - Mercati", "", "summer", "2027"),
 ])
 def test_analyse(title, description, kind, start):
