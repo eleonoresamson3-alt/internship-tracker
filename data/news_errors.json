@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T06:16:05+00:00",
+ "generated_at": "2026-10-24T08:37:13+00:00",
  "errors": [],
  "stats": [
   {
@@ -41,8 +41,8 @@
   {
    "source": "L'Agefi",
    "items": 250,
-   "newest": "2026-10-23T21:38+00:00",
-   "oldest": "2026-10-16T13:04+00:00"
+   "newest": "2026-10-24T07:00+00:00",
+   "oldest": "2026-10-16T13:15+00:00"
   },
   {
    "source": "Financial Times – Markets",
@@ -59,14 +59,14 @@
   {
    "source": "MarketWatch",
    "items": 10,
-   "newest": "2026-10-23T22:49+00:00",
-   "oldest": "2026-10-23T20:02+00:00"
+   "newest": "2026-10-24T08:00+00:00",
+   "oldest": "2026-10-23T20:19+00:00"
   },
   {
    "source": "Investing.com France",
    "items": 10,
-   "newest": "2026-10-24T05:47+00:00",
-   "oldest": "2026-10-24T01:57+00:00"
+   "newest": "2026-10-24T08:21+00:00",
+   "oldest": "2026-10-24T07:02+00:00"
   },
   {
    "source": "Le Monde – Économie",
