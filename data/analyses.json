@@ -1,6 +1,200 @@
 {
  "days": [
   {
+   "date": "2026-10-24",
+   "generated_at": "2026-10-24T05:50:00+00:00",
+   "brief": [
+    "Actions : le Nasdaq a perdu 2,6 % jeudi 22 octobre (sa pire séance depuis juin, selon L'Agefi) sur fond de doutes sur les dépenses d'IA ; le VIX est monté à 19,03 (+14 % sur la journée).",
+    "Taux américains : le rendement du 10 ans est repassé sous 5 % selon L'Agefi, la plus forte baisse quotidienne depuis la crise bancaire de 2023 d'après MarketWatch ; nos séries US s'arrêtent au 21 octobre (10 ans à 5,13 %).",
+    "France : le 10 ans (TEC 10) est à 5,048 % le 23 octobre, en recul de 7,8 points de base sur la journée mais en hausse de 25,4 points sur la semaine ; l'écart avec le Bund (3,39 %) est d'environ 166 points de base.",
+    "Or : le métal jaune passe sous 4 000 $ l'once selon le FT, malgré la ruée vers les Treasuries ; le pétrole, lui, touche 114 $ selon le FT.",
+    "Agenda : Fed les 27-28 octobre, BCE les 28-29 octobre (taux de dépôt à 2,5 %)."
+   ],
+   "articles": [
+    {
+     "title": "Valeurs de l'IA : le Nasdaq chute de 2,6 % et la volatilité remonte",
+     "theme": "vol_derivatives",
+     "lead": "Les doutes sur la rentabilité des dépenses d'IA ont provoqué la pire séance du Nasdaq depuis juin, alors que la majorité des valeurs du S&P 500 progressait.",
+     "what": "Selon L'Agefi, le Nasdaq a plongé de 2,6 % jeudi, sa plus forte baisse en une séance depuis juin, après les annonces de Meta sur ses dépenses en IA. MarketWatch décrit un marché américain qui se scinde en deux : la tech recule alors que plus de 300 valeurs du S&P 500 ont monté. Nos données confirment le Nasdaq à 26 008,86 points le 22 octobre (-2,6 % sur la journée, -4,5 % sur un mois) tandis que le S&P 500, daté du 21 octobre, n'avait pas encore enregistré ce mouvement. Le VIX s'établit à 19,03, en hausse de 14,1 % sur la journée et de 33,9 % sur un mois.",
+     "why": "Un indice dominé par quelques valeurs technologiques peut baisser fortement sans que le marché large ne cède : c'est ce que l'on appelle une dispersion élevée. Le VIX mesure la volatilité implicite à un mois des options sur le S&P 500 ; il monte quand les investisseurs achètent de la protection, c'est-à-dire des puts. Ici la hausse du VIX reflète une demande de couverture, mais son niveau (autour de 19) reste modéré : le marché s'inquiète sans paniquer. Les analystes cités par MarketWatch parlent d'un marché qui change de leadership plutôt que d'un krach, mais cela reste une interprétation. Le sujet clé est la durabilité des investissements en IA : si les dépenses des grandes entreprises ralentissent ou si leur rentabilité déçoit, les valorisations des valeurs de croissance sont remises en cause.",
+     "impact": "Pour les produits structurés indexés sur le Nasdaq ou sur des paniers de valeurs technologiques, une volatilité implicite plus élevée renchérit les options que l'émetteur achète : à conditions égales, le coupon d'un autocall peut devenir plus généreux, car le client vend de la volatilité, mais la barrière de protection est aussi plus proche du cours. Les clients qui détiennent des autocalls sur ces sous-jacents voient leur probabilité de rappel baisser si le marché continue de reculer. Une forte dispersion entre actions favorise aussi les stratégies de corrélation : la corrélation implicite entre les valeurs d'un panier baisse quand elles divergent, ce qui change le prix des produits sur paniers (worst-of). Cela devrait aussi affecter les desks de dérivés actions, qui doivent réajuster leurs couvertures en delta et en vega.",
+     "interview": {
+      "question": "Le VIX monte de 14 % en une journée alors que le S&P 500 ne baisse pas : comment l'expliquez-vous, et quel effet sur le prix d'un autocall sur le Nasdaq ?",
+      "hints": [
+       "Le VIX reflète la demande d'options de protection, pas seulement le niveau de l'indice.",
+       "La baisse est concentrée sur la tech : forte dispersion, corrélation implicite plus faible.",
+       "Plus de volatilité : l'option de protection est plus chère, le coupon proposé peut monter, mais le risque de toucher la barrière aussi.",
+       "Il faut distinguer vega (sensibilité à la volatilité) et delta (sensibilité au sous-jacent) pour la couverture."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "VIX",
+       "definition": "Indice de volatilité implicite à 30 jours des options sur le S&P 500, souvent appelé indice de la peur."
+      },
+      {
+       "term": "Dispersion",
+       "definition": "Écart entre les performances des valeurs d'un même indice, qui fait baisser la corrélation entre elles."
+      },
+      {
+       "term": "Worst-of",
+       "definition": "Produit dont le paiement dépend de la moins bonne performance d'un panier de sous-jacents."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Les inquiétudes sur l'IA ramènent le taux souverain américain sous 5%",
+       "url": "https://www.agefi.fr/news/economie-marches/les-inquietudes-sur-lia-ramenent-le-taux-souverain-americain-sous-5",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "The U.S. stock market is fracturing into two camps, and it's leaving investors with a brutal case of whiplash",
+       "url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "The stock market is splitting in two. Is that signaling trouble ahead, or just a new set of winners?",
+       "url": "https://www.marketwatch.com/story/the-stock-market-is-splitting-in-two-is-that-signaling-trouble-ahead-or-just-a-new-set-of-winners-f51aaeab?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Treasuries : la plus forte baisse des rendements depuis 2023, et le pari des échéances courtes",
+     "theme": "credit_sovereign",
+     "lead": "Le rendement du 10 ans américain est repassé sous 5 % dans un mouvement de refuge, tandis que le FT s'interroge sur la stratégie du Trésor de raccourcir la maturité de la dette.",
+     "what": "Selon MarketWatch, les rendements des Treasuries ont enregistré leur plus forte baisse quotidienne depuis la crise bancaire de 2023, ce que le gérant PGIM interprète comme un « take-back trade » plutôt qu'une peur de récession. L'Agefi note que le taux souverain américain repasse sous 5 %. Dans nos données, le 10 ans était à 5,13 % le 21 octobre et le 2 ans à 4,81 %, donc avant ce mouvement ; la baisse du 22 octobre n'y figure pas. Par ailleurs, le FT met en garde contre l'orientation du secrétaire au Trésor, Scott Bessent, vers la dette à court terme.",
+     "why": "Quand les actions chutent, les investisseurs achètent des obligations d'État : le prix monte, donc le rendement baisse. C'est le réflexe de refuge, que PGIM nuance en parlant d'un rééquilibrage plutôt que d'une panique. Quant à la maturité de la dette, financer l'État par des titres courts (bills) coûte souvent moins cher à court terme, mais cela oblige à refinancer plus souvent : si les taux ou l'inflation remontent, la charge d'intérêts augmente vite. Le FT estime que ce risque grandit si l'inflation et la dette montent en même temps que l'optimisme sur l'IA retombe. C'est un avis éditorial, pas un fait établi. Il faut aussi se rappeler que nos séries américaines ont un jour de retard et ne reflètent pas encore la séance.",
+     "impact": "Une baisse des rendements fait monter les prix des obligations existantes et réduit le taux d'actualisation utilisé pour les flux futurs. Pour les produits structurés à capital protégé, le coût de la composante zéro-coupon dépend du taux : quand les taux baissent, il faut mettre plus d'argent dans l'obligation pour garantir le capital à l'échéance, et il reste moins de budget pour l'option : la participation à la hausse proposée au client tend donc à diminuer. Sur la courbe, un mouvement de refuge qui touche d'abord le 10 ans peut modifier la pente 2 ans-10 ans, ce qui joue sur la valorisation des produits à coupons indexés sur des taux de swap (CMS). Les banques détentrices de Treasuries voient leurs pertes latentes diminuer.",
+     "interview": {
+      "question": "Les rendements du 10 ans américain chutent fortement : quel effet sur le prix d'une note à capital protégé de 5 ans ?",
+      "hints": [
+       "Un taux plus bas augmente le prix du zéro-coupon qui garantit le capital.",
+       "Il reste moins de budget pour acheter l'option, donc la participation ou le coupon baisse.",
+       "L'effet est partiellement compensé si la volatilité implicite monte (option plus chère, mais plus de budget nécessaire).",
+       "Distinguer risque de taux, risque de crédit de l'émetteur et risque de volatilité."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Bill",
+       "definition": "Titre d'État à court terme (moins d'un an), émis à escompte."
+      },
+      {
+       "term": "Zéro-coupon",
+       "definition": "Obligation sans coupon intermédiaire, remboursée à l'échéance, utilisée pour garantir le capital d'un produit protégé."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here's what's going on.",
+       "url": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Beware Bessent's tilt towards short-term debt",
+       "url": "https://www.ft.com/content/bf959a1a-1cd8-41e2-8767-03aa1ac3ed48?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Les inquiétudes sur l'IA ramènent le taux souverain américain sous 5%",
+       "url": "https://www.agefi.fr/news/economie-marches/les-inquietudes-sur-lia-ramenent-le-taux-souverain-americain-sous-5",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "France : qui est le prêteur en dernier ressort si la dette se tend ?",
+     "theme": "central_banks",
+     "lead": "Avec un rendement à 10 ans au-dessus de 5 %, le rôle de la BCE comme filet de sécurité de la dette française est au cœur du débat.",
+     "what": "Le Monde rappelle que les rendements français ont dépassé 5 % pour la première fois depuis 2002 et que la principale digue serait la BCE, une intervention du FMI étant presque certainement exclue. Une tribune d'un économiste affirme que la politique monétaire de la BCE a contribué à faire monter la dette publique. Nos données donnent le TEC 10 à 5,048 % le 23 octobre (-7,8 points de base sur la journée, +25,4 sur la semaine, +57,1 sur un mois), contre 3,39 % pour le Bund : l'écart est d'environ 166 points de base. Le résultat de la revue de Moody's, attendu après la clôture américaine vendredi, n'est pas encore dans nos données.",
+     "why": "Dans la zone euro, un État ne peut pas imprimer sa propre monnaie : un pays qui perd la confiance des investisseurs risque une spirale de taux. La BCE dispose d'outils pour limiter cette fragmentation, notamment le programme d'achats de titres de la zone euro pour contrer les écarts de taux jugés injustifiés. Ces achats posent cependant un dilemme, car une banque centrale qui achète de la dette tout en luttant contre l'inflation envoie un signal contradictoire. Le contexte est tendu : la BCE se réunit les 28-29 octobre, avec un taux de dépôt à 2,5 %, et le FT voit une hausse de taux possible en 2026. Qu'elle intervienne ou non reste une hypothèse : rien dans nos sources n'indique qu'une intervention soit décidée.",
+     "impact": "Un écart France-Allemagne élevé renchérit le financement de l'État mais aussi celui des banques et des entreprises françaises, dont les spreads de crédit suivent en partie ceux de la dette souveraine. Pour les produits structurés émis par des banques françaises, un spread émetteur plus large réduit le prix de la composante obligataire, ce qui peut permettre d'offrir un coupon plus élevé, mais le client prend davantage de risque de crédit. Si la BCE devait annoncer un soutien, cela devrait comprimer les spreads et faire baisser le coût de protection (CDS) sur la France. À l'inverse, une hausse de taux de la BCE en pleine tension souveraine élargirait probablement les écarts.",
+     "interview": {
+      "question": "Le 10 ans français est à plus de 5 % : comment mesurez-vous la prime de risque, et que peut faire la BCE ?",
+      "hints": [
+       "Calculer le spread OAT-Bund (ici environ 166 points de base) et le suivre dans le temps.",
+       "La BCE peut acheter des titres pour limiter la fragmentation, mais cela entre en tension avec la lutte contre l'inflation.",
+       "Lier spread souverain, coût de financement des banques et spread émetteur des produits structurés.",
+       "Mentionner le CDS souverain comme mesure alternative du risque de crédit."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Spread OAT-Bund",
+       "definition": "Écart de rendement entre l'obligation française à 10 ans et son équivalent allemand, mesure de la prime de risque France."
+      },
+      {
+       "term": "Fragmentation",
+       "definition": "Divergence des conditions de financement entre pays de la zone euro qui perturbe la transmission de la politique monétaire."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Qui viendra sauver la France en cas de crise de la dette ?",
+       "url": "https://www.lemonde.fr/economie/article/2026/10/23/qui-viendra-sauver-la-france-en-cas-de-crise-de-la-dette_6798902_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "« La politique monétaire de la BCE a fabriqué de la dette publique, elle peut aussi en effacer »",
+       "url": "https://www.lemonde.fr/idees/article/2026/10/22/la-politique-monetaire-de-la-bce-a-fabrique-de-la-dette-publique-elle-peut-aussi-en-effacer_6798617_3232.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "France is getting its credit rating reviewed. The French debt turmoil has helped turn U.S. Treasury yields around. What comes next?",
+       "url": "https://www.marketwatch.com/story/france-is-getting-its-credit-rating-reviewed-by-moodys-what-to-expect-as-french-debt-turmoil-spills-overseas-e39de111?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "ECB on course for another rate rise in 2026",
+       "url": "https://www.ft.com/content/93852564-cae6-41f6-aa79-8db53e2b7774",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "L'or passe sous 4 000 $ malgré la ruée vers les Treasuries, et le pétrole monte à 114 $",
+     "theme": "fx_commodities",
+     "lead": "L'or, valeur refuge traditionnelle, a nettement baissé cette semaine alors que les investisseurs se sont tournés vers les bons du Trésor américain ; le pétrole atteint 114 $.",
+     "what": "Le FT rapporte que l'or est passé sous 4 000 $ l'once, après une chute cette semaine, au moment même où les investisseurs achètent des Treasuries. Le même journal indique que le pétrole a atteint 114 $, un plus haut depuis mai, et que les actions mondiales ont été touchées par les craintes sur l'IA. L'Agefi précise que la Chine reconstitue ses stocks de brut, au plus bas selon Kpler, avant une éventuelle escalade du conflit au Moyen-Orient. Dans nos données, le Brent valait 115,22 $ le 20 octobre (-8,4 % sur une semaine) ; l'or n'y figure qu'en moyenne mensuelle de septembre (4 319 $), donc pas comparable au cours du jour.",
+     "why": "L'or ne protège pas toujours : il dépend surtout des taux réels et du dollar. Quand les liquidités se raréfient, certains investisseurs vendent leurs positions gagnantes, y compris l'or, pour couvrir des pertes ailleurs ; c'est une explication possible, non confirmée par les sources. Le pétrole obéit à une autre logique, liée à l'offre et aux risques géopolitiques : les achats chinois cités par L'Agefi anticipent une éventuelle escalade. Un pétrole cher alimente l'inflation, donc complique la tâche des banques centrales à la veille des réunions de la Fed (27-28 octobre) et de la BCE (28-29). Cette combinaison d'un or en baisse et d'un pétrole en hausse montre que les marchés réagissent à plusieurs chocs à la fois.",
+     "impact": "Pour les produits structurés sur matières premières, la volatilité de l'or et du pétrole influence le coût des options sous-jacentes et donc les coupons proposés. Un pétrole élevé nourrit les anticipations d'inflation et peut maintenir les taux plus hauts, ce qui soutient les produits à capital protégé (le zéro-coupon est moins cher) mais pénalise les obligations à longue maturité. Sur le change, un pétrole cher pèse généralement sur les économies importatrices comme la zone euro : l'EUR/USD à 1,1193 (-0,53 % sur la semaine) pourrait rester sous pression. Pour les banques, la volatilité accrue des matières premières augmente la demande de couverture, ce qui est favorable aux activités de dérivés.",
+     "interview": {
+      "question": "L'or baisse alors que les Treasuries montent : l'or est-il toujours une valeur refuge ?",
+      "hints": [
+       "L'or dépend des taux réels et du dollar, pas seulement du risque.",
+       "Les ventes forcées pour couvrir des pertes peuvent faire baisser même les actifs refuges.",
+       "Distinguer l'or (réserve de valeur) du pétrole (choc d'offre et inflation).",
+       "Relier le pétrole aux anticipations d'inflation et aux décisions de banques centrales."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Taux réel",
+       "definition": "Taux d'intérêt nominal corrigé de l'inflation attendue, principal déterminant du coût d'opportunité de détenir de l'or."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Gold drops below $4,000 as 'haven' asset joins market sell-off",
+       "url": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Oil hits $114 for first time since May as global stocks knocked by AI fears",
+       "url": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "La Chine reconstitue activement ses stocks de pétrole brut",
+       "url": "https://www.agefi.fr/news/economie-marches/la-chine-reconstitue-activement-ses-stocks-de-petrole-brut",
+       "source": "L'Agefi"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-23",
    "generated_at": "2026-10-23T06:50:00+00:00",
    "brief": [
@@ -193,5 +387,5 @@
    ]
   }
  ],
- "updated_at": "2026-10-23T06:50:00+00:00"
+ "updated_at": "2026-10-24T05:50:00+00:00"
 }
