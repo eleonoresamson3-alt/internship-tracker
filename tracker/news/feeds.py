@@ -3,22 +3,16 @@
 from __future__ import annotations
 
 import hashlib
-import html
-import re
 from datetime import datetime, timezone
 
 import feedparser
 
 from ..http import PoliteClient
+from ..sanitize import clean_text, safe_url
 
 
 class FeedError(Exception):
     """A feed answered but could not be used (not a feed, empty...)."""
-
-
-def _clean(text: str, limit: int = 400) -> str:
-    text = re.sub(r"<[^>]+>", " ", html.unescape(text or ""))
-    return " ".join(text.split())[:limit]
 
 
 def _published(entry) -> str:
@@ -37,8 +31,8 @@ def fetch(source: dict, http: PoliteClient) -> list[dict]:
         raise FeedError("no entries (not a feed, or the feed is empty)" + (f": {parsed.bozo_exception}" if parsed.bozo else ""))
     items = []
     for entry in parsed.entries:
-        link = entry.get("link", "")
-        title = _clean(entry.get("title", ""), 300)
+        link = safe_url(entry.get("link", ""))   # javascript:, data: and relative links are dropped
+        title = clean_text(entry.get("title", ""), 300)
         if not title or not link:
             continue
         items.append({
@@ -46,7 +40,7 @@ def fetch(source: dict, http: PoliteClient) -> list[dict]:
             "title": title,
             "link": link,
             "published": _published(entry),
-            "summary": _clean(entry.get("summary", "") or entry.get("description", "")),
+            "summary": clean_text(entry.get("summary", "") or entry.get("description", ""), 400),
             "source": source["name"],
         })
     return items

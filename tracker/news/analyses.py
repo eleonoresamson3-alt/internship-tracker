@@ -16,6 +16,7 @@ import sys
 from datetime import date, timedelta
 
 from .. import config, store
+from ..sanitize import safe_url
 from .classify import THEMES
 
 KEEP_DAYS = 30
@@ -85,7 +86,8 @@ def validate(data: dict) -> list[str]:
                 problems.append(f"{w}.sources: at least one source expected")
                 continue
             for s, src in enumerate(sources):
-                if not isinstance(src, dict) or not str(src.get("url", "")).startswith("https://"):
+                if not isinstance(src, dict) or not str(src.get("url", "")).startswith("https://") \
+                        or not safe_url(src.get("url")):
                     problems.append(f"{w}.sources[{s}]: object with an https url expected")
                 else:
                     _text(src.get("title"), f"{w}.sources[{s}].title", problems)

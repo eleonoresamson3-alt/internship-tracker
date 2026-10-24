@@ -14,11 +14,13 @@ lives only in the browser); the site hides those.
 from __future__ import annotations
 
 import os
+import re
 import sys
 from datetime import date, timedelta
 from pathlib import Path
 
 from . import config, store
+from .sanitize import safe_url
 
 DEADLINE_DAYS = 7          # deadlines within this many days are listed
 DEADLINE_MIN_SCORE = 40
@@ -32,11 +34,20 @@ def _fr(d: str) -> str:
     return f"{day}/{m}/{y}"
 
 
+def md_escape(text) -> str:
+    """Scraped text as inert Markdown: no links, images, HTML, mentions or formatting."""
+    text = " ".join(str(text or "").split())
+    text = re.sub(r"([\\`*_{}\[\]()#+\-.!|<>~])", r"\\\1", text)
+    return text.replace("@", "@\u200b")    # "@name" must not notify anyone
+
+
 def _line(job: dict, with_deadline: bool) -> str:
     where = job.get("location") or ", ".join(job.get("country_names", []))
-    text = f"- **{job['score']}** · [{job['title']}]({job['url']}) — {job['employer']}"
+    url = safe_url(job.get("url"))
+    title = md_escape(job["title"])
+    text = f"- **{job['score']}** · " + (f"[{title}](<{url}>)" if url else title) + f" — {md_escape(job['employer'])}"
     if where:
-        text += f" ({where[:40]})"
+        text += f" ({md_escape(where[:40])})"
     if with_deadline:
         kind = "annoncée" if job.get("deadline_source") == "annonce" else "estimée"
         text += f" · clôture {kind} le **{_fr(job['deadline'])}**"

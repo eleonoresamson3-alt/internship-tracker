@@ -18,10 +18,11 @@ from urllib.parse import urlsplit
 
 import yaml
 
-from . import config, deadlines, filters, geo, scoring, store, timing
+from . import config, deadlines, filters, geo, gha, scoring, store, timing
 from .adapters import get_adapter
 from .http import PoliteClient
 from .models import RawJob, Target
+from .sanitize import clean_text, safe_url
 
 log = logging.getLogger("tracker")
 
@@ -39,11 +40,12 @@ def job_id(target: Target, raw: RawJob) -> str:
 
 def to_record(target: Target, raw: RawJob) -> dict | None:
     """Filter and score one raw offer. Returns None when the offer is not kept."""
-    title = " ".join((raw.title or "").split())
+    title = clean_text(raw.title, 300)
+    url = safe_url(raw.url)
     employment_type = raw.employment_type
     if target.params.get("internship_in_description") and filters.description_says_internship(raw.description):
         employment_type = f"{employment_type} Internship"
-    if not title or not raw.url or not filters.keep(title, employment_type):
+    if not title or not url or not filters.keep(title, employment_type):
         return None
     if target.type == "corporate" and not filters.corporate_markets_role(title):
         return None
@@ -52,7 +54,7 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
     if not countries:
         # Many HTML job lists give no location: try the title ("... - London"),
         # then the offer URL ("/emploi/courbevoie/..."), then the employer default.
-        path = urlsplit(raw.url).path.replace("-", " ").replace("/", " ")
+        path = urlsplit(url).path.replace("-", " ").replace("/", " ")
         countries = geo.detect_countries(title) or geo.detect_countries(path)
     if not countries and target.params.get("default_country"):
         countries = [target.params["default_country"]]
@@ -78,7 +80,7 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         "employer_type": target.type,
         "platform": target.platform,
         "title": title,
-        "location": raw.location,
+        "location": clean_text(raw.location, 200),
         "countries": countries,
         "country_names": [geo.country_name(c) for c in countries],
         "region": s.region,
@@ -90,8 +92,8 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
         "start": when.start,
         "deadline": deadline.isoformat() if deadline else "",
         "deadline_source": deadline_source,
-        "url": raw.url,
-        "posted_at": raw.posted_at,
+        "url": url,
+        "posted_at": clean_text(raw.posted_at, 40),
     }
 
 
@@ -188,7 +190,7 @@ def main(argv=None) -> int:
         # Annotations are visible on the run page (and through the API) without opening the logs.
         lines = [summary] + [f"{s['employer']}: {s['fetched']} fetched, {s['kept']} kept" for s in stats]
         lines += [f"FAILED {e['employer']}: {e['error'][:200]}" for e in errors]
-        print("::notice title=Scrape summary::" + "%0A".join(l.replace("%", "%25") for l in lines))
+        gha.notice("Scrape summary", lines)
     return 0
 
 

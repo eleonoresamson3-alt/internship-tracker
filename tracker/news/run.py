@@ -14,7 +14,7 @@ from datetime import datetime, timedelta, timezone
 
 import yaml
 
-from .. import config, store
+from .. import config, gha, store
 from ..http import PoliteClient
 from . import calendar, classify, dedupe, feeds, market
 
@@ -131,7 +131,7 @@ def main(argv=None) -> int:
         lines = [summary] + [f"{s['source']}: {s['items']} fetched, {kept.get(s['source'], 0)} in history "
                              f"(published {s['oldest'] or '?'} → {s['newest'] or '?'})" for s in stats] + \
                 [f"FAILED {e['source']}: {e['error'][:200]}" for e in errors]
-        print("::notice title=News summary::" + "%0A".join(l.replace("%", "%25") for l in lines))
+        gha.notice("News summary", lines)
     return 0
 
 

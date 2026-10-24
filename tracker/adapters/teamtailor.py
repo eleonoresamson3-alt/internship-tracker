@@ -5,7 +5,8 @@ params:
 """
 
 from email.utils import parsedate_to_datetime
-from xml.etree import ElementTree
+
+from defusedxml import ElementTree   # remote XML: no entity expansion, no external entities
 
 from .base import RawJob, require
 

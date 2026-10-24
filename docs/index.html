@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Strict policy: scripts, styles and data from this site only; no inline script, no plugins, no external calls.
+       (frame-ancestors cannot be set from a meta tag; GitHub Pages does not allow custom headers.) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
   <title>Internship Tracker</title>
   <meta name="description" content="Suivi quotidien des offres de stage en finance de marché">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231f4fd1'/><path d='M7 22l6-7 5 4 7-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
@@ -31,6 +35,7 @@
       <button role="tab" class="tab" data-tab="mine" aria-selected="false">Mon suivi <span class="count" id="count-mine">0</span></button>
       <button role="tab" class="tab" data-tab="companies" aria-selected="false">Entreprises <span class="count" id="count-companies">0</span></button>
       <button role="tab" class="tab" data-tab="news" aria-selected="false">Actualité <span class="count" id="count-news">0</span></button>
+      <button role="tab" class="tab" data-tab="formations" aria-selected="false">Formations <span class="count" id="count-formations">0</span></button>
     </nav>
 
     <div class="pipeline" id="pipeline" hidden></div>
@@ -163,6 +168,42 @@
       </div>
     </section>
 
+    <section id="formations-view" hidden aria-label="Formations">
+      <div class="f-overview">
+        <section class="f-box" aria-labelledby="f-week-title">
+          <h2 class="section-title" id="f-week-title">Cette semaine</h2>
+          <p class="f-big"><span id="f-week-hours">0</span> h</p>
+          <p class="hint" id="f-week-detail"></p>
+        </section>
+        <section class="f-box" aria-labelledby="f-current-title">
+          <h2 class="section-title" id="f-current-title">En cours</h2>
+          <ul class="f-current" id="f-current"></ul>
+          <p class="hint" id="f-current-empty" hidden>Aucune formation en cours : choisis le statut « En cours » sur une formation.</p>
+        </section>
+        <section class="f-box wide" aria-labelledby="f-due-title">
+          <h2 class="section-title" id="f-due-title">Prochaines échéances</h2>
+          <ul class="f-due" id="f-due"></ul>
+          <p class="hint" id="f-due-empty" hidden>Aucune échéance à venir.</p>
+        </section>
+      </div>
+
+      <section class="filters" aria-label="Filtres formations">
+        <div class="filter-grid">
+          <label>Catégorie<select id="fo-cat"><option value="">Toutes</option></select></label>
+          <label>Priorité<select id="fo-prio"><option value="">Toutes</option><option value="1">1 – indispensable</option><option value="2">2 – importante</option><option value="3">3 – bonus</option></select></label>
+          <label>Statut<select id="fo-status"><option value="">Tous</option></select></label>
+        </div>
+        <div class="filter-actions">
+          <button type="button" id="fo-add">+ Ajouter une formation</button>
+          <button type="button" class="ghost" id="fo-export">Exporter mon suivi (JSON)</button>
+          <button type="button" class="ghost" id="fo-import-btn">Importer (JSON)</button>
+          <input type="file" id="fo-import" accept=".json,application/json" hidden>
+        </div>
+      </section>
+      <p class="result-line" id="fo-count"></p>
+      <div id="fo-list" class="list"></div>
+    </section>
+
     <p class="result-line" id="result-line"></p>
     <div id="list" class="list"></div>
     <p class="empty" id="empty" hidden></p>
@@ -171,7 +212,7 @@
   <footer class="wrap footer">
     Les statuts, dates et notes restent uniquement dans ce navigateur (localStorage).
     Pensez à exporter un CSV de temps en temps pour ne rien perdre.
-    · <a href="https://github.com/eleonoresamson3-alt/internship-tracker">Code source</a>
+    · <a href="https://github.com/eleonoresamson3-alt/internship-tracker" rel="noopener noreferrer">Code source</a>
   </footer>
 
   <dialog id="offer-dialog" aria-labelledby="offer-dialog-title">
@@ -203,6 +244,31 @@
       </div>
     </form>
   </dialog>
+  <dialog id="fo-dialog" aria-labelledby="fo-dialog-title">
+    <form method="dialog" id="fo-form">
+      <h2 id="fo-dialog-title">Ajouter une formation</h2>
+      <p class="hint">Elle reste uniquement dans ce navigateur, comme ton suivi. Pour l'ajouter pour de bon à la liste commune, ajoute-la aussi dans config/formations.yaml.</p>
+      <div class="form-grid">
+        <label class="wide">Nom *<input name="nom" required placeholder="Ex. Excel pour la finance"></label>
+        <label>Organisme<input name="organisme"></label>
+        <label>Catégorie<select name="categorie"></select></label>
+        <label>Priorité<select name="priorite"><option value="1">1 – indispensable</option><option value="2" selected>2 – importante</option><option value="3">3 – bonus</option></select></label>
+        <label>Durée estimée (h)<input name="heures" type="number" min="0" step="1"></label>
+        <label>Coût<input name="cout" placeholder="Gratuit, 200 €…"></label>
+        <label>Lien officiel<input name="lien" type="url" placeholder="https://…"></label>
+        <label>Échéance (inscription / examen)<input name="echeance" type="date"></label>
+        <label class="wide">Compétences visées (séparées par des virgules)<input name="competences"></label>
+        <label class="wide">Utilité pour les entretiens<textarea name="utilite" rows="2"></textarea></label>
+      </div>
+      <div class="dialog-actions">
+        <button type="button" class="ghost danger" id="fo-delete" hidden>Supprimer</button>
+        <span class="spacer"></span>
+        <button type="button" class="ghost" id="fo-cancel">Annuler</button>
+        <button type="submit">Enregistrer</button>
+      </div>
+    </form>
+  </dialog>
+
   <datalist id="employer-list"></datalist>
   <datalist id="country-list"></datalist>
 
@@ -211,7 +277,7 @@
       <div class="card-main">
         <div class="score" title="Score de pertinence"></div>
         <div class="card-body">
-          <h2 class="title"><a target="_blank" rel="noopener"></a></h2>
+          <h2 class="title"><a target="_blank" rel="noopener noreferrer"></a></h2>
           <p class="meta"><span class="employer"></span><span class="type"></span><span class="location"></span></p>
           <p class="tags"></p>
         </div>
@@ -232,7 +298,7 @@
       <div class="company-main">
         <div class="score" title="Priorité"></div>
         <div class="company-body">
-          <h2 class="title"><a target="_blank" rel="noopener"></a></h2>
+          <h2 class="title"><a target="_blank" rel="noopener noreferrer"></a></h2>
           <p class="meta"><span class="type"></span><span class="coverage"></span></p>
         </div>
         <div class="windows"></div>
@@ -252,7 +318,7 @@
       <div class="card-main">
         <div class="score" title="Importance"></div>
         <div class="card-body">
-          <h3 class="title"><a target="_blank" rel="noopener"></a></h3>
+          <h3 class="title"><a target="_blank" rel="noopener noreferrer"></a></h3>
           <p class="meta"><span class="employer source"></span><span class="time"></span></p>
           <p class="summary"></p>
           <p class="tags"></p>
@@ -266,5 +332,6 @@
   </template>
 
   <script src="app.js"></script>
+  <script src="formations.js"></script>
 </body>
 </html>

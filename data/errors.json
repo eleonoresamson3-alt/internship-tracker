@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-23T13:21:44+00:00",
+ "generated_at": "2026-10-23T17:45:53+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 8,
-   "kept": 4
+   "fetched": 7,
+   "kept": 3
   },
   {
    "employer": "JPMorgan",
-   "fetched": 666,
+   "fetched": 670,
    "kept": 43
   },
   {
@@ -51,7 +51,7 @@
   },
   {
    "employer": "MUFG",
-   "fetched": 25,
+   "fetched": 24,
    "kept": 9
   },
   {
@@ -66,7 +66,7 @@
   },
   {
    "employer": "Jefferies",
-   "fetched": 41,
+   "fetched": 42,
    "kept": 15
   },
   {
@@ -96,8 +96,8 @@
   },
   {
    "employer": "TD Securities",
-   "fetched": 20,
-   "kept": 5
+   "fetched": 23,
+   "kept": 7
   },
   {
    "employer": "Scotiabank",
@@ -126,17 +126,17 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 93,
-   "kept": 9
+   "fetched": 107,
+   "kept": 10
   },
   {
    "employer": "BlackRock",
-   "fetched": 14,
-   "kept": 13
+   "fetched": 13,
+   "kept": 12
   },
   {
    "employer": "Schroders",
-   "fetched": 75,
+   "fetched": 76,
    "kept": 11
   },
   {
@@ -186,37 +186,37 @@
   },
   {
    "employer": "Qube Research & Technologies",
-   "fetched": 194,
+   "fetched": 193,
    "kept": 4
   },
   {
    "employer": "Jane Street",
-   "fetched": 220,
+   "fetched": 221,
    "kept": 8
   },
   {
    "employer": "Optiver",
-   "fetched": 169,
-   "kept": 14
+   "fetched": 162,
+   "kept": 9
   },
   {
    "employer": "IMC",
-   "fetched": 168,
+   "fetched": 170,
    "kept": 11
   },
   {
    "employer": "Flow Traders",
-   "fetched": 47,
+   "fetched": 46,
    "kept": 3
   },
   {
    "employer": "Hudson River Trading",
-   "fetched": 88,
+   "fetched": 87,
    "kept": 3
   },
   {
    "employer": "DRW",
-   "fetched": 163,
+   "fetched": 164,
    "kept": 6
   },
   {
@@ -246,7 +246,7 @@
   },
   {
    "employer": "Mako",
-   "fetched": 3,
+   "fetched": 2,
    "kept": 1
   },
   {
@@ -266,7 +266,7 @@
   },
   {
    "employer": "Akuna Capital",
-   "fetched": 39,
+   "fetched": 38,
    "kept": 2
   },
   {
@@ -316,7 +316,7 @@
   },
   {
    "employer": "Euronext",
-   "fetched": 16,
+   "fetched": 15,
    "kept": 2
   },
   {
@@ -346,7 +346,7 @@
   },
   {
    "employer": "S&P Global",
-   "fetched": 16,
+   "fetched": 14,
    "kept": 9
   },
   {
@@ -356,12 +356,12 @@
   },
   {
    "employer": "SCOR",
-   "fetched": 152,
+   "fetched": 153,
    "kept": 12
   },
   {
    "employer": "Zurich",
-   "fetched": 300,
+   "fetched": 299,
    "kept": 6
   },
   {
@@ -386,12 +386,12 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 11,
+   "fetched": 9,
    "kept": 3
   },
   {
    "employer": "EY",
-   "fetched": 756,
+   "fetched": 758,
    "kept": 4
   },
   {
@@ -401,7 +401,7 @@
   },
   {
    "employer": "PwC",
-   "fetched": 207,
+   "fetched": 209,
    "kept": 54
   },
   {
@@ -411,7 +411,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 28,
+   "fetched": 27,
    "kept": 3
   },
   {
@@ -446,8 +446,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 18,
-   "kept": 8
+   "fetched": 19,
+   "kept": 9
   },
   {
    "employer": "BBVA",
@@ -471,7 +471,7 @@
   },
   {
    "employer": "Voleon",
-   "fetched": 59,
+   "fetched": 60,
    "kept": 1
   },
   {
@@ -481,12 +481,12 @@
   },
   {
    "employer": "Engineers Gate",
-   "fetched": 9,
-   "kept": 1
+   "fetched": 10,
+   "kept": 2
   },
   {
    "employer": "Belvedere Trading",
-   "fetched": 18,
+   "fetched": 17,
    "kept": 2
   },
   {
@@ -511,7 +511,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 723,
+   "fetched": 722,
    "kept": 0
   },
   {
@@ -526,7 +526,7 @@
   },
   {
    "employer": "Nasdaq (Calypso / Adenza)",
-   "fetched": 3,
+   "fetched": 4,
    "kept": 0
   },
   {
@@ -636,7 +636,7 @@
   },
   {
    "employer": "LVMH",
-   "fetched": 32,
+   "fetched": 33,
    "kept": 0
   },
   {
@@ -651,22 +651,22 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 73,
+   "fetched": 71,
    "kept": 0
   },
   {
    "employer": "Thales",
-   "fetched": 108,
+   "fetched": 109,
    "kept": 0
   },
   {
    "employer": "Michelin",
-   "fetched": 46,
+   "fetched": 51,
    "kept": 0
   },
   {
    "employer": "Sanofi",
-   "fetched": 53,
+   "fetched": 52,
    "kept": 0
   },
   {
@@ -706,7 +706,7 @@
   },
   {
    "employer": "Philips",
-   "fetched": 52,
+   "fetched": 53,
    "kept": 0
   },
   {

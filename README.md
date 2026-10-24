@@ -29,6 +29,8 @@ on GitHub Pages.
 - Last update time and the list of employers that failed on the last run
 - **Actualité** tab: a daily financial news watch for interview preparation (see
   [News watch](#news-watch-actualité-tab))
+- **Formations** tab: trainings and certifications to prepare for interviews, with personal
+  progress tracking (see [Trainings](#trainings-formations-tab))
 
 ## How it works
 
@@ -177,15 +179,15 @@ Paid content (FT, L'Agefi) is only linked: log in on the publisher's site with y
 
 Free official sources, no API key: ECB Data Portal (EUR/USD reference rate, €STR, deposit
 facility rate), Deutsche Bundesbank (German 2-year and 10-year yields from the yield curve), FRED
-of the St. Louis Fed (S&P 500, VIX, Brent, US 2-year and 10-year Treasury yields). Each series is
+of the St. Louis Fed (S&P 500, Nasdaq Composite, Dow Jones, Nikkei 225, VIX, Brent, US 2-year and 10-year Treasury yields). Each series is
 configured in `news_sources.yaml`.
 
 | Series | Status | Why |
 |---|---|---|
-| CAC 40 | *indisponible* | Euronext does not publish free reusable data |
-| Euro Stoxx 50, VSTOXX | *indisponible* | STOXX indices are licensed |
-| Gold | *indisponible* | the LBMA price is licensed and FRED no longer distributes it |
-| France 2-year and 10-year | *indisponible* until the Webstat key is set | the Banque de France Webstat API is free but needs a personal API key (see below) |
+| CAC 40 | *indisponible* | Euronext data is licensed; the Banque de France Webstat series (`ECOFI.SPI.FR.FPE_IX._Z.D`) stopped in July 2024 |
+| Euro Stoxx 50, VSTOXX | *indisponible* | STOXX indices are licensed; the ECB no longer publishes them |
+| Gold | monthly average only | the daily LBMA price is licensed and FRED no longer distributes it; the World Bank *Pink Sheet* (CC BY 4.0) publishes a free monthly average, shown with its month and its 1-month change |
+| France 2-year and 10-year | from Banque de France Webstat (TEC 2, TEC 10) when the `WEBSTAT_API_KEY` secret is set | the Webstat API is free but needs a personal API key (see below) |
 
 FRED and some official series are published with a delay of one business day; each tile shows
 the date of its last value.
@@ -195,7 +197,7 @@ the date of its last value.
 settings, then add it as a repository secret: *Settings → Secrets and variables → Actions → New
 repository secret*, name `WEBSTAT_API_KEY`. Never paste the key in a file, an issue or a chat.
 Without the secret the two tiles show *indisponible*. Series keys are set in `news_sources.yaml`
-(`FM.D.FR.EUR.FR2.BB.FR2YT_RR.YLD`, `...FR10YT_RR.YLD`); if Webstat answers with no data, the
+(daily constant-maturity rates *TEC 2* and *TEC 10*: `FM.D.FR.EUR.FR2.BB.FRMOYTEC2.HSTA`, `...FRMOYTEC10.HSTA`); if Webstat answers with no data, the
 error shown on the site lists similar keys.
 
 Without any account, the ECB and FRED only publish a *monthly* French 10-year yield, which is why
@@ -251,18 +253,78 @@ site labels the text as generated and to be checked against the articles.
   by a safety classifier is retried on a fallback model instead of failing.
 - If the call fails, nothing is written and the site simply shows no summary.
 
+## Trainings (*Formations* tab)
+
+A list of trainings and certifications useful for pricing, structuring, financial modelling and
+risk interviews, with personal progress tracking.
+
+**The list: [`config/formations.yaml`](config/formations.yaml).** Edit it by hand, for example
+on GitHub with the pencil icon. A push that changes it rebuilds and redeploys the site within a
+few minutes, without scraping again. Each entry has:
+
+- `id`, `nom`, `organisme`;
+- `categorie`: `certification_reglementaire`, `marches`, `code`, `maths_financieres` or `risque`;
+- `priorite`: 1 to 3;
+- `heures`, `cout`, `lien` (official page);
+- `competences`, and `utilite` (why it helps in interviews);
+- `echeance` and `echeance_libelle`: registration or exam deadline, if any;
+- `verifie_le`: date the information was last checked;
+- `a_verifier`: information that could not be found on the official site;
+- `cv`: optional custom CV sentence.
+
+Facts were taken from the official sites only. A field that could not be checked there is left
+empty, with the reason in `a_verifier`, and never estimated. Those reasons include price not
+published, a page that blocks automated reading, or a calendar loaded dynamically.
+`python -m tracker.formations --check` validates the file (also run by the unit tests), and the
+build step turns it into `formations.json` for the site.
+
+**On the site.**
+
+- **Overview:**
+  - hours spent this week (since Monday) and in total;
+  - trainings in progress, with a progress bar;
+  - upcoming deadlines (official dates and personal target dates) sorted by date, in red when
+    they are less than 30 days away.
+- **Filters** by category, priority and status.
+- **Each card:**
+  - the facts from the YAML file, and the information not found;
+  - the personal tracking: status (*à faire*, *en cours*, *terminé*, *certifié*), progress in %,
+    hours (logged day by day, which gives the weekly total), start, target and completion dates,
+    and notes.
+- **A CV sentence**, ready to copy, for every training marked as finished or certified.
+- **Trainings added from the site:** they are stored in the browser. Add them to the YAML file
+  as well to keep them for good.
+- **Storage:** tracking is stored only in the browser's `localStorage` (key
+  `internship-tracker.v1.formations`), never in the repository. *Exporter mon suivi (JSON)* and
+  *Importer (JSON)* move it between browsers or devices; an import merges with what is already
+  there.
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for the protections in place and for how to report a problem. In
+short:
+
+- everything scraped is cleaned to plain text and safe `http(s)` links at collection time, and
+  displayed with `textContent` only, under a strict Content-Security-Policy;
+- workflows run with minimal permissions and SHA-pinned actions;
+- dependencies are pinned with hashes, audited by pip-audit, CodeQL and Dependabot;
+- personal tracking never leaves the browser.
+
 ## Repository layout
 
 | Path | Content |
 |---|---|
 | `targets.yaml` | Employers: platform, careers URL, adapter parameters |
 | `news_sources.yaml` | News feeds, market series and the manual central bank calendar |
-| `tracker/` | Scraper (Python 3.11); `tracker/news/` is the news watch |
-| `tests/` | Unit tests for the filter, the score, country detection, the history merge, news classification, deduplication and calendar parsing |
+| `config/formations.yaml` | Trainings and certifications of the *Formations* tab |
+| `requirements.in` / `requirements.txt` | Direct dependencies / full pinned list with hashes (generated, see the header of `requirements.in`) |
+| `SECURITY.md` | Security measures, manual repository settings, vulnerability reporting |
+| `tracker/` | Scraper (Python 3.11); `tracker/news/` is the news watch, `tracker/sanitize.py` cleans external content |
+| `tests/` | Unit tests for the filter, the score, country detection, the history merge, news classification, deduplication, calendar parsing and the trainings file |
 | `data/` | `jobs.json` (history), `new_today.json`, `errors.json`, and the news files (`news.json`, `market.json`, `calendar.json`, `news_errors.json`, `analyses.json`, optional `news_summary.json`), updated by the workflow |
 | `docs/` | Static site (HTML / CSS / vanilla JS); `docs/employers.json` is generated by `tools/build_targets.py` |
-| `tools/` | `discover.py` (detects and tests each employer's platform), `employers.yaml` (its input), `build_targets.py` + `overrides.yaml` (generate `targets.yaml`) |
-| `.github/workflows/` | `daily.yml` (scrape + deploy at 05:00 UTC; `site_only` input to only redeploy), `analyses.yml` (publishes the morning analyses), `discover.yml` |
+| `tools/` | `discover.py` (detects and tests each employer's platform), `employers.yaml` (its input), `build_targets.py` + `overrides.yaml` (generate `targets.yaml`), `ci/run-paused.sh` (runs a step with workflow commands paused) |
+| `.github/workflows/` | `daily.yml` (scrape + deploy at 05:00 UTC; `site_only` input, or a change to `config/formations.yaml`, only redeploys), `analyses.yml` (publishes the morning analyses), `discover.yml` |
 | `ANALYSES.md` | Instructions followed by the scheduled Claude Code session that writes the morning analyses |
 
 ## Run locally

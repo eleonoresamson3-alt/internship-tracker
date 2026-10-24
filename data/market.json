@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:30:36+00:00",
+ "generated_at": "2026-10-23T17:54:59+00:00",
  "series": [
   {
    "key": "cac40",
@@ -7,7 +7,7 @@
    "group": "Actions",
    "unit": "pts",
    "provider": "unavailable",
-   "note": "Euronext ne publie pas de données gratuites réutilisables",
+   "note": "pas de source officielle gratuite : Euronext est sous licence, la série Banque de France s'arrête en juillet 2024",
    "status": "indisponible"
   },
   {
@@ -34,17 +34,59 @@
    "status": "ok"
   },
   {
+   "key": "nasdaq",
+   "label": "Nasdaq Composite",
+   "group": "Actions",
+   "unit": "pts",
+   "provider": "fred",
+   "note": "",
+   "value": 26008.86,
+   "date": "2026-10-22",
+   "d1": -2.6,
+   "w1": -2.64,
+   "m1": -4.53,
+   "status": "ok"
+  },
+  {
+   "key": "dowjones",
+   "label": "Dow Jones",
+   "group": "Actions",
+   "unit": "pts",
+   "provider": "fred",
+   "note": "",
+   "value": 52867.98,
+   "date": "2026-10-22",
+   "d1": 0.02,
+   "w1": 1.32,
+   "m1": 1.94,
+   "status": "ok"
+  },
+  {
+   "key": "nikkei",
+   "label": "Nikkei 225",
+   "group": "Actions",
+   "unit": "pts",
+   "provider": "fred",
+   "note": "",
+   "value": 62693.16,
+   "date": "2026-10-23",
+   "d1": -0.34,
+   "w1": -4.03,
+   "m1": -3.58,
+   "status": "ok"
+  },
+  {
    "key": "vix",
    "label": "VIX",
    "group": "Volatilité",
    "unit": "pts",
    "provider": "fred",
    "note": "",
-   "value": 16.68,
-   "date": "2026-10-21",
-   "d1": -3.64,
-   "w1": -1.13,
-   "m1": 12.17,
+   "value": 19.03,
+   "date": "2026-10-22",
+   "d1": 14.09,
+   "w1": 15.61,
+   "m1": 33.92,
    "status": "ok"
   },
   {
@@ -63,11 +105,11 @@
    "unit": "",
    "provider": "ecb",
    "note": "",
-   "value": 1.1205,
-   "date": "2026-10-22",
-   "d1": -0.26,
-   "w1": -0.03,
-   "m1": -2.25,
+   "value": 1.1193,
+   "date": "2026-10-23",
+   "d1": -0.11,
+   "w1": -0.53,
+   "m1": -1.91,
    "status": "ok"
   },
   {
@@ -86,12 +128,18 @@
   },
   {
    "key": "gold",
-   "label": "Or",
+   "label": "Or ($/once, moyenne mensuelle)",
    "group": "Change et matières premières",
    "unit": "$",
-   "provider": "unavailable",
-   "note": "prix LBMA sous licence ; FRED ne le diffuse plus",
-   "status": "indisponible"
+   "provider": "worldbank",
+   "note": "moyenne mensuelle publiée par la Banque mondiale (Pink Sheet) ; pas de cours quotidien gratuit",
+   "value": 4319.0,
+   "date": "2026-09-01",
+   "period": "2026-09",
+   "d1": null,
+   "w1": null,
+   "m1": -2.09,
+   "status": "ok"
   },
   {
    "key": "estr",
@@ -151,21 +199,31 @@
   },
   {
    "key": "fr2y",
-   "label": "France 2 ans",
+   "label": "France 2 ans (TEC 2)",
    "group": "Taux",
    "unit": "%",
    "provider": "webstat",
-   "note": "clé API Webstat (gratuite) non configurée : secret WEBSTAT_API_KEY",
-   "status": "indisponible"
+   "note": "",
+   "value": 3.798,
+   "date": "2026-10-23",
+   "d1": -9.2,
+   "w1": 23.0,
+   "m1": 30.2,
+   "status": "ok"
   },
   {
    "key": "fr10y",
-   "label": "France 10 ans",
+   "label": "France 10 ans (TEC 10)",
    "group": "Taux",
    "unit": "%",
    "provider": "webstat",
-   "note": "clé API Webstat (gratuite) non configurée : secret WEBSTAT_API_KEY",
-   "status": "indisponible"
+   "note": "",
+   "value": 5.048,
+   "date": "2026-10-23",
+   "d1": -7.8,
+   "w1": 25.4,
+   "m1": 57.1,
+   "status": "ok"
   },
   {
    "key": "us2y",
