@@ -28,6 +28,16 @@ MONTHS = {
 _MONTH_OF = {name: num for num, names in MONTHS.items() for name in names}
 _MONTH_ALT = "|".join(sorted(_MONTH_OF, key=len, reverse=True))
 
+# "January - June 2027", "Jan - Jun '27", "Jan/Feb 2027", "janvier a juin 2027": the
+# internship STARTS with the first month of the range (it used to be read as June).
+_RANGE = re.compile(
+    rf"\b(?P<m1>{_MONTH_ALT})\.?\s*(?:-|/|to|a|au|bis|al|till|until|through)\s*(?P<m2>{_MONTH_ALT})\.?\s*"
+    rf"(?P<y>20\d\d|2[4-9]|3[0-5])\b"
+)
+_RANGE_CONTEXT = re.compile(r"\b(internship|stage|praktikum|period\w*|duration|duree|dates?|from|de|du|vom|dal|start\w*|"
+                            r"debut\w*|placement|programme|program)\b[^.]*$")
+# "Feb2027" -> "Feb 2027"
+_GLUED = re.compile(rf"\b({_MONTH_ALT})(20\d\d)\b")
 # "June 2027", "juin 2027", "06/2027"
 _MONTH_YEAR = re.compile(rf"\b(?P<m>{_MONTH_ALT})\.?\s+(?P<y>20\d\d)\b|\b(?P<mm>0?[1-9]|1[0-2])\s*/\s*(?P<y2>20\d\d)\b")
 # "start date: June", "starting in September 2027", "a partir de janvier", "debut : mars 2027"
@@ -41,7 +51,7 @@ _START = re.compile(
 _PERIODS = [
     (r"(early|debut|beginning of|start of|anfang|inizio|principios de)", 1),
     (r"(q1|h1|first quarter|first half|1er trimestre|premier trimestre|premier semestre)", 1),
-    (r"(winter|hiver|invierno)", 1),
+    (r"(winter quarter|winter|hiver|invierno)", 1),
     (r"(spring|printemps|fruhjahr|fruehjahr|primavera)", 3),
     (r"(q2|second quarter)", 4),
     (r"(autumn|fall|automne|herbst|otono)", 9),
@@ -50,7 +60,8 @@ _PERIODS = [
 _PERIOD_RE = [(re.compile(rf"\b{words} (?P<y>20\d\d)\b"), month) for words, month in _PERIODS]
 _PERIOD_START_RE = [(re.compile(rf"\b(start\w*|commenc\w*|debut\w*)( in| en| du stage)?( the)? {words} (?P<y>20\d\d)\b"), month)
                     for words, month in _PERIODS]
-_SUMMER = re.compile(r"\bsummer\b|\bete 20\d\d\b|\bstage d ete\b|\bsommer(praktikum)?\b|\bestate\b|\bverano\b")
+# "estate" (Italian summer) only with a year: alone it is mostly "real estate".
+_SUMMER = re.compile(r"\bsummer\b|\bete 20\d\d\b|\bstage d ete\b|\bsommer(praktikum)?\b|\bestate 20\d\d\b|\bstage estivo\b|\bverano\b")
 _OFF_CYCLE = re.compile(r"\boff[\s-]?cycle\b")
 _YEAR = re.compile(r"\b(20[2-3]\d)\b")
 _SIX_MONTHS = re.compile(r"\b6[\s-]?(months?|mois|monate)\b|\bsix months\b|\bsix mois\b")
@@ -79,6 +90,18 @@ class Timing:
 def _start_month(text: str, strict: bool = False):
     """strict=True (descriptions) only trusts explicit "start ..." phrases, since
     a description also mentions other dates (deadlines, interviews...)."""
+    if not strict:
+        match = _RANGE.search(text)
+        if match:
+            year = int(match.group("y"))
+            return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
+    else:
+        # In a description, a range counts only when introduced as the internship period
+        # ("internship period: April - September 2027", "du stage : de avril a septembre 2027").
+        for match in _RANGE.finditer(text):
+            if _RANGE_CONTEXT.search(text[max(0, match.start() - 60):match.start()]):
+                year = int(match.group("y"))
+                return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
     match = None if strict else _MONTH_YEAR.search(text)
     if match:
         if match.group("m"):
@@ -97,7 +120,7 @@ def _start_month(text: str, strict: bool = False):
 
 
 def analyse(title: str, description: str = "") -> Timing:
-    t, d = _norm(title), _norm(description[:4000])
+    t, d = _GLUED.sub(r"\1 \2", _norm(title)), _GLUED.sub(r"\1 \2", _norm(description[:4000]))
     month, year = _start_month(t)
     if month is None and d:
         month, year = _start_month(d, strict=True)
