@@ -39,7 +39,7 @@ _RANGE_CONTEXT = re.compile(r"\b(internship|stage|praktikum|period\w*|duration|d
 # In a description, "June 2027" counts only right after a start / period word
 # ("starting in", "available from", "internship period", "duree du stage"...).
 _MONTH_CONTEXT = re.compile(r"\b(start\w*|commenc\w*|debut\w*|intake|available|disponib\w*|period\w*|duration|duree|"
-                            r"beginning|a partir|from|des le|ab|beginn\w*|inizio|inicio)\b[^.]{0,40}$")
+                            r"beginning|a partir|from|des le|ab|beginn\w*|inizio|inicio)\b[^.]{0,85}$")   # long enough for "x ou y ou z"
 # "Start date: 2027-04-01", "start date: 15/04/2027" (day/month order only when unambiguous)
 _START_ISO = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<y>20\d\d)-(?P<m>\d\d)-\d\d\b")
 _START_DMY = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<a>\d{1,2})/(?P<b>\d{1,2})/(?P<y>20\d\d)\b")
@@ -117,7 +117,7 @@ def _start_month(text: str, strict: bool = False):
         inside_range = lambda pos: any(r.start() <= pos < r.end() for r in ranges)   # "... to June 2027" is an end
         for match in _MONTH_YEAR.finditer(text):
             if match.group("m") and not inside_range(match.start()) \
-                    and _MONTH_CONTEXT.search(text[max(0, match.start() - 50):match.start()]):
+                    and _MONTH_CONTEXT.search(text[max(0, match.start() - 100):match.start()]):
                 found.append((int(match.group("y")), _MONTH_OF[match.group("m")]))
         for match in _START_ISO.finditer(text):
             if 1 <= int(match.group("m")) <= 12:
