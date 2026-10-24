@@ -36,6 +36,9 @@ from tracker.timing import analyse
     ("Stage Pricing", "Date de début : 15/04/2027. Durée 6 mois.", "off-cycle", "2027-04"),
     ("Risk Intern", "Start date: 2027-03-01", "off-cycle", "2027-03"),
     ("Risk Intern", "Start date: 01/04/2027", "unknown", ""),
+    ("Rates Structuring Off Cycle Intern 2027",
+     "Looking for an intern for the following start dates: January to June 2027, July to December 2027.",
+     "off-cycle", "2027-07"),
     ("Risk Intern", "Applications close in March 2027; interviews in April 2027.", "unknown", ""),
     ("Stage estate 2027 - Mercati", "", "summer", "2027"),
 ])

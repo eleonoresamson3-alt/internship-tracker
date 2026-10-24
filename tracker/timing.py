@@ -103,26 +103,35 @@ def _start_month(text: str, strict: bool = False):
             year = int(match.group("y"))
             return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
     else:
-        # In a description, a range counts only when introduced as the internship period
+        # In a description every explicit start found counts, and the LATEST one wins:
+        # "start dates: January to June 2027, July to December 2027" offers a July start,
+        # so the offer must not be dropped as starting in January (in doubt, keep).
+        found = []
+        # A range counts only when introduced as the internship period
         # ("internship period: April - September 2027", "du stage : de avril a septembre 2027").
-        for match in _RANGE.finditer(text):
+        ranges = list(_RANGE.finditer(text))
+        for match in ranges:
             if _RANGE_CONTEXT.search(text[max(0, match.start() - 60):match.start()]):
                 year = int(match.group("y"))
-                return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
+                found.append((year if year > 2000 else 2000 + year, _MONTH_OF[match.group("m1")]))
+        inside_range = lambda pos: any(r.start() <= pos < r.end() for r in ranges)   # "... to June 2027" is an end
         for match in _MONTH_YEAR.finditer(text):
-            if match.group("m") and _MONTH_CONTEXT.search(text[max(0, match.start() - 50):match.start()]):
-                return _MONTH_OF[match.group("m")], int(match.group("y"))
-        match = _START_ISO.search(text)
-        if match and 1 <= int(match.group("m")) <= 12:
-            return int(match.group("m")), int(match.group("y"))
-        match = _START_DMY.search(text)
-        if match:
+            if match.group("m") and not inside_range(match.start()) \
+                    and _MONTH_CONTEXT.search(text[max(0, match.start() - 50):match.start()]):
+                found.append((int(match.group("y")), _MONTH_OF[match.group("m")]))
+        for match in _START_ISO.finditer(text):
+            if 1 <= int(match.group("m")) <= 12:
+                found.append((int(match.group("y")), int(match.group("m"))))
+        for match in _START_DMY.finditer(text):
             a, b = int(match.group("a")), int(match.group("b"))
             if a > 12 and 1 <= b <= 12:      # 15/04/2027: day first, month = 4
-                return b, int(match.group("y"))
-            if b > 12 and 1 <= a <= 12:      # 04/15/2027: month first
-                return a, int(match.group("y"))
+                found.append((int(match.group("y")), b))
+            elif b > 12 and 1 <= a <= 12:    # 04/15/2027: month first
+                found.append((int(match.group("y")), a))
             # 01/04/2027 is ambiguous (1 April or 4 January): left unknown.
+        if found:
+            year, month = max(found)
+            return month, year
     match = None if strict else _MONTH_YEAR.search(text)
     if match:
         if match.group("m"):

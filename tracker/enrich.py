@@ -16,13 +16,16 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import threading
+from urllib.parse import urlsplit
 from datetime import date, timedelta
 
 from bs4 import BeautifulSoup
 
 from . import config, store
 from .http import PoliteClient
+from .sanitize import clean_text
 
 log = logging.getLogger(__name__)
 
@@ -73,8 +76,7 @@ def page_text(html: str) -> str:
             if isinstance(node, dict) and node.get("@type") == "JobPosting":
                 if node.get("jobStartDate"):
                     parts.append(f"Start date: {str(node['jobStartDate'])[:10]}.")
-                desc = BeautifulSoup(str(node.get("description") or ""), "html.parser").get_text(" ")
-                parts.append(desc)
+                parts.append(clean_text(node.get("description") or "", MAX_TEXT))   # also escaped HTML
     if not parts:
         for tag in soup(["script", "style", "noscript", "nav", "footer", "header"]):
             tag.decompose()
@@ -82,8 +84,27 @@ def page_text(html: str) -> str:
     return " ".join(" ".join(parts).split())[:MAX_TEXT]
 
 
+_ORACLE_AD = re.compile(r"^https://(?P<host>[^/]+\.oraclecloud\.com)/hcmUI/CandidateExperience/[^/]+/sites/(?P<site>[^/]+)/job/(?P<id>\d+)")
+
+
+def read_ad(url: str, http: PoliteClient) -> str:
+    """Text of one ad. Oracle pages are rendered in JavaScript: their public REST API gives the text."""
+    m = _ORACLE_AD.match(url)
+    if m:
+        api = (f"https://{m['host']}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
+               f"?expand=all&onlyData=true&finder=ById;Id=%22{m['id']}%22,siteNumber={m['site']}")
+        item = (http.get_json(api, retries=1).get("items") or [{}])[0]
+        html = " ".join(str(item.get(k) or "") for k in (
+            "ExternalDescriptionStr", "ExternalResponsibilitiesStr", "ExternalQualificationsStr",
+            "CorporateDescriptionStr", "ShortDescriptionStr"))
+        return clean_text(html, MAX_TEXT)
+    return page_text(http.get(url, retries=1).text)
+
+
 def lookup(job_id: str, url: str, http: PoliteClient, cache: StartDateCache, today: date) -> str | None:
     """Ad text to analyse for this offer, or None (unknown, not readable, or budget used)."""
+    if urlsplit(url).netloc.endswith("myworkdayjobs.com"):
+        return None   # the Workday adapter already reads each ad's full text through its API
     entry = cache.get(job_id)
     if entry and entry.get("text") is not None:
         return entry["text"]
@@ -92,7 +113,7 @@ def lookup(job_id: str, url: str, http: PoliteClient, cache: StartDateCache, tod
     if not cache.take_budget():
         return None
     try:
-        text = page_text(http.get(url, retries=1).text)
+        text = read_ad(url, http)
     except Exception as exc:  # unreadable ad: keep the offer, try again later
         cache.put(job_id, {"checked": today.isoformat(), "error": f"{type(exc).__name__}"[:80]})
         return None

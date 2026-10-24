@@ -74,3 +74,22 @@ def test_unreadable_ad_keeps_the_offer_and_is_cached(tmp_path, monkeypatch):
     # not retried before a week
     assert enrich.lookup("id1", "https://x.example/1", Broken(), cache, date(2026, 10, 26)) is None
     assert cache.fetched == 1
+
+
+def test_oracle_ads_are_read_through_the_api():
+    seen = {}
+
+    class Http:
+        def get_json(self, url, **kwargs):
+            seen["url"] = url
+            return {"items": [{"ExternalDescriptionStr": "&lt;p&gt;Start date: September 2027&lt;/p&gt;"}]}
+
+    text = enrich.read_ad("https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776890", Http())
+    assert "recruitingCEJobRequisitionDetails" in seen["url"] and "210776890" in seen["url"] and "CX_1001" in seen["url"]
+    assert text == "Start date: September 2027"
+
+
+def test_workday_ads_are_not_fetched_again(tmp_path):
+    cache = enrich.StartDateCache(tmp_path / "c.json")
+    assert enrich.lookup("w1", "https://bank.wd3.myworkdayjobs.com/en-US/Ext/job/Paris/Intern_R1", None, cache, date(2026, 10, 24)) is None
+    assert cache.fetched == 0
