@@ -11,6 +11,7 @@ import hashlib
 import logging
 import os
 import sys
+import time
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
@@ -119,10 +120,19 @@ def scrape_one(target: Target, http: PoliteClient):
 
 
 def scrape(targets: list[Target], http: PoliteClient, debug: dict | None = None,
-           workers: int = config.WORKERS):
+           workers: int = config.WORKERS, retry_delay: int = config.RETRY_DELAY):
     records, errors, stats = [], [], []
     with ThreadPoolExecutor(max_workers=workers) as pool:
         results = list(pool.map(lambda t: scrape_one(t, http), targets))
+        # Platforms have short outages (Workday maintenance, rate limits): failed
+        # employers get a second chance after a pause.
+        retry = [i for i, r in enumerate(results) if r[1]]
+        if retry and retry_delay:
+            log.info("retrying %d failed employer(s) in %d s", len(retry), retry_delay)
+            time.sleep(retry_delay)
+            for i, again in zip(retry, pool.map(lambda i: scrape_one(targets[i], http), retry)):
+                if not again[1]:
+                    results[i] = again
     for target, (kept, error, stat, titles) in zip(targets, results):
         records.extend(kept)
         if error:

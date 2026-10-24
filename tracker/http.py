@@ -19,6 +19,19 @@ class RobotsDisallowed(Exception):
     """Raised when robots.txt forbids fetching a URL."""
 
 
+class NotJson(ValueError):
+    """A JSON API answered with something else (maintenance page, block page...)."""
+
+
+def _json(resp: requests.Response):
+    try:
+        return resp.json()
+    except ValueError:
+        kind = resp.headers.get("Content-Type", "?").split(";")[0]
+        raise NotJson(f"non-JSON answer (HTTP {resp.status_code}, {kind}): "
+                      "platform probably down or in maintenance") from None
+
+
 class PoliteClient:
     def __init__(
         self,
@@ -119,9 +132,9 @@ class PoliteClient:
 
     def get_json(self, url: str, **kwargs):
         kwargs.setdefault("headers", {"Accept": "application/json"})
-        return self.get(url, **kwargs).json()
+        return _json(self.get(url, **kwargs))
 
     def post_json(self, url: str, payload: dict, **kwargs):
         headers = {"Accept": "application/json", "Content-Type": "application/json"}
         headers.update(kwargs.pop("headers", {}))
-        return self.post(url, json=payload, headers=headers, **kwargs).json()
+        return _json(self.post(url, json=payload, headers=headers, **kwargs))
