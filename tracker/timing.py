@@ -36,6 +36,13 @@ _RANGE = re.compile(
 )
 _RANGE_CONTEXT = re.compile(r"\b(internship|stage|praktikum|period\w*|duration|duree|dates?|from|de|du|vom|dal|start\w*|"
                             r"debut\w*|placement|programme|program)\b[^.]*$")
+# In a description, "June 2027" counts only right after a start / period word
+# ("starting in", "available from", "internship period", "duree du stage"...).
+_MONTH_CONTEXT = re.compile(r"\b(start\w*|commenc\w*|debut\w*|intake|available|disponib\w*|period\w*|duration|duree|"
+                            r"beginning|a partir|from|des le|ab|beginn\w*|inizio|inicio)\b[^.]{0,40}$")
+# "Start date: 2027-04-01", "start date: 15/04/2027" (day/month order only when unambiguous)
+_START_ISO = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<y>20\d\d)-(?P<m>\d\d)-\d\d\b")
+_START_DMY = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<a>\d{1,2})/(?P<b>\d{1,2})/(?P<y>20\d\d)\b")
 # "Feb2027" -> "Feb 2027"
 _GLUED = re.compile(rf"\b({_MONTH_ALT})(20\d\d)\b")
 # "June 2027", "juin 2027", "06/2027"
@@ -102,6 +109,20 @@ def _start_month(text: str, strict: bool = False):
             if _RANGE_CONTEXT.search(text[max(0, match.start() - 60):match.start()]):
                 year = int(match.group("y"))
                 return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
+        for match in _MONTH_YEAR.finditer(text):
+            if match.group("m") and _MONTH_CONTEXT.search(text[max(0, match.start() - 50):match.start()]):
+                return _MONTH_OF[match.group("m")], int(match.group("y"))
+        match = _START_ISO.search(text)
+        if match and 1 <= int(match.group("m")) <= 12:
+            return int(match.group("m")), int(match.group("y"))
+        match = _START_DMY.search(text)
+        if match:
+            a, b = int(match.group("a")), int(match.group("b"))
+            if a > 12 and 1 <= b <= 12:      # 15/04/2027: day first, month = 4
+                return b, int(match.group("y"))
+            if b > 12 and 1 <= a <= 12:      # 04/15/2027: month first
+                return a, int(match.group("y"))
+            # 01/04/2027 is ambiguous (1 April or 4 January): left unknown.
     match = None if strict else _MONTH_YEAR.search(text)
     if match:
         if match.group("m"):
@@ -120,7 +141,7 @@ def _start_month(text: str, strict: bool = False):
 
 
 def analyse(title: str, description: str = "") -> Timing:
-    t, d = _GLUED.sub(r"\1 \2", _norm(title)), _GLUED.sub(r"\1 \2", _norm(description[:4000]))
+    t, d = _GLUED.sub(r"\1 \2", _norm(title)), _GLUED.sub(r"\1 \2", _norm(description[:16000]))
     month, year = _start_month(t)
     if month is None and d:
         month, year = _start_month(d, strict=True)
