@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T06:13:07+00:00",
+ "generated_at": "2026-10-24T08:28:24+00:00",
  "date": "2026-10-24",
  "jobs": [
   {
@@ -163,6 +163,39 @@
    "deadline_source": "estimée",
    "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stagiaire-analyste-en-financement-collateralise-hf-reference--2026-116454--/",
    "posted_at": "",
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "active": true
+  },
+  {
+   "id": "s-p-global-6042f59f3530",
+   "employer": "S&P Global",
+   "employer_type": "software",
+   "platform": "workday",
+   "title": "Market Intelligence Sales Associate Internship",
+   "location": "New York, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 25,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/New-York-NY/Market-Intelligence-Sales-Associate-Internship_332491-1",
+   "posted_at": "2026-10-23",
    "first_seen": "2026-10-24",
    "last_seen": "2026-10-24",
    "active": true

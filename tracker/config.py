@@ -38,6 +38,7 @@ SEARCH_TERMS = ["intern", "stage", "stagiaire", "summer", "off-cycle"]
 
 # Employers scraped in parallel (the per-host delay still applies).
 WORKERS = 8
+RETRY_DELAY = 90          # seconds before the second attempt for employers that failed
 
 # Safety cap on result pages fetched per search term and employer.
 MAX_PAGES_PER_TERM = 10
