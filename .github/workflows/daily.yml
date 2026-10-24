@@ -2,7 +2,9 @@ name: Daily scrape
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # every day at 05:00 UTC
+    # 04:17 UTC: off the top of the hour, when GitHub delays or drops many scheduled runs,
+    # and early enough for the morning analyses (07:41 Paris time).
+    - cron: "17 4 * * *"
   push:
     # Editing the trainings list only needs the site to be rebuilt.
     branches: [main]
