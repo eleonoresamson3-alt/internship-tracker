@@ -1,68 +1,393 @@
 {
- "generated_at": "2026-10-23T17:45:53+00:00",
+ "generated_at": "2026-10-24T06:13:07+00:00",
  "employers_total": 143,
- "employers_failed": 0,
- "errors": [],
- "stats": [
-  {
-   "employer": "Groupe Crédit Agricole",
-   "fetched": 7,
-   "kept": 3
-  },
-  {
-   "employer": "JPMorgan",
-   "fetched": 670,
-   "kept": 43
-  },
+ "employers_failed": 52,
+ "errors": [
   {
    "employer": "Morgan Stanley",
-   "fetched": 3,
-   "kept": 0
+   "platform": "workday",
+   "careers_url": "https://www.morganstanley.com/careers/students-graduates",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:07+00:00"
   },
   {
    "employer": "Citi",
-   "fetched": 43,
-   "kept": 4
-  },
-  {
-   "employer": "Bank of America",
-   "fetched": 34,
-   "kept": 16
+   "platform": "workday",
+   "careers_url": "https://jobs.citi.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:07+00:00"
   },
   {
    "employer": "Barclays",
-   "fetched": 63,
-   "kept": 15
+   "platform": "workday",
+   "careers_url": "https://search.jobs.barclays/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:07+00:00"
   },
   {
    "employer": "Deutsche Bank",
-   "fetched": 33,
-   "kept": 8
+   "platform": "workday",
+   "careers_url": "https://careers.db.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:07+00:00"
+  },
+  {
+   "employer": "Mizuho",
+   "platform": "workday",
+   "careers_url": "https://www.mizuhogroup.com/emea/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:09+00:00"
+  },
+  {
+   "employer": "MUFG",
+   "platform": "workday",
+   "careers_url": "https://www.mufgemea.com/careers/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:09+00:00"
+  },
+  {
+   "employer": "Santander CIB",
+   "platform": "workday",
+   "careers_url": "https://www.santandercib.com/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:09+00:00"
+  },
+  {
+   "employer": "RBC Capital Markets",
+   "platform": "workday",
+   "careers_url": "https://jobs.rbc.com/ca/en",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:09+00:00"
+  },
+  {
+   "employer": "State Street",
+   "platform": "workday",
+   "careers_url": "https://careers.statestreet.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:11+00:00"
+  },
+  {
+   "employer": "Lloyds Banking Group",
+   "platform": "workday",
+   "careers_url": "https://www.lloydsbankinggroup.com/careers.html",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:11+00:00"
+  },
+  {
+   "employer": "TD Securities",
+   "platform": "workday",
+   "careers_url": "https://jobs.td.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:11+00:00"
+  },
+  {
+   "employer": "BlackRock",
+   "platform": "workday",
+   "careers_url": "https://careers.blackrock.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:17+00:00"
+  },
+  {
+   "employer": "PIMCO",
+   "platform": "workday",
+   "careers_url": "https://www.pimco.com/en-us/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:20+00:00"
+  },
+  {
+   "employer": "Fidelity International",
+   "platform": "workday",
+   "careers_url": "https://careers.fidelityinternational.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:21+00:00"
+  },
+  {
+   "employer": "Invesco",
+   "platform": "workday",
+   "careers_url": "https://careers.invesco.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:22+00:00"
+  },
+  {
+   "employer": "M&G",
+   "platform": "workday",
+   "careers_url": "https://www.mandg.com/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:23+00:00"
+  },
+  {
+   "employer": "Aviva Investors",
+   "platform": "workday",
+   "careers_url": "https://www.avivainvestors.com/en-gb/about/careers/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:24+00:00"
+  },
+  {
+   "employer": "Arrowstreet Capital",
+   "platform": "workday",
+   "careers_url": "https://www.arrowstreetcapital.com/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:25+00:00"
+  },
+  {
+   "employer": "EDF Trading",
+   "platform": "workday",
+   "careers_url": "https://www.edftrading.com/careers/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:52+00:00"
+  },
+  {
+   "employer": "Trafigura",
+   "platform": "workday",
+   "careers_url": "https://www.trafigura.com/careers/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:53+00:00"
+  },
+  {
+   "employer": "Gunvor",
+   "platform": "workday",
+   "careers_url": "https://gunvorgroup.com/careers/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:54+00:00"
+  },
+  {
+   "employer": "Shell Trading",
+   "platform": "workday",
+   "careers_url": "https://www.shell.com/careers.html",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:54+00:00"
+  },
+  {
+   "employer": "Euronext",
+   "platform": "workday",
+   "careers_url": "https://www.euronext.com/en/about/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:55+00:00"
+  },
+  {
+   "employer": "LSEG",
+   "platform": "workday",
+   "careers_url": "https://www.lseg.com/en/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:55+00:00"
+  },
+  {
+   "employer": "CME Group",
+   "platform": "workday",
+   "careers_url": "https://www.cmegroup.com/careers.html",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:55+00:00"
+  },
+  {
+   "employer": "Murex",
+   "platform": "workday",
+   "careers_url": "https://www.murex.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:56+00:00"
+  },
+  {
+   "employer": "S&P Global",
+   "platform": "workday",
+   "careers_url": "https://careers.spglobal.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:13:57+00:00"
+  },
+  {
+   "employer": "FCA",
+   "platform": "workday",
+   "careers_url": "https://www.fca.org.uk/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:05+00:00"
+  },
+  {
+   "employer": "PwC",
+   "platform": "workday",
+   "careers_url": "https://www.pwc.fr/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:11+00:00"
+  },
+  {
+   "employer": "Lombard Odier",
+   "platform": "workday",
+   "careers_url": "https://www.lombardodier.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:16+00:00"
+  },
+  {
+   "employer": "Vontobel",
+   "platform": "workday",
+   "careers_url": "https://www.vontobel.com/en-ch/about-vontobel/careers/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:17+00:00"
+  },
+  {
+   "employer": "BBVA",
+   "platform": "workday",
+   "careers_url": "https://careers.bbva.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:23+00:00"
+  },
+  {
+   "employer": "Muzinich",
+   "platform": "workday",
+   "careers_url": "https://www.muzinich.com/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:26+00:00"
+  },
+  {
+   "employer": "Nasdaq (Calypso / Adenza)",
+   "platform": "workday",
+   "careers_url": "https://www.nasdaq.com/about/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:34+00:00"
+  },
+  {
+   "employer": "Commonwealth Bank",
+   "platform": "workday",
+   "careers_url": "https://www.commbank.com.au/about-us/careers.html",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:39+00:00"
+  },
+  {
+   "employer": "AllianceBernstein",
+   "platform": "workday",
+   "careers_url": "https://www.alliancebernstein.com/corporate/en/careers.html",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:41+00:00"
+  },
+  {
+   "employer": "Wellington Management",
+   "platform": "workday",
+   "careers_url": "https://www.wellington.com/en/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:42+00:00"
+  },
+  {
+   "employer": "T. Rowe Price",
+   "platform": "workday",
+   "careers_url": "https://www.troweprice.com/corporate/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:42+00:00"
+  },
+  {
+   "employer": "Capital Group",
+   "platform": "workday",
+   "careers_url": "https://www.capitalgroup.com/about-us/careers.html",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:43+00:00"
+  },
+  {
+   "employer": "Northern Trust",
+   "platform": "workday",
+   "careers_url": "https://careers.northerntrust.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:44+00:00"
+  },
+  {
+   "employer": "Aberdeen",
+   "platform": "workday",
+   "careers_url": "https://www.aberdeenplc.com/en-gb/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:44+00:00"
+  },
+  {
+   "employer": "Kering",
+   "platform": "workday",
+   "careers_url": "https://www.kering.com/en/talent/job-offers/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:46+00:00"
+  },
+  {
+   "employer": "Pernod Ricard",
+   "platform": "workday",
+   "careers_url": "https://www.pernod-ricard.com/en/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:48+00:00"
+  },
+  {
+   "employer": "Airbus",
+   "platform": "workday",
+   "careers_url": "https://www.airbus.com/en/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:48+00:00"
+  },
+  {
+   "employer": "Thales",
+   "platform": "workday",
+   "careers_url": "https://careers.thalesgroup.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:48+00:00"
+  },
+  {
+   "employer": "Michelin",
+   "platform": "workday",
+   "careers_url": "https://recrutement.michelin.fr/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:48+00:00"
+  },
+  {
+   "employer": "Sanofi",
+   "platform": "workday",
+   "careers_url": "https://jobs.sanofi.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:50+00:00"
+  },
+  {
+   "employer": "Air Liquide",
+   "platform": "workday",
+   "careers_url": "https://www.airliquide.com/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:50+00:00"
+  },
+  {
+   "employer": "Unilever",
+   "platform": "workday",
+   "careers_url": "https://careers.unilever.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:52+00:00"
+  },
+  {
+   "employer": "Novartis",
+   "platform": "workday",
+   "careers_url": "https://www.novartis.com/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:56+00:00"
+  },
+  {
+   "employer": "Philips",
+   "platform": "workday",
+   "careers_url": "https://www.careers.philips.com/",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:14:58+00:00"
+  },
+  {
+   "employer": "Diageo",
+   "platform": "workday",
+   "careers_url": "https://www.diageo.com/en/careers",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-24T06:15:00+00:00"
+  }
+ ],
+ "stats": [
+  {
+   "employer": "Groupe Crédit Agricole",
+   "fetched": 17,
+   "kept": 5
+  },
+  {
+   "employer": "JPMorgan",
+   "fetched": 673,
+   "kept": 43
+  },
+  {
+   "employer": "Bank of America",
+   "fetched": 30,
+   "kept": 14
   },
   {
    "employer": "Nomura",
    "fetched": 22,
    "kept": 9
-  },
-  {
-   "employer": "Mizuho",
-   "fetched": 1,
-   "kept": 0
-  },
-  {
-   "employer": "MUFG",
-   "fetched": 24,
-   "kept": 9
-  },
-  {
-   "employer": "Santander CIB",
-   "fetched": 11,
-   "kept": 3
-  },
-  {
-   "employer": "RBC Capital Markets",
-   "fetched": 39,
-   "kept": 15
   },
   {
    "employer": "Jefferies",
@@ -75,19 +400,9 @@
    "kept": 18
   },
   {
-   "employer": "State Street",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
    "employer": "Macquarie",
    "fetched": 10,
    "kept": 5
-  },
-  {
-   "employer": "Lloyds Banking Group",
-   "fetched": 0,
-   "kept": 0
   },
   {
    "employer": "BMO Capital Markets",
@@ -95,13 +410,8 @@
    "kept": 0
   },
   {
-   "employer": "TD Securities",
-   "fetched": 23,
-   "kept": 7
-  },
-  {
    "employer": "Scotiabank",
-   "fetched": 272,
+   "fetched": 273,
    "kept": 1
   },
   {
@@ -126,13 +436,8 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 107,
+   "fetched": 106,
    "kept": 10
-  },
-  {
-   "employer": "BlackRock",
-   "fetched": 13,
-   "kept": 12
   },
   {
    "employer": "Schroders",
@@ -145,39 +450,9 @@
    "kept": 2
   },
   {
-   "employer": "PIMCO",
-   "fetched": 47,
-   "kept": 15
-  },
-  {
-   "employer": "Fidelity International",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
-   "employer": "Invesco",
-   "fetched": 5,
-   "kept": 4
-  },
-  {
-   "employer": "M&G",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
-   "employer": "Aviva Investors",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
    "employer": "AQR",
-   "fetched": 57,
+   "fetched": 56,
    "kept": 6
-  },
-  {
-   "employer": "Arrowstreet Capital",
-   "fetched": 2,
-   "kept": 2
   },
   {
    "employer": "Squarepoint",
@@ -191,7 +466,7 @@
   },
   {
    "employer": "Jane Street",
-   "fetched": 221,
+   "fetched": 220,
    "kept": 8
   },
   {
@@ -236,12 +511,12 @@
   },
   {
    "employer": "Jump Trading",
-   "fetched": 95,
+   "fetched": 94,
    "kept": 14
   },
   {
    "employer": "Point72",
-   "fetched": 212,
+   "fetched": 211,
    "kept": 15
   },
   {
@@ -295,46 +570,6 @@
    "kept": 0
   },
   {
-   "employer": "EDF Trading",
-   "fetched": 1,
-   "kept": 1
-  },
-  {
-   "employer": "Trafigura",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
-   "employer": "Gunvor",
-   "fetched": 4,
-   "kept": 1
-  },
-  {
-   "employer": "Shell Trading",
-   "fetched": 8,
-   "kept": 0
-  },
-  {
-   "employer": "Euronext",
-   "fetched": 15,
-   "kept": 2
-  },
-  {
-   "employer": "LSEG",
-   "fetched": 9,
-   "kept": 0
-  },
-  {
-   "employer": "CME Group",
-   "fetched": 6,
-   "kept": 1
-  },
-  {
-   "employer": "Murex",
-   "fetched": 11,
-   "kept": 3
-  },
-  {
    "employer": "Numerix",
    "fetched": 7,
    "kept": 0
@@ -343,11 +578,6 @@
    "employer": "Bloomberg",
    "fetched": 0,
    "kept": 0
-  },
-  {
-   "employer": "S&P Global",
-   "fetched": 14,
-   "kept": 9
   },
   {
    "employer": "Allianz",
@@ -376,22 +606,17 @@
   },
   {
    "employer": "Bank of England",
-   "fetched": 25,
-   "kept": 0
-  },
-  {
-   "employer": "FCA",
-   "fetched": 0,
+   "fetched": 24,
    "kept": 0
   },
   {
    "employer": "Deloitte",
-   "fetched": 9,
-   "kept": 3
+   "fetched": 10,
+   "kept": 4
   },
   {
    "employer": "EY",
-   "fetched": 758,
+   "fetched": 757,
    "kept": 4
   },
   {
@@ -400,19 +625,14 @@
    "kept": 16
   },
   {
-   "employer": "PwC",
-   "fetched": 209,
-   "kept": 54
-  },
-  {
    "employer": "Forvis Mazars",
    "fetched": 143,
    "kept": 0
   },
   {
    "employer": "Accenture",
-   "fetched": 27,
-   "kept": 3
+   "fetched": 0,
+   "kept": 0
   },
   {
    "employer": "BearingPoint",
@@ -422,16 +642,6 @@
   {
    "employer": "Zanders",
    "fetched": 24,
-   "kept": 0
-  },
-  {
-   "employer": "Lombard Odier",
-   "fetched": 29,
-   "kept": 8
-  },
-  {
-   "employer": "Vontobel",
-   "fetched": 1,
    "kept": 0
   },
   {
@@ -446,22 +656,12 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 19,
-   "kept": 9
-  },
-  {
-   "employer": "BBVA",
-   "fetched": 0,
-   "kept": 0
+   "fetched": 18,
+   "kept": 8
   },
   {
    "employer": "Raiffeisen Bank International",
    "fetched": 35,
-   "kept": 0
-  },
-  {
-   "employer": "Muzinich",
-   "fetched": 0,
    "kept": 0
   },
   {
@@ -511,7 +711,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 722,
+   "fetched": 727,
    "kept": 0
   },
   {
@@ -522,11 +722,6 @@
   {
    "employer": "Grant Thornton",
    "fetched": 59,
-   "kept": 0
-  },
-  {
-   "employer": "Nasdaq (Calypso / Adenza)",
-   "fetched": 4,
    "kept": 0
   },
   {
@@ -565,11 +760,6 @@
    "kept": 0
   },
   {
-   "employer": "Commonwealth Bank",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
    "employer": "Cboe",
    "fetched": 100,
    "kept": 1
@@ -580,39 +770,9 @@
    "kept": 0
   },
   {
-   "employer": "AllianceBernstein",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
-   "employer": "Wellington Management",
-   "fetched": 7,
-   "kept": 1
-  },
-  {
-   "employer": "T. Rowe Price",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 2
-  },
-  {
-   "employer": "Capital Group",
-   "fetched": 7,
-   "kept": 5
-  },
-  {
-   "employer": "Northern Trust",
-   "fetched": 1,
-   "kept": 0
-  },
-  {
-   "employer": "Aberdeen",
-   "fetched": 0,
-   "kept": 0
+   "kept": 7
   },
   {
    "employer": "Winton",
@@ -640,41 +800,6 @@
    "kept": 0
   },
   {
-   "employer": "Kering",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
-   "employer": "Pernod Ricard",
-   "fetched": 97,
-   "kept": 0
-  },
-  {
-   "employer": "Airbus",
-   "fetched": 71,
-   "kept": 0
-  },
-  {
-   "employer": "Thales",
-   "fetched": 109,
-   "kept": 0
-  },
-  {
-   "employer": "Michelin",
-   "fetched": 51,
-   "kept": 0
-  },
-  {
-   "employer": "Sanofi",
-   "fetched": 52,
-   "kept": 0
-  },
-  {
-   "employer": "Air Liquide",
-   "fetched": 60,
-   "kept": 5
-  },
-  {
    "employer": "Orange",
    "fetched": 100,
    "kept": 0
@@ -685,38 +810,18 @@
    "kept": 0
   },
   {
-   "employer": "Unilever",
-   "fetched": 12,
-   "kept": 0
-  },
-  {
    "employer": "Siemens",
    "fetched": 22,
    "kept": 0
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 95,
-   "kept": 0
-  },
-  {
-   "employer": "Novartis",
-   "fetched": 2,
-   "kept": 0
-  },
-  {
-   "employer": "Philips",
-   "fetched": 53,
+   "fetched": 98,
    "kept": 0
   },
   {
    "employer": "AB InBev",
-   "fetched": 62,
-   "kept": 0
-  },
-  {
-   "employer": "Diageo",
-   "fetched": 0,
+   "fetched": 61,
    "kept": 0
   }
  ]

@@ -1,6 +1,483 @@
 {
- "generated_at": "2026-10-23T17:54:59+00:00",
+ "generated_at": "2026-10-24T06:16:05+00:00",
  "items": [
+  {
+   "id": "ceeef592fabc5409",
+   "title": "La raffinerie nigériane de Dangote entre en Bourse, portée par l’envolée des prix des carburants",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/24/la-raffinerie-nigeriane-de-dangote-entre-en-bourse-portee-par-l-envolee-des-prix-des-carburants_6799662_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T06:00+00:00",
+   "summary": "Une sursouscription est anticipée pour cette opération qui se termine mardi 27 octobre. La mégaraffinerie de Lagos affiche des bénéfices en forte hausse, dans un contexte géopolitique et économique porteur.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 15
+  },
+  {
+   "id": "72cdc4015b0a94c3",
+   "title": "HPE : un dirigeant cède des actions pour près de 2 millions de dollars",
+   "link": "https://fr.investing.com/news/insider-trading-news/hpe--un-dirigeant-cede-des-actions-pour-pres-de-2-millions-de-dollars-93CH-3651754",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T05:47+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "3e79a8d9bf275bbc",
+   "title": "Le directeur financier d’Allogene Therapeutics vend des actions pour 48.698$",
+   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-dallogene-therapeutics-vend-des-actions-pour-48698-93CH-3651753",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T05:47+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "0f568977c89bf13d",
+   "title": "Le PDG d’Athena Gold, Koby Kushner, achète des actions pour 3.534$",
+   "link": "https://fr.investing.com/news/insider-trading-news/le-pdg-dathena-gold-koby-kushner-achete-des-actions-pour-3534-93CH-3651750",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T05:16+00:00",
+   "summary": "",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 20
+  },
+  {
+   "id": "dd8360a8c1919e48",
+   "title": "Le Bitcoin vise 84.000$ portée par les baleines et les institutionnels",
+   "link": "https://fr.investing.com/news/cryptocurrency-news/le-bitcoin-vise-84000-alors-que-les-baleines-retirent-leurs-fonds-3651751",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T05:15+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "e21bda044710dae7",
+   "title": "Le directeur financier de Circle Internet Group cède des actions pour 1,35M$",
+   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-de-circle-internet-group-cede-des-actions-pour-135m-93CH-3651749",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T05:03+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "01a1fecc2fa01927",
+   "title": "La PDG de Veralto vend des actions pour 745.290$",
+   "link": "https://fr.investing.com/news/insider-trading-news/la-pdg-de-veralto-vend-des-actions-pour-745290-93CH-3651748",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T05:03+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "354e5f687a5981e2",
+   "title": "Le directeur financier de Yelp vend des actions pour 150.000$",
+   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-de-yelp-vend-des-actions-pour-150000-93CH-3651747",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T05:02+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "84b09e06d4c6c589",
+   "title": "A little bit of luck is lifting UK Budget expectations",
+   "link": "https://www.ft.com/content/6a059ab0-a9fc-4e4c-8ae7-1d110faf5adf",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-24T04:00+00:00",
+   "summary": "Healey is poised to deliver his plans just as this year’s drag on global bonds appears to be turning",
+   "themes": [
+    "macro_inflation",
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 35
+  },
+  {
+   "id": "a6479351b7de337e",
+   "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
+   "link": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-24T04:00+00:00",
+   "summary": "Cboe captures nearly half of US listings as intensifying competition reflects rapid growth in derivative-heavy funds",
+   "themes": [
+    "vol_derivatives",
+    "equities",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 50
+  },
+  {
+   "id": "45e74611b3c4dca4",
+   "title": "« Le fléchage de l’épargne réglementée offre une piste, modeste mais réelle, pour financer les investissements dont la société a besoin »",
+   "link": "https://www.lemonde.fr/idees/article/2026/10/24/le-flechage-de-l-epargne-reglementee-offre-une-piste-modeste-mais-reelle-pour-financer-les-investissements-dont-la-societe-a-besoin_6799554_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T04:00+00:00",
+   "summary": "Face à l’inertie de la BCE, la France doit trouver les moyens d’orienter certains placements pour soutenir l’investissement dans la transition écologique et les services publics, plaide l’économiste Jézabel Couppey-Soubeyran dans sa chronique.",
+   "themes": [
+    "central_banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 40
+  },
+  {
+   "id": "363a6f4a976f811f",
+   "title": "Puis-je renoncer à une succession ?",
+   "link": "https://www.lemonde.fr/argent/article/2026/10/24/puis-je-renoncer-a-une-succession_6799552_1657007.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T04:00+00:00",
+   "summary": "Une succession déficitaire n’est pas le seul cas dans lequel la renonciation présente un intérêt, indique Marie-Laure Decobert, ingénieure patrimoniale à Swiss Life Banque privée.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 15
+  },
+  {
+   "id": "7a746fa27c91fc79",
+   "title": "L’Arabie Saoudite intercepte un missile houthi alors que Trump menace",
+   "link": "https://fr.investing.com/news/economy-news/larabie-saoudite-intercepte-un-missile-houthi-alors-que-trump-menace-3651744",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T03:52+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "0d216d9521e6eb6c",
+   "title": "La capacité cloud d’AWS d’Amazon est quasi épuisée jusqu’en 2027",
+   "link": "https://fr.investing.com/news/company-news/la-capacite-cloud-daws-damazon-est-quasi-epuisee-jusquen-2027-3651741",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T02:29+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "86b1f39a12c0c888",
+   "title": "La production du Boeing 777 cargo suspendue deux mois suite à un litige fournisseur",
+   "link": "https://fr.investing.com/news/company-news/la-production-du-boeing-777-cargo-suspendue-deux-mois-suite-a-un-litige-fournisseur-3651739",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T01:57+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "8dc0844d9b2e7991",
+   "title": "US executives quit $25bn gas venture over claims of secret Russian control",
+   "link": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Global economy",
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-24T00:22+00:00",
+   "summary": "Former CEO of Polar Train LNG tells FT that energy giant Novatek financed and held reins of strategic Alaska project without Washington’s approval",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 35
+  },
+  {
+   "id": "2c6f208467e49ddf",
+   "title": "L’agence Moody’s ne dégrade pas la note de la France malgré l’incertitude budgétaire et politique",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/24/l-agence-moody-s-ne-degrade-pas-la-note-de-la-france-malgre-l-incertitude-budgetaire-et-politique_6799214_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-23T22:52+00:00",
+   "summary": "Contrairement aux prévisions de beaucoup d’économistes, l’entreprise américaine de notation a maintenu, vendredi, la note de la dette souveraine à Aa3, se démarquant de l’appréciation portée par les agences S&P et Fitch sur la solvabilité française.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 25
+  },
+  {
+   "id": "523cd8ab07d88516",
+   "title": "Trump to cut Canadian tariffs after pressure from Republicans",
+   "link": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-10-23T22:29+00:00",
+   "summary": "President to ease some levies to help candidates facing tough US Senate election battles",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 20
+  },
+  {
+   "id": "c447556316f3a660",
+   "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
+   "link": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T22:28+00:00",
+   "summary": "Rating agency retains Aa3 score as it assumes ‘deficit-reducing budget for 2027 will be adopted’",
+   "themes": [
+    "credit_sovereign",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 35
+  },
+  {
+   "id": "a4e91d7cb178d0c9",
+   "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
+   "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T22:00+00:00",
+   "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 15
+  },
+  {
+   "id": "58a0205a35cce405",
+   "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
+   "link": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T21:46+00:00",
+   "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 15
+  },
+  {
+   "id": "87fd2558b4b6957e",
+   "title": "Moody's épargne la France en maintenant sa note inchangée",
+   "link": "https://www.agefi.fr/news/economie-marches/moodys-epargne-la-france-en-maintenant-sa-note-inchangee",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-23T21:38+00:00",
+   "summary": "Alors que beaucoup pronostiquaient une dégradation de la note de la France par Moody's, l'agence de notation l'a laissée inchangée, anticipant une réduction du déficit en 2027.",
+   "themes": [
+    "credit_sovereign",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 35
+  },
+  {
+   "id": "4068d5eaeee39b91",
+   "title": "L’agence Moody’s maintient la note souveraine de la France à Aa3, mais y assortit une perspective négative",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/23/l-agence-moody-s-maintient-la-note-souveraine-de-la-france-a-aa3-mais-y-assortit-une-perspective-negative_6799147_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-23T21:22+00:00",
+   "summary": "Cette décision « déjoue les pronostics déclinistes de nombreux “experts” et de ceux qui spéculent sur la dette française », a salué le premier ministre, Sébastien Lecornu.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 25
+  },
+  {
+   "id": "1dadde584896573d",
+   "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
+   "link": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T21:06+00:00",
+   "summary": "The first Phase 3 data for a cancer vaccine has raised questions about whether the potential new treatment is needed.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "a1e825d710f25acc",
+   "title": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
+   "link": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T20:50+00:00",
+   "summary": "As she faces a tough midterm race, the five-term GOP senator is touting her successful lobbying effort against certain tariffs on Canada",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 20
+  },
+  {
+   "id": "7cf7738543d31e19",
+   "title": "The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?",
+   "link": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T20:19+00:00",
+   "summary": "A once-in-a-generation investment boom has created lots of winners — but many Americans are feeling left out.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 5
+  },
+  {
+   "id": "8416e9aa1929bf67",
+   "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
+   "link": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T20:19+00:00",
+   "summary": "Oil has climbed back to an Iran-war high and may soon go higher, if the U.S. and Israel strike Iran after their respective voters go to the polls in the coming days.",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 20
+  },
+  {
+   "id": "612de26aaba861d7",
+   "title": "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
+   "link": "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-23T20:02+00:00",
+   "summary": "“I’m 32 years old and feel like I should know how to do this stuff by now.”",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 25
+  },
+  {
+   "id": "b4bc657d9a000f7c",
+   "title": "Lunch break under threat as Hong Kong looks at longer trading day",
+   "link": "https://www.ft.com/content/bc13b5f1-387e-4fae-927e-d96ac24ea645?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-23T20:00+00:00",
+   "summary": "HKEX discusses scrapping ‘antiquated practice’ as Nasdaq plans move to 23 hours",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T06:16+00:00",
+   "score": 15
+  },
   {
    "id": "9bad83d949dd821e",
    "title": "Le sefaxersen de Roche réduit la protéinurie de 43% dans un essai IgAN",
