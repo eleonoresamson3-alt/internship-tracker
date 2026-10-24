@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T09:00:21+00:00",
+ "generated_at": "2026-10-24T09:23:02+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
@@ -16,8 +16,8 @@
    "employer": "JPMorgan",
    "fetched": 673,
    "kept": 43,
-   "ads_read": 0,
-   "dated_from_ad": 0,
+   "ads_read": 36,
+   "dated_from_ad": 15,
    "removed_from_ad": 0
   },
   {
@@ -48,25 +48,25 @@
    "employer": "Barclays",
    "fetched": 63,
    "kept": 15,
-   "ads_read": 15,
-   "dated_from_ad": 4,
+   "ads_read": 0,
+   "dated_from_ad": 0,
    "removed_from_ad": 0
   },
   {
    "employer": "Deutsche Bank",
    "fetched": 33,
    "kept": 8,
-   "ads_read": 8,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
   {
    "employer": "Nomura",
    "fetched": 22,
-   "kept": 6,
+   "kept": 8,
    "ads_read": 9,
-   "dated_from_ad": 2,
-   "removed_from_ad": 3
+   "dated_from_ad": 4,
+   "removed_from_ad": 1
   },
   {
    "employer": "Mizuho",
@@ -80,8 +80,8 @@
    "employer": "MUFG",
    "fetched": 24,
    "kept": 9,
-   "ads_read": 7,
-   "dated_from_ad": 3,
+   "ads_read": 0,
+   "dated_from_ad": 0,
    "removed_from_ad": 0
   },
   {
@@ -112,7 +112,7 @@
    "employer": "BNY",
    "fetched": 355,
    "kept": 18,
-   "ads_read": 0,
+   "ads_read": 18,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -152,7 +152,7 @@
    "employer": "TD Securities",
    "fetched": 23,
    "kept": 7,
-   "ads_read": 7,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -200,7 +200,7 @@
    "employer": "Lazard",
    "fetched": 106,
    "kept": 10,
-   "ads_read": 0,
+   "ads_read": 6,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -208,7 +208,7 @@
    "employer": "BlackRock",
    "fetched": 13,
    "kept": 12,
-   "ads_read": 12,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -216,8 +216,8 @@
    "employer": "Schroders",
    "fetched": 76,
    "kept": 5,
-   "ads_read": 0,
-   "dated_from_ad": 0,
+   "ads_read": 5,
+   "dated_from_ad": 5,
    "removed_from_ad": 0
   },
   {
@@ -248,7 +248,7 @@
    "employer": "Invesco",
    "fetched": 5,
    "kept": 4,
-   "ads_read": 4,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -280,7 +280,7 @@
    "employer": "Arrowstreet Capital",
    "fetched": 2,
    "kept": 2,
-   "ads_read": 2,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -319,7 +319,7 @@
   {
    "employer": "IMC",
    "fetched": 170,
-   "kept": 11,
+   "kept": 10,
    "ads_read": 10,
    "dated_from_ad": 0,
    "removed_from_ad": 0
@@ -488,7 +488,7 @@
    "employer": "Gunvor",
    "fetched": 4,
    "kept": 1,
-   "ads_read": 1,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -504,7 +504,7 @@
    "employer": "Euronext",
    "fetched": 15,
    "kept": 2,
-   "ads_read": 2,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -520,7 +520,7 @@
    "employer": "CME Group",
    "fetched": 6,
    "kept": 1,
-   "ads_read": 1,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -528,7 +528,7 @@
    "employer": "Murex",
    "fetched": 11,
    "kept": 3,
-   "ads_read": 3,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -552,7 +552,7 @@
    "employer": "S&P Global",
    "fetched": 15,
    "kept": 9,
-   "ads_read": 6,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -567,10 +567,10 @@
   {
    "employer": "SCOR",
    "fetched": 153,
-   "kept": 11,
-   "ads_read": 0,
-   "dated_from_ad": 0,
-   "removed_from_ad": 0
+   "kept": 8,
+   "ads_read": 11,
+   "dated_from_ad": 2,
+   "removed_from_ad": 3
   },
   {
    "employer": "Zurich",
@@ -654,9 +654,9 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 15,
-   "kept": 1,
-   "ads_read": 1,
+   "fetched": 27,
+   "kept": 3,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -680,7 +680,7 @@
    "employer": "Lombard Odier",
    "fetched": 29,
    "kept": 8,
-   "ads_read": 8,
+   "ads_read": 0,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -696,7 +696,7 @@
    "employer": "Euroclear",
    "fetched": 57,
    "kept": 2,
-   "ads_read": 0,
+   "ads_read": 2,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -912,7 +912,7 @@
    "employer": "Cboe",
    "fetched": 100,
    "kept": 1,
-   "ads_read": 0,
+   "ads_read": 1,
    "dated_from_ad": 0,
    "removed_from_ad": 0
   },
@@ -951,10 +951,10 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 3,
-   "ads_read": 0,
+   "kept": 4,
+   "ads_read": 7,
    "dated_from_ad": 0,
-   "removed_from_ad": 0
+   "removed_from_ad": 3
   },
   {
    "employer": "Capital Group",

@@ -1,6 +1,68 @@
 {
- "generated_at": "2026-10-24T09:10:00+00:00",
+ "generated_at": "2026-10-24T09:32:25+00:00",
  "items": [
+  {
+   "id": "1019e5093206a264",
+   "title": "Prix des carburants : un décret en vue de la libération de stocks stratégiques de gazole publié au « Journal officiel »",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/24/prix-des-carburants-un-decret-en-vue-de-la-liberation-de-stocks-strategiques-de-gazole-publie-au-journal-officiel_6799684_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T09:20+00:00",
+   "summary": "Les distributeurs auront l’obligation de répercuter intégralement la baisse de prix. Cette répercussion peut avoir lieu par anticipation à compter du 1ᵉʳ novembre, selon le décret. Le gouvernement espère une baisse de 12 à 18 centimes par litre de gazole.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-24T09:32+00:00",
+   "score": 15
+  },
+  {
+   "id": "0414ecaab56c2de0",
+   "title": "Nexus Capital Management achète pour 2,25M$ d’actions de Rent the Runway",
+   "link": "https://fr.investing.com/news/insider-trading-news/nexus-capital-management-achete-pour-225m-dactions-de-rent-the-runway-93CH-3651791",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T09:17+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T09:32+00:00",
+   "score": 5
+  },
+  {
+   "id": "8a297a46a7d2e22a",
+   "title": "CHS US Investments acquiert 1,63M$ dans Rent the Runway (RENT)",
+   "link": "https://fr.investing.com/news/insider-trading-news/chs-us-investments-acquiert-163m-dans-rent-the-runway-rent-93CH-3651790",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T09:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T09:32+00:00",
+   "score": 5
+  },
+  {
+   "id": "83ca9119e6daeddf",
+   "title": "Le PDG d’Ibotta cède des actions IBTA pour environ 2,47 millions $",
+   "link": "https://fr.investing.com/news/insider-trading-news/le-pdg-dibotta-cede-des-actions-ibta-pour-environ-247-millions--93CH-3651789",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-24T09:02+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-24T09:32+00:00",
+   "score": 5
+  },
   {
    "id": "513d4433103ebd17",
    "title": "Neuf ans après l’incendie dramatique de la tour Grenfell, à Londres, la très lente mise aux normes des immeubles britanniques",
