@@ -1,13 +1,21 @@
 {
- "generated_at": "2026-10-24T08:28:24+00:00",
+ "generated_at": "2026-10-25T09:10:39+00:00",
  "employers_total": 143,
- "employers_failed": 0,
- "errors": [],
+ "employers_failed": 1,
+ "errors": [
+  {
+   "employer": "Deloitte",
+   "platform": "generic",
+   "careers_url": "https://www.deloitte.com/fr/fr/careers.html",
+   "error": "SSLError: HTTPSConnectionPool(host='apply.deloitte.com', port=443): Max retries exceeded with url: /en_US/careers/SearchJobs/?search=intern (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'apply.deloitte.com'. (_ssl.c:1016)\")))",
+   "at": "2026-10-25T09:13:32+00:00"
+  }
+ ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 17,
-   "kept": 5
+   "fetched": 7,
+   "kept": 1
   },
   {
    "employer": "JPMorgan",
@@ -21,8 +29,8 @@
   },
   {
    "employer": "Citi",
-   "fetched": 43,
-   "kept": 3
+   "fetched": 42,
+   "kept": 2
   },
   {
    "employer": "Bank of America",
@@ -96,8 +104,8 @@
   },
   {
    "employer": "TD Securities",
-   "fetched": 23,
-   "kept": 7
+   "fetched": 15,
+   "kept": 3
   },
   {
    "employer": "Scotiabank",
@@ -117,7 +125,7 @@
   {
    "employer": "Amundi",
    "fetched": 29,
-   "kept": 4
+   "kept": 5
   },
   {
    "employer": "Rothschild & Co",
@@ -126,7 +134,7 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 106,
+   "fetched": 105,
    "kept": 10
   },
   {
@@ -385,14 +393,9 @@
    "kept": 0
   },
   {
-   "employer": "Deloitte",
-   "fetched": 10,
-   "kept": 4
-  },
-  {
    "employer": "EY",
-   "fetched": 757,
-   "kept": 4
+   "fetched": 756,
+   "kept": 3
   },
   {
    "employer": "KPMG",
@@ -411,7 +414,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 25,
+   "fetched": 27,
    "kept": 3
   },
   {
@@ -511,7 +514,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 727,
+   "fetched": 726,
    "kept": 0
   },
   {
@@ -681,7 +684,7 @@
   },
   {
    "employer": "Alstom",
-   "fetched": 410,
+   "fetched": 407,
    "kept": 0
   },
   {
