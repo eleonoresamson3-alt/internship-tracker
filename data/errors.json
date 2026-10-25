@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-23T17:45:53+00:00",
+ "generated_at": "2026-10-24T08:28:24+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 7,
-   "kept": 3
+   "fetched": 17,
+   "kept": 5
   },
   {
    "employer": "JPMorgan",
-   "fetched": 670,
+   "fetched": 673,
    "kept": 43
   },
   {
@@ -22,12 +22,12 @@
   {
    "employer": "Citi",
    "fetched": 43,
-   "kept": 4
+   "kept": 3
   },
   {
    "employer": "Bank of America",
-   "fetched": 34,
-   "kept": 16
+   "fetched": 30,
+   "kept": 14
   },
   {
    "employer": "Barclays",
@@ -66,8 +66,8 @@
   },
   {
    "employer": "Jefferies",
-   "fetched": 42,
-   "kept": 15
+   "fetched": 0,
+   "kept": 0
   },
   {
    "employer": "BNY",
@@ -101,7 +101,7 @@
   },
   {
    "employer": "Scotiabank",
-   "fetched": 272,
+   "fetched": 273,
    "kept": 1
   },
   {
@@ -121,12 +121,12 @@
   },
   {
    "employer": "Rothschild & Co",
-   "fetched": 28,
-   "kept": 1
+   "fetched": 0,
+   "kept": 0
   },
   {
    "employer": "Lazard",
-   "fetched": 107,
+   "fetched": 106,
    "kept": 10
   },
   {
@@ -137,7 +137,7 @@
   {
    "employer": "Schroders",
    "fetched": 76,
-   "kept": 11
+   "kept": 5
   },
   {
    "employer": "Man Group",
@@ -171,7 +171,7 @@
   },
   {
    "employer": "AQR",
-   "fetched": 57,
+   "fetched": 56,
    "kept": 6
   },
   {
@@ -191,7 +191,7 @@
   },
   {
    "employer": "Jane Street",
-   "fetched": 221,
+   "fetched": 220,
    "kept": 8
   },
   {
@@ -202,7 +202,7 @@
   {
    "employer": "IMC",
    "fetched": 170,
-   "kept": 11
+   "kept": 10
   },
   {
    "employer": "Flow Traders",
@@ -236,12 +236,12 @@
   },
   {
    "employer": "Jump Trading",
-   "fetched": 95,
+   "fetched": 94,
    "kept": 14
   },
   {
    "employer": "Point72",
-   "fetched": 212,
+   "fetched": 211,
    "kept": 15
   },
   {
@@ -346,7 +346,7 @@
   },
   {
    "employer": "S&P Global",
-   "fetched": 14,
+   "fetched": 15,
    "kept": 9
   },
   {
@@ -376,7 +376,7 @@
   },
   {
    "employer": "Bank of England",
-   "fetched": 25,
+   "fetched": 24,
    "kept": 0
   },
   {
@@ -386,12 +386,12 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 9,
-   "kept": 3
+   "fetched": 10,
+   "kept": 4
   },
   {
    "employer": "EY",
-   "fetched": 758,
+   "fetched": 757,
    "kept": 4
   },
   {
@@ -401,8 +401,8 @@
   },
   {
    "employer": "PwC",
-   "fetched": 209,
-   "kept": 54
+   "fetched": 208,
+   "kept": 30
   },
   {
    "employer": "Forvis Mazars",
@@ -411,7 +411,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 27,
+   "fetched": 25,
    "kept": 3
   },
   {
@@ -446,8 +446,8 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 19,
-   "kept": 9
+   "fetched": 18,
+   "kept": 8
   },
   {
    "employer": "BBVA",
@@ -487,7 +487,7 @@
   {
    "employer": "Belvedere Trading",
    "fetched": 17,
-   "kept": 2
+   "kept": 1
   },
   {
    "employer": "Headlands Technologies",
@@ -511,7 +511,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 722,
+   "fetched": 727,
    "kept": 0
   },
   {
@@ -597,7 +597,7 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 2
+   "kept": 3
   },
   {
    "employer": "Capital Group",
@@ -646,12 +646,12 @@
   },
   {
    "employer": "Pernod Ricard",
-   "fetched": 97,
+   "fetched": 98,
    "kept": 0
   },
   {
    "employer": "Airbus",
-   "fetched": 71,
+   "fetched": 70,
    "kept": 0
   },
   {
@@ -661,7 +661,7 @@
   },
   {
    "employer": "Michelin",
-   "fetched": 51,
+   "fetched": 50,
    "kept": 0
   },
   {
@@ -696,7 +696,7 @@
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 95,
+   "fetched": 98,
    "kept": 0
   },
   {
@@ -706,17 +706,17 @@
   },
   {
    "employer": "Philips",
-   "fetched": 53,
+   "fetched": 55,
    "kept": 0
   },
   {
    "employer": "AB InBev",
-   "fetched": 62,
+   "fetched": 61,
    "kept": 0
   },
   {
    "employer": "Diageo",
-   "fetched": 0,
+   "fetched": 1,
    "kept": 0
   }
  ]

@@ -411,7 +411,7 @@ function renderStatus(generatedAt, errors) {
 
 // ---------------------------------------------------------------- filters
 
-const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-timing", "f-year", "f-date", "f-status", "f-score", "f-inactive", "f-hidden"];
+const FILTER_IDS = ["f-search", "f-employer", "f-type", "f-country", "f-family", "f-timing", "f-year", "f-date", "f-status", "f-score", "f-known", "f-inactive", "f-hidden"];
 
 function fillSelect(id, entries) {
   const select = $(id);
@@ -460,6 +460,7 @@ function currentFilters() {
     country: $("f-country").value,
     family: $("f-family").value,
     timing: $("f-timing").value,
+    known: $("f-known").checked,
     year: $("f-year").value,
     days: Number($("f-date").value) || 0,
     status: $("f-status").value,
@@ -516,6 +517,9 @@ function matches(job, f) {
     const ok = f.timing === "summer" ? key === "summer" || key === "june" : key === f.timing;
     if (!ok) return false;
   }
+  // Known start: a start month (earlier months are already filtered out when scraping),
+  // or a dated summer internship. "Off-cycle 2027" or no date at all may start in March.
+  if (f.known && !(/^\d{4}-\d{2}$/.test(job.start || "") || (job.timing === "summer" && /^\d{4}$/.test(job.start || "")))) return false;
   if (f.year === "__none" && job.start) return false;
   if (f.year && f.year !== "__none" && !(job.start || "").startsWith(f.year)) return false;
   if (f.days && daysAgo(job.first_seen) >= f.days) return false;
