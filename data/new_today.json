@@ -1,67 +1,203 @@
 {
- "generated_at": "2026-10-25T09:10:39+00:00",
- "date": "2026-10-25",
+ "generated_at": "2026-10-26T09:50:18+00:00",
+ "date": "2026-10-26",
  "jobs": [
   {
-   "id": "groupe-credit-agricole-1092fe8a5d10",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Finance Client Service - FUND CHANNEL H/F",
-   "location": "",
+   "id": "man-group-452b0644f4f3",
+   "employer": "Man Group",
+   "employer_type": "asset_manager",
+   "platform": "greenhouse",
+   "title": "Systematic Fast Trading Intern",
+   "location": "New York",
    "countries": [
-    "FR"
+    "US"
    ],
    "country_names": [
-    "France"
+    "United States"
    ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
    "score_breakdown": {
-    "role": 10,
-    "geo": 30,
+    "role": 30,
+    "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
+   "timing": "summer",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-124-stage---finance-client-service---fund-channel-hf-reference--2026-116351--/",
-   "posted_at": "",
-   "first_seen": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012801101",
+   "posted_at": "2026-10-25",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
    "active": true
   },
   {
-   "id": "amundi-244c11e5354d",
-   "employer": "Amundi",
+   "id": "invesco-e2bc9f635c52",
+   "employer": "Invesco",
    "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "STAGE - Finance Client Service - FUND CHANNEL H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
+   "platform": "workday",
+   "title": "Early Career Intern - Internal Sales (Global Liquidity)",
+   "location": "New York, New York",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 10,
+   "score": 22,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
+   "timing": "summer",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-finance-client-service-fund-channel-h-f_116351.aspx",
-   "posted_at": "",
-   "first_seen": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Internal-Sales--Global-Liquidity-_R-15865-1",
+   "posted_at": "2026-10-25",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-4c9d144fdc03",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank Risk Management Summer Analyst Program",
+   "location": "New York, NY, United States; Plano, TX, United States; Houston, TX, United States; Chicago, IL, United States; Dallas, TX, United States; Los Angeles, CA, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690781",
+   "posted_at": "2026-10-26",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "state-street-18e317ebf27a",
+   "employer": "State Street",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "State Street - Markets Rising Junior Summer Internship 2027",
+   "location": "Boston, Massachusetts",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street---Markets-Rising-Junior-Summer-Internship-2027_R-800244",
+   "posted_at": "2026-10-26",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "state-street-1dd09ce6f6b0",
+   "employer": "State Street",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "State Street - Markets Rising Senior Summer Internship 2027",
+   "location": "Boston, Massachusetts",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street---Markets-Rising-Senior-Summer-Internship-2027_R-800243",
+   "posted_at": "2026-10-26",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "state-street-a5f7220b6264",
+   "employer": "State Street",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "State Street - Undergraduate Finance Summer Internship 2027",
+   "location": "Boston, Massachusetts",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street---Undergraduate-Finance-Summer-Internship-2027_R-800242",
+   "posted_at": "2026-10-26",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
    "active": true
   }
  ]
