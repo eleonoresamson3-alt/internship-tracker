@@ -1,6 +1,490 @@
 {
- "generated_at": "2026-10-24T08:37:13+00:00",
+ "generated_at": "2026-10-25T09:21:08+00:00",
  "items": [
+  {
+   "id": "62c88a936e6400ef",
+   "title": "Goldman Sachs réduit de 25% son objectif pour le Kospi face à la vente d’actions IA",
+   "link": "https://fr.investing.com/news/stock-market-news/goldman-sachs-reduit-de-25-son-objectif-pour-le-kospi-face-a-la-vente-dactions-ia-3651880",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T08:50+00:00",
+   "summary": "",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 15
+  },
+  {
+   "id": "34f6743fd37ffbd9",
+   "title": "Xencor présente des données de phase 1 pour le médicament anticancéreux XmAb819",
+   "link": "https://fr.investing.com/news/company-news/xencor-presente-des-donnees-de-phase-1-pour-le-medicament-anticancereux-xmab819-93CH-3651877",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T08:41+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "9d9696b554ceb717",
+   "title": "Le président et directeur financier d’Anixa Biosciences achète des actions pour 15.620$",
+   "link": "https://fr.investing.com/news/insider-trading-news/le-president-et-directeur-financier-danixa-biosciences-achete-des-actions-pour-15620-93CH-3651876",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T08:31+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "5f4f942975149e76",
+   "title": "Kim Jong Un effectue une visite surprise en Chine, renforçant les liens bilatéraux",
+   "link": "https://fr.investing.com/news/economy-news/kim-jong-un-effectue-une-visite-surprise-en-chine-renforcant-les-liens-bilateraux-3651875",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T08:17+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "f0bbb06870c4a5dc",
+   "title": "5 grands mouvements d’analystes sur l’IA : des mois \"riches en catalyseurs\" pour SpaceX",
+   "link": "https://fr.investing.com/news/stock-market-news/5-grands-mouvements-danalystes-sur-lia--des-mois-riches-en-catalyseurs-pour-spacex-3651872",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T07:49+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "e6315953206dc093",
+   "title": "BioNTech et Bristol Myers publient des données sur un essai contre le cancer du poumon",
+   "link": "https://fr.investing.com/news/company-news/biontech-et-bristol-myers-publient-des-donnees-sur-un-essai-contre-le-cancer-du-poumon-93CH-3651870",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T07:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "9decf2e0254f41f9",
+   "title": "La restriction de l’immigration au Royaume-Uni menace le secteur des soins évalué à 15 milliards £",
+   "link": "https://fr.investing.com/news/economy-news/la-restriction-de-limmigration-au-royaumeuni-menace-le-secteur-des-soins-evalue-a-15-milliards--3651868",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T07:23+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "468eb1cc8d2daa42",
+   "title": "La « fatigue informationnelle » touche de plus en plus de Français",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/25/la-fatigue-informationnelle-touche-de-plus-en-plus-de-francais_6800054_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-25T07:00+00:00",
+   "summary": "La troisième vague de l’enquête de L’Observatoire Société & Consommation et de la Fondation Jean Jaurès fait apparaître que 55 % des Français cherchent désormais à se protéger de l’information, en s’impliquant moins dans sa recherche et sa consultation. Ce qui n’est pas sans risque pour le débat démocratique.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 20
+  },
+  {
+   "id": "14066a67b6048199",
+   "title": "Un nouveau timbre créé par l’artiste urbain C215 : « Je crois que mes peintures peuvent réellement aider à changer le monde »",
+   "link": "https://www.lemonde.fr/argent/article/2026/10/25/un-nouveau-timbre-cree-par-l-artiste-urbain-c215-je-crois-que-mes-peintures-peuvent-reellement-aider-a-changer-le-monde_6800053_1657007.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-25T07:00+00:00",
+   "summary": "L’artiste C215 signe pour les Terres australes et antarctiques françaises un timbre qui représente un manchot avec une paire de lunettes de soleil. Une façon de traiter avec humour la question du dérèglement climatique qui menace ces régions.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "75a56e49dc2a0243",
+   "title": "Les Émirats Arabes Unis ferment davantage de plages après une marée noire dans le Golfe",
+   "link": "https://fr.investing.com/news/economy-news/les-emirats-arabes-unis-ferment-davantage-de-plages-apres-une-maree-noire-dans-le-golfe-3651866",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T06:41+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "fc9b4cd5e30727f5",
+   "title": "Jewett Cameron : AJB Investment Fund II acquiert 7.565$ de parts",
+   "link": "https://fr.investing.com/news/insider-trading-news/jewett-cameron--ajb-investment-fund-ii-acquiert-7565-de-parts-93CH-3651865",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T06:32+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "e119ac0c5a45f34a",
+   "title": "Un administrateur du TCW Strategic Income Fund acquiert des actions pour 267.239$",
+   "link": "https://fr.investing.com/news/insider-trading-news/un-administrateur-du-tcw-strategic-income-fund-acquiert-des-actions-pour-267239-93CH-3651864",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-25T06:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "448daf615bb4b1e6",
+   "title": "Pour le couturier Julien Fournié, « le bon timbre va raconter au bon moment la bonne histoire »",
+   "link": "https://www.lemonde.fr/argent/article/2026/10/25/pour-le-couturier-julien-fournie-le-bon-timbre-va-raconter-au-bon-moment-la-bonne-histoire_6800050_1657007.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-25T06:00+00:00",
+   "summary": "Le styliste Julien Fournié a créé, pour les Terres australes et antarctiques françaises, un timbre représentant le mystérieux paysage nocturne d’une aurore australe, dont les tons font écho à l’univers graphique de sa maison de haute couture.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "239aca7f871850af",
+   "title": "Mercuria challenging the ‘Dow Jones of shipping’ in court after Hormuz losses",
+   "link": "https://www.ft.com/content/eedb7159-65df-45de-91f9-fde8de99e61c?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-25T05:00+00:00",
+   "summary": "Case will test the Baltic Exchange’s decision to keep publishing price estimates for shipping oil through the Strait of Hormuz during the war",
+   "themes": [
+    "equities",
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 27
+  },
+  {
+   "id": "fe34e209620708b3",
+   "title": "The Black Sea is now the world’s deadliest shipping route",
+   "link": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-25T05:00+00:00",
+   "summary": "Fatalities of commercial sailors caught in battle between Russia and Ukraine are outstripping deaths in the Gulf",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "aad8a9bbe86cd580",
+   "title": "Mobilisation sociale : « Les syndicats, qui devaient canaliser la colère, ne jouent plus leur rôle »",
+   "link": "https://www.lemonde.fr/idees/article/2026/10/25/mobilisation-sociale-les-syndicats-qui-devaient-canaliser-la-colere-ne-jouent-plus-leur-role_6800034_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-25T04:30+00:00",
+   "summary": "Les débordements observés dans les manifestations s’expliquent d’abord par la dérive de notre modèle social, qui a entraîné une baisse du taux de syndicalisation, rappellent les économistes Pierre Cahuc et André Zylberberg, dans une tribune au « Monde ».",
+   "themes": [
+    "vol_derivatives"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 40
+  },
+  {
+   "id": "3c4c9fce1c2fb20c",
+   "title": "Pour identifier le recours à l’IA dans les œuvres, la musique affiche une sérieuse avance sur l’édition et le cinéma",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/25/pour-identifier-le-recours-a-l-ia-dans-les-uvres-la-musique-affiche-une-serieuse-avance-sur-l-edition-et-le-cinema_6800033_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-25T04:30+00:00",
+   "summary": "Si les plateformes de streaming musical collent déjà une étiquette sur les titres générés par intelligence artificielle, le chemin reste long avant une transparence réelle sur le sujet dans les livres ou les films. Quelques initiatives existent, en revanche, dans la photographie.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "8e1038a4965fd339",
+   "title": "« Je n’ai pas la force de lutter contre l’IA » : face aux ravages de l’automatisation, une partie des jeunes se tourne vers des métiers manuels",
+   "link": "https://www.lemonde.fr/campus/article/2026/10/25/je-n-ai-pas-la-force-de-lutter-contre-l-ia-face-aux-ravages-de-l-automatisation-une-partie-des-jeunes-se-tourne-vers-des-metiers-manuels_6800031_4401467.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-25T04:30+00:00",
+   "summary": "De jeunes actifs, dont la profession a été vidée de son sens par l’intelligence artificielle générative, décident de se reconvertir dans des secteurs préservés.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "a29356d1d690ea58",
+   "title": "Co-operate to avoid being hostage to geopolitics, Australia tells ‘middle powers’",
+   "link": "https://www.ft.com/content/653f5a48-94f5-4e92-86dd-7d118e8849a8?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-10-25T01:00+00:00",
+   "summary": "Jim Chalmers argues economic security and bolstering supply chains would benefit consumers",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "38bfe08d353a7995",
+   "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+   "link": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-24T19:45+00:00",
+   "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "265c8b80ce645bbf",
+   "title": "I’m 58 and hate annuities. How can I get dependable income in retirement?",
+   "link": "https://www.marketwatch.com/story/im-58-and-hate-annuities-how-can-i-get-dependable-income-in-retirement-cd6040f4?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-24T18:03+00:00",
+   "summary": "For a person looking to make their portfolio more conservative, a TIPS ladder may achieve the same effect",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "07e8a595b0143fca",
+   "title": "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath",
+   "link": "https://www.marketwatch.com/story/elon-musk-promised-a-spacex-share-to-every-kid-in-america-dont-hold-your-breath-d6572cdf?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-24T16:59+00:00",
+   "summary": "Trick or treat? Musk has a long record of saying things have little relation to reality.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "f5ebcbbd19551192",
+   "title": "The Social Security Administration wants more babies signed up for ‘Trump accounts.’ But there’s still a catch.",
+   "link": "https://www.marketwatch.com/story/the-social-security-administration-wants-more-babies-signed-up-for-trump-accounts-but-theres-still-a-catch-4096f16e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-24T16:46+00:00",
+   "summary": "Social Security is looking to reverse an initially slow uptake on Trump accounts",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "fe74850842f31875",
+   "title": "North Korea’s Kim crosses new China border bridge to reaffirm ties",
+   "link": "https://www.ft.com/content/fd106d25-3abf-4729-be26-683d1d115d2e?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-10-24T15:44+00:00",
+   "summary": "Beijing is concerned that Pyongyang and Moscow are forging a stronger relationship, say analysts",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "51cbb8246ef97e4c",
+   "title": "« La discipline budgétaire et l’ambition productive ne peuvent pas être concurrentes, la France a besoin des deux »",
+   "link": "https://www.lemonde.fr/idees/article/2026/10/24/la-discipline-budgetaire-et-l-ambition-productive-ne-peuvent-pas-etre-concurrentes-la-france-a-besoin-des-deux_6799700_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T12:00+00:00",
+   "summary": "Ce n’est pas seulement le niveau de la dépense qui détermine la croissance, mais sa destination, estiment Mathias Girard, directeur des affaires publiques de France Chimie, et Olivier Redoulès, directeur des études de Rexecode, dans une tribune au « Monde ».",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 20
+  },
+  {
+   "id": "51e4c740bab4d2d9",
+   "title": "En images. Manifestations du 24 octobre : un dispositif policier important, des premiers rassemblements assez calmes",
+   "link": "https://www.lemonde.fr/flux-video-immersif/video/2026/10/24/en-images-manifestations-du-24-octobre-un-dispositif-policier-important-des-premiers-rassemblements-assez-calmes_6799697_6717263.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T11:45+00:00",
+   "summary": "« Gilets jaunes », syndicats, lycéens et étudiants doivent défiler, ce samedi, lors d’une nouvelle journée de mobilisation dans un contexte de très forte tension, à la suite de l’interdiction de nombreux cortèges, et sous très haute sécurité.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "ba04bcc513277bfc",
+   "title": "«Notre crainte est que le marché du crédit reste volatil»",
+   "link": "https://www.agefi.fr/news/economie-marches/notre-crainte-est-que-le-marche-du-credit-reste-volatil",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-24T11:00+00:00",
+   "summary": "Benoist Grasset, gérant high yield chez Generali Investments",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 25
+  },
+  {
+   "id": "0653e922640dbff4",
+   "title": "«Les marchés ne semblent pas croire à une appréciation durable du yen»",
+   "link": "https://www.agefi.fr/news/economie-marches/les-marches-ne-semblent-pas-croire-a-une-appreciation-durable-du-yen",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-10-24T10:53+00:00",
+   "summary": "Christopher Dembik, conseiller en stratégie d'investissement chez Pictet AM.",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 20
+  },
+  {
+   "id": "6b3961efdeae9688",
+   "title": "French government and corporate bond yields are converging",
+   "link": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-10-24T09:30+00:00",
+   "summary": "Some companies’ bonds now yield less than government bonds",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 25
+  },
+  {
+   "id": "1019e5093206a264",
+   "title": "Prix des carburants : un décret en vue de la libération de stocks stratégiques de gazole publié au « Journal officiel »",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/24/prix-des-carburants-un-decret-en-vue-de-la-liberation-de-stocks-strategiques-de-gazole-publie-au-journal-officiel_6799684_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T09:20+00:00",
+   "summary": "Les distributeurs auront l’obligation de répercuter intégralement la baisse de prix. Cette répercussion peut avoir lieu par anticipation à compter du 1ᵉʳ novembre, selon le décret. Le gouvernement espère une baisse de 12 à 18 centimes par litre de gazole.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 15
+  },
+  {
+   "id": "513d4433103ebd17",
+   "title": "Neuf ans après l’incendie dramatique de la tour Grenfell, à Londres, la très lente mise aux normes des immeubles britanniques",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/24/neuf-ans-apres-l-incendie-dramatique-de-la-tour-grenfell-a-londres-la-tres-lente-mise-aux-normes-des-immeubles-britanniques_6799682_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-24T09:00+00:00",
+   "summary": "Moins de 40 % des immeubles britanniques recouverts d’un dangereux revêtement inflammable ont été assainis depuis le drame qui a causé la mort de 72 personnes en 2017. Le gouvernement a déposé un projet de loi pour accélérer les rénovations et soulager les habitants concernés.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-25T09:21+00:00",
+   "score": 5
+  },
   {
    "id": "759af84a5ac95942",
    "title": "Compass Therapeutics publie les résultats de l’essai tovecimig dans le JCO",
@@ -8618,39 +9102,6 @@
    "official": true,
    "first_seen": "2026-10-23T11:24+00:00",
    "score": 25
-  },
-  {
-   "id": "a09909ffdb688fe7",
-   "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-   "source": "Fed",
-   "sources": [
-    "Fed"
-   ],
-   "published": "2026-09-24T18:30+00:00",
-   "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-   "themes": [
-    "central_banks",
-    "regulation"
-   ],
-   "official": true,
-   "first_seen": "2026-10-23T11:24+00:00",
-   "score": 60
-  },
-  {
-   "id": "0046503ca40e8a75",
-   "title": "How policymakers’ speeches and interviews move markets",
-   "link": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20260924~3240af33dc.en.html",
-   "source": "BCE – Blog",
-   "sources": [
-    "BCE – Blog"
-   ],
-   "published": "2026-09-24T10:00+00:00",
-   "summary": "",
-   "themes": [],
-   "official": true,
-   "first_seen": "2026-10-23T11:59+00:00",
-   "score": 15
   }
  ]
 }
