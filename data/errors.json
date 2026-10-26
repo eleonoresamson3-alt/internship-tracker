@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T09:50:18+00:00",
+ "generated_at": "2026-10-26T10:10:12+00:00",
  "employers_total": 143,
  "employers_failed": 2,
  "errors": [
@@ -8,14 +8,14 @@
    "platform": "workday",
    "careers_url": "https://gunvorgroup.com/careers/",
    "error": "HTTPError: 404 Client Error: Not Found for url: https://gunvor.wd3.myworkdayjobs.com/wday/cxs/gunvor/Gunvor_Careers/jobs",
-   "at": "2026-10-26T09:52:26+00:00"
+   "at": "2026-10-26T10:12:35+00:00"
   },
   {
    "employer": "Deloitte",
    "platform": "generic",
    "careers_url": "https://www.deloitte.com/fr/fr/careers.html",
    "error": "SSLError: HTTPSConnectionPool(host='apply.deloitte.com', port=443): Max retries exceeded with url: /en_US/careers/SearchJobs/?search=intern (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'apply.deloitte.com'. (_ssl.c:1016)\")))",
-   "at": "2026-10-26T09:53:04+00:00"
+   "at": "2026-10-26T10:13:16+00:00"
   }
  ],
  "stats": [
@@ -41,8 +41,8 @@
   },
   {
    "employer": "Bank of America",
-   "fetched": 0,
-   "kept": 0
+   "fetched": 28,
+   "kept": 13
   },
   {
    "employer": "Barclays",
@@ -136,8 +136,8 @@
   },
   {
    "employer": "Rothschild & Co",
-   "fetched": 0,
-   "kept": 0
+   "fetched": 27,
+   "kept": 1
   },
   {
    "employer": "Lazard",
@@ -336,7 +336,7 @@
   },
   {
    "employer": "CME Group",
-   "fetched": 6,
+   "fetched": 5,
    "kept": 1
   },
   {
@@ -366,7 +366,7 @@
   },
   {
    "employer": "SCOR",
-   "fetched": 153,
+   "fetched": 152,
    "kept": 12
   },
   {
@@ -656,7 +656,7 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 70,
+   "fetched": 71,
    "kept": 0
   },
   {
@@ -696,7 +696,7 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 21,
+   "fetched": 23,
    "kept": 0
   },
   {

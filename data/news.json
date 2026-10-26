@@ -1,6 +1,177 @@
 {
- "generated_at": "2026-10-26T10:00:47+00:00",
+ "generated_at": "2026-10-26T10:21:03+00:00",
  "items": [
+  {
+   "id": "26998135a717f7b3",
+   "title": "My wife has only $80,000 saved for retirement. I have $2.2 million. Am I wrong to be shocked?",
+   "link": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-26T10:15+00:00",
+   "summary": "“When I brought up retiring last spring, she said she was ready whenever I was, and I took that to mean we were in good shape.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "55a815ddaf05850d",
+   "title": "UBS réduit son objectif de cours sur Dutch Bros en raison des perspectives de résultats",
+   "link": "https://fr.investing.com/news/analyst-ratings/ubs-reduit-son-objectif-de-cours-sur-dutch-bros-en-raison-des-perspectives-de-resultats-93CH-3652550",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:11+00:00",
+   "summary": "",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 15
+  },
+  {
+   "id": "0ab107a97e0a6485",
+   "title": "Les disques HAMR de Seagate approuvés par Broadcom pour les data centers",
+   "link": "https://fr.investing.com/news/company-news/les-disques-hamr-de-seagate-approuves-par-broadcom-pour-les-data-centers-93CH-3652546",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:09+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "059d78db6539ec81",
+   "title": "Eikon présente des données d’essai pour son candidat médicament EIK1001 contre le cancer du poumon",
+   "link": "https://fr.investing.com/news/company-news/eikon-presente-des-donnees-dessai-pour-son-candidat-medicament-eik1001-contre-le-cancer-du-poumon-93CH-3652545",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:09+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "758e6cfb24a1c3d1",
+   "title": "Glass Lewis soutient les candidats de Bergeron chez Ethan Allen",
+   "link": "https://fr.investing.com/news/company-news/glass-lewis-soutient-les-candidats-de-bergeron-chez-ethan-allen-93CH-3652544",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:09+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "2b4737ff335815a8",
+   "title": "Coloured Ties Capital annonce un placement privé pouvant atteindre 1,2 M$ CA",
+   "link": "https://fr.investing.com/news/company-news/coloured-ties-capital-annonce-un-placement-prive-pouvant-atteindre-12-m-ca-93CH-3652543",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:09+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "682861973dfaaf06",
+   "title": "Cinq choses à surveiller sur les marchés cette semaine",
+   "link": "https://fr.investing.com/news/economy-news/cinq-choses-a-surveiller-sur-les-marches-la-semaine-prochaine-3652535",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:06+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "25a26969de112509",
+   "title": "BTIG réitère son avis d’achat sur Perspective Therapeutics après les données",
+   "link": "https://fr.investing.com/news/analyst-ratings/btig-reitere-son-avis-dachat-sur-perspective-therapeutics-apres-les-donnees-93CH-3652525",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:05+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "3d77adf09409b603",
+   "title": "EQT acquiert Range Resources dans un accord en actions de 50 milliards $",
+   "link": "https://fr.investing.com/news/company-news/eqt-acquiert-range-resources-dans-un-accord-en-actions-de-50-milliards--93CH-3652522",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:05+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 5
+  },
+  {
+   "id": "6f30c09bf1fc6d4c",
+   "title": "Snowline Gold nomme Randy Smallwood à son conseil d’administration",
+   "link": "https://fr.investing.com/news/company-news/snowline-gold-nomme-randy-smallwood-a-son-conseil-dadministration-93CH-3652521",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-26T10:05+00:00",
+   "summary": "",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 20
+  },
+  {
+   "id": "8c8e6a2753dde817",
+   "title": "Dette française : « Le seul signal donné par Moody’s, c’est que le moment est trop inflammable pour craquer une allumette »",
+   "link": "https://www.lemonde.fr/economie/article/2026/10/26/dette-francaise-le-seul-signal-donne-par-moody-s-c-est-que-le-moment-est-trop-inflammable-pour-craquer-une-allumette_6800674_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-10-26T10:00+00:00",
+   "summary": "L’agence américaine a maintenu la notation de la France à Aa3, vendredi, malgré l’incapacité du pays à redresser sa trajectoire budgétaire. Depuis la crise grecque de 2010, où elles avaient été accusées de jouer les pyromanes, les agences préfèrent prendre leur temps, analyse Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-10-26T10:21+00:00",
+   "score": 25
+  },
   {
    "id": "e60e698c1892e5b8",
    "title": "Cheesecake Factory was just the subject of unflattering headlines. It’s actually one of the hottest stocks around.",

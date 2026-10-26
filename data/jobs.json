@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T09:50:18+00:00",
+ "generated_at": "2026-10-26T10:10:12+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -2047,6 +2047,35 @@
    "deadline_source": "estimée",
    "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2027_R1505",
    "posted_at": "2026-08-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-cac1ee7ed365",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Quantitative Research Summer Associate Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14896-Global-Quantitative-Research-Summer-Associate-Program-2027/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-26",
    "active": true
@@ -4473,6 +4502,39 @@
    "active": true
   },
   {
+   "id": "bank-of-america-2034c25c94a7",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Sales and Trading 2027 Off-Cycle Analyst - Stockholm",
+   "location": "",
+   "countries": [
+    "SE"
+   ],
+   "country_names": [
+    "Sweden"
+   ],
+   "region": "Europe (other)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 48,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 12,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15032-Global-Markets-Sales-and-Trading-2027-Off-Cycle-Analyst-Stockholm/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
    "id": "bny-afc9ea066e87",
    "employer": "BNY",
    "employer_type": "intl_bank",
@@ -5761,6 +5823,192 @@
    "deadline_source": "estimée",
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81350",
    "posted_at": "2026-08-24",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-a023a63517da",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Credit 2027 Summer Analyst - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 42,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14670-Global-Markets-Credit-2027-Summer-Analyst-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-543c54506d45",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Sales & Trading Summer Associate Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14770-Global-Markets-Sales-Trading-Summer-Associate-Program-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-4f248bf8ba06",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Quantitative Strategies Summer Associate - 2027 - Singapore",
+   "location": "",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15094-Global-Quantitative-Strategies-Summer-Associate-2027-Singapore/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-85ceca99fb87",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Leasing Credit – Global Vendor Finance and International Asset Finance, 2027 Summer Analyst - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 42,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14683-Leasing-Credit-Global-Vendor-Finance-and-International-Asset-Finance-2027-Summer-Analyst-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-5373b71dea04",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Quantitative Data Analytics Summer Analyst Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14420-Quantitative-Data-Analytics-Summer-Analyst-Program-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-52714ac84759",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Quantitative Strategies & Data Group Summer Associate Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14894-Quantitative-Strategies-Data-Group-Summer-Associate-Program-2027/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-26",
    "active": true
@@ -8546,6 +8794,39 @@
    "active": true
   },
   {
+   "id": "bank-of-america-403eaf4e5ae2",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Brazil Fixed Income Sales & Trading Desk Internship Program",
+   "location": "",
+   "countries": [
+    "BR"
+   ],
+   "country_names": [
+    "Brazil"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 30,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14455-2027-Brazil-Fixed-Income-Sales-Trading-Desk-Internship-Program/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
    "id": "blackrock-61cc0548f4b0",
    "employer": "BlackRock",
    "employer_type": "asset_manager",
@@ -11029,6 +11310,101 @@
    "active": true
   },
   {
+   "id": "bank-of-america-c1731922e5fb",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Capital Markets Summer Analyst - 2027 - Seoul",
+   "location": "",
+   "countries": [
+    "KR"
+   ],
+   "country_names": [
+    "South Korea"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14357-Global-Capital-Markets-Summer-Analyst-2027-Seoul/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-192bb4c4ca0b",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Jakarta",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14368-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Jakarta/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-6c8fe15ec40f",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Kuala Lumpur",
+   "location": "",
+   "countries": [
+    "MY"
+   ],
+   "country_names": [
+    "Malaysia"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14358-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Kuala-Lumpur/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
    "id": "barclays-3088e9d6772a",
    "employer": "Barclays",
    "employer_type": "intl_bank",
@@ -13005,6 +13381,35 @@
    "active": true
   },
   {
+   "id": "rothschild-co-0dd0a3d9abf0",
+   "employer": "Rothschild & Co",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage Global Advisory / Equity Capital Markets – Juillet 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027-07",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1023-Stage-Global-Advisory-Equity-Capital-Markets-Juillet-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
    "id": "santander-cib-f4672d49d119",
    "employer": "Santander CIB",
    "employer_type": "intl_bank",
@@ -13449,6 +13854,39 @@
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://www.careers.zurich.com/job/New-York-Sr_-Investment-Management-Internship-Summer-2027-NY-10001/1372475857/",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-0f0efb901780",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Capital Markets Off-Cycle Analyst - 2027 - Seoul",
+   "location": "",
+   "countries": [
+    "KR"
+   ],
+   "country_names": [
+    "South Korea"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 16,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15135-Global-Capital-Markets-Off-Cycle-Analyst-2027-Seoul/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-26",
@@ -16155,35 +16593,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-cac1ee7ed365",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Quantitative Research Summer Associate Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14896-Global-Quantitative-Research-Summer-Associate-Program-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
    "id": "optiver-71cca9464b01",
    "employer": "Optiver",
    "employer_type": "hedge_fund",
@@ -17266,39 +17675,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-2034c25c94a7",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Sales and Trading 2027 Off-Cycle Analyst - Stockholm",
-   "location": "",
-   "countries": [
-    "SE"
-   ],
-   "country_names": [
-    "Sweden"
-   ],
-   "region": "Europe (other)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 48,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 12,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15032-Global-Markets-Sales-and-Trading-2027-Off-Cycle-Analyst-Stockholm/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
    "id": "td-securities-a1b7713e18c5",
    "employer": "TD Securities",
    "employer_type": "intl_bank",
@@ -17611,101 +17987,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-a023a63517da",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Credit 2027 Summer Analyst - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14670-Global-Markets-Credit-2027-Summer-Analyst-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-543c54506d45",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Sales & Trading Summer Associate Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14770-Global-Markets-Sales-Trading-Summer-Associate-Program-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-4f248bf8ba06",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Quantitative Strategies Summer Associate - 2027 - Singapore",
-   "location": "",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15094-Global-Quantitative-Strategies-Summer-Associate-2027-Singapore/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
    "id": "bank-of-america-e563de311c66",
    "employer": "Bank of America",
    "employer_type": "intl_bank",
@@ -17733,97 +18014,6 @@
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14720-Global-Research-2027-Summer-Analyst-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-85ceca99fb87",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Leasing Credit – Global Vendor Finance and International Asset Finance, 2027 Summer Analyst - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14683-Leasing-Credit-Global-Vendor-Finance-and-International-Asset-Finance-2027-Summer-Analyst-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-5373b71dea04",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Quantitative Data Analytics Summer Analyst Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14420-Quantitative-Data-Analytics-Summer-Analyst-Program-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-52714ac84759",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Quantitative Strategies & Data Group Summer Associate Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14894-Quantitative-Strategies-Data-Group-Summer-Associate-Program-2027/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-25",
@@ -18629,39 +18819,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-403eaf4e5ae2",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Brazil Fixed Income Sales & Trading Desk Internship Program",
-   "location": "",
-   "countries": [
-    "BR"
-   ],
-   "country_names": [
-    "Brazil"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 30,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14455-2027-Brazil-Fixed-Income-Sales-Trading-Desk-Internship-Program/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
    "id": "belvedere-trading-0aa91ce0b93c",
    "employer": "Belvedere Trading",
    "employer_type": "hedge_fund",
@@ -18818,101 +18975,6 @@
    "posted_at": "2026-10-21",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-c1731922e5fb",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Capital Markets Summer Analyst - 2027 - Seoul",
-   "location": "",
-   "countries": [
-    "KR"
-   ],
-   "country_names": [
-    "South Korea"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14357-Global-Capital-Markets-Summer-Analyst-2027-Seoul/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-192bb4c4ca0b",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Jakarta",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14368-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Jakarta/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-6c8fe15ec40f",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Kuala Lumpur",
-   "location": "",
-   "countries": [
-    "MY"
-   ],
-   "country_names": [
-    "Malaysia"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14358-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Kuala-Lumpur/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
    "active": false
   },
   {
@@ -19081,35 +19143,6 @@
    "active": false
   },
   {
-   "id": "rothschild-co-0dd0a3d9abf0",
-   "employer": "Rothschild & Co",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage Global Advisory / Equity Capital Markets – Juillet 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027-07",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1023-Stage-Global-Advisory-Equity-Capital-Markets-Juillet-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
    "id": "s-p-global-04a2a4df534c",
    "employer": "S&P Global",
    "employer_type": "software",
@@ -19235,39 +19268,6 @@
    "posted_at": "2026-10-21",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-22",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-0f0efb901780",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Capital Markets Off-Cycle Analyst - 2027 - Seoul",
-   "location": "",
-   "countries": [
-    "KR"
-   ],
-   "country_names": [
-    "South Korea"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15135-Global-Capital-Markets-Off-Cycle-Analyst-2027-Seoul/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
    "active": false
   },
   {
