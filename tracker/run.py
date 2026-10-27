@@ -14,12 +14,13 @@ import sys
 import time
 import traceback
 from concurrent.futures import ThreadPoolExecutor
+from dataclasses import replace
 from datetime import date, datetime, timezone
 from urllib.parse import urlsplit
 
 import yaml
 
-from . import config, deadlines, filters, geo, gha, scoring, store, timing
+from . import config, deadlines, enrich, filters, geo, gha, scoring, store, timing
 from .adapters import get_adapter
 from .http import PoliteClient
 from .models import RawJob, Target
@@ -98,7 +99,7 @@ def to_record(target: Target, raw: RawJob) -> dict | None:
     }
 
 
-def scrape_one(target: Target, http: PoliteClient):
+def scrape_one(target: Target, http: PoliteClient, cache: enrich.StartDateCache | None = None):
     """Returns (records, error, stat, debug_titles) for one employer; never raises."""
     started = datetime.now(timezone.utc)
     try:
@@ -113,24 +114,42 @@ def scrape_one(target: Target, http: PoliteClient):
             "error": f"{type(exc).__name__}: {exc}"[:500],
             "at": started.isoformat(timespec="seconds"),
         }, None, []
-    kept = [r for r in (to_record(target, raw) for raw in raw_jobs) if r]
+    kept, read, dated, removed = [], 0, 0, 0
+    for raw in raw_jobs:
+        record = to_record(target, raw)
+        if record and cache is not None and len(record["start"]) != 7:
+            # No start month in the title: look for it in the ad itself (tracker/enrich.py).
+            text = enrich.lookup(record["id"], record["url"], http, cache, date.today())
+            if text:
+                read += 1
+                again = to_record(target, replace(raw, description=f"{raw.description} {text}"))
+                if again is None:
+                    removed += 1           # the ad says it starts too early (or is closed)
+                    log.info("%-35s removed after reading the ad: %s", target.name, record["title"][:80])
+                elif len(again["start"]) == 7:
+                    dated += 1
+                record = again
+        if record:
+            kept.append(record)
     log.info("%-35s %4d offers fetched, %3d kept", target.name, len(raw_jobs), len(kept))
     titles = sorted({f"{r.title} | {r.location}" for r in raw_jobs})
-    return kept, None, {"employer": target.name, "fetched": len(raw_jobs), "kept": len(kept)}, titles
+    return kept, None, {"employer": target.name, "fetched": len(raw_jobs), "kept": len(kept),
+                        "ads_read": read, "dated_from_ad": dated, "removed_from_ad": removed}, titles
 
 
 def scrape(targets: list[Target], http: PoliteClient, debug: dict | None = None,
-           workers: int = config.WORKERS, retry_delay: int = config.RETRY_DELAY):
+           workers: int = config.WORKERS, retry_delay: int = config.RETRY_DELAY,
+           cache: enrich.StartDateCache | None = None):
     records, errors, stats = [], [], []
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        results = list(pool.map(lambda t: scrape_one(t, http), targets))
+        results = list(pool.map(lambda t: scrape_one(t, http, cache), targets))
         # Platforms have short outages (Workday maintenance, rate limits): failed
         # employers get a second chance after a pause.
         retry = [i for i, r in enumerate(results) if r[1]]
         if retry and retry_delay:
             log.info("retrying %d failed employer(s) in %d s", len(retry), retry_delay)
             time.sleep(retry_delay)
-            for i, again in zip(retry, pool.map(lambda i: scrape_one(targets[i], http), retry)):
+            for i, again in zip(retry, pool.map(lambda i: scrape_one(targets[i], http, cache), retry)):
                 if not again[1]:
                     results[i] = again
     for target, (kept, error, stat, titles) in zip(targets, results):
@@ -163,7 +182,8 @@ def main(argv=None) -> int:
     run_date = now.date().isoformat()
 
     debug = {} if args.debug_titles else None
-    records, errors, stats = scrape(targets, PoliteClient(), debug)
+    cache = None if args.dry_run else enrich.StartDateCache()
+    records, errors, stats = scrape(targets, PoliteClient(), debug, cache=cache)
     if debug is not None:
         store.save_json(config.DATA_DIR / "debug_titles.json", debug)
     records = store.dedupe(records)
@@ -185,6 +205,7 @@ def main(argv=None) -> int:
     generated_at = now.isoformat(timespec="seconds")
 
     store.save_json(config.JOBS_FILE, {"generated_at": generated_at, "jobs": jobs})
+    cache.save({j["id"] for j in jobs})
     store.save_json(config.NEW_TODAY_FILE, {"generated_at": generated_at, "date": run_date, "jobs": fresh})
     store.save_json(config.ERRORS_FILE, {
         "generated_at": generated_at,
@@ -193,8 +214,12 @@ def main(argv=None) -> int:
         "errors": errors,
         "stats": stats,
     })
+    read = sum(s.get("ads_read", 0) for s in stats)
     summary = (f"{sum(j['active'] for j in jobs)} active offers, {len(fresh)} new today, "
-               f"{len(errors)}/{len(targets)} employers failed")
+               f"{len(errors)}/{len(targets)} employers failed; start date looked up in {read} ads "
+               f"({cache.fetched} pages fetched): {sum(s.get('dated_from_ad', 0) for s in stats)} dated, "
+               f"{sum(s.get('removed_from_ad', 0) for s in stats)} removed (start before June 2027), "
+               f"{read - sum(s.get('dated_from_ad', 0) + s.get('removed_from_ad', 0) for s in stats)} still unknown (kept)")
     log.info(summary)
     if os.environ.get("GITHUB_ACTIONS"):
         # Annotations are visible on the run page (and through the API) without opening the logs.

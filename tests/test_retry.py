@@ -9,7 +9,7 @@ from tracker.models import Target
 def test_failed_employers_get_a_second_attempt(monkeypatch):
     calls = {}
 
-    def fake(target, http):
+    def fake(target, http, cache=None):
         calls[target.name] = calls.get(target.name, 0) + 1
         if target.name == "Flaky" and calls["Flaky"] == 1:
             return [], {"employer": "Flaky", "error": "NotJson"}, None, []

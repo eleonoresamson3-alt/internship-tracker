@@ -36,6 +36,22 @@ _RANGE = re.compile(
 )
 _RANGE_CONTEXT = re.compile(r"\b(internship|stage|praktikum|period\w*|duration|duree|dates?|from|de|du|vom|dal|start\w*|"
                             r"debut\w*|placement|programme|program)\b[^.]*$")
+# In a description, "June 2027" counts only right after a start / period word
+# ("starting in", "available from", "internship period", "duree du stage"...).
+_MONTH_CONTEXT = re.compile(r"\b(start\w*|commenc\w*|debut\w*|intake\w*|prise de fonction|available|disponib\w*|period\w*|duration|duree|"
+                            r"beginning|begin\w*|a partir|a compter|from|des le|ab|beginn\w*|inizio|inicio|(programme|program|internship|stage|placement) dates?|dates? (du|of the) (stage|internship|programme|program))\b[^.]{0,85}$")   # long enough for "x ou y ou z"
+# "Start date: 2027-04-01", "start date: 15/04/2027" (day/month order only when unambiguous)
+_START_ISO = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<y>20\d\d)-(?P<m>\d\d)-\d\d\b")
+_START_DMY = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<a>\d{1,2})/(?P<b>\d{1,2})/(?P<y>20\d\d)\b")
+# "June 28, 2027" (month day year) and "21st June ... 2027" / "7 juin 2027" (day month ... year)
+_MONTH_DAY_YEAR = re.compile(rf"\b(?P<m>{_MONTH_ALT})\.? (?P<d>\d{{1,2}})(st|nd|rd|th)? (?P<y>20\d\d)\b")
+_DAY_MONTH_YEAR = re.compile(rf"\b\d{{1,2}}(st|nd|rd|th|er)? (?P<m>{_MONTH_ALT})\b[^.]{{0,30}}?\b(?P<y>20\d\d)\b")
+# Dates that are not the internship start, whatever comes before them.
+_NOT_START = re.compile(r"\b(graduat\w*|diplom\w*|degree|employment|full time|awarded|completed|enrolled|as at|as of|deadline|"
+                        r"apply by|closing|interview\w*|date limite|post\w*|publi\w*|job id|req\w* id)\b")
+# French ads write dates day first: "date de debut prevue : 04/01/2027", "prise de fonction 05/01/2027".
+_START_FR = re.compile(r"\b(debut\w*|prise de fonction|commenc\w*|demarrage)( prevue?)?( du stage)?\s*[:\-]?\s*"
+                       r"(le )?(?P<d>\d{1,2})/(?P<m>\d{1,2})/(?P<y>20\d\d)\b")
 # "Feb2027" -> "Feb 2027"
 _GLUED = re.compile(rf"\b({_MONTH_ALT})(20\d\d)\b")
 # "June 2027", "juin 2027", "06/2027"
@@ -96,12 +112,51 @@ def _start_month(text: str, strict: bool = False):
             year = int(match.group("y"))
             return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
     else:
-        # In a description, a range counts only when introduced as the internship period
+        # In a description every explicit start found counts, and the LATEST one wins:
+        # "start dates: January to June 2027, July to December 2027" offers a July start,
+        # so the offer must not be dropped as starting in January (in doubt, keep).
+        found = []
+        # A range counts only when introduced as the internship period
         # ("internship period: April - September 2027", "du stage : de avril a septembre 2027").
-        for match in _RANGE.finditer(text):
-            if _RANGE_CONTEXT.search(text[max(0, match.start() - 60):match.start()]):
+        ranges = list(_RANGE.finditer(text))
+        last_end = -1000
+        for match in ranges:
+            # A list of periods ("Q1 - January to March 2027, Q2 - April to June 2027, Q3 - ...")
+            # continues the first one: every period of the list is a possible start.
+            chained = match.start() - last_end < 40
+            if chained or (_RANGE_CONTEXT.search(text[max(0, match.start() - 60):match.start()])
+                           and not _NOT_START.search(text[max(0, match.start() - 60):match.start()])):
+                last_end = match.end()
                 year = int(match.group("y"))
-                return _MONTH_OF[match.group("m1")], year if year > 2000 else 2000 + year
+                found.append((year if year > 2000 else 2000 + year, _MONTH_OF[match.group("m1")]))
+        day_dates = [m for rx in (_DAY_MONTH_YEAR, _MONTH_DAY_YEAR) for m in rx.finditer(text)]
+        spans = ranges + day_dates
+        # "... to June 2027" is the end of a range, "20th August 2027" in "21st June - 20th August 2027" too.
+        inside_range = lambda pos: any(r.start() < pos < r.end() for r in spans)
+        is_start = lambda pos: (_MONTH_CONTEXT.search(text[max(0, pos - 100):pos])
+                                and not _NOT_START.search(text[max(0, pos - 60):pos]))
+        for match in _MONTH_YEAR.finditer(text):
+            if match.group("m") and not inside_range(match.start()) and is_start(match.start()):
+                found.append((int(match.group("y")), _MONTH_OF[match.group("m")]))
+        for match in day_dates:
+            if not inside_range(match.start()) and is_start(match.start()):
+                found.append((int(match.group("y")), _MONTH_OF[match.group("m")]))
+        for match in _START_ISO.finditer(text):
+            if 1 <= int(match.group("m")) <= 12:
+                found.append((int(match.group("y")), int(match.group("m"))))
+        for match in _START_FR.finditer(text):
+            if 1 <= int(match.group("m")) <= 12:
+                found.append((int(match.group("y")), int(match.group("m"))))
+        for match in _START_DMY.finditer(text):
+            a, b = int(match.group("a")), int(match.group("b"))
+            if a > 12 and 1 <= b <= 12:      # 15/04/2027: day first, month = 4
+                found.append((int(match.group("y")), b))
+            elif b > 12 and 1 <= a <= 12:    # 04/15/2027: month first
+                found.append((int(match.group("y")), a))
+            # 01/04/2027 is ambiguous (1 April or 4 January): left unknown.
+        if found:
+            year, month = max(found)
+            return month, year
     match = None if strict else _MONTH_YEAR.search(text)
     if match:
         if match.group("m"):
@@ -120,13 +175,17 @@ def _start_month(text: str, strict: bool = False):
 
 
 def analyse(title: str, description: str = "") -> Timing:
-    t, d = _GLUED.sub(r"\1 \2", _norm(title)), _GLUED.sub(r"\1 \2", _norm(description[:4000]))
+    t, d = _GLUED.sub(r"\1 \2", _norm(title)), _GLUED.sub(r"\1 \2", _norm(description[:16000]))
     month, year = _start_month(t)
+    title_years = [int(y) for y in _YEAR.findall(t)]
     if month is None and d:
         month, year = _start_month(d, strict=True)
+        # "Summer Internship 2027" + "graduating by August 2028" / "full-time employment from January 2028":
+        # a description date in another year than the title's is not the internship start.
+        if title_years and year is not None and year not in title_years:
+            month, year = None, None
     if year is None:
-        years = [int(y) for y in _YEAR.findall(t)]
-        year = min(years) if years else None
+        year = min(title_years) if title_years else None
 
     if _SUMMER.search(t) or (month in (5, 6, 7) and not _OFF_CYCLE.search(t)):
         kind = "summer"

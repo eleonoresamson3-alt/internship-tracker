@@ -1,723 +1,1152 @@
 {
- "generated_at": "2026-10-27T09:50:32+00:00",
+ "generated_at": "2026-10-27T13:27:19+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 5,
-   "kept": 3
+   "fetched": 13,
+   "kept": 2,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "JPMorgan",
-   "fetched": 671,
-   "kept": 44
+   "fetched": 673,
+   "kept": 44,
+   "ads_read": 44,
+   "dated_from_ad": 1,
+   "removed_from_ad": 0
   },
   {
    "employer": "Morgan Stanley",
    "fetched": 3,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Citi",
    "fetched": 42,
-   "kept": 2
+   "kept": 3,
+   "ads_read": 3,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Bank of America",
    "fetched": 28,
-   "kept": 13
+   "kept": 12,
+   "ads_read": 13,
+   "dated_from_ad": 3,
+   "removed_from_ad": 1
   },
   {
    "employer": "Barclays",
-   "fetched": 61,
-   "kept": 15
+   "fetched": 62,
+   "kept": 15,
+   "ads_read": 11,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Deutsche Bank",
    "fetched": 34,
-   "kept": 8
+   "kept": 8,
+   "ads_read": 8,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Nomura",
    "fetched": 22,
-   "kept": 9
+   "kept": 8,
+   "ads_read": 9,
+   "dated_from_ad": 3,
+   "removed_from_ad": 1
   },
   {
    "employer": "Mizuho",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "MUFG",
    "fetched": 22,
-   "kept": 6
+   "kept": 6,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Santander CIB",
    "fetched": 4,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "RBC Capital Markets",
    "fetched": 38,
-   "kept": 15
+   "kept": 15,
+   "ads_read": 15,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Jefferies",
-   "fetched": 0,
-   "kept": 0
+   "fetched": 42,
+   "kept": 14,
+   "ads_read": 2,
+   "dated_from_ad": 1,
+   "removed_from_ad": 1
   },
   {
    "employer": "BNY",
    "fetched": 358,
-   "kept": 18
+   "kept": 18,
+   "ads_read": 18,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "State Street",
    "fetched": 3,
-   "kept": 3
+   "kept": 3,
+   "ads_read": 3,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Macquarie",
    "fetched": 10,
-   "kept": 5
+   "kept": 3,
+   "ads_read": 5,
+   "dated_from_ad": 0,
+   "removed_from_ad": 2
   },
   {
    "employer": "Lloyds Banking Group",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "BMO Capital Markets",
    "fetched": 100,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "TD Securities",
    "fetched": 11,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Scotiabank",
    "fetched": 276,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 1,
+   "removed_from_ad": 0
   },
   {
    "employer": "Daiwa",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Kepler Cheuvreux",
-   "fetched": 7,
-   "kept": 6
+   "fetched": 8,
+   "kept": 0,
+   "ads_read": 7,
+   "dated_from_ad": 0,
+   "removed_from_ad": 7
   },
   {
    "employer": "Amundi",
-   "fetched": 28,
-   "kept": 5
+   "fetched": 27,
+   "kept": 0,
+   "ads_read": 5,
+   "dated_from_ad": 0,
+   "removed_from_ad": 5
   },
   {
    "employer": "Rothschild & Co",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Lazard",
    "fetched": 103,
-   "kept": 10
+   "kept": 10,
+   "ads_read": 6,
+   "dated_from_ad": 5,
+   "removed_from_ad": 0
   },
   {
    "employer": "BlackRock",
    "fetched": 13,
-   "kept": 12
+   "kept": 12,
+   "ads_read": 12,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Schroders",
-   "fetched": 71,
-   "kept": 5
+   "fetched": 72,
+   "kept": 5,
+   "ads_read": 5,
+   "dated_from_ad": 5,
+   "removed_from_ad": 0
   },
   {
    "employer": "Man Group",
    "fetched": 65,
-   "kept": 2
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "PIMCO",
    "fetched": 47,
-   "kept": 15
+   "kept": 15,
+   "ads_read": 14,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Fidelity International",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Invesco",
    "fetched": 5,
-   "kept": 4
+   "kept": 4,
+   "ads_read": 4,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "M&G",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Aviva Investors",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "AQR",
    "fetched": 55,
-   "kept": 5
+   "kept": 5,
+   "ads_read": 5,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Arrowstreet Capital",
    "fetched": 2,
-   "kept": 2
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Squarepoint",
    "fetched": 91,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Qube Research & Technologies",
    "fetched": 193,
-   "kept": 4
+   "kept": 4,
+   "ads_read": 4,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Jane Street",
    "fetched": 220,
-   "kept": 8
+   "kept": 8,
+   "ads_read": 7,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Optiver",
    "fetched": 162,
-   "kept": 9
+   "kept": 9,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "IMC",
    "fetched": 169,
-   "kept": 10
+   "kept": 10,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Flow Traders",
    "fetched": 46,
-   "kept": 3
+   "kept": 3,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Hudson River Trading",
    "fetched": 87,
-   "kept": 3
+   "kept": 3,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "DRW",
    "fetched": 161,
-   "kept": 6
+   "kept": 6,
+   "ads_read": 6,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Marshall Wace",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Brevan Howard",
    "fetched": 27,
-   "kept": 11
+   "kept": 11,
+   "ads_read": 11,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Tower Research",
    "fetched": 100,
-   "kept": 9
+   "kept": 8,
+   "ads_read": 8,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Jump Trading",
    "fetched": 94,
-   "kept": 14
+   "kept": 14,
+   "ads_read": 14,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Point72",
    "fetched": 209,
-   "kept": 15
+   "kept": 15,
+   "ads_read": 11,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Mako",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Da Vinci",
    "fetched": 15,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Maven Securities",
    "fetched": 37,
-   "kept": 3
+   "kept": 3,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "XTX Markets",
    "fetched": 7,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Akuna Capital",
    "fetched": 37,
-   "kept": 2
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Five Rings",
    "fetched": 17,
-   "kept": 3
+   "kept": 3,
+   "ads_read": 3,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Virtu Financial",
    "fetched": 46,
-   "kept": 7
+   "kept": 7,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Schonfeld",
    "fetched": 66,
-   "kept": 7
+   "kept": 7,
+   "ads_read": 6,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "ExodusPoint",
    "fetched": 3,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Quadrature Capital",
    "fetched": 3,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "EDF Trading",
    "fetched": 1,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Trafigura",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Gunvor",
    "fetched": 4,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Shell Trading",
    "fetched": 8,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Euronext",
    "fetched": 15,
-   "kept": 2
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "LSEG",
    "fetched": 9,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "CME Group",
    "fetched": 2,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Murex",
    "fetched": 11,
-   "kept": 3
+   "kept": 3,
+   "ads_read": 3,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Numerix",
    "fetched": 7,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Bloomberg",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "S&P Global",
    "fetched": 14,
-   "kept": 8
+   "kept": 8,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Allianz",
    "fetched": 100,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "SCOR",
    "fetched": 149,
-   "kept": 12
+   "kept": 8,
+   "ads_read": 11,
+   "dated_from_ad": 2,
+   "removed_from_ad": 3
   },
   {
    "employer": "Zurich",
-   "fetched": 297,
-   "kept": 6
+   "fetched": 296,
+   "kept": 6,
+   "ads_read": 6,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Banque de France",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "BCE (ECB)",
    "fetched": 3,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Bank of England",
    "fetched": 19,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "FCA",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Deloitte",
    "fetched": 8,
-   "kept": 4
+   "kept": 4,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "EY",
    "fetched": 756,
-   "kept": 4
+   "kept": 4,
+   "ads_read": 4,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "KPMG",
    "fetched": 150,
-   "kept": 16
+   "kept": 12,
+   "ads_read": 16,
+   "dated_from_ad": 12,
+   "removed_from_ad": 4
   },
   {
    "employer": "PwC",
-   "fetched": 209,
-   "kept": 29
+   "fetched": 211,
+   "kept": 29,
+   "ads_read": 23,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Forvis Mazars",
    "fetched": 139,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Accenture",
-   "fetched": 29,
-   "kept": 3
+   "fetched": 26,
+   "kept": 3,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "BearingPoint",
-   "fetched": 14,
-   "kept": 0
+   "fetched": 15,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Zanders",
    "fetched": 24,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Lombard Odier",
    "fetched": 29,
-   "kept": 8
+   "kept": 7,
+   "ads_read": 7,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Vontobel",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Euroclear",
-   "fetched": 56,
-   "kept": 2
+   "fetched": 57,
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "DZ Bank",
-   "fetched": 19,
-   "kept": 0
+   "fetched": 20,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "UniCredit",
-   "fetched": 18,
-   "kept": 8
+   "fetched": 17,
+   "kept": 7,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "BBVA",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Raiffeisen Bank International",
    "fetched": 34,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Muzinich",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "WorldQuant",
    "fetched": 95,
-   "kept": 2
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Voleon",
    "fetched": 60,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "PDT Partners",
    "fetched": 11,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Engineers Gate",
    "fetched": 10,
-   "kept": 2
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Belvedere Trading",
    "fetched": 17,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Headlands Technologies",
    "fetched": 8,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Radix Trading",
    "fetched": 8,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Eclipse Trading",
    "fetched": 16,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Stifel",
    "fetched": 36,
-   "kept": 3
+   "kept": 3,
+   "ads_read": 3,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Capco",
    "fetched": 707,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Quanteam",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Grant Thornton",
    "fetched": 59,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Nasdaq (Calypso / Adenza)",
    "fetched": 4,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Keyrock",
    "fetched": 8,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Flowdesk",
    "fetched": 11,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Wintermute",
    "fetched": 20,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "B2C2",
    "fetched": 4,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "GSR",
    "fetched": 5,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Paradigm",
    "fetched": 7,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "CaixaBank",
    "fetched": 11,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Commonwealth Bank",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Cboe",
    "fetched": 100,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Clear Street",
    "fetched": 44,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "AllianceBernstein",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Wellington Management",
    "fetched": 7,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "T. Rowe Price",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 3
+   "kept": 1,
+   "ads_read": 3,
+   "dated_from_ad": 0,
+   "removed_from_ad": 2
   },
   {
    "employer": "Capital Group",
    "fetched": 7,
-   "kept": 5
+   "kept": 5,
+   "ads_read": 5,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Northern Trust",
    "fetched": 1,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Aberdeen",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Winton",
    "fetched": 7,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Garda Capital",
    "fetched": 10,
-   "kept": 1
+   "kept": 1,
+   "ads_read": 1,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Capstone Investment Advisors",
    "fetched": 14,
-   "kept": 5
+   "kept": 5,
+   "ads_read": 5,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Lynx Asset Management",
    "fetched": 3,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "LVMH",
    "fetched": 33,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Kering",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Pernod Ricard",
    "fetched": 98,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Airbus",
-   "fetched": 72,
-   "kept": 1
+   "fetched": 70,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Thales",
    "fetched": 108,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Michelin",
    "fetched": 49,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Sanofi",
-   "fetched": 53,
-   "kept": 0
+   "fetched": 54,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Air Liquide",
-   "fetched": 60,
-   "kept": 5
+   "fetched": 61,
+   "kept": 2,
+   "ads_read": 2,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Orange",
    "fetched": 100,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Alstom",
-   "fetched": 407,
-   "kept": 0
+   "fetched": 405,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Unilever",
    "fetched": 13,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Siemens",
-   "fetched": 23,
-   "kept": 0
+   "fetched": 24,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Volkswagen Financial Services",
    "fetched": 93,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Novartis",
-   "fetched": 2,
-   "kept": 0
+   "fetched": 3,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Philips",
-   "fetched": 54,
-   "kept": 0
+   "fetched": 55,
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "AB InBev",
    "fetched": 63,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   },
   {
    "employer": "Diageo",
    "fetched": 0,
-   "kept": 0
+   "kept": 0,
+   "ads_read": 0,
+   "dated_from_ad": 0,
+   "removed_from_ad": 0
   }
  ]
 }

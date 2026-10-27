@@ -67,7 +67,7 @@ def fetch(target, http):
             countries = [country] if country else []
             posted = detail.get("startDate", "") or ""
             native_id = detail.get("jobReqId") or path
-            description = re.sub(r"<[^>]+>", " ", html.unescape(detail.get("jobDescription", "") or ""))[:4000]
+            description = re.sub(r"<[^>]+>", " ", html.unescape(detail.get("jobDescription", "") or ""))[:16000]   # start dates are often near the end
         except Exception:
             native_id, description = path, ""
         jobs.append(

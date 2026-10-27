@@ -16,8 +16,35 @@ git merge --no-edit origin/main
 Never force-push, never push to `main`: the *Publish analyses* workflow copies the file to
 `main` and redeploys the site.
 
-If `data/news.json` has no article from the last 24 hours (the daily workflow did not run),
-stop here and write nothing.
+## 1b. Get today's data first
+
+GitHub often starts the scheduled *Daily scrape* hours late, so ask for the update yourself,
+unless today's data is already on `main`:
+
+```bash
+git log -1 --format=%s origin/main -- data/jobs.json   # "Daily data update <today, UTC>"?
+```
+
+If it is not today's, request the update: in `data/analyses.json`, set the top-level field
+`"refresh_requested_at"` to the current time (ISO 8601, UTC) and change nothing else, then commit
+that file and push `claude/analyses`. The *Refresh request* workflow starts *Daily scrape*
+immediately; it takes about 15 to 25 minutes.
+Then wait for it, checking every minute (each command below waits at most 9 minutes; run it
+again, up to 5 times in total):
+
+```bash
+for i in $(seq 1 9); do
+  git fetch -q origin main
+  git log -1 --format=%s origin/main -- data/jobs.json | grep -q "Daily data update $(date -u +%Y-%m-%d)" && echo READY && break
+  sleep 60
+done
+```
+
+When it prints `READY`, merge `origin/main` into `claude/analyses` again and go on. If the data
+is still not there after 45 minutes, go on with what is on `main` and add to the brief, as its
+first line, that today's update was not available yet.
+
+If `data/news.json` has no article from the last 24 hours, stop here and write nothing.
 
 ## 2. Read the inputs
 

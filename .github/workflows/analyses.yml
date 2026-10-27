@@ -33,11 +33,22 @@ jobs:
           cache: pip
       - run: pip install --require-hashes -r requirements.txt
       - name: Copy and check the analyses
+        id: copy
         run: |
           git fetch origin "${GITHUB_REF_NAME}"
+          cp data/analyses.json /tmp/analyses-main.json
           git checkout "origin/${GITHUB_REF_NAME}" -- data/analyses.json
           python -m tracker.news.analyses --check
+          # A push that only asks for fresh data (refresh_requested_at, see refresh.yml) has nothing
+          # to publish: skip, so that the site-only deploy does not compete with the daily update.
+          same=$(python3 -c "import json; a=json.load(open('/tmp/analyses-main.json')); b=json.load(open('data/analyses.json')); print(a.get('days') == b.get('days'))")
+          if [ "$same" = "True" ]; then
+            echo "Only a refresh request: nothing to publish."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            git checkout -- data/analyses.json
+          fi
       - name: Commit to main
+        if: steps.copy.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -47,6 +58,7 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Redeploy the site
+        if: steps.copy.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run daily.yml --ref main -f site_only=true
