@@ -1,6 +1,181 @@
 {
  "days": [
   {
+   "date": "2026-10-27",
+   "generated_at": "2026-10-27T06:55:00+00:00",
+   "brief": [
+    "Semaine de banques centrales : la Fed se réunit les 27-28 octobre et la BCE les 28-29 ; L'Agefi attend un statu quo de la BCE jeudi, avec un taux de dépôt à 2,5 %, tandis que le FT voit la Fed poursuivre ses hausses trimestrielles.",
+    "France : Moody's a maintenu la note à Aa3 vendredi ; le 10 ans (TEC 10) est à 5,048 % le 23 octobre, soit environ 166 points de base au-dessus du Bund (3,39 %).",
+    "Taux américains : au 22 octobre, le 10 ans était à 4,96 % (-17 points de base sur la journée) et le 2 ans à 4,65 % (-16 points).",
+    "Pétrole : le Brent, redescendu après un pic à 117 $ en fin de semaine dernière selon le FT, reste suspendu au conflit au Moyen-Orient.",
+    "IA et crédit : SpaceX dit avoir levé 40 milliards de dollars de dette ; Morgan Stanley voit un support des semi-conducteurs jusqu'à 15 % plus bas."
+   ],
+   "articles": [
+    {
+     "title": "Moody's maintient la note de la France à Aa3 : un répit, pas une résolution",
+     "theme": "credit_sovereign",
+     "lead": "L'agence a laissé la note de la France inchangée vendredi, mais le marché continue d'exiger une prime élevée : les obligations d'entreprises françaises commencent même à rendre moins que l'État.",
+     "what": "Selon Le Monde, Moody's a maintenu la notation de la France à Aa3 vendredi, malgré l'incapacité du pays à redresser sa trajectoire budgétaire ; la chroniqueuse y voit un moment jugé trop inflammable pour agir. Le FT observe que les rendements des obligations d'État et d'entreprises françaises convergent, certaines obligations de sociétés rendant désormais moins que la dette publique. Nos données donnent un TEC 10 à 5,048 % le 23 octobre (-7,8 points de base sur la journée, +25,4 sur une semaine), contre 3,39 % pour le Bund, soit environ 166 points de base d'écart.",
+     "why": "Une note de crédit résume la capacité d'un émetteur à rembourser : Aa3 est une note élevée, deux crans sous le maximum (Aaa) dans l'échelle de Moody's. Une agence évite en général de bouger en pleine turbulence de marché, de peur d'aggraver la crise ; Le Monde rappelle que les agences ont été accusées de jouer les pyromanes lors de la crise grecque de 2010. Le maintien de la note ne change donc pas le fait que le marché fixe son propre prix du risque : le spread contre le Bund. Le cas où une entreprise emprunte moins cher que son État est inhabituel, car le taux souverain sert de plancher pour la plupart des émetteurs nationaux ; il traduit sans doute des conditions de marché particulières, mais l'article ne détaille pas ses causes.",
+     "impact": "Pour les banques, un souverain à 5 % pèse sur la valeur de leurs portefeuilles d'obligations d'État, mais le maintien de la note évite un effet mécanique sur les collatéraux et les ratios. Sur les produits structurés, la convergence entre rendements d'entreprises et d'État montre que le spread de crédit d'un émetteur ne se déduit pas toujours de celui de son pays : pour une note à capital protégé, la valeur de la jambe obligataire dépend du spread propre à l'émetteur. Un spread plus large sur la France devrait rester un thème pour le prix des dérivés de crédit (CDS) sur les émetteurs français, et pour le coût de la protection. Une dégradation future, si elle venait, pourrait au contraire provoquer des ventes forcées chez les investisseurs soumis à des seuils de notation.",
+     "interview": {
+      "question": "Moody's maintient Aa3 alors que le 10 ans français est à plus de 5 % : pourquoi le marché ne se calme-t-il pas, et que révèle l'écart avec le Bund ?",
+      "hints": [
+       "La note est un jugement d'agence ; le spread est le prix de marché du risque, plus réactif.",
+       "Écart OAT-Bund d'environ 166 points de base : le calculer et le replacer dans le temps.",
+       "Pourquoi les agences évitent d'agir en plein stress (effet procyclique).",
+       "Spread émetteur, spread souverain et leur effet sur le prix d'un produit structuré."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Aa3",
+       "definition": "Note de crédit de Moody's de bonne qualité, juste sous Aa2 et Aa1, deux crans sous le maximum Aaa."
+      },
+      {
+       "term": "CDS",
+       "definition": "Contrat d'assurance contre le défaut d'un émetteur, dont la prime mesure le risque de crédit perçu."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Dette française : « Le seul signal donné par Moody's, c'est que le moment est trop inflammable pour craquer une allumette »",
+       "url": "https://www.lemonde.fr/economie/article/2026/10/26/dette-francaise-le-seul-signal-donne-par-moody-s-c-est-que-le-moment-est-trop-inflammable-pour-craquer-une-allumette_6800674_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "French government and corporate bond yields are converging",
+       "url": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "BCE et Fed cette semaine : statu quo attendu à Francfort, hausses graduelles à Washington",
+     "theme": "central_banks",
+     "lead": "Deux réunions décisives mercredi et jeudi : la BCE devrait rester immobile malgré l'envolée des spreads, alors que le FT s'attend à la poursuite des hausses trimestrielles de la Fed.",
+     "what": "Selon L'Agefi, la BCE devrait rester l'arme au pied jeudi sans proposer d'intervenir sur les taux français : la croissance résiste, l'inflation énergétique augmente, et la hausse des taux longs prend le relais de la BCE dans le resserrement des conditions financières. Le FT, dans son scénario d'octobre, voit la Fed s'en tenir à des hausses de taux trimestrielles, tout en retirant les baisses de 2025 qualifiées d'assurance, et se demande si elle donnera des indices sur de nouvelles hausses. Le calendrier officiel place la Fed les 27-28 octobre et la BCE les 28-29. Le taux de dépôt de la BCE est à 2,5 %, l'€STR à 2,442 %.",
+     "why": "Une banque centrale resserre ses conditions financières par son taux directeur, mais aussi indirectement : si les taux longs montent d'eux-mêmes, l'effet sur le crédit et les investissements est comparable à une hausse de taux. C'est l'idée de L'Agefi : la montée des taux longs, notamment français, fait une partie du travail à la place de la BCE, ce qui lui permet d'attendre. À Washington, le FT parle d'un rythme de hausses trimestrielles ; c'est un scénario d'analystes, non une annonce, et la décision réelle reste à venir. Dans les deux cas, ce qui compte pour les marchés est moins le taux du jour que les indications sur la suite, la « forward guidance ».",
+     "impact": "Un statu quo de la BCE confirmerait un taux de dépôt à 2,5 % ; les marchés surveilleront le ton de la conférence de presse sur les spreads. Pour une courbe plus pentue ou plus plate, les produits structurés dont le coupon dépend d'un taux de swap (CMS) réagissent directement. Une Fed qui laisserait entendre d'autres hausses devrait soutenir le dollar et les rendements courts américains, ce qui augmente le coût du zéro-coupon des notes à capital protégé en dollars et améliore, à budget égal, la participation proposée. Sur la volatilité, les jours de réunion sont souvent associés à des variations d'options de taux (swaptions) plus fortes avant l'annonce, puis à un tassement une fois l'incertitude levée.",
+     "interview": {
+      "question": "La BCE n'est pas censée bouger alors que les taux longs montent fortement : comment expliquer qu'elle puisse attendre ?",
+      "hints": [
+       "Les conditions financières incluent les taux longs, pas seulement le taux directeur.",
+       "Différence entre taux de dépôt, €STR et courbe des taux.",
+       "Rôle de la forward guidance : le marché anticipe la suite.",
+       "Lien avec les spreads souverains et la transmission de la politique monétaire."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Forward guidance",
+       "definition": "Indications données par une banque centrale sur sa trajectoire future de taux."
+      },
+      {
+       "term": "€STR",
+       "definition": "Taux court au jour le jour de la zone euro, référence du marché monétaire."
+      }
+     ],
+     "sources": [
+      {
+       "title": "La BCE se dirige vers un statu quo sur fond d'envolée des spreads",
+       "url": "https://www.agefi.fr/news/economie-marches/la-bce-se-dirige-vers-un-statu-quo-sur-fond-denvolee-des-spreads",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Fed to stick with quarterly rate rises as it removes 2025 insurance cuts",
+       "url": "https://www.ft.com/content/572bc401-9f82-4e49-9282-3e896562f339",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Will the Fed drop any hints on rate rises?",
+       "url": "https://www.ft.com/content/181316cc-0f4c-4328-b990-ad0d43ce424c?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "IA : SpaceX lève 40 milliards de dollars de dette et Morgan Stanley devient prudent sur les puces",
+     "theme": "credit_sovereign",
+     "lead": "Le financement de l'IA passe de plus en plus par la dette, et la distinction entre émetteurs solides et fragiles se creuse.",
+     "what": "Elon Musk affirme que SpaceX a obtenu 40 milliards de dollars de dette grâce à sa bonne notation et à des revenus hors IA ; il a aussi mis en garde contre de futures faillites d'entreprises du « néocloud », selon L'Agefi. MarketWatch précise que SpaceX développe une activité de location d'accès à des puces avancées. Par ailleurs, le stratège actions de Morgan Stanley maintient une prévision de 8 000 points pour le S&P 500 en fin d'année, mais estime que le support du secteur des semi-conducteurs pourrait se situer jusqu'à 15 % sous les niveaux actuels. Côté marché, le Nasdaq valait 25 955 points le 23 octobre (-0,21 % sur la journée, -3,64 % sur un mois).",
+     "why": "Construire des centres de calcul coûte très cher, et la dette en finance une grande partie. Un emprunteur bien noté lève de gros montants à bon prix, tandis qu'un acteur plus fragile peut avoir du mal à refinancer, surtout quand les taux sont élevés et que l'appétit pour l'IA se tasse : c'est le sens de l'avertissement de Musk, qui n'est pas neutre puisqu'il parle d'abord de sa propre entreprise. Le support évoqué par Morgan Stanley désigne un niveau de prix où les acheteurs ont historiquement stoppé les baisses ; c'est une lecture d'analyste, pas une prévision certaine. Les deux informations montrent un marché qui différencie davantage les émetteurs selon leur solidité financière.",
+     "impact": "Une forte émission de dette liée à l'IA peut élargir les spreads de crédit des émetteurs les plus fragiles et alimenter la demande de protection (CDS) sur eux. Pour les produits structurés indexés sur des paniers de valeurs technologiques ou de semi-conducteurs, une baisse supplémentaire rapprocherait les cours des barrières de protection ; en revanche la volatilité implicite plus élevée enchérit les options et peut permettre des coupons plus généreux, au prix d'un risque accru de perte en capital. Les banques d'investissement qui arrangent ces emprunts touchent des commissions, mais portent un risque de distribution si le marché se retourne.",
+     "interview": {
+      "question": "Un groupe lève 40 milliards de dollars de dette pour financer l'IA : quels indicateurs regardez-vous pour juger du risque de crédit, et quel impact sur un produit structuré sur ce thème ?",
+      "hints": [
+       "Notation, couverture des intérêts et revenus indépendants du projet financé.",
+       "Spread de crédit et CDS comme prix de marché du risque.",
+       "Lien entre baisse du sous-jacent, barrière du produit et volatilité implicite.",
+       "Risque de refinancement pour les acteurs moins bien notés."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Néocloud",
+       "definition": "Entreprise qui loue de la puissance de calcul, notamment des puces d'IA, à d'autres sociétés."
+      },
+      {
+       "term": "Support",
+       "definition": "Niveau de prix où une baisse a historiquement tendance à s'arrêter, selon l'analyse technique."
+      }
+     ],
+     "sources": [
+      {
+       "title": "SpaceX a levé 40 milliards de dollars de dettes selon Elon Musk",
+       "url": "https://www.agefi.fr/news/entreprises/spacex-a-leve-40-milliards-de-dollars-de-dettes-selon-elon-musk",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+       "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Support for semiconductor stocks could be as much as 15% lower than current levels, says Morgan Stanley",
+       "url": "https://www.marketwatch.com/story/support-for-semiconductor-stocks-could-be-as-much-as-15-lower-than-current-levels-says-morgan-stanley-1f387f16?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole : repli après 117 $, le Moyen-Orient reste le moteur des prix",
+     "theme": "fx_commodities",
+     "lead": "Le Brent est redescendu après un pic à 117 $ en fin de semaine dernière, mais les opérateurs restent concentrés sur le conflit au Moyen-Orient.",
+     "what": "Selon le FT, la référence internationale du pétrole a reculé après avoir grimpé à 117 $ en fin de semaine dernière, les opérateurs restant focalisés sur le conflit au Moyen-Orient. Dans le même registre, Singapour va stocker du pétrole saoudien dans des cavernes souterraines, en accord avec Saudi Aramco, pour sécuriser l'approvisionnement de l'Asie du Sud-Est face aux perturbations liées à la guerre. Nos données donnent le Brent à 115,22 $ le 20 octobre (-8,4 % sur une semaine) ; cette série a plusieurs jours de retard et ne reflète pas le pic récent. L'EUR/USD est à 1,1193 le 23 octobre.",
+     "why": "Le pétrole réagit à l'offre et au risque : un conflit dans une zone productrice ajoute une prime de risque, et les pays importateurs cherchent à sécuriser des stocks, ce qui soutient la demande. Le projet de Singapour illustre cette logique de réserves stratégiques. Un pétrole cher alimente l'inflation, notamment énergétique, que L'Agefi cite comme un facteur de la prudence de la BCE. Une baisse après un pic montre que le marché oscille au gré des nouvelles, ce qui entretient une volatilité élevée plutôt qu'une tendance claire.",
+     "impact": "Un baril à ce niveau pèse sur le pouvoir d'achat et sur l'inflation, donc sur les attentes de taux ; les rendements courts peuvent rester élevés, ce qui renchérit le financement et réduit la valeur actuelle des flux futurs. Pour les produits structurés sur matières premières ou sur actions d'énergie, la volatilité forte rend les options plus chères et peut permettre des coupons plus élevés, avec un risque de franchissement de barrière plus important. Sur le change, les économies importatrices comme la zone euro souffrent généralement d'un pétrole cher, ce qui pourrait peser sur l'euro, sans que cela soit certain.",
+     "interview": {
+      "question": "Le pétrole repasse sous son pic mais reste volatil : comment cela affecte-t-il les anticipations d'inflation et le pricing d'un produit structuré sur le Brent ?",
+      "hints": [
+       "Prime de risque géopolitique et stocks stratégiques.",
+       "Lien pétrole, inflation, anticipations de taux.",
+       "Volatilité implicite plus élevée : option plus chère, coupon potentiellement plus généreux, barrière plus risquée.",
+       "Effet sur l'EUR/USD pour une économie importatrice."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Brent",
+       "definition": "Pétrole de référence internationale, coté en dollars par baril."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Oil price falls back as traders remain focused on Middle East conflict",
+       "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Singapore to store Saudi oil in underground caverns",
+       "url": "https://www.ft.com/content/1baa5eb0-d6e3-4989-beb0-1b29879ff606?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-24",
    "generated_at": "2026-10-24T05:50:00+00:00",
    "brief": [
@@ -387,5 +562,5 @@
    ]
   }
  ],
- "updated_at": "2026-10-24T05:50:00+00:00"
+ "updated_at": "2026-10-27T06:55:00+00:00"
 }
