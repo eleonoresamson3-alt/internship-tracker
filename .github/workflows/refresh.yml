@@ -1,0 +1,37 @@
+name: Refresh request
+
+# The morning analyses session sets "refresh_requested_at" in data/analyses.json and pushes it to
+# claude/analyses when today's data is not on main yet (GitHub starts the scheduled run up to
+# several hours late). This starts the daily update right away; the session waits for it.
+on:
+  push:
+    branches: [claude/analyses]
+    paths: [data/analyses.json]
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write   # start the daily workflow
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 30
+          persist-credentials: false
+      - name: Start the daily update if it was requested and today's data is missing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          requested=$(python3 -c "import json; print(json.load(open('data/analyses.json')).get('refresh_requested_at', ''))")
+          [ -n "$requested" ] || { echo "No refresh requested."; exit 0; }
+          age=$(( $(date -u +%s) - $(date -u -d "$requested" +%s) ))
+          [ "$age" -lt 7200 ] || { echo "Old request ($requested)."; exit 0; }
+          git fetch -q --depth=30 origin main
+          if git log -1 --format=%s origin/main -- data/jobs.json | grep -q "Daily data update $(date -u +%Y-%m-%d)"; then
+            echo "Today's data is already on main."; exit 0
+          fi
+          gh workflow run daily.yml --repo "${GITHUB_REPOSITORY}" --ref main
+          echo "Daily update started."
