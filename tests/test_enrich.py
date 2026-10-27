@@ -89,7 +89,14 @@ def test_oracle_ads_are_read_through_the_api():
     assert text == "Start date: September 2027"
 
 
-def test_workday_ads_are_not_fetched_again(tmp_path):
-    cache = enrich.StartDateCache(tmp_path / "c.json")
-    assert enrich.lookup("w1", "https://bank.wd3.myworkdayjobs.com/en-US/Ext/job/Paris/Intern_R1", None, cache, date(2026, 10, 24)) is None
-    assert cache.fetched == 0
+def test_workday_ads_are_read_through_the_api():
+    seen = {}
+
+    class Http:
+        def get_json(self, url, **kwargs):
+            seen["url"] = url
+            return {"jobPostingInfo": {"jobDescription": "<p>Programme dates: start date: September 2027.</p>"}}
+
+    text = enrich.read_ad("https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/London/Off-Cycle_JR-1", Http())
+    assert seen["url"] == "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/London/Off-Cycle_JR-1"
+    assert "September 2027" in text

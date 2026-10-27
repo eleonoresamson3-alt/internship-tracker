@@ -38,11 +38,14 @@ _RANGE_CONTEXT = re.compile(r"\b(internship|stage|praktikum|period\w*|duration|d
                             r"debut\w*|placement|programme|program)\b[^.]*$")
 # In a description, "June 2027" counts only right after a start / period word
 # ("starting in", "available from", "internship period", "duree du stage"...).
-_MONTH_CONTEXT = re.compile(r"\b(start\w*|commenc\w*|debut\w*|intake|available|disponib\w*|period\w*|duration|duree|"
+_MONTH_CONTEXT = re.compile(r"\b(start\w*|commenc\w*|debut\w*|intake\w*|prise de fonction|available|disponib\w*|period\w*|duration|duree|"
                             r"beginning|a partir|from|des le|ab|beginn\w*|inizio|inicio)\b[^.]{0,85}$")   # long enough for "x ou y ou z"
 # "Start date: 2027-04-01", "start date: 15/04/2027" (day/month order only when unambiguous)
 _START_ISO = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<y>20\d\d)-(?P<m>\d\d)-\d\d\b")
 _START_DMY = re.compile(r"\b(start\w*|debut\w*|commenc\w*)( date)?\s*[:\-]?\s*(?P<a>\d{1,2})/(?P<b>\d{1,2})/(?P<y>20\d\d)\b")
+# French ads write dates day first: "date de debut prevue : 04/01/2027", "prise de fonction 05/01/2027".
+_START_FR = re.compile(r"\b(debut\w*|prise de fonction|commenc\w*|demarrage)( prevue?)?( du stage)?\s*[:\-]?\s*"
+                       r"(le )?(?P<d>\d{1,2})/(?P<m>\d{1,2})/(?P<y>20\d\d)\b")
 # "Feb2027" -> "Feb 2027"
 _GLUED = re.compile(rf"\b({_MONTH_ALT})(20\d\d)\b")
 # "June 2027", "juin 2027", "06/2027"
@@ -120,6 +123,9 @@ def _start_month(text: str, strict: bool = False):
                     and _MONTH_CONTEXT.search(text[max(0, match.start() - 100):match.start()]):
                 found.append((int(match.group("y")), _MONTH_OF[match.group("m")]))
         for match in _START_ISO.finditer(text):
+            if 1 <= int(match.group("m")) <= 12:
+                found.append((int(match.group("y")), int(match.group("m"))))
+        for match in _START_FR.finditer(text):
             if 1 <= int(match.group("m")) <= 12:
                 found.append((int(match.group("y")), int(match.group("m"))))
         for match in _START_DMY.finditer(text):

@@ -41,6 +41,10 @@ from tracker.timing import analyse
      "off-cycle", "2027-07"),
     ("Stagiaire Audit financier", "Date de début prévue : janvier 2027 ou février 2027 ou septembre 2027. Mode : hybride.",
      "off-cycle", "2027-09"),
+    ("Stage Marketing", "Durée en mois 6. Date prévue de prise de fonction 05/01/2027. Missions.", "off-cycle", "2027-01"),
+    ("Auditeur stagiaire", "Type de contrat : stage. Date de début prévue : 04/01/2027.", "off-cycle", "2027-01"),
+    ("2027 Asset Management Analyst", "There are two intakes for this role: January 2027 and July 2027.", "summer", "2027-07"),
+    ("Quant Intern", "Expected graduation date between December 2027 and June 2028.", "unknown", ""),
     ("Risk Intern", "Applications close in March 2027; interviews in April 2027.", "unknown", ""),
     ("Stage estate 2027 - Mercati", "", "summer", "2027"),
 ])

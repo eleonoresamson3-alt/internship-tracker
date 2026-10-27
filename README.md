@@ -92,12 +92,11 @@ start and graduation are kept: set `EARLIEST_START` (June 2027) and `GRADUATION_
 "Calendrier inconnu".
 
 When the title gives no start month, [`tracker/enrich.py`](tracker/enrich.py) reads the ad itself once
-(the page's schema.org data or text; Oracle ads through their public API; Workday ads are already read
-by the adapter) and looks for an explicit start: "start date: April 2027", "date de début prévue : mars
+(the page's schema.org data or text; Oracle and Workday ads through the JSON API behind their pages) and looks for an explicit start: "start date: April 2027", "date de début prévue : mars
 2027", "available from…", "internship period: April – September 2027". Ranges start with their first
 month, and when an ad offers several start dates the latest one counts. **In doubt the offer is kept**:
 it is removed only when the ad clearly says it starts before June 2027. Results are cached in
-`data/start_dates.json`, so each ad is read once (at most 400 pages per run). The site's *Début connu*
+`data/start_dates.json`, so each ad is read once (at most 600 pages per run). The site's *Début connu*
 filter hides offers whose start month is still unknown.
 
 ## News watch (*Actualité* tab)

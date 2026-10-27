@@ -30,7 +30,7 @@ from .sanitize import clean_text
 log = logging.getLogger(__name__)
 
 CACHE_FILE = config.DATA_DIR / "start_dates.json"
-MAX_PAGES_PER_RUN = 400      # first run reads the backlog; later runs only new offers
+MAX_PAGES_PER_RUN = 600      # first run reads the backlog; later runs only new offers
 RETRY_AFTER_DAYS = 7         # a page that could not be read is tried again after a week
 MAX_TEXT = 15000
 
@@ -84,11 +84,17 @@ def page_text(html: str) -> str:
     return " ".join(" ".join(parts).split())[:MAX_TEXT]
 
 
+_WORKDAY_AD = re.compile(r"^https://(?P<host>[^/]+\.myworkdayjobs\.com)/(?:[a-z]{2}-[A-Z]{2}/)?(?P<site>[^/]+)(?P<path>/job/.+)$")
 _ORACLE_AD = re.compile(r"^https://(?P<host>[^/]+\.oraclecloud\.com)/hcmUI/CandidateExperience/[^/]+/sites/(?P<site>[^/]+)/job/(?P<id>\d+)")
 
 
 def read_ad(url: str, http: PoliteClient) -> str:
     """Text of one ad. Oracle pages are rendered in JavaScript: their public REST API gives the text."""
+    m = _WORKDAY_AD.match(url)
+    if m:   # the public page is JavaScript; the JSON endpoint behind it has the full text
+        api = f"https://{m['host']}/wday/cxs/{m['host'].split('.')[0]}/{m['site']}{m['path']}"
+        info = http.get_json(api, retries=1).get("jobPostingInfo", {})
+        return clean_text(info.get("jobDescription") or "", MAX_TEXT)
     m = _ORACLE_AD.match(url)
     if m:
         api = (f"https://{m['host']}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails"
@@ -103,8 +109,6 @@ def read_ad(url: str, http: PoliteClient) -> str:
 
 def lookup(job_id: str, url: str, http: PoliteClient, cache: StartDateCache, today: date) -> str | None:
     """Ad text to analyse for this offer, or None (unknown, not readable, or budget used)."""
-    if urlsplit(url).netloc.endswith("myworkdayjobs.com"):
-        return None   # the Workday adapter already reads each ad's full text through its API
     entry = cache.get(job_id)
     if entry and entry.get("text") is not None:
         return entry["text"]
@@ -128,4 +132,5 @@ def _relevant(text: str) -> str:
             "disponib", "intake", "from", "à partir", "a partir", "ab ", "beginn", "inizio", "inicio", "deadline",
             "apply by", "closing", "date limite", "candidature")
     sentences = [s.strip() for s in text.replace("\n", " ").split(".")]
-    return ". ".join(s for s in sentences if any(k in s.lower() for k in keys))[:3000]
+    keep = [s for s in sentences if any(k in s.lower() for k in keys) or re.search(r"\b20[2-3]\d\b", s)]
+    return ". ".join(keep)[:4000]
