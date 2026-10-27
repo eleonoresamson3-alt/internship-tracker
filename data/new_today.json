@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:13:32+00:00",
+ "generated_at": "2026-10-27T13:27:19+00:00",
  "date": "2026-10-27",
  "jobs": [
   {
@@ -234,6 +234,39 @@
    "active": true
   },
   {
+   "id": "schonfeld-938ca1198c25",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Data Science Intern",
+   "location": "New York, New York, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
+   "posted_at": "2026-09-04",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "state-street-18e317ebf27a",
    "employer": "State Street",
    "employer_type": "intl_bank",
@@ -361,39 +394,6 @@
    "deadline_source": "estimée",
    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Japanese-Services-Group-Winter-2028/368640",
    "posted_at": "",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "schonfeld-938ca1198c25",
-   "employer": "Schonfeld",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Data Science Intern",
-   "location": "New York, New York, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-12-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
-   "posted_at": "2026-09-04",
    "first_seen": "2026-10-27",
    "last_seen": "2026-10-27",
    "active": true

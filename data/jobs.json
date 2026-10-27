@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:13:32+00:00",
+ "generated_at": "2026-10-27T13:27:19+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -424,7 +424,7 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-07",
+   "start": "2027",
    "deadline": "2026-12-01",
    "deadline_source": "annonce",
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1449-2027-Global-Markets-Sales-Trading-Structuring-Research-Summer-Internship-London-for-2028-Graduates/en-GB",
@@ -721,8 +721,8 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-03",
-   "deadline": "2027-11-30",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788659",
    "posted_at": "2026-09-07",
@@ -754,8 +754,8 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-03",
-   "deadline": "2027-11-30",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775780",
    "posted_at": "2026-08-31",
@@ -1058,6 +1058,39 @@
    "deadline_source": "annonce",
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Structured-Trading-Group_10079356-WD-1",
    "posted_at": "2026-10-15",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "maven-securities-bdd6054e9308",
+   "employer": "Maven Securities",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "London Trader Summer Internship 2027",
+   "location": "London; London, Greater London, England, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 70,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 5,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7806970",
+   "posted_at": "2026-09-07",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -1376,34 +1409,34 @@
    "active": true
   },
   {
-   "id": "maven-securities-bdd6054e9308",
-   "employer": "Maven Securities",
+   "id": "schonfeld-e1d961a63262",
+   "employer": "Schonfeld",
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
-   "title": "London Trader Summer Internship 2027",
-   "location": "London; London, Greater London, England, United Kingdom",
+   "title": "2027 Quantitative Research Intern",
+   "location": "Hong Kong, Hong Kong",
    "countries": [
-    "GB"
+    "HK"
    ],
    "country_names": [
-    "United Kingdom"
+    "Hong Kong"
    ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
    "score": 67,
    "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 5,
-    "timing": 12
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 17
    },
    "timing": "summer",
    "start": "2027",
    "deadline": "2026-10-31",
    "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7806970",
-   "posted_at": "2026-09-07",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8238448",
+   "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -1475,12 +1508,12 @@
    "active": true
   },
   {
-   "id": "pimco-1babf74d7b5b",
-   "employer": "PIMCO",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "2027 PhD Summer Intern – Portfolio Management, Quantitative Research Analyst",
-   "location": "Newport Beach, CA USA",
+   "id": "imc-bcff9f2a0ef1",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern (BS/MS) - Summer 2027",
+   "location": "Chicago, United States",
    "countries": [
     "US"
    ],
@@ -1498,10 +1531,142 @@
     "timing": 15
    },
    "timing": "summer",
-   "start": "2028-06",
-   "deadline": "2028-04-30",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
    "deadline_source": "estimée",
-   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Portfolio-Management--Quantitative-Research-Analyst_R106749",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907399101",
+   "posted_at": "2026-07-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "imc-3056496d4b99",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Research Intern (PhD) - Summer 2027",
+   "location": "Chicago, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 65,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907400101",
+   "posted_at": "2026-07-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "imc-9cd8b9a50582",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Trader Intern",
+   "location": "Amsterdam, Netherlands",
+   "countries": [
+    "NL"
+   ],
+   "country_names": [
+    "Netherlands"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 65,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4936262101",
+   "posted_at": "2026-07-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "imc-e3838d63cacf",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Trader Intern",
+   "location": "Amsterdam, Netherlands",
+   "countries": [
+    "NL"
+   ],
+   "country_names": [
+    "Netherlands"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 65,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4939846101",
+   "posted_at": "2026-07-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "maven-securities-ef676ebb39cc",
+   "employer": "Maven Securities",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Amsterdam Trader Summer Internship 2027",
+   "location": "Amsterdam; Amsterdam, North Holland, Netherlands",
+   "countries": [
+    "NL"
+   ],
+   "country_names": [
+    "Netherlands"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 65,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048591",
    "posted_at": "2026-09-01",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
@@ -1590,72 +1755,6 @@
    "active": true
   },
   {
-   "id": "virtu-financial-624fe9cd72f8",
-   "employer": "Virtu Financial",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Internship - Quantitative Researcher (PhD)",
-   "location": "Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 65,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2027-06",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/7617953002",
-   "posted_at": "2024-08-30",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "virtu-financial-8ec711976f12",
-   "employer": "Virtu Financial",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Internship - Quantitative Researcher (Undergrad)",
-   "location": "New York",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 65,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2027-06",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
-   "posted_at": "2025-09-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
    "id": "akuna-capital-de540c38ebdd",
    "employer": "Akuna Capital",
    "employer_type": "hedge_fund",
@@ -1717,6 +1816,35 @@
    "deadline_source": "estimée",
    "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2027_R1505",
    "posted_at": "2026-08-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-cac1ee7ed365",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Quantitative Research Summer Associate Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14896-Global-Quantitative-Research-Summer-Associate-Program-2027/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -1953,138 +2081,6 @@
    "active": true
   },
   {
-   "id": "imc-bcff9f2a0ef1",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Research Intern (BS/MS) - Summer 2027",
-   "location": "Chicago, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907399101",
-   "posted_at": "2026-07-01",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "imc-3056496d4b99",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Research Intern (PhD) - Summer 2027",
-   "location": "Chicago, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907400101",
-   "posted_at": "2026-07-01",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "imc-9cd8b9a50582",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Trader Intern",
-   "location": "Amsterdam, Netherlands",
-   "countries": [
-    "NL"
-   ],
-   "country_names": [
-    "Netherlands"
-   ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 62,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4936262101",
-   "posted_at": "2026-07-31",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "imc-e3838d63cacf",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Trader Intern",
-   "location": "Amsterdam, Netherlands",
-   "countries": [
-    "NL"
-   ],
-   "country_names": [
-    "Netherlands"
-   ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 62,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4939846101",
-   "posted_at": "2026-07-31",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
    "id": "jpmorgan-0e9d46aa1613",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -2174,8 +2170,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038",
    "posted_at": "2026-08-04",
@@ -2207,11 +2203,44 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774061",
    "posted_at": "2026-08-04",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-110f5a9d396b",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equity Sales and Trading Summer Internship Programme - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 62,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1930-2027-Equity-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -2273,44 +2302,11 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
+   "start": "2027-08",
+   "deadline": "2027-07-31",
    "deadline_source": "estimée",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6612",
    "posted_at": "2026-09-21",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "maven-securities-ef676ebb39cc",
-   "employer": "Maven Securities",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Amsterdam Trader Summer Internship 2027",
-   "location": "Amsterdam; Amsterdam, North Holland, Netherlands",
-   "countries": [
-    "NL"
-   ],
-   "country_names": [
-    "Netherlands"
-   ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 62,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048591",
-   "posted_at": "2026-09-01",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -2514,6 +2510,39 @@
    "active": true
   },
   {
+   "id": "pimco-1babf74d7b5b",
+   "employer": "PIMCO",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 PhD Summer Intern – Portfolio Management, Quantitative Research Analyst",
+   "location": "Newport Beach, CA USA",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Portfolio-Management--Quantitative-Research-Analyst_R106749",
+   "posted_at": "2026-09-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "pimco-283ccecd7cf2",
    "employer": "PIMCO",
    "employer_type": "asset_manager",
@@ -2613,6 +2642,39 @@
    "active": true
   },
   {
+   "id": "schonfeld-5c7e38a9c47b",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 PhD Quantitative Research Intern",
+   "location": "Miami, Florida, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8172076",
+   "posted_at": "2026-09-04",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "virtu-financial-f5662b028916",
    "employer": "Virtu Financial",
    "employer_type": "hedge_fund",
@@ -2646,34 +2708,34 @@
    "active": true
   },
   {
-   "id": "schonfeld-e1d961a63262",
-   "employer": "Schonfeld",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Quantitative Research Intern",
-   "location": "Hong Kong, Hong Kong",
+   "id": "s-p-global-edb549548c58",
+   "employer": "S&P Global",
+   "employer_type": "software",
+   "platform": "workday",
+   "title": "Summer Intern, Credit Analysis",
+   "location": "FR - PARIS 40 RUE DE COURCELLES",
    "countries": [
-    "HK"
+    "FR"
    ],
    "country_names": [
-    "Hong Kong"
+    "France"
    ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 61,
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 60,
    "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 11
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 15
    },
-   "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-12-31",
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8238448",
-   "posted_at": "2026-09-29",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/FR---PARIS-40-RUE-DE-COURCELLES/Summer-Intern--Credit-Analysis_331685-1",
+   "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -2702,8 +2764,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780497",
    "posted_at": "2026-08-31",
@@ -2735,8 +2797,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780537",
    "posted_at": "2026-09-01",
@@ -2778,39 +2840,6 @@
    "active": true
   },
   {
-   "id": "s-p-global-edb549548c58",
-   "employer": "S&P Global",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Summer Intern, Credit Analysis",
-   "location": "FR - PARIS 40 RUE DE COURCELLES",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 57,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/FR---PARIS-40-RUE-DE-COURCELLES/Summer-Intern--Credit-Analysis_331685-1",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
    "id": "barclays-926430259c0e",
    "employer": "Barclays",
    "employer_type": "intl_bank",
@@ -2844,12 +2873,45 @@
    "active": true
   },
   {
-   "id": "schonfeld-5c7e38a9c47b",
-   "employer": "Schonfeld",
+   "id": "virtu-financial-624fe9cd72f8",
+   "employer": "Virtu Financial",
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
-   "title": "2027 PhD Quantitative Research Intern",
-   "location": "Miami, Florida, United States",
+   "title": "2027 Internship - Quantitative Researcher (PhD)",
+   "location": "Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 56,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-08",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/7617953002",
+   "posted_at": "2024-08-30",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "virtu-financial-8ec711976f12",
+   "employer": "Virtu Financial",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Internship - Quantitative Researcher (Undergrad)",
+   "location": "New York",
    "countries": [
     "US"
    ],
@@ -2867,11 +2929,11 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-12-31",
+   "start": "2027-08",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8172076",
-   "posted_at": "2026-09-04",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
+   "posted_at": "2025-09-12",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -3100,8 +3162,8 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802076",
    "posted_at": "2026-10-22",
@@ -3133,8 +3195,8 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802419",
    "posted_at": "2026-10-22",
@@ -3473,39 +3535,6 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5483",
    "posted_at": "2026-10-09",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "air-liquide-40eb19e9dafc",
-   "employer": "Air Liquide",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "Stage Trésorerie & Projets Systèmes d'Information (H/F)",
-   "location": "France, Paris",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 50,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 5,
-    "timing": 5
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/Stage-Trsorerie---Projets-Systmes-d-Information--H-F-_R10102166",
-   "posted_at": "2026-10-07",
-   "first_seen": "2026-10-23",
    "last_seen": "2026-10-27",
    "active": true
   },
@@ -4242,6 +4271,39 @@
    "active": true
   },
   {
+   "id": "bank-of-america-2034c25c94a7",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Sales and Trading 2027 Off-Cycle Analyst - Stockholm",
+   "location": "",
+   "countries": [
+    "SE"
+   ],
+   "country_names": [
+    "Sweden"
+   ],
+   "region": "Europe (other)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 48,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 12,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-09",
+   "deadline": "2026-10-31",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15032-Global-Markets-Sales-and-Trading-2027-Off-Cycle-Analyst-Stockholm/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "virtu-financial-1b9e9b9105d6",
    "employer": "Virtu Financial",
    "employer_type": "hedge_fund",
@@ -4397,8 +4459,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2028-04-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/London/MBA-Equity-Investment-Analyst-Summer-Associate--Europe-_JR5920",
    "posted_at": "2026-10-22",
@@ -4430,8 +4492,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2028-04-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/London/MBA-Fixed-Income-Investment-Analyst-Summer-Associate--Europe-_JR5922",
    "posted_at": "2026-10-22",
@@ -4764,8 +4826,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780517",
    "posted_at": "2026-08-31",
@@ -4797,8 +4859,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780476",
    "posted_at": "2026-08-31",
@@ -4830,8 +4892,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780555",
    "posted_at": "2026-08-31",
@@ -4901,6 +4963,39 @@
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/London-GBR/XMLNAME-2027-Summer-Intern---Portfolio-Management---Private-Strategies-Analyst--London_R106810-1",
    "posted_at": "2026-09-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "schonfeld-a258bb55ee13",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Quantitative C++ Developer Intern",
+   "location": "Hong Kong, Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 47,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 17
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8238451",
+   "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -5075,6 +5170,208 @@
    "active": true
   },
   {
+   "id": "imc-73cb67b1aefa",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Deep Learning Research Intern - Summer 2027 - New York",
+   "location": "New York, United States; Amsterdam, Netherlands; Sydney, Australia",
+   "countries": [
+    "US",
+    "NL",
+    "AU"
+   ],
+   "country_names": [
+    "United States",
+    "Netherlands",
+    "Australia"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907430101",
+   "posted_at": "2026-07-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "imc-4f95cf6cc9b6",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quant Performance Engineer Intern - Summer 2027",
+   "location": "Chicago, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 45,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101",
+   "posted_at": "2026-08-27",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "imc-53f384cbcd37",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Trader Intern - Summer 2027",
+   "location": "Chicago, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 45,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
+   "posted_at": "2026-07-01",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-2607808f9802",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Private Credit Investment Summer Internship Programme - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-3fbaa64085f1",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Risk Management - 12 Month Placement Intern (Frankfurt, June 2027 Start)",
+   "location": "",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1979-2027-Risk-Management-12-Month-Placement-Intern-Frankfurt-June-2027-Start/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-a3c08853fff8",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Risk Management - 12 Month Placement Intern (London, June 2027 Start)",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1980-2027-Risk-Management-12-Month-Placement-Intern-London-June-2027-Start/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "maven-securities-726030224315",
    "employer": "Maven Securities",
    "employer_type": "hedge_fund",
@@ -5141,100 +5438,100 @@
    "active": true
   },
   {
-   "id": "pimco-81b3e5171a24",
-   "employer": "PIMCO",
-   "employer_type": "asset_manager",
+   "id": "s-p-global-3ef19b1b9633",
+   "employer": "S&P Global",
+   "employer_type": "software",
    "platform": "workday",
-   "title": "2027 PhD/MFE Summer Intern – Quantitative Portfolio Manager",
-   "location": "Newport Beach, CA USA",
+   "title": "Summer Intern, Credit Analysis",
+   "location": "ES - MADRID PASEO DE LA CASTELLANA 7 PLANTA 6",
    "countries": [
-    "US"
+    "ES"
    ],
    "country_names": [
-    "United States"
+    "Spain"
    ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
    "score": 45,
    "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2028-06",
-   "deadline": "2028-04-30",
-   "deadline_source": "estimée",
-   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Quantitative-Portfolio-Management_R106830",
-   "posted_at": "2026-10-26",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "virtu-financial-65aebeac1423",
-   "employer": "Virtu Financial",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Internship - Quantitative Trading",
-   "location": "Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 45,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
+    "role": 10,
+    "geo": 20,
     "city": 0,
     "timing": 15
    },
    "timing": "summer",
    "start": "2027-06",
-   "deadline": "2026-10-31",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/5208637002",
-   "posted_at": "2021-04-16",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/ES---MADRID-PASEO-DE-LA-CASTELLANA-7-PLANTA-6/Summer-Intern--Credit-Analysis_331677-1",
+   "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
   },
   {
-   "id": "virtu-financial-eb885a099aff",
-   "employer": "Virtu Financial",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Internship - Quantitative Trading",
-   "location": "Austin, TX; Chicago; New York; Austin, TX; New York",
+   "id": "s-p-global-09ba4674e825",
+   "employer": "S&P Global",
+   "employer_type": "software",
+   "platform": "workday",
+   "title": "Summer Intern, Credit Analysis",
+   "location": "DE - FRANKFURT, BOCKENHEIMER LANDSTRASSE 2",
    "countries": [
-    "US"
+    "DE"
    ],
    "country_names": [
-    "United States"
+    "Germany"
    ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
    "score": 45,
    "score_breakdown": {
-    "role": 30,
-    "geo": 0,
+    "role": 10,
+    "geo": 20,
     "city": 0,
     "timing": 15
    },
    "timing": "summer",
    "start": "2027-06",
-   "deadline": "2026-10-31",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
-   "posted_at": "2026-07-21",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/DE---FRANKFURT-BOCKENHEIMER-LANDSTRASSE-2/Summer-Intern--Credit-Analysis_331668-1",
+   "posted_at": "2026-10-20",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "s-p-global-dbb2c0ff2547",
+   "employer": "S&P Global",
+   "employer_type": "software",
+   "platform": "workday",
+   "title": "Summer Intern, Credit Analysis",
+   "location": "IT - MILAN VICOLO SAN GIOVANNI SUL MURO 1",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/IT---MILAN-VICOLO-SAN-GIOVANNI-SUL-MURO-1/Summer-Intern--Credit-Analysis_331679-1",
+   "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -5433,6 +5730,192 @@
    "deadline_source": "estimée",
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81350",
    "posted_at": "2026-08-24",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-a023a63517da",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Credit 2027 Summer Analyst - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 42,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027-09",
+   "deadline": "2026-11-02",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14670-Global-Markets-Credit-2027-Summer-Analyst-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-543c54506d45",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Sales & Trading Summer Associate Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14770-Global-Markets-Sales-Trading-Summer-Associate-Program-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-4f248bf8ba06",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Quantitative Strategies Summer Associate - 2027 - Singapore",
+   "location": "",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-01",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15094-Global-Quantitative-Strategies-Summer-Associate-2027-Singapore/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-85ceca99fb87",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Leasing Credit – Global Vendor Finance and International Asset Finance, 2027 Summer Analyst - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 42,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027-09",
+   "deadline": "2026-11-02",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14683-Leasing-Credit-Global-Vendor-Finance-and-International-Asset-Finance-2027-Summer-Analyst-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-5373b71dea04",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Quantitative Data Analytics Summer Analyst Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-07",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14420-Quantitative-Data-Analytics-Summer-Analyst-Program-2027/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-52714ac84759",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Quantitative Strategies & Data Group Summer Associate Program - 2027",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14894-Quantitative-Strategies-Data-Group-Summer-Associate-Program-2027/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -5890,8 +6373,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-10-31",
+   "start": "2027",
+   "deadline": "2026-10-31",
    "deadline_source": "estimée",
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "posted_at": "2026-07-08",
@@ -5929,109 +6412,6 @@
    "url": "https://job-boards.greenhouse.io/gardacp/jobs/4308947004",
    "posted_at": "2022-06-14",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "imc-73cb67b1aefa",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Deep Learning Research Intern - Summer 2027 - New York",
-   "location": "New York, United States; Amsterdam, Netherlands; Sydney, Australia",
-   "countries": [
-    "US",
-    "NL",
-    "AU"
-   ],
-   "country_names": [
-    "United States",
-    "Netherlands",
-    "Australia"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907430101",
-   "posted_at": "2026-07-01",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "imc-4f95cf6cc9b6",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quant Performance Engineer Intern - Summer 2027",
-   "location": "Chicago, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101",
-   "posted_at": "2026-08-27",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "imc-53f384cbcd37",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Trader Intern - Summer 2027",
-   "location": "Chicago, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
-   "posted_at": "2026-07-01",
-   "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
   },
@@ -6125,11 +6505,209 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210786047",
    "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-d022bcc946c3",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Asset Management Summer Internship Programme - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 42,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2011-2027-Asset-Management-Summer-Internship-Programme-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-a1fce055d6de",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equities Sales & Trading Summer Analyst Program - Cash Trading - Hong Kong",
+   "location": "",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1997-2027-Equities-Sales-Trading-Summer-Analyst-Program-Cash-Trading-Hong-Kong/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-57da7ff5b99e",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equities Sales & Trading Summer Analyst Program - Prime Services - Hong Kong",
+   "location": "",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1992-2027-Equities-Sales-Trading-Summer-Analyst-Program-Prime-Services-Hong-Kong/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-d8cfc6247be0",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equities Sales & Trading Summer Analyst – High Touch Trading – Hong Kong",
+   "location": "",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2018-2027-Equities-Sales-Trading-Summer-Analyst-High-Touch-Trading-Hong-Kong/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-5e7374e53c1c",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equity Research Summer Internship Programme - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 42,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-cf1e8cbf3fcd",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Risk Management Summer Internship Programme - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 42,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1986-2027-Risk-Management-Summer-Internship-Programme-London/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -6164,39 +6742,6 @@
    "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012801101",
    "posted_at": "2026-10-25",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "nomura-b1d6cbab074d",
-   "employer": "Nomura",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 - Risk - Industrial Placement - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2029-07",
-   "deadline": "2026-12-01",
-   "deadline_source": "annonce",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1522-2027-Risk-Industrial-Placement-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
   },
@@ -6300,6 +6845,39 @@
    "active": true
   },
   {
+   "id": "pimco-81b3e5171a24",
+   "employer": "PIMCO",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 PhD/MFE Summer Intern – Quantitative Portfolio Manager",
+   "location": "Newport Beach, CA USA",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-PhD-Summer-Intern---Quantitative-Portfolio-Management_R106830",
+   "posted_at": "2026-10-26",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "pimco-02543fa553ad",
    "employer": "PIMCO",
    "employer_type": "asset_manager",
@@ -6395,105 +6973,6 @@
    "url": "https://job-boards.greenhouse.io/radixuniversity/jobs/8500265002",
    "posted_at": "2026-04-09",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "s-p-global-3ef19b1b9633",
-   "employer": "S&P Global",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Summer Intern, Credit Analysis",
-   "location": "ES - MADRID PASEO DE LA CASTELLANA 7 PLANTA 6",
-   "countries": [
-    "ES"
-   ],
-   "country_names": [
-    "Spain"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/ES---MADRID-PASEO-DE-LA-CASTELLANA-7-PLANTA-6/Summer-Intern--Credit-Analysis_331677-1",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "s-p-global-09ba4674e825",
-   "employer": "S&P Global",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Summer Intern, Credit Analysis",
-   "location": "DE - FRANKFURT, BOCKENHEIMER LANDSTRASSE 2",
-   "countries": [
-    "DE"
-   ],
-   "country_names": [
-    "Germany"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/DE---FRANKFURT-BOCKENHEIMER-LANDSTRASSE-2/Summer-Intern--Credit-Analysis_331668-1",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "s-p-global-dbb2c0ff2547",
-   "employer": "S&P Global",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Summer Intern, Credit Analysis",
-   "location": "IT - MILAN VICOLO SAN GIOVANNI SUL MURO 1",
-   "countries": [
-    "IT"
-   ],
-   "country_names": [
-    "Italy"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/IT---MILAN-VICOLO-SAN-GIOVANNI-SUL-MURO-1/Summer-Intern--Credit-Analysis_331679-1",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
   },
@@ -6653,8 +7132,8 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802065",
    "posted_at": "2026-10-22",
@@ -6686,8 +7165,8 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802421",
    "posted_at": "2026-10-22",
@@ -6823,72 +7302,6 @@
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784061",
    "posted_at": "2026-09-13",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "lombard-odier-5a15b7b2d339",
-   "employer": "Lombard Odier",
-   "employer_type": "european_bank",
-   "platform": "workday",
-   "title": "Intern Risk Management - 6-month Internship",
-   "location": "Luxembourg",
-   "countries": [
-    "LU"
-   ],
-   "country_names": [
-    "Luxembourg"
-   ],
-   "region": "Europe (priority)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "",
-   "deadline": "2027-07-31",
-   "deadline_source": "estimée",
-   "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Luxembourg/Intern-Risk-Management---6-month-Internship_R0007399",
-   "posted_at": "2026-07-28",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "schonfeld-a258bb55ee13",
-   "employer": "Schonfeld",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Quantitative C++ Developer Intern",
-   "location": "Hong Kong, Hong Kong",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 41,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-12-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8238451",
-   "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -7059,6 +7472,72 @@
    "active": true
   },
   {
+   "id": "s-p-global-faa9a0df48f0",
+   "employer": "S&P Global",
+   "employer_type": "software",
+   "platform": "workday",
+   "title": "Summer Intern, Credit Analysis",
+   "location": "SE - STOCKHOLM MASTER SAMUELSGATEN",
+   "countries": [
+    "SE"
+   ],
+   "country_names": [
+    "Sweden"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 37,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/SE---STOCKHOLM-MASTER-SAMUELSGATEN/Summer-Intern--Credit-Analysis_331686-1",
+   "posted_at": "2026-10-20",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "s-p-global-26139417d55e",
+   "employer": "S&P Global",
+   "employer_type": "software",
+   "platform": "workday",
+   "title": "Summer Intern, Credit Analysis",
+   "location": "IE - DUBLIN STYNE HOUSE UPPER HATCH STREET",
+   "countries": [
+    "IE"
+   ],
+   "country_names": [
+    "Ireland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 37,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/IE---DUBLIN-STYNE-HOUSE-UPPER-HATCH-STREET/Summer-Intern--Credit-Analysis_331663-1",
+   "posted_at": "2026-10-20",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "euronext-bbcd4f6c68df",
    "employer": "Euronext",
    "employer_type": "infrastructure",
@@ -7181,7 +7660,7 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2027-07",
+   "start": "2027",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788262",
@@ -7214,11 +7693,110 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2027-07",
+   "start": "2027",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788358",
    "posted_at": "2026-09-07",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "nomura-f94ad825d630",
+   "employer": "Nomura",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 - Global Markets - Off-Cycle Internship - Frankfurt",
+   "location": "",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 36,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-10",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1517-2027-Global-Markets-Off-Cycle-Internship-Frankfurt/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "virtu-financial-65aebeac1423",
+   "employer": "Virtu Financial",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Internship - Quantitative Trading",
+   "location": "Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 36,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-08",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/5208637002",
+   "posted_at": "2021-04-16",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "virtu-financial-eb885a099aff",
+   "employer": "Virtu Financial",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Internship - Quantitative Trading",
+   "location": "Austin, TX; Chicago; New York; Austin, TX; New York",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 36,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2027-08",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/virtu/jobs/8624408002",
+   "posted_at": "2026-07-21",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -7455,6 +8033,39 @@
    "active": true
   },
   {
+   "id": "citi-f7d7fa16e8ef",
+   "employer": "Citi",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Functions - Risk, Summer Analyst - Warsaw, 2027",
+   "location": "Warsaw Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 34,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Risk---Summer-Analyst--Warsaw--2027_26995422",
+   "posted_at": "2026-10-22",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "jpmorgan-afc95c860ded",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -7483,72 +8094,6 @@
    "deadline_source": "annonce",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774888",
    "posted_at": "2026-08-31",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "s-p-global-faa9a0df48f0",
-   "employer": "S&P Global",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Summer Intern, Credit Analysis",
-   "location": "SE - STOCKHOLM MASTER SAMUELSGATEN",
-   "countries": [
-    "SE"
-   ],
-   "country_names": [
-    "Sweden"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 34,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/SE---STOCKHOLM-MASTER-SAMUELSGATEN/Summer-Intern--Credit-Analysis_331686-1",
-   "posted_at": "2026-10-20",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "s-p-global-26139417d55e",
-   "employer": "S&P Global",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Summer Intern, Credit Analysis",
-   "location": "IE - DUBLIN STYNE HOUSE UPPER HATCH STREET",
-   "countries": [
-    "IE"
-   ],
-   "country_names": [
-    "Ireland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 34,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/IE---DUBLIN-STYNE-HOUSE-UPPER-HATCH-STREET/Summer-Intern--Credit-Analysis_331663-1",
-   "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -7583,6 +8128,39 @@
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Amsterdam/Finance-Transformation---Working-Internship_R00336967",
    "posted_at": "",
    "first_seen": "2026-10-23",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-403eaf4e5ae2",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Brazil Fixed Income Sales & Trading Desk Internship Program",
+   "location": "",
+   "countries": [
+    "BR"
+   ],
+   "country_names": [
+    "Brazil"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 30,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14455-2027-Brazil-Fixed-Income-Sales-Trading-Desk-Internship-Program/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
   },
@@ -8550,6 +9128,39 @@
    "active": true
   },
   {
+   "id": "nomura-b1d6cbab074d",
+   "employer": "Nomura",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 - Risk - Industrial Placement - London",
+   "location": "",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "deadline": "2026-12-01",
+   "deadline_source": "annonce",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1522-2027-Risk-Industrial-Placement-London/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "pwc-b457a8f8d4e7",
    "employer": "PwC",
    "employer_type": "consulting",
@@ -9245,6 +9856,39 @@
    "active": true
   },
   {
+   "id": "point72-6da5ea6c1ba3",
+   "employer": "Point72",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Point72 Academy Investment Analyst Summer Internship Program - Hong Kong",
+   "location": "Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 25,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2027-06",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://boards.greenhouse.io/point72/jobs/8491055002?gh_jid=8491055002",
+   "posted_at": "2026-04-02",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "point72-6a538777204d",
    "employer": "Point72",
    "employer_type": "hedge_fund",
@@ -9306,6 +9950,39 @@
    "deadline_source": "estimée",
    "url": "https://boards.greenhouse.io/point72/jobs/8729717002?gh_jid=8729717002",
    "posted_at": "2026-08-23",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "point72-45f85a665694",
+   "employer": "Point72",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2028 Point72 Academy Investment Analyst Summer Internship Program - US",
+   "location": "United States; Chicago, Illinois, United States; Florida, United States; New York, United States; San Francisco, California, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 25,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 15
+   },
+   "timing": "summer",
+   "start": "2028-06",
+   "deadline": "2027-10-31",
+   "deadline_source": "estimée",
+   "url": "https://boards.greenhouse.io/point72/jobs/8876354002?gh_jid=8876354002",
+   "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -9872,6 +10549,101 @@
    "active": true
   },
   {
+   "id": "bank-of-america-c1731922e5fb",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Capital Markets Summer Analyst - 2027 - Seoul",
+   "location": "",
+   "countries": [
+    "KR"
+   ],
+   "country_names": [
+    "South Korea"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-01",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14357-Global-Capital-Markets-Summer-Analyst-2027-Seoul/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-192bb4c4ca0b",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Jakarta",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-01",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14368-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Jakarta/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "bank-of-america-6c8fe15ec40f",
+   "employer": "Bank of America",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Kuala Lumpur",
+   "location": "",
+   "countries": [
+    "MY"
+   ],
+   "country_names": [
+    "Malaysia"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-01",
+   "deadline_source": "annonce",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14358-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Kuala-Lumpur/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
    "id": "barclays-3088e9d6772a",
    "employer": "Barclays",
    "employer_type": "intl_bank",
@@ -9961,8 +10733,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2028-04-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/Singapore/MBA-Equity-Investment-Analyst-Summer-Associate--Asia-_JR5921",
    "posted_at": "2026-10-22",
@@ -9994,8 +10766,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2028-04-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/Los-Angeles/MBA-Equity-Investment-Analyst-Summer-Associate--US-_JR5917",
    "posted_at": "2026-10-21",
@@ -10027,8 +10799,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2028-04-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://capgroup.wd1.myworkdayjobs.com/capitalgroupcareers/job/West-Los-Angeles/MBA-Fixed-Income-Investment-Analyst-Summer-Associate--US-_JR5918",
    "posted_at": "2026-10-21",
@@ -10654,11 +11426,110 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784872",
    "posted_at": "2026-08-31",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-4c9b3606af68",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equity Research Summer Analyst Program - Hong Kong",
+   "location": "",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1984-2027-Equity-Research-Summer-Analyst-Program-Hong-Kong/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-98cad0af4d6b",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equity Research Summer Analyst Program - Singapore",
+   "location": "",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jefferies-8eb570456d82",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Investment Banking Summer Associate Program – New York, Financial Institutions Group",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -10687,8 +11558,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
+   "start": "2027-08",
+   "deadline": "2027-07-31",
    "deadline_source": "estimée",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6611",
    "posted_at": "2026-09-21",
@@ -10720,8 +11591,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
+   "start": "2027-08",
+   "deadline": "2027-07-31",
    "deadline_source": "estimée",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6610",
    "posted_at": "2026-10-07",
@@ -10753,8 +11624,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
+   "start": "2027-08",
+   "deadline": "2027-07-31",
    "deadline_source": "estimée",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6614",
    "posted_at": "2026-10-06",
@@ -10786,8 +11657,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
+   "start": "2027-08",
+   "deadline": "2027-07-31",
    "deadline_source": "estimée",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6613",
    "posted_at": "2026-09-23",
@@ -10819,8 +11690,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2029-05",
-   "deadline": "2029-04-30",
+   "start": "2028",
+   "deadline": "2028-04-30",
    "deadline_source": "estimée",
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6767",
    "posted_at": "2026-10-23",
@@ -11046,8 +11917,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-07-31",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-MBA-Summer-Intern---Credit-Research-Analyst--US_R106831-1",
    "posted_at": "2026-09-01",
@@ -11079,8 +11950,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-07-31",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Hong-Kong/XMLNAME-2027-MBA-Summer-Internship--PM---Public---Credit-Research-APAC_R106834",
    "posted_at": "2026-09-02",
@@ -11112,8 +11983,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-07-31",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Alternatives-Investment-Operations-Intern_R106782",
    "posted_at": "2026-08-25",
@@ -11145,8 +12016,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-07-31",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---Finance---Accounting-Analyst_R106623",
    "posted_at": "2026-08-18",
@@ -11178,8 +12049,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-07-31",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Growth-Markets-Analyst--US_R106759-1",
    "posted_at": "2026-08-19",
@@ -11211,8 +12082,8 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2028-08",
-   "deadline": "2028-07-31",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Austin-TX-USA/XMLNAME-2027-Summer-Intern---Global-Wealth-Management--Internal-Sales-Analyst--US_R106758",
    "posted_at": "2026-08-19",
@@ -11249,39 +12120,6 @@
    "deadline_source": "estimée",
    "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Singapore/XMLNAME-2027-Summer-Internship---Portfolio-Management---Special-Situations-Team--APAC_R106835",
    "posted_at": "2026-09-04",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "point72-6da5ea6c1ba3",
-   "employer": "Point72",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Point72 Academy Investment Analyst Summer Internship Program - Hong Kong",
-   "location": "Hong Kong",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-07",
-   "deadline": "2028-04-30",
-   "deadline_source": "estimée",
-   "url": "https://boards.greenhouse.io/point72/jobs/8491055002?gh_jid=8491055002",
-   "posted_at": "2026-04-02",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -11381,39 +12219,6 @@
    "deadline_source": "estimée",
    "url": "https://boards.greenhouse.io/point72/jobs/8885715002?gh_jid=8885715002",
    "posted_at": "2026-10-14",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "point72-45f85a665694",
-   "employer": "Point72",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2028 Point72 Academy Investment Analyst Summer Internship Program - US",
-   "location": "United States; Chicago, Illinois, United States; Florida, United States; New York, United States; San Francisco, California, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2029-07",
-   "deadline": "2029-04-30",
-   "deadline_source": "estimée",
-   "url": "https://boards.greenhouse.io/point72/jobs/8876354002?gh_jid=8876354002",
-   "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -11579,6 +12384,105 @@
    "deadline_source": "annonce",
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/San-Francisco-California-United-States-of-America/XMLNAME-2027-Capital-Markets--Global-Investment-Banking-Summer-Associate---San-Francisco_R-0000186214-1",
    "posted_at": "2026-08-28",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "schonfeld-938ca1198c25",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Data Science Intern",
+   "location": "New York, New York, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
+   "posted_at": "2026-09-04",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "schonfeld-a00530dc43d6",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Emerging Markets and Delta One Investment Analyst Internship",
+   "location": "Dubai, United Arab Emirates",
+   "countries": [
+    "AE"
+   ],
+   "country_names": [
+    "United Arab Emirates"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8220506",
+   "posted_at": "2026-09-21",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "schonfeld-df59aa7616c0",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 PhD Centralized Research Intern",
+   "location": "New York, New York, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8174538",
+   "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -11958,7 +12862,7 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2027-07",
+   "start": "2027",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788269",
@@ -12001,17 +12905,17 @@
    "active": true
   },
   {
-   "id": "schonfeld-938ca1198c25",
-   "employer": "Schonfeld",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Data Science Intern",
-   "location": "New York, New York, United States",
+   "id": "jefferies-137e962fc9da",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Equity Research Off-Cycle Intern - Brazil",
+   "location": "",
    "countries": [
-    "US"
+    "BR"
    ],
    "country_names": [
-    "United States"
+    "Brazil"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -12024,77 +12928,11 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-12-31",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
-   "posted_at": "2026-09-04",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "schonfeld-a00530dc43d6",
-   "employer": "Schonfeld",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Emerging Markets and Delta One Investment Analyst Internship",
-   "location": "Dubai, United Arab Emirates",
-   "countries": [
-    "AE"
-   ],
-   "country_names": [
-    "United Arab Emirates"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-12-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8220506",
-   "posted_at": "2026-09-21",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "schonfeld-df59aa7616c0",
-   "employer": "Schonfeld",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 PhD Centralized Research Intern",
-   "location": "New York, New York, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-12-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8174538",
-   "posted_at": "2026-10-22",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2009-Equity-Research-Off-Cycle-Intern-Brazil/en-GB",
+   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-27",
    "active": true
@@ -12189,7 +13027,7 @@
     "timing": 6
    },
    "timing": "off-cycle",
-   "start": "2027-10",
+   "start": "2027-08",
    "deadline": "2027-07-31",
    "deadline_source": "estimée",
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2155",
@@ -14552,68 +15390,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-cac1ee7ed365",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Quantitative Research Summer Associate Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14896-Global-Quantitative-Research-Summer-Associate-Program-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-110f5a9d396b",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equity Sales and Trading Summer Internship Programme - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 62,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1930-2027-Equity-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
    "id": "jefferies-b46f82f04397",
    "employer": "Jefferies",
    "employer_type": "intl_bank",
@@ -15696,6 +16472,39 @@
    "active": false
   },
   {
+   "id": "air-liquide-40eb19e9dafc",
+   "employer": "Air Liquide",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Stage Trésorerie & Projets Systèmes d'Information (H/F)",
+   "location": "France, Paris",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 50,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 5,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/Stage-Trsorerie---Projets-Systmes-d-Information--H-F-_R10102166",
+   "posted_at": "2026-10-07",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-27",
+   "active": false
+  },
+  {
    "id": "imc-8a9695dbcb12",
    "employer": "IMC",
    "employer_type": "hedge_fund",
@@ -15856,39 +16665,6 @@
    "deadline_source": "estimée",
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2049",
    "posted_at": "2026-09-25",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-2034c25c94a7",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Sales and Trading 2027 Off-Cycle Analyst - Stockholm",
-   "location": "",
-   "countries": [
-    "SE"
-   ],
-   "country_names": [
-    "Sweden"
-   ],
-   "region": "Europe (other)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 48,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 12,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-07",
-   "deadline": "2026-10-31",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15032-Global-Markets-Sales-and-Trading-2027-Off-Cycle-Analyst-Stockholm/en-GB",
-   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-24",
    "active": false
@@ -16146,72 +16922,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-a023a63517da",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Credit 2027 Summer Analyst - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 45,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2027-06",
-   "deadline": "2026-11-02",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14670-Global-Markets-Credit-2027-Summer-Analyst-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-85ceca99fb87",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Leasing Credit – Global Vendor Finance and International Asset Finance, 2027 Summer Analyst - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 45,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2027-06",
-   "deadline": "2026-11-02",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14683-Leasing-Credit-Global-Vendor-Finance-and-International-Asset-Finance-2027-Summer-Analyst-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
    "id": "euronext-532b6393d4a0",
    "employer": "Euronext",
    "employer_type": "infrastructure",
@@ -16269,72 +16979,6 @@
    "deadline_source": "estimée",
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941205101",
    "posted_at": "2026-08-12",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-3fbaa64085f1",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Risk Management - 12 Month Placement Intern (Frankfurt, June 2027 Start)",
-   "location": "",
-   "countries": [
-    "DE"
-   ],
-   "country_names": [
-    "Germany"
-   ],
-   "region": "Europe (priority)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 45,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2027-06",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1979-2027-Risk-Management-12-Month-Placement-Intern-Frankfurt-June-2027-Start/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-a3c08853fff8",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Risk Management - 12 Month Placement Intern (London, June 2027 Start)",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 45,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2027-06",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1980-2027-Risk-Management-12-Month-Placement-Intern-London-June-2027-Start/en-GB",
-   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-24",
    "active": false
@@ -16505,68 +17149,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-543c54506d45",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Sales & Trading Summer Associate Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14770-Global-Markets-Sales-Trading-Summer-Associate-Program-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-4f248bf8ba06",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Quantitative Strategies Summer Associate - 2027 - Singapore",
-   "location": "",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-01",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15094-Global-Quantitative-Strategies-Summer-Associate-2027-Singapore/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
    "id": "bank-of-america-e563de311c66",
    "employer": "Bank of America",
    "employer_type": "intl_bank",
@@ -16594,64 +17176,6 @@
    "deadline": "2026-10-25",
    "deadline_source": "annonce",
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14720-Global-Research-2027-Summer-Analyst-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-5373b71dea04",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Quantitative Data Analytics Summer Analyst Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-07",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14420-Quantitative-Data-Analytics-Summer-Analyst-Program-2027/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-52714ac84759",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Quantitative Strategies & Data Group Summer Associate Program - 2027",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14894-Quantitative-Strategies-Data-Group-Summer-Associate-Program-2027/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-24",
@@ -16790,237 +17314,6 @@
    "active": false
   },
   {
-   "id": "jefferies-d022bcc946c3",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Asset Management Summer Internship Programme - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2011-2027-Asset-Management-Summer-Internship-Programme-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-a1fce055d6de",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equities Sales & Trading Summer Analyst Program - Cash Trading - Hong Kong",
-   "location": "",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1997-2027-Equities-Sales-Trading-Summer-Analyst-Program-Cash-Trading-Hong-Kong/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-57da7ff5b99e",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equities Sales & Trading Summer Analyst Program - Prime Services - Hong Kong",
-   "location": "",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1992-2027-Equities-Sales-Trading-Summer-Analyst-Program-Prime-Services-Hong-Kong/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-d8cfc6247be0",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equities Sales & Trading Summer Analyst – High Touch Trading – Hong Kong",
-   "location": "",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2018-2027-Equities-Sales-Trading-Summer-Analyst-High-Touch-Trading-Hong-Kong/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-5e7374e53c1c",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equity Research Summer Internship Programme - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-2607808f9802",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Private Credit Investment Summer Internship Programme - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-cf1e8cbf3fcd",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Risk Management Summer Internship Programme - London",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1986-2027-Risk-Management-Summer-Internship-Programme-London/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
    "id": "optiver-b1253534d2a1",
    "employer": "Optiver",
    "employer_type": "hedge_fund",
@@ -17148,6 +17441,39 @@
    "posted_at": "2026-09-24",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
+   "active": false
+  },
+  {
+   "id": "lombard-odier-5a15b7b2d339",
+   "employer": "Lombard Odier",
+   "employer_type": "european_bank",
+   "platform": "workday",
+   "title": "Intern Risk Management - 6-month Internship",
+   "location": "Luxembourg",
+   "countries": [
+    "LU"
+   ],
+   "country_names": [
+    "Luxembourg"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "",
+   "deadline": "2027-07-31",
+   "deadline_source": "estimée",
+   "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Luxembourg/Intern-Risk-Management---6-month-Internship_R0007399",
+   "posted_at": "2026-07-28",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
    "active": false
   },
   {
@@ -17469,39 +17795,6 @@
    "active": false
   },
   {
-   "id": "nomura-f94ad825d630",
-   "employer": "Nomura",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 - Global Markets - Off-Cycle Internship - Frankfurt",
-   "location": "",
-   "countries": [
-    "DE"
-   ],
-   "country_names": [
-    "Germany"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 36,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1517-2027-Global-Markets-Off-Cycle-Internship-Frankfurt/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
    "id": "schroders-d656e613a988",
    "employer": "Schroders",
    "employer_type": "asset_manager",
@@ -17592,39 +17885,6 @@
    },
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Brussels/Internship-in-Governance-Risk-and-Compliance---Financial-Services-2026-2027_760187WD",
    "posted_at": "2026-10-14",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "citi-f7d7fa16e8ef",
-   "employer": "Citi",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Functions - Risk, Summer Analyst - Warsaw, 2027",
-   "location": "Warsaw Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 34,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Warsaw--Poland/Risk---Summer-Analyst--Warsaw--2027_26995422",
-   "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
    "active": false
@@ -17786,39 +18046,6 @@
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-23",
    "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-403eaf4e5ae2",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Brazil Fixed Income Sales & Trading Desk Internship Program",
-   "location": "",
-   "countries": [
-    "BR"
-   ],
-   "country_names": [
-    "Brazil"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 30,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14455-2027-Brazil-Fixed-Income-Sales-Trading-Desk-Internship-Program/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
    "active": false
   },
   {
@@ -18113,101 +18340,6 @@
    "active": false
   },
   {
-   "id": "bank-of-america-c1731922e5fb",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Capital Markets Summer Analyst - 2027 - Seoul",
-   "location": "",
-   "countries": [
-    "KR"
-   ],
-   "country_names": [
-    "South Korea"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-01",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14357-Global-Capital-Markets-Summer-Analyst-2027-Seoul/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-192bb4c4ca0b",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Jakarta",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-01",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14368-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Jakarta/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "bank-of-america-6c8fe15ec40f",
-   "employer": "Bank of America",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Analyst - 2027 - Kuala Lumpur",
-   "location": "",
-   "countries": [
-    "MY"
-   ],
-   "country_names": [
-    "Malaysia"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-01",
-   "deadline_source": "annonce",
-   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14358-Global-Markets-Fixed-Income-Currencies-Commodities-Sales-Summer-Analyst-2027-Kuala-Lumpur/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
    "id": "deloitte-9c9da7e8529d",
    "employer": "Deloitte",
    "employer_type": "consulting",
@@ -18434,105 +18566,6 @@
    "deadline_source": "estimée",
    "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Corporate-Services--Travel-and-Events_R-15355-1",
    "posted_at": "2026-10-16",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-4c9b3606af68",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equity Research Summer Analyst Program - Hong Kong",
-   "location": "",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1984-2027-Equity-Research-Summer-Analyst-Program-Hong-Kong/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-98cad0af4d6b",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equity Research Summer Analyst Program - Singapore",
-   "location": "",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
-   "active": false
-  },
-  {
-   "id": "jefferies-8eb570456d82",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Investment Banking Summer Associate Program – New York, Financial Institutions Group",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group/en-GB",
-   "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-24",
    "active": false
@@ -19053,39 +19086,6 @@
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-23",
-   "active": false
-  },
-  {
-   "id": "jefferies-137e962fc9da",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Equity Research Off-Cycle Intern - Brazil",
-   "location": "",
-   "countries": [
-    "BR"
-   ],
-   "country_names": [
-    "Brazil"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 16,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2009-Equity-Research-Off-Cycle-Intern-Brazil/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-10-24",
    "active": false
   },
   {

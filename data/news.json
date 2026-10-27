@@ -1,6 +1,143 @@
 {
- "generated_at": "2026-10-27T13:23:55+00:00",
+ "generated_at": "2026-10-27T13:36:17+00:00",
  "items": [
+  {
+   "id": "b7238a8b20a75fe7",
+   "title": "Travel + Leisure dépasse les prévisions du T3 2026, l’action recule légèrement",
+   "link": "https://fr.investing.com/news/transcripts/travel--leisure-depasse-les-previsions-du-t3-2026-laction-recule-legerement-93CH-3655800",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:32+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
+  {
+   "id": "19b81d18ee67fe37",
+   "title": "A bigger-than-expected win for Democrats in the midterms could deliver ‘short-lived weakness’ for stocks, strategists say",
+   "link": "https://www.marketwatch.com/story/this-surprise-election-result-could-deliver-short-lived-weakness-for-stocks-strategists-say-2278a22e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-10-27T13:30+00:00",
+   "summary": "A divided federal government is expected after the midterms, but the size of the congressional majorities could really matter to markets.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 15
+  },
+  {
+   "id": "1be865dc932cc59f",
+   "title": "T3 Defense acquiert KeepZone AI pour renforcer ses ventes en sécurité intérieure",
+   "link": "https://fr.investing.com/news/company-news/t3-defense-acquiert-keepzone-ai-pour-renforcer-ses-ventes-en-securite-interieure-93CH-3655792",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:29+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
+  {
+   "id": "7c64f344c7361833",
+   "title": "Pourquoi l’action Terrestrial Energy bondit-elle aujourd’hui ?",
+   "link": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-terrestrial-energy-bonditelle-aujourdhui--93CH-3655791",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:29+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
+  {
+   "id": "906fda185c58653d",
+   "title": "AMD s’associe à Meta pour alimenter l’infrastructure IA avec les systèmes Helios",
+   "link": "https://fr.investing.com/news/company-news/amd-sassocie-a-meta-pour-alimenter-linfrastructure-ia-avec-les-systemes-helios-93CH-3655790",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:29+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
+  {
+   "id": "dad824063f377ab9",
+   "title": "Ripple s’associe à Robinhood pour intégrer son stablecoin RLUSD",
+   "link": "https://fr.investing.com/news/company-news/ripple-sassocie-a-robinhood-pour-integrer-son-stablecoin-rlusd-93CH-3655789",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:29+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
+  {
+   "id": "e1969d85a40e89fc",
+   "title": "Agi Inc approuve le rachat de jusqu’à 3 millions d’actions de classe A",
+   "link": "https://fr.investing.com/news/company-news/agi-inc-approuve-le-rachat-de-jusqua-3-millions-dactions-de-classe-a-93CH-3655788",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:29+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
+  {
+   "id": "191a853b58fee588",
+   "title": "Pourquoi l’action Arlo Technologies est-elle en hausse aujourd’hui ?",
+   "link": "https://fr.investing.com/news/stock-market-news/pourquoi-laction-arlo-technologies-estelle-en-hausse-aujourdhui--93CH-3655781",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:26+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
+  {
+   "id": "93ede4dc60e301d3",
+   "title": "Citi : les positions courtes sur les petites capitalisations approchent des extrêmes historiques",
+   "link": "https://fr.investing.com/news/stock-market-news/citi--les-positions-courtes-sur-les-petites-capitalisations-approchent-des-extremes-historiques-3655778",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-10-27T13:24+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-10-27T13:36+00:00",
+   "score": 5
+  },
   {
    "id": "aeb1251203e893b1",
    "title": "Tech stocks gain as AI trade revives",
