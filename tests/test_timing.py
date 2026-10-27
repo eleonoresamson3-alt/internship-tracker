@@ -45,6 +45,18 @@ from tracker.timing import analyse
     ("Auditeur stagiaire", "Type de contrat : stage. Date de début prévue : 04/01/2027.", "off-cycle", "2027-01"),
     ("2027 Asset Management Analyst", "There are two intakes for this role: January 2027 and July 2027.", "summer", "2027-07"),
     ("Quant Intern", "Expected graduation date between December 2027 and June 2028.", "unknown", ""),
+    ("London Trader Summer Internship 2027", "Programme details. Location: London. Programme dates: 21st June - 20th August 2027.",
+     "summer", "2027-06"),
+    ("Quantitative Trader Intern", "Must be able to start the internship on June 28, 2027.", "summer", "2027-06"),
+    ("Summer Intern, Credit Analysis", "A 10-week summer journey that begins in June 2027.", "summer", "2027-06"),
+    ("Stage Trésorerie", "Informations complémentaires : stage à compter de janvier 2027, durée 6 mois.", "off-cycle", "2027-01"),
+    ("2027 Summer Intern - Client Solutions", "Must be able to begin full-time employment between January 2028 and August 2028.",
+     "summer", "2027"),
+    ("Summer Internship 2027", "Graduating between December 2027 and August 2028.", "summer", "2027"),
+    ("Quant & Analytics Intern", "Location: Zurich. Salary: competitive. Date: Oct 16 2026. Job ID 123.", "unknown", ""),
+    ("2027 - Global Markets - Off-Cycle Internship", "Looking for an intern to join in 2027 for the following dates: "
+     "Q1 - January to March 2027, Q2 - April to June 2027, Q3 - July to September 2027, Q4 - October to December 2027.",
+     "off-cycle", "2027-10"),
     ("Risk Intern", "Applications close in March 2027; interviews in April 2027.", "unknown", ""),
     ("Stage estate 2027 - Mercati", "", "summer", "2027"),
 ])
