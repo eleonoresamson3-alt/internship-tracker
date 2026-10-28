@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-10-27T09:50:32+00:00",
- "date": "2026-10-27",
+ "generated_at": "2026-10-28T10:37:00+00:00",
+ "date": "2026-10-28",
  "jobs": [
   {
-   "id": "airbus-5cfd4678ad77",
-   "employer": "Airbus",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "Stage 2027 - Trading and Asset Management (F/H)",
-   "location": "Toulouse Area",
+   "id": "kepler-cheuvreux-d1869493b814",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - CREDIT RESEARCH SELL SIDE - PARIS",
+   "location": "Paris, France",
    "countries": [
     "FR"
    ],
@@ -16,165 +16,334 @@
     "France"
    ],
    "region": "France",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 65,
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 45,
    "score_breakdown": {
-    "role": 30,
+    "role": 10,
     "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8623232-internship-credit-research-sell-side-paris",
+   "posted_at": "2026-10-27",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-21b312dd5777",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE - Accountant - Private Equity & Real Estate Solutions H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---accountant---private-equity-et-real-estate-solutions-hf-reference--2026-116463--/",
+   "posted_at": "",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-715445e04cf8",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE - Officer Depositary Operations Services - Private Equity & Real Estate Solutions H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---officer-depositary-operations-services---private-equity-et-real-estate-solutions-hf-reference--2026-116666--/",
+   "posted_at": "",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-4fd9533854cd",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Transfer Agent - Private Equity and Real Estate Solutions H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---transfer-agent---private-equity-and-real-estate-solutions-hf-reference--2026-116466--/",
+   "posted_at": "",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-8cdc1aa6a6b7",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stagiaire ETF Investment Strategist H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-etf-investment-strategist-hf-reference--2026-116935--/",
+   "posted_at": "",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "pwc-3cb19cdbe610",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Stage Consultant en Modélisation et Gestion des Risques Bancaires F/H",
+   "location": "Neuilly-sur-Seine",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stage-Consultant-en-Modlisation-et-Gestion-des-Risques-Bancaires-F-H_770395WD-1",
+   "posted_at": "2026-10-28",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "airbus-b011d97e0756",
+   "employer": "Airbus",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Internship within Commodity Management for IT & Ground (d/f/m)",
+   "location": "München Area",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 35,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
     "city": 0,
     "timing": 5
    },
    "timing": "unknown",
-   "start": "2027",
+   "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Stage-2027---Trading-and-Asset-Management--F-H-_JR10445636",
-   "posted_at": "2026-10-26",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Internship-within-Commodity-Management-for-IT---Ground--d-f-m-_JR10451782",
+   "posted_at": "2026-10-28",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
-   "id": "jpmorgan-4fa62b281c80",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Machine Learning Center of Excellence (Quant AI) - Summer Associate",
-   "location": "Palo Alto, CA, United States",
+   "id": "airbus-baf3e80b0402",
+   "employer": "Airbus",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Internship within Commodity Management for IT Infrastructure (d/f/m)",
+   "location": "München Area",
    "countries": [
-    "US"
+    "DE"
    ],
    "country_names": [
-    "United States"
+    "Germany"
    ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 42,
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 35,
    "score_breakdown": {
-    "role": 30,
-    "geo": 0,
+    "role": 10,
+    "geo": 20,
     "city": 0,
-    "timing": 12
+    "timing": 5
    },
-   "timing": "summer",
-   "start": "2027",
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Mnchen-Area/Internship-within-Commodity-Management-for-IT-Infrastructure--d-f-m-_JR10451788",
+   "posted_at": "2026-10-28",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "deutsche-bank-0c663532c17d",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Internship - Corporate Advisory Team, Mid-Market M&A (f/m/x)",
+   "location": "Milano Via Turati 25-27",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 35,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803936",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Milano-Via-Turati-25-27/Internship---Corporate-Advisory-Team--Mid-Market-M-A--f-m-x-_R0455361",
    "posted_at": "2026-10-26",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-9bec4d2f9671",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - General Secretary & Permanent Control - Private Equity & Real Estate Solutions H/F",
-   "location": "",
+   "id": "deutsche-bank-112c61ac8c24",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Internship Private Equity, Club Deal Team (f/m/x)",
+   "location": "Milano Via Turati 25-27",
    "countries": [
-    "FR"
+    "IT"
    ],
    "country_names": [
-    "France"
+    "Italy"
    ],
-   "region": "France",
+   "region": "Europe (priority)",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 40,
+   "score": 35,
    "score_breakdown": {
     "role": 10,
-    "geo": 30,
+    "geo": 20,
     "city": 0,
-    "timing": 0
+    "timing": 5
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---general-secretary-et-permanent-control---private-equity-et-real-estate-solutions-hf-reference--2026-116897--/",
-   "posted_at": "",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Milano-Via-Turati-25-27/Internship-Private-Equity--Club-Deal--Team--f-m-x-_R0435115",
+   "posted_at": "2026-09-30",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-72380d8a28b9",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Data Scientist H/F",
-   "location": "",
+   "id": "pwc-628d3dbd1e3b",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Finance Transformation - Technology EPM Junior Consultant - Roma - Internship",
+   "location": "Rome",
    "countries": [
-    "FR"
+    "IT"
    ],
    "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170473-122-stage---data-scientist-hf-reference--2026-116771--/",
-   "posted_at": "",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "amundi-e71a2185e105",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - Assistant Securities Lending Trading H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 30,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-assistant-securities-lending-trading-h-f_116870.aspx",
-   "posted_at": "",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-f528ffdd10bc",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Chef de projet junior Normes et usages risque crédit (Bâle IV) H/F",
-   "location": "",
-   "countries": [
-    "CH"
-   ],
-   "country_names": [
-    "Switzerland"
+    "Italy"
    ],
    "region": "Europe (priority)",
    "family": "Markets (other)",
@@ -188,21 +357,21 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2027-03-31",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---chef-de-projet-junior-normes-et-usages-risque-credit-bale-iv-hf-reference--2026-116008--/",
-   "posted_at": "",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/EPM-Intern--Private-sector----Roma--ADV-_605255WD-2",
+   "posted_at": "2026-10-27",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
-   "id": "schonfeld-938ca1198c25",
-   "employer": "Schonfeld",
+   "id": "arrowstreet-capital-acafc7fd7634",
+   "employer": "Arrowstreet Capital",
    "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Data Science Intern",
-   "location": "New York, New York, United States",
+   "platform": "workday",
+   "title": "Investment Processes Intern, Summer 2027",
+   "location": "Boston",
    "countries": [
     "US"
    ],
@@ -223,52 +392,176 @@
    "start": "2027",
    "deadline": "2026-10-31",
    "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
-   "posted_at": "2026-09-04",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Investment-Processes-Intern--Summer-2027_R1557",
+   "posted_at": "2026-10-27",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
-   "id": "deloitte-762272da9dec",
-   "employer": "Deloitte",
-   "employer_type": "consulting",
+   "id": "jefferies-d3c07475843a",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
    "platform": "generic",
-   "title": "Audit & Assurance – Intern – Financial Statement Audit (Japanese Services Group) – Winter 2028",
+   "title": "2027 Financial Institutions Group MBA Summer Associate Investment Banking Information Session (Invite Only)",
    "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 16,
+   "score": 22,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 6
+    "timing": 12
    },
-   "timing": "off-cycle",
-   "start": "2028-01",
-   "deadline": "2027-10-31",
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Japanese-Services-Group-Winter-2028/368640",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2037-2027-Financial-Institutions-Group-MBA-Summer-Associate-Investment-Banking-Information-Session-Invite-Only/en-GB",
    "posted_at": "",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
    "active": true
   },
   {
-   "id": "rbc-capital-markets-c8856e97139a",
+   "id": "amundi-e94188d20cda",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stagiaire ETF Investment Strategist H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stagiaire-etf-investment-strategist-h-f_116935.aspx",
+   "posted_at": "",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "deutsche-bank-bae009376fed",
+   "employer": "Deutsche Bank",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Global Emergent Markets (GEM) FIC Sales - Intern",
+   "location": "Sao Paulo Edificio Pedro Mariz",
+   "countries": [
+    "BR"
+   ],
+   "country_names": [
+    "Brazil"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Sao-Paulo-Edificio-Pedro-Mariz/Global-Emergent-Markets--GEM--FIC-Sales---Intern_R0454424-1",
+   "posted_at": "2026-10-27",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-f04fefc57354",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (WAM - Fixed Income Investment/ Rotational)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869442",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "rbc-capital-markets-bf4732fb3108",
    "employer": "RBC Capital Markets",
    "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "Relationship Manager Intern, Business Market",
-   "location": "SURREY, British Columbia, Canada",
+   "title": "Finance Intern, US Regulatory Reporting and Financial Control",
+   "location": "PERSIARAN IRC 2, IOI RESORT CITY IOI CITY TOWER ONE:PUTRAJAYA",
+   "countries": [
+    "MY"
+   ],
+   "country_names": [
+    "Malaysia"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PERSIARAN-IRC-2-IOI-RESORT-CITY-IOI-CITY-TOWER-ONEPUTRAJAYA/Finance-Intern--US-Regulatory-Reporting-and-Financial-Control_R-0000190141",
+   "posted_at": "2026-10-28",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "rbc-capital-markets-edf28ea67f4a",
+   "employer": "RBC Capital Markets",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Financial Advisor Intern",
+   "location": "RICHMOND, British Columbia, Canada",
    "countries": [
     "CA"
    ],
@@ -289,10 +582,43 @@
    "start": "",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/SURREY-British-Columbia-Canada/Relationship-Manager-Intern--Business-Market_R-0000188258-1",
-   "posted_at": "2026-10-26",
-   "first_seen": "2026-10-27",
-   "last_seen": "2026-10-27",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/RICHMOND-British-Columbia-Canada/Financial-Advisor-Intern_R-0000191330",
+   "posted_at": "2026-10-27",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "active": true
+  },
+  {
+   "id": "scotiabank-0989568342af",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "Intern, Business Risk Management, APAC",
+   "location": "Singapore, 01, SG, 048583",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Singapore-Intern%2C-Business-Risk-Management%2C-APAC-01-048583/607429317/",
+   "posted_at": "",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
    "active": true
   }
  ]
