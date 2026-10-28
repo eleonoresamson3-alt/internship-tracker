@@ -1,6 +1,154 @@
 {
  "days": [
   {
+   "date": "2026-10-28",
+   "generated_at": "2026-10-28T05:55:00+00:00",
+   "brief": [
+    "Banques centrales : la Fed est en réunion les 27-28 octobre et la BCE les 28-29 (décision jeudi) ; le taux de dépôt de la BCE reste à 2,5 % et L'Agefi attend un statu quo.",
+    "France : le 10 ans (TEC 10) est à 4,934 % le 26 octobre (-11,4 points de base sur la journée), contre 3,43 % pour le Bund : l'écart est d'environ 150 points de base.",
+    "Actions : le FT parle d'un regain de l'« IA trade » après le dépôt d'introduction en Bourse d'Anthropic ; le Nasdaq gagnait 0,82 % lundi 26 octobre (26 169 points), le VIX était à 19,45 le 23 octobre.",
+    "Banques : HSBC affiche un bond de ses profits au troisième trimestre mais déçoit sur la gestion de fortune ; DWS limite à 10 % les rachats d'un fonds immobilier européen.",
+    "Royaume-Uni : le budget approche et les investisseurs en gilts demandent surtout de ne pas toucher aux règles budgétaires."
+   ],
+   "articles": [
+    {
+     "title": "Dette française : l'État fragilisé, mais toutes les entreprises ne le sont pas",
+     "theme": "credit_sovereign",
+     "lead": "Alors que le rendement à 10 ans reste proche de 5 %, L'Agefi rappelle que la dégradation du crédit de l'État ne se transmet pas mécaniquement à tous les émetteurs privés.",
+     "what": "Selon L'Agefi, la dette publique française se dégrade, mais il serait erroné d'en conclure que toutes les entreprises françaises seront également et durablement pénalisées sur les marchés. Nos données donnent un TEC 10 à 4,934 % le 26 octobre (-11,4 points de base sur la journée, +8,1 sur une semaine, +30,0 sur un mois), un TEC 2 ans à 3,759 %, et un Bund 10 ans à 3,43 %, soit un écart d'environ 150 points de base, contre environ 166 le 23 octobre. La détente de la veille est nette, mais le niveau reste élevé comparé à celui d'il y a un mois.",
+     "why": "Le coût de financement d'une entreprise dépend de sa propre qualité de crédit (endettement, cash-flows, secteur) et de l'environnement de marché. Le rendement de l'État sert de repère, et un souverain plus cher tire souvent le coût des banques et des entreprises domestiques vers le haut. Mais une société qui réalise l'essentiel de ses revenus à l'étranger, ou dont le bilan est solide, peut être jugée sur ses propres mérites. D'où des écarts de spread entre émetteurs qui peuvent se resserrer ou se creuser. Le texte de L'Agefi, qui plaide pour la sélectivité, est une analyse et non un fait de marché ; nos chiffres montrent seulement que l'écart avec le Bund s'est réduit d'environ 15 points de base en trois jours.",
+     "impact": "Pour un investisseur crédit, la leçon est de ne pas acheter ou vendre « la France » en bloc : on compare les spreads émetteur par émetteur. Pour les produits structurés, le spread de crédit de l'émetteur de la note entre directement dans son prix : un spread plus faible augmente la valeur de la jambe obligataire et laisse plus de budget pour l'option, donc un coupon potentiellement plus généreux. Le risque de crédit du client sur l'émetteur reste toutefois entier. Une baisse du rendement souverain réduit aussi la pression sur les portefeuilles obligataires des banques et des assureurs français.",
+     "interview": {
+      "question": "Le 10 ans français passe de 5,05 % à 4,93 % en trois jours : le spread des entreprises françaises doit-il suivre, et pourquoi pas toujours ?",
+      "hints": [
+       "Distinguer risque souverain, risque émetteur et prime de liquidité.",
+       "Calculer l'écart OAT-Bund (environ 150 points de base) et sa variation.",
+       "Un émetteur très exposé à l'international peut se découpler du souverain.",
+       "Lien entre spread émetteur et coupon d'une note structurée."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Spread de crédit",
+       "definition": "Écart de rendement entre une obligation et un taux de référence sans risque, qui rémunère le risque de défaut et d'illiquidité."
+      }
+     ],
+     "sources": [
+      {
+       "title": "La dette publique fragilise l'État mais pas l'ensemble des entreprises françaises",
+       "url": "https://www.agefi.fr/cash-risk/actualites/la-dette-publique-fragilise-letat-mais-pas-lensemble-des-entreprises-francaises",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Actions : les valeurs technologiques rebondissent, le marché de l'IA reprend des couleurs",
+     "theme": "equities",
+     "lead": "Après les craintes de la semaine dernière, les valeurs technologiques remontent en Asie et à Wall Street, portées par le dépôt d'introduction en Bourse d'Anthropic.",
+     "what": "Le FT rapporte que les actions technologiques progressent, l'Asie suivant Wall Street, après le dépôt tant attendu d'Anthropic en vue de son introduction en Bourse. Nos données montrent le Nasdaq à 26 169 points le 26 octobre (+0,82 % sur la journée, -3,32 % sur un mois), le S&P 500 à 7 623,68 le 23 octobre (-0,52 %) et le Nikkei à 62 189,65 le 26 octobre (-0,8 % sur la journée, -6,29 % sur un mois). Le VIX est à 19,45 le 23 octobre (+2,2 % sur la journée, +28 % sur un mois).",
+     "why": "Une introduction en Bourse valorise une entreprise sur la base des anticipations de croissance. Le dépôt d'une société d'IA de premier plan fournit un point de repère de valorisation et peut apaiser les doutes sur la rentabilité du secteur, d'où le rebond ; le FT parle d'un regain de l'IA trade, ce qui reste un mouvement sur une séance, après un mois nettement négatif pour le Nasdaq et le Nikkei. Le VIX, resté proche de 19, indique une prudence persistante plutôt qu'un retour au calme. Les données américaines sont datées de plusieurs jours : il faut regarder les cours du jour avant de conclure.",
+     "impact": "Un rebond de la technologie réduit la demande de couverture et pourrait faire reculer la volatilité implicite, ce qui rend les options moins chères : pour les autocalls sur Nasdaq ou sur paniers tech, cela tend à réduire le coupon que l'émetteur peut proposer, tout en éloignant les cours des barrières. Les arrangeurs de produits structurés suivent aussi la corrélation entre valeurs d'un panier : elle monte en période de panique et baisse quand le marché se rassure. Pour les banques d'investissement, l'arrivée d'une introduction en Bourse majeure annonce potentiellement des commissions de conseil et de placement, mais l'issue dépend du calendrier et des conditions de marché.",
+     "interview": {
+      "question": "Le Nasdaq rebondit mais reste en baisse sur un mois et le VIX est proche de 19 : comment lisez-vous cette configuration pour la valorisation d'un autocall sur Nasdaq ?",
+      "hints": [
+       "Volatilité implicite basse : options moins chères, coupon moins généreux.",
+       "Distance entre le cours et la barrière de protection.",
+       "Corrélation dans un panier worst-of.",
+       "Distinguer un rebond d'une séance d'une tendance."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Autocall",
+       "definition": "Produit structuré qui se rembourse par anticipation, avec un coupon, si le sous-jacent est au-dessus d'un seuil à une date d'observation."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Tech stocks rise as AI trade regains steam",
+       "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "HSBC : profits en hausse mais déception sur la gestion de fortune",
+     "theme": "banks",
+     "lead": "Les résultats du troisième trimestre de HSBC montrent un bond du bénéfice net, mais les investisseurs attendaient davantage de la croissance, notamment en gestion de fortune.",
+     "what": "Selon L'Agefi, la banque britannique a enregistré une flambée de son résultat net au troisième trimestre, sans convaincre des investisseurs déçus par la performance de sa gestion de fortune. Dans le même temps, le gestionnaire allemand DWS limite drastiquement les rachats d'un fonds immobilier : il ne traitera que 10 % des demandes dans le fonds Grundbesitz Europa. Par ailleurs, l'Agefi note que les ETF ont collecté 2 240 milliards de dollars depuis le début de l'année, avec 23 910 milliards d'encours fin septembre selon ETFGI. Les chiffres détaillés de HSBC ne figurent pas dans nos sources.",
+     "why": "Une action de banque ne réagit pas seulement au niveau du bénéfice mais à son écart avec les attentes et à la qualité de la croissance : la gestion de fortune génère des commissions récurrentes et consomme peu de capital, d'où l'attention qu'on y porte. Le cas de DWS illustre un autre sujet, la liquidité : un fonds qui détient des actifs difficiles à vendre, comme l'immobilier, peut devoir limiter les retraits si trop d'épargnants veulent sortir en même temps. C'est un mécanisme structurel, que les superviseurs surveillent, mais l'article ne dit pas quelle est la cause précise de la vague de demandes.",
+     "impact": "Pour les banques, une marge d'intérêt élevée soutient les profits, mais la valorisation dépend de la croissance des revenus de commissions. Pour les produits structurés, les banques émettrices ont intérêt à des revenus diversifiés, car la solidité de l'émetteur compte dans le prix. Du côté des fonds, le plafonnement des rachats montre le risque de liquidité d'un produit qui promet une sortie fréquente sur un actif peu liquide : les produits structurés à capital protégé ont un risque analogue si le client veut sortir avant l'échéance, avec un prix de rachat qui dépend du marché et de l'émetteur.",
+     "interview": {
+      "question": "Une banque affiche un bénéfice en forte hausse mais l'action baisse : comment l'expliquez-vous ?",
+      "hints": [
+       "Résultats par rapport aux attentes du consensus.",
+       "Qualité des revenus : commissions récurrentes contre revenu d'intérêt cyclique.",
+       "Rôle de la gestion de fortune dans la valorisation et le capital.",
+       "Risque de liquidité dans les fonds immobiliers : gates et limites de rachat."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Gate",
+       "definition": "Mécanisme qui permet à un fonds de limiter les rachats quand les demandes dépassent un seuil."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Malgré un bond de ses profits, HSBC déçoit sur sa croissance",
+       "url": "https://www.agefi.fr/news/banque-assurance/malgre-un-bond-de-ses-profits-hsbc-decoit-sur-sa-croissance",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "DWS limite drastiquement les demandes de rachats sur un fonds immobilier",
+       "url": "https://www.agefi.fr/asset-management/actualites/dws-limite-drastiquement-les-demandes-de-rachats-sur-un-fonds-immobilier",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Les ETF ont collecté 2.240 milliards de dollars dans le monde depuis le début de l'année",
+       "url": "https://www.agefi.fr/etf/les-etf-ont-collecte-2-240-milliards-de-dollars-dans-le-monde-depuis-le-debut-de-lannee",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Royaume-Uni : un budget sous haute surveillance des investisseurs en gilts",
+     "theme": "credit_sovereign",
+     "lead": "À l'approche du budget britannique, les investisseurs obligataires attendent surtout de la prudence et le respect des règles budgétaires.",
+     "what": "Selon L'Agefi, le gouvernement britannique s'apprête à présenter son prochain budget, et la voie pour regagner la confiance des investisseurs est étroite, d'après l'Amundi Institute. Le FT rapporte que de grands investisseurs obligataires attendent de la « réassurance » du nouveau chancelier de l'Échiquier, Healey, et mettent en garde contre toute modification des règles budgétaires clés. Nos données de marché ne contiennent pas de série sur les gilts.",
+     "why": "Les gilts sont les obligations de l'État britannique. Quand un budget laisse craindre un déficit élevé ou un assouplissement des règles, les investisseurs demandent un rendement plus élevé pour financer l'État, ce qui peut se répercuter sur les prêts hypothécaires et les entreprises. Les règles budgétaires jouent le rôle d'ancre de crédibilité : les modifier est perçu comme un signal sur la discipline future. Le débat britannique rappelle celui de la France : dans les deux pays, la trajectoire de la dette est surveillée par le marché obligataire, même si les contextes diffèrent. Les anticipations des gérants citées sont des avis, pas des faits.",
+     "impact": "Un budget perçu comme crédible devrait calmer le marché des gilts ; un budget jugé laxiste pourrait élargir les rendements et peser sur la livre sterling. Pour les produits structurés en livres, un taux plus élevé réduit le prix du zéro-coupon, ce qui laisse plus de budget pour la participation. Les banques et les fonds de pension britanniques, grands détenteurs de gilts, sont sensibles aux variations de rendement. Le sujet est à suivre en parallèle de la décision de la BCE et de la Fed cette semaine.",
+     "interview": {
+      "question": "Pourquoi les règles budgétaires comptent-elles autant pour les investisseurs en dette publique, et comment un budget peut-il faire bouger la courbe ?",
+      "hints": [
+       "Les règles servent d'ancre de crédibilité sur la trajectoire de la dette.",
+       "Un déficit perçu comme non soutenable augmente la prime de risque exigée.",
+       "Lien avec le rendement des gilts, la livre et les produits indexés.",
+       "Comparer avec la situation française."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Gilt",
+       "definition": "Obligation émise par l'État britannique."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Royaume-Uni : un budget sous haute surveillance",
+       "url": "https://www.agefi.fr/news/economie-marches/royaume-uni-un-budget-sous-haute-surveillance",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "'Do no harm' — what gilt investors want from Healey in the Budget",
+       "url": "https://www.ft.com/content/244ae9ad-0778-4afe-8b6a-c2b1b9f81771?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-27",
    "generated_at": "2026-10-27T06:55:00+00:00",
    "brief": [
@@ -562,5 +710,5 @@
    ]
   }
  ],
- "updated_at": "2026-10-27T06:55:00+00:00"
+ "updated_at": "2026-10-28T05:55:00+00:00"
 }
