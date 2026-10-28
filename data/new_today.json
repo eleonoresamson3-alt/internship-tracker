@@ -1,14 +1,47 @@
 {
- "generated_at": "2026-10-26T10:10:12+00:00",
- "date": "2026-10-26",
+ "generated_at": "2026-10-27T09:50:32+00:00",
+ "date": "2026-10-27",
  "jobs": [
   {
-   "id": "man-group-452b0644f4f3",
-   "employer": "Man Group",
-   "employer_type": "asset_manager",
-   "platform": "greenhouse",
-   "title": "Systematic Fast Trading Intern",
-   "location": "New York",
+   "id": "airbus-5cfd4678ad77",
+   "employer": "Airbus",
+   "employer_type": "corporate",
+   "platform": "workday",
+   "title": "Stage 2027 - Trading and Asset Management (F/H)",
+   "location": "Toulouse Area",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 65,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 30,
+    "city": 0,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Stage-2027---Trading-and-Asset-Management--F-H-_JR10445636",
+   "posted_at": "2026-10-26",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-4fa62b281c80",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Machine Learning Center of Excellence (Quant AI) - Summer Associate",
+   "location": "Palo Alto, CA, United States",
    "countries": [
     "US"
    ],
@@ -16,7 +49,7 @@
     "United States"
    ],
    "region": "Rest of world",
-   "family": "Trading",
+   "family": "Pricing / Quant",
    "role_level": "medium",
    "score": 42,
    "score_breakdown": {
@@ -26,88 +59,150 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012801101",
-   "posted_at": "2026-10-25",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803936",
+   "posted_at": "2026-10-26",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
    "active": true
   },
   {
-   "id": "invesco-e2bc9f635c52",
-   "employer": "Invesco",
+   "id": "groupe-credit-agricole-9bec4d2f9671",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE - General Secretary & Permanent Control - Private Equity & Real Estate Solutions H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---general-secretary-et-permanent-control---private-equity-et-real-estate-solutions-hf-reference--2026-116897--/",
+   "posted_at": "",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-72380d8a28b9",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Data Scientist H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170473-122-stage---data-scientist-hf-reference--2026-116771--/",
+   "posted_at": "",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "active": true
+  },
+  {
+   "id": "amundi-e71a2185e105",
+   "employer": "Amundi",
    "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Early Career Intern - Internal Sales (Global Liquidity)",
-   "location": "New York, New York",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
+   "platform": "generic",
+   "title": "Stage - Assistant Securities Lending Trading H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 30,
    "score_breakdown": {
-    "role": 10,
+    "role": 30,
     "geo": 0,
     "city": 0,
-    "timing": 12
+    "timing": 0
    },
-   "timing": "summer",
+   "timing": "unknown",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Internal-Sales--Global-Liquidity-_R-15865-1",
-   "posted_at": "2026-10-25",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "url": "https://jobs.amundi.com/job/job-stage-assistant-securities-lending-trading-h-f_116870.aspx",
+   "posted_at": "",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
    "active": true
   },
   {
-   "id": "jpmorgan-4c9d144fdc03",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Commercial & Investment Bank Risk Management Summer Analyst Program",
-   "location": "New York, NY, United States; Plano, TX, United States; Houston, TX, United States; Chicago, IL, United States; Dallas, TX, United States; Los Angeles, CA, United States",
+   "id": "groupe-credit-agricole-f528ffdd10bc",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Chef de projet junior Normes et usages risque crédit (Bâle IV) H/F",
+   "location": "",
    "countries": [
-    "US"
+    "CH"
    ],
    "country_names": [
-    "United States"
+    "Switzerland"
    ],
-   "region": "Rest of world",
-   "family": "Risk",
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
    "role_level": "low",
-   "score": 22,
+   "score": 30,
    "score_breakdown": {
     "role": 10,
-    "geo": 0,
+    "geo": 20,
     "city": 0,
-    "timing": 12
+    "timing": 0
    },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690781",
-   "posted_at": "2026-10-26",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-122-stage---chef-de-projet-junior-normes-et-usages-risque-credit-bale-iv-hf-reference--2026-116008--/",
+   "posted_at": "",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
    "active": true
   },
   {
-   "id": "state-street-18e317ebf27a",
-   "employer": "State Street",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "State Street - Markets Rising Junior Summer Internship 2027",
-   "location": "Boston, Massachusetts",
+   "id": "schonfeld-938ca1198c25",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Data Science Intern",
+   "location": "New York, New York, United States",
    "countries": [
     "US"
    ],
@@ -126,21 +221,21 @@
    },
    "timing": "summer",
    "start": "2027",
-   "deadline": "2026-11-30",
+   "deadline": "2026-10-31",
    "deadline_source": "estimée",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street---Markets-Rising-Junior-Summer-Internship-2027_R-800244",
-   "posted_at": "2026-10-26",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
+   "posted_at": "2026-09-04",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
    "active": true
   },
   {
-   "id": "state-street-1dd09ce6f6b0",
-   "employer": "State Street",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "State Street - Markets Rising Senior Summer Internship 2027",
-   "location": "Boston, Massachusetts",
+   "id": "deloitte-762272da9dec",
+   "employer": "Deloitte",
+   "employer_type": "consulting",
+   "platform": "generic",
+   "title": "Audit & Assurance – Intern – Financial Statement Audit (Japanese Services Group) – Winter 2028",
+   "location": "",
    "countries": [
     "US"
    ],
@@ -150,54 +245,54 @@
    "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 22,
+   "score": 16,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 12
+    "timing": 6
    },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
+   "timing": "off-cycle",
+   "start": "2028-01",
+   "deadline": "2027-10-31",
    "deadline_source": "estimée",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street---Markets-Rising-Senior-Summer-Internship-2027_R-800243",
-   "posted_at": "2026-10-26",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Japanese-Services-Group-Winter-2028/368640",
+   "posted_at": "",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
    "active": true
   },
   {
-   "id": "state-street-a5f7220b6264",
-   "employer": "State Street",
+   "id": "rbc-capital-markets-c8856e97139a",
+   "employer": "RBC Capital Markets",
    "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "State Street - Undergraduate Finance Summer Internship 2027",
-   "location": "Boston, Massachusetts",
+   "title": "Relationship Manager Intern, Business Market",
+   "location": "SURREY, British Columbia, Canada",
    "countries": [
-    "US"
+    "CA"
    ],
    "country_names": [
-    "United States"
+    "Canada"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 22,
+   "score": 10,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 12
+    "timing": 0
    },
-   "timing": "summer",
-   "start": "2027",
+   "timing": "unknown",
+   "start": "",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street---Undergraduate-Finance-Summer-Internship-2027_R-800242",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/SURREY-British-Columbia-Canada/Relationship-Manager-Intern--Business-Market_R-0000188258-1",
    "posted_at": "2026-10-26",
-   "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
    "active": true
   }
  ]
