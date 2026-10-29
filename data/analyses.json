@@ -1,6 +1,173 @@
 {
  "days": [
   {
+   "date": "2026-10-29",
+   "generated_at": "2026-10-29T05:55:00+00:00",
+   "brief": [
+    "BCE : décision de politique monétaire aujourd'hui (réunion des 28-29 octobre, taux de dépôt à 2,5 %) ; le FT insiste sur la transmission de la politique monétaire dans un marché obligataire tendu et sur la transition à la tête de l'institution.",
+    "Taux : le 10 ans français (TEC 10) est à 4,944 % le 27 octobre contre 3,42 % pour le Bund, soit environ 152 points de base d'écart ; le 10 ans américain était à 5,00 % le 26 octobre.",
+    "Actions : le Nasdaq gagne 1,18 % mardi 27 octobre (26 478 points) et le S&P 500 0,6 % (7 722,6) ; le VIX recule à 18,39 (26 octobre).",
+    "Banques : UBS annonce des profits en hausse, légèrement sous les attentes ; BNP Paribas affiche 3,5 milliards d'euros de profit net au troisième trimestre et lance des rachats d'actions.",
+    "Semi-conducteurs : SK Hynix voit son bénéfice net bondir de 216 % et annonce un plan de 75 milliards de dollars pour ses actionnaires ; la Fed a terminé sa réunion hier, mais sa décision n'est pas encore dans nos données."
+   ],
+   "articles": [
+    {
+     "title": "BCE : transmission de la politique monétaire et transition à la tête de l'institution",
+     "theme": "central_banks",
+     "lead": "La BCE décide aujourd'hui de sa politique dans un contexte où le marché obligataire est tendu et où des changements de direction se préparent, ce que le FT juge critique.",
+     "what": "Le FT titre que la BCE a besoin d'une transmission fluide de sa politique et d'une transition fluide, car l'institution est à un moment charnière : elle prépare des changements à sa tête alors que le marché obligataire connaît des tensions. Le calendrier officiel place la réunion les 28-29 octobre, avec décision et conférence de presse le dernier jour, soit aujourd'hui. Le taux de dépôt est à 2,5 % et l'€STR à 2,44 % (27 octobre). Côté marché, le 10 ans français est à 4,944 %, le Bund 10 ans à 3,42 % et le Bund 2 ans à 3,07 % (27 octobre).",
+     "why": "La transmission désigne la façon dont une décision de taux directeur se répercute sur les taux de marché, le crédit et l'économie réelle. Elle se dégrade quand les taux des différents pays de la zone euro divergent, ce qui est le risque lié aux écarts de rendement entre la France et l'Allemagne. Une direction en transition ajoute une incertitude sur la stratégie future et sur la fonction de réaction, c'est-à-dire la manière dont la banque centrale réagit à l'inflation et aux tensions de marché. Le FT exprime ici une opinion éditoriale : nos données ne permettent pas de dire si la BCE modifiera ses outils.",
+     "impact": "Une décision de statu quo, conforme à ce que L'Agefi attendait, serait neutre pour la courbe ; ce qui bougerait les prix, c'est le ton de la conférence de presse sur les spreads et sur la trajectoire de taux. Les produits structurés à coupons indexés sur des taux de swap en euros réagiront à la pente de la courbe. Les options sur taux (swaptions) voient souvent leur volatilité implicite se tasser après une réunion, une fois l'incertitude levée. Pour les émetteurs français, un écart OAT-Bund d'environ 152 points de base reste un facteur de coût de financement et donc de prix des notes structurées.",
+     "interview": {
+      "question": "Qu'est-ce que la transmission monétaire, et pourquoi la BCE s'en préoccupe-t-elle quand les spreads souverains s'élargissent ?",
+      "hints": [
+       "Du taux directeur aux taux de marché, au crédit bancaire et à l'économie.",
+       "Fragmentation : des conditions de financement différentes selon les pays de la zone euro.",
+       "Rôle de la communication (forward guidance) et de la conférence de presse.",
+       "Impact sur les swaptions et sur la pente de la courbe."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Transmission monétaire",
+       "definition": "Mécanisme par lequel une décision de taux directeur se propage aux taux de marché, aux crédits et à l'activité."
+      },
+      {
+       "term": "Swaption",
+       "definition": "Option sur un swap de taux d'intérêt, utilisée pour couvrir ou spéculer sur l'évolution des taux."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The ECB needs a smooth transmission and a smooth transition",
+       "url": "https://www.ft.com/content/66bc5487-04aa-4699-a010-c446c536cf48?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "La BCE se dirige vers un statu quo sur fond d'envolée des spreads",
+       "url": "https://www.agefi.fr/news/economie-marches/la-bce-se-dirige-vers-un-statu-quo-sur-fond-denvolee-des-spreads",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Banques : UBS et BNP Paribas publient leurs résultats du troisième trimestre",
+     "theme": "banks",
+     "lead": "Deux grandes banques européennes affichent des profits solides, mais les marchés regardent la qualité de la croissance, les rachats d'actions et la régulation.",
+     "what": "Selon L'Agefi, les profits d'UBS ont progressé au troisième trimestre, tirés par la gestion de fortune, mais le bénéfice net est légèrement inférieur aux attentes. La banque avance la fin de son programme de rachats d'actions de 3 milliards de dollars et reste préoccupée par l'évolution de la réglementation en Suisse. BNP Paribas a enregistré un profit net de 3,5 milliards d'euros entre juillet et septembre, porté par la banque commerciale et la banque d'investissement, et lance des rachats d'actions. BNP Paribas Asset Management a collecté 31 milliards d'euros sur neuf mois, avec 1 690 milliards d'euros d'encours.",
+     "why": "Les investisseurs comparent le résultat aux attentes du consensus : un bénéfice en hausse mais légèrement sous les prévisions peut faire baisser un titre. Les rachats d'actions sont une façon de rendre du capital aux actionnaires quand la banque en détient plus que ses besoins réglementaires, d'où l'attention portée au ratio de fonds propres. La régulation suisse compte parce que des exigences de capital plus élevées réduisent la capacité de distribution. La diversification entre banque de détail, banque d'investissement et gestion d'actifs, visible chez BNP, rend les revenus moins dépendants d'un seul cycle.",
+     "impact": "Des banques bien capitalisées et rentables sont des émetteurs de produits structurés plus solides, ce qui réduit le spread de crédit appliqué à leurs notes. Leurs activités de dérivés actions et de taux bénéficient de la volatilité, qui génère de la demande de couverture et de produits structurés. Une régulation plus stricte sur le capital pourrait en revanche rendre certaines activités plus chères, ce qui se répercuterait sur le coût des produits. Les rachats d'actions soutiennent les cours, mais ils n'ont pas d'effet direct sur le prix des notes émises par la banque.",
+     "interview": {
+      "question": "UBS publie un bénéfice en hausse mais légèrement sous les attentes : pourquoi l'action peut-elle baisser, et que regarde-t-on au-delà du profit net ?",
+      "hints": [
+       "Écart par rapport au consensus plutôt que niveau absolu.",
+       "Qualité des revenus : commissions de gestion de fortune contre revenus de trading.",
+       "Ratios de fonds propres, rachats d'actions et exigences réglementaires.",
+       "Lien entre solidité de l'émetteur et spread de crédit d'un produit structuré."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Rachat d'actions",
+       "definition": "Opération par laquelle une société rachète ses propres titres pour rendre du capital aux actionnaires."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Tirés par la gestion de fortune, les profits d'UBS ont progressé au troisième trimestre",
+       "url": "https://www.agefi.fr/news/banque-assurance/tires-par-la-gestion-de-fortune-les-profits-dubs-ont-progresse-au-troisieme-trimestre",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "BNP Paribas lance des rachats d'actions après un trimestre solide",
+       "url": "https://www.agefi.fr/news/banque-assurance/bnp-paribas-lance-des-rachats-dactions-apres-un-trimestre-solide",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "BNPP AM collecte 31 milliards d'euros sur les 9 premiers mois de l'année 2026",
+       "url": "https://www.agefi.fr/asset-management/actualites/la-gestion-dactifs-de-bnp-paribas-collecte-31-milliards-deuros-sur-les-9-premiers-mois-de-lannee-2026",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Semi-conducteurs : SK Hynix dope le marché, tandis que le crédit spéculatif se tend",
+     "theme": "equities",
+     "lead": "Les résultats du fabricant coréen de mémoire alimentent le rebond de l'IA, alors que le FT signale des difficultés pour les fonds de crédit exposés aux obligations à haut rendement.",
+     "what": "SK Hynix a vu son bénéfice net bondir de 216 % au troisième trimestre et annonce un plan de rémunération de ses actionnaires de 75 milliards de dollars, selon L'Agefi. MarketWatch souligne que ce sont les perspectives qui comptent pour Wall Street : le groupe dit que les contraintes d'offre dureront jusqu'en 2030. Nos données montrent le Nasdaq à 26 477,81 le 27 octobre (+1,18 %), le S&P 500 à 7 722,6 (+0,6 %) et le Nikkei à 63 268,37 (+1,73 %). En parallèle, le FT décrit un moment délicat pour les hedge funds de crédit qui ont beaucoup investi en obligations à haut rendement.",
+     "why": "Une mémoire rare est un goulot d'étranglement pour l'IA : si l'offre reste contrainte, les prix et les marges des fabricants restent élevés, ce qui explique l'enthousiasme du marché. Mais une valorisation qui repose sur des perspectives de plusieurs années est sensible à toute révision. Les obligations à haut rendement offrent un coupon élevé en échange d'un risque de défaut plus fort ; quand les spreads s'élargissent ou que la liquidité se réduit, les fonds très investis dans ce segment peuvent subir des pertes ou des rachats. Le FT n'indique pas ici de chiffres précis dans le résumé disponible : il s'agit d'un signal, non d'un constat chiffré.",
+     "impact": "Pour les produits structurés sur semi-conducteurs ou sur le Nasdaq, un rebond fait baisser la volatilité implicite (le VIX est à 18,39 le 26 octobre, -5,45 % sur la journée), ce qui tend à réduire le coupon proposé, tout en éloignant les cours des barrières. Un stress sur le haut rendement élargirait les spreads de crédit et augmenterait le coût de protection (CDS) sur les émetteurs les plus fragiles, ce qui pourrait pénaliser les produits liés à leur dette. Les banques d'investissement voient la demande de couverture et d'émission évoluer avec ces deux mouvements contraires.",
+     "interview": {
+      "question": "Les actions technologiques rebondissent mais le crédit à haut rendement est sous tension : ces deux signaux sont-ils contradictoires ?",
+      "hints": [
+       "Les actions anticipent la croissance, le crédit price le risque de défaut et la liquidité.",
+       "Spread de crédit et CDS comme indicateurs de stress.",
+       "Effet du rebond sur le VIX et sur les produits à barrière.",
+       "Distinguer émetteurs solides (grands groupes technologiques) et émetteurs fragiles."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Haut rendement",
+       "definition": "Obligations d'émetteurs notés en dessous de BBB-, qui offrent un coupon élevé pour compenser un risque de défaut plus important."
+      }
+     ],
+     "sources": [
+      {
+       "title": "SK Hynix dévoile un vaste plan de rémunération pour ses actionnaires",
+       "url": "https://www.agefi.fr/news/entreprises/sk-hynix-devoile-un-vaste-plan-de-remuneration-pour-ses-actionnaires",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "SK Hynix delivered on third-quarter results — but the outlook is what really mattered to Wall Street and the AI trade",
+       "url": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "This is a very interesting time for trashy credit (and all those who love it)",
+       "url": "https://www.ft.com/content/856aa6be-5543-493c-8d2e-a78c6b772f61",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Inflation : quatre raisons de s'inquiéter, dont la fin des remboursements de droits de douane",
+     "theme": "macro_inflation",
+     "lead": "Un stratège de 22V Research estime que les entreprises vont répercuter davantage leurs coûts sur les consommateurs, ce qui alimenterait l'inflation.",
+     "what": "Selon MarketWatch, Dennis DeBusschere, de 22V Research, liste quatre raisons de commencer à s'inquiéter de l'inflation, parmi lesquelles la fin des remboursements de droits de douane : les entreprises qui s'en servaient pour amortir la pression sur leurs coûts devraient de plus en plus répercuter la hausse sur les consommateurs. Les autres raisons ne figurent pas dans le résumé disponible. Le FT note par ailleurs que près de la moitié des propriétaires américains n'ont pas de marge financière, avec la hausse des coûts allant de l'assurance à l'entretien. Nos données donnent le 10 ans américain à 5,00 % et le 2 ans à 4,68 % le 26 octobre.",
+     "why": "L'inflation se transmet des coûts des entreprises aux prix de vente avec un délai : tant que des amortisseurs existent, comme des remboursements, les prix finaux bougent moins ; quand ils disparaissent, la hausse arrive chez le consommateur. Une inflation plus forte que prévu repousse les baisses de taux ou provoque des hausses, ce qui fait monter les rendements. C'est le lien avec la réunion de la Fed, terminée hier. Il s'agit de l'analyse d'un stratège, pas d'un constat de données officielles ; l'article ne donne pas de chiffre d'inflation.",
+     "impact": "Des anticipations d'inflation plus élevées pèsent sur les obligations à long terme et tendent à pentifier la courbe. Les titres indexés sur l'inflation gagnent en intérêt, et les produits structurés dont le coupon dépend d'un indice d'inflation voient leur valeur augmenter si l'inflation dépasse le niveau pris en compte à l'émission. Un 10 ans américain à 5 % augmente le rendement des notes à capital protégé en dollars, car le zéro-coupon est moins cher. En revanche, un environnement de taux élevés réduit la valeur des actions de croissance, d'où le lien avec la volatilité du secteur technologique.",
+     "interview": {
+      "question": "Pourquoi la fin d'un amortisseur de coûts comme les remboursements de droits de douane peut-elle relancer l'inflation, et comment cela se voit-il dans les marchés ?",
+      "hints": [
+       "Répercussion des coûts sur les prix de vente avec un délai.",
+       "Réaction de la courbe : anticipations d'inflation et taux longs.",
+       "Lien avec la politique de la Fed et le rendement du 10 ans.",
+       "Effet sur les produits indexés sur l'inflation et sur les notes à capital protégé."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Droits de douane",
+       "definition": "Taxes appliquées aux produits importés, qui augmentent le coût des marchandises pour les entreprises et les consommateurs."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Four reasons to start worrying about inflation — including the end of tariff refunds",
+       "url": "https://www.marketwatch.com/story/four-reasons-to-start-worrying-about-inflation-including-the-end-of-tariff-refunds-978a5cfd?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Why even America's 'haves' are feeling the squeeze",
+       "url": "https://www.ft.com/content/624f7138-96b0-4752-96f1-b54f2b18742b?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-28",
    "generated_at": "2026-10-28T05:55:00+00:00",
    "brief": [
@@ -710,5 +877,5 @@
    ]
   }
  ],
- "updated_at": "2026-10-28T05:55:00+00:00"
+ "updated_at": "2026-10-29T05:55:00+00:00"
 }
