@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:45:46+00:00",
+ "generated_at": "2026-10-29T11:03:45+00:00",
  "meetings": [
   {
    "bank": "Fed",
@@ -11,7 +11,7 @@
   },
   {
    "bank": "BCE",
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "end": "2026-10-29",
    "note": "décision et conférence de presse le dernier jour",
    "source": "official",
