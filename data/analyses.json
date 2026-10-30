@@ -1,6 +1,169 @@
 {
  "days": [
   {
+   "date": "2026-10-30",
+   "generated_at": "2026-10-30T05:55:00+00:00",
+   "brief": [
+    "BCE : Christine Lagarde annonce quitter la présidence en février 2027, environ neuf mois avant la fin de son mandat prévue en octobre 2027, selon le FT et Le Monde ; la décision de la réunion des 28-29 octobre n'est pas encore dans nos données (taux de dépôt à 2,5 %).",
+    "Fed : le FT indique que la Fed a maintenu ses taux et titre qu'elle « joue la montre » sans en avoir beaucoup.",
+    "Actions : le FT annonce une ouverture en baisse d'environ 1 % pour le Nasdaq 100 après des dépenses d'investissement plus faibles qu'attendu chez Alphabet et Microsoft ; ServiceNow perd près de 18 % avant l'ouverture.",
+    "Marchés (28 octobre) : S&P 500 à 7 743,98 (+0,28 %), Nasdaq à 26 549,85 (+0,27 %), VIX à 17,52 le 27 octobre ; le 10 ans français est à 4,936 % contre 3,43 % pour le Bund, soit environ 151 points de base d'écart.",
+    "Pétrole : le Brent est à 123,1 $ le 27 octobre (-3,9 % sur la journée, +6,8 % sur une semaine) ; les majors européennes relèvent leurs rachats d'actions grâce à des marges de raffinage élevées."
+   ],
+   "articles": [
+    {
+     "title": "Christine Lagarde quittera la présidence de la BCE en février 2027",
+     "theme": "central_banks",
+     "lead": "La présidente de la BCE annonce son départ plusieurs mois avant l'échéance de son mandat, ouvrant une succession dans un contexte de tension sur les marchés obligataires.",
+     "what": "Selon le FT, Christine Lagarde quittera la présidence de la BCE en février, alors que son mandat de huit ans devait s'achever en octobre 2027. Le Monde précise qu'elle part neuf mois avant l'expiration de son mandat, en février 2027, ce qui permet à Emmanuel Macron de participer à la désignation de son successeur avant l'élection présidentielle. Le FT avait écrit la veille que la BCE se trouvait à un moment charnière, en préparant des changements de direction à une période de tensions sur les marchés obligataires. Le taux de dépôt est à 2,5 % ; le 10 ans français est à 4,936 % le 28 octobre.",
+     "why": "Le président de la BCE préside le Conseil des gouverneurs, fixe l'ordre du jour et incarne la ligne de la banque centrale auprès des marchés. Un changement de tête pose la question de la continuité : les investisseurs cherchent à comprendre si le successeur conservera la même approche de la communication et des outils face aux écarts de taux entre pays. La nomination se fait par les chefs d'État et de gouvernement de la zone euro, d'où l'intérêt politique évoqué par Le Monde : le calendrier du départ interagit avec l'élection présidentielle française. Aucune de nos sources ne nomme de successeur, et il serait spéculatif d'en désigner un.",
+     "impact": "Le marché des taux pourrait intégrer une prime d'incertitude jusqu'à la nomination, notamment sur les obligations de pays périphériques et sur le spread OAT-Bund, d'environ 151 points de base le 28 octobre (4,936 % contre 3,43 %). Pour les produits structurés, une volatilité implicite des taux plus élevée renchérit les options de taux (caps, swaptions) intégrées aux notes indexées sur un taux de swap. Un successeur perçu comme plus ou moins « dovish », c'est-à-dire favorable à des taux bas, changerait la pente attendue de la courbe : cela reste un scénario, pas une prévision.",
+     "interview": {
+      "question": "Le départ anticipé de la présidente de la BCE peut-il influencer les marchés de taux, et par quels canaux ?",
+      "hints": [
+       "Incertitude sur la continuité de la stratégie et de la communication.",
+       "Effet sur les spreads souverains de la zone euro et sur la prime de risque.",
+       "Volatilité implicite des taux et prix des swaptions.",
+       "Processus de nomination et dimension politique."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Dovish",
+       "definition": "Se dit d'une banque centrale ou d'un responsable plutôt favorable à des taux bas pour soutenir l'activité."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Christine Lagarde to step down as ECB president in February",
+       "url": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Christine Lagarde annonce son départ de la présidence de la BCE en février 2027, neuf mois avant l'expiration de son mandat",
+       "url": "https://www.lemonde.fr/economie/article/2026/10/29/christine-lagarde-va-quitter-la-presidence-de-la-bce-le-7-fevrier-2027_6802307_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "The ECB needs a smooth transmission and a smooth transition",
+       "url": "https://www.ft.com/content/66bc5487-04aa-4699-a010-c446c536cf48?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Fed : un statu quo qui laisse peu de marge de manœuvre",
+     "theme": "central_banks",
+     "lead": "La Fed a laissé ses taux inchangés, mais le FT estime qu'elle gagne du temps sans en avoir beaucoup devant elle.",
+     "what": "Selon la lettre FirstFT du FT, la Réserve fédérale a maintenu ses taux. Un autre article du FT titre que la Fed « joue la montre (mais n'en a pas beaucoup) », avec aussi des résultats de groupes technologiques et des taxes sur les banques britanniques. Quelques jours plus tôt, le FT anticipait des hausses de taux trimestrielles ; le texte disponible ne précise pas le niveau exact du taux directeur. Côté marché, le 10 ans américain est à 4,99 % et le 2 ans à 4,70 % le 27 octobre, soit respectivement -13 et -9 points de base sur une semaine.",
+     "why": "Maintenir ses taux revient à attendre des informations supplémentaires, sur l'inflation ou l'activité, avant de décider. Gagner du temps a une limite quand l'inflation reste élevée ou quand les rendements longs évoluent seuls : c'est la lecture du FT, qui est une opinion. L'écart entre le 2 ans et le 10 ans, ici autour de 29 points de base, résume la pente de la courbe et donc les anticipations de taux à moyen terme. Le détail de la décision et de la conférence de presse n'est pas dans nos sources, ce qui limite l'analyse à ce constat.",
+     "impact": "Un statu quo prolongé maintient des rendements américains élevés, ce qui reste favorable aux notes à capital protégé en dollars : le zéro-coupon coûte moins cher et laisse davantage de budget pour l'option. Il maintient aussi le dollar soutenu, l'EUR/USD étant à 1,1133 le 28 octobre. Pour les produits à coupons indexés sur des taux courts, l'absence de baisse de taux préserve le niveau des coupons variables. Si la Fed devait changer de ton, la volatilité des taux et des options associées augmenterait.",
+     "interview": {
+      "question": "Que signifie une Fed qui « gagne du temps », et quels indicateurs surveillez-vous pour anticiper sa prochaine décision ?",
+      "hints": [
+       "Inflation sous-jacente, emploi et anticipations d'inflation.",
+       "Pente de la courbe 2 ans - 10 ans.",
+       "Communication : dot plot, conférence de presse, forward guidance.",
+       "Conséquences sur le dollar et sur les produits à capital protégé."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Pente de la courbe",
+       "definition": "Écart de rendement entre une échéance longue et une échéance courte, souvent 10 ans moins 2 ans."
+      }
+     ],
+     "sources": [
+      {
+       "title": "FirstFT: End of the road for Weil",
+       "url": "https://www.ft.com/content/a9aec380-e9e5-4e7e-8281-906bb1aaa76e?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "The Fed plays for time (but doesn't have much)",
+       "url": "https://www.ft.com/content/65d84258-7b04-4064-ab76-6610bd522d65?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Tech : les investissements en IA sous surveillance après Alphabet et Microsoft",
+     "theme": "equities",
+     "lead": "Des dépenses d'investissement plus faibles qu'attendu chez Alphabet et Microsoft inquiètent le marché, et plusieurs valeurs technologiques chutent avant l'ouverture.",
+     "what": "Le FT indique que le Nasdaq 100 devrait ouvrir en baisse d'environ 1 % après que la maison mère de Google, Alphabet, et Microsoft ont publié des dépenses d'investissement inférieures aux attentes, ce qui alimente les craintes sur les dépenses liées à l'IA. MarketWatch écrit qu'Alphabet pourrait connaître sa pire baisse depuis des années, car un doublement du chiffre d'affaires du cloud n'a pas suffi : les investisseurs craignent que l'IA nuise à la capacité du groupe à monétiser les recherches. ServiceNow perd près de 18 % avant l'ouverture, selon MarketWatch. Nos données donnent le Nasdaq à 26 549,85 le 28 octobre et le VIX à 17,52 le 27 octobre.",
+     "why": "Le marché valorise les grandes entreprises technologiques sur leur croissance future : des dépenses d'investissement plus faibles qu'attendu peuvent signaler une demande moins forte pour les puces et les centres de données, ou au contraire une meilleure efficacité, selon la lecture. La sanction sur Alphabet montre que même une forte croissance du cloud ne rassure pas si le cœur de métier, la recherche, est perçu comme menacé par l'IA. Ces mouvements sont des estimations avant l'ouverture et peuvent changer en séance ; ils ne confirment pas une tendance durable.",
+     "impact": "Une baisse concentrée sur la tech fait monter la demande de protection sur le Nasdaq et sur les titres concernés, donc la volatilité implicite, ce qui tend à rendre les coupons d'autocalls sur ces sous-jacents plus élevés, mais rapproche les cours des barrières. Les produits sur paniers de valeurs de l'IA (worst-of) souffrent le plus, car c'est la pire performance du panier qui compte. Pour les dérivés actions des banques, le dernier chiffre du VIX à 17,52, en baisse, pourrait changer rapidement si le mouvement se confirmait.",
+     "interview": {
+      "question": "Alphabet double son chiffre d'affaires cloud mais son action chute : comment l'expliquez-vous, et quel effet sur un autocall worst-of tech ?",
+      "hints": [
+       "Les prix reflètent des anticipations, pas seulement des résultats.",
+       "Risque de disruption du cœur de métier par l'IA.",
+       "Volatilité implicite et distance à la barrière.",
+       "Pourquoi un panier worst-of est plus risqué qu'un indice."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Capex",
+       "definition": "Dépenses d'investissement d'une entreprise, par exemple en centres de données ou en équipements."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US tech stocks set to fall after earnings fuel AI spending concerns",
+       "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Why Alphabet's stock could see its worst drop in years after the latest results",
+       "url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "ServiceNow stock is on track for its largest drop on record. But JPMorgan sees a bright spot.",
+       "url": "https://www.marketwatch.com/story/servicenow-stock-is-on-track-for-its-largest-drop-on-record-but-jpmorgan-sees-a-bright-spot-5e5b05c6?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole : les majors européennes relèvent leurs rachats d'actions avec la guerre en Iran",
+     "theme": "fx_commodities",
+     "lead": "Shell, TotalEnergies et Repsol affichent des profits en forte hausse grâce aux marges de raffinage, alors que le Brent dépasse 120 $.",
+     "what": "Selon le FT, Shell, TotalEnergies et Repsol ont publié une forte hausse de leurs résultats du troisième trimestre, grâce à des marges de raffinage très élevées, et augmentent leurs rachats d'actions, dans le contexte de la guerre en Iran. PBF Energy a aussi dépassé les prévisions du trimestre grâce à des marges de raffinage plus élevées. Nos données donnent le Brent à 123,10 $ le 27 octobre (-3,92 % sur la journée, +6,84 % sur une semaine, +6,11 % sur un mois). L'EUR/USD est à 1,1133 le 28 octobre, en baisse de 0,9 % sur une semaine.",
+     "why": "La marge de raffinage est l'écart entre le prix des produits raffinés et celui du brut ; quand elle s'élargit, les raffineurs gagnent davantage. Un conflit qui perturbe l'offre fait monter les prix du brut et des produits, ce qui profite aux producteurs mais pèse sur les consommateurs et sur l'inflation. Les rachats d'actions montrent que ces groupes préfèrent rendre du cash aux actionnaires plutôt que d'investir massivement, ce qui est un choix de gestion. La hausse du Brent par rapport à nos données du 20 octobre (115,22 $) montre une tendance, mais la série date d'avant les derniers jours.",
+     "impact": "Un pétrole à plus de 120 $ alimente l'inflation énergétique, ce qui complique la tâche des banques centrales et maintient des rendements élevés. Pour les produits structurés sur actions pétrolières ou sur le Brent, une volatilité élevée rend les options plus chères et les coupons potentiellement plus généreux, avec un risque de barrière accru en cas de retournement. Les spreads de crédit des compagnies pétrolières devraient bénéficier de leurs profits élevés, ce qui est favorable aux obligations de ces émetteurs. Les économies importatrices, comme la zone euro, voient leur balance commerciale se détériorer, ce qui pèse sur l'euro.",
+     "interview": {
+      "question": "Les marges de raffinage s'envolent et les majors rachètent leurs actions : que révèle ce comportement et comment le prendre en compte dans l'analyse du crédit ?",
+      "hints": [
+       "Définition de la marge de raffinage et lien avec les prix du brut.",
+       "Rachats d'actions et dividendes contre investissements.",
+       "Effet sur le bilan et le spread de crédit de l'émetteur.",
+       "Lien pétrole, inflation et décisions de banques centrales."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Marge de raffinage",
+       "definition": "Différence entre le prix de vente des produits pétroliers raffinés et le coût du brut utilisé."
+      }
+     ],
+     "sources": [
+      {
+       "title": "European oil majors lift buybacks as Iran war drives bumper profits",
+       "url": "https://www.ft.com/content/5ded8d57-46f5-406c-a4ce-e58415b8d4ad?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "PBF Energy dépasse les prévisions du T3 grâce à la hausse des marges de raffinage",
+       "url": "https://fr.investing.com/news/earnings/pbf-energy-depasse-les-previsions-du-t3-grace-a-la-hausse-des-marges-de-raffinage-93CH-3661446",
+       "source": "Investing.com France"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-29",
    "generated_at": "2026-10-29T05:55:00+00:00",
    "brief": [
@@ -877,5 +1040,5 @@
    ]
   }
  ],
- "updated_at": "2026-10-29T05:55:00+00:00"
+ "updated_at": "2026-10-30T05:55:00+00:00"
 }
