@@ -1,6 +1,179 @@
 {
  "days": [
   {
+   "date": "2026-10-31",
+   "generated_at": "2026-10-31T05:55:00+00:00",
+   "brief": [
+    "Japon : la Banque du Japon maintient ses taux, estime que son objectif d'inflation de 2 % est atteint et prépare le terrain à un resserrement, une hausse en décembre étant attendue selon le FT.",
+    "France : le PIB recule de 0,1 % au troisième trimestre (Insee) après une stagnation au deuxième, alors que les prix ont progressé de 3,4 % en octobre selon L'Agefi ; le 10 ans est à 4,894 % le 29 octobre contre 3,42 % pour le Bund, soit environ 147 points de base d'écart.",
+    "Actions : le FT évoque près de 900 milliards de dollars de capitalisation perdus par les géants technologiques sur les dépenses d'IA ; le Nasdaq a cédé 1,38 % le 29 octobre (26 184,72 points) et Intel a chuté de 23 % jeudi soir selon L'Agefi.",
+    "Pétrole : BP annonce des profits record grâce aux prix des carburants et utilise l'aubaine pour réduire sa dette ; le Brent est à 123,1 $ le 27 octobre.",
+    "Banques : Crédit Agricole SA publie un profit net en hausse de près de 18 % au troisième trimestre ; la BCE reste à 2,5 % de taux de dépôt, et nos données n'incluent pas la décision de la réunion du 29 octobre."
+   ],
+   "articles": [
+    {
+     "title": "Banque du Japon : taux inchangés, objectif de 2 % atteint, hausse attendue en décembre",
+     "theme": "central_banks",
+     "lead": "Après des décennies de déflation, la Banque du Japon juge son objectif d'inflation atteint et prépare le marché à de nouveaux resserrements.",
+     "what": "Selon le FT, la Banque du Japon a maintenu ses taux d'intérêt, tout en déclarant que son objectif de 2 % d'inflation est atteint après des décennies de déflation, et que les dynamiques inflationnistes se sont enfin enracinées dans l'économie japonaise. Les anticipations d'une hausse de taux en décembre se renforcent. Quelques jours plus tôt, L'Agefi relevait que les prix à la consommation avaient augmenté de 2,1 % en septembre au Japon, avec une inflation sous-jacente supérieure à 2 %. Nos données donnent le Nikkei à 64 659,47 le 29 octobre (+1,1 % sur la journée, +2,78 % sur une semaine).",
+     "why": "Pendant des années, la Banque du Japon a maintenu des taux très bas pour lutter contre la déflation, c'est-à-dire une baisse durable des prix qui décourage la consommation et l'investissement. Si l'inflation s'installe autour de 2 % de façon durable, la banque centrale peut normaliser sa politique en relevant ses taux. Le message « guide vers un resserrement supplémentaire » vise à préparer les marchés, afin d'éviter un choc à l'annonce : c'est le rôle de la forward guidance. Les détails de la décision, notamment le niveau exact du taux directeur, ne figurent pas dans nos sources.",
+     "impact": "Une hausse des taux japonais renchérit le yen, devrait peser sur les opérations de portage (emprunter en yens pour investir ailleurs) et peut provoquer des débouclages qui touchent les actifs risqués mondiaux : c'est un scénario, non une certitude. Pour les produits structurés, des taux plus élevés au Japon augmentent le rendement des zéro-coupons en yens et modifient le coût de couverture de change pour les notes libellées en d'autres devises. Les banques japonaises, dont la marge d'intérêt bénéficierait de taux plus hauts, sont les gagnantes classiques d'une normalisation. Sur la volatilité, l'annonce d'une hausse en décembre pourrait nourrir la demande d'options sur le yen.",
+     "interview": {
+      "question": "La Banque du Japon estime avoir atteint son objectif de 2 % : quels effets attendre d'une normalisation sur le yen, les taux japonais et les stratégies de portage ?",
+      "hints": [
+       "Déflation passée et signification de l'objectif de 2 %.",
+       "Taux plus élevés au Japon : yen plus fort, rendement des JGB en hausse.",
+       "Carry trade et risque de débouclage.",
+       "Forward guidance et préparation du marché."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Carry trade",
+       "definition": "Stratégie qui consiste à emprunter dans une devise à faible taux pour investir dans une devise ou un actif plus rémunérateur."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Bank of Japan says 2% inflation goal reached after decades of deflation",
+       "url": "https://www.ft.com/content/874acd68-948c-44e6-be8d-a509d6d133fa?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Bank of Japan holds rates and guides to further tightening",
+       "url": "https://www.ft.com/content/0c1f7cbb-c893-4563-b3b4-f63df47ea5e5",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Au Japon, l'inflation poursuit sa trajectoire à la hausse",
+       "url": "https://www.agefi.fr/news/economie-marches/au-japon-linflation-poursuit-sa-trajectoire-a-la-hausse",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "France : le PIB recule de 0,1 % au troisième trimestre alors que l'inflation accélère",
+     "theme": "macro_inflation",
+     "lead": "L'économie française se contracte à nouveau, ce qui complique l'équation budgétaire à un moment où les prix repartent à la hausse.",
+     "what": "L'Insee annonce que le PIB de la France a reculé de 0,1 % au troisième trimestre, après avoir stagné au deuxième et reculé de 0,2 % au premier, selon Le Monde. Pour le ministre de l'Économie, Roland Lescure, « l'économie française est à l'arrêt » et « ira dans le mur » sans le redressement budgétaire prévu dans le budget. L'Agefi précise que les prix ont augmenté de 3,4 % en octobre. Le FT indique que la croissance de la zone euro (21 pays) a été meilleure qu'attendu malgré cette faiblesse. Le 10 ans français est à 4,894 % le 29 octobre, le Bund à 3,42 %.",
+     "why": "Deux trimestres de contraction consécutifs définissent généralement une récession technique ; ici, le Monde parle d'une économie qui « flirte » avec la récession, avec un trimestre de stagnation entre deux reculs, donc sans réunir cette condition. Une croissance faible associée à une inflation de 3,4 % crée un dilemme : la banque centrale ne peut pas facilement baisser ses taux pour soutenir l'activité, et le gouvernement doit réduire son déficit alors que moins de croissance réduit les recettes. Le ratio dette/PIB se dégrade si le PIB recule. Cette situation explique en partie l'attention portée à l'écart de taux entre la France et l'Allemagne.",
+     "impact": "Un écart OAT-Bund d'environ 147 points de base le 29 octobre (contre environ 166 le 23 octobre) montre que le marché reste prudent mais s'est détendu. La faiblesse économique pèse sur les résultats des banques françaises via le risque de crédit et la demande de prêts. Pour les produits structurés sur indices français (CAC 40, qui n'est pas disponible dans nos données), un contexte de croissance faible peut maintenir de la volatilité. Les produits indexés sur l'inflation européenne bénéficient d'une inflation élevée. Le sujet pèse enfin sur la perception du risque souverain, donc sur le spread des émetteurs français.",
+     "interview": {
+      "question": "Le PIB français recule de 0,1 % alors que l'inflation atteint 3,4 % : comment cette combinaison affecte-t-elle la dette publique et les marchés de taux ?",
+      "hints": [
+       "Distinguer stagnation, récession technique et stagflation.",
+       "Effet d'une croissance faible sur le ratio dette/PIB et le déficit.",
+       "Marge de manœuvre limitée de la banque centrale face à l'inflation.",
+       "Lecture du spread OAT-Bund."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Stagflation",
+       "definition": "Situation combinant une croissance faible ou nulle et une inflation élevée."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Avec un recul surprise du PIB au troisième trimestre, l'économie française flirte avec la récession",
+       "url": "https://www.lemonde.fr/economie/article/2026/10/30/recul-surprise-du-pib-au-troisieme-trimestre-l-economie-francaise-flirte-avec-la-recession_6802918_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Le PIB français recule et l'inflation accélère",
+       "url": "https://www.agefi.fr/news/economie-marches/le-pib-francais-recule-et-linflation-accelere",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "French economy shrinks 0.1% in third quarter",
+       "url": "https://www.ft.com/content/6f879bc5-be07-4a66-afea-bcbe73723a9f?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Tech : près de 900 milliards de dollars perdus par les géants de l'IA, Intel s'effondre",
+     "theme": "equities",
+     "lead": "Les dépenses d'IA et la consommation de trésorerie de plusieurs groupes technologiques poussent les investisseurs à s'interroger sur le prix du boom.",
+     "what": "Le FT titre que les géants technologiques ont perdu près de 900 milliards de dollars de capitalisation, avec la consommation de trésorerie de Google, Amazon et Meta qui amène Wall Street à s'interroger sur le prix du boom de l'IA. L'Agefi indique qu'Amazon a déçu les attentes et que son flux de trésorerie passe dans le rouge, malgré un bond du cloud, ses investissements ne faiblissant pas. Intel a averti qu'il consommera une partie importante de sa trésorerie cette année, et son cours chutait de 23 % jeudi soir. Nos données donnent le Nasdaq à 26 184,72 le 29 octobre (-1,38 %) et le VIX à 16,91 le 28 octobre.",
+     "why": "Le flux de trésorerie disponible est ce qui reste après les investissements : s'il est négatif, l'entreprise puise dans ses réserves ou emprunte, ce qui change l'appréciation du risque. Les investisseurs acceptaient jusqu'ici ces dépenses en échange d'une forte croissance ; ils exigent maintenant de voir un retour sur investissement. Intel illustre un autre cas, où la faiblesse de la demande de PC et le prix des puces mémoire pèsent sur l'activité, selon MarketWatch. Le chiffre de 900 milliards est celui du FT et dépend de la période retenue ; les cours de vendredi ne sont pas encore dans nos données.",
+     "impact": "Une chute concentrée sur les plus grandes capitalisations pèse fortement sur les indices pondérés par la capitalisation, comme le Nasdaq, et alimente la demande de protection, donc la volatilité implicite sur ces indices : un VIX encore autour de 17 suggère que la panique n'était pas générale avant ces annonces. Pour les autocalls sur Nasdaq ou sur paniers tech, la baisse rapproche les cours des barrières. Si les groupes concernés doivent emprunter plus, le crédit de ces émetteurs devient un sujet : leurs spreads et leurs CDS pourraient s'élargir. Les banques d'investissement qui financent les centres de données portent un risque lié à ce cycle.",
+     "interview": {
+      "question": "Les géants technologiques voient leur flux de trésorerie devenir négatif à cause de l'IA : comment cela change-t-il la perception de leur risque de crédit et de leur valorisation ?",
+      "hints": [
+       "Flux de trésorerie disponible, capex et retour sur investissement.",
+       "Effet sur la valorisation actions et le coût de la dette.",
+       "Poids des mégacapitalisations dans le Nasdaq et dispersion.",
+       "Impact sur les autocalls et la volatilité implicite."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Flux de trésorerie disponible",
+       "definition": "Trésorerie générée par l'activité après déduction des investissements, disponible pour rembourser la dette ou rémunérer les actionnaires."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Big Tech sheds nearly $900bn in rout over soaring AI spending",
+       "url": "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Amazon décoit les attentes et son flux de trésorerie tombe dans le rouge vif",
+       "url": "https://www.agefi.fr/news/entreprises/amazon-decoit-les-attentes-et-son-flux-de-tresorerie-tombe-dans-le-rouge-vif",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Intel ploie en Bourse, pénalisé par le ralentissement du marché des PC",
+       "url": "https://www.agefi.fr/news/entreprises/intel-ploie-en-bourse-penalise-par-le-ralentissement-du-marche-des-pc",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Why Intel's stock is sinking toward its worst drop in two years",
+       "url": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "BP : profits record, et l'aubaine sert à réduire la dette",
+     "theme": "credit_sovereign",
+     "lead": "Le pétrolier britannique profite des prix élevés des carburants pour se désendetter, quand ses concurrents préfèrent rendre davantage de cash aux actionnaires.",
+     "what": "Selon le FT, les profits de BP atteignent un record grâce aux prix élevés des carburants, et le groupe utilise cette aubaine pour rembourser sa dette tandis que ses concurrents reversent plus de cash à leurs actionnaires. La veille, le FT relevait que Shell, TotalEnergies et Repsol augmentaient leurs rachats d'actions. Nos données donnent le Brent à 123,10 $ le 27 octobre (-3,92 % sur la journée, +6,84 % sur une semaine). Le chiffre précis des profits de BP ne figure pas dans le résumé disponible.",
+     "why": "Une entreprise qui dégage un surcroît de trésorerie a trois grands choix : investir, rendre du cash aux actionnaires (dividendes, rachats) ou réduire sa dette. Rembourser la dette améliore les ratios d'endettement, ce qui est favorable aux créanciers et peut abaisser le spread de crédit de l'émetteur, au détriment des actionnaires à court terme. Le choix de BP suggère une priorité donnée à la solidité du bilan, mais l'article ne dit pas pourquoi ; une explication possible est la sensibilité du groupe aux cycles des prix de l'énergie. Dans un cycle où les prix peuvent se retourner, réduire la dette est une décision prudente.",
+     "impact": "Pour un investisseur obligataire, le désendettement d'un grand émetteur de l'énergie réduit le risque de défaut perçu et devrait rétrécir son spread, donc valoriser ses obligations existantes. Pour les produits structurés sur le secteur de l'énergie, des profits élevés mais cycliques rendent le sous-jacent volatil. Si le pétrole redescend, le désendettement protège davantage les créanciers que les actionnaires. À l'échelle macro, un baril élevé entretient l'inflation et limite la marge de manœuvre des banques centrales, qui restent au centre de l'actualité cette semaine avec la Banque du Japon et le départ de Christine Lagarde.",
+     "interview": {
+      "question": "Une compagnie pétrolière profite de prix élevés : pourquoi un créancier et un actionnaire n'ont-ils pas le même avis sur l'usage de la trésorerie ?",
+      "hints": [
+       "Dividendes et rachats contre remboursement de dette.",
+       "Effet sur le levier, la notation et le spread de crédit.",
+       "Cyclicité des prix de l'énergie.",
+       "Lien avec l'inflation et les taux."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Désendettement",
+       "definition": "Réduction de la dette d'une entreprise, qui améliore ses ratios financiers et sa solidité."
+      }
+     ],
+     "sources": [
+      {
+       "title": "BP's profits surge to record on high fuel prices",
+       "url": "https://www.ft.com/content/979e4cd0-1683-4a9f-a528-bb03c1b4ad45?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "European oil majors lift buybacks as Iran war drives bumper profits",
+       "url": "https://www.ft.com/content/5ded8d57-46f5-406c-a4ce-e58415b8d4ad?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-30",
    "generated_at": "2026-10-30T05:55:00+00:00",
    "brief": [
@@ -1040,5 +1213,5 @@
    ]
   }
  ],
- "updated_at": "2026-10-30T05:55:00+00:00"
+ "updated_at": "2026-10-31T05:55:00+00:00"
 }
