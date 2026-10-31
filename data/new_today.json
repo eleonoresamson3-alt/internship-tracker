@@ -1,290 +1,104 @@
 {
- "generated_at": "2026-10-30T10:53:44+00:00",
- "date": "2026-10-30",
+ "generated_at": "2026-10-31T10:24:44+00:00",
+ "date": "2026-10-31",
  "jobs": [
   {
-   "id": "keyrock-ad69bf5ec187",
-   "employer": "Keyrock",
-   "employer_type": "hedge_fund",
-   "platform": "ashby",
-   "title": "DeFi Quant Trader Intern (Credit)",
-   "location": "Brussels; London; London; London OR Brussels",
+   "id": "euronext-8bf7c1d959d1",
+   "employer": "Euronext",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Equity Listing Intern",
+   "location": "Paris",
    "countries": [
-    "BE",
-    "GB"
+    "FR"
    ],
    "country_names": [
-    "Belgium",
-    "United Kingdom"
+    "France"
    ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 55,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 5,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://jobs.ashbyhq.com/keyrock/6b46ce15-7e6b-4213-9eb4-41cc64577e24",
-   "posted_at": "2026-10-29",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "active": true
-  },
-  {
-   "id": "keyrock-63080cd09cfd",
-   "employer": "Keyrock",
-   "employer_type": "hedge_fund",
-   "platform": "ashby",
-   "title": "Innovation Quant Developer: Intern - DeFi/Corporate Development",
-   "location": "Brussels; London; London; London OR Brussels",
-   "countries": [
-    "BE",
-    "GB"
-   ],
-   "country_names": [
-    "Belgium",
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Quant dev",
-   "role_level": "medium",
-   "score": 55,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 5,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://jobs.ashbyhq.com/keyrock/d2d0a311-b102-4fda-b537-1a8e926b55c7",
-   "posted_at": "2026-10-29",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "active": true
-  },
-  {
-   "id": "bce-ecb-24e9d2e85fc1",
-   "employer": "BCE (ECB)",
-   "employer_type": "institution",
-   "platform": "generic",
-   "title": "Student Research Assistant Traineeship Programme – Financial Research",
-   "location": "",
-   "countries": [
-    "DE"
-   ],
-   "country_names": [
-    "Germany"
-   ],
-   "region": "Europe (priority)",
+   "region": "France",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 30,
+   "score": 50,
    "score_breakdown": {
     "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
+    "geo": 30,
+    "city": 5,
+    "timing": 5
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://talent.ecb.europa.eu/careers/JobDetail/Student-Research-Assistant-Traineeship-Programme-Financial-Research/15482",
-   "posted_at": "",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Paris/Equity-Listing-Intern_R29101",
+   "posted_at": "2026-10-30",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
    "active": true
   },
   {
-   "id": "t-rowe-price-12b465c0050a",
-   "employer": "T. Rowe Price",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Equity Research Internship Opportunity – Summer 2027",
-   "location": "Baltimore, MD; Owings Mills, MD",
+   "id": "brevan-howard-831346e83e9d",
+   "employer": "Brevan Howard",
+   "employer_type": "hedge_fund",
+   "platform": "phenom",
+   "title": "6-Month Internship – Trading, Tel Aviv",
+   "location": "Tel Aviv, Israel",
    "countries": [
-    "US"
+    "IL"
    ],
    "country_names": [
-    "United States"
+    "Israel"
    ],
    "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 35,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://careers.brevanhoward.com/gb/en/job/JR101650",
+   "posted_at": "2026-10-30",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "active": true
+  },
+  {
+   "id": "pimco-92739ef45a12",
+   "employer": "PIMCO",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "2027 Summer Intern - Investment Compliance Analyst, EMEA",
+   "location": "Dublin, IRL",
+   "countries": [
+    "IE"
+   ],
+   "country_names": [
+    "Ireland"
+   ],
+   "region": "Europe (other)",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 22,
+   "score": 34,
    "score_breakdown": {
     "role": 10,
-    "geo": 0,
+    "geo": 12,
     "city": 0,
     "timing": 12
    },
    "timing": "summer",
-   "start": "2029-05",
-   "deadline": "2029-04-30",
-   "deadline_source": "estimée",
-   "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Baltimore-MD/Equity-Research-Internship-Opportunity---Summer-2027_80630",
-   "posted_at": "2026-10-29",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "active": true
-  },
-  {
-   "id": "amundi-84fc04266255",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - Activation des ventes (sales engagement and coordination) H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
+   "start": "2027",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-activation-des-ventes-sales-engagement-and-coordination-h-f_116973.aspx",
-   "posted_at": "",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "active": true
-  },
-  {
-   "id": "amundi-72187f17e95e",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - Analyste Multigestion Private Equity H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-analyste-multigestion-private-equity-h-f_116979.aspx",
-   "posted_at": "",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "active": true
-  },
-  {
-   "id": "amundi-e643f7e326a2",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage – Marketing / Communication visuelle / Education financière Epargne Salariale et Retraite H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-marketing-communication-visuelle-education-financiere-epargne-salariale-et-retraite-h-f_116977.aspx",
-   "posted_at": "",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "active": true
-  },
-  {
-   "id": "pwc-2b94bd451e69",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Intern - Transaction Services (Financial Due Diligence)",
-   "location": "Ho Chi Minh City",
-   "countries": [
-    "VN"
-   ],
-   "country_names": [
-    "Vietnam"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Ho-Chi-Minh-City/Intern---Transaction-Services_769897WD",
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Dublin-IRL/XMLNAME-2027-Summer-Intern---Compliance-Analyst--EMEA_R106798",
    "posted_at": "2026-10-30",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "active": true
-  },
-  {
-   "id": "unicredit-61599cb63efa",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Intern Debt Capital Markets Syndicate (m/f/d)",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Intern-Debt-Capital-Markets-Syndicate-m-f-d/115540",
-   "posted_at": "",
-   "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
    "active": true
   }
  ]
