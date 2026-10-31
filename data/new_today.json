@@ -1,117 +1,117 @@
 {
- "generated_at": "2026-10-29T10:54:55+00:00",
- "date": "2026-10-29",
+ "generated_at": "2026-10-30T10:53:44+00:00",
+ "date": "2026-10-30",
  "jobs": [
   {
-   "id": "kpmg-12e10a50b15f",
-   "employer": "KPMG",
-   "employer_type": "consulting",
-   "platform": "radancy",
-   "title": "Consultant Stagiaire Structured Finance F/H",
-   "location": "",
+   "id": "keyrock-ad69bf5ec187",
+   "employer": "Keyrock",
+   "employer_type": "hedge_fund",
+   "platform": "ashby",
+   "title": "DeFi Quant Trader Intern (Credit)",
+   "location": "Brussels; London; London; London OR Brussels",
    "countries": [
-    "FR"
+    "BE",
+    "GB"
    ],
    "country_names": [
-    "France"
+    "Belgium",
+    "United Kingdom"
    ],
-   "region": "France",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 80,
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 55,
    "score_breakdown": {
-    "role": 50,
-    "geo": 30,
+    "role": 30,
+    "geo": 20,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://jobs.ashbyhq.com/keyrock/6b46ce15-7e6b-4213-9eb4-41cc64577e24",
+   "posted_at": "2026-10-29",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "keyrock-63080cd09cfd",
+   "employer": "Keyrock",
+   "employer_type": "hedge_fund",
+   "platform": "ashby",
+   "title": "Innovation Quant Developer: Intern - DeFi/Corporate Development",
+   "location": "Brussels; London; London; London OR Brussels",
+   "countries": [
+    "BE",
+    "GB"
+   ],
+   "country_names": [
+    "Belgium",
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Quant dev",
+   "role_level": "medium",
+   "score": 55,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-10-31",
+   "deadline_source": "estimée",
+   "url": "https://jobs.ashbyhq.com/keyrock/d2d0a311-b102-4fda-b537-1a8e926b55c7",
+   "posted_at": "2026-10-29",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "bce-ecb-24e9d2e85fc1",
+   "employer": "BCE (ECB)",
+   "employer_type": "institution",
+   "platform": "generic",
+   "title": "Student Research Assistant Traineeship Programme – Financial Research",
+   "location": "",
+   "countries": [
+    "DE"
+   ],
+   "country_names": [
+    "Germany"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
     "city": 0,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-structured-finance-f-h/2913/45099171520",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://talent.ecb.europa.eu/careers/JobDetail/Student-Research-Assistant-Traineeship-Programme-Financial-Research/15482",
    "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
-   "id": "keyrock-b5343a390569",
-   "employer": "Keyrock",
-   "employer_type": "hedge_fund",
-   "platform": "ashby",
-   "title": "DeFi Quant Research Intern - Digital Assets Market Making",
-   "location": "Brussels; London; London; London OR Brussels",
-   "countries": [
-    "BE",
-    "GB"
-   ],
-   "country_names": [
-    "Belgium",
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 75,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 20,
-    "city": 5,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://jobs.ashbyhq.com/keyrock/4cae20e0-f315-4ccb-aa8e-df0e87969313",
-   "posted_at": "2026-10-28",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "keyrock-2b2bed8b4509",
-   "employer": "Keyrock",
-   "employer_type": "hedge_fund",
-   "platform": "ashby",
-   "title": "Quantitative Analyst Intern - Digital Assets Market Making (HFT)",
-   "location": "Brussels; London; London; London OR Brussels",
-   "countries": [
-    "BE",
-    "GB"
-   ],
-   "country_names": [
-    "Belgium",
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 75,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 20,
-    "city": 5,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://jobs.ashbyhq.com/keyrock/2665c2ed-9131-46d9-9a05-564e7a719d33",
-   "posted_at": "2026-10-28",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "pimco-8554177424f0",
-   "employer": "PIMCO",
+   "id": "t-rowe-price-12b465c0050a",
+   "employer": "T. Rowe Price",
    "employer_type": "asset_manager",
    "platform": "workday",
-   "title": "2027 Summer Intern – PhD Quant Research Analyst, Client Solutions & Analytics, US",
-   "location": "Newport Beach, CA USA",
+   "title": "Equity Research Internship Opportunity – Summer 2027",
+   "location": "Baltimore, MD; Owings Mills, MD",
    "countries": [
     "US"
    ],
@@ -119,431 +119,35 @@
     "United States"
    ],
    "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
    "score_breakdown": {
-    "role": 50,
+    "role": 10,
     "geo": 0,
     "city": 0,
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
+   "start": "2029-05",
+   "deadline": "2029-04-30",
    "deadline_source": "estimée",
-   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/Newport-Beach-CA-USA/XMLNAME-2027-Summer-Intern---PhD-Quant-Research-Analyst--Client-Solutions---Analytics--US_R106815",
-   "posted_at": "2026-09-01",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "url": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/job/Baltimore-MD/Equity-Research-Internship-Opportunity---Summer-2027_80630",
+   "posted_at": "2026-10-29",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
    "active": true
   },
   {
-   "id": "engineers-gate-21be93f4d523",
-   "employer": "Engineers Gate",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Quantitative Research Intern",
-   "location": "Quantitative Research Intern; Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 50,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-10-31",
-   "deadline_source": "estimée",
-   "url": "https://job-boards.greenhouse.io/engineersgate/jobs/8328653",
-   "posted_at": "2026-10-28",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-cbac72acff53",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Assistant(e) Data Scientist - Routage intelligent des prompts H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist---routage-intelligent-des-prompts-hf-reference--2026-116076--/",
-   "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-e1270ffca3de",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Assistant(e) Data Scientist – Agents pour le développement ML H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--agents-pour-le-developpement-ml-hf-reference--2026-116074--/",
-   "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-c1dc2cdf4f66",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Assistant(e) Data Scientist – Red-team IA/Sécurité des LLMs H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--red-team-iasecurite-des-llms-hf-reference--2026-116066--/",
-   "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-af66d839ed63",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Assistant(e) Data Scientist – Speech-to-speech en temps réel H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-122-stage---assistante-data-scientist--speech-to-speech-en-temps-reel-hf-reference--2026-116067--/",
-   "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "kpmg-3be69c310247",
-   "employer": "KPMG",
-   "employer_type": "consulting",
-   "platform": "radancy",
-   "title": "Consultant Stagiaire en qualité de vie au travail et prévention des risques psycho sociaux F/H",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-qualite-de-vie-au-travail-et-prevention-des-risques-psycho-sociaux-f-h/2913/45270468480",
-   "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "kpmg-8b07f635c2fc",
-   "employer": "KPMG",
-   "employer_type": "consulting",
-   "platform": "radancy",
-   "title": "Stagiaire en financement de l’innovation - Ingénieur Informatique / Electronique F/H",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://emplois.kpmg.fr/emploi/courbevoie/stagiaire-en-financement-de-l-innovation-ingenieur-informatique-electronique-f-h/2913/45093251008",
-   "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "pwc-f617cea5f2fe",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Stage Consultant Conformité & Contrôle Interne Asset Management F/H",
-   "location": "Neuilly-sur-Seine",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Consultant-Stagiaire-Conformit---Contrle-Interne---Asset-Management-F-H_714523WD",
-   "posted_at": "2026-10-28",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "amundi-74cf2eabb968",
+   "id": "amundi-84fc04266255",
    "employer": "Amundi",
    "employer_type": "asset_manager",
    "platform": "generic",
-   "title": "Stage - Assistant Trading Agreement Facilitation H/F",
+   "title": "Stage - Activation des ventes (sales engagement and coordination) H/F",
    "location": "",
    "countries": [],
    "country_names": [],
    "region": "Unknown",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 30,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-assistant-trading-agreement-facilitation-h-f_116970.aspx",
-   "posted_at": "",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-be9ca8eb19b9",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Global Corporate Actions",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869950",
-   "posted_at": "2026-10-06",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "invesco-acf6e2d79d16",
-   "employer": "Invesco",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Early Career Intern - Technology (Investment)",
-   "location": "Houston, Texas",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Houston-Texas/Early-Career-Intern---Investment-Technology_R-15622-1",
-   "posted_at": "2026-10-28",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "jpmorgan-d3fd422b79fc",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Markets Summer Analyst Program - Research",
-   "location": "New York, NY, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690282",
-   "posted_at": "2026-10-28",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
-   "active": true
-  },
-  {
-   "id": "allianz-32498aa1d3f9",
-   "employer": "Allianz",
-   "employer_type": "insurance",
-   "platform": "phenom",
-   "title": "Internship, Customer Excellence & Insights, Market Management Department",
-   "location": "Kuala Lumpur, Malaysia",
-   "countries": [
-    "MY"
-   ],
-   "country_names": [
-    "Malaysia"
-   ],
-   "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
    "score": 10,
@@ -557,10 +161,130 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.allianz.com/global/en/job/70719",
-   "posted_at": "2026-04-06",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-10-29",
+   "url": "https://jobs.amundi.com/job/job-stage-activation-des-ventes-sales-engagement-and-coordination-h-f_116973.aspx",
+   "posted_at": "",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "amundi-72187f17e95e",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage - Analyste Multigestion Private Equity H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-analyste-multigestion-private-equity-h-f_116979.aspx",
+   "posted_at": "",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "amundi-e643f7e326a2",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage – Marketing / Communication visuelle / Education financière Epargne Salariale et Retraite H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-marketing-communication-visuelle-education-financiere-epargne-salariale-et-retraite-h-f_116977.aspx",
+   "posted_at": "",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "pwc-2b94bd451e69",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Intern - Transaction Services (Financial Due Diligence)",
+   "location": "Ho Chi Minh City",
+   "countries": [
+    "VN"
+   ],
+   "country_names": [
+    "Vietnam"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Ho-Chi-Minh-City/Intern---Transaction-Services_769897WD",
+   "posted_at": "2026-10-30",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
+   "active": true
+  },
+  {
+   "id": "unicredit-61599cb63efa",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Intern Debt Capital Markets Syndicate (m/f/d)",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Intern-Debt-Capital-Markets-Syndicate-m-f-d/115540",
+   "posted_at": "",
+   "first_seen": "2026-10-30",
+   "last_seen": "2026-10-30",
    "active": true
   }
  ]

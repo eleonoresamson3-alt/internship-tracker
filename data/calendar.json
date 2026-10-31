@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T11:03:45+00:00",
+ "generated_at": "2026-10-30T11:02:16+00:00",
  "meetings": [
   {
    "bank": "Fed",
@@ -8,14 +8,6 @@
    "note": "",
    "source": "official",
    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-  },
-  {
-   "bank": "BCE",
-   "date": "2026-10-29",
-   "end": "2026-10-29",
-   "note": "décision et conférence de presse le dernier jour",
-   "source": "official",
-   "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
   },
   {
    "bank": "Fed",
