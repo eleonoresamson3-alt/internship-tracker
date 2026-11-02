@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-31T10:24:44+00:00",
+ "generated_at": "2026-11-01T11:17:18+00:00",
  "employers_total": 143,
  "employers_failed": 0,
  "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 6,
-   "kept": 0
+   "fetched": 7,
+   "kept": 3
   },
   {
    "employer": "JPMorgan",
-   "fetched": 663,
+   "fetched": 661,
    "kept": 44
   },
   {
@@ -26,13 +26,13 @@
   },
   {
    "employer": "Bank of America",
-   "fetched": 27,
-   "kept": 12
+   "fetched": 25,
+   "kept": 11
   },
   {
    "employer": "Barclays",
-   "fetched": 58,
-   "kept": 14
+   "fetched": 31,
+   "kept": 11
   },
   {
    "employer": "Deutsche Bank",
@@ -41,8 +41,8 @@
   },
   {
    "employer": "Nomura",
-   "fetched": 22,
-   "kept": 9
+   "fetched": 0,
+   "kept": 0
   },
   {
    "employer": "Mizuho",
@@ -66,8 +66,8 @@
   },
   {
    "employer": "Jefferies",
-   "fetched": 41,
-   "kept": 16
+   "fetched": 45,
+   "kept": 19
   },
   {
    "employer": "BNY",
@@ -101,7 +101,7 @@
   },
   {
    "employer": "Scotiabank",
-   "fetched": 278,
+   "fetched": 276,
    "kept": 2
   },
   {
@@ -121,8 +121,8 @@
   },
   {
    "employer": "Rothschild & Co",
-   "fetched": 0,
-   "kept": 0
+   "fetched": 20,
+   "kept": 1
   },
   {
    "employer": "Lazard",
@@ -156,8 +156,8 @@
   },
   {
    "employer": "Invesco",
-   "fetched": 5,
-   "kept": 4
+   "fetched": 9,
+   "kept": 5
   },
   {
    "employer": "M&G",
@@ -352,11 +352,11 @@
   {
    "employer": "Allianz",
    "fetched": 100,
-   "kept": 1
+   "kept": 2
   },
   {
    "employer": "SCOR",
-   "fetched": 145,
+   "fetched": 146,
    "kept": 12
   },
   {
@@ -391,7 +391,7 @@
   },
   {
    "employer": "EY",
-   "fetched": 757,
+   "fetched": 755,
    "kept": 4
   },
   {
@@ -441,12 +441,12 @@
   },
   {
    "employer": "DZ Bank",
-   "fetched": 19,
+   "fetched": 18,
    "kept": 0
   },
   {
    "employer": "UniCredit",
-   "fetched": 14,
+   "fetched": 15,
    "kept": 6
   },
   {
@@ -597,11 +597,11 @@
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 10
+   "kept": 9
   },
   {
    "employer": "Capital Group",
-   "fetched": 7,
+   "fetched": 5,
    "kept": 5
   },
   {
@@ -651,7 +651,7 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 70,
+   "fetched": 73,
    "kept": 0
   },
   {
@@ -671,7 +671,7 @@
   },
   {
    "employer": "Air Liquide",
-   "fetched": 65,
+   "fetched": 63,
    "kept": 5
   },
   {
@@ -681,7 +681,7 @@
   },
   {
    "employer": "Alstom",
-   "fetched": 404,
+   "fetched": 403,
    "kept": 0
   },
   {
@@ -691,12 +691,12 @@
   },
   {
    "employer": "Siemens",
-   "fetched": 24,
+   "fetched": 22,
    "kept": 0
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 90,
+   "fetched": 89,
    "kept": 0
   },
   {
