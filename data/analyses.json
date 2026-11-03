@@ -1,6 +1,173 @@
 {
  "days": [
   {
+   "date": "2026-11-03",
+   "generated_at": "2026-11-03T05:55:00+00:00",
+   "brief": [
+    "Bilan d'octobre : énergie chère, hausse des taux longs mondiaux, spread français et correction des valeurs IA ont fait du mois, selon L'Agefi, un « mois de tous les dangers » ; le FT parle du pire mois du Nasdaq depuis plus d'un an, avant un début de semaine plus calme.",
+    "Pétrole : Goldman Sachs voit le Brent à 130 $ en moyenne l'an prochain, et jusqu'à 140 $ si les tensions au Moyen-Orient s'aggravent ; le Brent était à 123,1 $ le 27 octobre dans nos données.",
+    "Taux : le 10 ans français (TEC 10) est à 4,909 % le 2 novembre contre 3,37 % pour le Bund, soit environ 154 points de base d'écart ; le taux de dépôt de la BCE reste affiché à 2,5 % dans nos données.",
+    "Crédit : Alstom chute de 28 % après un avertissement sur ses résultats et un plan de réduction de 2 milliards d'euros de dette (FT).",
+    "Régulation : l'AMF demande aux fonds monétaires de renforcer leurs tampons de liquidité ; l'activité manufacturière de la zone euro reste en expansion (PMI à 52,7 en octobre)."
+   ],
+   "articles": [
+    {
+     "title": "Octobre 2026 : un mois de tous les dangers pour les marchés, et un début de novembre plus calme",
+     "theme": "equities",
+     "lead": "Énergie, taux longs, spread français et valeurs IA ont pesé en même temps sur les marchés en octobre ; le début de novembre apporte un répit.",
+     "what": "Selon L'Agefi, octobre cumule la flambée des prix de l'énergie, la hausse des taux longs mondiaux, l'envolée du spread de la France et la correction sur les valeurs de l'IA. Le FT note que le sell-off mondial de l'IA se calme après le pire mois du Nasdaq depuis plus d'un an, aidé par la baisse du pétrole. MarketWatch rapporte que les marchés actions et obligataires jettent un doute sur la durabilité du thème IA. Nos données donnent le Nasdaq à 26 184,72 le 29 octobre (-2,29 % sur un mois), le Dow Jones à 51 770,31 le 30 octobre (-1,09 %) et le Nikkei à 63 290,11 (-2,12 %). Le VIX est à 17,2 le 29 octobre.",
+     "why": "Quand plusieurs risques se cumulent, les marchés ne réagissent pas à chacun séparément : la hausse des taux longs réduit la valeur actuelle des profits futurs, ce qui pèse surtout sur les valeurs de croissance comme l'IA, tandis que l'énergie chère alimente l'inflation. Le FT évoque aussi la question de la corrélation entre actions et obligations : lorsque les deux baissent ensemble, la diversification classique protège moins. Un rebond de début de semaine ne prouve rien sur la tendance : le FT précise qu'il est aidé par la baisse du pétrole, ce qui reste un facteur fragile. Nos séries de marché ont plusieurs jours de retard et ne reflètent pas la séance du jour.",
+     "impact": "Une volatilité qui reste modérée (VIX autour de 17) alors que les marchés ont connu un mois difficile limite le coupon qu'un émetteur peut offrir sur un autocall, tout en laissant des barrières plus proches des cours qu'il y a un mois. Si la corrélation actions-obligations devient positive, les portefeuilles mixtes et les produits à capital protégé, qui combinent un zéro-coupon et une option, sont plus difficiles à couvrir. Pour les banques d'investissement, la volatilité sur plusieurs classes d'actifs soutient en principe la demande de couverture et l'activité de trading, mais complique la gestion des risques.",
+     "interview": {
+      "question": "En octobre, actions et obligations ont souffert en même temps : pourquoi la corrélation actions-obligations compte-t-elle pour un gérant et pour un structureur ?",
+      "hints": [
+       "Diversification qui fonctionne quand la corrélation est négative.",
+       "Rôle de l'inflation et des taux longs dans la corrélation.",
+       "Effet sur la couverture d'un produit à capital protégé.",
+       "Distinguer volatilité implicite et volatilité réalisée."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Corrélation actions-obligations",
+       "definition": "Mesure de la tendance des actions et des obligations à évoluer ensemble ; négative, elle permet la diversification."
+      }
+     ],
+     "sources": [
+      {
+       "title": "En octobre, les vents contraires se sont abattus sur les marchés financiers",
+       "url": "https://www.agefi.fr/news/economie-marches/en-octobre-les-vents-contraires-se-sont-abattus-sur-les-marches-financiers",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Global AI sell-off eases after Nasdaq's worst month in over a year",
+       "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Tech stocks enter November after a brutal October: Is it time to buy the dip?",
+       "url": "https://www.marketwatch.com/story/tech-stocks-enter-november-after-a-brutal-october-is-it-time-to-buy-the-dip-09d8aff8?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole : Goldman Sachs imagine un Brent à 130 $ en moyenne l'an prochain",
+     "theme": "fx_commodities",
+     "lead": "La banque américaine relève ses scénarios de prix du Brent, jusqu'à 140 $ si les tensions au Moyen-Orient s'aggravent.",
+     "what": "Selon MarketWatch, les analystes de Goldman Sachs estiment que le Brent pourrait atteindre en moyenne 130 $ le baril l'an prochain, et 140 $ si les tensions au Moyen-Orient s'aggravent. Le FT ajoute que la baisse récente du pétrole a aidé les valeurs technologiques américaines à démarrer la semaine en hausse. Nos données donnent le Brent à 123,10 $ le 27 octobre (-3,92 % sur la journée, +6,84 % sur une semaine, +6,11 % sur un mois) ; cette série date de plusieurs jours et ne reflète pas le niveau du jour. L'EUR/USD est à 1,1172 le 30 octobre.",
+     "why": "Une prévision de banque est un scénario conditionnel : elle repose sur des hypothèses d'offre, de demande et de risque géopolitique, et peut être révisée. La différence entre 130 $ en moyenne et 140 $ dans le scénario tendu illustre la prime de risque liée aux perturbations d'approvisionnement. Un pétrole durablement cher agit comme une taxe sur les pays importateurs et alimente l'inflation énergétique, ce qui limite la marge de manœuvre des banques centrales. Les opérateurs réagissent aussi à chaque nouvelle sur le conflit : d'où la volatilité du prix, qui baisse parfois fortement en quelques jours avant de remonter.",
+     "impact": "Pour les produits structurés indexés sur le Brent ou sur des actions pétrolières, un baril volatil rend les options plus chères, donc des coupons potentiellement plus élevés, avec un risque de barrière accru en cas de retournement. Une inflation énergétique plus durable soutient les anticipations d'inflation et pèse sur les obligations longues, ce qui relève les taux d'actualisation. Pour la zone euro, importatrice nette, un pétrole cher pèse sur l'euro et sur la croissance. Les compagnies pétrolières voient leurs profits s'envoler, ce qui améliore leur crédit, mais ces profits sont cycliques.",
+     "interview": {
+      "question": "Goldman Sachs publie deux scénarios de Brent, 130 $ et 140 $ : comment un structureur utilise-t-il ce type de prévision, et pourquoi ne suffit-il pas pour fixer le prix d'une option ?",
+      "hints": [
+       "Les prévisions de prix ne sont pas des prix de marché : l'option se price avec la volatilité implicite et la courbe à terme.",
+       "Backwardation et contango sur les futures de pétrole.",
+       "Prime de risque géopolitique.",
+       "Lien avec l'inflation et les décisions des banques centrales."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Backwardation",
+       "definition": "Situation où le prix à terme d'une matière première est inférieur au prix comptant, signe de tension sur l'offre immédiate."
+      }
+     ],
+     "sources": [
+      {
+       "title": "How oil prices could average $130 per barrel next year, according to Goldman Sachs",
+       "url": "https://www.marketwatch.com/story/how-oil-prices-could-average-130-per-barrel-next-year-according-to-goldman-sachs-235ce32b?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Global AI sell-off eases after Nasdaq's worst month in over a year",
+       "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Alstom chute de 28 % : avertissement sur résultats et plan de réduction de la dette",
+     "theme": "credit_sovereign",
+     "lead": "Le constructeur ferroviaire coupe ses objectifs pour la seconde fois sous la direction de Martin Sion et prévoit de réduire sa dette de 2 milliards d'euros.",
+     "what": "Selon le FT, les actions d'Alstom ont reculé de 28 % après une seconde alerte sur résultats sous la direction de Martin Sion, accompagnée d'un plan de réduction de la dette de 2 milliards d'euros. L'Agefi précise que le groupe a fortement réduit ses ambitions pour son exercice décalé 2026-2027 à cause de difficultés sur un programme de trains régionaux, et que son titre plongeait de plus de 20 %. La lettre FirstFT du FT mentionne par ailleurs une chute des prix des obligations à haut rendement, sans en détailler l'ampleur dans le résumé disponible.",
+     "why": "Une alerte sur résultats signifie que l'entreprise prévoit des profits inférieurs à ses objectifs précédents. Lorsque les difficultés viennent d'un contrat précis, comme ici un programme de trains régionaux, les investisseurs se demandent si le problème est isolé ou symptomatique de la gestion des projets. Le plan de réduction de la dette est un signal destiné aux créanciers : il vise à préserver la notation de crédit et à rassurer les marchés obligataires. Une deuxième alerte en peu de temps réduit la crédibilité du management, d'où la forte réaction du cours. Nos sources ne donnent pas la notation actuelle du groupe : on ne peut donc pas dire si elle est menacée.",
+     "impact": "Pour les créanciers, une dégradation du profil de crédit élargit en général le spread des obligations de l'émetteur et augmente le coût de sa dette ; le plan de désendettement vise à limiter ce mouvement. Pour les produits structurés dont le sous-jacent est Alstom, une chute de près de 28 % peut avoir franchi des barrières de protection, ce qui expose les clients à une perte en capital selon les termes. Une volatilité implicite plus élevée enchérit les options sur le titre. Plus largement, un stress sur le haut rendement durcit les conditions de financement des émetteurs les plus fragiles.",
+     "interview": {
+      "question": "Une entreprise annonce un plan de réduction de dette de 2 milliards d'euros après un avertissement sur résultats : que regardez-vous pour juger son risque de crédit ?",
+      "hints": [
+       "Levier (dette nette/EBITDA) et couverture des intérêts.",
+       "Génération de trésorerie et échéancier de la dette.",
+       "Notation et spread de crédit.",
+       "Conséquences pour les actionnaires et pour les produits structurés sur le titre."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Profit warning",
+       "definition": "Annonce par laquelle une entreprise prévient que ses résultats seront inférieurs à ses prévisions précédentes."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Alstom shares tumble 28% after train maker cuts profit forecast",
+       "url": "https://www.ft.com/content/95723b31-c35b-4d68-9abe-9e082e95e362?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Alstom coupe à la hache dans ses objectifs annuels et s'effondre en Bourse",
+       "url": "https://www.agefi.fr/news/entreprises/alstom-coupe-a-la-hache-dans-ses-objectifs-annuels",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "FirstFT: Donald Trump makes his final pitch to voters",
+       "url": "https://www.ft.com/content/703dd322-e880-4bbf-80f8-8b0efda1831c?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "L'AMF demande aux fonds monétaires de relever leurs tampons de liquidité",
+     "theme": "regulation",
+     "lead": "Le régulateur français veut que les fonds monétaires détectent plus tôt les tensions de liquidité et réagissent plus vite.",
+     "what": "Selon L'Agefi, l'AMF demande aux fonds monétaires de relever leurs tampons de liquidité et insiste sur la détection précoce des tensions et sur la rapidité des mesures correctrices. L'enjeu concerne un marché français dont les encours approchent 480 milliards d'euros en août 2026. Par ailleurs, l'Agefi indique que l'activité manufacturière de la zone euro a continué d'augmenter en octobre, avec un indice PMI de 52,7. Nos données donnent l'€STR à 2,44 % le 30 octobre et le taux de dépôt de la BCE à 2,5 %.",
+     "why": "Un fonds monétaire investit dans des titres de dette très courts pour offrir une valeur liquidative stable et un accès rapide au cash. Si beaucoup d'investisseurs retirent leur argent en même temps, le fonds doit vendre des titres, parfois à perte, ce qui peut amplifier une crise de liquidité : c'est ce que les autorités cherchent à prévenir. Un tampon de liquidité, c'est-à-dire une part d'actifs convertibles immédiatement en cash, permet de faire face aux rachats sans vendre dans de mauvaises conditions. Le contexte de taux élevés et de tensions de marché explique l'attention des régulateurs, même si l'article ne signale pas de problème précis.",
+     "impact": "Des tampons plus élevés réduisent légèrement le rendement des fonds monétaires, car une part plus importante est placée en actifs très liquides moins rémunérateurs. Ces fonds sont de gros acheteurs de papier commercial, de certificats de dépôt et de titres d'État courts : une exigence de liquidité accrue peut modifier leur demande pour des échéances plus longues, donc le coût de financement à court terme des banques et des entreprises. Pour les produits structurés et les notes à capital protégé, ce marché sert de référence de taux court. Le secteur de la gestion d'actifs devra ajuster ses procédures de suivi de la liquidité.",
+     "interview": {
+      "question": "Pourquoi un fonds monétaire peut-il connaître une crise de liquidité, et à quoi sert un tampon de liquidité ?",
+      "hints": [
+       "Transformation de liquidité : actifs courts mais pas toujours vendables sans décote.",
+       "Risque de rachats massifs et effet de panique.",
+       "Mesures de régulation : frais de sortie, gates, ratios de liquidité.",
+       "Lien avec les marchés de financement à court terme."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Tampon de liquidité",
+       "definition": "Part des actifs d'un fonds détenue sous forme facilement convertible en cash pour faire face aux demandes de rachat."
+      },
+      {
+       "term": "PMI",
+       "definition": "Indice d'enquête auprès des directeurs d'achats ; au-dessus de 50, il signale une expansion de l'activité."
+      }
+     ],
+     "sources": [
+      {
+       "title": "L'AMF demande aux fonds monétaires de relever leurs tampons de liquidité",
+       "url": "https://www.agefi.fr/asset-management/actualites/lamf-demande-aux-fonds-monetaires-de-relever-leurs-tampons-de-liquidite",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "L'activité manufacturière dans la zone euro a continué d'augmenter en octobre",
+       "url": "https://www.agefi.fr/news/economie-marches/lactivite-manufacturiere-dans-la-zone-euro-a-continue-daugmenter-en-octobre",
+       "source": "L'Agefi"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-31",
    "generated_at": "2026-10-31T05:55:00+00:00",
    "brief": [
@@ -1213,5 +1380,5 @@
    ]
   }
  ],
- "updated_at": "2026-10-31T05:55:00+00:00"
+ "updated_at": "2026-11-03T05:55:00+00:00"
 }
