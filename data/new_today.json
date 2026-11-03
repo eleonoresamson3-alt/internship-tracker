@@ -1,269 +1,100 @@
 {
- "generated_at": "2026-11-01T11:17:18+00:00",
- "date": "2026-11-01",
+ "generated_at": "2026-11-02T12:28:14+00:00",
+ "date": "2026-11-02",
  "jobs": [
   {
-   "id": "groupe-credit-agricole-784c1b42d6cb",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage au sein de l'équipe de modélisation ALM de Crédit Agricole S.A. H/F juin 2027",
-   "location": "",
+   "id": "pwc-baa55922c07e",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Tax Transfer Pricing Intern",
+   "location": "Bangkok",
    "countries": [
-    "FR"
+    "TH"
    ],
    "country_names": [
-    "France"
+    "Thailand"
    ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 55,
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 50,
    "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 15
-   },
-   "timing": "summer",
-   "start": "2027-06",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-122-stage-au-sein-de-l-equipe-de-modelisation-alm-de-credit-agricole-sa-hf-juin-2027-reference--2026-116451--/",
-   "posted_at": "",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-cf24bd831679",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Praktikant/ in im Bereich Global Markets FI Sales m/w/d",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
+    "role": 50,
+    "geo": 0,
     "city": 0,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2027-03-31",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/578-170466-4-praktikant-in-im-bereich-global-markets-fi-sales-mwd-reference--2026-116479--/",
-   "posted_at": "",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bangkok/Tax-Transfer-Pricing-Intern_744415WD-1",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-047dcfde647d",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stagiaire études, veille et mises en marché banque privée, patrimonial et épargne H/F",
-   "location": "",
+   "id": "barclays-5881cd8fafab",
+   "employer": "Barclays",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Sustainable Finance Summer Internship Programme 2027 London",
+   "location": "Canary Wharf, 1 Churchill Place",
    "countries": [
-    "FR"
+    "GB"
    ],
    "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-122-stagiaire-etudes-veille-et-mises-en-marche-banque-privee-patrimonial-et-epargne-hf-reference--2026-116876--/",
-   "posted_at": "",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "allianz-8165b12e9d27",
-   "employer": "Allianz",
-   "employer_type": "insurance",
-   "platform": "phenom",
-   "title": "Security Risk Associate Intern (Information Security) (m/f/d)",
-   "location": "BARCELONA, Barcelona, Spain, 08005",
-   "countries": [
-    "ES"
-   ],
-   "country_names": [
-    "Spain"
+    "United Kingdom"
    ],
    "region": "Europe (priority)",
-   "family": "Risk",
+   "family": "Markets (other)",
    "role_level": "low",
-   "score": 30,
+   "score": 42,
    "score_breakdown": {
     "role": 10,
     "geo": 20,
     "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Sustainable-Finance-Summer-Internship-Programme-2027-London_JR-0000124202",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "active": true
+  },
+  {
+   "id": "lseg-b664a7d004fa",
+   "employer": "LSEG",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Intern, Financial Control",
+   "location": "Colombo, Sri Lanka",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://careers.allianz.com/global/en/job/94498",
-   "posted_at": "2026-03-18",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "invesco-e2f0551c68b2",
-   "employer": "Invesco",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Early Career Intern - Institutional Sales (Retirement & Insurance)",
-   "location": "Atlanta, Georgia",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Institutional-Sales--Retirement---Insurance-_R-15908-1",
-   "posted_at": "2026-11-01",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "jefferies-75433048e8a6",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2028 Investment Banking Summer Analyst Program – New York, Equity Capital Markets Group",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2034-2028-Investment-Banking-Summer-Analyst-Program-New-York-Equity-Capital-Markets-Group/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "jefferies-c3982285df2e",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2028 Investment Banking Summer Analyst Program – New York, Financial Institutions Group",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2033-2028-Investment-Banking-Summer-Analyst-Program-New-York-Financial-Institutions-Group/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
-   "active": true
-  },
-  {
-   "id": "jefferies-63c9827ec134",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2028 Jefferies Finance Summer Analyst Program - New York, Private Credit",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2039-2028-Jefferies-Finance-Summer-Analyst-Program-New-York-Private-Credit/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
+   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Financial-Control_R0124216",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
    "active": true
   }
  ]
