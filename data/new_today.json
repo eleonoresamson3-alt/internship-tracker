@@ -1,60 +1,320 @@
 {
- "generated_at": "2026-11-02T12:28:14+00:00",
- "date": "2026-11-02",
+ "generated_at": "2026-11-03T11:57:27+00:00",
+ "date": "2026-11-03",
  "jobs": [
   {
-   "id": "pwc-baa55922c07e",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Tax Transfer Pricing Intern",
-   "location": "Bangkok",
+   "id": "groupe-credit-agricole-98d95b3a9a9d",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stagiaire - Salle des marchés H/F",
+   "location": "",
    "countries": [
-    "TH"
+    "FR"
    ],
    "country_names": [
-    "Thailand"
+    "France"
    ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 50,
+   "region": "France",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 60,
    "score_breakdown": {
-    "role": 50,
-    "geo": 0,
+    "role": 30,
+    "geo": 30,
     "city": 0,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-03-31",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bangkok/Tax-Transfer-Pricing-Intern_744415WD-1",
-   "posted_at": "2026-11-02",
-   "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-191859-127-stagiaire---salle-des-marches-hf-reference--2026-117056--/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
    "active": true
   },
   {
-   "id": "barclays-5881cd8fafab",
-   "employer": "Barclays",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Sustainable Finance Summer Internship Programme 2027 London",
-   "location": "Canary Wharf, 1 Churchill Place",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
+   "id": "man-group-4f61121ed026",
+   "employer": "Man Group",
+   "employer_type": "asset_manager",
+   "platform": "greenhouse",
+   "title": "Systematic Quant Intern - PhD",
+   "location": "Massachusetts",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
    "score": 42,
    "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012811101",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "alstom-02a54f3ec84a",
+   "employer": "Alstom",
+   "employer_type": "corporate",
+   "platform": "successfactors",
+   "title": "Intern Treasury x AI & Automation Projects",
+   "location": "Saint-Ouen, FR",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
     "role": 10,
-    "geo": 20,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Intern-Treasury-x-AI-&-Automation-Projects/1453463333/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-5f05073b1de2",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE – Finance Data Management Officer",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage--finance-data-management-officer-reference--2026-117058--/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-f58b30102da5",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Assistant Spécialiste Produit – Gestions Actions H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---assistant-specialiste-produit--gestions-actions-hf-reference--2026-117046--/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-5a633316ead8",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage en Finance & Business Pilotage et suivi commercial H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-en-finance-et-business-pilotage-et-suivi-commercial-hf-reference--2026-117045--/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-dae0efeb1f8e",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stagiaire Desk ECM (Equity Capital Market) H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stagiaire-desk-ecm-equity-capital-market-hf-reference--2026-115906--/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "rbc-capital-markets-0a1f451caae9",
+   "employer": "RBC Capital Markets",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "2028 Capital Markets, Global Markets Origination Summer Analyst",
+   "location": "New York, New York, United States of America",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2028",
+   "deadline": "2027-11-30",
+   "deadline_source": "estimée",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Origination-Summer-Analyst_R-0000191762",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "rbc-capital-markets-856a87a7d0ad",
+   "employer": "RBC Capital Markets",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "2028 Global Markets Summer Associate, Equity Research",
+   "location": "New York, New York, United States of America",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2028",
+   "deadline": "2027-11-30",
+   "deadline_source": "estimée",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Global-Markets-Summer-Associate--Equity-Research_R-0000191769",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "scotiabank-68aa02dbc880",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 Finance Summer Analyst - Dallas",
+   "location": "Dallas, TX, US",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
     "city": 0,
     "timing": 12
    },
@@ -62,19 +322,151 @@
    "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Sustainable-Finance-Summer-Internship-Programme-2027-London_JR-0000124202",
-   "posted_at": "2026-11-02",
-   "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "url": "https://jobs.scotiabank.com/job/Dallas-2027-Finance-Summer-Analyst-Dallas-TX-75201/607597417/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
    "active": true
   },
   {
-   "id": "lseg-b664a7d004fa",
-   "employer": "LSEG",
-   "employer_type": "infrastructure",
+   "id": "scotiabank-cd4f1b83b182",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "GBM - Corporate Banking, Credit Analytics Group (CAG) Internship/Co-op - Summer 2027",
+   "location": "Toronto, ON, CA",
+   "countries": [
+    "CA"
+   ],
+   "country_names": [
+    "Canada"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Toronto-GBM-Corporate-Banking%2C-Credit-Analytics-Group-%28CAG%29-InternshipCo-op-Summer-2027-ON/607644017/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "state-street-296d2f6bbad1",
+   "employer": "State Street",
+   "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "Intern, Financial Control",
-   "location": "Colombo, Sri Lanka",
+   "title": "State Street Investment Management - Index Strategy Analyst - 2027 Summer Internship",
+   "location": "Quincy, Massachusetts",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/State-Street-Investment-Management---Index-Strategy-Analyst---2027-Summer-Internship_R-800658",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "state-street-b9602f9a0a69",
+   "employer": "State Street",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "State Street Investment Management -Americas Strategy and Insights Analyst - 2027 Summer Internship",
+   "location": "Boston, Massachusetts",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management--Americas-Strategy-and-Insights-Analyst---2027-Summer-Internship_R-800657",
+   "posted_at": "2026-11-02",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "allianz-c1d16a44aebb",
+   "employer": "Allianz",
+   "employer_type": "insurance",
+   "platform": "phenom",
+   "title": "Internship, Credit Unit Corporate Business Department",
+   "location": "Kuala Lumpur, Malaysia",
+   "countries": [
+    "MY"
+   ],
+   "country_names": [
+    "Malaysia"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.allianz.com/global/en/job/92492",
+   "posted_at": "2026-02-22",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "amundi-7334228f0d66",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "STAGE – Finance Data Management Officer",
+   "location": "",
    "countries": [],
    "country_names": [],
    "region": "Unknown",
@@ -89,12 +481,161 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2026-11-30",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Financial-Control_R0124216",
+   "url": "https://jobs.amundi.com/job/job-stage-finance-data-management-officer_117058.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "amundi-6896d13544cd",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage - Assistant Spécialiste Produit – Gestions Actions H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-assistant-specialiste-produit-gestions-actions-h-f_117046.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "amundi-b652fd596e52",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage en Finance & Business Pilotage et suivi commercial H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-en-finance-business-pilotage-et-suivi-commercial-h-f_117045.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "amundi-1df6931fee23",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stagiaire Desk ECM (Equity Capital Market) H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stagiaire-desk-ecm-equity-capital-market-h-f_115906.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "pwc-7ca30264e1e4",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Risk Assurance Intern",
+   "location": "Bermuda",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bermuda/Risk-Assurance-Intern_770351WD",
    "posted_at": "2026-11-02",
-   "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "active": true
+  },
+  {
+   "id": "voleon-7fd73f6bf1fa",
+   "employer": "Voleon",
+   "employer_type": "hedge_fund",
+   "platform": "ashby",
+   "title": "Research Intern",
+   "location": "Berkeley, CA; New York City, NY",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://jobs.ashbyhq.com/voleon/e182a100-56cb-4949-9f33-3c26786b41d9",
+   "posted_at": "2026-08-07",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
    "active": true
   }
  ]
