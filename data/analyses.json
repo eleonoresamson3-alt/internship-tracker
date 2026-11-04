@@ -1,6 +1,178 @@
 {
  "days": [
   {
+   "date": "2026-11-04",
+   "generated_at": "2026-11-04T05:55:00+00:00",
+   "brief": [
+    "Banques centrales : l'Australie relève ses taux à leur plus haut niveau depuis la crise de 2008 (cinquième hausse de l'année, FT) ; à Bruxelles, les candidatures pour succéder à Christine Lagarde à la BCE doivent être déposées d'ici vendredi.",
+    "Actions : le Nasdaq 100 entre dans sa troisième correction de l'année selon MarketWatch ; le Nasdaq Composite était à 25 164,36 le 2 novembre (-1,07 % sur la journée, -7,45 % sur un mois) et le VIX à 19,42 le 30 octobre.",
+    "Crédit : Oracle a dû offrir plus de 8 % sur ses obligations à 20 ans et une décote de 11 % sur ses actions pour lever 10 milliards de dollars de dette et autant en capital (L'Agefi).",
+    "Pétrole : le FT indique un prix stabilisé autour de 106 $ après de fortes baisses ; notre série Brent s'arrête au 27 octobre (123,1 $).",
+    "Taux : le 10 ans français (TEC 10) est à 4,909 % le 2 novembre contre 3,38 % pour le Bund le 3 novembre, soit environ 153 points de base d'écart ; les élections américaines de mi-mandat ont lieu aujourd'hui."
+   ],
+   "articles": [
+    {
+     "title": "Australie : la banque centrale relève ses taux à leur plus haut niveau depuis 2008",
+     "theme": "central_banks",
+     "lead": "Pour la cinquième fois cette année, la banque centrale australienne resserre sa politique face à une inflation qui reste au-dessus de sa cible.",
+     "what": "Selon le FT, la banque centrale d'Australie a relevé ses taux à leur plus haut niveau depuis la crise financière de 2008, pour la cinquième fois cette année, alors que l'inflation demeure supérieure à l'objectif. Le niveau précis du taux directeur ne figure pas dans le résumé disponible. À titre de comparaison, le taux de dépôt de la BCE est à 2,5 % dans nos données, et l'€STR à 2,441 % le 2 novembre. Le 10 ans américain était à 4,94 % le 30 octobre.",
+     "why": "Une banque centrale relève ses taux pour freiner la demande et ramener l'inflation vers sa cible : le crédit coûte plus cher, la consommation et l'investissement ralentissent. Cinq hausses en une année indiquent que l'inflation s'est montrée plus persistante que prévu. Nos sources ne comparent pas la situation australienne à celle des autres banques centrales. Les marchés regardent désormais si l'Australie annonce un pic ou d'autres hausses.",
+     "impact": "Des taux directeurs plus élevés renforcent généralement la monnaie, ici le dollar australien, ce qui modifie le coût de couverture de change pour les investisseurs étrangers : emprunter en dollars australiens devient plus cher. Pour les produits structurés libellés en AUD, un taux élevé réduit le prix du zéro-coupon, laisse moins de budget à l'option sur un produit à capital protégé, mais permet des coupons fixes plus élevés. Les banques australiennes bénéficient en principe d'une marge d'intérêt plus large, mais subissent un risque de crédit accru sur les prêts immobiliers à taux variable. Ce mouvement peut aussi alimenter les anticipations de resserrement ailleurs.",
+     "interview": {
+      "question": "Une banque centrale relève ses taux pour la cinquième fois en un an : comment cela affecte-t-il la devise, la courbe et le prix d'un produit structuré libellé dans cette monnaie ?",
+      "hints": [
+       "Différentiel de taux et effet sur le taux de change.",
+       "Courbe des taux : effet sur les échéances courtes et longues.",
+       "Zéro-coupon moins cher à taux élevés : budget d'option réduit.",
+       "Risque de crédit pour les ménages endettés à taux variable."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Cible d'inflation",
+       "definition": "Niveau d'inflation que la banque centrale cherche à atteindre, généralement 2 % ou une fourchette autour de ce niveau."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Australia raises rates to highest level since 2008 financial crisis",
+       "url": "https://www.ft.com/content/60283bdf-e45d-4723-a68e-5a857a5b949e?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Brussels sets tight deadline for ECB president nominations",
+       "url": "https://www.ft.com/content/c5c430f5-e9b7-434b-851a-565cc43ccb94?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Nasdaq 100 en correction, hedge funds touchés, Elliott alerte sur un marché baissier",
+     "theme": "equities",
+     "lead": "Le « tech wreck » d'octobre se prolonge : l'indice entre en correction pour la troisième fois de l'année et des gérants alternatifs encaissent des pertes.",
+     "what": "MarketWatch indique que le Nasdaq 100 plonge dans sa troisième correction de l'année, avec des inquiétudes croissantes sur l'IA, et se demande si un marché baissier suit. Apple recule de 4,5 % avant l'ouverture, déçevant sur sa marge brute et sur la croissance de ses services, selon MarketWatch. Le FT rapporte que le hedge fund Marshall Wace est touché par la correction technologique et les turbulences obligataires. Elliott compare la situation aux Années folles précédant la Grande Dépression et écrit que presque tous les signaux d'alarme d'un marché baissier sont au rouge (L'Agefi). Nos données donnent le Nasdaq à 25 164,36 le 2 novembre (-1,07 %, -7,45 % sur un mois) et le S&P 500 à 7 580,07 le 30 octobre (-1,82 %).",
+     "why": "Une correction désigne une baisse d'au moins 10 % par rapport à un plus haut récent ; un marché baissier va au-delà, généralement -20 %. L'alerte d'Elliott est un avis de gérant, qui insiste sur la prise de risque alimentée par l'endettement et sur l'enthousiasme pour les nouvelles technologies. Les hedge funds sont souvent exposés à l'effet de levier : quand les actions et les obligations baissent en même temps, leurs pertes peuvent se cumuler, ce qui peut les contraindre à vendre. Il s'agit de signaux à surveiller, non de prévisions certaines : un marché peut rebondir.",
+     "impact": "Une baisse continue fait grimper la demande de protection : le VIX à 19,42 le 30 octobre, en hausse de 12,9 % sur la journée, a déjà réagi. Pour les autocalls sur le Nasdaq ou sur des paniers technologiques, la probabilité de rappel anticipé diminue et les cours se rapprochent des barrières. Les produits à capital protégé restent protégés à l'échéance, sous réserve du risque de crédit de l'émetteur. Pour les teneurs de marché, une volatilité plus élevée augmente la valeur des options vendues au client, mais les coûts de couverture en vega et en gamma grimpent. Les liquidations forcées de fonds pourraient amplifier les mouvements.",
+     "interview": {
+      "question": "Le Nasdaq 100 entre en correction : comment cela change-t-il le profil de risque d'un autocall de 5 ans sur cet indice ?",
+      "hints": [
+       "Distance à la barrière de protection et à la barrière de rappel.",
+       "Volatilité implicite : option plus chère, coupon éventuellement plus élevé à l'émission.",
+       "Corrélation et dispersion des composantes de l'indice.",
+       "Distinguer correction (-10 %) et marché baissier (-20 %)."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Correction",
+       "definition": "Baisse d'au moins 10 % d'un indice ou d'un actif par rapport à son plus haut récent."
+      },
+      {
+       "term": "Effet de levier",
+       "definition": "Utilisation de l'emprunt pour accroître l'exposition d'un portefeuille, ce qui amplifie gains et pertes."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+       "url": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Marshall Wace hit as hedge funds suffer in October's AI rout",
+       "url": "https://www.ft.com/content/fae029f1-f03e-4509-852e-396fa4863271?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Elliott IM met en garde contre un marché baissier d'ampleur",
+       "url": "https://www.agefi.fr/asset-management/actualites/elliott-im-met-en-garde-contre-un-marche-baissier-dampleur",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "What analysts are saying as Apple's stock falls after earnings report",
+       "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Oracle paie le prix fort pour financer l'IA : plus de 8 % sur ses obligations à 20 ans",
+     "theme": "credit_sovereign",
+     "lead": "Pour lever 10 milliards de dollars de dette et autant en capital, le groupe a dû concéder un coupon élevé et une décote sur ses actions.",
+     "what": "Selon L'Agefi, Oracle, spécialiste des infrastructures d'IA, a emprunté 10 milliards de dollars et émis pour un montant équivalent en capital. Il a dû proposer un taux supérieur à 8 % pour ses obligations à 20 ans et concéder une décote de 11 % sur ses actions. MarketWatch signale par ailleurs qu'un signal du marché obligataire d'entreprises a historiquement précédé de fortes baisses du S&P 500, sans que le résumé en détaille la nature. Nos données donnent le 10 ans américain à 4,94 % le 30 octobre : l'obligation d'Oracle à 20 ans offre donc une prime visible par rapport aux taux d'État de référence, mais l'échéance diffère et la comparaison est indicative.",
+     "why": "Un émetteur qui lève de la dette et du capital en même temps cherche à financer de gros investissements sans trop dégrader son bilan. Le coupon élevé reflète la prime exigée par les investisseurs pour le risque de crédit et pour la longue maturité ; la décote de 11 % sur les actions est le prix à payer pour attirer de nouveaux actionnaires dans un marché qui doute de l'IA. Cela montre que l'accès au financement dépend du sentiment de marché : en octobre, les valeurs de l'IA ont corrigé, ce qui coûte plus cher aux émetteurs. Les détails de la notation d'Oracle ne figurent pas dans nos sources.",
+     "impact": "Pour les investisseurs en crédit, un coupon supérieur à 8 % signale un risque perçu élevé, même pour un émetteur de grande taille. Cela devrait tirer vers le haut les spreads des autres émetteurs de l'IA qui doivent se refinancer, et peut donc renchérir leur CDS. Pour les produits structurés dont l'émetteur est une banque, la hausse des spreads sur le secteur technologique peut se refléter dans le prix des dérivés de crédit utilisés pour structurer des notes liées à ce segment. Les banques qui arrangent ces émissions touchent des commissions mais portent un risque de placement quand la demande faiblit.",
+     "interview": {
+      "question": "Une entreprise lève de la dette à plus de 8 % sur 20 ans et accepte une décote de 11 % sur ses actions : que vous disent ces conditions sur son risque de crédit et sur l'appétit du marché ?",
+      "hints": [
+       "Décomposer le coupon : taux sans risque, spread de crédit, prime de maturité.",
+       "Décote d'émission en capital et dilution.",
+       "Lien entre sentiment du marché actions et conditions de financement.",
+       "Comparer avec les spreads d'émetteurs notés investment grade."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Décote d'émission",
+       "definition": "Écart entre le prix d'émission de nouvelles actions et le cours de marché, accordé pour attirer les investisseurs."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Oracle paie le prix fort pour se financer",
+       "url": "https://www.agefi.fr/news/entreprises/oracle-paie-le-prix-fort-pour-se-financer",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "This signal from the corporate bond market has historically preceded big drawdowns for the S&P 500",
+       "url": "https://www.marketwatch.com/story/this-signal-from-the-corporate-bond-market-has-historically-preceded-big-drawdowns-for-the-s-p-500-8c1a3d25?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole : stabilisation autour de 106 $ après de fortes baisses",
+     "theme": "fx_commodities",
+     "lead": "Après un net recul, le brut se stabilise, tandis qu'un analyste réputé haussier voit un point de retournement à la veille des élections américaines.",
+     "what": "Selon le FT, les prix du pétrole se stabilisent autour de 106 $ le mardi, après de fortes baisses, les opérateurs attendant des développements au Moyen-Orient. MarketWatch rapporte que Jeff Currie, stratège très suivi sur les matières premières, juge qu'il est temps d'encaisser les gains réalisés par le brut cette année, tout en estimant que le « supercycle » structurel reste intact. Shell vend sa participation dans un actif gazier australien à XRG, d'Abou Dhabi, pour 1,45 milliard de dollars. Notre série Brent s'arrête au 27 octobre (123,10 $) : elle est trop ancienne pour mesurer la baisse récente, et le FT ne précise pas le contrat cité.",
+     "why": "Le pétrole a connu de fortes variations en quelques jours : les prix dépendent des nouvelles géopolitiques et des anticipations d'offre. Un « point de retournement » signifie qu'après une forte hausse, un investisseur estime plus prudent de réduire ses positions, même s'il croit à la tendance de long terme. Le supercycle est la thèse d'une hausse prolongée des prix, portée par un sous-investissement dans l'offre. Ces avis sont des opinions d'analyste, non des faits. La vente d'actifs gaziers matures par Shell relève d'une stratégie visant à alléger son portefeuille.",
+     "impact": "Une baisse du pétrole détend les anticipations d'inflation et aide les valeurs technologiques à rebondir, comme l'a noté le FT en début de semaine. Cela peut peser sur les rendements obligataires et soulager les banques centrales. Pour les produits structurés sur le Brent, la forte volatilité rend les options chères ; une baisse rapide rapproche les cours des barrières basses. Les compagnies pétrolières et leurs créanciers sont sensibles à ces variations : leurs profits élevés d'octobre dépendent de prix qui peuvent se retourner. L'euro, importateur net d'énergie, bénéficie en principe d'un pétrole moins cher.",
+     "interview": {
+      "question": "Le pétrole a fortement baissé après un pic : que faut-il regarder pour juger si la baisse est durable, et comment cela influence-t-il les anticipations d'inflation ?",
+      "hints": [
+       "Offre, demande, stocks et risque géopolitique.",
+       "Courbe à terme (backwardation ou contango).",
+       "Lien avec les points morts d'inflation et les banques centrales.",
+       "Impact sur les produits structurés liés aux matières premières."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Supercycle",
+       "definition": "Période prolongée de hausse des prix des matières premières, souvent liée à un sous-investissement dans l'offre."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Oil prices steady at $106 after sharp declines",
+       "url": "https://www.ft.com/content/d0ab9542-8542-4357-a534-ddbdd1a9678d?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Oil has had a massive run, but a prominent bull sees a turning point on midterm eve",
+       "url": "https://www.marketwatch.com/story/oil-has-had-a-massive-run-but-a-prominent-bull-sees-a-turning-point-on-midterm-eve-be2c5fa7?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Shell to sell Australian gas stake to Abu Dhabi's XRG for $1.45bn",
+       "url": "https://www.ft.com/content/28649f64-1c4e-4163-ba2b-8d28c6e37616?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-03",
    "generated_at": "2026-11-03T05:55:00+00:00",
    "brief": [
@@ -1380,5 +1552,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-03T05:55:00+00:00"
+ "updated_at": "2026-11-04T05:55:00+00:00"
 }
