@@ -1,6 +1,1663 @@
 {
- "generated_at": "2026-11-03T12:06:03+00:00",
+ "generated_at": "2026-11-04T12:19:42+00:00",
  "items": [
+  {
+   "id": "0a89cb98914ec710",
+   "title": "‘It’s good to be old’: I’ve been invited to a dozen free meals that turn into annuity sales pitches. Should I stop going?",
+   "link": "https://www.marketwatch.com/story/its-good-to-be-old-ive-been-invited-to-a-dozen-free-meals-that-turn-into-annuity-sales-pitches-should-i-stop-going-63df67ca?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T12:16+00:00",
+   "summary": "“Salespeople typically push annuities, Medicare plans and estate-planning services.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "d92aa28a8b9b7a4a",
+   "title": "CVS Health plans to split in two. Here’s what is driving the massive healthcare breakup.",
+   "link": "https://www.marketwatch.com/story/cvs-health-plans-to-split-in-two-heres-what-is-driving-the-massive-healthcare-breakup-27c0d6be?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T11:59+00:00",
+   "summary": "The healthcare giant surprised analysts with the decision to separate its business.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "627f1a7493b9abde",
+   "title": "Les actions Westlake progressent de 3% malgré un BPA décevant",
+   "link": "https://fr.investing.com/news/earnings/les-actions-westlake-progressent-de-3-malgre-un-bpa-decevant-93CH-3674516",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-04T11:55+00:00",
+   "summary": "",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "0153550929260fb9",
+   "title": "Jain Irrigation affiche un fort rebond au T2, l’action progresse légèrement",
+   "link": "https://fr.investing.com/news/transcripts/jain-irrigation-affiche-un-fort-rebond-au-t2-laction-progresse-legerement-93CH-3674511",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-04T11:54+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "42ea1dbc56bf4a5f",
+   "title": "Harsha Engineers dépasse les prévisions de chiffre d’affaires au T2 2026",
+   "link": "https://fr.investing.com/news/transcripts/harsha-engineers-depasse-les-previsions-de-chiffre-daffaires-au-t2-2026-93CH-3674510",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-04T11:54+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "becfc40440d195d8",
+   "title": "Canaccord relève son objectif de cours sur Amgen après un trimestre solide",
+   "link": "https://fr.investing.com/news/analyst-ratings/canaccord-releve-son-objectif-de-cours-sur-amgen-apres-un-trimestre-solide-93CH-3674509",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-04T11:54+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "300b407272a592d3",
+   "title": "Anthropic is an opportunity to rethink IPO rules",
+   "link": "https://www.ft.com/content/5083bad9-2a6e-4dc8-9627-1d41f9aa5b5b",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T11:38+00:00",
+   "summary": "To protect retail investors, we should stop permitting the deferral of stock-based employee compensation costs",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "1f8196de7abde3cd",
+   "title": "Stocks rebound after Democrats’ sweep",
+   "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T11:37+00:00",
+   "summary": "US futures reverse early losses as analysts say divided government reduces policymaking risks",
+   "themes": [
+    "vol_derivatives",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 47
+  },
+  {
+   "id": "6dd09b9f96e36e00",
+   "title": "Service public : « Ce qui est économisé aujourd’hui peut coûter davantage demain, ou simplement déplacer la dépense »",
+   "link": "https://www.lemonde.fr/idees/article/2026/11/04/service-public-ce-qui-est-economise-aujourd-hui-peut-couter-davantage-demain-ou-simplement-deplacer-la-depense_6806216_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-04T11:30+00:00",
+   "summary": "A la veille d’une mobilisation intersyndicale, prévue le 5 novembre, les professeurs en gestion des ressources humaines Caroline Manville et Karim Mignonac appellent, dans une tribune au « Monde », à intégrer les fonctionnaires aux recherches d’économies.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "6c9388267dc393af",
+   "title": "Crédit Mutuel Arkéa avoue être victime d'une cyberattaque historique",
+   "link": "https://www.agefi.fr/news/banque-assurance/credit-mutuel-arkea-avoue-etre-victime-dune-cyberattaque-historique",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T11:16+00:00",
+   "summary": "Une cyberattaque, inédite pour une banque française, a touché Crédit Mutuel Arkéa. La banque évoque une première évaluation en dizaines de millions d'euros volés. L'estimation la plus élevée atteint 133 millions de dollars.",
+   "themes": [
+    "credit_sovereign",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 32
+  },
+  {
+   "id": "c18f09127019cf6b",
+   "title": "Pour les banques françaises, la défaite de Donald Trump éclipse une décision de Fitch",
+   "link": "https://www.agefi.fr/news/banque-assurance/pour-les-banques-francaises-la-defaite-de-donald-trump-eclipse-une-decision-de-fitch",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T11:15+00:00",
+   "summary": "L’agence de notation a dégradé ses perspectives sur le Crédit Agricole et BNP Paribas mais l’ensemble du secteur bancaire profite de la victoire éclatante des démocrates aux élections de mi-mandat aux Etats-Unis.",
+   "themes": [
+    "banks",
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 32
+  },
+  {
+   "id": "24a533f9e83043b0",
+   "title": "The AI trade has been ‘sold to death’ but Goldman strategist highlights silver lining from Democratic sweep",
+   "link": "https://www.marketwatch.com/story/the-ai-trade-has-been-sold-to-death-but-goldman-strategist-highlights-silver-lining-from-democratic-sweep-3d1d6f07?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T11:10+00:00",
+   "summary": "Corporate decision makers may decide to accelerate their plans to expand compute capacity and take advantage of the status quo rather than risk a new administration and different rules in 2029",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "d1f7019e768d688e",
+   "title": "Christine Lagarde: A warning from Europe's hot summer",
+   "link": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20261104~78299c3eaf.en.html",
+   "source": "BCE – Blog",
+   "sources": [
+    "BCE – Blog"
+   ],
+   "published": "2026-11-04T11:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 50
+  },
+  {
+   "id": "3f3ae2735fe8c74d",
+   "title": "FirstFT: Blue wave sweeps US",
+   "link": "https://www.ft.com/content/3729c7ee-80bc-4ea5-949b-78b017f498e4?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-04T10:44+00:00",
+   "summary": "Also in today’s newsletter: Iran war and Qatar’s US LNG purchases",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "737c5347feee9a89",
+   "title": "Solvay entame sa convalescence boursière",
+   "link": "https://www.agefi.fr/news/entreprises/solvay-entame-sa-convalescence-boursiere",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T10:42+00:00",
+   "summary": "Le chimiste confirme ses objectifs pour 2026 récemment abaissés après la contraction de ses résultats au 3e trimestre.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "f5aabe0b1ead06ef",
+   "title": "Eurozone inflation rises to 4% in October",
+   "link": "https://www.ft.com/content/23cedd6f-e550-4869-aee1-e0ec10ae7e51?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-04T10:25+00:00",
+   "summary": "Consumer prices accelerate at fastest pace in three years",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "72dcf0cb20551161",
+   "title": "Le secteur privé en France ralentit davantage que prévu, l'Allemagne accélère",
+   "link": "https://www.agefi.fr/news/economie-marches/le-secteur-prive-en-france-ralentit-davantage-que-prevu-lallemagne-accelere",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T10:16+00:00",
+   "summary": "L'activité privée dans l'Hexagone a nettement reculé en octobre, l'incertitude politique pèse. En Allemagne, l'embellie se confirme.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "b062b2819cee94dc",
+   "title": "‘My life could be cut short’: I’m 55, married with $4.3 million and have a brain tumor. Should I buy a $210,000 custom Porsche?",
+   "link": "https://www.marketwatch.com/story/my-life-could-be-cut-short-im-55-married-with-4-3-million-and-have-a-brain-tumor-should-i-buy-a-210-000-custom-porsche-ed825ada?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T10:15+00:00",
+   "summary": "“I also want to preserve the opportunity to leave a meaningful legacy for my two sons.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "ba9c54617372e1cc",
+   "title": "Cyberattaque au Crédit mutuel Arkéa : le détournement est évalué à 118 millions d’euros",
+   "link": "https://www.lemonde.fr/pixels/article/2026/11/04/le-credit-mutuel-arkea-confirme-avoir-ete-victime-d-une-cyberattaque-le-detournement-est-evalue-a-118-millions-d-euros_6806141_4408996.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-04T10:08+00:00",
+   "summary": "La caisse fédérale bretonne n’a pas communiqué le montant du préjudice, déclarant mercredi que l’incident était désormais « maîtrisé ».",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 25
+  },
+  {
+   "id": "9e1d14676e2c7f7e",
+   "title": "L.A. home once owned by Mike Tyson’s former wife, actress Robin Givens, is on the market for $3.5 million",
+   "link": "https://www.marketwatch.com/story/l-a-home-once-owned-by-mike-tysons-former-wife-actress-robin-givens-is-on-the-market-for-3-5-million-0b9e11a1?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T10:03+00:00",
+   "summary": "Actress Robin Givens’ former Hollywood Hills, Calif., home is ready for a new buyer, having just hit the market for $3.5 million.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "9fe3db5b07913c61",
+   "title": "Relèvement du plafond du Livret A : « On est loin de la volonté affichée par Emmanuel Macron d’orienter l’épargne des Français vers des placements à long terme »",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/04/relevement-du-plafond-du-livret-a-on-est-loin-de-la-volonte-affichee-par-emmanuel-macron-d-orienter-l-epargne-des-francais-vers-des-placements-a-long-terme_6806139_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-04T10:00+00:00",
+   "summary": "Le gouvernement prévoit de porter entre 25 000 et 30 000 euros le plafond du livret préféré des Français en février 2027, au lieu de 22 950 euros actuellement. Une annonce qui vise à financer des mesures d’urgence, mais qui risque, en définitive, d’aggraver l’endettement public, constate Isabelle Chaperon, chroniqueuse au service Economie du « Monde »",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "dce6cb2549c8e451",
+   "title": "Jordyn Woods on her baby plans with Karl-Anthony Towns after buying $14 million home",
+   "link": "https://www.marketwatch.com/story/jordyn-woods-on-her-baby-plans-with-karl-anthony-towns-after-buying-14-million-home-e864ce5a?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T09:58+00:00",
+   "summary": "TV personality Jordyn Woods hopes children are in her future with husband Karl-Anthony Towns, but the newlywed is taking her time before starting that chapter.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "a9c3759c9e75752a",
+   "title": "Viridien poursuit son désendettement et confirme son objectif annuel",
+   "link": "https://www.agefi.fr/cash-risk/actualites/viridien-poursuit-son-desendettement-et-confirme-son-objectif-annuel",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T09:55+00:00",
+   "summary": "Le groupe a ainsi confirmé son objectif de 100 millions de dollars de cash-flow net en 2026.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "e1abaee43e688002",
+   "title": "Copper and conflict trigger profit surge for Buffett-backed Japanese commodity traders",
+   "link": "https://www.ft.com/content/656f10c4-26ec-430e-adfa-dcadf0dd61ff?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T09:42+00:00",
+   "summary": "Mitsui chief warns geopolitical risks continue to be ‘unpredictable rather than calming down’",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "2271590526cde61d",
+   "title": "Beleaguered Novo offers relief to investors, thanks to Wegovy pill",
+   "link": "https://www.marketwatch.com/story/beleaguered-novo-offers-relief-to-investors-thanks-to-wegovy-pill-422c251b?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T09:41+00:00",
+   "summary": "Novo Nordisk’s stock jumped higher on Wednesday as the Danish drugmaker lifted its guidance on strong uptake of its weight-loss-drug pill that has been launched this year.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "6efe41ce4148ff54",
+   "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+   "link": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T09:30+00:00",
+   "summary": "The chip maker is showing “real” revenue from artificial intelligence, shrugging off sustainability concerns and leading to an upbeat forecast.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "ae71ef4377655c01",
+   "title": "Au cœur d’un automne social, syndicats et patronat entament des négociations sur l’emploi des jeunes",
+   "link": "https://www.lemonde.fr/politique/article/2026/11/04/au-c-ur-d-un-automne-social-syndicats-et-patronat-entament-des-negociations-sur-l-emploi-des-jeunes_6806134_823448.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-04T09:00+00:00",
+   "summary": "Le taux de chômage des 15-24 ans atteint 21,6 % au deuxième trimestre, en hausse de 2,5 points sur un an. Si les gouvernements successifs d’Emmanuel Macron ont multiplié les dispositifs pour y remédier, la France reste très en retard par rapport à plusieurs de ses partenaires européens.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "0c9e4c0e43d5fafc",
+   "title": "Indexa Capital déploie son offre de gestion sous mandat sur compte-titres en France",
+   "link": "https://www.agefi.fr/patrimoine/fonds/indexa-capital-deploie-son-offre-de-gestion-sous-mandat-sur-compte-titres-en-france",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T08:00+00:00",
+   "summary": "Le service de gestion automatisée espagnol Indexa Capital complète son catalogue tricolore avec le lancement d’un service de gestion de portefeuilles de fonds indexés sur compte-titres. Les frais annuels totaux s’élèvent en moyenne à 0,69 % par an.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "47ee3dc64edf0faa",
+   "title": "AMD confirme sa percée dans les data centers et rassure les investisseurs",
+   "link": "https://www.agefi.fr/news/entreprises/amd-confirme-sa-percee-dans-les-data-centers-et-rassure-les-investisseurs",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T07:53+00:00",
+   "summary": "Le fabricant de puces américain a enregistré une croissance supérieure aux attentes au troisième trimestre grâce à une envolée de ses ventes liées aux centres de données. L'action reprend des couleurs en Bourse.",
+   "themes": [
+    "macro_inflation",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 27
+  },
+  {
+   "id": "ecefd96b0b59c1ae",
+   "title": "Les marchés grimpent après la déroute électorale de Donald Trump",
+   "link": "https://www.agefi.fr/news/economie-marches/les-marches-restent-calmes-apres-la-deroute-electorale-de-donald-trump",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T07:35+00:00",
+   "summary": "Après quelques heures de panique, les marchés asiatiques ont rapidement repris leurs esprits, les futures sur les indices américains ont basculé dans le vert et les marchés européens ont ouvert en hausse après l'éclatante victoire des démocrates aux élections de mi-mandat.",
+   "themes": [
+    "vol_derivatives"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 40
+  },
+  {
+   "id": "56333ca626c7798d",
+   "title": "Rydge Conseil se rapproche de Squareness",
+   "link": "https://www.agefi.fr/cash-risk/actualites/rydge-conseil-se-rapproche-de-squareness",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T07:32+00:00",
+   "summary": "Cette complémentarité doit permettre de conjuguer la proximité d’un acteur implanté dans les territoires avec des expertises financières spécialisées, auprès des dirigeants et des investisseurs.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "fbcc50e2c35015e3",
+   "title": "Janus lance un ETF actif en actions chinoises",
+   "link": "https://www.agefi.fr/etf/janus-lance-un-etf-actif-en-actions-chinoises",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:57+00:00",
+   "summary": "Janus Henderson Investors lance l’ETF Janus Henderson China Equity Active Core Ucits, dernier-né de sa gamme d’ETF actifs.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "9e84aafba5dc1940",
+   "title": "Natixis IM lance la septième édition de son concours de gestion de portefeuille virtuel",
+   "link": "https://www.agefi.fr/asset-management/actualites/natixis-im-lance-la-septieme-edition-de-son-concours-de-gestion-de-portefeuille-virtuel",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:50+00:00",
+   "summary": "Jusqu'au 25 novembre, les étudiants peuvent poser leur candidature à « The Students Challenge ». Une douzaine d'équipes piloteront ensuite un portefeuille fictif de 100 millions de dollars, en mettant l’accent sur l'investissement responsable, l'intelligence artificielle et les actifs privés.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "33cbcb19f00220ea",
+   "title": "Les banques et assurances se mobilisent contre les violences économiques au sein du couple",
+   "link": "https://www.agefi.fr/news/banque-assurance/les-banques-et-assurances-se-mobilisent-contre-les-violences-economiques-au-sein-du-couple",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:30+00:00",
+   "summary": "Face à l'emprise financière subie par près d'un quart des Françaises, les réseaux mutualistes déploient en urgence des forfaits gratuits et des cellules d'écoute dédiées.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "490a8af39a82d4d9",
+   "title": "Seriously, stop worrying about market concentration",
+   "link": "https://www.ft.com/content/ddc15117-2e67-429c-8c47-233121ee1587?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T06:30+00:00",
+   "summary": "And maybe worry more about what markets are concentrated in",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "4eec48c2a41d29ed",
+   "title": "Natixis IM voit sa collecte trimestrielle ralentir à 1,1 milliard d’euros",
+   "link": "https://www.agefi.fr/asset-management/actualites/natixis-im-voit-sa-collecte-trimestrielle-ralentir-a-1-1-milliard-deuros",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:28+00:00",
+   "summary": "Sur les neuf premiers mois de l'année 2026, les flux nets entrants s'élèvent à 19 milliards d'euros, principalement en stratégies fixed income.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "40a636257c23bd94",
+   "title": "Democrats win the House and Senate. Here’s what it means for your finances.",
+   "link": "https://www.marketwatch.com/story/democrats-win-the-senate-but-control-of-the-house-is-still-up-in-the-air-heres-what-it-means-for-your-finances-ed78cd6e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T06:27+00:00",
+   "summary": "The results from the U.S. midterm elections are now clear and look likely to have effects on Americans’ investments and their wallets.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "4bd6b23915c7561e",
+   "title": "Quatre instits canadiens financent le seul grand terminal de GNL du Canada",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/quatre-instits-canadiens-financent-le-seul-grand-terminal-de-gnl-du-canada",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:24+00:00",
+   "summary": "CPP Investments, Omers, Imco et PSP Investments s’associent aux fonds de crédit de Blackstone pour racheter 49,9 % de la holding qui porte la participation de Mitsubishi dans LNG Canada.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 25
+  },
+  {
+   "id": "a1e8dd66c1e0d0ad",
+   "title": "Le contrôleur des fonds de pension de New York s’inquiète de la gouvernance d’Anthropic",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/le-controleur-des-fonds-de-pension-de-new-york-sinquiete-de-la-gouvernance-danthropic",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:23+00:00",
+   "summary": "Pour Mark Levine, contrôleur financier de New York, la structure de gouvernance retenue par Anthropic pour son introduction en Bourse prive les actionnaires de leviers, alors que les fonds de pension de la ville seront exposés à la société via la gestion indicielle.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "9354e3163bde9acd",
+   "title": "Les hedge funds sont plus performants quand la majorité ne change pas au Congrès américain",
+   "link": "https://www.agefi.fr/asset-management/actualites/les-hedge-funds-sont-plus-performants-quand-la-majorite-ne-change-pas-au-congres-americain",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:21+00:00",
+   "summary": "Une étude du fournisseur de données et d'indices sur les hedge funds HFR suggère un effet significatif sur la performance des hedge funds lorsque la majorité change de camp à mi-mandat dans les institutions américaines.",
+   "themes": [
+    "banks",
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 27
+  },
+  {
+   "id": "e7ac6d13a3aff1e5",
+   "title": "Irivest IM fait évoluer son organisation",
+   "link": "https://www.agefi.fr/asset-management/actualites/irivest-im-fait-evoluer-son-organisation",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:19+00:00",
+   "summary": "La société de gestion luxembourgeoise Irivest Investment Managers a annoncé deux mouvements au sein de son organisation. La société, née du rapprochement du rapprochement entre Chahine Capital et Dynasty Asset Management en août 2025, a recruté Julien Galichet pour prendre en main le développement commercial de ses stratégies convertibles et crédit. Il a auparavant travaillé chez Finalpha Capital…",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 25
+  },
+  {
+   "id": "fb7b4c6783c48465",
+   "title": "Dorval AM dévoile un fonds dédié à l’innovation pour une autonomie stratégique européenne",
+   "link": "https://www.agefi.fr/asset-management/actualites/dorval-am-devoile-un-fonds-dedie-a-linnovation-pour-une-autonomie-strategique-europeenne",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:18+00:00",
+   "summary": "La filiale de Natixis Wealth Management va se concentrer sur les entreprises innovantes avec sa méthodologie propriétaire Iris.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "cc79e4e7add15c85",
+   "title": "T. Rowe Price renforce son équipe ETF en Europe",
+   "link": "https://www.agefi.fr/etf/t-rowe-price-renforce-son-equipe-etf-en-europe",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:15+00:00",
+   "summary": "Le gestionnaire d’actifs a annoncé l’arrivée de Davide Costa dans l’équipe dirigée par Andrew Brickman.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "12137e32d9788423",
+   "title": "Le PIF et Aramco veulent faire de Humain le premier exportateur d’IA au monde",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/le-pif-et-aramco-veulent-faire-de-humain-le-premier-exportateur-dia-au-monde",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:13+00:00",
+   "summary": "Le fonds souverain saoudien (PIF) et l’entreprise pétrolière Aramco se sont entendus pour accélérer la croissance mondiale de Humain. Aramco acquerra une participation de 49 % dans son capital.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "7847007fcf1acaa5",
+   "title": "Mandarine Gestion fusionne deux fonds d'actions européennes",
+   "link": "https://www.agefi.fr/asset-management/actualites/mandarine-gestion-fusionne-deux-fonds-dactions-europeennes",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:06+00:00",
+   "summary": "Le gestionnaire d’actifs Mandarine Gestion va procéder à la fusion de deux fonds investis en petites et moyennes capitalisations européennes le 7 décembre. Selon une lettre aux porteurs de parts consultée par L’Agefi, le fonds Mandarine Unique Small & Mid Caps Europe, co-géré par Frédérique Caron et Edouard de Buchet et comptabilisant environ 102 millions d’euros fin septembre 2026, va être absor…",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "1e2b932207ec39b5",
+   "title": "Neuberger recrute un responsable clients institutionnels en Europe du Nord",
+   "link": "https://www.agefi.fr/asset-management/actualites/neuberger-recrute-un-responsable-clients-institutionnels-en-europe-du-nord",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:04+00:00",
+   "summary": "Michael Bech vient de BNP Paribas AM.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "b618a34df4edbcbe",
+   "title": "Bridgepoint va acquérir une participation majoritaire dans Batisanté auprès d’IK Partners",
+   "link": "https://www.agefi.fr/asset-management/actualites/bridgepoint-va-acquerir-une-participation-majoritaire-dans-batisante-aupres-dik-partners",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T06:01+00:00",
+   "summary": "Dans cette nouvelle opération autour de l’un des principaux prestataires français de services de sécurité et de mise en conformité des bâtiments, IK Partners cède l'intégralité de ses parts.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "86e0ff58778cd739",
+   "title": "How demographics can distort economic narratives — redux",
+   "link": "https://www.ft.com/content/6cf35b70-480b-4316-b7fd-22cdabeb5a05?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-04T06:00+00:00",
+   "summary": "Per capita perspectives",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "243df0f525348a20",
+   "title": "Kraken intègre le stablecoin euro de Société Générale",
+   "link": "https://www.agefi.fr/asset-management/actualites/kraken-integre-le-stablecoin-euro-de-societe-generale",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T05:59+00:00",
+   "summary": "La banque française assurera elle-même la liquidité de son token en devenant teneur de marché.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "e7d8d42fd604e7a0",
+   "title": "Les cheminots anglais externalisent leur gestion en actions mondiales",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/appels-offres/les-cheminots-anglais-externalisent-leur-gestion-en-actions-mondiales",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T05:56+00:00",
+   "summary": "Le fonds de pension britannique Railpen vient d’attribuer un mandat de gestion d’un milliard de livres en actions mondiales.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "899ed24472b3eeec",
+   "title": "Michael Israel et Sidney Oury, d’IVO Capital Partners, sacrés AM Leader 2026 par L'Agefi",
+   "link": "https://www.agefi.fr/asset-management/people/michael-israel-et-sidney-oury-divo-capital-partners-sacres-am-leader-2026-par-lagefi",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-04T05:54+00:00",
+   "summary": "Le président et directeur général d'IVO Capital Partners ont été choisis comme personnalité de l’année par les lecteurs de L’Agefi.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "c1507384718685fc",
+   "title": "The views of the frontrunners to succeed Lagarde at the ECB",
+   "link": "https://www.ft.com/content/cd2c9cef-1ad6-4aa5-ab3f-bffdf7175593",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-04T05:30+00:00",
+   "summary": "Monetary Policy Radar looks at the leading candidates’ voting history and views on the central bank’s broader toolkit",
+   "themes": [
+    "central_banks",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 47
+  },
+  {
+   "id": "4befc061a6e7279c",
+   "title": "How audacious London debt trader Hamza Lemssouguer came unstuck",
+   "link": "https://www.ft.com/content/29c178c1-2960-4670-b510-f90b4b559903?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T05:00+00:00",
+   "summary": "Arini Capital Management went from start-up to Mayfair mainstay in four years. Now it is fighting to hold on to its bets",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 25
+  },
+  {
+   "id": "7c6c97dd341a0b09",
+   "title": "Are we ready for an AI bust?",
+   "link": "https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T05:00+00:00",
+   "summary": "The longer the investment surge and the associated financial engineering continue, the bigger the negative impact is likely to be when it ends",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "4fab007ecb560c65",
+   "title": "AI cyber breach of a bank is a matter of when, not if",
+   "link": "https://www.ft.com/content/41f0e298-42f9-4bb5-8a48-090db4d493ef?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T05:00+00:00",
+   "summary": "Binance hack is a warning of potentially far worse things to come",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "51e40997ccd0e1d4",
+   "title": "Qatar set to become world’s biggest buyer of US LNG",
+   "link": "https://www.ft.com/content/88e46724-0bd4-451a-b02b-f5709c9771b7?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Global economy",
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T05:00+00:00",
+   "summary": "Once the world’s top producer, the Gulf nation will control largest share of US output by 2033",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "5a8069fad39643ef",
+   "title": "« Ça crée un sentiment d’appartenance » : être salarié actionnaire permet-il d’améliorer le rapport au travail ?",
+   "link": "https://www.lemonde.fr/vie-au-travail/article/2026/11/04/ca-cree-un-sentiment-d-appartenance-etre-salarie-actionnaire-permet-il-d-ameliorer-le-rapport-au-travail_6806073_6768900.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-04T05:00+00:00",
+   "summary": "Des start-up aux SCOP en passant par les sociétés du CAC 40, posséder des parts de son entreprise peut changer l’engagement et le sens donné au travail, même s’il est rare que les salariés actionnaires puissent peser sur les orientations de leur structure.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "d8f5bebea7590bbf",
+   "title": "Hausse des taux : les anciennes générations de produits structurés pénalisées",
+   "link": "https://www.lemonde.fr/argent/article/2026/11/04/hausse-des-taux-les-anciennes-generations-de-produits-structures-penalisees_6806038_1657007.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-04T05:00+00:00",
+   "summary": "Si la hausse des taux freine la valorisation de certains produits déjà en portefeuille, elle offre aussi davantage de marges pour construire de nouvelles solutions, potentiellement plus rémunératrices.",
+   "themes": [
+    "central_banks",
+    "structured"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 60
+  },
+  {
+   "id": "3a00c02bae88870d",
+   "title": "Crisis widens at top platinum refiner as probe exposes metal test manipulation",
+   "link": "https://www.ft.com/content/97ce0d59-0d82-4f22-8ac1-d1b299c5b9d7?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T04:00+00:00",
+   "summary": "German group Heraeus alleged to have understated precious metals content in material processed for 450 customers worldwide",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "19ed498a34d1ea67",
+   "title": "L’incroyable essor des compléments alimentaires, porté par l’anxiété des Français",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/04/des-rayons-en-pharmacie-a-la-vente-en-ligne-l-incroyable-essor-des-complements-alimentaires_6805902_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-04T04:00+00:00",
+   "summary": "Stress, troubles du sommeil, manque d’énergie, problèmes de digestion ou douleurs articulaires… Tous les prétextes sont bons pour prendre gélules, gouttes ou comprimés. Ce marché a triplé en quinze ans pour atteindre 3 milliards d’euros de chiffre d’affaires en France, attirant quelques grands groupes et une nuée de start-up.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "762ed2d7c00ce502",
+   "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+   "link": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-04T01:12+00:00",
+   "summary": "Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.",
+   "themes": [
+    "equities",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 27
+  },
+  {
+   "id": "fb164c65635e87d8",
+   "title": "Cricket Australia chief defends controversial sale plan",
+   "link": "https://www.ft.com/content/a03d241a-5e93-41ae-b019-50879c6d1ad9?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-04T01:00+00:00",
+   "summary": "Todd Greenberg on private investment and the push to stay competitive in the global game",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "c244f5f62d65c4a8",
+   "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full year of 2026",
+   "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-11-04T00:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks",
+    "macro_inflation"
+   ],
+   "official": true,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 60
+  },
+  {
+   "id": "30bdb043134a0736",
+   "title": "What the historic heist of Binance means for crypto",
+   "link": "https://www.ft.com/content/567d7280-2bcb-4802-8caa-01853b3278dc?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-03T21:22+00:00",
+   "summary": "It was the largest heist ever.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "f315c773279897e8",
+   "title": "Espagne : le ministre des transports démissionne après la catastrophe ferroviaire meurtrière",
+   "link": "https://www.lemonde.fr/international/article/2026/11/03/espagne-le-ministre-des-transports-demissionne-apres-la-catastrophe-ferroviaire-meurtriere_6805667_3210.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T20:53+00:00",
+   "summary": "« C’est une question de dignité politique, de cohérence et d’empathie envers les victimes », a déclaré Oscar Puente, une semaine après la collision à Urda qui a coûté la vie à au moins 69 personnes.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "4faf0c1a23a8922e",
+   "title": "Des syndicats et associations de sept pays européens appellent à manifester contre la vie chère fin novembre",
+   "link": "https://www.lemonde.fr/international/article/2026/11/03/des-syndicats-et-associations-de-sept-pays-europeens-appellent-a-manifester-contre-la-vie-chere-fin-novembre_6805665_3210.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T20:48+00:00",
+   "summary": "Les représentants des organisations françaises, espagnoles, italiennes, britanniques, portugaises, grecques et belges espèrent rassembler « des millions » de personnes dans les rues les 20, 21 et 22 novembre.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "81f2b5fca3c62da4",
+   "title": "Le conflit se poursuit entre les salariés de SFR et Bouygues Telecom, Free et Orange sur le volet social du rachat de l’opérateur",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/le-conflit-se-poursuit-entre-les-salaries-de-sfr-et-bouygues-telecom-free-et-orange-sur-le-volet-social-du-rachat-de-l-operateur_6805663_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T20:25+00:00",
+   "summary": "De nombreux employés du groupe de Patrick Drahi ont de nouveau fait grève, mardi 3 novembre, sur fond de fortes inquiétudes sur l’emploi dans le cadre du rachat collectif du groupe par Bouygues Telecom, Free et Orange.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "eb09629097e940dd",
+   "title": "L’Europe a rattrapé son retard de croissance sur Wall Street",
+   "link": "https://www.agefi.fr/news/economie-marches/leurope-a-rattrape-son-retard-de-croissance-sur-wall-street",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T19:00+00:00",
+   "summary": "Alors que l’attention des investisseurs se focalisait sur le résultat des élections de mi-mandat aux Etats-Unis, les entreprises européennes affichent, pour l’heure, une croissance bénéficiaire proche de 30% sur un an au troisième trimestre, équivalente à celle de leurs homologues américaines. Cela n’était pas arrivé depuis trois ans mais doit encore se concrétiser dans les cours.",
+   "themes": [
+    "macro_inflation",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 27
+  },
+  {
+   "id": "94b94917e85cb539",
+   "title": "Présomption de salariat, revenu minimum, transparence des algorithmes : les propositions de la mission sur les travailleurs des plateformes",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/presomption-de-salariat-revenu-minimum-transparence-des-algorithmes-les-propositions-de-la-mission-sur-les-travailleurs-de-plateformes_6805652_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T19:00+00:00",
+   "summary": "Un rapport de mission remis au gouvernement le 2 novembre propose de mieux réguler le travail de plateforme, alors que la France a jusqu’au 2 décembre pour transposer une directive européenne sur le sujet.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "c186d0a672112aee",
+   "title": "A chill wind in the AI credit market",
+   "link": "https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-03T18:18+00:00",
+   "summary": "Investors are demanding more to finance the data centre boom",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 25
+  },
+  {
+   "id": "2d8b0d373b63add0",
+   "title": "Les gestionnaires d'actifs affrontent le défi de la réversibilité technologique",
+   "link": "https://www.agefi.fr/asset-management/actualites/les-gestionnaires-dactifs-affrontent-le-defi-de-la-reversibilite-technologique",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T18:00+00:00",
+   "summary": "Face à leur dépendance croissante aux prestataires externes, les sociétés de gestion cherchent à préserver leur autonomie de gouvernance. Lors de l'AM Tech Day organisé par L'Agefi, elles ont montré que maîtrise des compétences, réversibilité et anticipation des risques sont devenues des enjeux de résilience opérationnelle.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "9ab28b8ea6f5c237",
+   "title": "Au Luxembourg, le « FMI européen » s’inquiète de la situation financière de la France",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/au-luxembourg-le-fmi-europeen-s-inquiete-de-la-situation-financiere-de-la-france_6805642_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T18:00+00:00",
+   "summary": "Le Mécanisme européen de stabilité peut prêter jusqu’à 500 milliards d’euros aux pays financièrement étranglés. « Nous n’avons aucune raison d’intervenir à ce stade », assure son directeur général.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "784e8f74f13cb0f6",
+   "title": "Tokyo compte bien séduire les investisseurs avec ses obligations résilience",
+   "link": "https://www.agefi.fr/news/economie-marches/tokyo-compte-bien-seduire-les-investisseurs-avec-ses-obligations-resilience",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T17:46+00:00",
+   "summary": "Après le succès de sa première émission réalisée en 2025, le gouvernement de Tokyo souhaite développer le concept et créer un marché de la résilience afin de financer d’importantes infrastructures capables de protéger la population et l’économie du pays.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 25
+  },
+  {
+   "id": "b16cea7c2b398c5f",
+   "title": "Schaeffler accélère le rythme de ses restructurations en Europe",
+   "link": "https://www.agefi.fr/news/entreprises/schaeffler-accelere-le-rythme-de-ses-restructurations-en-europe",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T17:40+00:00",
+   "summary": "La suppression de 3.460 postes supplémentaires dans la zone entraînera la fermeture de quatre sites de production en Allemagne et d’une autre usine en Belgique.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "8f21560019eb2185",
+   "title": "BPCE poursuit sa conquête du Portugal en achetant Gamalife à Apax Partners",
+   "link": "https://www.agefi.fr/news/banque-assurance/bpce-poursuit-sa-conquete-du-portugal-en-achetant-gamalife-a-apax-partners",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T17:35+00:00",
+   "summary": "Le groupe mutualiste, qui publie ses résultats trimestriels, confirme qu’il veut reprendre le bancassureur de Novobanco, cédé par la banque portugaise en 2019.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "2c99cc4eb8e2b3fa",
+   "title": "Pétition pour interdire CNews : l’Assemblée nationale votera en commission sur l’opportunité d’un débat",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/petition-pour-interdire-cnews-l-assemblee-nationale-votera-en-commission-sur-l-opportunite-d-un-debat_6805641_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T17:34+00:00",
+   "summary": "Publié sur le site de l’Assemblée nationale et viral depuis l’attentat raciste de Trappes, un texte réclamant la fermeture de la chaîne du groupe Bolloré dépassait, mardi, les 750 000 signatures. Les députés doivent décider de le classer ou de l’examiner lors d’un débat dans l’Hémicycle.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "e8412071c4824e3d",
+   "title": "The hidden power of electricity",
+   "link": "https://www.ft.com/content/1a40a3af-933b-4c12-aa9b-2cf89f2ed139?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-03T17:17+00:00",
+   "summary": "The energy transition is not as impossible as we’ve been led to think",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "70a205f25df40a79",
+   "title": "Binance hackers used fake interviews and social media profiles in $6.3bn heist",
+   "link": "https://www.ft.com/content/1ed838c0-a525-49bb-b494-15e4d1296791?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-03T17:00+00:00",
+   "summary": "Crypto exchange’s internal investigation reveals the role of human error in the biggest theft in history",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "97300f9cbeb49107",
+   "title": "L’industrie française du meuble, concurrencée par les importations chinoises, s’inquiète de son avenir",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/l-industrie-francaise-du-meuble-concurrencee-par-les-importations-chinoises-s-inquiete-de-son-avenir_6805634_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T17:00+00:00",
+   "summary": "Très implantés en zone rurale, les fabricants alertent sur les menaces pesant sur le secteur de l’ameublement et formulent des propositions pour favoriser le « made in France ».",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "6be56ed56c0caeaf",
+   "title": "Renault poursuit son avancée dans les drones militaires",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/renault-poursuit-son-avancee-dans-les-drones-militaires_6805629_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T16:45+00:00",
+   "summary": "Déjà engagé dans deux projets de drones aériens, le constructeur automobile s’associe au groupe de blindés belge John Cockerill pour produire un robot terrestre.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "e53f7ede7550eebd",
+   "title": "Grève du 5 novembre : la SNCF prévoit un trafic « perturbé » ; la RATP escompte un trafic « normal » des métros, bus et tramways, à l’exception du RER B",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/greve-du-5-novembre-la-sncf-prevoit-un-trafic-perturbe-la-ratp-table-sur-un-trafic-normal-sur-ses-metros-bus-et-tramway-a-l-exception-du-rer-b_6805620_3235.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T16:44+00:00",
+   "summary": "La SNCF et la RATP ont précisé que les prévisions ligne par ligne seront détaillées mercredi.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "ab910ad5e9b20a0f",
+   "title": "Heat returns to US labour market in latest official turnover figures",
+   "link": "https://www.ft.com/content/44e578ac-e2e5-43b4-946d-06ebb82d27e6",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-03T16:40+00:00",
+   "summary": "Job opening and quits rates both rose in September and support the Fed’s narrative of a resilient labour market",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "9d0b1d063ce857c9",
+   "title": "Une « croisière sans fin » s’arrête brutalement au Cambodge, 200 passagers débarqués",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/une-croisiere-sans-fin-s-arrete-brutalement-au-cambodge-200-passagers-debarques_6805626_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T16:30+00:00",
+   "summary": "Les résidents de l’« Odyssey », qui sillonnaient les mers depuis 2024, ont vu leur périple s’achever en raison de la flambée du prix des carburants.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "734045523107271c",
+   "title": "Les banques devront développer des alternatives aux SMS pour authentifier leurs clients expatriés",
+   "link": "https://www.agefi.fr/gestion-privee/actualites/les-banques-devront-developper-des-alternatives-aux-sms-pour-authentifier-leurs-clients-expatries",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T16:27+00:00",
+   "summary": "La place financière veut rendre plus effectif le droit au compte des Français résidant à l'étranger et simplifier leurs démarches bancaires à distance",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "0c0e11549f9598ad",
+   "title": "BNP Paribas met sa banque d’investissement en ordre de marche pour 2030",
+   "link": "https://www.agefi.fr/news/banque-assurance/bnp-paribas-met-sa-banque-dinvestissement-en-ordre-de-marche-pour-2030",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T16:23+00:00",
+   "summary": "Le groupe bancaire modifie l’organisation de certains pans de sa BFI en amont du plan stratégique qu’il présentera début février. L’Europe, la couverture clients et les développements dans les infrastructures digitales ainsi que la souveraineté sont au cœur des priorités de la banque d’investissement de BNP Paribas.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "a3d2c0cc147314e0",
+   "title": "Intesa Sanpaolo affiche sa pleine confiance dans le rachat de Monte dei Paschi",
+   "link": "https://www.agefi.fr/news/banque-assurance/intesa-sanpaolo-affiche-sa-pleine-confiance-dans-le-rachat-de-monte-dei-paschi",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T16:21+00:00",
+   "summary": "La principale banque italienne a ajusté les conditions de son offre sur la banque toscane et annoncé un renforcement de sa présence à Sienne.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "ba4271fc3c142dac",
+   "title": "Les Etats-Unis et l’Iran continuent de discuter pendant les midterms",
+   "link": "https://www.agefi.fr/news/economie-marches/les-etats-unis-et-liran-continuent-de-discuter-pendant-les-midterms",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T16:10+00:00",
+   "summary": "Le cours du pétrole a chuté fortement lundi 2 novembre grâce à des espoirs de négociations entre les deux pays en conflit. Malgré des frappes américaines mardi, et les élections de mi-mandat aux Etats-Unis, la diplomatie est au travail.",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "11c8951153da4f38",
+   "title": "Le Sénat ouvre la voie à plus de modularité dans le régime Cat Nat",
+   "link": "https://www.agefi.fr/news/banque-assurance/le-senat-ouvre-la-voie-a-plus-de-modularite-dans-le-regime-cat-nat",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T16:03+00:00",
+   "summary": "Jusque-là fondé sur une mutualisation totale, le régime Cat Nat pourrait intégrer davantage de modularité si la proposition de loi Barusseau était définitivement adoptée telle qu’elle a été votée au Sénat. Mais introduire une dose de différenciation ne risque-t-il pas de fragiliser le système à terme ?",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "f6160fd748bf00f9",
+   "title": "Livret A : le plafond sera relevé à « entre 25 000 et 30 000 euros » en février prochain, annonce Sébastien Lecornu",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/livret-a-sebastien-lecornu-annonce-un-relevement-du-plafond-entre-25-000-et-30-000-euros-en-fevrier_6805615_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T15:44+00:00",
+   "summary": "Le ministre de l’économie, Roland Lescure, précisera le nouveau plafond « dans les semaines qui viendront » à l’issue d’une « dernière concertation » avec les banques et la Caisse des dépôts. Le Livret A est actuellement plafonné à 22 950 euros.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "5aa1880d5847272a",
+   "title": "L’hyperluxe fait de nouveau briller Ferrari",
+   "link": "https://www.agefi.fr/news/entreprises/lhyperluxe-fait-de-nouveau-briller-ferrari",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T15:42+00:00",
+   "summary": "La marque au cheval cabré retrouve un plus haut annuel grâce à de meilleures perspectives et un résultat trimestriel supérieur aux attentes. La stratégie de luxe personnalisé rencontre sa clientèle et gonfle le carnet de commandes.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "a033ecc9d88fb9f3",
+   "title": "Philips rassure le marché avec ses perspectives et son accord aux Etats-Unis",
+   "link": "https://www.agefi.fr/news/entreprises/philips-rassure-le-marche-avec-ses-perspectives-et-son-accord-aux-etats-unis",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T15:37+00:00",
+   "summary": "Le groupe néerlandais vient de conclure un accord de principe avec le Département de la justice américain (DoJ) afin de clore les enquêtes pénales et civiles concernant le rappel de ses respirateurs. Il confirme ses objectifs 2026.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "8fd27a8c7855c7d2",
+   "title": "En Alsace, la hausse des factures de fioul domestique « fait mal » aux ménages",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/en-alsace-la-hausse-des-factures-de-fioul-domestique-fait-mal-aux-menages_6805612_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T15:30+00:00",
+   "summary": "Dans le pays, près de 9 % des résidences principales sont toujours chauffées au fioul, dont le prix a flambé en un an. Dans le sillage d’une tournée de livraison des maisons du Bas-Rhin, les clients confient leurs appréhensions.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "9d06a4933b03609a",
+   "title": "Face à l’inflation, la banque centrale d’Australie augmente ses taux pour la 5e fois",
+   "link": "https://www.agefi.fr/news/economie-marches/face-a-linflation-la-banque-centrale-daustralie-augmente-ses-taux-pour-la-5e-fois",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T15:27+00:00",
+   "summary": "La crise au Moyen-Orient et la forte demande de puces électroniques poussent les prix à la hausse. L’inflation qui se répand largement dans l’économie australienne devrait rester élevée en 2027. De quoi justifier un nouveau resserrement de la politique monétaire.",
+   "themes": [
+    "central_banks",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 47
+  },
+  {
+   "id": "395e39859bd52e57",
+   "title": "Comment l’essor des médicaments anti-obésité modifie les habitudes alimentaires",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/03/comment-l-essor-des-medicaments-anti-obesite-modifie-les-habitudes-alimentaires_6805609_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-03T15:15+00:00",
+   "summary": "Moins de produits de boulangerie, de confiseries, de biscuits, de snacks salés, de boissons gazeuses et de sodas : une étude du cabinet Bain, publiée mardi, portant sur des milliers de patients, note une évolution de leur mode de consommation.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "78c7b1fa8e11384c",
+   "title": "‘The new frontier of finance is built in the United States of America’",
+   "link": "https://www.ft.com/content/f8629d69-9890-4da1-a378-a6041b398b21",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-03T14:53+00:00",
+   "summary": "Perp talk",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "347cc853426c8416",
+   "title": "AllianzGI excède largement l'objectif de levée de son nouveau fonds de dette infrastructure",
+   "link": "https://www.agefi.fr/private-equity/actualites/allianzgi-excede-largement-lobjectif-de-levee-de-son-nouveau-fonds-de-dette-infrastructure",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T14:26+00:00",
+   "summary": "Le gérant boucle Allianz Infrastructure Credit Opportunities Fund II à 1,5 milliard d'euros d'engagements, à comparer à un objectif initial de 1 milliard, et prépare un prochain millésime.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 25
+  },
+  {
+   "id": "0a6473645cf2d384",
+   "title": "Cinven mise sur la santé féminine en rachetant Theramex pour 2,6 milliards d'euros",
+   "link": "https://www.agefi.fr/private-equity/actualites/cinven-mise-sur-la-sante-feminine-en-rachetant-theramex-pour-2-6-milliards-deuros",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T14:23+00:00",
+   "summary": "Actionnaires du laboratoire depuis 2022, PAI Partners et Carlyle le cèdent pour une valorisation près de deux fois supérieure à leur prix d'entrée. Theramex vise désormais le premier rang mondial de la santé féminine, segment longtemps négligé par les grands laboratoires.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "493c2917e8de4621",
+   "title": "Les femmes conseillères en gestion de patrimoine font trop peu le pari de l'indépendance",
+   "link": "https://www.agefi.fr/news/banque-assurance/les-femmes-conseilleres-en-gestion-de-patrimoine-font-trop-peu-le-pari-de-lindependance",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T13:57+00:00",
+   "summary": "Les femmes sont encore trop peu représentées dans le secteur du conseil patrimonial, particulièrement en tant que dirigeantes de cabinets. Une sous-représentation qui peut s'expliquer par leurs craintes de se lancer en indépendantes.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "dda604ab1d71f64f",
+   "title": "Generali Investments recrute un commercial institutionnel à Francfort",
+   "link": "https://www.agefi.fr/asset-management/actualites/generali-investments-recrute-un-commercial-institutionnel-a-francfort",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T13:52+00:00",
+   "summary": "Marc Homsy vient de rejoindre Generali Investments en tant que commercial institutionnel senior, annonce-t-il sur LinkedIn. Basé à Francfort, il couvrira les investisseurs institutionnels en Allemagne et en Autriche, aux côtés de Matthias Paetzel, responsable des ventes pour ces deux pays. Marc Homsy vient de Morgan Stanley Investment Management. Par le passé, il a travaillé pour Danske Bank, Dan…",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "55def4df27d1ce18",
+   "title": "BNP Paribas promeut Marco Citrini à la tête de Securities Services en Suisse",
+   "link": "https://www.agefi.fr/asset-management/actualites/bnp-paribas-promeut-marco-citrini-a-la-tete-de-securities-services-en-suisse",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T13:52+00:00",
+   "summary": "Marco Citrini a pris, le 1er novembre 2026, la direction des activités Securities Services de BNP Paribas en Suisse, à Zurich. Entré dans le groupe en 2001, il était notamment directeur adjoint de cette activité en Suisse. Il succède à Garrick Dean Smith, qui se consacrera au développement des relations avec les grands clients institutionnels helvétiques. Cette nomination accompagne le développem…",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 15
+  },
+  {
+   "id": "03ae3237fbafe323",
+   "title": "AllianceBernstein recrute Sharon Duah pour développer ses ETF en Europe",
+   "link": "https://www.agefi.fr/etf/alliancebernstein-recrute-sharon-duah-pour-developper-ses-etf-en-europe",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T13:51+00:00",
+   "summary": "L'intéressée vient de Citi où elle était directrice des ventes et du développement commercial ETF pour la zone EMEA.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
+  {
+   "id": "faee4b3a886fbf66",
+   "title": "Parvus accentue sa pression sur la gouvernance d’Accor",
+   "link": "https://www.agefi.fr/news/entreprises/parvus-accentue-sa-pression-sur-la-gouvernance-daccor",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T13:25+00:00",
+   "summary": "Le premier actionnaire du groupe hôtelier avec 15% du capital envisage de « demander des changements dans la composition du conseil d'administration et de la direction d'Accor », selon sa déclaration AMF.",
+   "themes": [
+    "regulation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 20
+  },
+  {
+   "id": "e855d9abdabb899b",
+   "title": "Mike Pyle (BlackRock) : « Les possibilités de diversification sont relativement limitées actuellement »",
+   "link": "https://www.agefi.fr/asset-management/actualites/mike-pyle-blackrock-les-possibilites-de-diversification-sont-relativement-limitees-actuellement",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-03T13:00+00:00",
+   "summary": "Dans un entretien à L'Agefi, Mike Pyle, directeur adjoint du Portfolio Management Group chez BlackRock, identifie des goulets d'étranglement sur les marchés de capitaux et évoque l'adaptation des portefeuilles au contexte de marché actuel dominé par la tech et l'IA.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
+  },
   {
    "id": "04f2341884c19867",
    "title": "La bataille de la start-up toulousaine Aura Aero pour faire émerger une industrie française de l’avion électrique",
@@ -14,6 +1671,21 @@
    "themes": [],
    "official": false,
    "first_seen": "2026-11-03T12:06+00:00",
+   "score": 5
+  },
+  {
+   "id": "7c68cabd86f56c60",
+   "title": "In the shadow of war, Silicon Valley sprinkles stardust",
+   "link": "https://www.ft.com/content/050d5ed2-83e7-4ebb-a781-0daa3874797c?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-03T12:00+00:00",
+   "summary": "While the US energy sector had a diminished presence at the Adipec conference in Abu Dhabi, the tech sector worked its magic",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
    "score": 5
   },
   {
@@ -173,6 +1845,21 @@
    "official": false,
    "first_seen": "2026-11-03T12:06+00:00",
    "score": 25
+  },
+  {
+   "id": "e56330136df075cb",
+   "title": "Our current AI moment has darker historical echoes",
+   "link": "https://www.ft.com/content/9059f430-6c99-4aa0-9f3e-85e95ccdcd78",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-03T11:40+00:00",
+   "summary": "If you are looking for past instances of transformative capitalist mobilisation, you need to consider the age of empire",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-04T12:19+00:00",
+   "score": 5
   },
   {
    "id": "906d127f48533c6e",
@@ -21550,41 +23237,6 @@
    "official": true,
    "first_seen": "2026-10-23T11:24+00:00",
    "score": 15
-  },
-  {
-   "id": "517b42d1a3c002af",
-   "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
-   "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
-   "source": "BCE",
-   "sources": [
-    "BCE"
-   ],
-   "published": "2026-10-05T08:00+00:00",
-   "summary": "",
-   "themes": [
-    "central_banks"
-   ],
-   "official": true,
-   "first_seen": "2026-10-23T11:24+00:00",
-   "score": 50
-  },
-  {
-   "id": "aba687069a0445a3",
-   "title": "Basel III applicable in almost all member jurisdictions by 2027",
-   "link": "https://www.bis.org/media-releases/20261005-basel-iii-applicable-almost-all-member-jurisdictions-2027",
-   "source": "BRI",
-   "sources": [
-    "BRI"
-   ],
-   "published": "2026-10-05T00:00+00:00",
-   "summary": "Three quarters of the Basel Committee’s 27 member jurisdictions have now published regulations implementing the full set of Basel III standards. Almost all member jurisdictions have publicly announced that banks must apply Basel III by April 2027 or earlier. The Committee will continue to closely monitor and assess the full and consistent implementation of Basel III standards.",
-   "themes": [
-    "regulation",
-    "banks"
-   ],
-   "official": true,
-   "first_seen": "2026-10-23T11:24+00:00",
-   "score": 37
   }
  ]
 }
