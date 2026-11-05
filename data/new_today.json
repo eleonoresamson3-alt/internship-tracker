@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-04T12:11:14+00:00",
- "date": "2026-11-04",
+ "generated_at": "2026-11-05T12:24:15+00:00",
+ "date": "2026-11-05",
  "jobs": [
   {
-   "id": "groupe-credit-agricole-133703b39afa",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Assistant(e) Sales Front Office - Securities Finance et Repo H/F",
-   "location": "",
+   "id": "scor-18072740660c",
+   "employer": "SCOR",
+   "employer_type": "insurance",
+   "platform": "oracle",
+   "title": "Actuarial Internship – Pricing and Experience Analysis in L&H Reinsurance",
+   "location": "Paris, Ile-de-France, France",
    "countries": [
     "FR"
    ],
@@ -16,324 +16,163 @@
     "France"
    ],
    "region": "France",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 60,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-136-stage---assistante-sales-front-office---securities-finance-et-repo-hf-reference--2026-117115--/",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "amundi-90aed5fb16bb",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - FINANCE DE MARCHE - Structuration et Innovation Produit ETF & Indiciel H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 50,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "schonfeld-1f14afbf2564",
-   "employer": "Schonfeld",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Emerging Markets and Delta One Quantitative Researcher/Strat Intern",
-   "location": "Hong Kong, Hong Kong",
-   "countries": [
-    "HK"
-   ],
-   "country_names": [
-    "Hong Kong"
-   ],
-   "region": "Rest of world",
    "family": "Pricing / Quant",
    "role_level": "high",
-   "score": 50,
+   "score": 85,
    "score_breakdown": {
     "role": 50,
+    "geo": 30,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5564",
+   "posted_at": "2026-11-04",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "active": true
+  },
+  {
+   "id": "ey-1b058824b2ec",
+   "employer": "EY",
+   "employer_type": "consulting",
+   "platform": "successfactors",
+   "title": "Project Finance Legal Intern (Administrative Law Team) - Milano",
+   "location": "Milano, IT, 20123",
+   "countries": [
+    "IT"
+   ],
+   "country_names": [
+    "Italy"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://careers.ey.com/ey/job/Milano-Project-Finance-Legal-Intern-%28Administrative-Law-Team%29-Milano-20123/1446402733/",
+   "posted_at": "",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "active": true
+  },
+  {
+   "id": "scotiabank-e1241403260e",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "Intern, FICC Sales and Trading",
+   "location": "Singapore, 01, SG, 048583",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 30,
+   "score_breakdown": {
+    "role": 30,
     "geo": 0,
     "city": 0,
     "timing": 0
    },
    "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Singapore-Intern%2C-FICC-Sales-and-Trading-01-048583/607759717/",
+   "posted_at": "",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "active": true
+  },
+  {
+   "id": "imc-5a687ae4167a",
+   "employer": "IMC",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Research Analyst Intern - Summer 2027",
+   "location": "Chicago, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
    "start": "2027",
    "deadline": "",
    "deadline_source": "",
-   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8350719",
-   "posted_at": "2026-11-03",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-cae4b2fe90f2",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Marketing Financier - Stratégie - Asset Management H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170468-124-stage---marketing-financier---strategie---asset-management-hf-reference--2026-116638--/",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-d91c7bd3945e",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage Analyste financement de fonds de Private Equity H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-136-stage-analyste-financement-de-fonds-de-private-equity-hf-reference--2026-117125--/",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "michelin-3f171222e431",
-   "employer": "Michelin",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "Stage - Développement et validation d’une méthode de mesure du plomb par fluorescence X sur matières premières (F/H)",
-   "location": "Clermont-Ferrand",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Dveloppement-et-validation-d-une-mthode-de-mesure-du-plomb-par-fluorescence-X-sur-matires-premires--F-H-_R-2026038742",
+   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823946101",
    "posted_at": "2026-11-04",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
    "active": true
   },
   {
-   "id": "franklin-templeton-1f3bd31e3469",
-   "employer": "Franklin Templeton",
+   "id": "invesco-c91b24515044",
+   "employer": "Invesco",
    "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Corporate Actions",
-   "location": "Poznan, Poland",
+   "platform": "workday",
+   "title": "Early Career Intern - Legal, Compliance, Audit & Risk (LCAR)",
+   "location": "Atlanta, Georgia",
    "countries": [
-    "PL"
+    "US"
    ],
    "country_names": [
-    "Poland"
+    "United States"
    ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
+   "region": "Rest of world",
+   "family": "Risk",
    "role_level": "low",
    "score": 22,
    "score_breakdown": {
     "role": 10,
-    "geo": 12,
+    "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
+   "timing": "summer",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869937",
-   "posted_at": "2026-10-21",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---LCAR_R-15590-1",
+   "posted_at": "2026-11-04",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
    "active": true
   },
   {
-   "id": "scotiabank-267bd634df6a",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "Gestion de patrimoine - Stagiaire recherche JFL (Montréal) - Été 2027",
-   "location": "Montreal, QC, CA",
-   "countries": [
-    "CA"
-   ],
-   "country_names": [
-    "Canada"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Montreal-Gestion-de-patrimoine-Stagiaire-recherche-JFL-%28Montr%C3%A9al%29-%C3%89t%C3%A9-2027-QC/607702717/",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "scotiabank-4244132245d5",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "Wealth Management - JFL Research Internship/Co-op (Montreal) - Summer 2027",
-   "location": "Montreal, QC, CA",
-   "countries": [
-    "CA"
-   ],
-   "country_names": [
-    "Canada"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Montreal-Wealth-Management-JFL-Research-InternshipCo-op-%28Montreal%29-Summer-2027-QC/607702817/",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "scotiabank-3dbc5701aca8",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "Wealth Management - JFL Research Internship/Co-op (Toronto) - Summer 2027",
-   "location": "Toronto, ON, CA",
-   "countries": [
-    "CA"
-   ],
-   "country_names": [
-    "Canada"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Toronto-Wealth-Management-JFL-Research-InternshipCo-op-%28Toronto%29-Summer-2027-ON/607625517/",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "state-street-06f13f0c64f8",
+   "id": "state-street-e8b184a36608",
    "employer": "State Street",
    "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "State Street Investment Management - US Wealth - 2027 Summer Internship",
+   "title": "State Street Investment Management - Credit Research - 2027 Summer Internship",
    "location": "Boston, Massachusetts",
    "countries": [
     "US"
@@ -355,134 +194,76 @@
    "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---US-Wealth---2027-Summer-Internship_R-800715",
-   "posted_at": "2026-11-03",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Credit-Research---2027-Summer-Internship_R-800754",
+   "posted_at": "2026-11-04",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
    "active": true
   },
   {
-   "id": "amundi-c53abd3d87d2",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage – Marketing Produit et Mise en Marché – Amundi Actifs Privés & Alternatifs H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-marketing-produit-et-mise-en-marche-amundi-actifs-prives-alternatifs-h-f_116407.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "amundi-60ab66e74e6b",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stagiaire Risk Management – Projets H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stagiaire-risk-management-projets-h-f_117093.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-875dfc3c094e",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (Investment Compliance)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869798",
-   "posted_at": "2026-10-13",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "active": true
-  },
-  {
-   "id": "rbc-capital-markets-21b2e0521e87",
-   "employer": "RBC Capital Markets",
+   "id": "state-street-4d54a5d4b330",
+   "employer": "State Street",
    "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "Financial Advisor Intern",
-   "location": "PRINCE ALBERT, Saskatchewan, Canada",
+   "title": "State Street Investment Management - Global Leveraged Finance Intern - 2027 Summer",
+   "location": "Boston, Massachusetts",
    "countries": [
-    "CA"
+    "US"
    ],
    "country_names": [
-    "Canada"
+    "United States"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 10,
+   "score": 22,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
-   "start": "",
+   "timing": "summer",
+   "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PRINCE-ALBERT-Saskatchewan-Canada/Financial-advisor-intern_R-0000170232",
-   "posted_at": "2026-11-03",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Global-Leveraged-Finance-Intern---2027-Summer_R-800756",
+   "posted_at": "2026-11-04",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "active": true
+  },
+  {
+   "id": "state-street-686266ce2511",
+   "employer": "State Street",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "State Street Investment Management - US Cash Client Service Team - 2027 Summer Internship",
+   "location": "Boston, Massachusetts",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---US-Cash-Client-Service-Team---2027-Summer-Internship_R-800751",
+   "posted_at": "2026-11-04",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
    "active": true
   }
  ]
