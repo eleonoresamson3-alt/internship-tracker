@@ -1,6 +1,164 @@
 {
  "days": [
   {
+   "date": "2026-11-06",
+   "generated_at": "2026-11-06T05:55:00+00:00",
+   "brief": [
+    "Banques centrales : la Banque d'Angleterre relève son taux à 4 %, sa première hausse depuis 2023 (FT) ; selon BNP Paribas, citée par L'Agefi, les pauses de la Fed et de la BCE en octobre ne marquent pas la fin de leur cycle de hausses.",
+    "Pétrole : le FT indique que le brut passe sous 100 $ après les élections américaines, sur des espoirs de paix ; dans nos données le Brent est à 107,03 $ le 3 novembre (-13,05 % sur une semaine, -21,02 % sur un mois).",
+    "Taux : le 10 ans français (TEC 10) recule à 4,752 % le 5 novembre (-12,8 points de base) contre 3,33 % pour le Bund, soit environ 142 points de base d'écart, contre environ 155 la veille.",
+    "Actions : les actions européennes approchent leur plus haut historique selon le FT ; le Dow Jones gagne 3,03 % le 4 novembre (53 356 points), le Nasdaq 1,44 % (25 736,5).",
+    "IA : une société de recherche déclare « la fin du trade IA tel qu'on le connaît » (MarketWatch) ; le VIX est à 20,83 le 3 novembre."
+   ],
+   "articles": [
+    {
+     "title": "Banque d'Angleterre : taux relevé à 4 %, alors que Fed et BCE marquent une pause",
+     "theme": "central_banks",
+     "lead": "La Banque d'Angleterre relève ses taux pour la première fois depuis 2023, tandis que la hausse des taux longs prend le relais des banques centrales américaine et européenne.",
+     "what": "Selon le FT, la Banque d'Angleterre a relevé son taux directeur à 4 % pour tenter de maîtriser l'inflation, sa première hausse depuis 2023. L'Agefi rapporte l'analyse de Hélène Baudchon, de BNP Paribas : les pauses de la Fed et de la BCE en octobre ne marquent pas la fin du cycle de hausses de taux directeurs, et la hausse des taux longs « entre dans la danse ». Dans nos données, le taux de dépôt de la BCE est à 2,5 %, l'€STR à 2,442 % (4 novembre), le Bund 10 ans à 3,33 % et le 2 ans à 3,01 % (5 novembre). Le 10 ans américain est à 4,95 % le 3 novembre.",
+     "why": "Une banque centrale relève ses taux pour freiner l'inflation en rendant le crédit plus cher. Le fait que la Banque d'Angleterre reprenne les hausses après plusieurs années montre que l'inflation britannique est jugée trop persistante. L'idée de BNP Paribas est que, lorsque les taux longs montent d'eux-mêmes, ils resserrent les conditions financières à la place de la banque centrale, ce qui lui permet de faire une pause sans arrêter son cycle. C'est une analyse d'économiste, non une décision ; nos sources ne disent pas ce que la BCE décidera ensuite.",
+     "impact": "Une hausse de la Banque d'Angleterre soutient en principe la livre sterling et relève les rendements des gilts, ce qui renchérit le crédit en livres. Pour les produits structurés libellés en GBP, des taux plus élevés réduisent le prix du zéro-coupon, mais permettent des coupons fixes plus généreux sur les notes à capital protégé. Si Fed et BCE devaient reprendre les hausses, les courbes de taux seraient plus hautes à long terme, ce qui pèserait sur la valeur des obligations existantes. Les options sur taux (caps, swaptions) deviennent plus chères quand l'incertitude sur la trajectoire de taux augmente.",
+     "interview": {
+      "question": "Les taux longs montent alors que la Fed et la BCE font une pause : en quoi les taux longs peuvent-ils se substituer à la banque centrale, et que cela change-t-il pour le prix d'un produit à capital protégé ?",
+      "hints": [
+       "Conditions financières : taux longs, crédit, devise, actions.",
+       "Le taux long influence les prêts immobiliers et les financements d'entreprise.",
+       "Zéro-coupon moins cher à taux élevés : budget d'option plus grand.",
+       "Distinguer taux directeur et taux de marché."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Conditions financières",
+       "definition": "Ensemble des taux, des spreads, du change et des valorisations qui déterminent le coût et la disponibilité du financement dans une économie."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Bank of England raises interest rates to 4% in bid to tame inflation",
+       "url": "https://www.ft.com/content/290cf85b-6d95-4c79-af9b-e2a3d79072f6?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Fed-BCE : la hausse des taux longs entre dans la danse",
+       "url": "https://www.agefi.fr/news/economie-marches/fed-bce-la-hausse-des-taux-longs-entre-dans-la-danse",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole : sous 100 $ après les élections américaines, sur des espoirs de paix",
+     "theme": "fx_commodities",
+     "lead": "Le brut décroche après le scrutin américain, les marchés pariant sur une désescalade au Moyen-Orient.",
+     "what": "Selon le FT, le pétrole passe sous 100 $ après les élections, sur des espoirs de paix, le vice-président JD Vance attribuant la défaite républicaine à la colère liée à la guerre en Iran. Air France-KLM profite de résultats supérieurs aux attentes et de la baisse du pétrole, d'après L'Agefi. Nos données donnent le Brent à 107,03 $ le 3 novembre (-0,34 % sur la journée, -13,05 % sur une semaine, -21,02 % sur un mois) : la série précède la baisse sous 100 $ citée par le FT. L'EUR/USD est à 1,1267 le 4 novembre (+0,79 %).",
+     "why": "Le prix du pétrole intègre une prime de risque géopolitique : quand les opérateurs anticipent la fin ou l'apaisement d'un conflit, cette prime disparaît et les prix baissent vite. Ici le lien établi par le FT est politique : le résultat électoral est lu comme un signal d'infléchissement de la politique américaine, mais cela reste une anticipation de marché et non un événement acquis. Un baril moins cher réduit les coûts des compagnies aériennes et de l'industrie et allège la pression sur l'inflation, mais il pèse sur les profits des producteurs.",
+     "impact": "Une baisse du pétrole détend les anticipations d'inflation, ce qui peut faire baisser les rendements et soutenir les actions des secteurs consommateurs d'énergie. Pour les produits structurés sur le Brent, la volatilité reste forte et le recul rapproche les cours des barrières basses. L'euro, importateur net d'énergie, profite généralement d'un baril moins cher : l'EUR/USD à 1,1267 va dans ce sens, sans que la causalité soit démontrée. Pour les créanciers des compagnies pétrolières, des profits plus faibles réduisent la capacité de désendettement, alors que ces groupes ont engrangé des profits élevés en octobre.",
+     "interview": {
+      "question": "Le pétrole perd plus de 20 % en un mois sur des espoirs de paix : comment un structureur ajuste-t-il le prix d'une note liée au Brent, et quel effet sur les anticipations d'inflation ?",
+      "hints": [
+       "Prime de risque géopolitique et volatilité implicite.",
+       "Courbe à terme du pétrole et couverture des options.",
+       "Lien pétrole, points morts d'inflation et taux.",
+       "Effet différencié pour producteurs et consommateurs d'énergie."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Point mort d'inflation",
+       "definition": "Inflation anticipée par le marché, déduite de l'écart entre le rendement d'une obligation nominale et celui d'une obligation indexée."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Oil tumbles below $100 on post-election peace hopes",
+       "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Air France-KLM reprend de l'altitude en Bourse après ses trimestriels",
+       "url": "https://www.agefi.fr/news/entreprises/air-france-klm-reprend-de-laltitude-en-bourse-apres-ses-trimestriels",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Détente sur la dette française et actions européennes proches de leur record",
+     "theme": "credit_sovereign",
+     "lead": "Le rendement du 10 ans français recule nettement et l'écart avec le Bund se resserre, dans un marché européen revigoré.",
+     "what": "Nos données donnent le TEC 10 français à 4,752 % le 5 novembre (-12,8 points de base sur la journée, -14,2 sur une semaine), le TEC 2 ans à 3,525 % (-11,1) et le Bund 10 ans à 3,33 % : l'écart OAT-Bund est d'environ 142 points de base, contre environ 166 le 23 octobre. Le FT rapporte que les actions européennes approchent leur plus haut historique, les investisseurs pariant que l'ampleur de la défaite républicaine aux élections américaines freinera une politique de la Maison-Blanche qui pesait sur les marchés. L'indice Euro Stoxx 50 n'est pas disponible dans nos données.",
+     "why": "Le spread OAT-Bund mesure la prime de risque exigée sur la France. Il se resserre quand les investisseurs sont plus à l'aise avec le risque : la baisse des rendements allemands (3,33 %, -5 points de base) y contribue, mais celle des rendements français est plus forte, d'où la compression de l'écart. Les sources fournies ne donnent pas de cause précise à ce mouvement pour la France ; l'explication la plus plausible est un mouvement général de détente après les élections américaines, ce qui reste une hypothèse. Le niveau reste élevé : les 142 points de base représentent encore une prime nettement positive.",
+     "impact": "Un spread plus faible réduit le coût de financement de l'État, des banques et des entreprises françaises, et améliore le prix de la jambe obligataire des notes émises par des banques françaises. Pour les produits structurés en euros, la baisse des taux de swap diminue la valeur du zéro-coupon et réduit le budget disponible pour l'option. Des actions proches de leurs sommets donnent des autocalls plus souvent rappelés, ce qui met fin à des coupons que les clients espéraient conserver. Une réversion du mouvement aurait l'effet inverse.",
+     "interview": {
+      "question": "Le spread OAT-Bund se resserre de 166 à environ 142 points de base en deux semaines : comment mesurez-vous ce mouvement et que signifie-t-il pour une banque française qui émet des produits structurés ?",
+      "hints": [
+       "Spread = rendement OAT moins rendement Bund à même échéance.",
+       "Variation du spread et décomposition entre baisse du Bund et baisse de l'OAT.",
+       "Lien entre spread souverain et spread émetteur.",
+       "Effet de la baisse des taux sur le zéro-coupon."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Point de base",
+       "definition": "Un centième de point de pourcentage (0,01 %), unité usuelle pour mesurer les variations de taux et de spreads."
+      }
+     ],
+     "sources": [
+      {
+       "title": "European stocks approach all-time high on Democratic sweep",
+       "url": "https://www.ft.com/content/1ca182d6-8d16-4ddb-98fb-cf933b4c3073?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Wall Street bets Democratic sweep will empower moderates in Washington",
+       "url": "https://www.ft.com/content/18739027-d5cc-4e18-825e-d43ac7d1ef9f?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "IA : « la fin du trade IA tel qu'on le connaît » et la question de 2028",
+     "theme": "equities",
+     "lead": "Les analystes appellent à chercher de la valeur relative dans l'IA et à regarder plus loin que les résultats trimestriels.",
+     "what": "Selon MarketWatch, une société de recherche déclare « la fin du trade IA tel que nous le connaissons » : la valeur absolue est plus difficile à trouver, et les paris doivent être faits sur un horizon plus long et plus spéculatif, d'où la recherche de valeur relative au sein du secteur. Michael Cembalest, de JPMorgan, estime que le vrai test de la construction de capacités d'IA aura lieu en 2028. MarketWatch note aussi, après les résultats historiques des élections, un regard plus dur de Wall Street sur les coûts de l'IA. Nos données donnent le Dow Jones à 53 356,12 le 4 novembre (+3,03 %), le Nasdaq à 25 736,51 (+1,44 %, -6,34 % sur un mois) et le VIX à 20,83 le 3 novembre.",
+     "why": "Une rotation sectorielle apparaît lorsque les investisseurs vendent un thème très acheté pour en acheter d'autres : la progression du Dow Jones plus rapide que celle du Nasdaq va dans ce sens, sans prouver une rotation durable. La notion de valeur relative signifie choisir les meilleurs titres d'un secteur plutôt que d'acheter tout le secteur. Les prévisions à horizon 2028 sont des avis d'analyste sur le moment où les investissements en centres de données devront prouver leur rentabilité ; rien dans nos sources ne dit qu'un retournement est imminent.",
+     "impact": "Pour les produits structurés sur des paniers technologiques, une plus forte dispersion entre valeurs augmente le risque des worst-of, car le moins bon titre commande le résultat. Une volatilité implicite encore autour de 21 maintient des coupons relativement élevés pour les autocalls. Les stratégies de valeur relative (long/short sectoriel) expliquent en partie l'intérêt des hedge funds. Pour les banques d'investissement, le calendrier des introductions en Bourse liées à l'IA dépendra du moral du marché.",
+     "interview": {
+      "question": "Un analyste parle de la fin du trade IA et recommande la valeur relative : que veut-il dire, et comment cela se traduit-il dans un portefeuille ou un produit structuré ?",
+      "hints": [
+       "Valeur absolue contre valeur relative.",
+       "Dispersion intra-sectorielle et corrélation.",
+       "Risque d'un panier worst-of dans un secteur dispersé.",
+       "Horizon d'investissement et visibilité des revenus."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Valeur relative",
+       "definition": "Approche qui compare des titres entre eux pour acheter les mieux valorisés et vendre les plus chers, indépendamment de la direction du marché."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Research firm declares 'end of the AI trade as we know it' — and Asian tech stocks reflect the shift",
+       "url": "https://www.marketwatch.com/story/research-firm-declares-end-of-the-ai-trade-as-we-know-it-and-asian-tech-stocks-reflect-the-shift-25ac8e8f?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "The real test for the artificial intelligence build-out is what happens in 2028, analysts say",
+       "url": "https://www.marketwatch.com/story/the-real-test-for-the-artificial-intelligence-build-out-is-what-happens-in-2028-analysts-say-c5978e48?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "An Anthropic IPO when the AI trade is this turbulent? Godspeed!",
+       "url": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-05",
    "generated_at": "2026-11-05T05:55:00+00:00",
    "brief": [
@@ -1724,5 +1882,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-05T05:55:00+00:00"
+ "updated_at": "2026-11-06T05:55:00+00:00"
 }
