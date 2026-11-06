@@ -1,14 +1,247 @@
 {
- "generated_at": "2026-11-05T12:24:15+00:00",
- "date": "2026-11-05",
+ "generated_at": "2026-11-06T12:08:52+00:00",
+ "date": "2026-11-06",
  "jobs": [
   {
-   "id": "scor-18072740660c",
-   "employer": "SCOR",
-   "employer_type": "insurance",
+   "id": "point72-2b7004db7f6f",
+   "employer": "Point72",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Trader Summer Intern (12-week program)",
+   "location": "Hong Kong Japan; Hong Kong; Japan",
+   "countries": [
+    "HK",
+    "JP"
+   ],
+   "country_names": [
+    "Hong Kong",
+    "Japan"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://boards.greenhouse.io/point72/jobs/8932943002?gh_jid=8932943002",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "m-g-fa797fbc6d92",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Asset Management: COO Internship (London)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-31",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--COO-Internship--London-_R20840",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "m-g-945a8db4a8ca",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Asset Management: Client Group & Product Internship (London)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-31",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Client-Group---Product-Internship--London-_R20839",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "m-g-28f0ff145731",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Asset Management: Equities Internship (London)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-20",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Equities-Internship--London-_R20841",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "m-g-1ac7b0554741",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Asset Management: Private Markets Internship (London)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-20",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Private-Markets-Internship--London-_R20814",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "m-g-5042b759466a",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Asset Management: Public Fixed Income Internship (London)",
+   "location": "London",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-20",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Public-Fixed-Income-Internship--London-_R20813",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "schroders-83e6d84bd118",
+   "employer": "Schroders",
+   "employer_type": "asset_manager",
    "platform": "oracle",
-   "title": "Actuarial Internship – Pricing and Experience Analysis in L&H Reinsurance",
-   "location": "Paris, Ile-de-France, France",
+   "title": "Internship: Sales Activation - 6 months (July – December 2027)",
+   "location": "Zurich, Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 41,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "2027-12",
+   "deadline": "2027-07-31",
+   "deadline_source": "estimée",
+   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2356",
+   "posted_at": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-4e2774c9d526",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Chargé d'opérations - Derivativ Clearing & Cash Equity H/F",
+   "location": "",
    "countries": [
     "FR"
    ],
@@ -16,98 +249,131 @@
     "France"
    ],
    "region": "France",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 85,
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
    "score_breakdown": {
-    "role": 50,
+    "role": 10,
     "geo": 30,
-    "city": 5,
+    "city": 0,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5564",
-   "posted_at": "2026-11-04",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---charge-d-operations---derivativ-clearing-et-cash-equity-hf-reference--2026-117242--/",
+   "posted_at": "",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
-   "id": "ey-1b058824b2ec",
-   "employer": "EY",
-   "employer_type": "consulting",
-   "platform": "successfactors",
-   "title": "Project Finance Legal Intern (Administrative Law Team) - Milano",
-   "location": "Milano, IT, 20123",
+   "id": "groupe-credit-agricole-a7c786180b54",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Risk Consolidated Report & Projects H/F",
+   "location": "",
    "countries": [
-    "IT"
+    "FR"
    ],
    "country_names": [
-    "Italy"
+    "France"
+   ],
+   "region": "France",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-136-stage---risk-consolidated-report-et-projects-hf-reference--2026-117248--/",
+   "posted_at": "",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "m-g-c15f4040452f",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Finance Internship (Edinburgh)",
+   "location": "Edinburgh",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
    ],
    "region": "Europe (priority)",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 30,
+   "score": 36,
    "score_breakdown": {
     "role": 10,
     "geo": 20,
     "city": 0,
-    "timing": 0
+    "timing": 6
    },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://careers.ey.com/ey/job/Milano-Project-Finance-Legal-Intern-%28Administrative-Law-Team%29-Milano-20123/1446402733/",
-   "posted_at": "",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-31",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Edinburgh/Finance-Internship--Edinburgh-_R20812",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
-   "id": "scotiabank-e1241403260e",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "Intern, FICC Sales and Trading",
-   "location": "Singapore, 01, SG, 048583",
+   "id": "m-g-1a20a27fe47a",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Finance Internship (Stirling)",
+   "location": "Stirling",
    "countries": [
-    "SG"
+    "GB"
    ],
    "country_names": [
-    "Singapore"
+    "United Kingdom"
    ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 30,
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 36,
    "score_breakdown": {
-    "role": 30,
-    "geo": 0,
+    "role": 10,
+    "geo": 20,
     "city": 0,
-    "timing": 0
+    "timing": 6
    },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Singapore-Intern%2C-FICC-Sales-and-Trading-01-048583/607759717/",
-   "posted_at": "",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-31",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Finance-Internship--Stirling-_R20811",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
-   "id": "imc-5a687ae4167a",
-   "employer": "IMC",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Research Analyst Intern - Summer 2027",
-   "location": "Chicago, United States",
+   "id": "bny-e25f264d4e8e",
+   "employer": "BNY",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 BNY Summer Internship Program – BNY Investments (Pittsburgh, PA)",
+   "location": "Pittsburgh, PA, United States",
    "countries": [
     "US"
    ],
@@ -126,21 +392,120 @@
    },
    "timing": "summer",
    "start": "2027",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823946101",
-   "posted_at": "2026-11-04",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/83662",
+   "posted_at": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
    "active": true
   },
   {
-   "id": "invesco-c91b24515044",
-   "employer": "Invesco",
-   "employer_type": "asset_manager",
+   "id": "citi-a9a2a213a4c1",
+   "employer": "Citi",
+   "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "Early Career Intern - Legal, Compliance, Audit & Risk (LCAR)",
-   "location": "Atlanta, Georgia",
+   "title": "Functions - Finance, Summer Associate, Buffalo - USA, 2027",
+   "location": "Getzville New York United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Functions---Finance--Summer-Associate--Buffalo---USA--2027_261008038",
+   "posted_at": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "citi-f48f473f98f8",
+   "employer": "Citi",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Functions - Finance, Summer Associate, Charlotte - USA, 2027",
+   "location": "NC-CHARLOTTE (BALLANTYNE)",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Functions---Finance--Summer-Associate--Charlotte---USA--2027_261008040",
+   "posted_at": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "jefferies-92d1a5633537",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Information Technology Summer Analyst (Equity Technology) - Hong Kong",
+   "location": "",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2053-2027-Information-Technology-Summer-Analyst-Equity-Technology-Hong-Kong/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "scotiabank-04b71a6b78b6",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 Summer Analyst Business Risk Management - NYC",
+   "location": "New York City, NY, US",
    "countries": [
     "US"
    ],
@@ -158,112 +523,83 @@
     "timing": 12
    },
    "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/New-York-City-2027-Summer-Analyst-Business-Risk-Management-NYC-NY-10001/607700517/",
+   "posted_at": "",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "point72-01240c59f8b1",
+   "employer": "Point72",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 MI Data Research Intern",
+   "location": "Hong Kong, Singapore, Japan; Hong Kong; Japan; Singapore, Central, Singapore",
+   "countries": [
+    "HK",
+    "SG",
+    "JP"
+   ],
+   "country_names": [
+    "Hong Kong",
+    "Singapore",
+    "Japan"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "2027",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://boards.greenhouse.io/point72/jobs/8899753002?gh_jid=8899753002",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
+   "active": true
+  },
+  {
+   "id": "pwc-190c70230dbb",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Intern - Risk Services (Risk, Performance, Governance & Control)",
+   "location": "Kuala Lumpur",
+   "countries": [
+    "MY"
+   ],
+   "country_names": [
+    "Malaysia"
+   ],
+   "region": "Rest of world",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2027-03-31",
    "deadline_source": "estimée",
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---LCAR_R-15590-1",
-   "posted_at": "2026-11-04",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
-   "active": true
-  },
-  {
-   "id": "state-street-e8b184a36608",
-   "employer": "State Street",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "State Street Investment Management - Credit Research - 2027 Summer Internship",
-   "location": "Boston, Massachusetts",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Credit-Research---2027-Summer-Internship_R-800754",
-   "posted_at": "2026-11-04",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
-   "active": true
-  },
-  {
-   "id": "state-street-4d54a5d4b330",
-   "employer": "State Street",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "State Street Investment Management - Global Leveraged Finance Intern - 2027 Summer",
-   "location": "Boston, Massachusetts",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Global-Leveraged-Finance-Intern---2027-Summer_R-800756",
-   "posted_at": "2026-11-04",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
-   "active": true
-  },
-  {
-   "id": "state-street-686266ce2511",
-   "employer": "State Street",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "State Street Investment Management - US Cash Client Service Team - 2027 Summer Internship",
-   "location": "Boston, Massachusetts",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---US-Cash-Client-Service-Team---2027-Summer-Internship_R-800751",
-   "posted_at": "2026-11-04",
-   "first_seen": "2026-11-05",
-   "last_seen": "2026-11-05",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuala-Lumpur/Intern---Risk-Services--Risk--Performance--Governance---Control-_769372WD-1",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-06",
    "active": true
   }
  ]
