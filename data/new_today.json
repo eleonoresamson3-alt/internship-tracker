@@ -1,246 +1,13 @@
 {
- "generated_at": "2026-11-06T12:08:52+00:00",
- "date": "2026-11-06",
+ "generated_at": "2026-11-07T11:05:35+00:00",
+ "date": "2026-11-07",
  "jobs": [
   {
-   "id": "point72-2b7004db7f6f",
-   "employer": "Point72",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Trader Summer Intern (12-week program)",
-   "location": "Hong Kong Japan; Hong Kong; Japan",
-   "countries": [
-    "HK",
-    "JP"
-   ],
-   "country_names": [
-    "Hong Kong",
-    "Japan"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://boards.greenhouse.io/point72/jobs/8932943002?gh_jid=8932943002",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "m-g-fa797fbc6d92",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Asset Management: COO Internship (London)",
-   "location": "London",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-31",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--COO-Internship--London-_R20840",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "m-g-945a8db4a8ca",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Asset Management: Client Group & Product Internship (London)",
-   "location": "London",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-31",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Client-Group---Product-Internship--London-_R20839",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "m-g-28f0ff145731",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Asset Management: Equities Internship (London)",
-   "location": "London",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-20",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Equities-Internship--London-_R20841",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "m-g-1ac7b0554741",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Asset Management: Private Markets Internship (London)",
-   "location": "London",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-20",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Private-Markets-Internship--London-_R20814",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "m-g-5042b759466a",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Asset Management: Public Fixed Income Internship (London)",
-   "location": "London",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-20",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Public-Fixed-Income-Internship--London-_R20813",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "schroders-83e6d84bd118",
-   "employer": "Schroders",
-   "employer_type": "asset_manager",
-   "platform": "oracle",
-   "title": "Internship: Sales Activation - 6 months (July – December 2027)",
-   "location": "Zurich, Switzerland",
-   "countries": [
-    "CH"
-   ],
-   "country_names": [
-    "Switzerland"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 11
-   },
-   "timing": "off-cycle",
-   "start": "2027-12",
-   "deadline": "2027-07-31",
-   "deadline_source": "estimée",
-   "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2356",
-   "posted_at": "2026-11-05",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-4e2774c9d526",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Chargé d'opérations - Derivativ Clearing & Cash Equity H/F",
+   "id": "kpmg-b9cb41339f12",
+   "employer": "KPMG",
+   "employer_type": "consulting",
+   "platform": "radancy",
+   "title": "Consultant Stagiaire Finance Strategy & Transformation F/H",
    "location": "",
    "countries": [
     "FR"
@@ -260,20 +27,53 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2027-03-31",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage---charge-d-operations---derivativ-clearing-et-cash-equity-hf-reference--2026-117242--/",
+   "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-finance-strategy-and-transformation-f-h/2913/31693947392",
    "posted_at": "",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-a7c786180b54",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Risk Consolidated Report & Projects H/F",
+   "id": "kpmg-f8ff8f182909",
+   "employer": "KPMG",
+   "employer_type": "consulting",
+   "platform": "radancy",
+   "title": "Consultant Stagiaire en Management Strategy & Business Transformation - Banque, Assurance, Asset Management F/H",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-management-strategy-and-business-transformation-banque-assurance-asset-mana/2913/44771154240",
+   "posted_at": "",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "active": true
+  },
+  {
+   "id": "kpmg-3134f9bbc3a1",
+   "employer": "KPMG",
+   "employer_type": "consulting",
+   "platform": "radancy",
+   "title": "Consultant Stagiaire en Risques et Conformité des Entreprises F/H",
    "location": "",
    "countries": [
     "FR"
@@ -293,53 +93,53 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2027-03-31",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-136-stage---risk-consolidated-report-et-projects-hf-reference--2026-117248--/",
+   "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-risques-et-conformite-des-entreprises-f-h/2913/31788183040",
    "posted_at": "",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "m-g-c15f4040452f",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Finance Internship (Edinburgh)",
-   "location": "Edinburgh",
+   "id": "kpmg-fa417054f7cc",
+   "employer": "KPMG",
+   "employer_type": "consulting",
+   "platform": "radancy",
+   "title": "Consultant Stagiaire en Risques et Conformité des Entreprises – Tech F/H",
+   "location": "",
    "countries": [
-    "GB"
+    "FR"
    ],
    "country_names": [
-    "United Kingdom"
+    "France"
    ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
+   "region": "France",
+   "family": "Risk",
    "role_level": "low",
-   "score": 36,
+   "score": 40,
    "score_breakdown": {
     "role": 10,
-    "geo": 20,
+    "geo": 30,
     "city": 0,
-    "timing": 6
+    "timing": 0
    },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-31",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Edinburgh/Finance-Internship--Edinburgh-_R20812",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-risques-et-conformite-des-entreprises-tech-f-h/2913/31788183168",
+   "posted_at": "",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "m-g-1a20a27fe47a",
+   "id": "m-g-844a9934a144",
    "employer": "M&G",
    "employer_type": "asset_manager",
    "platform": "workday",
-   "title": "Finance Internship (Stirling)",
+   "title": "Finance Actuarial Internship (Stirling)",
    "location": "Stirling",
    "countries": [
     "GB"
@@ -359,34 +159,34 @@
    },
    "timing": "off-cycle",
    "start": "2028-09",
-   "deadline": "2026-12-31",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Finance-Internship--Stirling-_R20811",
+   "deadline": "2028-07-31",
+   "deadline_source": "estimée",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Finance-Actuarial-Internship--Stirling-_R20810",
    "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "bny-e25f264d4e8e",
+   "id": "bny-7fad0870cc5e",
    "employer": "BNY",
    "employer_type": "intl_bank",
    "platform": "oracle",
-   "title": "2027 BNY Summer Internship Program – BNY Investments (Pittsburgh, PA)",
-   "location": "Pittsburgh, PA, United States",
+   "title": "2027 BNY Summer Internship Program - Credit & Lending - Dublin",
+   "location": "Dublin, Co. Dublin, Ireland",
    "countries": [
-    "US"
+    "IE"
    ],
    "country_names": [
-    "United States"
+    "Ireland"
    ],
-   "region": "Rest of world",
+   "region": "Europe (other)",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 22,
+   "score": 34,
    "score_breakdown": {
     "role": 10,
-    "geo": 0,
+    "geo": 12,
     "city": 0,
     "timing": 12
    },
@@ -394,19 +194,19 @@
    "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/83662",
-   "posted_at": "2026-11-05",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/83684",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "citi-a9a2a213a4c1",
-   "employer": "Citi",
-   "employer_type": "intl_bank",
+   "id": "invesco-357bb6d3574e",
+   "employer": "Invesco",
+   "employer_type": "asset_manager",
    "platform": "workday",
-   "title": "Functions - Finance, Summer Associate, Buffalo - USA, 2027",
-   "location": "Getzville New York United States",
+   "title": "Early Career Intern - Real Estate (Data Science)",
+   "location": "Dallas, Texas",
    "countries": [
     "US"
    ],
@@ -424,55 +224,22 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Functions---Finance--Summer-Associate--Buffalo---USA--2027_261008038",
-   "posted_at": "2026-11-05",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Dallas-Texas/Early-Career-Intern---Real-Estate--Data-Science-_R-15091-1",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "citi-f48f473f98f8",
-   "employer": "Citi",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Functions - Finance, Summer Associate, Charlotte - USA, 2027",
-   "location": "NC-CHARLOTTE (BALLANTYNE)",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://citi.wd5.myworkdayjobs.com/2/job/NC-CHARLOTTE-BALLANTYNE/Functions---Finance--Summer-Associate--Charlotte---USA--2027_261008040",
-   "posted_at": "2026-11-05",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "jefferies-92d1a5633537",
-   "employer": "Jefferies",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Information Technology Summer Analyst (Equity Technology) - Hong Kong",
-   "location": "",
+   "id": "point72-ada10386cc84",
+   "employer": "Point72",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Long/Short Equity Support Research Intern, Hong Kong",
+   "location": "Hong Kong",
    "countries": [
     "HK"
    ],
@@ -490,27 +257,27 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2053-2027-Information-Technology-Summer-Analyst-Equity-Technology-Hong-Kong/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "start": "",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://boards.greenhouse.io/point72/jobs/8899750002?gh_jid=8899750002",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "scotiabank-04b71a6b78b6",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "2027 Summer Analyst Business Risk Management - NYC",
-   "location": "New York City, NY, US",
+   "id": "s-p-global-b4f0abe1a6f0",
+   "employer": "S&P Global",
+   "employer_type": "software",
+   "platform": "workday",
+   "title": "Summer intern, Financial Risk Analytics Product",
+   "location": "Toronto, CAN",
    "countries": [
-    "US"
+    "CA"
    ],
    "country_names": [
-    "United States"
+    "Canada"
    ],
    "region": "Rest of world",
    "family": "Risk",
@@ -523,31 +290,27 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
+   "start": "",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/New-York-City-2027-Summer-Analyst-Business-Risk-Management-NYC-NY-10001/607700517/",
-   "posted_at": "",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Toronto-CAN/Summer-intern--Financial-Risk-Analytics-Product_332618-2",
+   "posted_at": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   },
   {
-   "id": "point72-01240c59f8b1",
+   "id": "point72-1b91d0c8b263",
    "employer": "Point72",
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
-   "title": "2027 MI Data Research Intern",
-   "location": "Hong Kong, Singapore, Japan; Hong Kong; Japan; Singapore, Central, Singapore",
+   "title": "2027 Economist Intern",
+   "location": "Singapore; Singapore, Central, Singapore",
    "countries": [
-    "HK",
-    "SG",
-    "JP"
+    "SG"
    ],
    "country_names": [
-    "Hong Kong",
-    "Singapore",
-    "Japan"
+    "Singapore"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -563,43 +326,10 @@
    "start": "2027",
    "deadline": "",
    "deadline_source": "",
-   "url": "https://boards.greenhouse.io/point72/jobs/8899753002?gh_jid=8899753002",
+   "url": "https://boards.greenhouse.io/point72/jobs/8932491002?gh_jid=8932491002",
    "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
-   "active": true
-  },
-  {
-   "id": "pwc-190c70230dbb",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Intern - Risk Services (Risk, Performance, Governance & Control)",
-   "location": "Kuala Lumpur",
-   "countries": [
-    "MY"
-   ],
-   "country_names": [
-    "Malaysia"
-   ],
-   "region": "Rest of world",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuala-Lumpur/Intern---Risk-Services--Risk--Performance--Governance---Control-_769372WD-1",
-   "posted_at": "2026-11-06",
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-06",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
    "active": true
   }
  ]
