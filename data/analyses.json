@@ -1,6 +1,178 @@
 {
  "days": [
   {
+   "date": "2026-11-07",
+   "generated_at": "2026-11-07T05:55:00+00:00",
+   "brief": [
+    "Jeudi noir à Wall Street : le Nasdaq a perdu 5,52 % le 5 novembre (24 315 points) et le Dow Jones 3,44 %, la pire séance depuis avril 2025 selon L'Agefi ; le Nasdaq est en correction de plus de 10 % par rapport à son record.",
+    "Cause évoquée : après la victoire démocrate aux élections de mi-mandat, les investisseurs craignent selon le FT que les États-Unis cherchent à freiner la construction de centres de données, un coup porté aux valeurs de l'IA.",
+    "Asie : le FT rapporte une chute de près de 6 % du Nikkei 225 et du Topix vendredi, la plus forte en une séance depuis le « Liberation Day » ; notre série Nikkei s'arrête au 5 novembre (-1,79 %).",
+    "Hedge funds : l'Agefi (citant le Wall Street Journal) indique que la débâcle d'octobre contraint des fonds à déboucler leurs positions à un rythme inédit depuis des années ; Walleye (17 milliards de dollars) rend du capital après son pire mois depuis la crise du coronavirus (FT).",
+    "Taux : le 10 ans français (TEC 10) est à 4,759 % le 6 novembre contre 3,33 % pour le Bund le 5 novembre, soit environ 143 points de base d'écart ; le VIX de nos données (16,61) date du 4 novembre et précède la chute."
+   ],
+   "articles": [
+    {
+     "title": "Jeudi noir à Wall Street : le Nasdaq perd 5,5 % et entre en correction",
+     "theme": "vol_derivatives",
+     "lead": "Les marchés américains ont connu leur pire séance depuis avril 2025, les valeurs de l'IA étant frappées par la crainte d'un coup de frein politique aux centres de données.",
+     "what": "Selon L'Agefi, le marché américain a connu sa pire séance depuis le « Liberation Day » d'avril 2025, le Nasdaq basculant en territoire de correction avec plus de 10 % de baisse par rapport à son record. Le Monde chiffre la perte du Nasdaq à plus de 5,5 % jeudi 5 novembre et titre que la victoire démocrate a fait exploser la bulle de l'IA. Le FT explique que les investisseurs craignent que les États-Unis cherchent désormais à ralentir le déploiement de centres de données, au détriment des groupes technologiques. Nos données donnent le Nasdaq à 24 315,00 (-5,52 %, -11,9 % sur un mois), le Dow Jones à 51 523,06 (-3,44 %) et le Nikkei à 61 077,90 (-1,79 %) le 5 novembre. Le VIX de nos données, 16,61, date du 4 novembre et ne reflète pas la séance.",
+     "why": "Le 4 novembre encore, les marchés rebondissaient en pariant qu'un gouvernement divisé réduirait le risque politique ; le retournement montre que le même événement peut être lu de deux façons, ce qui illustre la fragilité des anticipations. Le mécanisme avancé par le FT est une crainte de régulation de l'infrastructure d'IA : si les centres de données sont freinés, les revenus attendus des fournisseurs de puces et de cloud baissent, et les valorisations bâties sur ces attentes sont revues. Une correction désigne une baisse de plus de 10 % depuis un plus haut. Ces explications sont celles de la presse, pas des certitudes.",
+     "impact": "Une baisse de cette ampleur fait monter fortement la demande de protection : la volatilité implicite devrait bondir (ce que la série VIX, datée d'avant la séance, ne montre pas encore), ce qui renchérit les options. Pour les autocalls sur le Nasdaq ou des paniers de l'IA, les cours se rapprochent, voire franchissent, les barrières de protection ; la probabilité de rappel anticipé chute. Les teneurs de marché doivent rééquilibrer leurs couvertures en delta, ce qui peut amplifier les mouvements. Les produits à capital protégé tenus à l'échéance restent protégés, sous réserve du risque de crédit de l'émetteur.",
+     "interview": {
+      "question": "Le Nasdaq perd 5,5 % en une séance : quels effets sur la volatilité implicite, sur la couverture d'un autocall et sur le risque de franchissement de barrière ?",
+      "hints": [
+       "Smile de volatilité et hausse de la volatilité implicite à la baisse.",
+       "Delta-hedging : les ventes de couverture peuvent amplifier la baisse.",
+       "Distance à la barrière de protection et probabilité de rappel.",
+       "Distinguer perte latente et perte réalisée à l'échéance."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Delta-hedging",
+       "definition": "Ajustement continu de la position en sous-jacent pour neutraliser la sensibilité d'une option aux variations de cours."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Jeudi noir pour la tech à Wall Street",
+       "url": "https://www.agefi.fr/news/economie-marches/jeudi-noir-pour-la-tech-a-wall-street",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "A Wall Street, la victoire démocrate aux midterms a fait exploser la bulle de l'IA",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/05/a-wall-street-la-victoire-democrate-aux-midterms-a-fait-exploser-la-bulle-de-l-ia_6807339_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Global stocks tumble as Democratic midterm sweep sparks AI rout",
+       "url": "https://www.ft.com/content/7c6ceb4f-d7b1-49ec-9047-0e2e4cd2615c?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Japanese stocks post biggest one-day fall since 'liberation day' chaos",
+       "url": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Hedge funds : débouclages forcés, suppressions de postes et capital rendu",
+     "theme": "banks",
+     "lead": "La débâcle d'octobre puis la chute de jeudi frappent durement les fonds spéculatifs, qui réduisent leurs positions et leurs effectifs.",
+     "what": "Selon L'Agefi, qui reprend le Wall Street Journal, la débâcle des marchés en octobre a durement touché les hedge funds, les contraignant à déboucler leurs positions à un rythme inédit depuis des années et à supprimer des postes ; beaucoup accusaient déjà de lourdes pertes avant l'accélération de la chute jeudi. Le FT rapporte que Walleye, fonds multi-stratégies de 17 milliards de dollars d'actifs, rend du capital et réduit son activité sur les actions après son pire mois depuis la crise du coronavirus. Le FT avait déjà indiqué que Marshall Wace était touché par la correction technologique.",
+     "why": "Un hedge fund utilise souvent l'effet de levier, c'est-à-dire de l'emprunt, pour amplifier ses positions. Quand les prix baissent, les pertes déclenchent des appels de marge et des demandes de rachat des investisseurs, ce qui force à vendre des titres, y compris ceux qui ne baissaient pas : ces débouclages simultanés peuvent propager la baisse à d'autres actifs. Rendre du capital aux clients est une façon de réduire la taille du fonds et le risque. Ces faits viennent d'articles de presse ; nos sources ne donnent pas d'estimation chiffrée des pertes du secteur.",
+     "impact": "Des ventes forcées de hedge funds peuvent accentuer la volatilité et la corrélation entre actifs, ce qui détériore la liquidité sur les marchés d'options et rend la couverture plus coûteuse pour les banques. Les prime brokers, qui financent ces fonds, surveillent de près les appels de marge. Pour les produits structurés, un marché moins liquide élargit les écarts achat-vente sur les options, donc le coût de couverture, qui peut être répercuté sur les clients dans le prix ou le coupon.",
+     "interview": {
+      "question": "Pourquoi des pertes sur quelques positions peuvent-elles forcer un hedge fund à vendre des actifs sans rapport, et comment cela se propage-t-il aux marchés ?",
+      "hints": [
+       "Effet de levier, appels de marge et rachats d'investisseurs.",
+       "Débouclage de positions communes (crowded trades).",
+       "Corrélation qui monte en période de stress.",
+       "Rôle des prime brokers."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Appel de marge",
+       "definition": "Demande de dépôt de garantie supplémentaire faite à un investisseur lorsque la valeur de ses positions baisse."
+      },
+      {
+       "term": "Prime broker",
+       "definition": "Banque qui fournit financement, conservation et exécution aux hedge funds."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Plusieurs hedge funds suppriment des postes après des pertes",
+       "url": "https://www.agefi.fr/asset-management/actualites/plusieurs-hedge-funds-suppriment-des-postes-apres-des-pertes",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Hedge fund Walleye hands back capital as it slims down equity business",
+       "url": "https://www.ft.com/content/fb02c333-a439-4acd-b0b6-e50633ce863e?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Marshall Wace hit as hedge funds suffer in October's AI rout",
+       "url": "https://www.ft.com/content/fae029f1-f03e-4509-852e-396fa4863271?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Semi-conducteurs : les valorisations au plus bas depuis janvier 2019, aubaine ou piège ?",
+     "theme": "equities",
+     "lead": "Après la chute du 5 novembre, les valeurs de puces sont à leur moins cher depuis près de sept ans, ce qui attire les investisseurs à contre-courant.",
+     "what": "Selon MarketWatch, les actions de semi-conducteurs sont à leur niveau de valorisation le plus bas depuis janvier 2019, la forte baisse du 5 novembre pouvant constituer une opportunité d'achat pour les investisseurs contrariants, car les attentes de bénéfices ont fortement augmenté. Le même média évoque une déroute boursière qui s'étend bien au-delà des valeurs de l'IA, tandis que le FT note, dans sa lettre sur les marchés, que la baisse devient profonde mais pas encore large. Le Nasdaq est à 24 315,00 le 5 novembre (-11,9 % sur un mois).",
+     "why": "La valorisation d'un titre se mesure souvent par le ratio cours/bénéfices attendus : quand le cours baisse alors que les bénéfices attendus montent, ce ratio chute, ce qui est le cas ici. Les investisseurs contrariants pensent que la baisse est excessive ; d'autres répondent que les bénéfices attendus peuvent être revus à la baisse si la demande d'IA ralentit, ce qui rendrait le ratio trompeur. La question « jusqu'où peut-on descendre ? » reste donc ouverte et dépend de la trajectoire des bénéfices, que nos données ne permettent pas d'évaluer.",
+     "impact": "Pour les produits structurés vendus sur des paniers de semi-conducteurs, la chute rapproche les cours des barrières ; une volatilité implicite plus élevée rend les nouvelles émissions plus attractives sur le coupon, mais le risque de perte en capital est plus visible pour les nouveaux clients. Les stratégies de rebond (achat de calls, ventes de puts) deviennent plus chères en raison de la volatilité. Pour les banques, la dispersion forte entre valeurs complique la couverture des produits worst-of. Un rebond rapide, a contrario, ferait remonter les autocalls vers leurs seuils de rappel.",
+     "interview": {
+      "question": "Les semi-conducteurs sont à leur valorisation la plus basse depuis 2019 : à quelles conditions est-ce une opportunité, et à quelles conditions un piège de valeur ?",
+      "hints": [
+       "Ratio cours/bénéfices attendus et révision des bénéfices.",
+       "Cyclicité du secteur et dépendance aux investissements d'IA.",
+       "Volatilité implicite élevée : coût d'une stratégie de rebond.",
+       "Risque d'un produit à barrière sur ce sous-jacent."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Value trap",
+       "definition": "Titre qui paraît bon marché sur ses ratios mais dont les bénéfices baissent, de sorte que la décote est trompeuse."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Chip stocks are the cheapest they've been in nearly seven years. How low is too low?",
+       "url": "https://www.marketwatch.com/story/chip-stocks-are-the-cheapest-theyve-been-in-nearly-seven-years-how-low-is-too-low-7edd732d?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "After Wall Street's worst selloff since the 2025 tariff shock, here's what investors need to watch next",
+       "url": "https://www.marketwatch.com/story/after-wall-streets-worst-selloff-since-the-2025-tariff-shock-heres-what-investors-need-to-watch-next-6e2e629a?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "The sell-off gets deep",
+       "url": "https://www.ft.com/content/4ea585dd-6532-4839-a042-c9d1ad2e23f7?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Futures sur la dette de l'UE : les hedge funds américains veulent un accès élargi",
+     "theme": "regulation",
+     "lead": "Un projet du régulateur américain des marchés à terme pourrait ouvrir davantage aux fonds américains les contrats à terme sur les obligations de l'Union européenne.",
+     "what": "Selon L'Agefi, des associations de hedge funds soutiennent une initiative du régulateur américain des marchés visant à assouplir les règles de supervision qui limitent l'accès des fonds américains aux contrats à terme sur les obligations émises par l'Union européenne. Eurex et des dirigeants européens y seraient également favorables. Dans nos données, le Bund 10 ans est à 3,33 % le 5 novembre et le 10 ans français à 4,759 % le 6 novembre. Le détail technique des règles actuelles ne figure pas dans le résumé de l'article.",
+     "why": "Un contrat à terme sur obligation permet de se couvrir contre une variation de taux ou de spéculer sans acheter le titre. Plus ces contrats sont accessibles à des investisseurs variés, plus le marché est liquide, ce qui facilite le placement de la dette européenne commune et renforce son statut de référence. Les règles de supervision visent à contrôler quels produits peuvent être négociés par des résidents américains ; les assouplir élargit la base d'investisseurs. Les partisans y voient un gain de liquidité, mais l'article ne précise pas d'éventuelles objections.",
+     "impact": "Un marché plus liquide des futures sur la dette de l'UE réduit les coûts de couverture pour les gérants et les banques, ce qui peut resserrer légèrement les spreads de ces obligations. Pour les structureurs, des futures liquides facilitent la couverture des produits liés aux taux européens. Cela pourrait aussi renforcer le statut de référence de la dette de l'UE, mais cette conséquence n'est pas documentée par nos sources. L'effet concret dépendra de la décision finale du régulateur et du calendrier, qui ne sont pas connus à ce stade.",
+     "interview": {
+      "question": "À quoi servent les futures sur obligations d'État, et pourquoi élargir leur accès à de nouveaux investisseurs peut-il améliorer la liquidité du marché ?",
+      "hints": [
+       "Couverture du risque de taux sans achat du titre sous-jacent.",
+       "Liquidité et écart achat-vente.",
+       "Base entre future et obligation livrable (cheapest-to-deliver).",
+       "Statut d'actif sûr de la dette de l'UE."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Future sur obligation",
+       "definition": "Contrat à terme standardisé portant sur une obligation d'État, utilisé pour couvrir ou prendre une position sur les taux."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Les hedge funds américains veulent un accès plus large aux futures sur la dette de l'UE",
+       "url": "https://www.agefi.fr/news/economie-marches/les-hedge-funds-americains-veulent-un-acces-plus-large-aux-futures-sur-la-dette-de-lue",
+       "source": "L'Agefi"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-06",
    "generated_at": "2026-11-06T05:55:00+00:00",
    "brief": [
@@ -1882,5 +2054,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-06T05:55:00+00:00"
+ "updated_at": "2026-11-07T05:55:00+00:00"
 }
