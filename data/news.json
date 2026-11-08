@@ -1,6 +1,497 @@
 {
- "generated_at": "2026-11-07T11:15:26+00:00",
+ "generated_at": "2026-11-08T11:26:59+00:00",
  "items": [
+  {
+   "id": "7b7807a3d5a36e11",
+   "title": "«Les taux sont déjà plutôt restrictifs en zone euro et notamment en France»",
+   "link": "https://www.agefi.fr/news/economie-marches/les-taux-sont-deja-plutot-restrictifs-en-zone-euro-et-notamment-en-france",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-08T11:08+00:00",
+   "summary": "Marc Brütsch, chef économiste de Swiss Life AM.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "cfd52f5f77a14dd6",
+   "title": "Comment InvestingPro a anticipé la chute de 48% de Latigo",
+   "link": "https://fr.investing.com/news/investment-ideas/comment-investingpro-a-anticipe-la-chute-de-48-de-latigo-93CH-3683711",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T11:03+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "079571ed72a04938",
+   "title": "Le pari à 17 milliards $ de DoorDash sur Instacart menacé par Amazon et Uber",
+   "link": "https://fr.investing.com/news/company-news/le-pari-a-17-milliards--de-doordash-sur-instacart-menace-par-amazon-et-uber-3683710",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T10:58+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "440b8c7178c13d6a",
+   "title": "Les bureaux de Saudi Aramco à Riyad touchés par des missiles houthis",
+   "link": "https://fr.investing.com/news/economy-news/les-bureaux-de-saudi-aramco-a-riyad-touches-par-des-missiles-houthis-3683707",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T10:23+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "1159eaee44922763",
+   "title": "Rupert Campbell, EVP de Crocs, cède des actions CROX pour 399.000$",
+   "link": "https://fr.investing.com/news/insider-trading-news/rupert-campbell-evp-de-crocs-cede-des-actions-crox-pour-399000-93CH-3683705",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T10:16+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "e85857214667aea7",
+   "title": "Un administrateur de Crocs vend des actions pour 2,3 millions de dollars",
+   "link": "https://fr.investing.com/news/insider-trading-news/un-administrateur-de-crocs-vend-des-actions-pour-23-millions-de-dollars-93CH-3683704",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T10:02+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "b1602af17eaca502",
+   "title": "L’UE et le Royaume-Uni proches d’un accord sur le marché carbone post-Brexit",
+   "link": "https://fr.investing.com/news/economy-news/lue-et-le-royaumeuni-proches-dun-accord-sur-le-marche-carbone-postbrexit-3683703",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T09:39+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "cbbed4773d91101a",
+   "title": "Moins de touristes étrangers dans les commerces parisiens, autre conséquence des manifestations",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/08/moins-de-touristes-etrangers-dans-les-commerces-parisiens-autre-consequence-des-manifestations_6808417_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-08T09:30+00:00",
+   "summary": "Les mobilisations sociales et les scènes de violences impactent les commerces parisiens. Dans le quartier touristique du Marais, les magasins se barricadent. Fini le lèche-vitrine pour les visiteurs internationaux.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "2c706ef6bcb06bd9",
+   "title": "La centrale nucléaire de Zaporijjia perd son alimentation externe et bascule sur des générateurs diesel",
+   "link": "https://fr.investing.com/news/economy-news/la-centrale-nucleaire-de-zaporijjia-perd-son-alimentation-externe-et-bascule-sur-des-generateurs-diesel-3683700",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T09:08+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "e367fad1e414f947",
+   "title": "5 grandes décisions d’analystes sur l’IA : la chute historique est-elle une opportunité d’achat ?",
+   "link": "https://fr.investing.com/news/stock-market-news/5-grandes-decisions-danalystes-sur-lia--la-chute-historique-estelle-une-opportunite-dachat--3683698",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T08:54+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "d94cd3608f2d3ae9",
+   "title": "Un vice-président de Chemed cède des actions pour 494.196$",
+   "link": "https://fr.investing.com/news/insider-trading-news/un-vicepresident-de-chemed-cede-des-actions-pour-494196-93CH-3683695",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T08:31+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "09f1f38ffe411a4a",
+   "title": "La dépendance de la Turquie au charbon scrutée lors du sommet COP31",
+   "link": "https://fr.investing.com/news/economy-news/la-dependance-de-la-turquie-au-charbon-scrutee-lors-du-sommet-cop31-3683696",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-08T08:30+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "074e2f263f313f9d",
+   "title": "François Villeroy de Galhau : « Laisser filer la dette, c’est faire des choix contre la jeunesse, des choix gérontocratiques »",
+   "link": "https://www.lemonde.fr/idees/article/2026/11/08/francois-villeroy-de-galhau-laisser-filer-la-dette-c-est-faire-des-choix-contre-la-jeunesse-des-choix-gerontocratiques_6808404_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-08T05:30+00:00",
+   "summary": "Face à la crise financière et sociale, l’ancien gouverneur de la Banque de France, qui a quitté son poste en juin, plaide, dans un entretien au « Monde », pour un redressement fondé sur l’efficacité des dépenses publiques et sur trois grands projets concrets européens à l’horizon 2029 : IA, énergie et défense.",
+   "themes": [
+    "credit_sovereign",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 32
+  },
+  {
+   "id": "18b1c917f9d1af27",
+   "title": "Chez Grasset, un supplice mortifère après sept mois sans patron",
+   "link": "https://www.lemonde.fr/livres/article/2026/11/08/chez-grasset-un-supplice-mortifere-apres-sept-mois-sans-patron_6808405_3260.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-08T05:30+00:00",
+   "summary": "Depuis le limogeage brutal de son PDG Olivier Nora en avril, débarqué par son propriétaire, Vincent Bolloré, la maison parisienne de la rue des Saints-Pères attend, muette et tétanisée, de connaître son sort.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "5fedfe0a5499f700",
+   "title": "Le « super El Niño » inquiète les horticulteurs kényans, qui fournissent un tiers des fleurs importées de l’UE",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/08/le-super-el-nino-inquiete-les-horticulteurs-kenyans-qui-fournissent-un-tiers-des-fleurs-importees-de-l-ue_6808402_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-08T05:25+00:00",
+   "summary": "Ce pays d’Afrique de l’Est fournit aux étals européens de nombreux produits agricoles et horticoles. Les producteurs se préparent à un El Niño d’une puissance peut-être jamais vue.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "9c1a60497a9f575d",
+   "title": "Crypto industry braces for reckoning over Trump ties",
+   "link": "https://www.ft.com/content/f1b98a61-4103-447c-bb9a-3dccc0819f61?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-08T05:00+00:00",
+   "summary": "Democrats have vowed to start investigation into president’s family after sweeping victory in midterms",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "a6652c76488649b6",
+   "title": "‘Terrible backdrop’ looms over UN climate summit in Turkey",
+   "link": "https://www.ft.com/content/bec8ac4e-4c1d-424a-92af-f7330d9024d2?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-08T05:00+00:00",
+   "summary": "Various global crises suggest this year’s COP will be about trying to get previous deals acted upon, rather than bold commitments",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "82c304c448a3f27e",
+   "title": "« J’ai un entretien ce vendredi ! C’est mon dernier espoir… » : quand la réalité de la crise envahit les réseaux sociaux",
+   "link": "https://www.lemonde.fr/m-perso/article/2026/11/08/j-ai-un-entretien-ce-vendredi-c-est-mon-dernier-espoir-quand-la-realite-de-la-crise-envahit-les-reseaux-sociaux_6808389_4497916.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-08T04:00+00:00",
+   "summary": "Selon l’Insee, en France, le taux de chômage des moins de 25 ans a dépassé, au deuxième trimestre, les 21 %. Face à la difficulté à s’insérer dans le monde du travail, de nombreux jeunes « sous pression » trouvent, sur YouTube ou TikTok, des espaces pour s’épancher.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 20
+  },
+  {
+   "id": "a0f5ba049a3d9340",
+   "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+   "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T20:48+00:00",
+   "summary": "His niece convinced him to spend his retirement analyzing Taylor Swift lyrics. Now he’s a successful podcaster at 72.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "e02fb53b932ea82b",
+   "title": "Here are the 2027 capital-gains tax rates for each income level",
+   "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T19:48+00:00",
+   "summary": "How much will you pay in capital-gains taxes next year? The IRS just released this crucial information.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "5e3554ce06ec39c9",
+   "title": "Medicare prescription drug costs will jump 50% in 2027. Doing nothing could cost you.",
+   "link": "https://www.marketwatch.com/story/medicare-prescription-drug-costs-will-jump-50-in-2027-doing-nothing-could-cost-you-b701dfb7?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T19:20+00:00",
+   "summary": "Don’t sit on the sidelines during open enrollment.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "5e3d244e4608edac",
+   "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
+   "link": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T17:43+00:00",
+   "summary": "There are many ideas for saving Social Security. All of them will hurt.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "5869883f5920ec96",
+   "title": "I’m 65 and worth more than $5.6 million. Can I afford a $200,000 camper?",
+   "link": "https://www.marketwatch.com/story/im-65-and-worth-more-than-5-6-million-can-i-buy-a-200-000-camper-even-though-the-price-feels-crazy-high-55f668f8?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T17:33+00:00",
+   "summary": "Math may be cold and unemotional — but finances are not.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "4324b4b8cde2254e",
+   "title": "The wealthiest 10% of Americans are pulling ahead of everyone else. This is what’s making them richer.",
+   "link": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T17:04+00:00",
+   "summary": "The wealthiest 10% have a median net worth that is $800,000 greater than it was three years ago.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "63307c236c9d1d41",
+   "title": "Berkshire Hathaway steps up share buybacks with $9.6bn of purchases",
+   "link": "https://www.ft.com/content/1f153350-2377-4e48-a073-0539376eab4c?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-07T16:43+00:00",
+   "summary": "Insurance slowdown drags on performance, with quarterly operating income falling by 5.8 per cent year-on-year",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "4a6f415243eeb891",
+   "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
+   "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T16:40+00:00",
+   "summary": "The large-cap index is nowhere near as diversified as you think.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 15
+  },
+  {
+   "id": "c40ff0016bdf8652",
+   "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+   "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-07T16:30+00:00",
+   "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "81bd2f218d75fbd5",
+   "title": "« Wall Street s’inquiète peut-être, mais Main Street va bien »",
+   "link": "https://www.agefi.fr/news/economie-marches/wall-street-sinquiete-peut-etre-mais-main-street-va-bien",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-07T16:24+00:00",
+   "summary": "Florian Ielpo, responsable de la recherche macroéconomique chez Lombard Odier IM.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 15
+  },
+  {
+   "id": "7388696660d31f0f",
+   "title": "Alertes à la bombe visant des avions : une enquête ouverte par le parquet de Paris, notamment sur un lien éventuel avec des puissances étrangères",
+   "link": "https://www.lemonde.fr/societe/article/2026/11/07/alertes-a-la-bombe-visant-des-avions-une-enquete-ouverte-par-le-parquet-de-paris-notamment-sur-un-lien-eventuel-avec-des-puissances-etrangeres_6808294_3224.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-07T15:43+00:00",
+   "summary": "Les investigations sont « menées pour retrouver les auteurs des courriels divulguant ces fausses informations afin de faire croire à une destruction dangereuse », a expliqué le parquet.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "192d17b2a9d8c7f9",
+   "title": "Les prix de l’électricité pour les particuliers « seront stables jusqu’au 1ᵉʳ février au moins », selon le PDG d’EDF",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/07/les-prix-de-l-electricite-pour-les-particuliers-seront-stables-jusqu-au-1-fevrier-au-moins-selon-le-pdg-d-edf_6808283_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-07T14:13+00:00",
+   "summary": "Le 7 octobre, le premier ministre, Sébastien Lecornu, avait déclaré que le prix de l’électricité ne « devait pas augmenter cet hiver ».",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
+  {
+   "id": "71240352f25b849c",
+   "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+   "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-11-07T14:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 50
+  },
+  {
+   "id": "11bf96d5847c9f7c",
+   "title": "Les équipementiers automobiles s’alarment des conséquences sociales de l’accord franco-allemand",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/07/les-equipementiers-automobiles-s-alarment-des-consequences-sociales-de-l-accord-franco-allemand_6808276_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-07T13:00+00:00",
+   "summary": "La filière dénonce un compromis favorable aux constructeurs automobiles et craint une accélération des suppressions d’emplois et des fermetures d’usines. Chacun espère peser lors du débat au Parlement européen de la mi-décembre.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
+  },
   {
    "id": "4d3e7921ede86473",
    "title": "Comment la Juste Valeur d’InvestingPro a anticipé la baisse de 43% d’Unusual Machines",
@@ -79,6 +570,21 @@
    "official": false,
    "first_seen": "2026-11-07T11:15+00:00",
    "score": 15
+  },
+  {
+   "id": "2d4024fddae414fe",
+   "title": "Data centres rebuked",
+   "link": "https://www.ft.com/content/9d40f40a-cbf2-46f5-b3d0-cee554e35298?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-07T10:30+00:00",
+   "summary": "Capex, meet the electorate",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-08T11:26+00:00",
+   "score": 5
   },
   {
    "id": "889d7e36c0a9bfd6",
@@ -27269,54 +27775,6 @@
    "official": true,
    "first_seen": "2026-10-23T11:24+00:00",
    "score": 50
-  },
-  {
-   "id": "fbe78e7c0242d398",
-   "title": "CMORG holds sector-wide cloud outage simulation exercise",
-   "link": "https://www.bankofengland.co.uk/news/2026/october/cmorg-holds-sector-wide-cloud-outage-simulation-exercise",
-   "source": "Bank of England",
-   "sources": [
-    "Bank of England"
-   ],
-   "published": "2026-10-09T09:00+00:00",
-   "summary": "The Cross-Market Operational Resilience Group (CMORG) yesterday (8 October 2026) completed its biennial simulation exercise, known as SIMEX26, focused this year on a global cloud services disruption.",
-   "themes": [],
-   "official": true,
-   "first_seen": "2026-10-23T11:59+00:00",
-   "score": 15
-  },
-  {
-   "id": "e95750d1b74189d7",
-   "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
-   "source": "Fed",
-   "sources": [
-    "Fed"
-   ],
-   "published": "2026-10-08T20:30+00:00",
-   "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-   "themes": [
-    "central_banks"
-   ],
-   "official": true,
-   "first_seen": "2026-10-23T11:24+00:00",
-   "score": 50
-  },
-  {
-   "id": "115092f33ede014c",
-   "title": "Meeting of 9-10 September 2026",
-   "link": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
-   "source": "BCE",
-   "sources": [
-    "BCE",
-    "Bank of England"
-   ],
-   "published": "2026-10-08T11:30+00:00",
-   "summary": "",
-   "themes": [],
-   "official": true,
-   "first_seen": "2026-10-23T11:24+00:00",
-   "score": 30
   }
  ]
 }

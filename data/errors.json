@@ -1,25 +1,17 @@
 {
- "generated_at": "2026-11-07T11:05:35+00:00",
+ "generated_at": "2026-11-08T11:18:40+00:00",
  "employers_total": 143,
- "employers_failed": 1,
- "errors": [
-  {
-   "employer": "Stifel",
-   "platform": "generic",
-   "careers_url": "https://www.stifel.com/careers",
-   "error": "RobotsDisallowed: robots.txt disallows https://careers-stifel.icims.com/jobs/search?ss=1&searchKeyword=intern&in_iframe=1",
-   "at": "2026-11-07T11:08:48+00:00"
-  }
- ],
+ "employers_failed": 0,
+ "errors": [],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 4,
-   "kept": 1
+   "fetched": 5,
+   "kept": 0
   },
   {
    "employer": "JPMorgan",
-   "fetched": 589,
+   "fetched": 590,
    "kept": 22
   },
   {
@@ -34,8 +26,8 @@
   },
   {
    "employer": "Bank of America",
-   "fetched": 18,
-   "kept": 8
+   "fetched": 14,
+   "kept": 7
   },
   {
    "employer": "Barclays",
@@ -124,7 +116,7 @@
   },
   {
    "employer": "Amundi",
-   "fetched": 33,
+   "fetched": 34,
    "kept": 14
   },
   {
@@ -144,7 +136,7 @@
   },
   {
    "employer": "Schroders",
-   "fetched": 62,
+   "fetched": 61,
    "kept": 3
   },
   {
@@ -369,7 +361,7 @@
   },
   {
    "employer": "Zurich",
-   "fetched": 295,
+   "fetched": 294,
    "kept": 6
   },
   {
@@ -394,8 +386,8 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 8,
-   "kept": 3
+   "fetched": 9,
+   "kept": 2
   },
   {
    "employer": "EY",
@@ -409,7 +401,7 @@
   },
   {
    "employer": "PwC",
-   "fetched": 201,
+   "fetched": 200,
    "kept": 32
   },
   {
@@ -419,7 +411,7 @@
   },
   {
    "employer": "Accenture",
-   "fetched": 30,
+   "fetched": 31,
    "kept": 2
   },
   {
@@ -454,7 +446,7 @@
   },
   {
    "employer": "UniCredit",
-   "fetched": 17,
+   "fetched": 16,
    "kept": 4
   },
   {
@@ -479,7 +471,7 @@
   },
   {
    "employer": "Voleon",
-   "fetched": 65,
+   "fetched": 64,
    "kept": 2
   },
   {
@@ -510,6 +502,11 @@
   {
    "employer": "Eclipse Trading",
    "fetched": 16,
+   "kept": 0
+  },
+  {
+   "employer": "Stifel",
+   "fetched": 4,
    "kept": 0
   },
   {
@@ -684,7 +681,7 @@
   },
   {
    "employer": "Alstom",
-   "fetched": 396,
+   "fetched": 397,
    "kept": 1
   },
   {
@@ -699,7 +696,7 @@
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 87,
+   "fetched": 86,
    "kept": 0
   },
   {
