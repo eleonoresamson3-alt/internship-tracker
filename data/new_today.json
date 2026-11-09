@@ -1,21 +1,314 @@
 {
- "generated_at": "2026-11-08T11:18:40+00:00",
- "date": "2026-11-08",
+ "generated_at": "2026-11-09T12:54:32+00:00",
+ "date": "2026-11-09",
  "jobs": [
   {
-   "id": "rbc-capital-markets-e51882867eba",
-   "employer": "RBC Capital Markets",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Relationship Manager Intern, Commercial Financial Services",
-   "location": "NANAIMO, British Columbia, Canada",
+   "id": "groupe-credit-agricole-2a66b3f4de5e",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE – Assistant Sales Dérivés de Taux et Change & Placements structurés H/F",
+   "location": "",
    "countries": [
-    "CA"
+    "FR"
    ],
    "country_names": [
-    "Canada"
+    "France"
    ],
-   "region": "Rest of world",
+   "region": "France",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 80,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-3-stage--assistant-sales-derives-de-taux-et-change-et-placements-structures-hf-reference--2026-117298--/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "scotiabank-f7a8b415b5e3",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 UK Business Risk Management Summer Internship",
+   "location": "London (UK), ENG, GB",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/London-%28UK%29-2027-UK-Business-Risk-Management-Summer-Internship-ENG/607844117/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "scotiabank-d1f435e7193a",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 UK Finance Summer Internship",
+   "location": "London (UK), ENG, GB",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/London-%28UK%29-2027-UK-Finance-Summer-Internship-ENG/607843717/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "scotiabank-55a35e8580c0",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 UK Treasury Summer Internship",
+   "location": "London (UK), ENG, GB",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Treasury",
+   "role_level": "low",
+   "score": 47,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/London-%28UK%29-2027-UK-Treasury-Summer-Internship-ENG/607844217/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-6da88e0a6a1e",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage Gestion Solutions Structurées et Blended Finance H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-gestion-solutions-structurees-et-blended-finance-hf-reference--2026-117290--/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "lombard-odier-182a78fe9517",
+   "employer": "Lombard Odier",
+   "employer_type": "european_bank",
+   "platform": "workday",
+   "title": "Investment & Business Risk Management Intern – Europe 6 months",
+   "location": "Luxembourg",
+   "countries": [
+    "LU"
+   ],
+   "country_names": [
+    "Luxembourg"
+   ],
+   "region": "Europe (priority)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 35,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 5
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Luxembourg/Investment---Business-Risk-Management-Intern---Europe-6-months_R0007773",
+   "posted_at": "2026-11-09",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "scotiabank-5bb0cc81338e",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 Ireland Business Risk Management Summer Internship",
+   "location": "Dublin, D, IE",
+   "countries": [
+    "IE"
+   ],
+   "country_names": [
+    "Ireland"
+   ],
+   "region": "Europe (other)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 34,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Business-Risk-Management-Summer-Internship-D/607846517/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "scotiabank-cd7f4c11ea8a",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 Ireland Finance Summer Internship",
+   "location": "Dublin, D, IE",
+   "countries": [
+    "IE"
+   ],
+   "country_names": [
+    "Ireland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 34,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Finance-Summer-Internship-D/607846317/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "scotiabank-16602b275fde",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 Ireland Global Risk Management Summer Internship",
+   "location": "Dublin, D, IE",
+   "countries": [
+    "IE"
+   ],
+   "country_names": [
+    "Ireland"
+   ],
+   "region": "Europe (other)",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 34,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Global-Risk-Management-Summer-Internship-D/607846417/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "amundi-39773239fa82",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "STAGE – Investment & Product Strategy ETF & Indexing – Index & Mandates H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
    "family": "Markets (other)",
    "role_level": "low",
    "score": 10,
@@ -27,12 +320,41 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2026-11-30",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/NANAIMO-British-Columbia-Canada/Relationship-Manager-Intern--Commercial-Financial-Services_R-0000191809-1",
-   "posted_at": "2026-11-08",
-   "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08",
+   "url": "https://jobs.amundi.com/job/job-stage-investment-product-strategy-etf-indexing-index-mandates-h-f_117305.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "active": true
+  },
+  {
+   "id": "amundi-6ec61f3e82d4",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage Gestion Solutions Structurées et Blended Finance H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-gestion-solutions-structurees-et-blended-finance-h-f_117290.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
    "active": true
   }
  ]
