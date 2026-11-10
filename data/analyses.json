@@ -1,6 +1,173 @@
 {
  "days": [
   {
+   "date": "2026-11-10",
+   "generated_at": "2026-11-10T05:55:00+00:00",
+   "brief": [
+    "Actions : Nvidia recule après l'annonce d'une enquête de son conseil d'administration sur la relation de son PDG avec une personne soupçonnée d'espionnage (allégations rapportées par la presse) ; Morgan Stanley juge que la correction entre dans sa phase finale mais conseille d'attendre avant d'acheter.",
+    "Volatilité : le VIX était à 28,18 le 5 novembre (+69,7 % sur la journée) et le S&P 500 à 7 353,73 (-4,36 %) ; le Nikkei rebondit de 2,33 % le 9 novembre (58 775,5) après sa chute de la semaine passée.",
+    "Taux : le 10 ans français (TEC 10) est à 4,789 % le 9 novembre (+3,0 points de base) contre 3,33 % pour le Bund, soit environ 146 points de base d'écart ; Le Monde note que la hausse des taux pèse sur les constructeurs automobiles via le coût des locations.",
+    "Banques : le Crédit Agricole propose de fusionner son entité italienne avec Banco BPM, ce qui créerait la troisième banque d'Italie, avec 45 % du capital pour le groupe français (L'Agefi).",
+    "Crédit : Thames Water obtient un an de répit sur plus de 12 milliards de livres de dette senior ; Solvay lance un refinancement de 500 millions d'euros."
+   ],
+   "articles": [
+    {
+     "title": "Nvidia chute après l'ouverture d'une enquête sur son PDG : un risque d'homme-clé pour l'IA",
+     "theme": "equities",
+     "lead": "Le conseil d'administration du fabricant de puces enquête sur la relation de son dirigeant avec une personne soupçonnée d'espionnage ; le titre recule, dans un marché de l'IA déjà fragilisé.",
+     "what": "Selon L'Agefi et MarketWatch, Nvidia a vu son cours chuter après l'annonce par son conseil d'administration d'une enquête visant son PDG, Jensen Huang, accusé par la presse d'une relation avec une femme d'affaires chinoise liée à Pékin et présentée comme une espionne présumée. Le dirigeant reste en poste et coopère à l'enquête ; des analystes cités par MarketWatch estiment que l'affaire peut peser sur le titre pendant un certain temps, et les observateurs s'interrogent sur la succession en cas de départ. Ces faits sont des allégations rapportées par la presse, non établies. Nos données ne contiennent pas encore le cours de Nvidia ; le Nasdaq était à 24 579,42 le 6 novembre (+1,09 %, -10,75 % sur un mois).",
+     "why": "Nvidia est un acteur central de l'IA : une grande part du thème boursier repose sur ses puces. Quand la gouvernance d'une telle entreprise est mise en cause, les investisseurs évaluent le risque d'homme-clé, c'est-à-dire la dépendance de l'entreprise à une personne, ainsi que le risque réglementaire et géopolitique lié aux relations avec la Chine. L'incertitude pèse d'autant plus que le thème de l'IA a déjà subi une forte correction. Nos sources se limitent à des faits rapportés : l'enquête est en cours et son résultat est inconnu.",
+     "impact": "Nvidia pèse lourd dans le Nasdaq et dans les paniers de semi-conducteurs : une baisse du titre peut entraîner l'indice, d'où un effet sur les autocalls indexés sur le Nasdaq ou sur des paniers technologiques, dont les cours se rapprochent des barrières. La volatilité implicite sur le titre devrait monter, renchérissant les options et les produits à capital protégé indexés sur ce sous-jacent. Dans un panier worst-of, un événement idiosyncratique sur un seul titre suffit à déterminer le résultat. Les teneurs de marché doivent aussi gérer le risque de gap en cas de nouvelles défavorables pendant la nuit.",
+     "interview": {
+      "question": "Un événement spécifique à l'émetteur, comme une enquête sur son PDG, fait chuter un titre très pondéré dans un indice : comment cela affecte-t-il la valorisation et la couverture d'un autocall ?",
+      "hints": [
+       "Risque idiosyncratique contre risque de marché.",
+       "Poids de la valeur dans l'indice et dans le panier worst-of.",
+       "Volatilité implicite, skew et risque de gap.",
+       "Rôle de la gouvernance et du risque d'homme-clé dans la valorisation."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Risque d'homme-clé",
+       "definition": "Risque lié à la dépendance d'une entreprise envers un dirigeant dont le départ ou la mise en cause pourrait affecter son activité ou sa valorisation."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nvidia chute en Bourse alors que son patron fait face à une affaire de mœurs",
+       "url": "https://www.agefi.fr/news/entreprises/nvidia-chute-en-bourse-alors-que-son-patron-fait-face-a-une-affaire-de-mœurs",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "A new setback for the AI trade: Nvidia's board is probing CEO Huang's relationship with an alleged spy",
+       "url": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "FirstFT: Nvidia shares fall as it probes alleged Chinese spy scandal",
+       "url": "https://www.ft.com/content/494e9731-d195-40e0-9ad4-cf7811037c05?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Morgan Stanley : la correction entre dans sa phase finale, mais il faut encore attendre",
+     "theme": "vol_derivatives",
+     "lead": "Le stratège en chef de la banque voit le S&P 500 pouvoir descendre encore vers le bas de sa fourchette avant de constituer une bonne occasion d'achat.",
+     "what": "Selon MarketWatch, le stratège en chef de Morgan Stanley estime que la correction du marché entre dans sa phase finale, mais conseille d'attendre avant d'acheter : le S&P 500 pourrait encore reculer vers le bas de sa cible de baisse dans les semaines à venir, ce qui offrirait alors une bonne occasion de reprendre du risque. Le FT note que la chute de la tech expose le pari du fondateur de SoftBank sur l'IA. Nos données donnent le S&P 500 à 7 353,73 le 5 novembre (-4,36 %, -5,95 % sur un mois), le VIX à 28,18 (+69,66 % sur la journée) et le Nikkei à 58 775,50 le 9 novembre (+2,33 %, -14,86 % sur un mois).",
+     "why": "Une correction est une baisse de plus de 10 % depuis un plus haut ; le stratège dit en substance qu'une partie de la baisse est derrière nous mais pas toute. Le VIX, indicateur de volatilité implicite du S&P 500, a fortement monté : il reflète la demande de protection des investisseurs. Cette prévision est celle d'une banque, avec une incertitude importante, et ne garantit pas le point bas. Elle illustre un débat classique : acheter tôt expose à de nouvelles baisses, acheter tard risque de manquer le rebond.",
+     "impact": "À 28, le VIX est nettement plus haut qu'il y a une semaine : les options sont chères, ce qui permet aux émetteurs de proposer des coupons plus élevés sur les autocalls nouvellement émis, mais avec des barrières plus proches du cours, donc un risque de perte en capital plus tangible. Les produits déjà émis voient leur valeur de marché baisser, et les clients qui souhaitent sortir avant l'échéance subissent un prix de rachat dégradé. Pour les teneurs de marché, une volatilité élevée augmente les coûts de couverture en vega et gamma. Une stabilisation du VIX réduirait ces tensions.",
+     "interview": {
+      "question": "Le VIX a presque doublé en un mois : que cela signifie-t-il pour le prix et le profil de risque d'un autocall émis aujourd'hui par rapport à un autocall émis il y a un mois ?",
+      "hints": [
+       "Volatilité implicite plus élevée : option plus chère, coupon plus généreux.",
+       "Barrière plus proche du cours en cas de baisse du marché.",
+       "Valorisation mark-to-market des produits existants.",
+       "Risque de gap et coût de la couverture."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Mark-to-market",
+       "definition": "Valorisation d'une position au prix de marché du jour, par opposition à sa valeur à l'échéance."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The market's correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist",
+       "url": "https://www.marketwatch.com/story/the-markets-correction-is-entering-its-final-phase-but-wait-before-buying-the-dip-says-morgan-stanley-chief-strategist-2c1be13e?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Tech sell-off raises risks for SoftBank's massive AI bet",
+       "url": "https://www.ft.com/content/e19c86dc-9437-4827-a5ae-14bd4033037b?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Crédit Agricole veut fusionner son entité italienne avec Banco BPM",
+     "theme": "banks",
+     "lead": "Un projet « amical » créerait la troisième banque italienne, le groupe français montant à 45 % du capital de l'ensemble.",
+     "what": "Selon L'Agefi, le Crédit Agricole a dévoilé un projet, qualifié d'amical, de fusion de son entité italienne avec Banco BPM : l'opération créerait la troisième banque d'Italie et porterait la participation du groupe français à 45 % du capital du nouvel ensemble. Dans nos données, le 10 ans français est à 4,789 % le 9 novembre et le Bund 10 ans à 3,33 %. Les conditions financières détaillées (prix, calendrier, approbations réglementaires) ne figurent pas dans le résumé disponible.",
+     "why": "Les banques européennes cherchent de la taille pour mieux absorber les coûts fixes (technologie, conformité) et diversifier leurs revenus ; une fusion transfrontalière offre aussi une exposition à un autre marché national. Détenir 45 % sans contrôle total est une structure qui permet de partager le capital et le risque tout en gardant une influence forte. Le Monde a par ailleurs présenté, à propos d'un autre rapprochement bancaire européen, ces opérations comme une réponse à la concurrence des géants américains. Il reste à savoir si le projet sera approuvé par les actionnaires et les autorités, ce que l'article ne dit pas.",
+     "impact": "Pour un créancier, une fusion peut diversifier le risque pays de la banque, en réduisant sa dépendance à la France à un moment où les spreads sont élevés, ce qui peut améliorer sa notation, sans que ce soit acquis. Pour les produits structurés émis par ces banques, le spread de crédit de l'émetteur est un facteur de prix : un changement de profil de risque peut le modifier. Pour les actionnaires de Banco BPM, la prime offerte est un élément central, inconnu ici. Les banques d'investissement conseillant ce type d'opération perçoivent des commissions de conseil.",
+     "interview": {
+      "question": "Pourquoi une banque européenne cherche-t-elle à fusionner avec une banque d'un autre pays, et comment une fusion peut-elle modifier le spread de crédit de l'émetteur ?",
+      "hints": [
+       "Économies d'échelle, diversification géographique et réglementaire.",
+       "Risque pays et lien avec la notation souveraine.",
+       "Ratio de fonds propres et mode de financement de l'opération.",
+       "Effet sur les créanciers et sur les produits structurés émis."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Fusion amicale",
+       "definition": "Rapprochement négocié et soutenu par les dirigeants des deux sociétés, par opposition à une offre hostile."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Le Crédit Agricole veut fusionner son entité italienne avec Banco BPM",
+       "url": "https://www.agefi.fr/news/banque-assurance/le-credit-agricole-veut-fusionner-son-entite-italienne-avec-banco-bpm",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Comment la finance européenne espère combattre l'hégémonisme américain",
+       "url": "https://www.lemonde.fr/idees/article/2026/11/02/comment-la-finance-europeenne-espere-combattre-l-hegemonisme-americain_6805222_3232.html",
+       "source": "Le Monde"
+      }
+     ]
+    },
+    {
+     "title": "Thames Water gagne un an sur sa dette, Solvay refinance ses obligations",
+     "theme": "credit_sovereign",
+     "lead": "Le marché du crédit continue de fonctionner pour les émetteurs solides, tandis que les plus fragiles obtiennent des délais plutôt que des solutions.",
+     "what": "Selon L'Agefi, Thames Water, qui attend toujours d'être recapitalisée, a trouvé un accord pour repousser d'un an le paiement d'une dette senior de plus de 12 milliards de livres. Par ailleurs, Solvay lance le refinancement d'une partie de ses obligations : le rachat est conditionné au succès d'une nouvelle émission de 500 millions d'euros à taux fixe. Ares injecte un milliard de dollars dans Equinox après un refinancement d'urgence en 2024. Le Bund 10 ans est à 3,33 % le 9 novembre dans nos données.",
+     "why": "Un report de paiement donne du temps à une entreprise en difficulté mais ne règle pas le problème de fond : la dette reste, et la recapitalisation reste à faire. Le refinancement de Solvay illustre l'inverse : un émetteur solide remplace une dette ancienne par une nouvelle, souvent pour allonger l'échéance ou baisser le coût, tant que le marché est ouvert. Les deux cas montrent que l'accès au crédit dépend de la qualité de l'émetteur et des conditions de marché. Les termes précis de l'accord de Thames Water ne figurent pas dans nos sources.",
+     "impact": "Pour les investisseurs en obligations, un report d'échéance sur de la dette senior est un événement de crédit potentiel qui peut modifier le prix de ces titres et le coût de la protection (CDS) ; la façon dont il est défini dans les contrats est un point technique important. Pour les émetteurs solides comme Solvay, une émission réussie confirme que la demande reste présente. Pour les produits structurés, le choix de l'émetteur et son spread restent des éléments clés : une note émise par une entité fragile est moins chère mais plus risquée. La conditionnalité du rachat de Solvay à l'émission est un mécanisme courant pour limiter le risque d'exécution.",
+     "interview": {
+      "question": "Une entreprise obtient un an de report sur sa dette senior : est-ce un défaut, et comment les marchés de crédit et les CDS réagissent-ils ?",
+      "hints": [
+       "Distinguer report amiable, restructuration et défaut formel.",
+       "Définition des événements de crédit dans les contrats de CDS.",
+       "Position de la dette senior dans la structure du capital.",
+       "Effet sur le prix des obligations et sur le coût de refinancement."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Dette senior",
+       "definition": "Dette remboursée en priorité avant les dettes subordonnées et les actions en cas de difficulté de l'emprunteur."
+      },
+      {
+       "term": "Événement de crédit",
+       "definition": "Situation définie dans un contrat de CDS (défaut, restructuration, faillite) qui déclenche le paiement de la protection."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Thames Water obtient un nouveau répit pour rembourser sa dette",
+       "url": "https://www.agefi.fr/news/entreprises/thames-water-obtient-un-nouveau-repit-pour-rembourser-sa-dette",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Solvay lance le refinancement d'une partie de ses obligations",
+       "url": "https://www.agefi.fr/cash-risk/actualites/solvay-lance-le-refinancement-dune-partie-de-ses-obligations",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Ares injecte un milliard de dollars dans Equinox",
+       "url": "https://www.agefi.fr/private-equity/actualites/ares-injecte-un-milliard-de-dollars-dans-equinox",
+       "source": "L'Agefi"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-07",
    "generated_at": "2026-11-07T05:55:00+00:00",
    "brief": [
@@ -2054,5 +2221,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-07T05:55:00+00:00"
+ "updated_at": "2026-11-10T05:55:00+00:00"
 }
