@@ -1,12 +1,6 @@
 {
- "generated_at": "2026-11-09T13:02:54+00:00",
- "errors": [
-  {
-   "source": "BRI",
-   "url": "https://www.bis.org/doclist/all_pressrels.rss",
-   "error": "FeedError: no entries (not a feed, or the feed is empty)"
-  }
- ],
+ "generated_at": "2026-11-10T12:49:44+00:00",
+ "errors": [],
  "stats": [
   {
    "source": "BCE",
@@ -23,14 +17,20 @@
   {
    "source": "Fed",
    "items": 20,
-   "newest": "2026-11-05T16:00+00:00",
+   "newest": "2026-11-09T21:00+00:00",
    "oldest": "2026-09-18T15:00+00:00"
   },
   {
    "source": "Bank of England",
    "items": 50,
-   "newest": "2026-11-05T12:00+00:00",
-   "oldest": "2026-07-10T09:15+00:00"
+   "newest": "2026-11-10T12:00+00:00",
+   "oldest": "2026-07-13T12:32+00:00"
+  },
+  {
+   "source": "BRI",
+   "items": 1,
+   "newest": "2026-11-10T00:00+00:00",
+   "oldest": "2026-11-10T00:00+00:00"
   },
   {
    "source": "AMF",
@@ -41,38 +41,38 @@
   {
    "source": "L'Agefi",
    "items": 250,
-   "newest": "2026-11-09T13:02+00:00",
-   "oldest": "2026-10-30T16:15+00:00"
+   "newest": "2026-11-10T12:16+00:00",
+   "oldest": "2026-11-02T16:37+00:00"
   },
   {
    "source": "Financial Times – Markets",
    "items": 25,
-   "newest": "2026-11-09T12:26+00:00",
-   "oldest": "2026-11-06T16:47+00:00"
+   "newest": "2026-11-10T12:31+00:00",
+   "oldest": "2026-11-08T14:32+00:00"
   },
   {
    "source": "Financial Times – Global economy",
    "items": 25,
-   "newest": "2026-11-09T12:31+00:00",
-   "oldest": "2026-11-05T11:00+00:00"
+   "newest": "2026-11-10T10:45+00:00",
+   "oldest": "2026-11-05T13:00+00:00"
   },
   {
    "source": "MarketWatch",
    "items": 10,
-   "newest": "2026-11-09T12:27+00:00",
-   "oldest": "2026-11-09T09:12+00:00"
+   "newest": "2026-11-10T12:33+00:00",
+   "oldest": "2026-11-10T00:48+00:00"
   },
   {
    "source": "Investing.com France",
    "items": 10,
-   "newest": "2026-11-09T12:49+00:00",
-   "oldest": "2026-11-09T12:48+00:00"
+   "newest": "2026-11-10T12:30+00:00",
+   "oldest": "2026-11-10T12:22+00:00"
   },
   {
    "source": "Le Monde – Économie",
    "items": 20,
-   "newest": "2026-11-09T12:30+00:00",
-   "oldest": "2026-11-08T05:25+00:00"
+   "newest": "2026-11-10T11:16+00:00",
+   "oldest": "2026-11-09T17:59+00:00"
   }
  ]
 }
