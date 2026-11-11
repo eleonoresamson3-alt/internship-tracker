@@ -1,80 +1,80 @@
 {
- "generated_at": "2026-11-10T12:41:15+00:00",
- "date": "2026-11-10",
+ "generated_at": "2026-11-11T11:53:53+00:00",
+ "date": "2026-11-11",
  "jobs": [
   {
-   "id": "invesco-5e25828bf5c7",
-   "employer": "Invesco",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Intern, Quantitative Research (6 months fixed-term contract)",
-   "location": "Frankfurt, Hesse",
-   "countries": [
-    "DE"
-   ],
-   "country_names": [
-    "Germany"
-   ],
-   "region": "Europe (priority)",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 75,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 20,
-    "city": 0,
-    "timing": 5
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/Frankfurt-Hesse/Intern--Quantitative-Research--6-months-fixed-term-contract-_R-15889",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-1e87b86b581d",
-   "employer": "Santander CIB",
+   "id": "barclays-328b694acb29",
+   "employer": "Barclays",
    "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "2027 Pre & Post Trade Markets Operations: FX & Derivatives Business Support Summer Intern",
-   "location": "Madison Ave Corp",
+   "title": "Sales, Trading and Structuring Off Cycle Internship Programme 2027 Dubai",
+   "location": "Dubai International Financial Centre, Dubai",
    "countries": [
-    "US"
+    "AE"
    ],
    "country_names": [
-    "United States"
+    "United Arab Emirates"
    ],
    "region": "Rest of world",
-   "family": "Pricing / Quant",
+   "family": "Structuring",
    "role_level": "high",
-   "score": 62,
+   "score": 56,
    "score_breakdown": {
     "role": 50,
     "geo": 0,
     "city": 0,
-    "timing": 12
+    "timing": 6
    },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
+   "timing": "off-cycle",
+   "start": "2027",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Pre---Post-Trade-Markets-Operations--FX---Derivatives-Business-Support-Summer-Intern_Req1633001",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Dubai-International-Financial-Centre-Dubai/Sales--Trading-and-Structuring-Off-Cycle-Internship-Programme-2027-Dubai_JR-0000125149",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
    "active": true
   },
   {
-   "id": "alstom-9d2449990aa1",
-   "employer": "Alstom",
+   "id": "pwc-80016be2a9fd",
+   "employer": "PwC",
+   "employer_type": "consulting",
+   "platform": "workday",
+   "title": "Intern - Transfer Pricing",
+   "location": "Hanoi",
+   "countries": [
+    "VN"
+   ],
+   "country_names": [
+    "Vietnam"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 50,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Hanoi/Intern---Transfer-Pricing_773275WD",
+   "posted_at": "2026-11-11",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "active": true
+  },
+  {
+   "id": "michelin-87a6ca9c1051",
+   "employer": "Michelin",
    "employer_type": "corporate",
-   "platform": "successfactors",
-   "title": "Stage - 6 mois - IA & Automatisation appliquées à la Trésorerie H/F",
-   "location": "Saint-Ouen, FR",
+   "platform": "workday",
+   "title": "Stage – Purification des matières premières par adsorption (F/H)",
+   "location": "Clermont-Ferrand",
    "countries": [
     "FR"
    ],
@@ -82,7 +82,7 @@
     "France"
    ],
    "region": "France",
-   "family": "Treasury",
+   "family": "Markets (other)",
    "role_level": "low",
    "score": 45,
    "score_breakdown": {
@@ -95,52 +95,52 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-IA-&-Automatisation-appliqu%C3%A9es-%C3%A0-la-Tr%C3%A9sorerie-HF/1455685933/",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Purification-des-matires-premires-par-adsorption--F-H-_R-2026041882",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-4f7a15bd63b5",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage- Investment Risk Data Analyst H/F",
-   "location": "",
+   "id": "rbc-capital-markets-a542f40a4ae7",
+   "employer": "RBC Capital Markets",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "2028 Capital Markets, Global Markets Sales & Trading Summer Analyst",
+   "location": "New York, New York, United States of America",
    "countries": [
-    "FR"
+    "US"
    ],
    "country_names": [
-    "France"
+    "United States"
    ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 40,
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
    "score_breakdown": {
-    "role": 10,
-    "geo": 30,
+    "role": 30,
+    "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
+   "timing": "summer",
+   "start": "2028",
+   "deadline": "2027-11-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170470-124-stage--investment-risk-data-analyst-hf-reference--2026-114058--/",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
    "active": true
   },
   {
-   "id": "jane-street-1bd4b3dc349f",
-   "employer": "Jane Street",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "Formal Methods Research and Development",
-   "location": "London, England, United Kingdom",
+   "id": "m-g-747e23b4602d",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Risk & Compliance Internship (London)",
+   "location": "London",
    "countries": [
     "GB"
    ],
@@ -148,361 +148,167 @@
     "United Kingdom"
    ],
    "region": "Europe (priority)",
-   "family": "Markets (other)",
+   "family": "Risk",
    "role_level": "low",
-   "score": 35,
+   "score": 41,
    "score_breakdown": {
     "role": 10,
     "geo": 20,
     "city": 5,
-    "timing": 0
+    "timing": 6
    },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://www.janestreet.com/join-jane-street/apply/8927052002?gh_jid=8927052002",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-31",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Risk---Compliance-Internship--London-_R20871",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
    "active": true
   },
   {
-   "id": "scotiabank-182826444526",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "2027 Ireland Treasury Summer Internship",
-   "location": "Dublin, D, IE",
+   "id": "m-g-639dca78abe0",
+   "employer": "M&G",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Risk & Compliance Internship (Stirling)",
+   "location": "Stirling",
    "countries": [
-    "IE"
+    "GB"
    ],
    "country_names": [
-    "Ireland"
+    "United Kingdom"
    ],
-   "region": "Europe (other)",
-   "family": "Treasury",
+   "region": "Europe (priority)",
+   "family": "Risk",
    "role_level": "low",
-   "score": 34,
+   "score": 36,
    "score_breakdown": {
     "role": 10,
-    "geo": 12,
+    "geo": 20,
+    "city": 0,
+    "timing": 6
+   },
+   "timing": "off-cycle",
+   "start": "2028-09",
+   "deadline": "2026-12-31",
+   "deadline_source": "annonce",
+   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Risk---Compliance-Internship--Stirling-_R20870",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "active": true
+  },
+  {
+   "id": "invesco-b8fbfa466a08",
+   "employer": "Invesco",
+   "employer_type": "asset_manager",
+   "platform": "workday",
+   "title": "Early Career Intern - Sales Enablement & Digital Distribution",
+   "location": "New York, New York",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
     "city": 0,
     "timing": 12
    },
    "timing": "summer",
-   "start": "2027",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Sales-Enablement---Digital-Distribution_R-16057-1",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-102ac9f20ca4",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (Private Markets/ APAC Wealth)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869953",
+   "posted_at": "2026-10-23",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "active": true
+  },
+  {
+   "id": "lseg-b7b85d80e89b",
+   "employer": "LSEG",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Intern, Financial Accounting and Control",
+   "location": "Colombo, Sri Lanka",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Treasury-Summer-Internship-D/607848117/",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Financial-Accounting-and-Control_R0124941",
+   "posted_at": "2026-11-11",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
    "active": true
   },
   {
-   "id": "nasdaq-calypso-adenza-7bbf3cc4d006",
-   "employer": "Nasdaq (Calypso / Adenza)",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Technical Research Intern - 2027 Summer Internship",
-   "location": "USA - Richmond - Virginia",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---Richmond---Virginia/Technical-Research-Intern---2027-Summer-Internship_R0027292",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-76f94af65c27",
-   "employer": "Santander CIB",
+   "id": "rbc-capital-markets-771547991e39",
+   "employer": "RBC Capital Markets",
    "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "2027 Central Risk Operations Summer Intern",
-   "location": "Dallas",
+   "title": "Relationship Manager Intern, Business Markets",
+   "location": "LANGLEY, British Columbia, Canada",
    "countries": [
-    "US"
+    "CA"
    ],
    "country_names": [
-    "United States"
+    "Canada"
    ],
    "region": "Rest of world",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Dallas/XMLNAME-2027-Central-Risk-Operations-Summer-Intern_Req1633035",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-8e428ae0c8f7",
-   "employer": "Santander CIB",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "2027 Credit Portfolio & Administrative Agency Summer Intern",
-   "location": "Miami",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Credit-Portfolio---Administrative-Agency-Summer-Intern_Req1633009",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-3a0f84069310",
-   "employer": "Santander CIB",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "2027 Credit Portfolio Management Summer Intern – Miami",
-   "location": "Miami",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Credit-Portfolio-Management-Summer-Intern---Miami_Req1633015",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-1a3050c6b52a",
-   "employer": "Santander CIB",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "2027 Credit Portfolio Management Summer Intern – New York",
-   "location": "Madison Ave Corp",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Credit-Portfolio-Management-Summer-Intern---New-York_Req1633021",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-1f5a0525e715",
-   "employer": "Santander CIB",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "2027 Pre & Post Trade Finance Operations Summer Intern",
-   "location": "Miami",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Pre---Post-Trade-Finance-Operations-Summer-Intern_Req1632817",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-cc1a276a4ae3",
-   "employer": "Santander CIB",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "2027 Pre & Post Trade Markets Operations: Business Process Control & Oversight Summer Intern",
-   "location": "Miami",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Pre---Post-Trade-Markets-Operations--Business-Process-Control---Oversight-Summer-Intern_Req1632996",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "santander-cib-86392ef836b8",
-   "employer": "Santander CIB",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "2027 Pre & Post Trade Markets Operations: Fixed Income Middle Office Summer Intern",
-   "location": "Madison Ave Corp",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028-05",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Pre---Post-Trade-Markets-Operations--Fixed-Income-Middle-Office-Summer-Intern_Req1633041",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "amundi-de5d74b0f357",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage- Investment Risk Data Analyst H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-investment-risk-data-analyst-h-f_114058.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "amundi-05449ac4051d",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stagiaire - Data Science & IA H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
    "family": "Markets (other)",
    "role_level": "low",
    "score": 10,
@@ -514,21 +320,21 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-04-30",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stagiaire-data-science-ia-h-f_113923.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LANGLEY-British-Columbia-Canada/Relationship-Manager-Intern--Business-Markets_R-0000192413",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
    "active": true
   },
   {
-   "id": "jane-street-845d1c1e7980",
-   "employer": "Jane Street",
+   "id": "tower-research-85fa64daeb31",
+   "employer": "Tower Research",
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
-   "title": "Formal Methods Research and Development",
-   "location": "New York, New York, United States",
+   "title": "Finance Intern",
+   "location": "New York; New York, NY, United States",
    "countries": [
     "US"
    ],
@@ -549,68 +355,10 @@
    "start": "",
    "deadline": "",
    "deadline_source": "",
-   "url": "https://www.janestreet.com/join-jane-street/apply/8927083002?gh_jid=8927083002",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "unicredit-b1bd4d4bbae3",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Client Risk Management - Business Development - Internship",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Client-Risk-Management-Business-Management-Internship/117458",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "active": true
-  },
-  {
-   "id": "unicredit-dac4ab27d07f",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Institutional Distribution Sales - Internship",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Institutional-Distribution-Sales-Internship/117457",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "url": "https://www.tower-research.com/open-positions/?gh_jid=8372658",
+   "posted_at": "2026-11-10",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
    "active": true
   }
  ]
