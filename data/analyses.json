@@ -1,6 +1,169 @@
 {
  "days": [
   {
+   "date": "2026-11-11",
+   "generated_at": "2026-11-11T05:55:00+00:00",
+   "brief": [
+    "Fed : le gouverneur Christopher Waller évoque une hausse de 50 points de base en décembre si l'inflation américaine ne ralentit pas, la plus forte depuis 2022 (FT) ; tout dépend de l'inflation d'octobre, pas encore publiée dans nos données.",
+    "Pétrole : le brut passe sous 90 $ après le recul de Donald Trump sur une menace de frappe contre l'Iran, son plus bas niveau depuis fin août selon L'Agefi, qui juge ce repli fragile ; notre série Brent (107,03 $ au 3 novembre) est ancienne.",
+    "Marchés : rebond et rotation après la purge des positions sur la tech ; le Nasdaq gagne 2,74 % le 9 novembre (25 253,14) et le Dow Jones 2,15 % ; le VIX est à 25,64 le 6 novembre.",
+    "Taux : le 10 ans français (TEC 10) chute à 4,664 % le 10 novembre (-12,5 points de base) contre 3,31 % pour le Bund, soit environ 135 points de base d'écart, contre environ 146 la veille.",
+    "Crédit : le groupe Plesio (ex-Casino) s'accorde avec ses créanciers pour réduire sa dette de 610 millions d'euros et en repousser le remboursement ; Anthropic vise une valorisation jusqu'à 1 400 milliards de dollars pour son introduction en Bourse (FT)."
+   ],
+   "articles": [
+    {
+     "title": "Fed : Waller met une hausse de 50 points de base sur la table pour décembre",
+     "theme": "central_banks",
+     "lead": "Un gouverneur de la Fed juge qu'un relèvement de taux d'un demi-point serait envisageable si l'inflation ne ralentit pas, ce qui renforce l'enjeu des chiffres d'octobre.",
+     "what": "Selon le FT, le gouverneur de la Réserve fédérale Christopher Waller estime que les responsables devraient envisager une hausse de 50 points de base, la plus forte depuis 2022, si l'inflation américaine ne ralentit pas. MarketWatch précise que tout dépend du niveau de l'indice des prix à la consommation d'octobre, et titre que l'inflation élevée pourrait menacer le rebond du marché. Le FT rapporte aussi que le débat à la Banque du Japon porte désormais sur le rythme et le calendrier des hausses futures. Nos données donnent le 10 ans américain à 4,86 % et le 2 ans à 4,51 % le 6 novembre. La réunion de la Fed est prévue les 8-9 décembre.",
+     "why": "Un point de base vaut 0,01 % : 50 points de base représentent un demi-point, un pas plus fort que le rythme habituel de 25 points de base, que l'on emploie quand la banque centrale veut agir plus vite contre l'inflation. Le propos de Waller est conditionnel : il dépend de l'inflation, pas d'une décision prise. L'inflation d'octobre, dont nos données ne contiennent pas encore le chiffre, sert de test pour les anticipations de marché. Les banques centrales utilisent aussi ce type de déclaration pour guider les attentes sans s'engager, c'est de la communication.",
+     "impact": "Une hausse plus forte que prévu relèverait les rendements courts, aplatirait ou inverserait la courbe et pèserait sur les actions de croissance, dont la valorisation dépend des taux d'actualisation. Pour les notes à capital protégé en dollars, des taux plus élevés réduisent le prix du zéro-coupon et libèrent du budget pour la participation. Les options sur taux (caps, swaptions) deviennent plus chères si l'incertitude sur le rythme augmente. Pour les produits indexés sur un taux court variable, les coupons seraient plus élevés. À l'inverse, une inflation plus faible que prévu pourrait détendre ces anticipations.",
+     "interview": {
+      "question": "Un gouverneur de la Fed évoque une hausse de 50 points de base : quels indicateurs surveillez-vous pour anticiper la décision, et comment cela se reflète-t-il dans les prix de swaps et d'options ?",
+      "hints": [
+       "Inflation, inflation sous-jacente, emploi et anticipations d'inflation.",
+       "Taux implicites des futures sur fed funds : probabilité de hausse.",
+       "Effet sur la courbe 2 ans - 10 ans et sur le dollar.",
+       "Impact sur les produits à capital protégé et à coupon variable."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Point de base",
+       "definition": "Un centième de point de pourcentage (0,01 %) ; 50 points de base équivalent à un demi-point."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Top Federal Reserve official considers largest rate rise since 2022",
+       "url": "https://www.ft.com/content/72abed21-6043-4b2b-81b1-f3a2547da5b7?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Fed's Waller puts half-point rate hike into the mix for December",
+       "url": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Bank of Japan rate debate switches to pace and timing of future hikes",
+       "url": "https://www.ft.com/content/b98d07ff-5d89-4782-84c0-6e1e3cb56806",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole sous 90 $ : le recul de Trump sur l'Iran, un repli que L'Agefi juge fragile",
+     "theme": "fx_commodities",
+     "lead": "Le brut tombe à son plus bas niveau depuis fin août après des déclarations américaines jugées apaisantes sur la guerre en Iran.",
+     "what": "Selon le FT, le pétrole passe sous 90 $ après que Donald Trump a renoncé à menacer de frapper l'Iran ; la baisse des prix du brut soutient le rebond des actions mondiales après la chute de la semaine dernière. L'Agefi parle d'un repli vers 90 dollars le baril, un plus bas depuis fin août, qui semble encore fragile. Le Monde indique par ailleurs que le tarif du gaz va augmenter de 5,8 % pour les foyers français, ce qui porterait la hausse moyenne de la facture à 11,8 % en 2026, soit 143 euros, selon la Commission de régulation de l'énergie. Notre série Brent (107,03 $ le 3 novembre) précède cette baisse.",
+     "why": "Le prix du pétrole intègre le risque d'une perturbation de l'offre : quand une menace militaire recule, la prime de risque se dégonfle et les cours chutent rapidement. Le mouvement est sensible aux déclarations politiques et donc fragile, comme le souligne L'Agefi. Le prix du gaz pour les ménages français, lui, suit avec retard les prix de gros : la hausse annoncée reflète la guerre au Moyen-Orient d'avant la baisse récente du pétrole, et rien dans nos sources ne dit qu'elle sera corrigée.",
+     "impact": "Un pétrole nettement plus bas réduit les anticipations d'inflation et peut faire baisser les rendements obligataires, ce qui soutient les actions : c'est le lien relevé par le FT entre baisse du brut et rebond. Pour les produits structurés indexés sur le Brent, un repli d'environ 15 % ou plus par rapport au 3 novembre (107,03 $ dans nos données, sans garantie que le contrat cité par le FT soit le même) rapproche les cours des barrières basses, tandis que la volatilité reste élevée. Pour la zone euro, importatrice d'énergie, un baril moins cher améliore les termes de l'échange et soutient en principe l'euro. Les producteurs et leurs créanciers sont à l'inverse pénalisés par des prix plus bas.",
+     "interview": {
+      "question": "Le pétrole perd une partie importante de sa valeur sur une déclaration politique : pourquoi cette réaction est-elle rapide, et comment l'intégrer dans le prix d'une option sur le Brent ?",
+      "hints": [
+       "Prime de risque géopolitique et rôle des anticipations.",
+       "Courbe à terme (backwardation/contango) et volatilité implicite.",
+       "Lien pétrole - inflation - taux - actions.",
+       "Effet pour une économie importatrice comme la zone euro."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Prime de risque géopolitique",
+       "definition": "Surcoût inclus dans le prix d'un actif, notamment le pétrole, pour tenir compte du risque de perturbation de l'offre lié à des tensions politiques ou militaires."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Oil falls below $90 as Trump pulls back from threat to strike Iran",
+       "url": "https://www.ft.com/content/07bdb58c-4557-4def-b8cb-db9be304fd72?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Le fragile repli du pétrole se poursuit vers 90 dollars le baril",
+       "url": "https://www.agefi.fr/news/economie-marches/le-fragile-repli-du-petrole-se-poursuit-vers-90-dollars-le-baril",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Gaz : nouvelle hausse de 5,8 % à venir pour les foyers français, dans le sillage de la guerre au Moyen-Orient",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/10/gaz-nouvelle-hausse-de-5-8-a-venir-pour-les-foyers-francais-dans-le-sillage-du-conflit-au-moyen-orient_6808828_3234.html",
+       "source": "Le Monde"
+      }
+     ]
+    },
+    {
+     "title": "Rebond et rotation : les marchés se rassurent, le 10 ans français passe à 4,66 %",
+     "theme": "equities",
+     "lead": "Après la chute de la semaine dernière, les actions rebondissent et la rotation vers d'autres secteurs que la tech rassure, tandis que les taux français baissent nettement.",
+     "what": "Selon L'Agefi, les places boursières rebondissent mardi en Asie comme en Europe, dans le sillage de Wall Street et de la baisse du pétrole ; le mouvement est facilité par une purge des excès de positionnement sur la tech, et la rotation vers d'autres secteurs rassure. Nos données donnent le Nasdaq à 25 253,14 le 9 novembre (+2,74 %), le Dow Jones à 52 389,75 (+2,15 %) et le VIX à 25,64 le 6 novembre (-9,01 %). Le TEC 10 français est à 4,664 % le 10 novembre (-12,5 points de base sur la journée, -26,4 sur une semaine) et le Bund à 3,31 % : l'écart est d'environ 135 points de base, contre environ 166 le 23 octobre.",
+     "why": "Une purge des positionnements signifie que les investisseurs qui étaient trop exposés à la tech, souvent avec effet de levier, ont réduit leurs positions : une fois ces ventes forcées passées, la pression baissière diminue et un rebond devient possible. La rotation désigne le déplacement de capitaux vers d'autres secteurs, ce qui peut stabiliser l'indice sans que la tech remonte. La baisse des taux français à 4,664 % s'inscrit dans un mouvement général de détente, mais nos sources ne donnent pas de cause précise pour la France. Un rebond de deux séances ne garantit pas un point bas : il faut attendre les chiffres d'inflation.",
+     "impact": "La baisse du VIX, même s'il reste élevé à 25,64, réduit le coût des options et peut diminuer les coupons des produits structurés nouvellement émis, tout en rééloignant les cours des barrières de protection. Les autocalls dont les cours étaient proches des barrières la semaine dernière retrouvent un peu de marge. Un resserrement du spread OAT-Bund réduit le coût de financement de l'État, des banques et des entreprises françaises, ce qui améliore le prix de la jambe obligataire des notes émises par des banques françaises. Une réversion de ces mouvements aurait l'effet inverse.",
+     "interview": {
+      "question": "Qu'appelle-t-on une purge des positionnements, et comment un rebond se distingue-t-il du début d'un nouveau marché haussier ?",
+      "hints": [
+       "Positionnement des fonds, levier et ventes forcées.",
+       "Rotation sectorielle et breadth du marché.",
+       "Rôle du VIX et de la structure à terme de la volatilité.",
+       "Impact sur les autocalls proches de leur barrière."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Rotation sectorielle",
+       "definition": "Déplacement des investisseurs d'un secteur vers d'autres, par exemple de la tech vers des secteurs jugés moins chers ou plus défensifs."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Le marché poursuit son rebond et sa rotation",
+       "url": "https://www.agefi.fr/news/economie-marches/le-marche-poursuit-son-rebond-et-sa-rotation",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Nvidia couldn't derail the stock market's rally. Hot inflation might.",
+       "url": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Plesio (ex-Casino) : accord avec les créanciers pour réduire la dette de 610 millions d'euros",
+     "theme": "credit_sovereign",
+     "lead": "Après un an de négociations, le groupe propriétaire de Monoprix, Spar et Franprix obtient une réduction de dette et un report des échéances.",
+     "what": "Selon Le Monde, le groupe Plesio, ex-Casino, maison mère de Monoprix, Spar et Franprix, s'est entendu avec ses créanciers et son actionnaire majoritaire, Daniel Kretinsky, pour réduire sa dette de 610 millions d'euros et en repousser le remboursement, après un an de discussions âpres. Par ailleurs, Thames Water a obtenu la veille un report d'un an sur sa dette senior, et L'Agefi rapporte que l'AMF demande aux fonds monétaires de relever leurs tampons de liquidité. Les détails de l'accord (échéances, taux, conversions éventuelles) ne figurent pas dans le résumé disponible.",
+     "why": "Une restructuration de dette modifie les conditions initiales d'un emprunt : réduction du montant (décote), allongement de la maturité, ou échange contre des actions. Pour les créanciers, elle limite la perte par rapport à une faillite, mais entraîne une perte par rapport au contrat d'origine. L'accord avec l'actionnaire majoritaire suggère qu'il apporte lui aussi un effort, mais nos sources ne le détaillent pas. Un processus long, d'un an ici, illustre la difficulté de coordonner des créanciers aux intérêts différents (créanciers garantis, non garantis, actionnaires).",
+     "impact": "Pour les détenteurs d'obligations de l'émetteur, une restructuration avec décote est un événement de crédit potentiel qui peut déclencher les CDS selon la définition contractuelle : la qualification dépend des termes. Pour les investisseurs en crédit spéculatif, ce type d'accord améliore la visibilité sur le profil de l'émetteur et peut faire baisser les spreads de l'entreprise une fois l'incertitude levée. Pour les produits structurés, il faut éviter de confondre risque de l'émetteur de la note et risque du sous-jacent : un produit indexé sur une action d'une société en restructuration est plus risqué qu'un produit indexé sur un indice.",
+     "interview": {
+      "question": "Une entreprise restructure sa dette avec une décote de 610 millions d'euros et un report d'échéance : quelles sont les conséquences pour les créanciers, les actionnaires et le marché des CDS ?",
+      "hints": [
+       "Décote, extension de maturité et conversion en capital.",
+       "Hiérarchie des créanciers et dette garantie ou non.",
+       "Événement de crédit et déclenchement des CDS.",
+       "Effet sur le spread et sur la notation."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Restructuration de dette",
+       "definition": "Renégociation des conditions d'une dette (montant, échéance, taux) entre un emprunteur en difficulté et ses créanciers pour éviter un défaut désordonné."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Le groupe Plesio, ex-Casino, s'accorde avec ses créanciers sur la restructuration de sa dette",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/10/le-groupe-plesio-ex-casino-s-accorde-avec-ses-creanciers-sur-la-restructuration-de-sa-dette_6808826_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Thames Water obtient un nouveau répit pour rembourser sa dette",
+       "url": "https://www.agefi.fr/news/entreprises/thames-water-obtient-un-nouveau-repit-pour-rembourser-sa-dette",
+       "source": "L'Agefi"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-10",
    "generated_at": "2026-11-10T05:55:00+00:00",
    "brief": [
@@ -2221,5 +2384,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-10T05:55:00+00:00"
+ "updated_at": "2026-11-11T05:55:00+00:00"
 }
