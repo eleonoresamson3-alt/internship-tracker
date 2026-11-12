@@ -1,6 +1,179 @@
 {
  "days": [
   {
+   "date": "2026-11-12",
+   "generated_at": "2026-11-12T05:55:00+00:00",
+   "brief": [
+    "Inflation américaine : l'indice des prix d'octobre, publié mardi 10 novembre, est jugé élevé par MarketWatch, et Goldman Sachs intègre désormais un resserrement supplémentaire de la Fed ; nos séries n'ont pas encore le chiffre ni la réaction du 10 ans américain (4,88 % au 9 novembre).",
+    "Actions : le S&P 500 recule de 0,38 % le 10 novembre (7 520,93) et le Nasdaq de 0,74 % (25 065,87) ; le VIX est à 19,92 le 9 novembre (-22,3 % sur la journée) ; le Nikkei gagne 2,87 % (60 459,58).",
+    "Taux : le 10 ans français (TEC 10) est à 4,664 % le 10 novembre contre 3,31 % pour le Bund, soit environ 135 points de base d'écart ; Le Monde note que le marché immobilier français ralentit avec la hausse des taux.",
+    "Crédit : CoreWeave rassure avec 9 milliards de dollars de remboursements anticipés prévus, après un chiffre d'affaires supérieur aux attentes (MarketWatch).",
+    "Introductions en Bourse : Anthropic vise une valorisation jusqu'à 1 400 milliards de dollars, avec des actions vendues jusqu'à 78 $ (FT), après l'introduction record de SpaceX."
+   ],
+   "articles": [
+    {
+     "title": "Inflation américaine plus forte que prévu : Goldman Sachs prévoit un resserrement supplémentaire de la Fed",
+     "theme": "central_banks",
+     "lead": "Après la publication d'une inflation d'octobre élevée, la banque d'investissement révise sa trajectoire de taux, renforçant les craintes d'une hausse plus forte en décembre.",
+     "what": "Selon MarketWatch, après les chiffres d'inflation élevés publiés mardi, Goldman Sachs prévoit désormais un resserrement supplémentaire de la Fed. La veille, le gouverneur Christopher Waller avait évoqué une hausse de 50 points de base en décembre si l'inflation ne ralentissait pas ; le FT le décrit dans sa lettre sur les marchés comme un faucon de l'inflation. Le chiffre exact de l'indice des prix n'est pas dans nos sources. Dans nos données, le S&P 500 a reculé de 0,38 % le 10 novembre (7 520,93) et le Nasdaq de 0,74 % (25 065,87), le 10 ans américain étant à 4,88 % et le 2 ans à 4,56 % le 9 novembre, avant la publication.",
+     "why": "Les prévisions des banques d'investissement orientent les anticipations de marché : quand une grande banque révise sa trajectoire de taux, les investisseurs ajustent leurs positions sur les contrats à terme de taux. Une inflation élevée contraint la Fed à agir si elle veut préserver sa crédibilité, c'est-à-dire la confiance que l'inflation reviendra vers sa cible. Le lien avec la déclaration de Waller montre que le scénario d'une hausse plus forte, conditionnel la veille, devient plus plausible, sans être décidé. La réunion de la Fed est prévue les 8-9 décembre selon notre calendrier.",
+     "impact": "Une Fed plus restrictive relève les rendements courts et tend à aplatir la courbe. Les actions de croissance, dont la valeur dépend de flux lointains actualisés, sont pénalisées : cela est cohérent avec la baisse plus forte du Nasdaq que du Dow Jones le 10 novembre, sans que la causalité soit démontrée par nos sources. Pour les notes à capital protégé en dollars, des taux plus élevés réduisent le prix du zéro-coupon et augmentent le budget disponible pour l'option. La volatilité des taux, donc les prix des swaptions, devrait rester élevée jusqu'à la réunion. Le dollar tend à se renforcer quand les anticipations de taux américains montent.",
+     "interview": {
+      "question": "Une inflation américaine plus forte que prévu pousse Goldman Sachs à anticiper plus de hausses de la Fed : comment cela se lit-il dans la courbe des taux, le dollar et les actions de croissance ?",
+      "hints": [
+       "Effet sur les taux courts et sur la pente de la courbe.",
+       "Taux d'actualisation et valorisation des actions de croissance.",
+       "Dollar et différentiels de taux.",
+       "Impact sur les produits à capital protégé et les swaptions."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Faucon (hawk)",
+       "definition": "Responsable de banque centrale plutôt favorable à des taux élevés pour lutter contre l'inflation."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast",
+       "url": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Oil traders give peace a chance (but should they?)",
+       "url": "https://www.ft.com/content/aa40cb43-4d0f-4f3c-a7aa-fbc2606f5719?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Nvidia couldn't derail the stock market's rally. Hot inflation might.",
+       "url": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "CoreWeave : un nouveau schéma de financement apaise les craintes sur la dette",
+     "theme": "credit_sovereign",
+     "lead": "Le fournisseur d'infrastructures d'IA dépasse les attentes de chiffre d'affaires et prévoit 9 milliards de dollars de remboursements anticipés, ce qui rassure ses investisseurs.",
+     "what": "Selon MarketWatch, l'action de CoreWeave bondit après un chiffre d'affaires supérieur aux attentes au troisième trimestre et 9 milliards de dollars de remboursements anticipés prévus, qui apaisent les inquiétudes sur sa dette grâce à un nouveau schéma de financement. Le détail des opérations (instruments, calendrier, taux) ne figure pas dans le résumé disponible. Oracle avait dû proposer plus de 8 % sur ses obligations à 20 ans pour lever de la dette, et UBS avait abaissé son objectif de cours sur CoreWeave en octobre en raison de préoccupations sur l'infrastructure d'IA. Baird dégrade par ailleurs Nvidia à cause de la visibilité sur les centres de données (Investing.com).",
+     "why": "Les acteurs de l'infrastructure d'IA empruntent beaucoup pour acheter des puces et construire des centres de données ; la question est de savoir s'ils pourront rembourser avec les revenus futurs. Un remboursement anticipé réduit l'encours de dette et les charges d'intérêts, ce qui améliore le profil de crédit et peut faire baisser le coût du refinancement. Que le marché réagisse positivement montre que la dette était un sujet d'inquiétude majeur. Une bonne nouvelle d'un émetteur ne lève pas toutes les craintes sur le secteur, d'autant que nos sources ne détaillent pas la manière dont ces remboursements sont financés.",
+     "impact": "Pour les investisseurs en obligations de ces émetteurs, un désendettement annoncé resserre les spreads et valorise les titres existants. Pour les produits structurés dont le sous-jacent est une action de ce type, la volatilité implicite reste très élevée : les options sont chères, ce qui permet des coupons généreux avec une barrière de protection exposée à des chutes brutales (un titre qui monte fortement peut aussi chuter de même). Les CDS sur ces émetteurs sont un indicateur utile du stress de crédit du secteur. Pour les banques qui financent ces projets, le risque de concentration sur un thème est un point de surveillance.",
+     "interview": {
+      "question": "Une entreprise annonce des remboursements anticipés de dette et son action bondit : pourquoi, et que regardez-vous dans le profil de crédit avant et après l'opération ?",
+      "hints": [
+       "Levier, couverture des intérêts et profil d'échéances.",
+       "Origine des fonds du remboursement (cash, nouvelle dette, capital).",
+       "Spreads de crédit et CDS.",
+       "Lien entre solidité du bilan et volatilité de l'action."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Remboursement anticipé",
+       "definition": "Paiement d'une dette avant son échéance contractuelle, qui réduit l'encours et les intérêts futurs."
+      }
+     ],
+     "sources": [
+      {
+       "title": "CoreWeave's stock pops as new financing playbook eases debt concerns",
+       "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Oracle paie le prix fort pour se financer",
+       "url": "https://www.agefi.fr/news/entreprises/oracle-paie-le-prix-fort-pour-se-financer",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Baird dégrade la note de Nvidia en raison de la visibilité des centres de données",
+       "url": "https://fr.investing.com/news/analyst-ratings/baird-degrade-la-note-de-nvidia-en-raison-de-la-visibilite-des-centres-de-donnees-93CH-3690047",
+       "source": "Investing.com France"
+      }
+     ]
+    },
+    {
+     "title": "Immobilier : les transactions ralentissent avec la hausse des taux",
+     "theme": "credit_sovereign",
+     "lead": "Les prix baissent légèrement mais l'accès au crédit se durcit, et le marché locatif reste bloqué.",
+     "what": "Selon Le Monde, les transactions immobilières ralentissent en France sur fond de hausse des taux d'intérêt : les prix affichent une légère baisse, insuffisante pour compenser les difficultés d'accès au crédit, tandis que le marché de la location reste bloqué. Dans le même temps, Le Monde note que la hausse des taux pèse sur les constructeurs automobiles via le coût des locations. Nos données donnent le TEC 10 à 4,664 % et le TEC 2 ans à 3,473 % le 10 novembre ; le taux de dépôt de la BCE est à 2,5 %, et le Bund 10 ans à 3,31 %.",
+     "why": "Le taux d'un crédit immobilier suit le coût de financement des banques, qui dépend en partie des taux longs de l'État : quand le 10 ans français est autour de 4,7 % à 5 %, les prêteurs répercutent ce coût dans les taux proposés aux ménages. À mensualité donnée, un taux plus élevé réduit le capital qu'un ménage peut emprunter, donc la demande solvable, ce qui freine les transactions avant même que les prix ne baissent : c'est le mécanisme évoqué par le Monde. Les prix immobiliers s'ajustent lentement, car les vendeurs répugnent à baisser leurs prix.",
+     "impact": "Pour les banques, une baisse des volumes de crédit immobilier réduit leur production de prêts, tandis que la marge dépend de l'écart entre taux de prêt et coût de la ressource. Pour les produits structurés et les titres adossés à des prêts hypothécaires, un ralentissement du marché immobilier affecte la qualité future des actifs. La baisse récente des taux français (le TEC 10 a perdu environ 26 points de base en une semaine) pourrait avec retard atténuer ce frein, sans certitude. Les assureurs et les foncières sont aussi sensibles à ce cycle.",
+     "interview": {
+      "question": "Comment la hausse du rendement des emprunts d'État à 10 ans se transmet-elle aux taux des crédits immobiliers et au marché du logement ?",
+      "hints": [
+       "Coût de la ressource des banques et taux de swap.",
+       "Capacité d'emprunt à mensualité constante.",
+       "Délai d'ajustement des prix de l'immobilier.",
+       "Effet sur le risque de crédit des banques."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Capacité d'emprunt",
+       "definition": "Montant maximal qu'un ménage peut emprunter compte tenu de ses revenus, de la durée et du taux du crédit."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Immobilier : les transactions ralentissent sur fond de hausse des taux d'intérêt",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/11/immobilier-les-transactions-ralentissent-sur-fond-de-hausse-des-taux-d-interet_6808945_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "La hausse des taux d'intérêt pèse sur les constructeurs automobiles",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/09/la-hausse-des-taux-d-interet-pese-sur-les-constructeurs-automobiles_6808636_3234.html",
+       "source": "Le Monde"
+      }
+     ]
+    },
+    {
+     "title": "Introductions en Bourse géantes : de SpaceX à Anthropic, quels effets sur les indices et les marchés ?",
+     "theme": "equities",
+     "lead": "Deux introductions record rythment la fin d'année, avec des questions sur l'effet sur les indices et sur la digestion par le marché.",
+     "what": "Selon le FT, Anthropic vise une valorisation allant jusqu'à 1 400 milliards de dollars pour son introduction en Bourse, la société et certains investisseurs prévoyant de vendre des actions jusqu'à 78 $ chacune ; MarketWatch évoque jusqu'à 63 milliards de dollars levés, l'opération étant attendue la semaine prochaine. Le FT estime dans une analyse que la demande énorme promet un début spectaculaire, mais que des ventes d'initiés et des soutiens croisés dans la chaîne d'approvisionnement pourraient provoquer une indigestion après l'introduction. Le FT publie aussi une analyse de l'effet de l'introduction record de SpaceX sur les indices. Nous rapportons ces informations telles que publiées, sans évaluer l'opération.",
+     "why": "Une introduction en Bourse change l'offre de titres disponibles : elle absorbe des capitaux qui auraient pu aller vers d'autres valeurs, et son entrée dans les indices oblige les fonds indiciels à acheter ; c'est l'enjeu de l'article du FT sur SpaceX. La valorisation d'une introduction repose sur des anticipations de croissance très élevées, ce qui la rend sensible au sentiment du marché : le FT et d'autres sources soulignent le contexte turbulent de l'IA. Les ventes d'initiés (insiders) en parallèle peuvent peser sur le cours après l'introduction. Les chiffres cités sont des objectifs de valorisation, non des prix de marché.",
+     "impact": "Pour les banques d'investissement qui placent ces titres, ces opérations génèrent des commissions importantes, mais le risque de placement est réel si la demande faiblit. Pour les indices, l'entrée de très grandes capitalisations modifie les pondérations et peut accentuer la concentration sur quelques valeurs. Pour les produits structurés, ces nouveaux titres peuvent devenir des sous-jacents de paniers, avec une volatilité élevée au début de leur cotation, donc des options chères et des coupons potentiellement attractifs mais un risque de baisse brutale. La liquidité du marché des options sur un nouveau titre met parfois du temps à se constituer.",
+     "interview": {
+      "question": "Quels sont les effets mécaniques d'une très grande introduction en Bourse sur les indices et sur les fonds indiciels, et pourquoi est-ce un sujet pour un gérant ou un structureur ?",
+      "hints": [
+       "Pondération par capitalisation flottante et achats des fonds indiciels.",
+       "Construction du carnet d'ordres et fixation du prix d'introduction.",
+       "Ventes d'initiés et fin des périodes de blocage (lock-up).",
+       "Volatilité initiale et pricing des options sur nouveaux titres."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Lock-up",
+       "definition": "Période, après une introduction en Bourse, pendant laquelle les actionnaires initiaux ne peuvent pas vendre leurs titres."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Anthropic targets valuation of up to $1.4tn in IPO",
+       "url": "https://www.ft.com/content/5654e210-4be3-4550-b975-129c9a2e7fe5?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Anthropic's IPO is too important to fail",
+       "url": "https://www.ft.com/content/26fd23df-830e-481b-a3bc-19bcab48c5f6",
+       "source": "Financial Times"
+      },
+      {
+       "title": "The index impact of SpaceX's record-shattering IPO",
+       "url": "https://www.ft.com/content/141176cd-79ce-4633-9def-eaee96db1762",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
+       "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-11",
    "generated_at": "2026-11-11T05:55:00+00:00",
    "brief": [
@@ -2384,5 +2557,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-11T05:55:00+00:00"
+ "updated_at": "2026-11-12T05:55:00+00:00"
 }
