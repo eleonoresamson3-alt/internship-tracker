@@ -1,55 +1,51 @@
 {
- "generated_at": "2026-11-11T11:53:53+00:00",
- "date": "2026-11-11",
+ "generated_at": "2026-11-12T12:45:02+00:00",
+ "date": "2026-11-12",
  "jobs": [
   {
-   "id": "barclays-328b694acb29",
-   "employer": "Barclays",
+   "id": "nomura-98be73aeb342",
+   "employer": "Nomura",
    "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Sales, Trading and Structuring Off Cycle Internship Programme 2027 Dubai",
-   "location": "Dubai International Financial Centre, Dubai",
+   "platform": "generic",
+   "title": "2027 - Global Markets - NAIM FSOPS - 6 Month Off Cycle Internship – Paris",
+   "location": "",
    "countries": [
-    "AE"
+    "FR"
    ],
    "country_names": [
-    "United Arab Emirates"
+    "France"
    ],
-   "region": "Rest of world",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 56,
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 51,
    "score_breakdown": {
-    "role": 50,
-    "geo": 0,
+    "role": 10,
+    "geo": 30,
     "city": 0,
-    "timing": 6
+    "timing": 11
    },
    "timing": "off-cycle",
    "start": "2027",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Dubai-International-Financial-Centre-Dubai/Sales--Trading-and-Structuring-Off-Cycle-Internship-Programme-2027-Dubai_JR-0000125149",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1580-2027-Global-Markets-NAIM-FSOPS-6-Month-Off-Cycle-Internship-Paris/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
    "active": true
   },
   {
-   "id": "pwc-80016be2a9fd",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Intern - Transfer Pricing",
-   "location": "Hanoi",
-   "countries": [
-    "VN"
-   ],
-   "country_names": [
-    "Vietnam"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
+   "id": "unicredit-af9dd7726d11",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Internship - Private Investors Structuring - Client Risk Management",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Structuring",
    "role_level": "high",
    "score": 50,
    "score_breakdown": {
@@ -60,21 +56,21 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-03-31",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Hanoi/Intern---Transfer-Pricing_773275WD",
-   "posted_at": "2026-11-11",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Internship-Private-Investors-Structuring-Client-Risk-Management/117488",
+   "posted_at": "",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
    "active": true
   },
   {
-   "id": "michelin-87a6ca9c1051",
-   "employer": "Michelin",
-   "employer_type": "corporate",
-   "platform": "workday",
-   "title": "Stage – Purification des matières premières par adsorption (F/H)",
-   "location": "Clermont-Ferrand",
+   "id": "nomura-7afa738fd09f",
+   "employer": "Nomura",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 - Portfolio Risk and Risk Governance Internship - 6 Months -Paris",
+   "location": "",
    "countries": [
     "FR"
    ],
@@ -82,7 +78,7 @@
     "France"
    ],
    "region": "France",
-   "family": "Markets (other)",
+   "family": "Risk",
    "role_level": "low",
    "score": 45,
    "score_breakdown": {
@@ -92,126 +88,27 @@
     "timing": 5
    },
    "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
+   "start": "2027",
+   "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Purification-des-matires-premires-par-adsorption--F-H-_R-2026041882",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1581-2027-Portfolio-Risk-and-Risk-Governance-Internship-6-Months-Paris/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
    "active": true
   },
   {
-   "id": "rbc-capital-markets-a542f40a4ae7",
-   "employer": "RBC Capital Markets",
+   "id": "citi-8c21210f44df",
+   "employer": "Citi",
    "employer_type": "intl_bank",
    "platform": "workday",
-   "title": "2028 Capital Markets, Global Markets Sales & Trading Summer Analyst",
-   "location": "New York, New York, United States of America",
+   "title": "Citi - Markets, Summer Analyst, India – APAC, 2027",
+   "location": "Mumbai Maharashtra India",
    "countries": [
-    "US"
+    "IN"
    ],
    "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 42,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2028",
-   "deadline": "2027-11-30",
-   "deadline_source": "estimée",
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
-   "active": true
-  },
-  {
-   "id": "m-g-747e23b4602d",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Risk & Compliance Internship (London)",
-   "location": "London",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 41,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-31",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Risk---Compliance-Internship--London-_R20871",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
-   "active": true
-  },
-  {
-   "id": "m-g-639dca78abe0",
-   "employer": "M&G",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Risk & Compliance Internship (Stirling)",
-   "location": "Stirling",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 36,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2028-09",
-   "deadline": "2026-12-31",
-   "deadline_source": "annonce",
-   "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Risk---Compliance-Internship--Stirling-_R20870",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
-   "active": true
-  },
-  {
-   "id": "invesco-b8fbfa466a08",
-   "employer": "Invesco",
-   "employer_type": "asset_manager",
-   "platform": "workday",
-   "title": "Early Career Intern - Sales Enablement & Digital Distribution",
-   "location": "New York, New York",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
+    "India"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -224,89 +121,27 @@
     "timing": 12
    },
    "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://invesco.wd1.myworkdayjobs.com/IVZ/job/New-York-New-York/Early-Career-Intern---Sales-Enablement---Digital-Distribution_R-16057-1",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-102ac9f20ca4",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (Private Markets/ APAC Wealth)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869953",
-   "posted_at": "2026-10-23",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
-   "active": true
-  },
-  {
-   "id": "lseg-b7b85d80e89b",
-   "employer": "LSEG",
-   "employer_type": "infrastructure",
-   "platform": "workday",
-   "title": "Intern, Financial Accounting and Control",
-   "location": "Colombo, Sri Lanka",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
+   "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Financial-Accounting-and-Control_R0124941",
-   "posted_at": "2026-11-11",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/Mumbai-Maharashtra-India/Citi---Markets--Summer-Analyst--India---APAC--2027_26982323",
+   "posted_at": "2026-11-12",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
    "active": true
   },
   {
-   "id": "rbc-capital-markets-771547991e39",
-   "employer": "RBC Capital Markets",
+   "id": "bank-of-america-c9219920c474",
+   "employer": "Bank of America",
    "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Relationship Manager Intern, Business Markets",
-   "location": "LANGLEY, British Columbia, Canada",
+   "platform": "generic",
+   "title": "2027 Mexico Rates and Currencies Intern Program",
+   "location": "",
    "countries": [
-    "CA"
+    "MX"
    ],
    "country_names": [
-    "Canada"
+    "Mexico"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -319,27 +154,27 @@
     "timing": 0
    },
    "timing": "unknown",
-   "start": "",
+   "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LANGLEY-British-Columbia-Canada/Relationship-Manager-Intern--Business-Markets_R-0000192413",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15289-2027-Mexico-Rates-and-Currencies-Intern-Program/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
    "active": true
   },
   {
-   "id": "tower-research-85fa64daeb31",
-   "employer": "Tower Research",
+   "id": "exoduspoint-9c383e70574a",
+   "employer": "ExodusPoint",
    "employer_type": "hedge_fund",
    "platform": "greenhouse",
-   "title": "Finance Intern",
-   "location": "New York; New York, NY, United States",
+   "title": "Rates Internship – Hong Kong",
+   "location": "Hong Kong",
    "countries": [
-    "US"
+    "HK"
    ],
    "country_names": [
-    "United States"
+    "Hong Kong"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -355,10 +190,43 @@
    "start": "",
    "deadline": "",
    "deadline_source": "",
-   "url": "https://www.tower-research.com/open-positions/?gh_jid=8372658",
-   "posted_at": "2026-11-10",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8938482002",
+   "posted_at": "2026-11-11",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "active": true
+  },
+  {
+   "id": "lseg-b4bbd7cb0cf6",
+   "employer": "LSEG",
+   "employer_type": "infrastructure",
+   "platform": "workday",
+   "title": "Intern, Finance Operations",
+   "location": "Colombo, Sri Lanka; IND-Bangalore-TowerE,RMZ Infin",
+   "countries": [
+    "IN"
+   ],
+   "country_names": [
+    "India"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://lseg.wd3.myworkdayjobs.com/Careers/job/Colombo-Sri-Lanka/Intern--Finance-Operations_R0125112",
+   "posted_at": "2026-11-12",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
    "active": true
   }
  ]

@@ -1,6 +1,1424 @@
 {
- "generated_at": "2026-11-11T12:02:18+00:00",
+ "generated_at": "2026-11-12T12:53:20+00:00",
  "items": [
+  {
+   "id": "ed27fb9a8bc4ee5b",
+   "title": "Rosenblatt relève son objectif de cours sur Atlanta Braves après réévaluation",
+   "link": "https://fr.investing.com/news/analyst-ratings/rosenblatt-releve-son-objectif-de-cours-sur-atlanta-braves-apres-reevaluation-93CH-3692489",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:38+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "5e5e71b6f83ff531",
+   "title": "IBP finalise l’acquisition d’Old Dominion Group pour 698 millions $",
+   "link": "https://fr.investing.com/news/company-news/ibp-finalise-lacquisition-dold-dominion-group-pour-698-millions--93CH-3692484",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "0f019543f8a49c8d",
+   "title": "Vor Bio obtient la licence de l’inhibiteur RC298 de nouvelle génération",
+   "link": "https://fr.investing.com/news/company-news/vor-bio-obtient-la-licence-de-linhibiteur-rc298-de-nouvelle-generation-93CH-3692482",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "78985b85f39b47f8",
+   "title": "Kraft Heinz présente sa stratégie de croissance et ses prévisions pour 2027",
+   "link": "https://fr.investing.com/news/company-news/kraft-heinz-presente-sa-strategie-de-croissance-et-ses-previsions-pour-2027-93CH-3692483",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:37+00:00",
+   "summary": "",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "19434772e655212f",
+   "title": "Everkind s’associe à Herbal Dispatch pour une plateforme de bien-être IA",
+   "link": "https://fr.investing.com/news/company-news/everkind-sassocie-a-herbal-dispatch-pour-une-plateforme-de-bienetre-ia-93CH-3692481",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "7a64fe35d619e0a6",
+   "title": "Horizon Petroleum nomme Wright président et accueille Judson au conseil",
+   "link": "https://fr.investing.com/news/company-news/horizon-petroleum-nomme-wright-president-et-accueille-judson-au-conseil-93CH-3692480",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "dc8f4a8f2c17b02f",
+   "title": "Fort Technology lève jusqu’à 20 millions $ en obligations convertibles",
+   "link": "https://fr.investing.com/news/company-news/fort-technology-leve-jusqua-20-millions--en-obligations-convertibles-93CH-3692479",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:37+00:00",
+   "summary": "",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 25
+  },
+  {
+   "id": "78b8a254390bdcd6",
+   "title": "Cerenome organise une conférence téléphonique sur ses données cliniques lundi",
+   "link": "https://fr.investing.com/news/company-news/cerenome-organise-une-conference-telephonique-sur-ses-donnees-cliniques-lundi-93CH-3692476",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-12T12:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "72bf0a9d0e4936f7",
+   "title": "Nvidia shares slide as board considers Huang’s future",
+   "link": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T12:35+00:00",
+   "summary": "Stock down 7% ahead of Wall Street open as chief executive’s fate hangs in balance",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "aea859370cc2380c",
+   "title": "Nvidia’s Jensen Huang crisis tests how much of the AI industry depends on one man",
+   "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T12:29+00:00",
+   "summary": "Huang’s exit could fray tight bonds among AI businesses. Plus, Oracle’s potential AI catalyst, a $1.5 trillion Social Security stock proposal and what the oil-yield split may mean for inflation.",
+   "themes": [
+    "credit_sovereign",
+    "fx_commodities",
+    "macro_inflation",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 35
+  },
+  {
+   "id": "544d6e0bd58b4bfd",
+   "title": "Allianz surmonte la déception en dommages et rehausse ses perspectives 2026",
+   "link": "https://www.agefi.fr/news/banque-assurance/allianz-surmonte-la-deception-en-dommages-et-rehausse-ses-perspectives-2026",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T12:12+00:00",
+   "summary": "L’assureur munichois publie des résultats au-dessus des attentes malgré un coût des catastrophes naturelles élevé au troisième trimestre. La très bonne performance de la gestion d’actifs permet de compenser les effets négatifs en dommages.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "e2899389f5ab6800",
+   "title": "Zurich Insurance affiche une forte croissance en primes dommages avant l’intégration de Beazley",
+   "link": "https://www.agefi.fr/news/banque-assurance/zurich-insurance-affiche-une-forte-croissance-en-primes-dommages-avant-lintegration-de-beazley",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T12:00+00:00",
+   "summary": "La compagnie d'assurance suisse a enregistré des primes en dommages en hausse de 7% sur neuf mois, tirées par la Global Specialty, le Middle Market et le Retail. Les intempéries en Europe et le séisme en Colombie ont toutefois alourdi la sinistralité.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "fa5f36dc7a72dd88",
+   "title": "Blackstone va soutenir le programme de Pfizer dans l'obésité, issu du rachat de Metsera",
+   "link": "https://www.agefi.fr/private-equity/actualites/blackstone-va-soutenir-le-programme-de-pfizer-dans-lobesite-issu-du-rachat-de-metsera",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T11:38+00:00",
+   "summary": "La société d'investissement va financer jusqu'à 1,5 milliard de dollars les essais cliniques du berobenatide, la molécule phare de Metsera. Afin de combler son retard dans l’obésité, Pfizer avait acquis cette biotech américaine en 2025, au terme d'une bataille d'enchères face à Novo Nordisk.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "ba8233a4f9fb35fd",
+   "title": "Tech stocks may soon enjoy a ‘violent bounce’ — but one strategist warns investors not to take the bait",
+   "link": "https://www.marketwatch.com/story/tech-stocks-may-soon-enjoy-a-violent-bounce-but-one-strategist-warns-investors-not-to-take-the-bait-1a41f9c4?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T11:34+00:00",
+   "summary": "Jim Thorne, Wellington-Altus Private Wealth’s chief market strategist, says investors should not get tempted too fast into a tech stock bounce.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "f86a73d4307ccfb9",
+   "title": "FirstFT: Nvidia board weighs Jensen Huang’s future as scandal deepens",
+   "link": "https://www.ft.com/content/64198d59-7a03-4f1c-89c6-81ed8bdc5448?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Global economy",
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T11:17+00:00",
+   "summary": "Also in today’s newsletter: Jamie Raskin interview and the race for ECB president",
+   "themes": [
+    "central_banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 55
+  },
+  {
+   "id": "0906ff4cb9d047f5",
+   "title": "L’affaire Huang donne une bonne leçon de gouvernance à Wall Street",
+   "link": "https://www.agefi.fr/news/entreprises/laffaire-huang-donne-une-bonne-lecon-de-gouvernance-a-wall-street",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T11:01+00:00",
+   "summary": "Le scandale qui éclabousse le patron de Nvidia, sur le point d'être évincé, rappelle aux actionnaires des géants de la tech les bases d’une saine gouvernance : aucun PDG ne saurait être plus grand que l’entreprise qu’il dirige.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "ba6de20cb6ab7bb8",
+   "title": "Wall Street watchdog enforcement against public companies drops to 16-year low",
+   "link": "https://www.ft.com/content/74fa38d2-6925-4204-a61b-192e5277e063?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T11:00+00:00",
+   "summary": "Securities and Exchange Commission brought the fewest actions against corporations since at least 2010, report says",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "09478b04079c75df",
+   "title": "The affordability economics is coming!",
+   "link": "https://www.ft.com/content/ee4176cc-5f08-47a4-909c-caa0cd54e113?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T11:00+00:00",
+   "summary": "‘Anti-fascist economics’, or a conversation with Isabella Weber",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "d774370e4780e92a",
+   "title": "Here’s what Megaspeed, the company at the forefront of the Nvidia scandal, is now saying",
+   "link": "https://www.marketwatch.com/story/heres-what-megaspeed-the-company-at-the-forefront-of-the-nvidia-scandal-is-now-saying-b73f8d0b?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T10:57+00:00",
+   "summary": "The Singaporean company Megaspeed, at the center of the scandal engulfing Nvidia, on Thursday issued its first public statement since the scandal erupted.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "b5aac21720ee481c",
+   "title": "China warns US not to use Nvidia scandal as pretext for tech curbs",
+   "link": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T10:55+00:00",
+   "summary": "Beijing accuses US of fabricating ‘espionage narratives’ as chip company’s board considers future of chief executive Jensen Huang",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "e46ffab2414b3461",
+   "title": "Guillaume Allègre (OFCE) : «Il faut imposer les plus-values quand elles sont réalisées ou transmises»",
+   "link": "https://www.agefi.fr/gestion-privee/actualites/guillaume-allegre-ofce-il-faut-imposer-les-plus-values-quand-elles-sont-realisees-ou-transmises",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T10:36+00:00",
+   "summary": "Une partie des plus-values, et notamment les gains latents, échappe aujourd’hui définitivement à l’impôt, notamment lors des successions. L'économiste plaide pour une imposition à la réalisation ou lors des transmissions, en contrepartie d’un allègement des droits de mutation. Au nom du principe « à revenu égal, impôt égal », il estime le manque à gagner à environ 1,7 point de PIB.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "05b92b8d7f93b8c5",
+   "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+   "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T10:15+00:00",
+   "summary": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "77d11504d7d51d21",
+   "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T10:07+00:00",
+   "summary": "Nvidia’s board of directors reportedly met late Wednesday to determine the CEO’s fate.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "f858c64e8ffa2121",
+   "title": "Prince Harry and Meghan Markle move into new home in Cotswolds",
+   "link": "https://www.marketwatch.com/story/prince-harry-and-meghan-markle-move-into-new-home-in-cotswolds-e9bb0739?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T10:03+00:00",
+   "summary": "Prince Harry and Meghan Markle have reportedly moved into a new Cotswolds home on their friend’s estate after returning to the U.K. with their children in August.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "c264804e54c3987e",
+   "title": "Reading the room: what Reddit tells us about retail investor sentiment",
+   "link": "https://www.ecb.europa.eu//press/blog/date/2026/html/ecb.blog20261112~a4c8b903d9.en.html",
+   "source": "BCE – Blog",
+   "sources": [
+    "BCE – Blog"
+   ],
+   "published": "2026-11-12T10:00+00:00",
+   "summary": "",
+   "themes": [],
+   "official": true,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "ded9a0c83a7d8c7c",
+   "title": "Au Canada, « une usine fantôme de Stellantis est ballottée au rythme de la guerre commerciale et du réarmement mondial »",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/au-canada-une-usine-fantome-de-stellantis-est-ballottee-au-rythme-des-grands-bouleversements-economiques-de-la-guerre-commerciale-au-rearmement-mondial_6809084_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T10:00+00:00",
+   "summary": "Alors que le constructeur européen a annoncé, lundi 9 novembre, la vente du grand site industriel de Brampton, dans l’Ontario, à l’industriel de défense canadien Roshel, les questions soulevées par cette reconversion qui fait écho à beaucoup d’autres sont à la fois éthiques et économiques, explique Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "4b13de85d4b95e60",
+   "title": "A Toulouse, la liquidation judiciaire de l’usine de pâte à papier Fibre Excellence définitivement entérinée ; 300 salariés vont être licenciés",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/a-toulouse-la-liquidation-judiciaire-de-l-usine-de-pate-a-papier-fibre-excellence-de-saint-gaudens-definitivement-enterinee-300-salaries-vont-etre-licencies_6809080_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T09:24+00:00",
+   "summary": "Le groupe français attend l’éventuelle concrétisation d’un nouveau projet, porté conjointement par un groupe portugais et la région Occitanie, dans le courant de 2027.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "5294232b48a2979d",
+   "title": "Logements : les promoteurs immobiliers s’enfoncent un peu plus dans la crise",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/logements-les-promoteurs-immobiliers-s-enfoncent-un-peu-plus-dans-la-crise_6809079_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T09:24+00:00",
+   "summary": "Selon les derniers chiffres de la Fédération des promoteurs immobiliers de France, présentés jeudi 12 novembre, les réservations d’achat de logements neufs sont en recul de 24,4 % au troisième trimestre par rapport à 2025. La hausse des taux pèse sur le secteur.",
+   "themes": [
+    "central_banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 40
+  },
+  {
+   "id": "7cf907571d14aa45",
+   "title": "Gérald Passedat, chef triplement étoilé, vend son célèbre restaurant Le Petit Nice à la famille Saadé",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/gerald-passedat-chef-triplement-etoile-vend-son-mythique-restaurant-le-petit-nice-a-la-famille-saade_6809078_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T09:21+00:00",
+   "summary": "L’établissement, qui gardera son nom, va faire l’objet d’un an de travaux. Gérald Passedat restera associé au projet comme conseiller spécial de la famille Saadé.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "e7dce27faf1c8bab",
+   "title": "Le patron de Nvidia pourrait être renvoyé, l'action plonge encore",
+   "link": "https://www.agefi.fr/news/entreprises/le-patron-de-nvidia-pourrait-etre-renvoye-laction-plonge-encore",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T08:47+00:00",
+   "summary": "Le conseil du géant des puces s'est réuni pour trancher le sort de son PDG, Jensen Huang, qui est accusé de deux affaires extraconjugales dont une avec une potentielle espionne chinoise.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "48e697c69ec4e270",
+   "title": "Solid UK growth will not by itself push BoE to move in December",
+   "link": "https://www.ft.com/content/f92f05b4-0d1a-4bdb-8759-4d71f1cf58af",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T08:43+00:00",
+   "summary": "Third-quarter growth figures showed a tentative economic rebound under way as AI trends pick up",
+   "themes": [
+    "central_banks",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 50
+  },
+  {
+   "id": "04a6564347cf90a8",
+   "title": "En Allemagne, l’économie va mieux qu’en France, mais l’envolée de la dette fait craindre une « crise budgétaire » d’envergure",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/en-allemagne-l-economie-va-mieux-qu-en-france-mais-l-envolee-de-la-dette-fait-craindre-une-crise-budgetaire-d-envergure_6809071_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T08:00+00:00",
+   "summary": "Remis jeudi au chancelier, Friedrich Merz, le rapport annuel du Conseil allemand des experts économiques confirme la reprise de l’activité, mais alerte sur la hausse des dépenses publiques, notamment dans le secteur de la défense.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 25
+  },
+  {
+   "id": "0aa17a8f2ed1623a",
+   "title": "Jensen Huang built Nvidia into a behemoth. His scandal puts the entire AI boom in jeopardy.",
+   "link": "https://www.marketwatch.com/story/jensen-huang-built-nvidia-into-a-behemoth-his-scandal-puts-the-entire-ai-boom-in-jeopardy-c374b079?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T07:30+00:00",
+   "summary": "Huang fueled his company and the AI ecosystem with advanced chips and creative financing deals across the supply chain. What happens if he’s gone?",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "0fbe696ba2be1466",
+   "title": "L’IA s’impose avec prudence dans les habitudes des investisseurs",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/l-ia-s-impose-avec-prudence-dans-les-habitudes-des-investisseurs_6809068_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T07:00+00:00",
+   "summary": "Malgré leurs craintes sur la fiabilité des réponses apportées par les modèles d’intelligence artificielle grand public, 11 % des investisseurs y ont recours pour choisir leurs placements. L’usage est plus important chez les jeunes et ceux qui prennent le plus de risque.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "1ba3df427a2242d4",
+   "title": "Leverage Shares annonce un prochain ETP à effet de levier sur Anthropic",
+   "link": "https://www.agefi.fr/etf/leverage-shares-annonce-un-prochain-etp-a-effet-de-levier-sur-anthropic",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T06:58+00:00",
+   "summary": "Il devrait être coté à Londres avec un effet de levier de trois.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "fa9f402ad00c6290",
+   "title": "Plenisfer recrute un gérant obligataire chez Pictet AM",
+   "link": "https://www.agefi.fr/asset-management/actualites/plenisfer-recrute-un-gerant-obligataire-chez-pictet-am",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T06:57+00:00",
+   "summary": "Plenisfer Investments SGR, boutique d’investissement du groupe Generali Investments gérant 4 milliards de dollars, vient de recruter Shah Malik au sein de son équipe obligataire en tant que gérant senior.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 25
+  },
+  {
+   "id": "95cfc62ae2a887af",
+   "title": "BPM : le Crédit Agricole serait ouvert à une cession d’Anima",
+   "link": "https://www.agefi.fr/asset-management/actualites/bpm-le-credit-agricole-serait-ouvert-a-une-cession-danima",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T06:34+00:00",
+   "summary": "Le Crédit Agricole a fait savoir à l’Italie qu’il serait ouvert à une cession du gestionnaire d’actifs Anima Holding dans le cadre du projet de fusion qu’il a proposé à Banco BPM, rapporte Reuters, citant deux sources directement informées du dossier.",
+   "themes": [
+    "credit_sovereign",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 32
+  },
+  {
+   "id": "a4bd56a074bac339",
+   "title": "Mubadala Capital prend une participation minoritaire dans LSV Advisors",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/mubadala-capital-prend-une-participation-minoritaire-dans-lsv-advisors",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T06:32+00:00",
+   "summary": "Le montant de la transaction n’a pas été divulgué. LSV Advisors est un gestionnaire new-yorkais spécialisé dans les transactions secondaires de private equity (GP-led), qui gère environ 5 milliards de dollars d’actifs.",
+   "themes": [
+    "banks",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 22
+  },
+  {
+   "id": "61681edaec3f1cb7",
+   "title": "ABP renonce à faire de la gestion active dans son portefeuille en actions",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/abp-renonce-a-faire-de-la-gestion-active-dans-son-portefeuille-en-actions",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T06:30+00:00",
+   "summary": "Le gestionnaire du plus grand fonds de pension d'Europe a décidé de mettre fin à sa stratégie active d’investissement en actions en raison de rendements insatisfaisants.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 25
+  },
+  {
+   "id": "f0c7ac50f3418b02",
+   "title": "How resilient is the US consumer?",
+   "link": "https://www.ft.com/content/c900f840-63c8-4bdd-8f13-a527b89ff9a5?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T06:30+00:00",
+   "summary": "A dialogue with Adam Josephson of Sakonnet Research",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "f998ece36caa2230",
+   "title": "Le fonds souverain canadien recrute sa dirigeante chez Bridgewater Associates",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/le-fonds-souverain-canadien-recrute-sa-dirigeante-chez-bridgewater-associates",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T06:28+00:00",
+   "summary": "Le premier ministre canadien, Mark Carney, vient d’annoncer la nomination de la nouvelle présidente-directrice générale du Fonds pour un Canada fort, lancé un peu plus tôt cette année.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "079f2704d4dcf2a0",
+   "title": "State Street IM et Van Lanschot Kempen IM lancent deux ETF actifs",
+   "link": "https://www.agefi.fr/etf/state-street-im-et-van-lanschot-kempen-im-lancent-deux-etf-actifs",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T06:26+00:00",
+   "summary": "Les véhicules se concentrent sur les petites capitalisations.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "eeb1de5b96cdfcb8",
+   "title": "The AI megatrade’s mounting portfolio concentration risk problem",
+   "link": "https://www.ft.com/content/2f4d39dd-dee8-4620-996d-3fe978b7522b",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T06:00+00:00",
+   "summary": "There aren’t enough baskets to safely cope with this many massive eggs",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "302ab0b5b44d9035",
+   "title": "Maif crée le premier réassureur niortais",
+   "link": "https://www.agefi.fr/news/banque-assurance/maif-cree-le-premier-reassureur-niortais",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T05:50+00:00",
+   "summary": "L’assureur mutualiste annonce la création de Maif Réassurance, sa filiale de réassurance vie et non vie, dotée de 145 millions d’euros et domiciliée en France, à Niort plus précisément.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "a292ef70eb8afd43",
+   "title": "Les institutions cherchent des candidats pour développer les standards européens de la tokenisation",
+   "link": "https://www.agefi.fr/asset-management/tech/les-institutions-cherchent-des-candidats-pour-developper-les-standards-europeens-de-la-tokenisation",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T05:42+00:00",
+   "summary": "Les premiers projets de standards de marchés sur la numérisation d'actifs sont espérés d’ici début 2028.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "2a5f3acf37ae3007",
+   "title": "La dette privée porte beau au Luxembourg",
+   "link": "https://www.agefi.fr/asset-management/actualites/la-dette-privee-porte-beau-au-luxembourg",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-12T05:37+00:00",
+   "summary": "Une récente étude portée par KPMG pointe une hausse des actifs gérés localement de plus de 23 % en 2025. Et des encours qui dépassent 600 millions d'euros.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 25
+  },
+  {
+   "id": "c5120eab1a7cdebf",
+   "title": "« Le Low Cost contre le travail » : dans les coulisses des enseignes à bas coût",
+   "link": "https://www.lemonde.fr/vie-au-travail/article/2026/11/12/le-low-cost-contre-le-travail-dans-les-coulisses-des-enseignes-a-bas-cout_6809061_6768900.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T05:30+00:00",
+   "summary": "A travers une enquête de terrain, la sociologue Cyrine Gardes met en lumière « les conséquences sociales invisibles du low cost » et en particulier une « dégradation du travail » subie par des milliers de salariés.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "ece26333da3ea5ef",
+   "title": "Can anything derail Anthropic’s IPO?",
+   "link": "https://www.ft.com/content/b9ad2b19-4f2a-4f26-89b6-940985a0b9d4?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "The start-up is forging ahead with its listing in the face of adversity for the broader AI trade",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "fdb74aa835015f51",
+   "title": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
+   "link": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "Boost in shipments expected to be shortlived after Ukraine resumes attacks on refineries",
+   "themes": [
+    "regulation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "8b0b3e2071733a01",
+   "title": "The blue wave should target red tape",
+   "link": "https://www.ft.com/content/af63512c-56ce-4a8b-9a0a-70a6b9c2424e?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "You don’t have to be a libertarian nut job to acknowledge the costs imposed by the US administrative state",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "ccb75be0043fd813",
+   "title": "Growth investing or gambling?",
+   "link": "https://www.ft.com/content/92eb0eca-aee8-45af-b336-7a9a20da0a64?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "The current extreme risk-taking in equity markets might present a once-in-a-career investment opportunity",
+   "themes": [
+    "macro_inflation",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 27
+  },
+  {
+   "id": "52993b1f6e71b265",
+   "title": "How Switzerland’s rescue of a Russian bank went spectacularly wrong",
+   "link": "https://www.ft.com/content/8d5aaf6c-e8b6-47ac-a111-a5827fce2175?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "A four-year saga of unpaid debts, feuding owners and legal battles",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "3ea35d5b2510dc6d",
+   "title": "Chinese carmakers offer lifeline to Europe’s struggling steel industry",
+   "link": "https://www.ft.com/content/5f4e00d0-1ffd-4b3e-a510-d684eab64ac4?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Global economy",
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "Chief of major auto supplier Voestalpine says BYD and others will boost sector even as factories close",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "161d0a6b2dde9035",
+   "title": "France signals support for Spain’s ECB presidential candidate",
+   "link": "https://www.ft.com/content/b0d03a62-a75d-41f9-bac3-1518cefe400a?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "Pablo Hernández de Cos’s bid gains momentum as Paris and Berlin eye package deal on central bank leadership",
+   "themes": [
+    "central_banks",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 47
+  },
+  {
+   "id": "286849feb8530537",
+   "title": "After the US, how should middle powers work together?",
+   "link": "https://www.ft.com/content/941063fe-1cd1-4fc7-b489-79eaf9e4b7aa?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "In an era of unreliable superpowers, mid-sized countries are banding together",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "e035a1537d8abcf6",
+   "title": "Crédit d’impôt recherche, pacte Dutreil… : « Quitte à mettre un “pognon de dingue” dans les aides publiques aux entreprises, encore faudrait-il que la collectivité en ait pour son argent »",
+   "link": "https://www.lemonde.fr/idees/article/2026/11/12/credit-d-impot-recherche-pacte-dutreil-quitte-a-mettre-un-pognon-de-dingue-dans-les-aides-publiques-aux-entreprises-encore-faudrait-il-que-la-collectivite-en-ait-pour-son-argent_6809058_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "Le projet de budget 2027 ne prévoit pas de réforme du CIR ou du pacte Dutreil, malgré les critiques récurrentes sur leur coût et leur efficacité, déplorent l’économiste Maxime Combes et le journaliste Olivier Petitjean, dans une tribune au « Monde ».",
+   "themes": [
+    "credit_sovereign",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 35
+  },
+  {
+   "id": "df3ead10ebb3431f",
+   "title": "Donation d’argent investie dans une société : quel rapport à la succession ?",
+   "link": "https://www.lemonde.fr/argent/article/2026/11/12/donation-d-argent-investie-dans-une-societe-quel-rapport-a-la-succession_6809054_1657007.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "Le donataire doit la valeur actuelle – bien supérieure à la valeur d’origine – des titres acquis, déduction faite de la plus-value liée à son travail de dirigeant.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "746b44accb6beb88",
+   "title": "Comment les jobs d’appoint deviennent une nécessité pour des salariés ou chômeurs en quête de pouvoir d’achat",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/le-jobbing-ce-microtravail-qui-prend-de-plus-en-plus-de-poids-pour-boucler-les-fins-de-mois_6809052_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T05:00+00:00",
+   "summary": "Les plateformes de « jobbing » séduisent de nombreux particuliers, que ce soit pour les services entre voisins (bricolage, jardinage), la livraison de courses ou le gardiennage de colis. Et ce malgré des montants faibles.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "e813debc1f27800a",
+   "title": "Indian shares bounce back as investors seek AI shelter",
+   "link": "https://www.ft.com/content/99a27744-23bd-4cb9-92e4-7712dd658920?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T04:43+00:00",
+   "summary": "Nifty 50 is world’s best-performing major market so far this quarter",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "50fb4fd017ab53cc",
+   "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+   "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T04:41+00:00",
+   "summary": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
+   "themes": [
+    "vol_derivatives",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 47
+  },
+  {
+   "id": "0d2beecddf30e0b5",
+   "title": "La question des morts au travail peine à émerger dans les débats politiques",
+   "link": "https://www.lemonde.fr/idees/article/2026/11/12/la-question-des-morts-au-travail-peine-a-emerger-dans-les-debats-politiques_6809045_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T04:00+00:00",
+   "summary": "La France connaît une augmentation continue des accidents mortels au travail. Depuis 2022, le problème n’a été traité que de manière partielle par le gouvernement. A cinq mois de l’élection présidentielle, la sécurité dans l’espace professionnel n’apparaît investie que par la gauche.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "0fcece49c628e4ab",
+   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+   "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-12T03:10+00:00",
+   "summary": "The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "ab0aa6b0ef44f8a3",
+   "title": "Investing in America",
+   "link": "https://www.ft.com/reports/investing-america?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T01:26+00:00",
+   "summary": "The fifth annual FT-Nikkei Investing in America report: How the US has received only a fraction of investment from Asian partners in deals to lower tariffs; AI jitters in the wake of the midterms and how overseas companies are pouring money into US manufacturing",
+   "themes": [
+    "macro_inflation",
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 27
+  },
+  {
+   "id": "a732b06a429cbe98",
+   "title": "La hausse du smic mettra 164 branches professionnelles dans l’« illégalité », alerte la CGT",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/la-hausse-du-smic-mettra-164-branches-professionnelles-dans-l-illegalite-pointe-la-cgt_6809037_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-12T01:18+00:00",
+   "summary": "La revalorisation du salaire minimum, annoncée lundi par le gouvernement et prévue le 1ᵉʳ décembre, pourrait entraîner la non-conformité d’un grand nombre de branches qui se retrouveraient avec une rémunération de base située en dessous du smic, dénonce le syndicat.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "19a5ea3db42f2b37",
+   "title": "Trump’s fossil fuel drive comes as war prompts energy security worries",
+   "link": "https://www.ft.com/content/9b79e9f6-4805-4299-bf76-1743ac258054?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-12T01:00+00:00",
+   "summary": "Calls mount in Washington for legislation to overhaul US’s costly permitting system to help build desperately needed infrastructure for oil and gas sector",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "900caeee5847666e",
+   "title": "Money pours into US manufacturing from overseas companies",
+   "link": "https://www.ft.com/content/0b32f2c4-3e47-46ec-90ee-94194d2c3e3f?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T01:00+00:00",
+   "summary": "Inflation, skills shortages and unpredictable policies on tariffs and war have made life difficult for businesses even in sectors enjoying surging demand",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "6bc337bbc976437d",
+   "title": "Surging US economy defies worries over turbulent Trump",
+   "link": "https://www.ft.com/content/51fb0811-982a-4c7b-8d87-f85cd9008f3b?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T01:00+00:00",
+   "summary": "World’s largest economy fires on all cylinders — but technology sell-off underlines precarious nature of AI-driven boom",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "6ae1ad87ea5adf84",
+   "title": "Japanese investment in US to power ahead",
+   "link": "https://www.ft.com/content/ec5adc72-8388-483f-95b2-362d9f0e6d66?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T01:00+00:00",
+   "summary": "Tokyo has been the top investor in the US for seven years in a row — a trend that is unlikely to halt or slow, say bankers",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "89188ef8d4a8c4fc",
+   "title": "Trump’s Asia trade deals reap small slice of cash",
+   "link": "https://www.ft.com/content/70b733ec-6cab-41f5-9242-85f7f8916352?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-12T01:00+00:00",
+   "summary": "Japan, South Korea and Taiwan have made available just 2.7% of financing and FDI under trade and investment pacts to ease tariffs",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "b4e48404e428808a",
+   "title": "Le patron de Nvidia, mis en cause pour une liaison avec une Chinoise soupçonnée d’espionnage, accusé d’avoir eu une seconde affaire sentimentale avec une salariée",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/12/le-patron-de-nvidia-mis-en-cause-pour-une-liaison-avec-une-chinoise-soupconnee-d-espionnage-accuse-d-avoir-eu-une-seconde-affaire-sentimentale-avec-une-salariee_6809035_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T23:30+00:00",
+   "summary": "Selon le « Wall Street Journal », le conseil d’administration se préparait, mercredi soir, à révoquer Jensen Huang, le fondateur du géant des puces électroniques nécessaires à la révolution de l’intelligence artificielle.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "fc370aa60aee7b4e",
+   "title": "Louise, 57 ans, aidée par le Secours catholique : « Etre pauvre, au RSA, ce n’est pas profiter du système, c’est vivre dans le stress »",
+   "link": "https://www.lemonde.fr/societe/article/2026/11/12/louise-57-ans-aidee-par-le-secours-catholique-etre-pauvre-au-rsa-ce-n-est-pas-profiter-du-systeme-c-est-vivre-dans-le-stress_6809034_3224.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T23:01+00:00",
+   "summary": "Dans son rapport annuel publié jeudi 12 novembre, l’association invite à « comprendre la pauvreté », qui est « multidimensionnelle », comme en témoigne le quotidien de Louise, rencontrée par « Le Monde », pour qui les difficultés matérielles se doublent de maltraitances et d’isolement.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "814173e8eddeb6be",
+   "title": "Dette PIK : du levier d’investissement à l’outil de trésorerie",
+   "link": "https://www.agefi.fr/private-equity/analyses/dette-pik-du-levier-dinvestissement-a-loutil-de-tresorerie",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-11T22:00+00:00",
+   "summary": "Financer l’actionnaire et préserver les liquidités de l’entreprise sont deux usages de la capitalisation des intérêts, et deux équilibres à négocier, expliquent Kalish Mullen, associé, et Melvin Péraldi, counsel chez McDermott Will & Schulte, dans une tribune à L'Agefi.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 25
+  },
+  {
+   "id": "be7ec72a7fdca453",
+   "title": "ExxonMobil launches legal challenge to EU carbon capture rules",
+   "link": "https://www.ft.com/content/377d2ae5-112f-411f-bfc1-5e498948cb7b?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-11T21:26+00:00",
+   "summary": "US oil company invokes investment treaty to challenge Brussels’ green regulations and seek suspension of timing requirements",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "e4e6c2d5784e8f90",
+   "title": "US tech stocks rally as AI trade revives",
+   "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-11T21:04+00:00",
+   "summary": "Nasdaq erases last week’s losses as CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "d921609fe702e0eb",
+   "title": "CoreWeave wants to sit with the credit-market grown-ups",
+   "link": "https://www.ft.com/content/16d4593e-b9ce-4eab-90af-9835c79eb9f2?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-11T18:57+00:00",
+   "summary": "The cloud computing group has benefited from a hitherto forgiving junk bond market",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 25
+  },
+  {
+   "id": "e4e38eb1bcc27e0d",
+   "title": "Le Science Media Centre de Londres accusé d’être influencé par ses financeurs industriels",
+   "link": "https://www.lemonde.fr/sciences/article/2026/11/11/le-science-media-centre-de-londres-qui-aide-a-vulgariser-l-information-scientifique-accuse-d-etre-influence-par-ses-financeurs-industriels_6809016_1650684.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T18:15+00:00",
+   "summary": "L’organisme philanthropique aide à vulgariser l’information scientifique en mettant à la disposition des médias des commentaires d’experts sur les nouvelles publications scientifiques. D’après une recension effectuée par des chercheurs, ces avis tendent à défendre les intérêts de ses contributeurs.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "abd072477e2609b2",
+   "title": "Présidentielle 2027 : des hauts fonctionnaires dénoncent un « Etat incapable » et alertent sur l’« urgence de gouverner autrement »",
+   "link": "https://www.lemonde.fr/politique/article/2026/11/11/presidentielle-2027-des-hauts-fonctionnaires-denoncent-un-etat-incapable-et-alertent-sur-l-urgence-de-gouverner-autrement_6809007_823448.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T17:00+00:00",
+   "summary": "Dans deux ouvrages parus en octobre, Alexandre Pointier et François Perret posent un regard critique sur le fonctionnement actuel de la puissance publique et esquissent leur vision de l’Etat de demain.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "7ed1578f8ad70b93",
+   "title": "Les voitures électriques, un gouffre financier pour les assureurs",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/11/les-voitures-electriques-un-gouffre-financier-pour-les-assureurs_6809004_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T17:00+00:00",
+   "summary": "La réparation des véhicules électriques coûte 14 % de plus que celle des modèles thermiques. En cause : des batteries peu réparables, des dommages plus importants, des pièces détachées encore peu disponibles sur le court terme.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "ad6247b2a5a89392",
+   "title": "CalPERS intègre l’IA à sa stratégie d’investissement durable",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/calpers-integre-lia-a-sa-strategie-dinvestissement-durable",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-11T16:34+00:00",
+   "summary": "Le fonds de pension des fonctionnaires californiens compte 71 milliards de dollars d’investissements climatiques en portefeuille et a formalisé un volet consacré à l’intelligence artificielle dans son programme d’investissement durable.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "c9e94ec83485eb00",
+   "title": "« Les lycéens ne réclament pas que l’on cesse de récompenser l’effort, mais que le système dépende moins de l’établissement d’origine »",
+   "link": "https://www.lemonde.fr/idees/article/2026/11/11/les-lyceens-ne-reclament-pas-que-l-on-cesse-de-recompenser-l-effort-mais-que-le-systeme-depende-moins-de-l-etablissement-d-origine_6808995_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T16:00+00:00",
+   "summary": "Les Français figurent, avec les Norvégiens et les Brésiliens, parmi les moins tolérants à l’inégalité, selon une étude d’économistes parue début novembre. Environ la moitié d’entre eux croient encore en la méritocratie, analyse l’historienne Béatrice Cherrier, dans sa chronique au « Monde ».",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "3805d5550263330c",
+   "title": "Près de Nice, un nouvel Institut du cœur à la pointe de la technologie financé à 100 % par la philanthropie",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/11/pres-de-nice-un-nouvel-institut-du-c-ur-a-la-pointe-de-la-technologie-finance-a-100-par-la-philanthropie_6808997_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T16:00+00:00",
+   "summary": "Propriété d’une fondation détenue majoritairement par la famille de l’entrepreneur Jean-Louis Noisiez, l’Institut Arnault-Tzanck, à Saint-Laurent-du-Var, a inauguré, le 5 novembre, un gigantesque établissement consacré à la prise en charge des maladies cardiovasculaires. D’un coût de 130 millions d’euros, il n’a bénéficié d’aucun fonds public.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "4a55967443710186",
+   "title": "Single-stock perps look like pointiest horn of a bull market",
+   "link": "https://www.ft.com/content/0ecbc732-4d5a-4a3e-97aa-86d19285bcf8?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-11T15:57+00:00",
+   "summary": "Regulatory uncertainty is the biggest hurdle to wider adoption, says one survey",
+   "themes": [
+    "equities",
+    "regulation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 27
+  },
+  {
+   "id": "20e937f7f38125d3",
+   "title": "La révision du cadre européen de la titrisation laisse les banques sur leur faim",
+   "link": "https://www.agefi.fr/news/economie-marches/la-revision-du-cadre-europeen-de-la-titrisation-ne-satisfait-pas-encore-lindustrie",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-11T15:41+00:00",
+   "summary": "Le Conseil et le Parlement européen sont parvenus le 21 octobre à un accord politique pour la révision des règles sur la titrisation dans l’Union européenne (UE). Le compromis allège notablement les contraintes pour les investisseurs, mais déçoit encore les banques.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "5d7c8014ac99649e",
+   "title": "Influenceurs, « interfaces trompeuses », jeux vidéo : l’UE veut mieux protéger les consommateurs en ligne",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/11/influenceurs-interfaces-trompeuses-jeux-video-l-ue-veut-mieux-proteger-les-consommateurs-en-ligne_6808994_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-11T15:39+00:00",
+   "summary": "Le projet de « loi sur l’équité numérique », présenté par la Commission européenne, prévoit des amendes allant jusqu’à 6 % du chiffre d’affaires mondial des contrevenants.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
+  {
+   "id": "748ece5c96161357",
+   "title": "Anthropic veut toucher à son tour les étoiles en entrant en Bourse",
+   "link": "https://www.agefi.fr/news/a-la-une/anthropic-veut-toucher-a-son-tour-les-etoiles-en-entrant-en-bourse",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-11T13:53+00:00",
+   "summary": "Le laboratoire d’IA accélère dans son projet d’introduction en Bourse, avec une première cotation qui pourrait démarrer courant novembre. Il pourrait être valorisé à 1.400 milliards de dollars. Quelques mois après l’IPO de SpaceX, il servira de nouveau baromètre pour le secteur, actuellement chahuté en Bourse.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 15
+  },
+  {
+   "id": "3cebbe43a8b03fdc",
+   "title": "Saudi oil production rebounds close to prewar levels",
+   "link": "https://www.ft.com/content/c844b957-3c98-43a3-b02e-2d0f5368bd49?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-11T13:29+00:00",
+   "summary": "Output higher than average before Iran conflict as kingdom keeps exports flowing despite attacks on shipping and energy infrastructure",
+   "themes": [
+    "fx_commodities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 20
+  },
+  {
+   "id": "bd8267a21427c9bb",
+   "title": "Turkey’s chief banking regulator offers to resign over $20bn fraud scandal",
+   "link": "https://www.ft.com/content/f22ce1c1-8de8-420a-b9f6-4dff0fc1f732?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-11T13:09+00:00",
+   "summary": "Şahap Kavcıoğlu, who previously ran the central bank, tendered his resignation ‘to prevent any further damage’ to the regulator",
+   "themes": [
+    "regulation",
+    "banks",
+    "central_banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 50
+  },
+  {
+   "id": "6f809d18f86cb7d3",
+   "title": "The problem with the COP31 electrification goal",
+   "link": "https://www.ft.com/content/f82ba659-9539-4b7a-9716-a915d0445488?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-11T12:00+00:00",
+   "summary": "Initiative is quiet on the need to shift from fossil-fired generation",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-12T12:53+00:00",
+   "score": 5
+  },
   {
    "id": "9fbe65cdcee3f064",
    "title": "Ignitis grupė affiche un EBITDA en hausse au T3 2026",
@@ -31616,23 +33034,6 @@
    "official": true,
    "first_seen": "2026-10-23T11:24+00:00",
    "score": 15
-  },
-  {
-   "id": "e9e729b4534eb63a",
-   "title": "Basel Committee finds Australia, Japan, Korea, Switzerland compliant, and Canada, United Kingdom largely compliant with its leverage ratio framework",
-   "link": "https://www.bis.org/media-releases/20261013-basel-committee-finds-australia-japan-korea-switzerland-compliant-and-canada-united-kingdom",
-   "source": "BRI",
-   "sources": [
-    "BRI"
-   ],
-   "published": "2026-10-13T00:00+00:00",
-   "summary": "The Basel Committee has published assessment reports on the implementation of its leverage ratio framework (LEV) in Australia, Canada, Japan, Korea, Switzerland and the United Kingdom. Australia, Japan, Korea and Switzerland are assessed as compliant; Canada and the United Kingdom are assessed as largely compliant. This publication concludes the first round of multi-jurisdictional assessments of t",
-   "themes": [
-    "regulation"
-   ],
-   "official": true,
-   "first_seen": "2026-10-23T11:24+00:00",
-   "score": 30
   }
  ]
 }
