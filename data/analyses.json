@@ -1,6 +1,159 @@
 {
  "days": [
   {
+   "date": "2026-11-13",
+   "generated_at": "2026-11-13T05:55:00+00:00",
+   "brief": [
+    "Nvidia : le conseil d'administration pèserait l'avenir de son PDG ; le titre recule d'environ 7 % avant l'ouverture de Wall Street selon le FT, et la presse (MarketWatch, L'Agefi) s'interroge sur la dépendance de l'IA à un seul homme.",
+    "Allemagne : le Conseil des experts économiques constate une reprise plus solide qu'en France mais s'alarme de l'envolée de la dette et des dépenses de défense, au risque d'une « crise budgétaire » (Le Monde) ; le Bund 10 ans est à 3,36 % le 12 novembre, le 10 ans français à 4,762 %, soit environ 140 points de base d'écart.",
+    "Actions : le Nasdaq gagne 1,6 % le 11 novembre (25 466,19) et le Nikkei 1,31 % ; le VIX est à 19,46 le 10 novembre ; l'EUR/USD recule de 0,78 % à 1,1127 le 11 novembre.",
+    "Gestion d'actifs : ABP, plus grand fonds de pension d'Europe, renonce à la gestion active dans son portefeuille d'actions en raison de rendements insatisfaisants (L'Agefi) ; aux États-Unis, les actions de la SEC contre les sociétés cotées tombent à un plus bas depuis 2010 (FT).",
+    "Immobilier et banques : les réservations de logements neufs reculent de 24,4 % au troisième trimestre en France (Le Monde) ; le Crédit Agricole serait ouvert à la cession d'Anima dans son projet de fusion avec Banco BPM (Reuters via L'Agefi)."
+   ],
+   "articles": [
+    {
+     "title": "Nvidia : le conseil pèse l'avenir de son PDG, le titre chute de 7 % avant l'ouverture",
+     "theme": "equities",
+     "lead": "L'affaire visant le dirigeant du leader des puces d'IA prend de l'ampleur, et la presse y voit un test de la dépendance du secteur à une seule personne.",
+     "what": "Selon le FT, le cours de Nvidia recule d'environ 7 % avant l'ouverture de Wall Street, alors que le conseil d'administration décide du sort de son PDG, Jensen Huang. MarketWatch indique que le conseil se serait réuni mercredi soir pour trancher et que sa sortie pourrait distendre les liens étroits entre entreprises de l'IA. L'Agefi titre que l'affaire donne une leçon de gouvernance : aucun PDG ne doit être plus grand que l'entreprise qu'il dirige. Ces éléments reposent sur des informations de presse, non confirmées ; nos données ne contiennent pas encore le cours de Nvidia. Le Nasdaq était à 25 466,19 le 11 novembre (+1,6 %).",
+     "why": "Quand un dirigeant fondateur incarne une entreprise, les investisseurs craignent le risque d'homme-clé : son départ peut changer la stratégie, les relations avec les partenaires et la confiance des clients. Ici, MarketWatch souligne que des entreprises de l'IA sont liées entre elles par des relations commerciales et financières étroites : une crise de gouvernance chez l'un peut se propager. La gouvernance désigne l'ensemble des règles qui répartissent le pouvoir entre dirigeants, conseil et actionnaires ; l'Agefi y voit un enseignement général. L'issue de la décision du conseil est inconnue au moment de la rédaction.",
+     "impact": "Nvidia pèse lourd dans le Nasdaq et dans les paniers de semi-conducteurs : une chute de 7 % d'un titre aussi pondéré peut entraîner l'indice et rapprocher des barrières les autocalls indexés sur ces sous-jacents. La volatilité implicite du titre bondit en cas d'incertitude sur la direction, ce qui renchérit les options et les produits à capital protégé indexés sur lui. Dans un panier worst-of, une forte baisse d'un seul titre suffit à déterminer le résultat. Les teneurs de marché surveillent aussi le risque de gap à l'ouverture, car le cours avant ouverture n'est qu'une indication.",
+     "interview": {
+      "question": "Le conseil d'une entreprise cotée envisage de remplacer son PDG fondateur : comment les marchés évaluent-ils ce risque et quel effet sur le prix des options sur le titre ?",
+      "hints": [
+       "Risque d'homme-clé et rôle du conseil d'administration.",
+       "Volatilité implicite et skew autour d'un événement binaire.",
+       "Poids du titre dans l'indice et dans les paniers.",
+       "Risque de gap et couverture en delta."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Gouvernance",
+       "definition": "Ensemble des règles et organes (conseil, comités, droits des actionnaires) qui encadrent le pouvoir des dirigeants d'une entreprise."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nvidia shares slide as board considers Huang's future",
+       "url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Nvidia's Jensen Huang crisis tests how much of the AI industry depends on one man",
+       "url": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "L'affaire Huang donne une bonne leçon de gouvernance à Wall Street",
+       "url": "https://www.agefi.fr/news/entreprises/laffaire-huang-donne-une-bonne-lecon-de-gouvernance-a-wall-street",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Allemagne : une économie qui repart, mais une dette qui inquiète les experts",
+     "theme": "credit_sovereign",
+     "lead": "Le rapport annuel des économistes du gouvernement confirme la reprise outre-Rhin tout en alertant sur la hausse des dépenses publiques, notamment pour la défense.",
+     "what": "Selon Le Monde, le rapport annuel du Conseil allemand des experts économiques, remis jeudi au chancelier Friedrich Merz, confirme la reprise de l'activité en Allemagne, mais alerte sur la hausse des dépenses publiques, notamment de défense, au point de faire craindre une « crise budgétaire » d'envergure. Le titre du Monde compare cette situation à celle de la France, dont l'économie va moins bien. Nos données donnent le Bund 10 ans à 3,36 % et le Bund 2 ans à 3,09 % le 12 novembre, le TEC 10 français à 4,762 % et le TEC 2 ans à 3,607 % : l'écart OAT-Bund à 10 ans est d'environ 140 points de base.",
+     "why": "Le Bund est le taux de référence sans risque de la zone euro parce que l'Allemagne a longtemps eu une dette faible et des comptes équilibrés. Si les dépenses augmentent fortement, l'offre de Bunds augmente et la prime de risque peut monter, même si le niveau de départ reste bas. L'alerte du Conseil des experts porte sur la trajectoire, pas sur un niveau actuel de tension. Le contraste avec la France montre que le marché ne punit pas seulement la dette élevée, mais aussi la croissance faible et la crédibilité de la trajectoire budgétaire ; c'est l'angle du Monde et il reste une analyse.",
+     "impact": "Une hausse de l'offre de Bunds pourrait tirer les taux de référence de la zone euro vers le haut, ce qui relèverait aussi le coût de financement des autres États et des banques. Le spread OAT-Bund se mesure par rapport à un Bund lui-même mouvant : un Bund qui monte peut réduire le spread sans que la France ne s'améliore. Pour les produits structurés en euros, un taux de swap plus élevé réduit le prix du zéro-coupon et libère du budget pour l'option. Les assureurs et fonds de pension, gros détenteurs de dette allemande, seraient sensibles à une baisse de prix des Bunds.",
+     "interview": {
+      "question": "Pourquoi le Bund sert-il de référence en zone euro, et comment une hausse de l'endettement allemand pourrait-elle modifier le spread OAT-Bund ?",
+      "hints": [
+       "Statut d'actif sûr et liquidité du Bund.",
+       "Offre de titres et prime de risque.",
+       "Spread = différence de rendement, qui dépend des deux composantes.",
+       "Effet sur les swaps et sur les produits structurés en euros."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Actif sûr",
+       "definition": "Actif perçu comme très peu risqué et très liquide, recherché en période de stress, comme les obligations d'État allemandes ou américaines."
+      }
+     ],
+     "sources": [
+      {
+       "title": "En Allemagne, l'économie va mieux qu'en France, mais l'envolée de la dette fait craindre une « crise budgétaire » d'envergure",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/12/en-allemagne-l-economie-va-mieux-qu-en-france-mais-l-envolee-de-la-dette-fait-craindre-une-crise-budgetaire-d-envergure_6809071_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Solid UK growth will not by itself push BoE to move in December",
+       "url": "https://www.ft.com/content/f92f05b4-0d1a-4bdb-8759-4d71f1cf58af",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "ABP renonce à la gestion active sur ses actions : la fin d'un pari à grande échelle",
+     "theme": "equities",
+     "lead": "Le plus grand fonds de pension européen juge ses rendements actifs insatisfaisants et abandonne cette stratégie pour son portefeuille d'actions.",
+     "what": "Selon L'Agefi, ABP, gestionnaire du plus grand fonds de pension d'Europe, a décidé de mettre fin à sa stratégie active d'investissement en actions en raison de rendements insatisfaisants. Le même jour, L'Agefi indique que Mubadala Capital prend une participation minoritaire dans LSV Advisors, spécialiste new-yorkais des transactions secondaires de private equity, qui gère environ 5 milliards de dollars. Le montant de l'opération n'est pas divulgué et celui des actifs concernés par la décision d'ABP ne figure pas dans le résumé disponible.",
+     "why": "La gestion active consiste à essayer de battre un indice en choisissant des titres ; la gestion passive, à le répliquer à faible coût. Si, après frais, un gérant actif ne bat pas l'indice, l'investisseur paie plus cher pour un résultat inférieur : c'est la logique qui pousse ABP à renoncer. Une décision de cette taille compte parce qu'un grand fonds de pension influence le marché des mandats de gestion : moins de mandats actifs signifie plus de flux vers des fonds indiciels. Les raisons précises et les alternatives retenues ne figurent pas dans nos sources.",
+     "impact": "Pour les sociétés de gestion active, la perte d'un gros mandat réduit les revenus et accélère la pression sur les frais. Pour les marchés, davantage de flux vers la gestion passive renforce le poids des plus grandes capitalisations dans les indices, ce qui accentue la concentration sur quelques valeurs, un thème sensible en période de correction de la tech. Pour les structureurs, des clients institutionnels plus attentifs aux coûts demandent des produits plus transparents et moins chers. Les fonds de pension peuvent aussi se tourner vers des actifs privés, comme le suggère l'intérêt pour les transactions secondaires.",
+     "interview": {
+      "question": "Un grand fonds de pension abandonne la gestion active sur ses actions : quels arguments en faveur de la gestion passive, et quels effets sur la structure du marché ?",
+      "hints": [
+       "Frais de gestion et performance nette par rapport à l'indice.",
+       "Concentration des indices pondérés par la capitalisation.",
+       "Effets sur la liquidité et la formation des prix.",
+       "Alternatives : actifs privés, stratégies factorielles."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Gestion passive",
+       "definition": "Stratégie qui réplique un indice à faible coût, sans chercher à le battre par la sélection de titres."
+      }
+     ],
+     "sources": [
+      {
+       "title": "ABP renonce à faire de la gestion active dans son portefeuille en actions",
+       "url": "https://www.agefi.fr/investisseurs-institutionnels/actualites/abp-renonce-a-faire-de-la-gestion-active-dans-son-portefeuille-en-actions",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Mubadala Capital prend une participation minoritaire dans LSV Advisors",
+       "url": "https://www.agefi.fr/investisseurs-institutionnels/actualites/mubadala-capital-prend-une-participation-minoritaire-dans-lsv-advisors",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Régulation américaine : les poursuites de la SEC contre les sociétés cotées au plus bas depuis 2010",
+     "theme": "regulation",
+     "lead": "Le gendarme de Wall Street a engagé le moins d'actions contre des entreprises depuis au moins 2010, un signal pour la supervision des marchés.",
+     "what": "Selon le FT, qui cite un rapport, la Securities and Exchange Commission a engagé le moins d'actions contre des sociétés depuis au moins 2010, soit un plus bas de 16 ans. Les causes de ce recul ne figurent pas dans le résumé disponible. Dans nos données, le Nasdaq est à 25 466,19 le 11 novembre (+1,6 % sur la journée), mais rien n'indique de lien avec ce rapport.",
+     "why": "Une autorité de marché supervise les émetteurs cotés et sanctionne les infractions comme les informations trompeuses ; le nombre d'actions engagées est un indicateur de son activité, pas de la conformité réelle des entreprises. Une baisse peut refléter moins d'infractions, des moyens réduits ou des priorités différentes : nos sources n'en disent pas la raison. Pour les investisseurs, la rigueur de la supervision compte, notamment pendant des périodes d'introductions en Bourse et de valorisations élevées, car elle conditionne la confiance dans l'information publiée.",
+     "impact": "Une supervision plus légère peut réduire les coûts de conformité des entreprises, mais augmenter le risque d'information imparfaite pour les investisseurs, donc la prime de risque demandée. Pour les banques d'investissement, un cadre moins répressif facilite les opérations de marché, avec un risque de réputation en cas de scandale. Pour les produits structurés, la qualité de l'information sur les sous-jacents est un élément de la valorisation du risque. Les régulateurs européens, comme l'AMF, restent des acteurs séparés dont les règles s'appliquent aux produits distribués en France.",
+     "interview": {
+      "question": "Le nombre d'actions d'un régulateur de marché tombe à un plus bas de 16 ans : comment l'interprétez-vous, et pourquoi l'activité de supervision compte-t-elle pour un investisseur ?",
+      "hints": [
+       "Distinguer niveau de supervision et niveau de conformité réelle.",
+       "Confiance dans l'information financière et prime de risque.",
+       "Effets possibles sur les introductions en Bourse et sur les produits structurés.",
+       "Rôle du régulateur local (AMF) pour les produits distribués en France."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "SEC",
+       "definition": "Securities and Exchange Commission, autorité américaine de régulation des marchés financiers."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Wall Street watchdog enforcement against public companies drops to 16-year low",
+       "url": "https://www.ft.com/content/74fa38d2-6925-4204-a61b-192e5277e063?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-12",
    "generated_at": "2026-11-12T05:55:00+00:00",
    "brief": [
@@ -2557,5 +2710,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-12T05:55:00+00:00"
+ "updated_at": "2026-11-13T05:55:00+00:00"
 }
