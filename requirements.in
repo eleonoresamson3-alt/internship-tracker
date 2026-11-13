@@ -9,6 +9,6 @@ beautifulsoup4
 feedparser
 openpyxl      # World Bank monthly commodity prices (gold)
 defusedxml    # safe parsing of remote XML (Teamtailor feeds; used by openpyxl automatically)
-anthropic>=2.1,<2.2   # only used by the optional news summary (2.1+: output_config, server-side fallback)
+anthropic>=2.3.0,<2.4   # only used by the optional news summary (2.1+: output_config, server-side fallback)
 pytest
-certifi==2026.10.19   # PYSEC-2026-4320 (found by pip-audit); allowed despite the 14-day delay
+certifi==2026.10.23   # PYSEC-2026-4320 (found by pip-audit); allowed despite the 14-day delay
