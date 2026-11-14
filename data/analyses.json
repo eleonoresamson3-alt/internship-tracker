@@ -1,6 +1,154 @@
 {
  "days": [
   {
+   "date": "2026-11-14",
+   "generated_at": "2026-11-14T05:55:00+00:00",
+   "brief": [
+    "Taux : le FT annonce la pire semaine des Treasuries depuis le « Liberation Day », une inflation plus forte que prévu et des propos « durs » de responsables de la Fed ayant pris à contre-pied les investisseurs qui pariaient sur la fin du krach obligataire ; nos séries américaines s'arrêtent au 10 novembre (10 ans à 4,98 %, +10 points de base).",
+    "Europe : le Bund 10 ans monte de 7 points de base à 3,43 % le 13 novembre (+14 sur une semaine) et le 2 ans à 3,13 % (+18) ; le 10 ans français est à 4,762 % le 12 novembre.",
+    "Pétrole : selon le FT, le marché mondial passe à l'excédent avec la reprise des expéditions du Golfe ; le Brent est à 92,14 $ le 11 novembre (-29,1 % sur un mois).",
+    "Actions : Goldman Sachs voit la croissance des bénéfices presque diviser par deux en 2027 sans enterrer le marché haussier ; le S&P 500 gagne 1,31 % le 11 novembre (7 619,38) et le Nasdaq perd 0,39 % le 12 (25 366,09).",
+    "Crédit : Ubisoft doit clarifier son refinancement, avec des échéances obligataires de plusieurs centaines de millions d'euros (L'Agefi)."
+   ],
+   "articles": [
+    {
+     "title": "Treasuries : la pire semaine depuis le « Liberation Day » après une inflation forte et une Fed sévère",
+     "theme": "credit_sovereign",
+     "lead": "Les investisseurs qui pensaient le krach obligataire terminé ont été pris à contre-pied par des chiffres d'inflation élevés et des propos fermes de responsables de la Fed.",
+     "what": "Selon le FT, les bons du Trésor américain s'apprêtent à connaître leur pire semaine depuis le « Liberation Day » d'avril 2025 : une inflation supérieure aux attentes et des remarques « hawkish » de responsables de la Fed ont piégé les investisseurs qui pariaient sur la fin du krach obligataire mondial. Notre série du 10 novembre donne le 10 ans américain à 4,98 % (+10 points de base) et le 2 ans à 4,73 % (+17 points), avant la fin de la semaine. En Europe, le Bund 10 ans est à 3,43 % le 13 novembre (+7 points de base sur la journée, +14 sur une semaine) et le 2 ans à 3,13 % (+4 ; +18 sur une semaine).",
+     "why": "Quand le prix d'une obligation baisse, son rendement monte : une semaine de forte hausse des rendements correspond à une semaine de pertes pour les détenteurs. Une inflation élevée pousse les investisseurs à anticiper des taux directeurs plus hauts, et les propos de la Fed, comme ceux de Christopher Waller sur une possible hausse de 50 points de base, confirment ce scénario. La hausse plus marquée du 2 ans que du 10 ans, dans nos données américaines, est cohérente avec des anticipations de taux directeurs plus que d'une prime de long terme, sans que nos sources le tranchent ; la hausse allemande suit le mouvement mondial. Nos séries s'arrêtent avant la fin de la semaine, donc l'ampleur finale n'est pas connue.",
+     "impact": "Une hausse des rendements réduit la valeur des obligations existantes et pèse sur les portefeuilles des banques et des assureurs. Pour les produits structurés à capital protégé, des taux plus élevés rendent le zéro-coupon moins cher et libèrent du budget pour la participation ou le coupon : c'est le côté favorable d'un marché obligataire en baisse pour les nouveaux produits. Pour les actions de croissance, des taux d'actualisation plus élevés réduisent la valeur actuelle des profits futurs. Les options de taux (swaptions) sont plus chères en période d'incertitude. L'EUR/USD est à 1,1081 le 12 novembre (-0,41 %).",
+     "interview": {
+      "question": "Pourquoi une inflation plus forte que prévu provoque-t-elle une baisse des prix des Treasuries et comment cela change-t-il la structure d'une note à capital protégé émise aujourd'hui ?",
+      "hints": [
+       "Relation inverse entre prix et rendement, notion de duration.",
+       "Anticipations de taux directeurs et pente de la courbe 2 ans / 10 ans.",
+       "Prix du zéro-coupon et budget d'option.",
+       "Effet sur le dollar et sur les actions de croissance."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Duration",
+       "definition": "Mesure de la sensibilité du prix d'une obligation aux variations des taux d'intérêt, exprimée en années."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US Treasuries set for worst week since Trump's 'liberation day'",
+       "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast",
+       "url": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Pétrole : le marché mondial bascule vers l'excédent avec le retour des expéditions du Golfe",
+     "theme": "fx_commodities",
+     "lead": "L'Agence internationale de l'énergie (AIE) voit un excédent d'offre, mais prévient que la reconstitution des stocks prendra des mois.",
+     "what": "Selon le FT, les marchés pétroliers mondiaux passent à l'excédent avec la reprise des expéditions du Golfe, des analystes de l'AIE avertissant que reconstituer les stocks épuisés par le conflit prendra des mois. Nos données donnent le Brent à 92,14 $ le 11 novembre (+2,2 % sur la journée, +0,33 % sur une semaine, -29,1 % sur un mois), soit nettement sous les 123,10 $ du 27 octobre dans nos données. L'EUR/USD est à 1,1081 le 12 novembre.",
+     "why": "Un excédent signifie que l'offre dépasse la demande : les stocks cessent de baisser et les prix tendent à reculer. Le retour des expéditions du Golfe indique que le risque de perturbation d'approvisionnement diminue, ce qui retire une partie de la prime de risque. L'avertissement de l'AIE nuance le tableau : les stocks restent bas, donc le marché demeure sensible à un nouvel incident. La forte baisse du Brent depuis le mois dernier montre à quelle vitesse le prix intègre l'amélioration, sans que nos sources disent si elle est durable.",
+     "impact": "Un pétrole nettement plus bas allège la pression sur l'inflation, ce qui pourrait contribuer à calmer les anticipations de taux, même si la semaine a montré que les propos de la Fed restaient sévères. Pour les produits structurés sur le Brent ou les actions pétrolières, la chute rapproche des barrières, tandis que la volatilité reste forte. Pour la zone euro, importatrice d'énergie, c'est favorable aux termes de l'échange. Pour les producteurs et leurs créanciers, des prix plus bas réduisent les profits record d'octobre, ce qui limite la capacité de désendettement.",
+     "interview": {
+      "question": "Le marché pétrolier passe à l'excédent mais les stocks restent bas : quelles conséquences sur la courbe à terme et sur les options sur le Brent ?",
+      "hints": [
+       "Excédent d'offre, niveau des stocks et prix spot.",
+       "Structure à terme : contango ou backwardation.",
+       "Volatilité implicite après un choc géopolitique.",
+       "Lien avec l'inflation et les décisions de banques centrales."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Contango",
+       "definition": "Situation où les prix à terme d'une matière première sont supérieurs au prix comptant, signe d'un marché bien approvisionné."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+       "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Bénéfices : Goldman Sachs voit la croissance presque diviser par deux en 2027, sans enterrer le marché haussier",
+     "theme": "equities",
+     "lead": "Deux grandes banques commentent la saison des résultats : les surprises se normalisent et la croissance des profits ralentit.",
+     "what": "Selon MarketWatch, Goldman Sachs estime que la croissance des bénéfices va presque diviser par deux sur les grands indices en 2027, mais que les actions ont déjà largement intégré ce ralentissement ; la banque recommande de se concentrer sur les entreprises qui affichent encore une forte croissance, devenue une denrée rare. Des stratèges de Citi notent que les surprises de bénéfices se normalisent : la majorité des sociétés du S&P 500 ont dépassé les attentes, mais avec des écarts nettement plus faibles que lors des trimestres récents. Investing.com indique que Goldman Sachs prévoit un pic de l'essor de l'IA en 2027. Le S&P 500 est à 7 619,38 le 11 novembre (+1,31 %) et le VIX à 17,49.",
+     "why": "Le cours d'une action reflète les bénéfices futurs anticipés : un ralentissement déjà attendu est « dans les prix » et ne fait pas forcément baisser le marché. Ce qui compte est l'écart entre résultats et attentes : quand les surprises positives deviennent moins fortes, le marché perd un soutien, mais Citi y voit un signe de normalisation, donc de santé. La recommandation de Goldman de rechercher la croissance rare illustre une logique de sélection plutôt que d'achat de l'ensemble du marché. Ces avis sont des opinions de banques, non des prévisions garanties.",
+     "impact": "Une croissance de bénéfices plus faible mais déjà valorisée est compatible avec un marché stable : le VIX autour de 17,5 le 11 novembre, en baisse de 10,1 %, reflète une prudence modérée. Pour les autocalls sur indices, un marché stable mais plus sélectif maintient des coupons modestes ; l'essentiel est la dispersion entre valeurs, qui pèse sur les paniers worst-of. Pour les produits sur actions individuelles, les écarts de résultats peuvent entraîner de gros mouvements. Les banques d'investissement constatent une demande de couverture plus ciblée.",
+     "interview": {
+      "question": "La croissance des bénéfices ralentit mais les actions l'ont déjà intégré : que signifie « déjà dans les prix » et comment l'évaluer ?",
+      "hints": [
+       "Attentes du consensus, surprises de résultats et réaction du cours.",
+       "Ratio cours/bénéfices attendus et révision des prévisions.",
+       "Concentration de la croissance sur quelques valeurs.",
+       "Effet de la dispersion sur les paniers worst-of."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Consensus",
+       "definition": "Moyenne des prévisions des analystes pour les résultats d'une entreprise, qui sert de référence pour mesurer les surprises."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here's what the firm recommends.",
+       "url": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists",
+       "url": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Goldman Sachs prévoit un pic de l'essor de l'IA en 2027",
+       "url": "https://fr.investing.com/news/stock-market-news/goldman-sachs-prevoit-un-pic-de-lessor-de-lia-en-2027-3694980",
+       "source": "Investing.com France"
+      }
+     ]
+    },
+    {
+     "title": "Ubisoft : un refinancement à clarifier rapidement, avec le risque d'un coût pour les minoritaires",
+     "theme": "credit_sovereign",
+     "lead": "Entre trésorerie sous pression et échéances obligataires proches, l'éditeur de jeux vidéo dispose de peu de temps pour sécuriser son financement.",
+     "what": "Selon L'Agefi, le calendrier financier se resserre « dangereusement » pour Ubisoft : la trésorerie est sous pression et plusieurs centaines de millions d'euros d'échéances obligataires approchent. Le groupe étudie différents scénarios, qui pourraient se révéler coûteux pour ses actionnaires minoritaires. Les montants exacts, les échéances précises et les scénarios ne figurent pas dans le résumé disponible. Dans nos données, le Bund 10 ans est à 3,43 % le 13 novembre, ce qui sert de référence aux taux des emprunts d'entreprises en euros.",
+     "why": "Un refinancement consiste à rembourser une dette qui arrive à échéance en en contractant une nouvelle, ou en la remplaçant par du capital. Quand la trésorerie est tendue, l'émetteur négocie en position de faiblesse : les conditions peuvent être sévères (coupon élevé, garanties, dilution). Les actionnaires minoritaires sont exposés si la solution passe par une augmentation de capital ou par l'entrée d'un investisseur à des conditions avantageuses pour lui. Le texte de L'Agefi décrit un risque, pas une décision prise.",
+     "impact": "Pour les détenteurs d'obligations d'Ubisoft, la proximité des échéances augmente le risque de refinancement, ce qui élargit en général le spread et renchérit la protection (CDS) si elle existe. Pour les produits structurés dont le sous-jacent est l'action, la volatilité implicite devrait être élevée, avec des options chères et un risque de gap en cas d'annonce. Pour les banques qui prêteraient à l'entreprise, la qualité du crédit et les garanties sont déterminantes. Un refinancement réussi réduirait le risque de crédit, tandis qu'une dilution pèserait sur le cours.",
+     "interview": {
+      "question": "Une entreprise fait face à des échéances obligataires alors que sa trésorerie est tendue : quelles sont ses options, et quels effets pour les créanciers, les actionnaires et les produits structurés sur son action ?",
+      "hints": [
+       "Refinancement par nouvelle dette, augmentation de capital ou cession d'actifs.",
+       "Dilution des actionnaires minoritaires.",
+       "Spread de crédit et risque de refinancement.",
+       "Volatilité implicite et risque de gap sur l'action."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Dilution",
+       "definition": "Baisse de la part de chaque actionnaire dans le capital quand de nouvelles actions sont émises."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Ubisoft bientôt contraint de clarifier ses options de refinancement",
+       "url": "https://www.agefi.fr/news/entreprises/ubisoft-bientot-contraint-de-clarifier-ses-options-de-refinancement",
+       "source": "L'Agefi"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-13",
    "generated_at": "2026-11-13T05:55:00+00:00",
    "brief": [
@@ -2710,5 +2858,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-13T05:55:00+00:00"
+ "updated_at": "2026-11-14T05:55:00+00:00"
 }
