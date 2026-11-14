@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T12:53:20+00:00",
+ "generated_at": "2026-11-13T12:22:59+00:00",
  "meetings": [
   {
    "bank": "Fed",
@@ -45,7 +45,7 @@
    "bank": "Fed",
    "date": "2027-03-16",
    "end": "2027-03-17",
-   "note": "avec projections économiques (SEP)",
+   "note": "",
    "source": "official",
    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
@@ -77,7 +77,7 @@
    "bank": "Fed",
    "date": "2027-06-08",
    "end": "2027-06-09",
-   "note": "avec projections économiques (SEP)",
+   "note": "",
    "source": "official",
    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
@@ -117,7 +117,7 @@
    "bank": "Fed",
    "date": "2027-09-14",
    "end": "2027-09-15",
-   "note": "avec projections économiques (SEP)",
+   "note": "",
    "source": "official",
    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
@@ -139,9 +139,9 @@
   },
   {
    "bank": "Fed",
-   "date": "2027-12-07",
-   "end": "2027-12-08",
-   "note": "avec projections économiques (SEP)",
+   "date": "2027-11-16",
+   "end": "2027-11-17",
+   "note": "",
    "source": "official",
    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
   },
