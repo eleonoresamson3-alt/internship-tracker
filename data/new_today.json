@@ -1,108 +1,79 @@
 {
- "generated_at": "2026-11-13T12:14:49+00:00",
- "date": "2026-11-13",
+ "generated_at": "2026-11-14T11:30:03+00:00",
+ "date": "2026-11-14",
  "jobs": [
   {
-   "id": "pwc-489782bc713e",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Stage - International Tax & Transfer Pricing - Brescia [TAX]",
-   "location": "Brescia",
+   "id": "exoduspoint-78fa1211356c",
+   "employer": "ExodusPoint",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Internship – Hong Kong",
+   "location": "Hong Kong",
    "countries": [
-    "IT"
+    "HK"
    ],
    "country_names": [
-    "Italy"
+    "Hong Kong"
    ],
-   "region": "Europe (priority)",
+   "region": "Rest of world",
    "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 70,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Brescia/Stage---International-Tax---Transfer-Pricing---Brescia--TAX-_773805WD",
-   "posted_at": "2026-11-12",
-   "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "id": "pwc-cd554e056111",
-   "employer": "PwC",
-   "employer_type": "consulting",
-   "platform": "workday",
-   "title": "Stage - Conseil en cybersécurité et gestion des risques IT – F/H",
-   "location": "Toulouse; Neuilly-sur-Seine",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Toulouse/Stage---Conseil-en-cyberscurit-et-gestion-des-risques-IT---F-H_773999WD",
-   "posted_at": "2026-11-13",
-   "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "id": "amundi-7cc70a13f38b",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - Financial Controller and analyst Trading H/F H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Trading",
    "role_level": "medium",
-   "score": 30,
+   "score": 41,
    "score_breakdown": {
     "role": 30,
     "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 11
    },
-   "timing": "unknown",
+   "timing": "off-cycle",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-financial-controller-and-analyst-trading-h-f-h-f_117409.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002",
+   "posted_at": "2026-11-13",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
-   "id": "amundi-d235c9f31bf8",
+   "id": "jefferies-62f761efe495",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Investment Banking Summer Associate Program – New York, Financial Institutions Group (FIG)",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group-FIG/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "amundi-a59ed119c71a",
    "employer": "Amundi",
    "employer_type": "asset_manager",
    "platform": "generic",
-   "title": "Stage - Assistant(e) Produits Financiers et coordination internationale en Asset Management H/F",
+   "title": "Stage - Assistant Gérant Actions Thématiques H/F",
    "location": "",
    "countries": [],
    "country_names": [],
@@ -120,10 +91,39 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-assistant-e-produits-financiers-et-coordination-internationale-en-asset-management-h-f_117404.aspx",
+   "url": "https://jobs.amundi.com/job/job-stage-assistant-gerant-actions-thematiques-h-f_115782.aspx",
    "posted_at": "",
-   "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "amundi-158f6645525f",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage - Intitulé du poste Assistant Coordinateur Risques & Surveillance Permanente Middle-Office H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-intitule-du-poste-assistant-coordinateur-risques-surveillance-permanente-middle-office-h-f_117402.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
    "active": true
   }
  ]

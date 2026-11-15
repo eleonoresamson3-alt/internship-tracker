@@ -1,28 +1,159 @@
 {
- "generated_at": "2026-11-13T12:14:49+00:00",
+ "generated_at": "2026-11-14T11:30:03+00:00",
  "employers_total": 143,
- "employers_failed": 0,
- "errors": [],
- "stats": [
-  {
-   "employer": "Groupe Crédit Agricole",
-   "fetched": 12,
-   "kept": 2
-  },
-  {
-   "employer": "JPMorgan",
-   "fetched": 592,
-   "kept": 19
-  },
+ "employers_failed": 20,
+ "errors": [
   {
    "employer": "Morgan Stanley",
-   "fetched": 1,
-   "kept": 0
+   "platform": "workday",
+   "careers_url": "https://www.morganstanley.com/careers/students-graduates",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:30:03+00:00"
   },
   {
    "employer": "Citi",
-   "fetched": 41,
-   "kept": 5
+   "platform": "workday",
+   "careers_url": "https://jobs.citi.com/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:30:03+00:00"
+  },
+  {
+   "employer": "Mizuho",
+   "platform": "workday",
+   "careers_url": "https://www.mizuhogroup.com/emea/careers",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:30:05+00:00"
+  },
+  {
+   "employer": "State Street",
+   "platform": "workday",
+   "careers_url": "https://careers.statestreet.com/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:30:12+00:00"
+  },
+  {
+   "employer": "BlackRock",
+   "platform": "workday",
+   "careers_url": "https://careers.blackrock.com/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:30:49+00:00"
+  },
+  {
+   "employer": "PIMCO",
+   "platform": "workday",
+   "careers_url": "https://www.pimco.com/en-us/careers",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:30:59+00:00"
+  },
+  {
+   "employer": "Invesco",
+   "platform": "workday",
+   "careers_url": "https://careers.invesco.com/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:31:01+00:00"
+  },
+  {
+   "employer": "Aviva Investors",
+   "platform": "workday",
+   "careers_url": "https://www.avivainvestors.com/en-gb/about/careers/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:31:03+00:00"
+  },
+  {
+   "employer": "Arrowstreet Capital",
+   "platform": "workday",
+   "careers_url": "https://www.arrowstreetcapital.com/careers",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:31:03+00:00"
+  },
+  {
+   "employer": "EDF Trading",
+   "platform": "workday",
+   "careers_url": "https://www.edftrading.com/careers/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:31:30+00:00"
+  },
+  {
+   "employer": "CME Group",
+   "platform": "workday",
+   "careers_url": "https://www.cmegroup.com/careers.html",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:31:35+00:00"
+  },
+  {
+   "employer": "S&P Global",
+   "platform": "workday",
+   "careers_url": "https://careers.spglobal.com/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:31:40+00:00"
+  },
+  {
+   "employer": "Muzinich",
+   "platform": "workday",
+   "careers_url": "https://www.muzinich.com/careers",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:32:30+00:00"
+  },
+  {
+   "employer": "Nasdaq (Calypso / Adenza)",
+   "platform": "workday",
+   "careers_url": "https://www.nasdaq.com/about/careers",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:32:40+00:00"
+  },
+  {
+   "employer": "AllianceBernstein",
+   "platform": "workday",
+   "careers_url": "https://www.alliancebernstein.com/corporate/en/careers.html",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:32:46+00:00"
+  },
+  {
+   "employer": "Wellington Management",
+   "platform": "workday",
+   "careers_url": "https://www.wellington.com/en/careers",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:32:48+00:00"
+  },
+  {
+   "employer": "T. Rowe Price",
+   "platform": "workday",
+   "careers_url": "https://www.troweprice.com/corporate/careers",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:32:49+00:00"
+  },
+  {
+   "employer": "Capital Group",
+   "platform": "workday",
+   "careers_url": "https://www.capitalgroup.com/about-us/careers.html",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:32:51+00:00"
+  },
+  {
+   "employer": "Northern Trust",
+   "platform": "workday",
+   "careers_url": "https://careers.northerntrust.com/",
+   "error": "NotJson: non-JSON answer (HTTP 200, text/html): platform probably down or in maintenance",
+   "at": "2026-11-14T11:32:53+00:00"
+  },
+  {
+   "employer": "Novartis",
+   "platform": "workday",
+   "careers_url": "https://www.novartis.com/careers",
+   "error": "HTTPError: 401 Client Error: Unauthorized for url: https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/jobs",
+   "at": "2026-11-14T11:35:04+00:00"
+  }
+ ],
+ "stats": [
+  {
+   "employer": "Groupe Crédit Agricole",
+   "fetched": 6,
+   "kept": 0
+  },
+  {
+   "employer": "JPMorgan",
+   "fetched": 594,
+   "kept": 21
   },
   {
    "employer": "Bank of America",
@@ -31,7 +162,7 @@
   },
   {
    "employer": "Barclays",
-   "fetched": 43,
+   "fetched": 42,
    "kept": 12
   },
   {
@@ -41,43 +172,33 @@
   },
   {
    "employer": "Nomura",
-   "fetched": 22,
+   "fetched": 21,
    "kept": 10
   },
   {
-   "employer": "Mizuho",
-   "fetched": 1,
-   "kept": 0
-  },
-  {
    "employer": "MUFG",
-   "fetched": 18,
+   "fetched": 17,
    "kept": 5
   },
   {
    "employer": "Santander CIB",
-   "fetched": 15,
+   "fetched": 14,
    "kept": 8
   },
   {
    "employer": "RBC Capital Markets",
-   "fetched": 21,
-   "kept": 12
+   "fetched": 23,
+   "kept": 11
   },
   {
    "employer": "Jefferies",
    "fetched": 42,
-   "kept": 15
+   "kept": 14
   },
   {
    "employer": "BNY",
-   "fetched": 345,
+   "fetched": 344,
    "kept": 16
-  },
-  {
-   "employer": "State Street",
-   "fetched": 26,
-   "kept": 4
   },
   {
    "employer": "Macquarie",
@@ -96,13 +217,13 @@
   },
   {
    "employer": "TD Securities",
-   "fetched": 4,
+   "fetched": 5,
    "kept": 0
   },
   {
    "employer": "Scotiabank",
-   "fetched": 282,
-   "kept": 15
+   "fetched": 278,
+   "kept": 16
   },
   {
    "employer": "Daiwa",
@@ -116,8 +237,8 @@
   },
   {
    "employer": "Amundi",
-   "fetched": 34,
-   "kept": 15
+   "fetched": 36,
+   "kept": 17
   },
   {
    "employer": "Rothschild & Co",
@@ -126,28 +247,18 @@
   },
   {
    "employer": "Lazard",
-   "fetched": 94,
+   "fetched": 93,
    "kept": 8
   },
   {
-   "employer": "BlackRock",
-   "fetched": 4,
-   "kept": 4
-  },
-  {
    "employer": "Schroders",
-   "fetched": 54,
+   "fetched": 53,
    "kept": 3
   },
   {
    "employer": "Man Group",
-   "fetched": 68,
+   "fetched": 66,
    "kept": 3
-  },
-  {
-   "employer": "PIMCO",
-   "fetched": 33,
-   "kept": 14
   },
   {
    "employer": "Fidelity International",
@@ -155,19 +266,9 @@
    "kept": 0
   },
   {
-   "employer": "Invesco",
-   "fetched": 13,
-   "kept": 6
-  },
-  {
    "employer": "M&G",
    "fetched": 12,
    "kept": 10
-  },
-  {
-   "employer": "Aviva Investors",
-   "fetched": 0,
-   "kept": 0
   },
   {
    "employer": "AQR",
@@ -175,13 +276,8 @@
    "kept": 3
   },
   {
-   "employer": "Arrowstreet Capital",
-   "fetched": 4,
-   "kept": 3
-  },
-  {
    "employer": "Squarepoint",
-   "fetched": 91,
+   "fetched": 90,
    "kept": 1
   },
   {
@@ -196,12 +292,12 @@
   },
   {
    "employer": "Optiver",
-   "fetched": 151,
+   "fetched": 152,
    "kept": 8
   },
   {
    "employer": "IMC",
-   "fetched": 158,
+   "fetched": 156,
    "kept": 11
   },
   {
@@ -211,7 +307,7 @@
   },
   {
    "employer": "Hudson River Trading",
-   "fetched": 82,
+   "fetched": 83,
    "kept": 3
   },
   {
@@ -231,7 +327,7 @@
   },
   {
    "employer": "Tower Research",
-   "fetched": 93,
+   "fetched": 92,
    "kept": 10
   },
   {
@@ -281,22 +377,17 @@
   },
   {
    "employer": "Schonfeld",
-   "fetched": 70,
+   "fetched": 71,
    "kept": 8
   },
   {
    "employer": "ExodusPoint",
-   "fetched": 3,
-   "kept": 1
+   "fetched": 4,
+   "kept": 2
   },
   {
    "employer": "Quadrature Capital",
    "fetched": 4,
-   "kept": 0
-  },
-  {
-   "employer": "EDF Trading",
-   "fetched": 3,
    "kept": 0
   },
   {
@@ -325,11 +416,6 @@
    "kept": 0
   },
   {
-   "employer": "CME Group",
-   "fetched": 2,
-   "kept": 0
-  },
-  {
    "employer": "Murex",
    "fetched": 11,
    "kept": 3
@@ -345,23 +431,18 @@
    "kept": 0
   },
   {
-   "employer": "S&P Global",
-   "fetched": 13,
-   "kept": 2
-  },
-  {
    "employer": "Allianz",
    "fetched": 100,
    "kept": 3
   },
   {
    "employer": "SCOR",
-   "fetched": 148,
+   "fetched": 149,
    "kept": 12
   },
   {
    "employer": "Zurich",
-   "fetched": 297,
+   "fetched": 296,
    "kept": 6
   },
   {
@@ -386,12 +467,12 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 7,
+   "fetched": 10,
    "kept": 1
   },
   {
    "employer": "EY",
-   "fetched": 757,
+   "fetched": 756,
    "kept": 5
   },
   {
@@ -401,12 +482,12 @@
   },
   {
    "employer": "PwC",
-   "fetched": 193,
+   "fetched": 195,
    "kept": 31
   },
   {
    "employer": "Forvis Mazars",
-   "fetched": 123,
+   "fetched": 122,
    "kept": 0
   },
   {
@@ -441,13 +522,13 @@
   },
   {
    "employer": "DZ Bank",
-   "fetched": 16,
+   "fetched": 15,
    "kept": 0
   },
   {
    "employer": "UniCredit",
-   "fetched": 15,
-   "kept": 6
+   "fetched": 14,
+   "kept": 7
   },
   {
    "employer": "BBVA",
@@ -457,11 +538,6 @@
   {
    "employer": "Raiffeisen Bank International",
    "fetched": 35,
-   "kept": 0
-  },
-  {
-   "employer": "Muzinich",
-   "fetched": 0,
    "kept": 0
   },
   {
@@ -511,7 +587,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 702,
+   "fetched": 697,
    "kept": 0
   },
   {
@@ -525,18 +601,13 @@
    "kept": 0
   },
   {
-   "employer": "Nasdaq (Calypso / Adenza)",
-   "fetched": 5,
-   "kept": 1
-  },
-  {
    "employer": "Keyrock",
    "fetched": 9,
    "kept": 4
   },
   {
    "employer": "Flowdesk",
-   "fetched": 13,
+   "fetched": 12,
    "kept": 0
   },
   {
@@ -551,7 +622,7 @@
   },
   {
    "employer": "GSR",
-   "fetched": 5,
+   "fetched": 6,
    "kept": 0
   },
   {
@@ -576,38 +647,13 @@
   },
   {
    "employer": "Clear Street",
-   "fetched": 37,
-   "kept": 0
-  },
-  {
-   "employer": "AllianceBernstein",
-   "fetched": 0,
-   "kept": 0
-  },
-  {
-   "employer": "Wellington Management",
-   "fetched": 3,
-   "kept": 0
-  },
-  {
-   "employer": "T. Rowe Price",
-   "fetched": 0,
+   "fetched": 38,
    "kept": 0
   },
   {
    "employer": "Franklin Templeton",
    "fetched": 100,
-   "kept": 6
-  },
-  {
-   "employer": "Capital Group",
-   "fetched": 5,
-   "kept": 5
-  },
-  {
-   "employer": "Northern Trust",
-   "fetched": 0,
-   "kept": 0
+   "kept": 4
   },
   {
    "employer": "Aberdeen",
@@ -651,17 +697,17 @@
   },
   {
    "employer": "Airbus",
-   "fetched": 61,
+   "fetched": 65,
    "kept": 0
   },
   {
    "employer": "Thales",
-   "fetched": 108,
+   "fetched": 107,
    "kept": 0
   },
   {
    "employer": "Michelin",
-   "fetched": 36,
+   "fetched": 34,
    "kept": 2
   },
   {
@@ -671,7 +717,7 @@
   },
   {
    "employer": "Air Liquide",
-   "fetched": 77,
+   "fetched": 79,
    "kept": 4
   },
   {
@@ -681,7 +727,7 @@
   },
   {
    "employer": "Alstom",
-   "fetched": 394,
+   "fetched": 392,
    "kept": 1
   },
   {
@@ -696,12 +742,7 @@
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 94,
-   "kept": 0
-  },
-  {
-   "employer": "Novartis",
-   "fetched": 4,
+   "fetched": 96,
    "kept": 0
   },
   {
@@ -711,12 +752,12 @@
   },
   {
    "employer": "AB InBev",
-   "fetched": 58,
+   "fetched": 60,
    "kept": 0
   },
   {
    "employer": "Diageo",
-   "fetched": 2,
+   "fetched": 1,
    "kept": 0
   }
  ]

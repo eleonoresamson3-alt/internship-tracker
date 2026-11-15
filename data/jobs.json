@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T12:14:49+00:00",
+ "generated_at": "2026-11-14T11:30:03+00:00",
  "jobs": [
   {
    "id": "jpmorgan-d3e46ba575b4",
@@ -31,7 +31,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776890",
    "posted_at": "2026-08-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -64,7 +64,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101605",
    "posted_at": "2026-09-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -97,7 +97,7 @@
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7957756",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -134,7 +134,7 @@
    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -171,7 +171,7 @@
    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8059837",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -237,7 +237,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1558-2027-Global-Markets-Rates-Structuring-Off-Cycle-Internship-Paris/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -274,7 +274,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8059384",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -313,7 +313,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/7297657002?gh_jid=7297657002",
    "posted_at": "2024-08-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -356,7 +356,7 @@
    "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8785833002",
    "posted_at": "2026-09-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -389,7 +389,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5564",
    "posted_at": "2026-11-04",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -430,7 +430,7 @@
    "url": "https://www.squarepoint-capital.com/open-opportunities?id=243853&gh_jid=243853",
    "posted_at": "2023-07-06",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -463,7 +463,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1449-2027-Global-Markets-Sales-Trading-Structuring-Research-Summer-Internship-London-for-2028-Graduates/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -496,73 +496,40 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1548-2027-Global-Markets-Summer-Internship-Securitised-Products-and-Private-Credit-Trading-Structuring-London-For-2028-Graduates/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-2a66b3f4de5e",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE – Assistant Sales Dérivés de Taux et Change & Placements structurés H/F",
-   "location": "",
+   "id": "jpmorgan-ca43130a3066",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Quantitative Research Markets Associate Program – Off-Cycle Internship – London",
+   "location": "LONDON, LONDON, United Kingdom",
    "countries": [
-    "FR"
+    "GB"
    ],
    "country_names": [
-    "France"
+    "United Kingdom"
    ],
-   "region": "France",
+   "region": "Europe (priority)",
    "family": "Pricing / Quant",
    "role_level": "high",
-   "score": 80,
+   "score": 81,
    "score_breakdown": {
     "role": 50,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
+    "geo": 20,
+    "city": 5,
+    "timing": 6
    },
-   "timing": "unknown",
-   "start": "",
+   "timing": "off-cycle",
+   "start": "2027",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-3-stage--assistant-sales-derives-de-taux-et-change-et-placements-structures-hf-reference--2026-117298--/",
-   "posted_at": "",
-   "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-4b38b38efe15",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage Data Officer - Data Management Pricing H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 80,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage-data-officer---data-management-pricing-hf-reference--2026-108286--/",
-   "posted_at": "",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775780",
+   "posted_at": "2026-11-13",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -595,7 +562,7 @@
    "url": "https://emplois.kpmg.fr/emploi/lyon/consultant-stagiaire-evaluation-et-modelisation-financiere-h-f/2913/16757501312",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -628,7 +595,7 @@
    "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-structured-finance-f-h/2913/45099171520",
    "posted_at": "",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -661,7 +628,7 @@
    "url": "https://emplois.kpmg.fr/emploi/courbevoie/stagiaire-evaluation-et-modelisation-financiere-h-f/2913/17000481920",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -694,7 +661,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8113986",
    "posted_at": "2026-08-12",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -727,7 +694,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Quantitative-Finance-Associate-Off-Cycle-Internship-Programme-2027-London_JR-0000124685",
    "posted_at": "2026-09-04",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -760,7 +727,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Frankfurt-Taunus-Turm/Sales--Trading-and-Structuring-Off-Cycle-Internship-Programme-2027-Frankfurt_JR-0000124757-1",
    "posted_at": "2026-09-03",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -793,7 +760,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Sales--Trading-and-Structuring-Off-Cycle-Internship-Programme-2027-London_JR-0000124716",
    "posted_at": "2026-09-09",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -826,7 +793,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/The-Medelan-Building-Milan/Sales--Trading-and-Structuring-Off-Cycle-Internship-Programme-2027-Milan_JR-0000124759",
    "posted_at": "2026-09-03",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -894,7 +861,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8010307",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -929,7 +896,7 @@
    "url": "https://jobs.ashbyhq.com/Keyrock/4cae20e0-f315-4ccb-aa8e-df0e87969313",
    "posted_at": "2026-11-03",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -964,7 +931,7 @@
    "url": "https://jobs.ashbyhq.com/Keyrock/2665c2ed-9131-46d9-9a05-564e7a719d33",
    "posted_at": "2026-11-03",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -997,7 +964,7 @@
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8631180002",
    "posted_at": "2026-07-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1030,7 +997,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Paris-52-avenue-Hoche/Quantitative-Analytics-Associate-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124726",
    "posted_at": "2026-09-07",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1063,7 +1030,7 @@
    "url": "https://keplercheuvreux.teamtailor.com/jobs/8474780-internship-structuring-dynamic-strategies-nyon",
    "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1096,7 +1063,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Quantitative-Analyst-Intern-Multi-Asset_R0007658",
    "posted_at": "2026-10-06",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1129,7 +1096,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Quantitative-Research-Intern---AI-for-Investment-Research_R0007657",
    "posted_at": "2026-10-06",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1162,7 +1129,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Credit-Sales-and-Trading_10079355-WD-1",
    "posted_at": "2026-09-09",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1195,7 +1162,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8488699002/?gh_jid=8488699002",
    "posted_at": "2026-08-17",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1228,7 +1195,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Brescia/Stage---International-Tax---Transfer-Pricing---Brescia--TAX-_773805WD",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1261,7 +1228,7 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8311597",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1294,7 +1261,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=7011493",
    "posted_at": "2025-06-25",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1335,7 +1302,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8168750",
    "posted_at": "2026-09-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1376,7 +1343,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8168634",
    "posted_at": "2026-08-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1409,7 +1376,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101619",
    "posted_at": "2026-09-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1442,7 +1409,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101584",
    "posted_at": "2026-09-07",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1475,7 +1442,7 @@
    "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8859054002",
    "posted_at": "2026-09-30",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1508,7 +1475,7 @@
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7957243",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1541,7 +1508,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Structured-Trading-Group_10079356-WD-1",
    "posted_at": "2026-10-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1574,7 +1541,7 @@
    "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/7806970",
    "posted_at": "2026-09-07",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1607,7 +1574,7 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8238448",
    "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1640,7 +1607,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8037860",
    "posted_at": "2026-09-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1673,7 +1640,7 @@
    "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/STAGE---SIEGE-SOCIAL---Front-Office---Salle-des-marchs-H-F_R10101872",
    "posted_at": "2026-09-28",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1718,7 +1685,7 @@
    "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8773084002",
    "posted_at": "2026-09-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1751,7 +1718,7 @@
    "url": "https://job-boards.greenhouse.io/virtu/jobs/7617953002",
    "posted_at": "2024-08-30",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1784,7 +1751,7 @@
    "url": "https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1846,7 +1813,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14896-Global-Quantitative-Research-Summer-Associate-Program-2027/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1879,7 +1846,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101613",
    "posted_at": "2026-09-21",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1912,7 +1879,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101602",
    "posted_at": "2026-09-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1945,7 +1912,7 @@
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7818540",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -1978,7 +1945,7 @@
    "url": "https://job-boards.greenhouse.io/drweng/jobs/8014915",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2011,7 +1978,7 @@
    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349219008",
    "posted_at": "2026-07-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2044,7 +2011,7 @@
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8260920",
    "posted_at": "2026-10-07",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2077,7 +2044,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907399101",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2110,7 +2077,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907400101",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2143,7 +2110,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4936262101",
    "posted_at": "2026-07-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2176,7 +2143,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4939846101",
    "posted_at": "2026-07-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2209,7 +2176,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774061",
    "posted_at": "2026-08-04",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2242,7 +2209,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1930-2027-Equity-Sales-and-Trading-Summer-Internship-Programme-London/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2275,7 +2242,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1953-2027-Quant-Masters-Summer-Programme-London/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2308,7 +2275,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8049938",
    "posted_at": "2026-07-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2341,7 +2308,7 @@
    "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048591",
    "posted_at": "2026-09-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2374,7 +2341,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1451-2027-Global-Markets-Digital-Office-Summer-Internship-Quants-Strats-London-For-2028-Graduates/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2407,7 +2374,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8901997002/?gh_jid=8901997002",
    "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2440,7 +2407,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8901902002/?gh_jid=8901902002",
    "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2473,7 +2440,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8699349002/?gh_jid=8699349002",
    "posted_at": "2026-09-28",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2506,7 +2473,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8644376002/?gh_jid=8644376002",
    "posted_at": "2026-08-12",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2539,7 +2506,7 @@
    "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8263031",
    "posted_at": "2026-10-07",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2671,7 +2638,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002",
    "posted_at": "2024-08-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2704,7 +2671,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/7297642002?gh_jid=7297642002",
    "posted_at": "2024-08-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2737,7 +2704,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Pre---Post-Trade-Markets-Operations--FX---Derivatives-Business-Support-Summer-Intern_Req1633001",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2770,7 +2737,7 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8172076",
    "posted_at": "2026-09-04",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2803,7 +2770,7 @@
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8624424002",
    "posted_at": "2026-07-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2836,7 +2803,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780497",
    "posted_at": "2026-08-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2869,7 +2836,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210780537",
    "posted_at": "2026-11-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2902,7 +2869,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6347",
    "posted_at": "2026-06-30",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2935,7 +2902,7 @@
    "url": "https://job-boards.greenhouse.io/virtu/jobs/8547254002",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -2968,7 +2935,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Paris-Origami/Capital-Markets-Off-Cycle-Internship-Programme-2027-Paris_JR-0000124479",
    "posted_at": "2026-10-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3001,7 +2968,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Dubai-International-Financial-Centre-Dubai/Sales--Trading-and-Structuring-Off-Cycle-Internship-Programme-2027-Dubai_JR-0000125149",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3034,7 +3001,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8474407002?gh_jid=8474407002",
    "posted_at": "2026-08-03",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3069,7 +3036,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8050772",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3104,7 +3071,7 @@
    "url": "https://jobs.ashbyhq.com/Keyrock/6b46ce15-7e6b-4213-9eb4-41cc64577e24",
    "posted_at": "2026-11-03",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3139,7 +3106,7 @@
    "url": "https://jobs.ashbyhq.com/Keyrock/d2d0a311-b102-4fda-b537-1a8e926b55c7",
    "posted_at": "2026-11-03",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3172,7 +3139,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6679",
    "posted_at": "2026-10-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3205,7 +3172,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6685",
    "posted_at": "2026-10-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3238,7 +3205,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802076",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3271,7 +3238,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802419",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3304,7 +3271,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1580-2027-Global-Markets-NAIM-FSOPS-6-Month-Off-Cycle-Internship-Paris/en-GB",
    "posted_at": "",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3337,7 +3304,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1520-2027-Global-Markets-Rates-Sales-6-Month-Off-Cycle-Internship-Paris/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3372,7 +3339,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stagiaire-Ingnieur-Auditeur-Financier---Septembre-2027---F-H_767106WD",
    "posted_at": "2026-10-29",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3407,7 +3374,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Neuilly-sur-Seine/Stagiaire-de-fin-d-tudes---Auditeur-Financier---Septembre-2027---F-H_767098WD",
    "posted_at": "2026-10-29",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3440,7 +3407,7 @@
    "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/STAGE---SIEGE-SOCIAL---Trsorerie-Cash-management---Back-Office-H-F_R10102156",
    "posted_at": "2026-09-30",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3469,7 +3436,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-finance-de-marche-structuration-et-innovation-produit-etf-indiciel-h-f_117097.aspx",
    "posted_at": "",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3502,7 +3469,7 @@
    "url": "https://job-boards.eu.greenhouse.io/davinciderivatives/jobs/4196845101",
    "posted_at": "2023-07-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3535,7 +3502,7 @@
    "url": "https://careers.ey.com/ey/job/Zurich-Quant-&-Analytics-Intern-Financial-Services-Risk-Consulting-8005/1417103933/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3568,7 +3535,7 @@
    "url": "https://job-boards.greenhouse.io/engineersgate/jobs/7946542",
    "posted_at": "2026-05-20",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3601,7 +3568,7 @@
    "url": "https://job-boards.greenhouse.io/engineersgate/jobs/8328653",
    "posted_at": "2026-10-28",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3634,7 +3601,7 @@
    "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Paris/Equity-Listing-Intern_R29101",
    "posted_at": "2026-10-30",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3669,7 +3636,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027900",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3702,7 +3669,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027939",
    "posted_at": "2026-08-03",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3735,7 +3702,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=7982648",
    "posted_at": "2026-07-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3768,7 +3735,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6638",
    "posted_at": "2026-09-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3801,7 +3768,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Capital-Markets_10079265-WD-1",
    "posted_at": "2026-09-07",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3834,7 +3801,7 @@
    "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4982410101",
    "posted_at": "2026-09-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3867,7 +3834,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002",
    "posted_at": "2024-08-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3900,7 +3867,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002",
    "posted_at": "2025-05-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3933,7 +3900,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Hanoi/Intern---Transfer-Pricing_773275WD",
    "posted_at": "2026-11-11",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -3966,7 +3933,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bangkok/Tax-Transfer-Pricing-Intern_744415WD-1",
    "posted_at": "2026-11-02",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4003,7 +3970,7 @@
    "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8581570002",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4069,7 +4036,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5395",
    "posted_at": "2026-09-10",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4102,7 +4069,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5411",
    "posted_at": "2026-09-16",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4135,7 +4102,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5175",
    "posted_at": "2026-07-21",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4168,7 +4135,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5427",
    "posted_at": "2026-09-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4201,7 +4168,7 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8350719",
    "posted_at": "2026-11-03",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4230,7 +4197,7 @@
    "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Internship-Private-Investors-Structuring-Client-Risk-Management/117488",
    "posted_at": "",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4263,7 +4230,7 @@
    "url": "https://job-boards.greenhouse.io/worldquant/jobs/4084570006",
    "posted_at": "2023-08-22",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4296,7 +4263,7 @@
    "url": "https://www.careers.zurich.com/job/Barcelona-Front-Office-Systems-Intern/1366576657/",
    "posted_at": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4329,7 +4296,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/83005",
    "posted_at": "2026-10-12",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4362,7 +4329,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/82198",
    "posted_at": "2026-09-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4461,7 +4428,7 @@
    "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8828058002",
    "posted_at": "2026-09-21",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4494,7 +4461,7 @@
    "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8888123002",
    "posted_at": "2026-10-14",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4529,7 +4496,7 @@
    "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8867730002",
    "posted_at": "2026-10-05",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4564,7 +4531,7 @@
    "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369",
    "posted_at": "2026-10-05",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4597,7 +4564,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Client-Sales_10079834-WD",
    "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4630,7 +4597,7 @@
    "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Summer-Analyst-Programme--Global-Markets---Markets-Engineering_10080069-WD-1",
    "posted_at": "2026-10-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4696,7 +4663,7 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8238451",
    "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4729,7 +4696,7 @@
    "url": "https://jobs.scotiabank.com/job/London-%28UK%29-2027-UK-Business-Risk-Management-Summer-Internship-ENG/607844117/",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4762,7 +4729,7 @@
    "url": "https://jobs.scotiabank.com/job/London-%28UK%29-2027-UK-Finance-Summer-Internship-ENG/607843717/",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4795,7 +4762,7 @@
    "url": "https://jobs.scotiabank.com/job/London-%28UK%29-2027-UK-Global-Capital-Markets-Summer-Internship-ENG/606718117/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4828,7 +4795,7 @@
    "url": "https://jobs.scotiabank.com/job/London-%28UK%29-2027-UK-Treasury-Summer-Internship-ENG/607844217/",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4861,7 +4828,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8024138",
    "posted_at": "2026-07-05",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4894,7 +4861,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1518-2027-Global-Markets-Structured-Solution-Sales-Off-Cycle-Internship-Paris/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4927,7 +4894,7 @@
    "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/France-Paris/Stage---Sige-social---Corporate-Finance-H-F_R10102109",
    "posted_at": "2026-09-30",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4960,7 +4927,7 @@
    "url": "https://jobsearch.alstom.com/job/Saint-Ouen-Stage-6-mois-IA-&-Automatisation-appliqu%C3%A9es-%C3%A0-la-Tr%C3%A9sorerie-HF/1455685933/",
    "posted_at": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -4993,7 +4960,7 @@
    "url": "https://keplercheuvreux.teamtailor.com/jobs/8623232-internship-credit-research-sell-side-paris",
    "posted_at": "2026-10-27",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5026,7 +4993,7 @@
    "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Purification-des-matires-premires-par-adsorption--F-H-_R-2026041882",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5059,7 +5026,7 @@
    "url": "https://murex.wd3.myworkdayjobs.com/MurexCareerPage1/job/Paris/INTERNSHIP-2027---Functional--Engineer-Capital-Market_JR103137-1",
    "posted_at": "2026-09-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5092,7 +5059,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1581-2027-Portfolio-Risk-and-Risk-Governance-Internship-6-Months-Paris/en-GB",
    "posted_at": "",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5125,7 +5092,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5483",
    "posted_at": "2026-10-09",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5158,7 +5125,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5446",
    "posted_at": "2026-09-29",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5191,7 +5158,7 @@
    "url": "https://job-boards.greenhouse.io/virtu/jobs/5208637002",
    "posted_at": "2021-04-16",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5224,7 +5191,7 @@
    "url": "https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5286,7 +5253,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14770-Global-Markets-Sales-Trading-Summer-Associate-Program-2027/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5319,7 +5286,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15094-Global-Quantitative-Strategies-Summer-Associate-2027-Singapore/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5348,7 +5315,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14894-Quantitative-Strategies-Data-Group-Summer-Associate-Program-2027/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5381,7 +5348,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Hong-Kong-Cheung-Kong-Center/Electronic-Trading-Associate-Summer-Internship-Programme-2027-Hong-Kong_JR-0000117566",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5414,7 +5381,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Mexico-City-Avenida-Paseo-de-la-Reforma-505/Trading-Analyst-Summer-Internship-Program-2027-Mexico-City_JR-0000134430",
    "posted_at": "2026-10-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5447,7 +5414,7 @@
    "url": "https://jobs.lever.co/belvederetrading/cbde47db-c60b-4339-a8f4-a8e4f30505ab",
    "posted_at": "2026-08-04",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5480,7 +5447,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101597",
    "posted_at": "2026-09-10",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5513,7 +5480,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101591",
    "posted_at": "2026-09-10",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5546,7 +5513,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101586",
    "posted_at": "2026-09-07",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5579,7 +5546,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101583",
    "posted_at": "2026-09-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5612,7 +5579,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101587",
    "posted_at": "2026-09-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5645,7 +5612,7 @@
    "url": "https://job-boards.greenhouse.io/drweng/jobs/7668776",
    "posted_at": "2026-07-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5678,7 +5645,7 @@
    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5420708008",
    "posted_at": "2026-09-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5711,7 +5678,7 @@
    "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
    "posted_at": "2026-07-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5744,7 +5711,7 @@
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
    "posted_at": "2026-07-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5777,7 +5744,7 @@
    "url": "https://job-boards.greenhouse.io/gardacp/jobs/4308947004",
    "posted_at": "2022-06-14",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5814,7 +5781,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4912874101",
    "posted_at": "2026-07-06",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5851,7 +5818,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907430101",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5884,7 +5851,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4842595101",
    "posted_at": "2026-08-27",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5917,7 +5884,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823923101",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -5983,7 +5950,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210803936",
    "posted_at": "2026-10-26",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6016,7 +5983,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2011-2027-Asset-Management-Summer-Internship-Programme-London/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6049,7 +6016,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1997-2027-Equities-Sales-Trading-Summer-Analyst-Program-Cash-Trading-Hong-Kong/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6082,7 +6049,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2018-2027-Equities-Sales-Trading-Summer-Analyst-High-Touch-Trading-Hong-Kong/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6115,7 +6082,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1929-2027-Equity-Research-Summer-Internship-Programme-London/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6148,7 +6115,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1928-2027-Private-Credit-Investment-Summer-Internship-Programme-London/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6181,7 +6148,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1986-2027-Risk-Management-Summer-Internship-Programme-London/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6214,7 +6181,7 @@
    "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012801101",
    "posted_at": "2026-10-25",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6243,7 +6210,7 @@
    "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5012811101",
    "posted_at": "2026-11-02",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6276,7 +6243,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8642260002/?gh_jid=8642260002",
    "posted_at": "2026-07-20",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6309,7 +6276,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8623923002/?gh_jid=8623923002",
    "posted_at": "2026-08-12",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6342,7 +6309,7 @@
    "url": "https://www.optiver.com/join-us/jobs/8011956002/?gh_jid=8011956002",
    "posted_at": "2025-06-27",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6443,7 +6410,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8932943002?gh_jid=8932943002",
    "posted_at": "2026-11-06",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6476,7 +6443,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/7609197002?gh_jid=7609197002",
    "posted_at": "2024-08-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6509,7 +6476,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Sales---Trading-Analyst_R-0000191757",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6542,7 +6509,7 @@
    "url": "https://job-boards.greenhouse.io/radixuniversity/jobs/8500265002",
    "posted_at": "2026-04-09",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6575,7 +6542,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8044334",
    "posted_at": "2026-07-05",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6608,7 +6575,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8024128",
    "posted_at": "2026-07-05",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6641,7 +6608,40 @@
    "url": "https://hrhub.wd3.myworkdayjobs.com/Euronext_Career_Page/job/Milan/Elite---Sales--intern_R29365",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "exoduspoint-78fa1211356c",
+   "employer": "ExodusPoint",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "Quantitative Internship – Hong Kong",
+   "location": "Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Pricing / Quant",
+   "role_level": "medium",
+   "score": 41,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 11
+   },
+   "timing": "off-cycle",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002",
+   "posted_at": "2026-11-13",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6674,7 +6674,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802065",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6707,7 +6707,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802421",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6740,7 +6740,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Luxembourg/Intern-Risk-Management---6-month-Internship_R0007399",
    "posted_at": "2026-07-28",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6773,7 +6773,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--COO-Internship--London-_R20840",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6806,7 +6806,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Client-Group---Product-Internship--London-_R20839",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6839,7 +6839,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Equities-Internship--London-_R20841",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6872,7 +6872,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Private-Markets-Internship--London-_R20814",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6905,7 +6905,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Asset-Management--Public-Fixed-Income-Internship--London-_R20813",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6938,7 +6938,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/London/Risk---Compliance-Internship--London-_R20871",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -6971,7 +6971,7 @@
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2356",
    "posted_at": "2026-11-05",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7004,7 +7004,7 @@
    "url": "https://emplois.kpmg.fr/emploi/bayonne/auditeur-financier-f-h-stagiaire/2913/45935722432",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7037,7 +7037,7 @@
    "url": "https://emplois.kpmg.fr/emploi/baie-mahault/auditeur-financier-stagiaire-f-h-antilles-27-28/2913/45896413760",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7070,7 +7070,7 @@
    "url": "https://emplois.kpmg.fr/emploi/nice/auditeur-financier-stagiaire-f-h/2913/45888380224",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7103,7 +7103,7 @@
    "url": "https://emplois.kpmg.fr/emploi/la-defense/auditeur-financier-stagiaire-h-f/2913/45848957888",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7136,7 +7136,7 @@
    "url": "https://emplois.kpmg.fr/emploi/saint-lo/auditeur-financier-stagiaire-f-h-normandie-27-28/2913/45896413632",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7169,7 +7169,7 @@
    "url": "https://emplois.kpmg.fr/emploi/la-defense/auditeur-stagiaire-gouvernance-risques-controle-interne-et-conformite-h-f/2913/45999986304",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7202,7 +7202,7 @@
    "url": "https://emplois.kpmg.fr/emploi/clermont-ferrand/auditeur-stagiaire-financier-f-h/2913/46232048896",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7235,7 +7235,7 @@
    "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-finance-strategy-and-transformation-f-h/2913/31693947392",
    "posted_at": "",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7268,7 +7268,7 @@
    "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-management-strategy-and-business-transformation-banque-assurance-asset-mana/2913/44771154240",
    "posted_at": "",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7301,7 +7301,7 @@
    "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-risques-et-conformite-des-entreprises-f-h/2913/31788183040",
    "posted_at": "",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7334,7 +7334,7 @@
    "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-risques-et-conformite-des-entreprises-tech-f-h/2913/31788183168",
    "posted_at": "",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7367,7 +7367,7 @@
    "url": "https://emplois.kpmg.fr/emploi/courbevoie/consultant-stagiaire-en-qualite-de-vie-au-travail-et-prevention-des-risques-psycho-sociaux-f-h/2913/45270468480",
    "posted_at": "",
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7400,7 +7400,7 @@
    "url": "https://emplois.kpmg.fr/emploi/la-defense/stagiaire-ingenieur-audit-financier-f-h/2913/30801897280",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7433,7 +7433,7 @@
    "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Dveloppement-et-validation-d-une-mthode-de-mesure-du-plomb-par-fluorescence-X-sur-matires-premires--F-H-_R-2026038742",
    "posted_at": "2026-11-04",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7466,7 +7466,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Toulouse/Stage---Conseil-en-cyberscurit-et-gestion-des-risques-IT---F-H_773999WD",
    "posted_at": "2026-11-13",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7499,7 +7499,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Nantes/Stage---Transformation-de-la-fonction-Finance---Nantes---F-H_763347WD",
    "posted_at": "2026-09-18",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7532,7 +7532,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Lyon/Stagiaire-en-transformation-de-la-fonction-Finance---Lyon---F-H_763876WD",
    "posted_at": "2026-09-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7565,7 +7565,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Frankfurt-Taunus-Turm/Capital-Markets-Off-Cycle-Internship-Programme-2027-Frankfurt_JR-0000124472-1",
    "posted_at": "2026-08-25",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7598,7 +7598,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Hong-Kong-Cheung-Kong-Center/Quantitative-Analytics-Associate-Off-Cycle-Internship-2027-Hong-Kong_JR-0000117565",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7631,7 +7631,7 @@
    "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Singapore-Marina-Bay-Financial-Tower-2/Quantitative-Analytics-Associate-Off-Cycle-Internship-2027-Singapore_JR-0000117563",
    "posted_at": "2026-07-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7664,7 +7664,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784371",
    "posted_at": "2026-09-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7697,7 +7697,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784366",
    "posted_at": "2026-09-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7730,7 +7730,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784369",
    "posted_at": "2026-09-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7763,7 +7763,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210784061",
    "posted_at": "2026-09-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7796,7 +7796,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Finance-Actuarial-Internship--Stirling-_R20810",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7829,7 +7829,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Edinburgh/Finance-Internship--Edinburgh-_R20812",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7862,7 +7862,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Finance-Internship--Stirling-_R20811",
    "posted_at": "2026-11-12",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7895,7 +7895,7 @@
    "url": "https://mgpru.wd3.myworkdayjobs.com/mandgprudential/job/Stirling/Risk---Compliance-Internship--Stirling-_R20870",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7928,7 +7928,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1517-2027-Global-Markets-Off-Cycle-Internship-Frankfurt/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7961,7 +7961,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81310",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -7994,7 +7994,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101650",
    "posted_at": "2026-10-30",
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8027,7 +8027,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Milano-Via-Turati-25-27/Internship---Corporate-Advisory-Team--Mid-Market-M-A--f-m-x-_R0455361",
    "posted_at": "2026-10-26",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8060,7 +8060,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Milano-Via-Turati-25-27/Internship-Private-Equity--Club-Deal--Team--f-m-x-_R0435115",
    "posted_at": "2026-09-30",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8093,7 +8093,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Geneva-Place-des-Bergues-3/Sales-Coverage-Support-Intern--f-m-x-_R0450629",
    "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8126,7 +8126,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800615",
    "posted_at": "2026-10-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8159,7 +8159,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8927052002?gh_jid=8927052002",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8192,7 +8192,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/5866838002?gh_jid=5866838002",
    "posted_at": "2022-01-27",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8225,7 +8225,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Luxembourg/Investment---Business-Risk-Management-Intern---Europe-6-months_R0007773",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8258,7 +8258,7 @@
    "url": "https://murex.wd3.myworkdayjobs.com/MurexCareerPage1/job/Santiago/Trading-Consultant-Intern_JR102706",
    "posted_at": "2026-09-16",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8291,7 +8291,7 @@
    "url": "https://jobs.ashbyhq.com/voleon/ef2b0892-1772-4240-a535-4043d66d848e",
    "posted_at": "2026-09-16",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8324,7 +8324,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/83684",
    "posted_at": "2026-11-06",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8357,7 +8357,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774888",
    "posted_at": "2026-08-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8390,7 +8390,7 @@
    "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Business-Risk-Management-Summer-Internship-D/607846517/",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8423,7 +8423,7 @@
    "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Finance-Summer-Internship-D/607846317/",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8456,7 +8456,7 @@
    "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Global-Risk-Management-Summer-Internship-D/607846417/",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8489,7 +8489,7 @@
    "url": "https://jobs.scotiabank.com/job/Dublin-2027-Ireland-Treasury-Summer-Internship-D/607848117/",
    "posted_at": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8522,7 +8522,7 @@
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Milano/Finance-Transformation-Analyst---Intern_R00369378",
    "posted_at": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8555,7 +8555,7 @@
    "url": "https://careers.allianz.com/global/en/job/94497",
    "posted_at": "2026-03-18",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8584,7 +8584,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-financial-controller-and-analyst-trading-h-f-h-f_117409.aspx",
    "posted_at": "",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8617,7 +8617,7 @@
    "url": "https://talent.ecb.europa.eu/careers/JobDetail/Student-Research-Assistant-Traineeship-Programme-Financial-Research/15482",
    "posted_at": "",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8650,7 +8650,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81307",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8683,7 +8683,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81322",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8716,7 +8716,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14455-2027-Brazil-Fixed-Income-Sales-Trading-Desk-Internship-Program/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8848,7 +8848,7 @@
    "url": "https://careers.cboe.com/us/en/job/R-4708",
    "posted_at": "2026-10-02",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8881,7 +8881,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Shanghai-Two-IFC/Investment-Bank---Fixed-Income---Currencies-Trading-Local-Intern_R0445832",
    "posted_at": "2026-10-16",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8914,7 +8914,7 @@
    "url": "https://careers.ey.com/ey/job/Milano-Financial-Services-Candidatura-Spontanea-Stage-&-Entry-Level-20123/1442563033/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8947,7 +8947,7 @@
    "url": "https://careers.ey.com/ey/job/Milano-Project-Finance-Legal-Intern-%28Administrative-Law-Team%29-Milano-20123/1446402733/",
    "posted_at": "",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -8980,7 +8980,7 @@
    "url": "https://careers.ey.com/ey/job/Grand-Lancy-Geneva-Stagiaire-en-Conseil-et-Audit-IT-FSO-Technology-Risk-Gen%C3%A8ve-1212/1080301801/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9013,7 +9013,7 @@
    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8102618",
    "posted_at": "2026-08-04",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9050,7 +9050,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4956547101",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9116,7 +9116,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8617344002?gh_jid=8617344002",
    "posted_at": "2026-07-06",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9149,7 +9149,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8623733002?gh_jid=8623733002",
    "posted_at": "2026-07-21",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9182,7 +9182,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8630687002?gh_jid=8630687002",
    "posted_at": "2026-07-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9215,7 +9215,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8347385002?gh_jid=8347385002",
    "posted_at": "2026-01-16",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9248,7 +9248,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=7848371",
    "posted_at": "2026-07-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9281,7 +9281,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027941",
    "posted_at": "2026-08-03",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9316,7 +9316,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027922",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9349,7 +9349,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Internship---Enhancing-Financial-Knowledge-Access-with-Generative-AI_R0007258",
    "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9382,7 +9382,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Internship---AI-Software-Engineer---AI-Powered-Portfolio-Intelligence--PMS-_R0007628",
    "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9415,7 +9415,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Internship---Platform-Engineer---Secure-Cloud-Native-Platforms-for-Financial-Services_R0007619",
    "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9448,7 +9448,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Internship---Software-Engineer---Global-Markets-Services-AI-Project_R0007627-1",
    "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9481,7 +9481,7 @@
    "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Internship---Software-engineer---Cash-Management-Tool-Redevelopment_R0007630",
    "posted_at": "2026-10-19",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9514,7 +9514,7 @@
    "url": "https://murex.wd3.myworkdayjobs.com/MurexCareerPage1/job/Toronto/Trading-Domain-Functional-Intern_JR103273",
    "posted_at": "2026-09-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9547,7 +9547,7 @@
    "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1522-2027-Risk-Industrial-Placement-London/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9580,7 +9580,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002",
    "posted_at": "2024-08-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9613,7 +9613,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Advisory---Intern---Milano---Deals-Valuation-Financial-Services_605599WD",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9646,7 +9646,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milano---Piazza-Tre-Torri-2/Advisory-Intern---Operations-Financial-Services---Insurance---Milano_725198WD",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9679,7 +9679,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Advisory-Intern---Operations-Fanancial-Services-ambito-Payments---Open-Finance_663146WD-1",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9712,7 +9712,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Business---Technology-Consultant--Financial-Services----INTERNSHIP---Milano--ADV-_647514WD",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9745,7 +9745,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/Capital-Markets---Accounting-Advisory---Intern---Roma--OTS-_732426WD",
    "posted_at": "2026-07-30",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9778,7 +9778,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Digital-Process---Hyperautomation-Intern---Ambito-Low-Code-Developer---Milano---Financial-Services_651325WD",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9811,7 +9811,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Finance-Intern--Banking---AWM----Milano----ADV-_762779WD",
    "posted_at": "2026-10-20",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9844,7 +9844,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/EPM-Intern--Private-sector----Roma--ADV-_605255WD-2",
    "posted_at": "2026-10-27",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9877,7 +9877,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Risk-Analytics-Intern----Milano--OTS-_743054WD",
    "posted_at": "2026-07-21",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9910,7 +9910,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bari/Stage-Audit-Financial-Services----Bari--ADT-_643372WD",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9943,7 +9943,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bologna/Stage-Audit-Financial-Services---Bologna-e-Firenze--ADT-_595917WD-1",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -9976,7 +9976,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Stage-Audit-Financial-Services---Milano--ADT-_642957WD",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10009,7 +10009,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Rome/Stage-Audit-Financial-Services----Roma--ADT-_477265WD",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10042,7 +10042,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Milan/Stage-Audit-Risk-Financial-Services---Milano--ADT-_642418WD-1",
    "posted_at": "2026-07-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10077,7 +10077,7 @@
    "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies/jobs/8617401002",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10110,7 +10110,7 @@
    "url": "https://jobs.scotiabank.com/job/Singapore-Intern%2C-FICC-Sales-and-Trading-01-048583/607759717/",
    "posted_at": "",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10143,7 +10143,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8138524",
    "posted_at": "2026-08-18",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10176,7 +10176,7 @@
    "url": "https://www.careers.zurich.com/job/Barcelona-Credit-Research-Intern/1375558957/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10209,7 +10209,7 @@
    "url": "https://www.careers.zurich.com/job/Barcelona-Investment-Analysis-Intern/1374999057/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10242,7 +10242,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8491138002?gh_jid=8491138002",
    "posted_at": "2026-04-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10275,7 +10275,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8729717002?gh_jid=8729717002",
    "posted_at": "2026-08-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10308,7 +10308,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8876354002?gh_jid=8876354002",
    "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10374,7 +10374,7 @@
    "url": "https://careers.aqr.com/jobs?gh_jid=8224708&gh_jid=8224708",
    "posted_at": "2026-09-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10407,7 +10407,7 @@
    "url": "https://careers.aqr.com/jobs?gh_jid=7895583&gh_jid=7895583",
    "posted_at": "2026-05-15",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10440,7 +10440,7 @@
    "url": "https://careers.aqr.com/jobs?gh_jid=8156993&gh_jid=8156993",
    "posted_at": "2026-08-25",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10506,7 +10506,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81238",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10539,7 +10539,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81239",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10572,7 +10572,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81240",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10605,7 +10605,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81241",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10638,7 +10638,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81256",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10671,7 +10671,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81260",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10704,7 +10704,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81277",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10737,7 +10737,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81271",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10770,7 +10770,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/81276",
    "posted_at": "2026-08-24",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10803,7 +10803,7 @@
    "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/job/83662",
    "posted_at": "2026-11-05",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10836,7 +10836,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/14357-Global-Capital-Markets-Summer-Analyst-2027-Seoul/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -10869,7 +10869,7 @@
    "url": "https://careers.brevanhoward.com/gb/en/job/JR101595",
    "posted_at": "2026-09-10",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11001,7 +11001,7 @@
    "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8827973002",
    "posted_at": "2026-09-21",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11199,7 +11199,7 @@
    "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Audit-Assurance-Intern-Financial-Statement-Audit-Japanese-Services-Group-Summer-2027/361864",
    "posted_at": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11232,7 +11232,7 @@
    "url": "https://careers.ey.com/ey/job/Bratislava-Intern-Financial-Accounting-Advisory-Services-811-02/1435148733/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11265,7 +11265,40 @@
    "url": "https://don.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/2092",
    "posted_at": "2024-08-02",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "franklin-templeton-1f3bd31e3469",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern – Corporate Actions",
+   "location": "Poznan, Poland",
+   "countries": [
+    "PL"
+   ],
+   "country_names": [
+    "Poland"
+   ],
+   "region": "Europe (other)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 12,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869937",
+   "posted_at": "2026-10-21",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11298,7 +11331,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4823946101",
    "posted_at": "2026-11-04",
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11430,7 +11463,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796061",
    "posted_at": "2026-10-06",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11463,7 +11496,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768182",
    "posted_at": "2026-07-09",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11496,21 +11529,21 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765276",
    "posted_at": "2026-07-07",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
-   "id": "jefferies-98cad0af4d6b",
-   "employer": "Jefferies",
+   "id": "jpmorgan-d3fd422b79fc",
+   "employer": "JPMorgan",
    "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "2027 Equity Research Summer Analyst Program - Singapore",
-   "location": "",
+   "platform": "oracle",
+   "title": "2027 Markets Summer Analyst Program - Research",
+   "location": "New York, NY, United States",
    "countries": [
-    "SG"
+    "US"
    ],
    "country_names": [
-    "Singapore"
+    "United States"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -11526,10 +11559,10 @@
    "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
-   "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690282",
+   "posted_at": "2026-11-13",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11562,15 +11595,15 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2053-2027-Information-Technology-Summer-Analyst-Equity-Technology-Hong-Kong/en-GB",
    "posted_at": "",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
-   "id": "jefferies-8eb570456d82",
+   "id": "jefferies-62f761efe495",
    "employer": "Jefferies",
    "employer_type": "intl_bank",
    "platform": "generic",
-   "title": "2027 Investment Banking Summer Associate Program – New York, Financial Institutions Group",
+   "title": "2027 Investment Banking Summer Associate Program – New York, Financial Institutions Group (FIG)",
    "location": "",
    "countries": [
     "US"
@@ -11592,10 +11625,10 @@
    "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group/en-GB",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group-FIG/en-GB",
    "posted_at": "",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11628,7 +11661,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2034-2028-Investment-Banking-Summer-Analyst-Program-New-York-Equity-Capital-Markets-Group/en-GB",
    "posted_at": "",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11661,7 +11694,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2033-2028-Investment-Banking-Summer-Analyst-Program-New-York-Financial-Institutions-Group/en-GB",
    "posted_at": "",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11694,7 +11727,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2039-2028-Jefferies-Finance-Summer-Analyst-Program-New-York-Private-Credit/en-GB",
    "posted_at": "",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11727,7 +11760,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6611",
    "posted_at": "2026-09-21",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11760,7 +11793,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6614",
    "posted_at": "2026-10-06",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11793,7 +11826,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6613",
    "posted_at": "2026-09-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -11826,7 +11859,7 @@
    "url": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardProfessionalCareers/job/6767",
    "posted_at": "2026-10-23",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12123,7 +12156,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8811167002?gh_jid=8811167002",
    "posted_at": "2026-09-18",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12156,7 +12189,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8885299002?gh_jid=8885299002",
    "posted_at": "2026-10-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12189,7 +12222,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8885715002?gh_jid=8885715002",
    "posted_at": "2026-10-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12222,7 +12255,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8899750002?gh_jid=8899750002",
    "posted_at": "2026-11-06",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12255,7 +12288,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Hanoi/Summer-Intern---Financial-Audit--HAN-_755763WD",
    "posted_at": "2026-09-01",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12288,7 +12321,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2027-Capital-Markets--Global-Investment-Banking-Summer-Associate_R-0000186213",
    "posted_at": "2026-08-28",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12321,7 +12354,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/Houston-Texas-United-States-of-America/XMLNAME-2027-Capital-Markets--Global-Investment-Banking-Summer-Associate---Houston_R-0000186008",
    "posted_at": "2026-08-28",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12354,7 +12387,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/San-Francisco-California-United-States-of-America/XMLNAME-2027-Capital-Markets--Global-Investment-Banking-Summer-Associate---San-Francisco_R-0000186214-1",
    "posted_at": "2026-08-28",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12387,7 +12420,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Capital-Markets--Global-Markets-Origination-Summer-Analyst_R-0000191762",
    "posted_at": "2026-11-04",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12420,7 +12453,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/XMLNAME-2028-Global-Markets-Summer-Associate--Equity-Research_R-0000191769",
    "posted_at": "2026-11-04",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12449,7 +12482,7 @@
    "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1023-Stage-Global-Advisory-Equity-Capital-Markets-Juillet-2027/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12482,7 +12515,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Dallas/XMLNAME-2027-Central-Risk-Operations-Summer-Intern_Req1633035",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12515,7 +12548,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Credit-Portfolio---Administrative-Agency-Summer-Intern_Req1633009",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12548,7 +12581,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Credit-Portfolio-Management-Summer-Intern---Miami_Req1633015",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12581,7 +12614,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Credit-Portfolio-Management-Summer-Intern---New-York_Req1633021",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12614,7 +12647,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Pre---Post-Trade-Finance-Operations-Summer-Intern_Req1632817",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12647,7 +12680,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/XMLNAME-2027-Pre---Post-Trade-Markets-Operations--Business-Process-Control---Oversight-Summer-Intern_Req1632996",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12680,7 +12713,7 @@
    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madison-Ave-Corp/XMLNAME-2027-Pre---Post-Trade-Markets-Operations--Fixed-Income-Middle-Office-Summer-Intern_Req1633041",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12713,7 +12746,7 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8171692",
    "posted_at": "2026-09-04",
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12746,7 +12779,40 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8174538",
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "scotiabank-68aa02dbc880",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "2027 Finance Summer Analyst - Dallas",
+   "location": "Dallas, TX, US",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Dallas-2027-Finance-Summer-Analyst-Dallas-TX-75201/607597417/",
+   "posted_at": "",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12779,7 +12845,7 @@
    "url": "https://jobs.scotiabank.com/job/New-York-City-2027-Summer-Analyst-Business-Risk-Management-NYC-NY-10001/607700517/",
    "posted_at": "",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12812,7 +12878,7 @@
    "url": "https://jobs.scotiabank.com/job/Toronto-GBM-Corporate-Banking%2C-Credit-Analytics-Group-%28CAG%29-InternshipCo-op-Summer-2027-ON/607644017/",
    "posted_at": "",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12845,7 +12911,7 @@
    "url": "https://jobs.scotiabank.com/job/Montreal-Gestion-de-patrimoine-Stagiaire-recherche-JFL-%28Montr%C3%A9al%29-%C3%89t%C3%A9-2027-QC/607702717/",
    "posted_at": "",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12878,7 +12944,7 @@
    "url": "https://jobs.scotiabank.com/job/Montreal-Wealth-Management-JFL-Research-InternshipCo-op-%28Montreal%29-Summer-2027-QC/607702817/",
    "posted_at": "",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -12911,7 +12977,7 @@
    "url": "https://jobs.scotiabank.com/job/Toronto-Wealth-Management-JFL-Research-InternshipCo-op-%28Toronto%29-Summer-2027-ON/607625517/",
    "posted_at": "",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13076,7 +13142,7 @@
    "url": "https://www.careers.zurich.com/job/New-York-Operations-Internship-Alternative-Investments-Summer-2027-NY-10001/1371996757/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13109,7 +13175,7 @@
    "url": "https://www.careers.zurich.com/job/New-York-Sr_-Investment-Management-Internship-Summer-2027-NY-10001/1372475857/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13142,7 +13208,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15135-Global-Capital-Markets-Off-Cycle-Analyst-2027-Seoul/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13175,7 +13241,7 @@
    "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/2009-Equity-Research-Off-Cycle-Intern-Brazil/en-GB",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13204,7 +13270,7 @@
    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Assago/Banking-and-Financial-Regulation-Intern_R00279783",
    "posted_at": "",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13237,7 +13303,7 @@
    "url": "https://airliquidehr.wd3.myworkdayjobs.com/AirLiquideExternalCareer/job/Argentina-Munro/Treasury-Intern_R10103306",
    "posted_at": "2026-11-03",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13270,7 +13336,7 @@
    "url": "https://careers.allianz.com/global/en/job/92492",
    "posted_at": "2026-02-22",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13299,7 +13365,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-marketing-financier-strategie-asset-management-h-f_116638.aspx",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13328,7 +13394,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-finance-data-management-officer_117058.aspx",
    "posted_at": "",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13357,7 +13423,36 @@
    "url": "https://jobs.amundi.com/job/job-stage-investment-product-strategy-etf-indexing-index-mandates-h-f_117305.aspx",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "amundi-a59ed119c71a",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage - Assistant Gérant Actions Thématiques H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-assistant-gerant-actions-thematiques-h-f_115782.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13386,7 +13481,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-assistant-specialiste-produit-gestions-actions-h-f_117046.aspx",
    "posted_at": "",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13415,7 +13510,36 @@
    "url": "https://jobs.amundi.com/job/job-stage-assistant-e-produits-financiers-et-coordination-internationale-en-asset-management-h-f_117404.aspx",
    "posted_at": "",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "amundi-158f6645525f",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage - Intitulé du poste Assistant Coordinateur Risques & Surveillance Permanente Middle-Office H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Risk",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-intitule-du-poste-assistant-coordinateur-risques-surveillance-permanente-middle-office-h-f_117402.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-14",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13444,7 +13568,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-gestion-solutions-structurees-et-blended-finance-h-f_117290.aspx",
    "posted_at": "",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13473,7 +13597,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-en-finance-business-pilotage-et-suivi-commercial-h-f_117045.aspx",
    "posted_at": "",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13502,7 +13626,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-marketing-produit-et-mise-en-marche-amundi-actifs-prives-alternatifs-h-f_116407.aspx",
    "posted_at": "",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13531,7 +13655,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-support-vente-institutionnel-digital-h-f_112785.aspx",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13560,7 +13684,7 @@
    "url": "https://jobs.amundi.com/job/job-stage-investment-risk-data-analyst-h-f_114058.aspx",
    "posted_at": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13589,7 +13713,7 @@
    "url": "https://jobs.amundi.com/job/job-stagiaire-data-science-ia-h-f_113923.aspx",
    "posted_at": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13618,7 +13742,7 @@
    "url": "https://jobs.amundi.com/job/job-stagiaire-desk-ecm-equity-capital-market-h-f_115906.aspx",
    "posted_at": "",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13647,7 +13771,7 @@
    "url": "https://jobs.amundi.com/job/job-stagiaire-risk-management-projets-h-f_117093.aspx",
    "posted_at": "",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13680,7 +13804,7 @@
    "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15289-2027-Mexico-Rates-and-Currencies-Intern-Program/en-GB",
    "posted_at": "",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13746,7 +13870,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Shanghai-Two-IFC/CRO---Credit-Risk-Local-Intern_R0452523",
    "posted_at": "2026-11-12",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13779,7 +13903,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Sao-Paulo-Edificio-Pedro-Mariz/Finance-Intern_R0447144-1",
    "posted_at": "2026-10-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13812,7 +13936,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Sao-Paulo-Edificio-Pedro-Mariz/Global-Emergent-Markets--GEM--FIC-Sales---Intern_R0454424-1",
    "posted_at": "2026-10-27",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13845,7 +13969,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Singapore-One-Raffles-Quay/KYC-Solutions---Change-Intern----YTP-program_R0453247",
    "posted_at": "2026-09-30",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13878,7 +14002,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Sao-Paulo-Edificio-Pedro-Mariz/Trade-Finance-Sales-Intern_R0447998",
    "posted_at": "2026-08-27",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13911,7 +14035,7 @@
    "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/Sao-Paulo-Edificio-Pedro-Mariz/Trade-Finance-and-Lending-Intern_R0448350",
    "posted_at": "2026-10-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -13944,40 +14068,7 @@
    "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8938482002",
    "posted_at": "2026-11-11",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-0bf126e8073c",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869532",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14010,7 +14101,7 @@
    "url": "https://careers.franklintempleton.com/us/en/job/869798",
    "posted_at": "2026-10-13",
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14043,7 +14134,7 @@
    "url": "https://careers.franklintempleton.com/us/en/job/869440",
    "posted_at": "2026-10-13",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14076,73 +14167,7 @@
    "url": "https://careers.franklintempleton.com/us/en/job/869953",
    "posted_at": "2026-10-23",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-e5287d07cedb",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869422",
-   "posted_at": "2026-09-23",
-   "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "id": "franklin-templeton-f04fefc57354",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern (WAM - Fixed Income Investment/ Rotational)",
-   "location": "Singapore, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869442",
-   "posted_at": "2026-09-15",
-   "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14175,7 +14200,7 @@
    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4975945101",
    "posted_at": "2026-09-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14208,7 +14233,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800354",
    "posted_at": "2026-10-14",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14241,7 +14266,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8927083002?gh_jid=8927083002",
    "posted_at": "2026-11-09",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14274,7 +14299,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/8347286002?gh_jid=8347286002",
    "posted_at": "2025-12-19",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14307,7 +14332,7 @@
    "url": "https://www.janestreet.com/join-jane-street/apply/5869205002?gh_jid=5869205002",
    "posted_at": "2022-01-28",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14340,7 +14365,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8052281",
    "posted_at": "2026-07-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14373,7 +14398,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8052338",
    "posted_at": "2026-07-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14406,7 +14431,7 @@
    "url": "https://www.jumptrading.com/hr/job?gh_jid=8052351",
    "posted_at": "2026-07-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14439,7 +14464,7 @@
    "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=24182",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14472,7 +14497,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8932491002?gh_jid=8932491002",
    "posted_at": "2026-11-06",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14509,7 +14534,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8899753002?gh_jid=8899753002",
    "posted_at": "2026-11-06",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14542,7 +14567,7 @@
    "url": "https://boards.greenhouse.io/point72/jobs/8236734002?gh_jid=8236734002",
    "posted_at": "2025-10-31",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14575,7 +14600,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Casablanca/Analyste-financier-stagiaire_767730WD",
    "posted_at": "2026-10-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14608,7 +14633,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Casablanca/Auditeur-Financier-Stagiaire-PFE--H-F----PwC-Remote-Team_767623WD-1",
    "posted_at": "2026-10-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14641,7 +14666,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Casablanca/Auditeur-Financier-Stagiaire-PFE---PwC-Services_767606WD-1",
    "posted_at": "2026-10-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14674,7 +14699,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Casablanca/Auditeur-financier-stagiaire_767637WD",
    "posted_at": "2026-10-13",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14707,7 +14732,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Kuala-Lumpur/Intern---Risk-Services--Risk--Performance--Governance---Control-_769372WD-1",
    "posted_at": "2026-11-06",
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14740,7 +14765,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Ho-Chi-Minh-City/Intern---Transaction-Services_769897WD",
    "posted_at": "2026-10-30",
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14769,7 +14794,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Bermuda/Risk-Assurance-Intern_770351WD",
    "posted_at": "2026-11-02",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14802,7 +14827,7 @@
    "url": "https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Casablanca/Stagiaire-Consulting---Risk_750231WD",
    "posted_at": "2026-09-03",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14835,40 +14860,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PERSIARAN-IRC-2-IOI-RESORT-CITY-IOI-CITY-TOWER-ONEPUTRAJAYA/Finance-Intern--US-Regulatory-Reporting-and-Financial-Control_R-0000190141",
    "posted_at": "2026-10-28",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
-   "active": true
-  },
-  {
-   "id": "rbc-capital-markets-21b2e0521e87",
-   "employer": "RBC Capital Markets",
-   "employer_type": "intl_bank",
-   "platform": "workday",
-   "title": "Financial Advisor Intern",
-   "location": "PRINCE ALBERT, Saskatchewan, Canada",
-   "countries": [
-    "CA"
-   ],
-   "country_names": [
-    "Canada"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PRINCE-ALBERT-Saskatchewan-Canada/Financial-advisor-intern_R-0000170232",
-   "posted_at": "2026-11-03",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14901,7 +14893,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/HAMILTON-Ontario-Canada/Financial-Advisor_R-0000184478",
    "posted_at": "2026-11-06",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14934,7 +14926,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PRINCE-ALBERT-Saskatchewan-Canada/Relationship-Manager-Intern--Business-Markets_R-0000190337",
    "posted_at": "2026-11-03",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -14967,7 +14959,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/LANGLEY-British-Columbia-Canada/Relationship-Manager-Intern--Business-Markets_R-0000192413",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15000,7 +14992,7 @@
    "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/NANAIMO-British-Columbia-Canada/Relationship-Manager-Intern--Commercial-Financial-Services_R-0000191809-1",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15033,7 +15025,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5266",
    "posted_at": "2026-08-20",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15066,7 +15058,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/4578",
    "posted_at": "2026-01-08",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15099,7 +15091,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/4564",
    "posted_at": "2025-12-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15132,7 +15124,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5403",
    "posted_at": "2026-09-23",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15165,7 +15157,7 @@
    "url": "https://fa-errt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/5397",
    "posted_at": "2026-09-10",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15198,7 +15190,7 @@
    "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8220506",
    "posted_at": "2026-09-21",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15231,7 +15223,7 @@
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2177",
    "posted_at": "2026-10-04",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15264,7 +15256,7 @@
    "url": "https://ekbq.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/2155",
    "posted_at": "2026-10-30",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15297,7 +15289,7 @@
    "url": "https://jobs.scotiabank.com/job/Singapore-Intern%2C-Business-Risk-Management%2C-APAC-01-048583/607429317/",
    "posted_at": "",
    "first_seen": "2026-10-28",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15330,7 +15322,7 @@
    "url": "https://www.tower-research.com/open-positions/?gh_jid=8372658",
    "posted_at": "2026-11-10",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15359,7 +15351,36 @@
    "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Client-Risk-Management-Business-Management-Internship/117458",
    "posted_at": "",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
+   "active": true
+  },
+  {
+   "id": "unicredit-dac4ab27d07f",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Institutional Distribution Sales - Internship",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Institutional-Distribution-Sales-Internship/117457",
+   "posted_at": "",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15388,7 +15409,7 @@
    "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Intern-Debt-Capital-Markets-f-m-d/34469",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15417,7 +15438,7 @@
    "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Intern-Financial-Sponsor-Solutions-Leveraged-Finance-f-m-d/112381",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15446,7 +15467,7 @@
    "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Intern-in-Trade-Finance-with-Focus-on-Digitalization-f-m-d/114078",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15475,7 +15496,7 @@
    "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Internship-Client-Solutions-Client-Risk-Management-Treasury/114530",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15508,7 +15529,7 @@
    "url": "https://jobs.ashbyhq.com/voleon/e182a100-56cb-4949-9f33-3c26786b41d9",
    "posted_at": "2026-08-07",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15541,7 +15562,7 @@
    "url": "https://job-boards.greenhouse.io/worldquant/jobs/4069460006",
    "posted_at": "2023-08-22",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15574,7 +15595,7 @@
    "url": "https://www.careers.zurich.com/job/Kuala-Lumpur-Data-Science-&-AI-Internship/1369827257/",
    "posted_at": "",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "active": true
   },
   {
@@ -15966,39 +15987,6 @@
    "active": false
   },
   {
-   "id": "jpmorgan-ca43130a3066",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Quantitative Research Markets Associate Program – Off-Cycle Internship – London",
-   "location": "LONDON, LONDON, United Kingdom",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 81,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 20,
-    "city": 5,
-    "timing": 6
-   },
-   "timing": "off-cycle",
-   "start": "2027",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775780",
-   "posted_at": "2026-08-31",
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-11-01",
-   "active": false
-  },
-  {
    "id": "groupe-credit-agricole-e4d46e7f3688",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
@@ -16032,6 +16020,39 @@
    "active": false
   },
   {
+   "id": "groupe-credit-agricole-2a66b3f4de5e",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE – Assistant Sales Dérivés de Taux et Change & Placements structurés H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 80,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-3-stage--assistant-sales-derives-de-taux-et-change-et-placements-structures-hf-reference--2026-117298--/",
+   "posted_at": "",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-13",
+   "active": false
+  },
+  {
    "id": "groupe-credit-agricole-556a654e6fc2",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
@@ -16062,6 +16083,39 @@
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-11-09",
+   "active": false
+  },
+  {
+   "id": "groupe-credit-agricole-4b38b38efe15",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage Data Officer - Data Management Pricing H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 80,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-136-stage-data-officer---data-management-pricing-hf-reference--2026-108286--/",
+   "posted_at": "",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-11-13",
    "active": false
   },
   {
@@ -22689,39 +22743,6 @@
    "active": false
   },
   {
-   "id": "franklin-templeton-1f3bd31e3469",
-   "employer": "Franklin Templeton",
-   "employer_type": "asset_manager",
-   "platform": "phenom",
-   "title": "Intern – Corporate Actions",
-   "location": "Poznan, Poland",
-   "countries": [
-    "PL"
-   ],
-   "country_names": [
-    "Poland"
-   ],
-   "region": "Europe (other)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 12,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.franklintempleton.com/us/en/job/869937",
-   "posted_at": "2026-10-21",
-   "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
-   "active": false
-  },
-  {
    "id": "franklin-templeton-be9ca8eb19b9",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -23085,39 +23106,6 @@
    "active": false
   },
   {
-   "id": "jpmorgan-d3fd422b79fc",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Markets Summer Analyst Program - Research",
-   "location": "New York, NY, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690282",
-   "posted_at": "2026-11-09",
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-11-10",
-   "active": false
-  },
-  {
    "id": "jpmorgan-09c760e35aee",
    "employer": "JPMorgan",
    "employer_type": "intl_bank",
@@ -23184,6 +23172,39 @@
    "active": false
   },
   {
+   "id": "jefferies-98cad0af4d6b",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Equity Research Summer Analyst Program - Singapore",
+   "location": "",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1985-2027-Equity-Research-Summer-Analyst-Program-Singapore/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-11-13",
+   "active": false
+  },
+  {
    "id": "jefferies-d3c07475843a",
    "employer": "Jefferies",
    "employer_type": "intl_bank",
@@ -23210,6 +23231,39 @@
    "posted_at": "",
    "first_seen": "2026-10-28",
    "last_seen": "2026-11-05",
+   "active": false
+  },
+  {
+   "id": "jefferies-8eb570456d82",
+   "employer": "Jefferies",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "2027 Investment Banking Summer Associate Program – New York, Financial Institutions Group",
+   "location": "",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1910-2027-Investment-Banking-Summer-Associate-Program-New-York-Financial-Institutions-Group/en-GB",
+   "posted_at": "",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-11-13",
    "active": false
   },
   {
@@ -23767,39 +23821,6 @@
    "posted_at": "2026-10-22",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-26",
-   "active": false
-  },
-  {
-   "id": "scotiabank-68aa02dbc880",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "2027 Finance Summer Analyst - Dallas",
-   "location": "Dallas, TX, US",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Dallas-2027-Finance-Summer-Analyst-Dallas-TX-75201/607597417/",
-   "posted_at": "",
-   "first_seen": "2026-11-03",
-   "last_seen": "2026-11-09",
    "active": false
   },
   {
@@ -25672,6 +25693,39 @@
    "active": false
   },
   {
+   "id": "franklin-templeton-0bf126e8073c",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (BSP - Alternative Credit/ AI Automation)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869532",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-11-13",
+   "active": false
+  },
+  {
    "id": "franklin-templeton-5e26a60d9c10",
    "employer": "Franklin Templeton",
    "employer_type": "asset_manager",
@@ -25702,6 +25756,72 @@
    "posted_at": "2026-09-08",
    "first_seen": "2026-10-23",
    "last_seen": "2026-11-05",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-e5287d07cedb",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (TGI - Portfolio Management/ AI Automation)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869422",
+   "posted_at": "2026-09-23",
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-11-13",
+   "active": false
+  },
+  {
+   "id": "franklin-templeton-f04fefc57354",
+   "employer": "Franklin Templeton",
+   "employer_type": "asset_manager",
+   "platform": "phenom",
+   "title": "Intern (WAM - Fixed Income Investment/ Rotational)",
+   "location": "Singapore, Singapore",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.franklintempleton.com/us/en/job/869442",
+   "posted_at": "2026-09-15",
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-11-13",
    "active": false
   },
   {
@@ -25890,6 +26010,39 @@
    "posted_at": "2026-10-07",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-26",
+   "active": false
+  },
+  {
+   "id": "rbc-capital-markets-21b2e0521e87",
+   "employer": "RBC Capital Markets",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "Financial Advisor Intern",
+   "location": "PRINCE ALBERT, Saskatchewan, Canada",
+   "countries": [
+    "CA"
+   ],
+   "country_names": [
+    "Canada"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/PRINCE-ALBERT-Saskatchewan-Canada/Financial-advisor-intern_R-0000170232",
+   "posted_at": "2026-11-03",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-13",
    "active": false
   },
   {
@@ -26538,35 +26691,6 @@
    "posted_at": "",
    "first_seen": "2026-10-22",
    "last_seen": "2026-10-29",
-   "active": false
-  },
-  {
-   "id": "unicredit-dac4ab27d07f",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Institutional Distribution Sales - Internship",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Institutional-Distribution-Sales-Internship/117457",
-   "posted_at": "",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-12",
    "active": false
   },
   {
