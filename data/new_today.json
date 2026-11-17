@@ -1,46 +1,13 @@
 {
- "generated_at": "2026-11-15T11:58:16+00:00",
- "date": "2026-11-15",
+ "generated_at": "2026-11-16T12:47:43+00:00",
+ "date": "2026-11-16",
  "jobs": [
   {
-   "id": "s-p-global-36a738ea8fd7",
-   "employer": "S&P Global",
-   "employer_type": "software",
-   "platform": "workday",
-   "title": "Summer Intern, Quantitative Modeling",
-   "location": "Mexico City, MX",
-   "countries": [
-    "MX"
-   ],
-   "country_names": [
-    "Mexico"
-   ],
-   "region": "Rest of world",
-   "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 62,
-   "score_breakdown": {
-    "role": 50,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Mexico-City-MX/Summer-Intern--Quantitative-Modeling_332671-2",
-   "posted_at": "2026-11-13",
-   "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-d85ae033c912",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
+   "id": "amundi-9d65c44a551e",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
    "platform": "generic",
-   "title": "Stage - Chargé(e) de Sécurité / Processus d'évaluation des Risques Sanctions Internationales H/F",
+   "title": "Stage - Assistant Gestion Actions -Equipe Actions France H/F",
    "location": "",
    "countries": [
     "FR"
@@ -49,7 +16,7 @@
     "France"
    ],
    "region": "France",
-   "family": "Risk",
+   "family": "Markets (other)",
    "role_level": "low",
    "score": 40,
    "score_breakdown": {
@@ -62,19 +29,147 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170469-122-stage---chargee-de-securite--processus-d-evaluation-des-risques-sanctions-internationales-hf-reference--2026-116112--/",
+   "url": "https://jobs.amundi.com/job/job-stage-assistant-gestion-actions-equipe-actions-france-h-f_117466.aspx",
    "posted_at": "",
-   "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
    "active": true
   },
   {
-   "id": "cme-group-6575709867ce",
-   "employer": "CME Group",
-   "employer_type": "infrastructure",
-   "platform": "workday",
-   "title": "IT Asset Management Intern - Summer 2027",
-   "location": "Chicago - 20 S. Wacker",
+   "id": "groupe-credit-agricole-1aff9f53c7e1",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "STAGE - Analyste Crédit Entreprises H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---analyste-credit-entreprises-hf-reference--2026-116834--/",
+   "posted_at": "",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-cff08038c08f",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Assistant Gestion Actions -Equipe Actions France H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---assistant-gestion-actions--equipe-actions-france-hf-reference--2026-117466--/",
+   "posted_at": "",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-f82b6688e4e6",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Assistant Sales Strategy – Distribution & Wealth H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-124-stage---assistant-sales-strategy--distribution-et-wealth-hf-reference--2026-117476--/",
+   "posted_at": "",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "active": true
+  },
+  {
+   "id": "amundi-d0c411a69423",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage - Assistant Sales Strategy – Distribution & Wealth H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-assistant-sales-strategy-distribution-wealth-h-f_117476.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "active": true
+  },
+  {
+   "id": "macquarie-430567a8c533",
+   "employer": "Macquarie",
+   "employer_type": "intl_bank",
+   "platform": "generic",
+   "title": "Intern - Energy Sales",
+   "location": "",
    "countries": [
     "US"
    ],
@@ -84,21 +179,54 @@
    "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 22,
+   "score": 10,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 12
+    "timing": 0
    },
-   "timing": "summer",
-   "start": "2027",
+   "timing": "unknown",
+   "start": "",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Chicago---20-S-Wacker/IT-Asset-Management-Intern---Summer-2027_34985-1",
-   "posted_at": "2026-11-13",
-   "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
+   "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23692",
+   "posted_at": "",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
+   "active": true
+  },
+  {
+   "id": "scotiabank-c5d0e8412e60",
+   "employer": "Scotiabank",
+   "employer_type": "intl_bank",
+   "platform": "successfactors",
+   "title": "Intern, Finance Analyst",
+   "location": "Singapore, 01, SG, 048583",
+   "countries": [
+    "SG"
+   ],
+   "country_names": [
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.scotiabank.com/job/Singapore-Intern%2C-Finance-Analyst-01-048583/608037417/",
+   "posted_at": "",
+   "first_seen": "2026-11-16",
+   "last_seen": "2026-11-16",
    "active": true
   }
  ]
