@@ -1,145 +1,217 @@
 {
- "generated_at": "2026-11-16T12:47:43+00:00",
- "date": "2026-11-16",
+ "generated_at": "2026-11-17T13:29:05+00:00",
+ "date": "2026-11-17",
  "jobs": [
   {
-   "id": "amundi-9d65c44a551e",
+   "id": "keyrock-149a000de4ae",
+   "employer": "Keyrock",
+   "employer_type": "hedge_fund",
+   "platform": "ashby",
+   "title": "DeFi Quant Trader Intern (Credit) - London",
+   "location": "London; Brussels; London; London OR Brussels",
+   "countries": [
+    "GB",
+    "BE"
+   ],
+   "country_names": [
+    "United Kingdom",
+    "Belgium"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 55,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://jobs.ashbyhq.com/Keyrock/959a9226-816b-4894-80e6-feaa79018d03",
+   "posted_at": "2026-11-16",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "active": true
+  },
+  {
+   "id": "keyrock-317cd43b99bd",
+   "employer": "Keyrock",
+   "employer_type": "hedge_fund",
+   "platform": "ashby",
+   "title": "Innovation Quant Developer Intern (DeFi/Corporate Development) - London",
+   "location": "London; London; London OR Brussels",
+   "countries": [
+    "GB",
+    "BE"
+   ],
+   "country_names": [
+    "United Kingdom",
+    "Belgium"
+   ],
+   "region": "Europe (priority)",
+   "family": "Quant dev",
+   "role_level": "medium",
+   "score": 55,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 5,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://jobs.ashbyhq.com/Keyrock/99a38fdd-4250-42b9-a92b-5c0f48d563fd",
+   "posted_at": "2026-11-16",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-000028e4278a",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "INTERNSHIP - FULL-STACK DEVELOPER - FRONT OFFICE - NYON",
+   "location": "Nyon, Switzerland",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 50,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8753055-internship-full-stack-developer-front-office-nyon",
+   "posted_at": "2026-11-17",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-032b8fdc7e04",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Corporate & Acquisition Finance Intern (f/m/d) m/w/d",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-corporate-et-acquisition-finance-intern-fmd-mwd-reference--2026-117509--/",
+   "posted_at": "",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-7bcdd5b094d0",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Investment AI & Automation Intern H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 40,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---investment-ai-et-automation-intern-hf-reference--2026-117507--/",
+   "posted_at": "",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "active": true
+  },
+  {
+   "id": "point72-39ad2f5debf5",
+   "employer": "Point72",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Asia Summer Internship - Investment Services",
+   "location": "Singapore, Hong Kong; Hong Kong; Singapore, Central, Singapore",
+   "countries": [
+    "HK",
+    "SG"
+   ],
+   "country_names": [
+    "Hong Kong",
+    "Singapore"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://boards.greenhouse.io/point72/jobs/8931689002?gh_jid=8931689002",
+   "posted_at": "2026-11-17",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "active": true
+  },
+  {
+   "id": "amundi-76b5f0d53068",
    "employer": "Amundi",
    "employer_type": "asset_manager",
    "platform": "generic",
-   "title": "Stage - Assistant Gestion Actions -Equipe Actions France H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-assistant-gestion-actions-equipe-actions-france-h-f_117466.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-1aff9f53c7e1",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Analyste Crédit Entreprises H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-3-stage---analyste-credit-entreprises-hf-reference--2026-116834--/",
-   "posted_at": "",
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-cff08038c08f",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Assistant Gestion Actions -Equipe Actions France H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---assistant-gestion-actions--equipe-actions-france-hf-reference--2026-117466--/",
-   "posted_at": "",
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-f82b6688e4e6",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Assistant Sales Strategy – Distribution & Wealth H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170478-124-stage---assistant-sales-strategy--distribution-et-wealth-hf-reference--2026-117476--/",
-   "posted_at": "",
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
-   "active": true
-  },
-  {
-   "id": "amundi-d0c411a69423",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - Assistant Sales Strategy – Distribution & Wealth H/F",
+   "title": "Stage - Investment AI & Automation Intern H/F",
    "location": "",
    "countries": [],
    "country_names": [],
@@ -157,57 +229,24 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-assistant-sales-strategy-distribution-wealth-h-f_117476.aspx",
+   "url": "https://jobs.amundi.com/job/job-stage-investment-ai-automation-intern-h-f_117507.aspx",
    "posted_at": "",
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
    "active": true
   },
   {
-   "id": "macquarie-430567a8c533",
-   "employer": "Macquarie",
-   "employer_type": "intl_bank",
-   "platform": "generic",
-   "title": "Intern - Energy Sales",
-   "location": "",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23692",
-   "posted_at": "",
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
-   "active": true
-  },
-  {
-   "id": "scotiabank-c5d0e8412e60",
-   "employer": "Scotiabank",
-   "employer_type": "intl_bank",
+   "id": "zurich-cf8ea73e751a",
+   "employer": "Zurich",
+   "employer_type": "insurance",
    "platform": "successfactors",
-   "title": "Intern, Finance Analyst",
-   "location": "Singapore, 01, SG, 048583",
+   "title": "Sales & Customer Office Intern",
+   "location": "Toronto, ON, CA",
    "countries": [
-    "SG"
+    "CA"
    ],
    "country_names": [
-    "Singapore"
+    "Canada"
    ],
    "region": "Rest of world",
    "family": "Markets (other)",
@@ -221,12 +260,12 @@
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2026-11-30",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Singapore-Intern%2C-Finance-Analyst-01-048583/608037417/",
+   "url": "https://www.careers.zurich.com/job/Toronto-Sales-&-Customer-Office-Intern-ON/1377627457/",
    "posted_at": "",
-   "first_seen": "2026-11-16",
-   "last_seen": "2026-11-16",
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
    "active": true
   }
  ]
