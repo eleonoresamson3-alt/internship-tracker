@@ -1,6 +1,169 @@
 {
  "days": [
   {
+   "date": "2026-11-17",
+   "generated_at": "2026-11-17T05:55:00+00:00",
+   "brief": [
+    "Taux : le 10 ans américain atteint 5,10 % le 12 novembre (+12 points de base sur la journée, +26 sur une semaine) et le 2 ans 4,86 % ; en Europe, le Bund 10 ans est à 3,45 % et le 10 ans français à 4,93 % le 16 novembre, soit environ 148 points de base d'écart.",
+    "Actions : le FT annonce une ouverture américaine en baisse après les résultats de Nvidia, qui recule de 4 % avant l'ouverture, et CoreWeave de 8 % ; le Nasdaq était à 25 136,27 le 13 novembre (-0,91 %), le VIX à 18,7 le 12.",
+    "Stratégie : Morgan Stanley recommande une surpondération « maximale » des actions dans l'une des perspectives 2027 les plus optimistes ; un vétéran de marché parie au contraire sur un krach de 40 % et un pétrole à 500 $ (MarketWatch).",
+    "Produits : les obligations catastrophe (« cat bonds ») voient leur rendement s'éroder avec l'afflux d'investisseurs, après des niveaux proches de 10 % en 2023 (Le Monde).",
+    "À suivre : New World Development (Hong Kong) chute de 40 % sur une augmentation de capital avec une décote de 80 % (FT) ; Revolut est de nouveau épinglé en Italie pour sa lutte anti-blanchiment (L'Agefi)."
+   ],
+   "articles": [
+    {
+     "title": "Le 10 ans américain à 5,10 % : le rendement bondit après une semaine de hausse",
+     "theme": "credit_sovereign",
+     "lead": "Les rendements américains s'envolent après une inflation élevée et des propos fermes de la Fed ; l'Europe suit, avec un Bund à 3,45 %.",
+     "what": "Nos données donnent le 10 ans américain à 5,10 % le 12 novembre (+12 points de base sur la journée, +26 sur une semaine) et le 2 ans à 4,86 % (+13 ; +40 sur une semaine), des mouvements qui confirment la dureté de la semaine décrite par le FT. En Europe, le Bund 10 ans est à 3,45 % le 16 novembre (+2 points de base, +12 sur une semaine) et le 2 ans à 3,16 % (+3 ; +16), le TEC 10 français à 4,93 % (+4,2 ; +14,1) et le TEC 2 ans à 3,699 %. L'écart OAT-Bund à 10 ans est d'environ 148 points de base. Le taux de dépôt de la BCE est à 2,5 %. L'EUR/USD est à 1,1052 le 13 novembre (-0,26 %).",
+     "why": "Une hausse des rendements courts plus forte que celle des rendements longs, ici +40 points sur le 2 ans américain contre +26 sur le 10 ans en une semaine, traduit surtout un changement d'anticipations de taux directeurs : les investisseurs parient sur une Fed plus restrictive, comme l'a laissé entendre Christopher Waller. Quand le 10 ans américain dépasse 5 %, il devient plus rémunérateur de détenir des obligations d'État que des actions à faible rendement, ce qui pèse sur les valorisations de croissance. La contagion à l'Europe passe par l'arbitrage entre marchés obligataires, sans que nos sources disent si elle est durable.",
+     "impact": "Un 10 ans américain à 5,10 % renchérit le coût de financement des entreprises et des ménages et accroît le rendement offert par les zéro-coupons : pour les notes à capital protégé en dollars, cela libère du budget d'option, donc de la participation ou du coupon. Pour les actions, le taux d'actualisation plus élevé réduit la valeur actuelle des profits futurs, ce qui pénalise la tech. Pour les banques, des pertes latentes sur les portefeuilles d'obligations augmentent, tandis que la marge d'intérêt peut s'améliorer. Un dollar soutenu pèse sur l'EUR/USD.",
+     "interview": {
+      "question": "Le 2 ans américain monte plus vite que le 10 ans : que dit la pente de la courbe et que signifie un 10 ans à 5,10 % pour le prix des actions et des produits structurés ?",
+      "hints": [
+       "Pente 2 ans - 10 ans : anticipations de taux directeurs contre prime de terme.",
+       "Taux d'actualisation et valorisation des actions de croissance.",
+       "Prix du zéro-coupon et budget d'option d'une note à capital protégé.",
+       "Effet de contagion sur les taux européens et sur le dollar."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Prime de terme",
+       "definition": "Rendement supplémentaire exigé pour détenir une obligation longue plutôt que de réinvestir régulièrement à court terme."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US Treasuries set for worst week since Trump's 'liberation day'",
+       "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Hawkward timing",
+       "url": "https://www.ft.com/content/8c2639dc-e5d5-430d-a641-11776ac26f9c",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Nvidia après ses résultats : le titre et CoreWeave reculent, la question de l'après-Huang",
+     "theme": "equities",
+     "lead": "Les premiers résultats sous la direction par intérim de Colette Kress n'effacent pas les craintes sur l'IA, alors que le titre recule encore avant l'ouverture.",
+     "what": "Selon le FT, les valeurs technologiques américaines devraient ouvrir en baisse dans le sillage de Nvidia, qui recule de 4 % avant l'ouverture, tandis que CoreWeave perd 8 % sur fond d'inquiétudes persistantes sur l'IA. MarketWatch indique que la première conférence de résultats de Colette Kress comme PDG par intérim donne un aperçu de Nvidia après Jensen Huang. Un stratège de J.P. Morgan Asset Management estime que Nvidia peut éviter le sort des valeurs qui ont atteint le sommet de capitalisation : malgré des prévisions abaissées par de nombreux analystes, l'objectif de cours médian reste très supérieur au cours actuel de 280 $, et la situation de trésorerie et d'endettement du groupe est enviable.",
+     "why": "Un résultat est jugé par rapport aux attentes, mais aussi par rapport aux perspectives et à la gouvernance. Le dirigeant par intérim ne dissipe pas l'incertitude sur la succession, point soulevé par MarketWatch. L'argument de JPMorgan est classique : une entreprise très profitable et peu endettée peut traverser une correction mieux qu'un acteur fragile, d'où l'écart entre Nvidia et CoreWeave, plus dépendant de la dette. Ces avis de banques sont des opinions et ne garantissent pas l'évolution du cours.",
+     "impact": "Un titre aussi pondéré que Nvidia entraîne le Nasdaq et les paniers de semi-conducteurs : les autocalls indexés sur ces sous-jacents restent proches de leurs barrières. La volatilité implicite reste élevée, ce qui rend les options chères et les coupons nouveaux attractifs, avec un risque de perte en capital plus visible. Les spreads et CDS sur les émetteurs endettés de l'IA, comme CoreWeave, sont un indicateur de stress du secteur. Les teneurs de marché surveillent le risque de gap à l'ouverture, car l'indication avant ouverture est incertaine.",
+     "interview": {
+      "question": "Nvidia publie ses résultats avec un dirigeant par intérim et recule : comment distinguer le risque de l'entreprise du risque de marché pour un produit structuré indexé sur le titre ?",
+      "hints": [
+       "Risque idiosyncratique contre risque de marché.",
+       "Rôle de la succession et de la gouvernance dans la valorisation.",
+       "Volatilité implicite autour des résultats.",
+       "Comparaison avec un émetteur plus endetté (CoreWeave)."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Interim CEO",
+       "definition": "Dirigeant nommé temporairement, le temps de trouver un successeur permanent."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US tech stocks set to open lower amid Nvidia fallout",
+       "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Three questions for anyone considering the Nvidia CEO job",
+       "url": "https://www.marketwatch.com/story/three-questions-for-anyone-considering-the-nvidia-ceo-job-08ef8120?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Why Nvidia can avoid the fate of most stocks that reached the market-cap apex, according to one strategist",
+       "url": "https://www.marketwatch.com/story/why-nvidia-can-avoid-the-fate-of-most-stocks-that-reached-the-apex-by-market-cap-according-to-one-strategist-461e33be?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Morgan Stanley surpondère « au maximum » les actions, tandis qu'un autre parie sur un krach : comment parier avec des options",
+     "theme": "vol_derivatives",
+     "lead": "Les avis de stratèges divergent fortement, et MarketWatch détaille une stratégie d'options pour parier contre la tech tout en limitant le risque.",
+     "what": "Selon MarketWatch, les stratèges de Morgan Stanley recommandent de porter l'allocation en actions au maximum possible, dans l'une des perspectives les plus optimistes pour l'an prochain. Un autre article présente un vétéran de marché de 40 ans, Ulf Lindahl, qui fait un pari « solitaire » sur un krach de 40 % des actions américaines et un pétrole à 500 $ dans quelques années. MarketWatch explique aussi comment utiliser des options qui donnent le droit d'acheter et de vendre des ETF de marché, pour miser sur la poursuite de la rotation hors des grandes valeurs technologiques tout en limitant le risque. Nos données donnent le S&P 500 à 7 561,67 le 13 novembre (-0,4 %) et le VIX à 18,7 le 12 novembre (+6,9 %).",
+     "why": "Une position qui donne le droit d'acheter et de vendre le même actif à la même échéance s'appelle un straddle (ou un strangle si les prix d'exercice diffèrent) : elle gagne si le marché bouge fortement dans un sens ou l'autre, et perd la prime payée si le marché reste stable. Elle parie donc sur la volatilité plutôt que sur la direction. Les prévisions extrêmes de Morgan Stanley et de Lindahl illustrent l'incertitude : ce sont des opinions, non des prévisions garanties, et elles se contredisent. Une prévision à plusieurs années comme le pétrole à 500 $ est très spéculative.",
+     "impact": "Quand les avis divergent autant, la demande d'options reste forte et la volatilité implicite se maintient, ce qui rend les produits structurés plus rémunérateurs pour le vendeur de volatilité qu'est le client d'un autocall, mais avec un risque de perte plus tangible. Les ETF d'indice sont des sous-jacents liquides pour des straddles, avec un coût égal à la somme d'un call et d'un put. Pour les banques, les ordres de volatilité alimentent l'activité de dérivés. Les stratégies à levier limité (spreads d'options) permettent de plafonner la perte.",
+     "interview": {
+      "question": "Qu'est-ce qu'un straddle, quand est-il rentable, et quel rapport avec la volatilité implicite et avec le coupon d'un autocall ?",
+      "hints": [
+       "Achat simultané d'un call et d'un put au même prix d'exercice.",
+       "Point mort : prix d'exercice plus ou moins la prime totale.",
+       "Volatilité implicite et coût de la position.",
+       "Lien entre vente de volatilité et coupon d'un autocall."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Straddle",
+       "definition": "Stratégie d'options consistant à acheter un call et un put de même prix d'exercice et de même échéance, pour parier sur un fort mouvement dans un sens ou dans l'autre."
+      }
+     ],
+     "sources": [
+      {
+       "title": "How to use options to bet against Big Tech, while keeping risk in check",
+       "url": "https://www.marketwatch.com/story/how-to-use-options-to-bet-against-big-tech-while-keeping-risk-in-check-a2609641?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Why Morgan Stanley says it's time to go 'max' overweight on stocks",
+       "url": "https://www.marketwatch.com/story/why-morgan-stanley-says-its-time-to-go-max-overweight-on-stocks-bd33b103?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil",
+       "url": "https://www.marketwatch.com/story/why-this-40-year-market-veteran-is-making-a-lonely-bet-on-a-40-stock-market-crash-and-500-oil-c62aefdb?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Cat bonds : les rendements s'érodent avec l'afflux d'investisseurs",
+     "theme": "structured",
+     "lead": "Les obligations catastrophe attirent toujours plus de capitaux, mais leur rémunération baisse alors que le risque climatique s'intensifie.",
+     "what": "Selon Le Monde, les « cat bonds » (obligations catastrophe), portées par des rendements proches de 10 % en 2023, attirent toujours plus d'investisseurs. Ce succès provoque une érosion de leur rémunération au moment où le risque climatique s'intensifie. Le FT rapporte par ailleurs que des fonds de pension tirent la sonnette d'alarme sur le risque systémique lié aux événements climatiques lors de la COP31. Nos sources ne donnent pas le rendement actuel des cat bonds ni le montant du marché ; le taux de dépôt de la BCE est à 2,5 % et le 10 ans américain à 5,10 % le 12 novembre dans nos données.",
+     "why": "Un cat bond est une obligation dont le remboursement dépend de la non-survenance d'un événement défini (ouragan, séisme) : si la catastrophe se produit, l'investisseur perd tout ou partie du capital. Le rendement rémunère ce risque ; quand l'offre de capital augmente plus vite que l'offre de titres, la prime baisse, c'est l'érosion décrite par Le Monde. Ce type d'actif est peu corrélé aux marchés financiers, d'où son attrait pour la diversification. L'article note la tension entre baisse des primes et hausse du risque climatique.",
+     "impact": "Pour les investisseurs, une prime plus faible pour un risque qui augmente détériore le rapport rendement/risque. Pour les produits structurés, les cat bonds illustrent un mécanisme classique : vente d'un risque rémunérée par un coupon élevé, comme la vente de volatilité dans un autocall. Les assureurs et réassureurs transfèrent ainsi leurs risques aux marchés. Quand les taux montent, comme avec un 10 ans américain à 5,10 %, le rendement relatif des cat bonds par rapport aux obligations d'État diminue, ce qui pèse sur la demande.",
+     "interview": {
+      "question": "Comment fonctionne un cat bond et pourquoi son rendement baisse-t-il quand la demande des investisseurs augmente ?",
+      "hints": [
+       "Mécanisme de déclenchement et perte de capital.",
+       "Prime de risque contre probabilité de perte.",
+       "Faible corrélation avec les marchés financiers.",
+       "Analogie avec la vente d'options et les produits structurés."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Cat bond",
+       "definition": "Obligation dont le capital peut être perdu si une catastrophe naturelle définie dans le contrat survient, utilisée par les assureurs pour transférer des risques."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Miser sur les risques de catastrophes naturelles rapporte moins",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/16/miser-sur-les-risques-de-catastrophes-naturelles-rapporte-moins_6811732_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Pension funds raise alarm on systemic risk from climate events",
+       "url": "https://www.ft.com/content/fcce6df7-7040-4c83-84ea-30f8fbac1239?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-14",
    "generated_at": "2026-11-14T05:55:00+00:00",
    "brief": [
@@ -2858,5 +3021,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-14T05:55:00+00:00"
+ "updated_at": "2026-11-17T05:55:00+00:00"
 }
