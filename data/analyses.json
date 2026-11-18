@@ -1,11 +1,179 @@
 {
  "days": [
   {
+   "date": "2026-11-18",
+   "generated_at": "2026-11-18T05:55:00+00:00",
+   "brief": [
+    "Wall Street : le S&P 500 a perdu 1,92 % et le Nasdaq 2,49 % le 16 novembre (24 509,76 points) ; le FT voit les contrats à terme du Nasdaq 100 repartir avant l'ouverture, les investisseurs attendant les résultats de Nvidia.",
+    "Banques : Deutsche Bank chute en Bourse après la publication d'une enquête fondée sur 15 millions de documents internes (FT, Le Monde, L'Agefi) ; la banque répond que les informations sont anciennes et qu'elle a renforcé ses contrôles.",
+    "Change : le dollar efface ses pertes du « Liberation Day » avec la hausse des anticipations de taux (FT) ; l'EUR/USD est à 1,1014 le 16 novembre (-1,6 % sur une semaine) ; le 10 ans américain est à 5,15 % le 13 novembre.",
+    "Europe : Bruxelles relève ses prévisions de croissance de la zone euro grâce aux exportations liées à l'IA, mais divise par deux celles de la France ; le 10 ans français est à 4,913 % le 17 novembre contre 3,42 % pour le Bund, soit environ 149 points de base d'écart.",
+    "BCE : Berlin désigne Markus Brunnermeier pour le directoire, ce qui ouvrirait la voie à une présidence espagnole avec Pablo Hernández de Cos, selon le FT."
+   ],
+   "articles": [
+    {
+     "title": "Deutsche Bank : 15 millions de documents internes fuités, le titre chute",
+     "theme": "banks",
+     "lead": "Une enquête de presse internationale met en cause les contrôles de la banque ; elle répond que les faits sont anciens et que ses dispositifs ont été renforcés.",
+     "what": "Selon Le Monde et le FT, une fuite de 15 millions de documents internes de Deutsche Bank, exploitée par une enquête internationale à laquelle Le Monde a participé, mettrait en évidence des défaillances systémiques : la banque aurait ignoré ses propres dispositifs d'alerte pour préserver des marchés très lucratifs, selon l'enquête. L'action chute en Bourse mardi. L'Agefi indique que la banque se défend en disant que les informations sont datées et qu'elle a amélioré ses contrôles depuis ; les pratiques du directeur général, Christian Sewing, sont aussi évoquées par la presse. Ces éléments sont des allégations de presse et des réponses de la banque, non des conclusions d'une autorité. Le cours exact de la baisse ne figure pas dans nos données.",
+     "why": "Les banques sont tenues de surveiller les transactions suspectes (lutte contre le blanchiment, sanctions). Quand des documents internes suggèrent que des alertes ont été ignorées, les investisseurs craignent des enquêtes de régulateurs, des amendes et une atteinte à la réputation. La banque répond que les faits sont anciens : le marché cherche à savoir si les problèmes sont réglés ou persistants, ce que nos sources ne tranchent pas. Une fuite de cette taille n'est pas une décision d'un régulateur : les conséquences juridiques dépendent d'éventuelles enquêtes.",
+     "impact": "Pour une banque cotée, une chute de l'action élève aussi le risque perçu sur sa dette : le spread de crédit de la banque peut s'élargir si le marché anticipe des sanctions, ce qui renchérit son financement et le prix des produits structurés qu'elle émet (la jambe obligataire vaut moins). Pour un client détenteur d'une note émise par cette banque, le risque émetteur est le même quelle que soit la protection de capital affichée. Pour les concurrents, l'affaire peut accroître les exigences de conformité et les coûts. Les amendes passées dans le secteur montrent que de telles affaires peuvent coûter cher, sans qu'on puisse chiffrer ici l'impact.",
+     "interview": {
+      "question": "Une enquête de presse met en cause les contrôles de conformité d'une grande banque et l'action chute : comment le risque se propage-t-il à la dette, aux CDS et aux produits structurés émis par cette banque ?",
+      "hints": [
+       "Risque de réputation, amendes et exigences de capital.",
+       "Spread de crédit et CDS de la banque.",
+       "Risque émetteur d'une note structurée.",
+       "Distinguer allégation de presse et décision d'un régulateur."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Risque émetteur",
+       "definition": "Risque que l'émetteur d'un produit structuré ne puisse pas honorer ses engagements, indépendamment de la performance du sous-jacent."
+      }
+     ],
+     "sources": [
+      {
+       "title": "« Inside Deutsche Bank » : l'action de la banque chute en Bourse après la publication de l'enquête",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/17/deutsche-bank-chute-en-bourse-apres-une-enquete-sur-une-fuite-de-documents-internes_6812937_3234.html",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Deutsche Bank se défend de problèmes de conformité après des révélations de presse",
+       "url": "https://www.agefi.fr/news/banque-assurance/deutsche-bank-se-defend-apres-des-revelations-basees-sur-des-documents-fuites",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "FirstFT: Leak of 15mn Deutsche Bank files exposes systemic failures",
+       "url": "https://www.ft.com/content/e3364118-7282-4faa-9686-e56e854dab7d?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Le dollar efface ses pertes du « Liberation Day » alors que les anticipations de taux montent",
+     "theme": "fx_commodities",
+     "lead": "La monnaie américaine retrouve ses niveaux d'avril 2025, portée par des facteurs que le FT qualifie de « tempête parfaite », et les discours de banquiers centraux restent déterminants.",
+     "what": "Selon le FT, le dollar américain est revenu à des niveaux jamais vus depuis avril 2025, effaçant ses pertes du « Liberation Day », sous l'effet de la hausse des anticipations de taux et d'une « tempête parfaite » de facteurs favorables. Dans nos données, l'EUR/USD est à 1,1014 le 16 novembre (-0,34 % sur la journée, -1,6 % sur une semaine, -2,12 % sur un mois) ; le 10 ans américain est à 5,15 % (+5 points de base, +29 sur une semaine) et le 2 ans à 4,88 % le 13 novembre. Une analyse du FT oppose par ailleurs les discours de Christopher Waller (Fed) et de Clare Lombardelli (Banque d'Angleterre), montrant que la communication des banques centrales reste déterminante.",
+     "why": "Un taux de change reflète en partie les écarts de rendement : quand les taux américains montent plus vite que les taux européens, les capitaux affluent vers le dollar, qui s'apprécie. Les anticipations de hausses de la Fed, avec l'hypothèse évoquée par Waller d'un relèvement de 50 points de base, soutiennent cette dynamique. La notion de « tempête parfaite » du FT désigne la convergence de plusieurs facteurs, que le résumé ne détaille pas. Un dollar fort alourdit la dette libellée en dollars des pays émergents et pèse sur les profits des multinationales américaines.",
+     "impact": "Un EUR/USD autour de 1,10 renchérit les importations de la zone euro, dont l'énergie, facturée en dollars, mais soutient les exportateurs européens. Pour les produits structurés, un dollar plus fort modifie le coût de couverture de change des notes en euros indexées sur des actifs américains. Les produits à capital protégé en dollars profitent de rendements américains élevés (zéro-coupon moins cher). Pour les gérants, une couverture de change onéreuse réduit le rendement net : les entreprises de private equity, par exemple, voient leur trésorerie éprouvée par les appels de marge sur ces couvertures, comme le rappelle L'Agefi.",
+     "interview": {
+      "question": "Le dollar atteint ses plus hauts depuis avril 2025 avec la hausse des anticipations de taux : quels canaux expliquent ce lien, et comment un structureur gère-t-il le risque de change d'un produit libellé en euros sur un sous-jacent américain ?",
+      "hints": [
+       "Différentiel de taux et flux de capitaux.",
+       "Couverture de change : coût et appels de marge.",
+       "Effet sur les importations énergétiques de la zone euro.",
+       "Produit quanto ou couvert contre produit non couvert."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Quanto",
+       "definition": "Produit dérivé dont le paiement, indexé sur un actif en devise étrangère, est converti à un taux de change fixé à l'avance, ce qui élimine le risque de change."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US dollar rally erases 'liberation day' losses as rate expectations rise",
+       "url": "https://www.ft.com/content/b8215e9c-bed2-49e8-a36f-6d7aca599bba?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "A misty outlook for rates",
+       "url": "https://www.ft.com/content/c53ae58c-64b9-4d90-8a0b-d338e80f4614?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Private equity : quand la couverture de change met la trésorerie à l'épreuve",
+       "url": "https://www.agefi.fr/private-equity/analyses/private-equity-quand-la-couverture-de-change-met-la-tresorerie-a-lepreuve",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Prévisions d'automne de Bruxelles : la zone euro résiste grâce à l'IA, la France décroche",
+     "theme": "macro_inflation",
+     "lead": "La Commission relève sa croissance pour la zone euro, portée par les exportations liées à l'IA, mais divise par deux ses projections pour la France.",
+     "what": "Selon le FT, Bruxelles relève ses prévisions de croissance de la zone euro, les exportations liées à l'essor de l'IA tirant l'activité, mais les projections de PIB pour la France sont divisées par deux. Le Monde ajoute que la croissance de l'Union a mieux résisté que prévu en 2026, sauf en France, et que l'inflation continuera de peser sur le pouvoir d'achat dans l'ensemble de l'UE en 2027. Nos données donnent le TEC 10 français à 4,913 % et le Bund à 3,42 % le 17 novembre : l'écart OAT-Bund est d'environ 149 points de base. Les chiffres de croissance précis ne figurent pas dans les résumés disponibles.",
+     "why": "Une prévision de la Commission sert de référence aux gouvernements pour bâtir leur budget : une croissance plus faible que prévu réduit les recettes fiscales et augmente le déficit en pourcentage du PIB, ce qui complique la trajectoire de la dette. L'écart entre la zone euro et la France explique en partie l'attention des marchés à l'écart de taux avec l'Allemagne. La mention des exportations liées à l'IA indique que la reprise européenne dépend en partie du cycle d'investissement mondial dans cette technologie, ce qui la rend sensible à un retournement.",
+     "impact": "Une croissance française plus faible alimente le risque perçu sur la dette souveraine, donc le spread OAT-Bund et le coût de financement des banques et entreprises françaises, avec un effet sur le prix des notes structurées émises par des banques françaises. Une zone euro plus solide soutient les actions cycliques européennes et peut réduire la pression sur la BCE pour soutenir l'activité. L'inflation persistante limite la marge de manœuvre de la BCE. Pour les assureurs et banques, la qualité des actifs dépend de la croissance.",
+     "interview": {
+      "question": "La Commission divise par deux la prévision de croissance de la France alors que celle de la zone euro est relevée : quels effets sur la dette, le spread OAT-Bund et le coût de financement des banques françaises ?",
+      "hints": [
+       "Lien croissance - recettes - déficit - dette.",
+       "Spread souverain et prime de risque.",
+       "Transmission aux banques et aux émetteurs de produits structurés.",
+       "Dépendance de la reprise européenne à la demande mondiale d'IA."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Déficit public",
+       "definition": "Écart annuel négatif entre les recettes et les dépenses de l'État, généralement exprimé en pourcentage du PIB."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Brussels raises Eurozone growth forecasts as AI boom drives exports",
+       "url": "https://www.ft.com/content/ce0f66b9-703d-4e04-b046-bf04a3d9209a?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "La Commission européenne confirme le décrochage de la France dans ses prévisions économiques d'automne",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-commission-europeenne-confirme-le-decrochage-de-la-france-dans-ses-previsions-economiques-d-automne_6812945_3234.html",
+       "source": "Le Monde"
+      }
+     ]
+    },
+    {
+     "title": "Les gérants réduisent leurs paris sur la tech au rythme le plus rapide en vingt ans",
+     "theme": "equities",
+     "lead": "Une enquête auprès des gérants montre un virage rapide hors des méga-capitalisations, alors que les indices américains ont encore reculé le 16 novembre.",
+     "what": "Selon MarketWatch, les gérants de fonds ont réduit leurs paris sur la tech au rythme le plus rapide depuis vingt ans, se déportant des méga-capitalisations technologiques et devenant moins pessimistes sur les obligations, tout en gardant des positions en liquidités très faibles alors que les prévisions de croissance mondiale sont optimistes ; le risque de queue qui les inquiète n'est pas détaillé dans le résumé. MarketWatch rapporte aussi que des fonds comme ceux de Tepper et Loeb avaient accumulé Nvidia et d'autres valeurs avant la baisse d'octobre, selon leurs déclarations 13-F. Nos données donnent le S&P 500 à 7 416,59 le 16 novembre (-1,92 %), le Nasdaq à 24 509,76 (-2,49 %) et le Dow Jones à 51 608,17 (-1,41 %) ; le FT annonce des contrats à terme du Nasdaq 100 en hausse avant l'ouverture, avant les résultats de Nvidia.",
+     "why": "Le positionnement des gérants mesure combien de fonds sont exposés à un thème : quand tous les gérants sont surpondérés, peu d'acheteurs restent pour pousser les prix ; quand ils réduisent, la baisse s'amplifie, puis le thème devient moins encombré, ce qui peut permettre un rebond. Un niveau de liquidités très bas signifie que les gérants ont peu de réserves pour acheter la baisse, ou qu'ils comptent sur la croissance : c'est le point qui préoccupe l'enquête. Les 13-F sont des déclarations trimestrielles des positions des grands fonds américains : elles sont publiées avec retard.",
+     "impact": "Un marché moins encombré par la tech peut réduire le risque de nouveaux débouclages forcés et soutenir un rebond, mais une dispersion plus forte entre valeurs pèse sur les produits worst-of sur paniers technologiques. Le VIX, à 19,3 le 13 novembre (+3,2 %), reste modéré dans nos données, avant la baisse du 16 novembre qu'il ne reflète pas. Pour les autocalls, la baisse du Nasdaq de 2,5 % en une séance rapproche les barrières ; les coupons nouveaux restent attractifs avec la volatilité implicite. Des rebonds brusques sont possibles si les résultats de Nvidia surprennent.",
+     "interview": {
+      "question": "Les gérants réduisent massivement leur exposition à la tech tout en gardant peu de liquidités : que révèle le positionnement du marché sur le risque de rebond ou de nouvelle baisse ?",
+      "hints": [
+       "Positionnement encombré et ventes forcées.",
+       "Rôle des liquidités des gérants comme carburant d'achat.",
+       "Dispersion intra-sectorielle et risque des worst-of.",
+       "Lecture du VIX par rapport à la volatilité réalisée."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "13-F",
+       "definition": "Déclaration trimestrielle aux autorités américaines des positions en actions détenues par les grands gestionnaires de fonds."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Fund managers just slashed their tech bets at the fastest pace in two decades — and this is the tail risk keeping them up at night",
+       "url": "https://www.marketwatch.com/story/fund-managers-just-slashed-their-tech-bets-at-the-fastest-pace-in-two-decades-and-this-is-the-tail-risk-keeping-them-up-at-night-60fcc160?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Tepper and Loeb among fund managers piling into Nvidia and other megacap tech stocks on eve of October drawdown",
+       "url": "https://www.marketwatch.com/story/tepper-loeb-among-fund-managers-piling-into-nvidia-and-other-megacap-tech-on-the-eve-of-october-drawdown-de45f572?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "US tech stocks set to stabilise after volatile run of trading",
+       "url": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-17",
    "generated_at": "2026-11-17T05:55:00+00:00",
    "brief": [
     "Taux : le 10 ans américain atteint 5,10 % le 12 novembre (+12 points de base sur la journée, +26 sur une semaine) et le 2 ans 4,86 % ; en Europe, le Bund 10 ans est à 3,45 % et le 10 ans français à 4,93 % le 16 novembre, soit environ 148 points de base d'écart.",
-    "Actions : le FT annonce une ouverture américaine en baisse après les résultats de Nvidia, qui recule de 4 % avant l'ouverture, et CoreWeave de 8 % ; le Nasdaq était à 25 136,27 le 13 novembre (-0,91 %), le VIX à 18,7 le 12.",
+    "Actions : le FT annonce une ouverture américaine en baisse à la veille des résultats de Nvidia, qui recule de 4 % avant l'ouverture, et CoreWeave de 8 % ; le Nasdaq était à 25 136,27 le 13 novembre (-0,91 %), le VIX à 18,7 le 12.",
     "Stratégie : Morgan Stanley recommande une surpondération « maximale » des actions dans l'une des perspectives 2027 les plus optimistes ; un vétéran de marché parie au contraire sur un krach de 40 % et un pétrole à 500 $ (MarketWatch).",
     "Produits : les obligations catastrophe (« cat bonds ») voient leur rendement s'éroder avec l'afflux d'investisseurs, après des niveaux proches de 10 % en 2023 (Le Monde).",
     "À suivre : New World Development (Hong Kong) chute de 40 % sur une augmentation de capital avec une décote de 80 % (FT) ; Revolut est de nouveau épinglé en Italie pour sa lutte anti-blanchiment (L'Agefi)."
@@ -47,14 +215,14 @@
      ]
     },
     {
-     "title": "Nvidia après ses résultats : le titre et CoreWeave reculent, la question de l'après-Huang",
+     "title": "Nvidia avant ses résultats : le titre et CoreWeave reculent, la question de l'après-Huang",
      "theme": "equities",
-     "lead": "Les premiers résultats sous la direction par intérim de Colette Kress n'effacent pas les craintes sur l'IA, alors que le titre recule encore avant l'ouverture.",
-     "what": "Selon le FT, les valeurs technologiques américaines devraient ouvrir en baisse dans le sillage de Nvidia, qui recule de 4 % avant l'ouverture, tandis que CoreWeave perd 8 % sur fond d'inquiétudes persistantes sur l'IA. MarketWatch indique que la première conférence de résultats de Colette Kress comme PDG par intérim donne un aperçu de Nvidia après Jensen Huang. Un stratège de J.P. Morgan Asset Management estime que Nvidia peut éviter le sort des valeurs qui ont atteint le sommet de capitalisation : malgré des prévisions abaissées par de nombreux analystes, l'objectif de cours médian reste très supérieur au cours actuel de 280 $, et la situation de trésorerie et d'endettement du groupe est enviable.",
-     "why": "Un résultat est jugé par rapport aux attentes, mais aussi par rapport aux perspectives et à la gouvernance. Le dirigeant par intérim ne dissipe pas l'incertitude sur la succession, point soulevé par MarketWatch. L'argument de JPMorgan est classique : une entreprise très profitable et peu endettée peut traverser une correction mieux qu'un acteur fragile, d'où l'écart entre Nvidia et CoreWeave, plus dépendant de la dette. Ces avis de banques sont des opinions et ne garantissent pas l'évolution du cours.",
+     "lead": "À la veille des résultats, les premiers sous la direction par intérim de Colette Kress, le titre recule encore et le marché s'interroge sur l'après-Huang.",
+     "what": "Selon le FT, les valeurs technologiques américaines devraient ouvrir en baisse dans le sillage de Nvidia, qui recule de 4 % avant l'ouverture, tandis que CoreWeave perd 8 % sur fond d'inquiétudes persistantes sur l'IA. MarketWatch indique que la première conférence de résultats de Colette Kress comme PDG par intérim, attendue, donnera un aperçu de Nvidia après Jensen Huang. Un stratège de J.P. Morgan Asset Management estime que Nvidia peut éviter le sort des valeurs qui ont atteint le sommet de capitalisation : malgré des prévisions abaissées par de nombreux analystes, l'objectif de cours médian reste très supérieur au cours actuel de 280 $, et la situation de trésorerie et d'endettement du groupe est enviable.",
+     "why": "Un résultat sera jugé par rapport aux attentes, mais aussi par rapport aux perspectives et à la gouvernance. Le dirigeant par intérim ne dissipe pas l'incertitude sur la succession, point soulevé par MarketWatch. L'argument de JPMorgan est classique : une entreprise très profitable et peu endettée peut traverser une correction mieux qu'un acteur fragile, d'où l'écart entre Nvidia et CoreWeave, plus dépendant de la dette. Ces avis de banques sont des opinions et ne garantissent pas l'évolution du cours.",
      "impact": "Un titre aussi pondéré que Nvidia entraîne le Nasdaq et les paniers de semi-conducteurs : les autocalls indexés sur ces sous-jacents restent proches de leurs barrières. La volatilité implicite reste élevée, ce qui rend les options chères et les coupons nouveaux attractifs, avec un risque de perte en capital plus visible. Les spreads et CDS sur les émetteurs endettés de l'IA, comme CoreWeave, sont un indicateur de stress du secteur. Les teneurs de marché surveillent le risque de gap à l'ouverture, car l'indication avant ouverture est incertaine.",
      "interview": {
-      "question": "Nvidia publie ses résultats avec un dirigeant par intérim et recule : comment distinguer le risque de l'entreprise du risque de marché pour un produit structuré indexé sur le titre ?",
+      "question": "Nvidia s'apprête à publier ses résultats avec un dirigeant par intérim et recule : comment distinguer le risque de l'entreprise du risque de marché pour un produit structuré indexé sur le titre ?",
       "hints": [
        "Risque idiosyncratique contre risque de marché.",
        "Rôle de la succession et de la gouvernance dans la valorisation.",
@@ -3021,5 +3189,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-17T05:55:00+00:00"
+ "updated_at": "2026-11-18T05:55:00+00:00"
 }
