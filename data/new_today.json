@@ -1,117 +1,14 @@
 {
- "generated_at": "2026-11-17T13:29:05+00:00",
- "date": "2026-11-17",
+ "generated_at": "2026-11-18T13:05:52+00:00",
+ "date": "2026-11-18",
  "jobs": [
   {
-   "id": "keyrock-149a000de4ae",
-   "employer": "Keyrock",
-   "employer_type": "hedge_fund",
-   "platform": "ashby",
-   "title": "DeFi Quant Trader Intern (Credit) - London",
-   "location": "London; Brussels; London; London OR Brussels",
-   "countries": [
-    "GB",
-    "BE"
-   ],
-   "country_names": [
-    "United Kingdom",
-    "Belgium"
-   ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 55,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 5,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://jobs.ashbyhq.com/Keyrock/959a9226-816b-4894-80e6-feaa79018d03",
-   "posted_at": "2026-11-16",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "active": true
-  },
-  {
-   "id": "keyrock-317cd43b99bd",
-   "employer": "Keyrock",
-   "employer_type": "hedge_fund",
-   "platform": "ashby",
-   "title": "Innovation Quant Developer Intern (DeFi/Corporate Development) - London",
-   "location": "London; London; London OR Brussels",
-   "countries": [
-    "GB",
-    "BE"
-   ],
-   "country_names": [
-    "United Kingdom",
-    "Belgium"
-   ],
-   "region": "Europe (priority)",
-   "family": "Quant dev",
-   "role_level": "medium",
-   "score": 55,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 5,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://jobs.ashbyhq.com/Keyrock/99a38fdd-4250-42b9-a92b-5c0f48d563fd",
-   "posted_at": "2026-11-16",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "active": true
-  },
-  {
-   "id": "kepler-cheuvreux-000028e4278a",
+   "id": "kepler-cheuvreux-2c8f03e6bc01",
    "employer": "Kepler Cheuvreux",
    "employer_type": "broker",
    "platform": "teamtailor",
-   "title": "INTERNSHIP - FULL-STACK DEVELOPER - FRONT OFFICE - NYON",
-   "location": "Nyon, Switzerland",
-   "countries": [
-    "CH"
-   ],
-   "country_names": [
-    "Switzerland"
-   ],
-   "region": "Europe (priority)",
-   "family": "Trading",
-   "role_level": "medium",
-   "score": 50,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://keplercheuvreux.teamtailor.com/jobs/8753055-internship-full-stack-developer-front-office-nyon",
-   "posted_at": "2026-11-17",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-032b8fdc7e04",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Corporate & Acquisition Finance Intern (f/m/d) m/w/d",
-   "location": "",
+   "title": "INTERNSHIP - EQUITY RESEARCH ANALYST AUTOS & UTILITIES",
+   "location": "Paris, France",
    "countries": [
     "FR"
    ],
@@ -121,151 +18,21 @@
    "region": "France",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 40,
+   "score": 45,
    "score_breakdown": {
     "role": 10,
     "geo": 30,
-    "city": 0,
+    "city": 5,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-4-corporate-et-acquisition-finance-intern-fmd-mwd-reference--2026-117509--/",
-   "posted_at": "",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-7bcdd5b094d0",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Investment AI & Automation Intern H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-124-stage---investment-ai-et-automation-intern-hf-reference--2026-117507--/",
-   "posted_at": "",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "active": true
-  },
-  {
-   "id": "point72-39ad2f5debf5",
-   "employer": "Point72",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Asia Summer Internship - Investment Services",
-   "location": "Singapore, Hong Kong; Hong Kong; Singapore, Central, Singapore",
-   "countries": [
-    "HK",
-    "SG"
-   ],
-   "country_names": [
-    "Hong Kong",
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://boards.greenhouse.io/point72/jobs/8931689002?gh_jid=8931689002",
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8757067-internship-equity-research-analyst-autos-utilities",
    "posted_at": "2026-11-17",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "active": true
-  },
-  {
-   "id": "amundi-76b5f0d53068",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - Investment AI & Automation Intern H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-investment-ai-automation-intern-h-f_117507.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
-   "active": true
-  },
-  {
-   "id": "zurich-cf8ea73e751a",
-   "employer": "Zurich",
-   "employer_type": "insurance",
-   "platform": "successfactors",
-   "title": "Sales & Customer Office Intern",
-   "location": "Toronto, ON, CA",
-   "countries": [
-    "CA"
-   ],
-   "country_names": [
-    "Canada"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://www.careers.zurich.com/job/Toronto-Sales-&-Customer-Office-Intern-ON/1377627457/",
-   "posted_at": "",
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
    "active": true
   }
  ]
