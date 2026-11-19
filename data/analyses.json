@@ -1,6 +1,164 @@
 {
  "days": [
   {
+   "date": "2026-11-19",
+   "generated_at": "2026-11-19T05:55:00+00:00",
+   "brief": [
+    "BCE : sa Revue de stabilité financière du 18 novembre met en avant les risques liés aux valorisations de l'IA, aux déséquilibres budgétaires et aux tensions géoéconomiques ; selon le FT, la banque centrale voit des « parallèles historiques » entre la ruée vers l'endettement lié à l'IA et la bulle des subprimes.",
+    "Nvidia : son bénéfice net plus que double sur un trimestre pour dépasser 65 milliards de dollars selon L'Agefi, et son président exclut le retour de Jensen Huang ; Colette Kress tient sa première conférence de résultats comme PDG par intérim (MarketWatch).",
+    "Royaume-Uni : l'inflation monte à 3,6 % en octobre, un plus haut en un an, en grande partie à cause de l'énergie (FT), ce qui accroît la pression sur la Banque d'Angleterre.",
+    "Marchés : le Nasdaq est à 24 328,38 le 17 novembre (-0,74 %) et le Dow Jones à 50 759,42 (-1,64 %) ; le VIX est à 22,91 le 16 novembre (+18,7 %) ; l'EUR/USD est à 1,0989.",
+    "Émergents : la Banque d'Indonésie relève son taux à 6 % pour défendre la roupie, à un plus bas historique, en anticipant une hausse de la Fed en décembre (L'Agefi)."
+   ],
+   "articles": [
+    {
+     "title": "BCE : la Revue de stabilité financière pointe les valorisations de l'IA et l'endettement des géants technologiques",
+     "theme": "central_banks",
+     "lead": "La banque centrale compare l'actuelle ruée vers l'emprunt lié à l'IA à des épisodes de bulle, et s'inquiète des engagements hors bilan des grands groupes.",
+     "what": "Selon la BCE, les risques liés aux valorisations de l'IA, aux déséquilibres budgétaires et aux tensions géoéconomiques pèsent sur les perspectives de stabilité financière, dans sa Revue de stabilité financière de novembre 2026. Le FT rapporte que l'institution voit des « parallèles historiques » entre la ruée vers l'emprunt liée à l'IA et la bulle des subprimes, et s'inquiète du fait que les grands groupes technologiques accumulent des centaines de milliards, voire des milliers de milliards, de dollars d'engagements hors bilan via des contrats avec d'autres groupes de la tech. Le détail chiffré du rapport ne figure pas dans nos sources. Nos données donnent le VIX à 22,91 le 16 novembre (+18,7 %) et le Nasdaq à 24 328,38 le 17 novembre (-6,93 % sur un mois).",
+     "why": "Un engagement hors bilan est une obligation qui n'apparaît pas dans la dette affichée au bilan, par exemple un contrat d'achat de capacités informatiques sur plusieurs années : il pèse pourtant sur la capacité de l'entreprise à rembourser. Si plusieurs groupes se financent en s'appuyant les uns sur les autres, un défaut chez l'un peut se propager aux autres : c'est le mécanisme des crises de crédit de 2007-2008 qu'évoque le parallèle avec les subprimes, même si le FT n'affirme pas que la situation est identique. La BCE publie ce type de revue pour alerter, pas pour prédire une crise : ses conclusions sont des évaluations de risques.",
+     "impact": "Si les marchés prennent ce message au sérieux, les spreads de crédit des émetteurs très endettés de l'IA peuvent s'élargir et la protection (CDS) devenir plus chère, ce qui durcit les conditions de financement du secteur. Pour les produits structurés sur la tech, une volatilité implicite plus élevée enchérit les options et rapproche les barrières en cas de baisse. Pour les banques, la revue rappelle l'exposition au crédit lié à l'IA, au private credit et aux infrastructures de données. Les investisseurs en dette hybride et high yield sont attentifs à la qualité des engagements hors bilan.",
+     "interview": {
+      "question": "La BCE compare l'endettement lié à l'IA à la bulle des subprimes : quels mécanismes de contagion et quels indicateurs surveillez-vous pour distinguer une bulle d'un cycle d'investissement soutenable ?",
+      "hints": [
+       "Engagements hors bilan et interdépendances entre entreprises.",
+       "Spreads de crédit, CDS et conditions de financement.",
+       "Rapport entre dette, flux de trésorerie et revenus de l'IA.",
+       "Rôle d'une revue de stabilité financière pour une banque centrale."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Hors-bilan",
+       "definition": "Engagements d'une entreprise (contrats d'achat, garanties) qui ne figurent pas dans la dette affichée au bilan mais pèsent sur sa solidité financière."
+      }
+     ],
+     "sources": [
+      {
+       "title": "AI borrowing binge has 'historic parallels' with subprime bubble, says ECB",
+       "url": "https://www.ft.com/content/d16475ce-efce-4dc1-b5a3-2f7c79e9dea9?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+       "source": "BCE"
+      }
+     ]
+    },
+    {
+     "title": "Nvidia : un bénéfice supérieur à 65 milliards de dollars et la page Huang tournée",
+     "theme": "equities",
+     "lead": "Le groupe rassure sur le rythme de sa croissance, mais le marché continue de s'interroger sur la gouvernance et sur la dépendance du secteur à l'IA.",
+     "what": "Selon L'Agefi, Nvidia a vu son profit net plus que doubler sur un trimestre pour dépasser 65 milliards de dollars ; son président a exclu un retour de Jensen Huang, l'ancien directeur général. MarketWatch rapporte les trois enseignements de la première conférence de résultats de Colette Kress comme PDG par intérim. Nos données ne contiennent pas encore le cours de Nvidia après les résultats ; le Nasdaq est à 24 328,38 le 17 novembre (-0,74 %), avant la publication.",
+     "why": "Pour une valeur aussi centrale que Nvidia, un résultat supérieur aux attentes ne suffit pas : les investisseurs regardent la visibilité des commandes, la marge, la dépendance à quelques grands clients et la gouvernance. L'exclusion d'un retour de Huang vise à lever l'incertitude sur la direction, ce qui est un signal de stabilité mais n'indique pas qui dirigera le groupe. Un bénéfice net qui double en un trimestre est un fait comptable ; l'évolution du cours dépendra des attentes, qui nous échappent ici.",
+     "impact": "Un bon résultat peut soutenir le Nasdaq et les paniers de semi-conducteurs après plusieurs séances de baisse, ce qui éloigne les cours des barrières des autocalls concernés. La volatilité implicite autour des résultats retombe généralement après la publication (vol crush), ce qui rend les options moins chères et les coupons nouveaux moins élevés. Les effets pour CoreWeave et les acteurs dépendants de Nvidia sont indirects : leur financement reste lié à la confiance du marché dans la demande d'IA. L'incertitude sur le dirigeant permanent demeure un facteur de risque idiosyncratique.",
+     "interview": {
+      "question": "Nvidia publie un profit en forte hausse mais l'action peut reculer : comment expliquer ce paradoxe, et que se passe-t-il pour la volatilité implicite après la publication ?",
+      "hints": [
+       "Résultats contre attentes et perspectives.",
+       "Vol crush après un événement attendu.",
+       "Risque de gouvernance et de succession.",
+       "Effet sur les autocalls et paniers de semi-conducteurs."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Vol crush",
+       "definition": "Baisse rapide de la volatilité implicite après un événement attendu, comme une publication de résultats."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Nvidia rassure sur le rythme de sa croissance et veut tourner la page Jensen Huang",
+       "url": "https://www.agefi.fr/news/entreprises/nvidia-rassure-avec-des-resultats-en-forte-hausse",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Nvidia's leadership saga unfolds as demand is surging for Anthropic's IPO",
+       "url": "https://www.marketwatch.com/story/nvidias-leadership-saga-unfolds-as-demand-is-surging-for-anthropics-ipo-a7a12d40?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Royaume-Uni : l'inflation monte à 3,6 %, la Banque d'Angleterre sous pression",
+     "theme": "macro_inflation",
+     "lead": "L'inflation britannique atteint un plus haut en un an, en grande partie à cause de l'énergie, et le plafond des prix de l'énergie va encore augmenter en janvier.",
+     "what": "Selon le FT, l'inflation britannique est montée à 3,6 % en octobre, un plus haut en un an, ce qui accroît la pression sur la Banque d'Angleterre pour relever à nouveau ses taux. Une autre analyse du FT précise que la hausse reste largement liée à l'énergie et que la BoE devra décider à quelle vitesse relever ses taux jusqu'à un niveau lui permettant d'attendre des signes de persistance de l'inflation. Le plafond des prix de l'énergie britannique doit dépasser 2 000 livres en janvier, avec un soutien public réduit. La Banque d'Angleterre a porté son taux à 4 % début novembre, selon le FT.",
+     "why": "Quand l'inflation est tirée par l'énergie, la banque centrale se demande s'il s'agit d'un choc temporaire ou d'un phénomène qui contamine les salaires et les prix d'autres biens. Réagir trop fortement à un choc d'énergie ralentit l'économie, mais ne pas réagir risque d'ancrer l'inflation : c'est ce dilemme que décrit le FT. L'inflation sous-jacente, hors énergie, serait un indicateur clé, mais nos sources ne la donnent pas. Une hausse du plafond des prix en janvier maintiendrait l'inflation élevée dans les mois à venir.",
+     "impact": "Des anticipations de nouvelles hausses de la BoE soutiennent la livre et font monter les rendements des gilts, ce qui renchérit le crédit en livres. Pour les produits structurés libellés en GBP, des taux plus élevés réduisent le prix du zéro-coupon et libèrent du budget d'option. Les produits indexés sur l'inflation britannique gagnent en valeur quand celle-ci dépasse les attentes. Les ménages et les entreprises subissent une pression sur leur pouvoir d'achat, ce qui pèse sur la consommation et sur la qualité des crédits.",
+     "interview": {
+      "question": "L'inflation britannique repart sous l'effet de l'énergie : comment la Banque d'Angleterre distingue-t-elle un choc temporaire d'une inflation persistante, et quel effet sur les gilts et la livre ?",
+      "hints": [
+       "Inflation totale contre inflation sous-jacente.",
+       "Effets de second tour sur les salaires et les prix.",
+       "Courbe des taux et anticipations de hausse.",
+       "Impact sur la livre et sur les produits indexés sur l'inflation."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Effets de second tour",
+       "definition": "Propagation d'un choc initial de prix (énergie par exemple) aux salaires et aux autres prix, qui rend l'inflation persistante."
+      }
+     ],
+     "sources": [
+      {
+       "title": "UK inflation rose to one-year high of 3.6% in October",
+       "url": "https://www.ft.com/content/829844ba-849f-4d9c-a667-d65d2786ad2c?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "UK's October inflation rise remains largely energy related",
+       "url": "https://www.ft.com/content/7e21a3af-94eb-4f89-8549-71f032b2215b",
+       "source": "Financial Times"
+      },
+      {
+       "title": "British energy price cap set to increase to over £2,000 in January",
+       "url": "https://www.ft.com/content/c22b7eeb-96ce-4d4a-87ed-2b17901255be?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Indonésie : la banque centrale relève ses taux à 6 % pour défendre une roupie au plus bas",
+     "theme": "fx_commodities",
+     "lead": "Face à la chute de sa monnaie et à la perspective d'une hausse de la Fed en décembre, la banque centrale agit de façon préventive.",
+     "what": "Selon L'Agefi, la Banque d'Indonésie a relevé de 25 points de base son principal taux directeur à 6 %, après une pause en octobre, car la chute de la roupie à un plus bas historique l'a contrainte à agir de façon préventive, dans un contexte domestique difficile et dans la perspective d'une hausse des taux de la Fed en décembre. MarketWatch rapporte qu'un commentateur de marché, Kevin Muir, achète des obligations américaines après la reprise des rendements, en estimant que la Fed resserre alors que l'économie ralentit. Nos données donnent le 10 ans américain à 5,12 % et le 2 ans à 4,83 % le 16 novembre, et l'EUR/USD à 1,0989 le 17 novembre.",
+     "why": "Une monnaie qui s'effondre renchérit les importations et la dette libellée en devises étrangères, ce qui alimente l'inflation : la banque centrale relève donc ses taux pour rendre sa monnaie plus attractive. Quand les taux américains montent, les capitaux quittent les pays émergents pour le dollar, ce qui met leurs devises sous pression et les oblige à suivre : c'est le cas indonésien d'après L'Agefi. L'avis de Kevin Muir, qui achète des obligations, est une opinion personnelle ; il illustre le pari que les hausses de taux finiront par freiner l'économie.",
+     "impact": "Pour les investisseurs, des taux plus élevés en Indonésie augmentent le rendement des obligations locales mais comportent un risque de change. Pour les produits structurés libellés en devises émergentes, la volatilité de change renchérit les options et le coût de couverture. Une Fed plus restrictive renforce le dollar, ce qui pèse sur l'ensemble des devises émergentes et sur la dette en dollars des entreprises locales. Les banques européennes exposées à ces marchés surveillent la qualité du crédit.",
+     "interview": {
+      "question": "Pourquoi une hausse des taux de la Fed force-t-elle des banques centrales émergentes à relever les leurs, même si leur économie est faible ?",
+      "hints": [
+       "Différentiel de taux et flux de capitaux.",
+       "Dépréciation de la monnaie, inflation importée et dette en dollars.",
+       "Arbitrage entre soutien à la croissance et stabilité du change.",
+       "Impact sur les produits structurés en devises émergentes."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Dette libellée en devises",
+       "definition": "Dette contractée dans une monnaie étrangère, dont le coût en monnaie locale augmente quand celle-ci se déprécie."
+      }
+     ],
+     "sources": [
+      {
+       "title": "La Banque d'Indonésie remonte ses taux pour soutenir la devise",
+       "url": "https://www.agefi.fr/news/economie-marches/la-banque-dindonesie-remonte-ses-taux-pour-soutenir-la-devise",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "The Fed is tightening, the economy is slowing — and that's the perfect setup to buy bonds, this trader argues",
+       "url": "https://www.marketwatch.com/story/the-fed-is-tightening-the-economy-is-slowing-and-thats-the-perfect-setup-to-buy-bonds-this-trader-argues-b1c88b23?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-18",
    "generated_at": "2026-11-18T05:55:00+00:00",
    "brief": [
@@ -3189,5 +3347,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-18T05:55:00+00:00"
+ "updated_at": "2026-11-19T05:55:00+00:00"
 }
