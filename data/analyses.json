@@ -1,6 +1,164 @@
 {
  "days": [
   {
+   "date": "2026-11-20",
+   "generated_at": "2026-11-20T05:55:00+00:00",
+   "brief": [
+    "Fed : les minutes de la réunion d'octobre confirment, selon le FT, une hausse de taux en décembre et évoquent un resserrement plus rapide ; les responsables s'inquiètent des risques d'inflation liés à la construction de capacités d'IA.",
+    "Introductions en Bourse : Anthropic lève 81 milliards de dollars dans une introduction record, sur une valorisation de 1 500 milliards, la cotation devant débuter jeudi (FT).",
+    "Marchés : le S&P 500 est à 7 323,63 le 18 novembre (-0,23 %, -4,77 % sur un mois), le Nasdaq à 24 429,88 (+0,42 %) et le Dow Jones à 50 198,17 (-1,11 %) ; le VIX est à 25,46 le 17 novembre (+11,1 %).",
+    "Taux et change : le 10 ans français est à 4,884 % le 19 novembre (+4,8 points de base) contre 3,45 % pour le Bund, soit environ 143 points de base d'écart ; l'EUR/USD est à 1,0968 le 18 novembre ; Deutsche Bank voit le dollar rester fort au premier semestre 2027 sauf ralentissement de l'IA (MarketWatch).",
+    "Régulation : l'Autorité de régulation des transports valide, sous réserve, le contrat de régulation d'ADP pour 2027-2034, avec 8,2 milliards d'euros d'investissements prévus ; l'action monte (L'Agefi, Le Monde)."
+   ],
+   "articles": [
+    {
+     "title": "Minutes de la Fed : une hausse de décembre confirmée, un resserrement plus rapide évoqué",
+     "theme": "central_banks",
+     "lead": "Les comptes rendus de la réunion d'octobre montrent des responsables inquiets de l'inflation, notamment à cause de la construction de capacités d'IA.",
+     "what": "Selon le FT, les minutes de la réunion d'octobre de la Fed confirment une hausse de taux en décembre et évoquent la possibilité d'un resserrement plus rapide ; les responsables s'inquiètent des risques d'inflation liés à la construction d'infrastructures d'IA. La semaine précédente, le gouverneur Christopher Waller avait évoqué un relèvement de 50 points de base en décembre, et le FT parlait d'une pire semaine des Treasuries depuis avril 2025. Nos données donnent le 10 ans américain à 5,10 % et le 2 ans à 4,80 % le 17 novembre, l'EUR/USD à 1,0968 le 18 novembre. Le calendrier officiel place la prochaine réunion les 8-9 décembre.",
+     "why": "Les minutes sont un compte rendu publié quelques semaines après chaque réunion : elles montrent l'éventail des opinions au sein du comité et servent aux marchés à calibrer leurs anticipations. Que l'inflation soit liée à l'IA signifie que les dépenses massives en centres de données et en équipements font monter la demande de biens, d'énergie et de main-d'œuvre, ce qui peut alimenter les prix : c'est l'analyse rapportée par le FT, nuancée par le fait que nos sources ne chiffrent pas cet effet. Parler d'un resserrement plus rapide signifie que certains membres envisagent des pas plus grands que 25 points de base, ce qui reste une option, pas une décision.",
+     "impact": "Une Fed qui confirme sa trajectoire renforce le dollar et maintient les rendements élevés : le 10 ans américain à plus de 5 % renchérit le crédit et pèse sur les valorisations de croissance. Pour les notes à capital protégé en dollars, des taux élevés réduisent le prix du zéro-coupon et augmentent le budget pour l'option ou le coupon. Les options sur taux (swaptions) restent chères tant que l'ampleur du resserrement est incertaine. L'inflation attribuée à l'IA crée un lien nouveau entre le thème de l'IA et la politique monétaire : un ralentissement de l'IA pourrait détendre les anticipations de taux.",
+     "interview": {
+      "question": "Les minutes de la Fed évoquent un resserrement plus rapide en raison de l'inflation liée à l'IA : comment le marché lit-il ce message, et quel effet sur les taux, le dollar et les actions de croissance ?",
+      "hints": [
+       "Minutes, guidance et anticipations de taux directeurs.",
+       "Effet de la demande d'IA sur l'inflation (énergie, matériaux, salaires).",
+       "Courbe des taux, dollar et valorisation des actions de croissance.",
+       "Impact sur les produits à capital protégé et les swaptions."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Minutes",
+       "definition": "Compte rendu détaillé, publié quelques semaines après une réunion de banque centrale, qui résume les débats et les opinions des membres."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Fed's October minutes confirm December increase and float faster tightening",
+       "url": "https://www.ft.com/content/470d7273-7356-48d5-9709-d9d8169d1d94",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Deutsche Bank got its dollar call for 2026 wrong. Why it's shifting tack now.",
+       "url": "https://www.marketwatch.com/story/deutsche-bank-got-its-dollar-call-for-2026-wrong-why-its-shifting-tack-now-bbecbd00?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic lève 81 milliards de dollars dans une introduction en Bourse record",
+     "theme": "equities",
+     "lead": "Une opération de taille inédite, valorisée 1 500 milliards de dollars, va tester l'appétit du marché pour l'IA dans un contexte de correction.",
+     "what": "Selon le FT, Anthropic a levé 81 milliards de dollars dans une introduction en Bourse record, en vendant des actions sur la base d'une valorisation de 1 500 milliards de dollars ; la cotation doit débuter jeudi. Le FT avait indiqué plus tôt que la demande était considérable, tout en prévenant de risques d'indigestion après l'opération (ventes d'initiés, soutiens croisés dans la chaîne d'approvisionnement). Nos données donnent le S&P 500 à 7 323,63 le 18 novembre (-4,77 % sur un mois) et le Nasdaq à 24 429,88 (-7,57 %). Les premiers cours de cotation ne figurent pas dans nos sources. Nous rapportons ces faits tels que publiés, sans évaluer l'opération.",
+     "why": "Une introduction en Bourse transforme une entreprise privée en société cotée : l'entreprise et certains actionnaires vendent des titres au public, ce qui fixe un prix de marché. Le montant levé dépend du nombre d'actions vendues et de leur prix, et la valorisation est le prix de l'action multiplié par le nombre total d'actions. Une opération aussi grosse absorbe une quantité inhabituelle de capitaux, et son entrée dans les indices obligera des fonds indiciels à acheter ; ce mécanisme est évoqué par le FT à propos d'autres introductions. L'issue de la première séance de cotation est incertaine.",
+     "impact": "Pour les banques d'investissement qui placent les titres, de tels montants génèrent de fortes commissions, mais exposent à un risque de placement si la demande faiblit. Pour les marchés, une absorption de 81 milliards peut pomper de la liquidité vers un seul titre. Les produits structurés pourront s'indexer sur ce titre et sur les paniers d'IA, avec une volatilité implicite initialement très élevée : options chères, coupons potentiellement attractifs, mais risque de forts mouvements à la cotation. La liquidité du marché des options sur un nouveau titre se construit progressivement.",
+     "interview": {
+      "question": "Quels mécanismes déterminent le prix d'une introduction en Bourse et son effet sur les indices et les produits dérivés, notamment pendant les premières séances ?",
+      "hints": [
+       "Construction du livre d'ordres, fourchette de prix et décote d'introduction.",
+       "Poids dans les indices et achats des fonds indiciels.",
+       "Ventes d'initiés et période de blocage (lock-up).",
+       "Volatilité implicite et liquidité des options sur un nouveau titre."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Lock-up",
+       "definition": "Période suivant une introduction en Bourse pendant laquelle les actionnaires initiaux ne peuvent pas vendre leurs titres."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Anthropic raises $81bn in record IPO",
+       "url": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Anthropic's IPO is too important to fail",
+       "url": "https://www.ft.com/content/26fd23df-830e-481b-a3bc-19bcab48c5f6",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "ADP : le régulateur valide le contrat de régulation 2027-2034, l'action grimpe",
+     "theme": "regulation",
+     "lead": "Après un refus fin 2025, l'Autorité de régulation des transports valide, sous réserve, le cadre financier qui encadre les redevances et les investissements des aéroports parisiens.",
+     "what": "Selon L'Agefi, l'Autorité de régulation des transports a validé le nouveau Contrat de Régulation Économique (CRE) d'ADP pour 2027-2034, après un refus à la fin de 2025 ; il servira de socle à la trajectoire financière du groupe à l'horizon 2030, et l'action grimpe. Le Monde précise que l'extension de Roissy-Charles-de-Gaulle et d'Orly est validée sous réserve : la capacité passerait de 110 millions de voyageurs en 2026 à 130 millions en 2034, avec 8,2 milliards d'euros d'investissements prévus. Le cours exact de la hausse n'est pas dans nos données.",
+     "why": "Un contrat de régulation fixe, pour un opérateur en situation de monopole comme un aéroport, le cadre des redevances qu'il peut facturer et du rendement qu'il peut espérer sur ses investissements. Le régulateur évite que le monopole abuse de sa position tout en laissant assez de rémunération pour financer les investissements : l'équilibre se joue sur le rendement autorisé du capital. La validation lève une incertitude : le marché valorise la visibilité sur les revenus et sur le calendrier des investissements. Le « sous réserve » du Monde indique que des conditions restent à remplir, que le résumé ne détaille pas.",
+     "impact": "Pour les actionnaires, la visibilité sur les redevances améliore la prévisibilité des flux de trésorerie, ce qui réduit la prime de risque appliquée au titre ; pour les créanciers, elle soutient la capacité de remboursement, utile pour les obligations de l'opérateur. Des investissements de 8,2 milliards d'euros se financent en général par dette et flux d'exploitation : les taux élevés (le 10 ans français est à 4,884 % le 19 novembre) renchérissent ce financement. Les infrastructures régulées sont un thème d'investissement prisé des fonds de dette d'infrastructure, qui cherchent des revenus stables et indexés.",
+     "interview": {
+      "question": "Comment la régulation d'un monopole comme un aéroport détermine-t-elle sa valorisation et son coût de financement ?",
+      "hints": [
+       "Base d'actifs régulée et rendement autorisé du capital.",
+       "Redevances, trafic et partage du risque entre opérateur et usagers.",
+       "Visibilité des flux de trésorerie et prime de risque.",
+       "Financement des investissements par dette, sensibilité aux taux."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Base d'actifs régulée",
+       "definition": "Valeur des actifs d'un opérateur régulé sur laquelle le régulateur autorise un rendement, qui détermine en grande partie ses revenus."
+      }
+     ],
+     "sources": [
+      {
+       "title": "L'action ADP grimpe après un avis très attendu sur son contrat de régulation 2027-2034",
+       "url": "https://www.agefi.fr/news/entreprises/laction-adp-grimpe-apres-un-avis-tres-attendu-sur-son-contrat-de-regulation-2027-2034",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "L'extension des aéroports de Roissy - Charles-de-Gaulle et d'Orly validée, sous réserve, par le régulateur des transports",
+       "url": "https://www.lemonde.fr/economie/article/2026/11/19/l-extension-des-aeroports-de-roissy-charles-de-gaulle-et-d-orly-validee-sous-reserve-par-le-regulateur-des-transports_6813252_3234.html",
+       "source": "Le Monde"
+      }
+     ]
+    },
+    {
+     "title": "Un marché bousculé : la tech devient bon marché, les valeurs défensives chères",
+     "theme": "vol_derivatives",
+     "lead": "La plus forte rotation en une génération, selon MarketWatch, s'accompagne d'une volatilité en hausse et de stratégies qui parient sur un retournement de l'IA.",
+     "what": "Selon MarketWatch, le marché boursier connaît le plus grand bouleversement en une génération : les valeurs technologiques paraissent bon marché alors que les secteurs défensifs, comme les biens de consommation de base, paraissent chers. Barclays estime que, si le trade de l'IA se défaisait, les autres piliers de l'économie américaine deviendraient « sans importance », tout en considérant le ralentissement actuel comme une correction dans laquelle on peut acheter de façon sélective. Un stratège de Panmure Liberum, Joachim Klement, a vendu toutes ses actions, selon MarketWatch. Nos données donnent le VIX à 25,46 le 17 novembre (+11,1 % sur la journée, +27,4 % sur un mois) et le Dow Jones à 50 198,17 le 18 novembre (-1,11 %).",
+     "why": "Une valorisation « bon marché » ou « chère » est relative : on compare le prix d'une action à ses bénéfices attendus ou à son historique. Quand les investisseurs fuient la tech vers les défensives, les ratios se rapprochent, ce qui est le renversement décrit par MarketWatch. Barclays distingue correction et effondrement : la banque ne pense pas que le trade de l'IA s'effondre, mais note la dépendance de l'économie américaine à ce secteur. Ces avis sont des opinions de banques et de stratèges, pas des prévisions garanties.",
+     "impact": "Un VIX à 25 reflète une demande de protection élevée : les options sont chères, ce qui permet de proposer des coupons plus élevés sur les autocalls, avec des barrières plus proches du cours qu'il y a quelques semaines. La rotation vers les défensives fait baisser la corrélation entre les secteurs, ce qui change le prix des produits sur paniers hétérogènes. Les stratégies à base d'options, comme les straddles ou les spreads de puts, permettent de parier sur la volatilité ou de se protéger à coût limité. Pour les teneurs de marché, une volatilité élevée accroît les coûts de couverture en vega et gamma.",
+     "interview": {
+      "question": "Les valeurs de croissance deviennent bon marché et les défensives chères : comment mesure-t-on cette rotation, et quel effet sur la volatilité implicite et sur les produits structurés ?",
+      "hints": [
+       "Ratios de valorisation relatifs et rotation sectorielle.",
+       "Corrélation et dispersion intra-indice.",
+       "Volatilité implicite, skew et coût de la protection.",
+       "Effet sur le prix d'un autocall et sur sa barrière."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Valeurs défensives",
+       "definition": "Actions de secteurs peu sensibles au cycle économique, comme les biens de consommation de base ou la santé, recherchées en période d'incertitude."
+      }
+     ],
+     "sources": [
+      {
+       "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+       "url": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "If the AI trade unwinds, other pillars holding up the U.S. economy are 'irrelevant,' says Barclays",
+       "url": "https://www.marketwatch.com/story/if-the-ai-trade-unwinds-other-pillars-holding-up-the-u-s-economy-are-irrelevant-says-barclays-b6f1bdca?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "This closely watched investing guru just sold all of his stocks",
+       "url": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-19",
    "generated_at": "2026-11-19T05:55:00+00:00",
    "brief": [
@@ -3347,5 +3505,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-19T05:55:00+00:00"
+ "updated_at": "2026-11-20T05:55:00+00:00"
 }
