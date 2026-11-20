@@ -1,14 +1,47 @@
 {
- "generated_at": "2026-11-19T13:12:41+00:00",
- "date": "2026-11-19",
+ "generated_at": "2026-11-20T12:56:16+00:00",
+ "date": "2026-11-20",
  "jobs": [
   {
-   "id": "groupe-credit-agricole-c856cc2e7c88",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - OTC Derivatives Processing Officer H/F",
-   "location": "",
+   "id": "schonfeld-dc74587cd7d3",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 PhD Quantitative Research Intern",
+   "location": "London, England, United Kingdom",
+   "countries": [
+    "GB"
+   ],
+   "country_names": [
+    "United Kingdom"
+   ],
+   "region": "Europe (priority)",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 87,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 20,
+    "city": 5,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8400915",
+   "posted_at": "2026-11-19",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "active": true
+  },
+  {
+   "id": "kepler-cheuvreux-52fd3321c660",
+   "employer": "Kepler Cheuvreux",
+   "employer_type": "broker",
+   "platform": "teamtailor",
+   "title": "STAGE - PRODUITS STRUCTURÉS - SALES & MARKETING - PARIS",
+   "location": "Paris, France",
    "countries": [
     "FR"
    ],
@@ -16,85 +49,188 @@
     "France"
    ],
    "region": "France",
-   "family": "Pricing / Quant",
+   "family": "Structuring",
    "role_level": "high",
-   "score": 80,
+   "score": 85,
    "score_breakdown": {
     "role": 50,
     "geo": 30,
-    "city": 0,
+    "city": 5,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-136-stage---otc-derivatives-processing-officer-hf-reference--2026-116274--/",
-   "posted_at": "",
-   "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "url": "https://keplercheuvreux.teamtailor.com/jobs/8773678-stage-produits-structures-sales-marketing-paris",
+   "posted_at": "2026-11-20",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "active": true
   },
   {
-   "id": "scotiabank-600c8da6481f",
-   "employer": "Scotiabank",
+   "id": "jpmorgan-5232ffce46ce",
+   "employer": "JPMorgan",
    "employer_type": "intl_bank",
-   "platform": "successfactors",
-   "title": "Global Banking and Markets - Global Analytic Financial Engineering (GAFE) Intern/Co - PEY 12 months",
-   "location": "Toronto, ON, CA",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Markets Program - Trading - Summer Analyst - Tokyo (BCF Onsite)",
+   "location": "Tokyo-To, Japan",
    "countries": [
-    "CA"
+    "JP"
    ],
    "country_names": [
-    "Canada"
+    "Japan"
    ],
    "region": "Rest of world",
-   "family": "Structuring",
-   "role_level": "high",
-   "score": 50,
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 42,
    "score_breakdown": {
-    "role": 50,
+    "role": 30,
     "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
-   "start": "",
+   "timing": "summer",
+   "start": "2027",
    "deadline": "2026-11-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.scotiabank.com/job/Toronto-Global-Banking-and-Markets-Global-Analytic-Financial-Engineering-%28GAFE%29-InternCo-PEY-12-months-ON/608151217/",
-   "posted_at": "",
-   "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766959",
+   "posted_at": "2026-11-20",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "active": true
   },
   {
-   "id": "unicredit-95188830836a",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
-   "platform": "generic",
-   "title": "Intern INVESTMENT MANAGEMENT & STRATEGY (F/M/D)",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
+   "id": "bmo-capital-markets-4669118ca137",
+   "employer": "BMO Capital Markets",
+   "employer_type": "intl_bank",
+   "platform": "phenom",
+   "title": "Middle Market M&A Internship - Seattle, WA (Summer 2028)",
+   "location": "Seattle, WA 98101, United States of America",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 10,
+   "score": 22,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
+   "timing": "summer",
+   "start": "2028",
+   "deadline": "2027-11-30",
    "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/INTERN-INVESTMENT-MANAGEMENT-STRATEGY-F-M-D/117664",
-   "posted_at": "",
-   "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "url": "https://jobs.bmo.com/us/en/job/R260031878",
+   "posted_at": "2026-11-17",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-a621e756fcb9",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Markets Program - Research - Summer Analyst - Tokyo (BCF Onsite)",
+   "location": "Tokyo-To, Japan",
+   "countries": [
+    "JP"
+   ],
+   "country_names": [
+    "Japan"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766941",
+   "posted_at": "2026-11-20",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-e343a80683cf",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Commercial & Investment Bank - Markets Program - Sales - Summer Analyst - Tokyo (BCF Onsite)",
+   "location": "Tokyo-To, Japan",
+   "countries": [
+    "JP"
+   ],
+   "country_names": [
+    "Japan"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766948",
+   "posted_at": "2026-11-20",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "active": true
+  },
+  {
+   "id": "schonfeld-b76fb1f24c47",
+   "employer": "Schonfeld",
+   "employer_type": "hedge_fund",
+   "platform": "greenhouse",
+   "title": "2027 Equity Middle Office Intern",
+   "location": "Hong Kong, Hong Kong",
+   "countries": [
+    "HK"
+   ],
+   "country_names": [
+    "Hong Kong"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "",
+   "deadline_source": "",
+   "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8346895",
+   "posted_at": "2026-11-19",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "active": true
   }
  ]
