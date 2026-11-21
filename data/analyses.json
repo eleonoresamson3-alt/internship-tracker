@@ -1,6 +1,174 @@
 {
  "days": [
   {
+   "date": "2026-11-21",
+   "generated_at": "2026-11-21T05:55:00+00:00",
+   "brief": [
+    "Marchés : les quatre grands indices américains sont sur la pire semaine depuis le « Liberation Day » d'avril 2025 selon MarketWatch ; le Nasdaq a perdu 2,25 % le 19 novembre (23 879,20 points) et le Dow Jones 2,19 % (49 097,06) ; le Nikkei chute de 5,06 % le 20 novembre (56 436,65).",
+    "Volatilité : L'Agefi parle d'un Vix « au plus haut » et d'investisseurs qui se tournent vers les emprunts d'État ; dans nos données, le VIX est à 24,56 le 18 novembre, avant la séance du 19.",
+    "Taux : le 10 ans français (TEC 10) est à 4,874 % le 20 novembre (-1,0 point de base) contre 3,39 % pour le Bund (-6), soit environ 148 points de base d'écart ; le 10 ans américain était à 5,07 % le 18 novembre.",
+    "Fed : le président Kevin Warsh a lancé cinq groupes de travail (communication, objectif d'inflation, usage des données, bilan, productivité), dont les conclusions sont attendues cet hiver ; il veut réduire la taille du bilan (L'Agefi).",
+    "Entreprises et régulation : Worldline chute de 15 % après un rapport du FT sur ses pratiques de trésorerie ; l'Europe conclut un accord provisoire sur le nouveau cadre SFDR."
+   ],
+   "articles": [
+    {
+     "title": "La pire semaine de Wall Street depuis avril 2025 : les actions corrigent à l'unisson",
+     "theme": "vol_derivatives",
+     "lead": "Les inquiétudes autour de l'IA, mais aussi d'autres secteurs, entraînent une chute mondiale, malgré le succès de l'introduction en Bourse d'Anthropic.",
+     "what": "Selon MarketWatch, les quatre grands indices américains sont en passe de connaître leur pire semaine depuis les droits de douane du « Liberation Day » d'avril 2025, alors même que l'action Anthropic bondit à ses débuts en Bourse. L'Agefi indique qu'après Wall Street jeudi, l'Asie et l'Europe reculent nettement vendredi, la correction touchant aussi d'autres secteurs que l'IA ; certains évoquent des cessions pour dégager des liquidités en vue de cette introduction, le Vix serait au plus haut et les investisseurs se tournent vers les emprunts d'État. Nos données donnent le Nasdaq à 23 879,20 le 19 novembre (-2,25 %, -5,86 % sur une semaine, -9,63 % sur un mois), le Dow Jones à 49 097,06 (-2,19 %) et le Nikkei à 56 436,65 le 20 novembre (-5,06 %). Le VIX de nos données (24,56) date du 18 novembre.",
+     "why": "Quand tous les grands marchés baissent ensemble, la baisse est systémique plutôt que sectorielle : les investisseurs vendent des actifs liquides pour réduire leur risque ou lever du cash, y compris des valeurs qui ne sont pas liées à l'IA. L'idée que certains vendent pour financer une introduction en Bourse est une hypothèse rapportée par L'Agefi, non démontrée. La fuite vers les emprunts d'État correspond au réflexe de refuge, mais elle contraste avec la hausse des rendements des semaines précédentes, ce qui montre que les marchés lisent tour à tour l'inflation et le risque. Ces explications sont celles de la presse.",
+     "impact": "Une volatilité implicite au plus haut renchérit les options et enrichit le coupon proposé sur les autocalls neufs, mais les barrières de protection sont bien plus proches du cours : le Nasdaq a perdu près de 10 % en un mois. Les autocalls émis avant la baisse ont perdu de la valeur de marché, et la probabilité de rappel anticipé a chuté. Les teneurs de marché doivent rééquilibrer leurs couvertures en delta et vega, ce qui peut amplifier les mouvements. Les produits à capital protégé restent protégés à l'échéance, sous réserve du risque de l'émetteur.",
+     "interview": {
+      "question": "Les actions chutent ensemble, la volatilité monte et les investisseurs se tournent vers les emprunts d'État : comment un structureur ajuste-t-il le prix et la couverture d'un autocall dans un tel environnement ?",
+      "hints": [
+       "Volatilité implicite et skew : prix des puts de protection.",
+       "Delta et vega hedging : effet des couvertures sur les mouvements.",
+       "Distance à la barrière et probabilité de rappel anticipé.",
+       "Distinguer valeur de marché et remboursement à l'échéance."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Skew",
+       "definition": "Écart de volatilité implicite entre des options de prix d'exercice différents ; un skew prononcé signifie que la protection à la baisse coûte cher."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Les places boursières corrigent à l'unisson",
+       "url": "https://www.agefi.fr/news/economie-marches/les-places-boursieres-corrigent-a-lunisson",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Anthropic's stock surges in its debut — and the rest of the market dives anyway",
+       "url": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Citi warns a key stock-market signal is close to flashing red",
+       "url": "https://www.marketwatch.com/story/citi-warns-a-key-stock-market-signal-is-close-to-flashing-red-5cbee1c3?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Bank of America strategist warns doom loop could hit stocks with Wall Street underpricing hard-landing risks",
+       "url": "https://www.marketwatch.com/story/bank-of-america-strategist-warns-doom-loop-could-hit-stocks-with-wall-street-underpricing-hard-landing-risks-c3181e57?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Fed : sous Kevin Warsh, cinq chantiers stratégiques et un bilan à réduire",
+     "theme": "central_banks",
+     "lead": "Le nouveau président de la Fed a lancé des groupes de travail sur la communication, l'objectif d'inflation, l'usage des données, le bilan et la productivité, avec des conclusions attendues cet hiver.",
+     "what": "Selon L'Agefi, Kevin Warsh, président de la Fed, a nommé le 10 juillet les responsables de groupes de travail sur cinq aspects de sa stratégie monétaire : la communication, l'objectif d'inflation, l'usage des données, la politique de bilan et la productivité ; les conclusions sont attendues pour cet hiver. Le groupe « productivité et emploi », destiné à mesurer les effets de l'IA sur l'inflation et l'emploi, a tenu sa première conférence le 16 novembre à la Fed de San Francisco. Un autre groupe examine le bilan de la Fed, avec l'idée d'en limiter la taille à terme tout en conservant des capacités d'intervention. Nos données donnent le 10 ans américain à 5,07 % et le 2 ans à 4,80 % le 18 novembre.",
+     "why": "Le bilan d'une banque centrale regroupe les titres qu'elle a achetés (assouplissement quantitatif) : le réduire retire de la liquidité du système et peut faire monter les taux longs. La productivité compte parce que si l'IA augmente la production par travailleur, l'économie peut croître sans créer d'inflation, ce qui changerait le niveau de taux jugé neutre ; le débat décrit par L'Agefi est ouvert. Ces travaux ne constituent pas des décisions : les conclusions sont attendues cet hiver, et rien n'indique qu'elles modifieront la décision de décembre sur les taux (réunion les 8-9 décembre selon notre calendrier).",
+     "impact": "Un bilan plus petit à long terme signifie moins d'achats de titres par la Fed, donc une pression haussière potentielle sur les rendements longs et sur le coût de financement de l'État, des banques et des ménages. Pour les produits structurés, des taux longs plus élevés réduisent le prix du zéro-coupon : cela libère du budget d'option pour les notes à capital protégé. Une réflexion sur la communication peut changer la façon dont la Fed oriente les marchés, donc la volatilité des taux. Un objectif d'inflation modifié aurait des effets de grande ampleur sur les anticipations, mais rien ne le suggère à ce stade.",
+     "interview": {
+      "question": "Pourquoi la taille du bilan de la banque centrale influence-t-elle les taux longs, et en quoi des gains de productivité liés à l'IA pourraient-ils modifier la politique monétaire ?",
+      "hints": [
+       "Assouplissement quantitatif et resserrement quantitatif.",
+       "Taux neutre, productivité et inflation.",
+       "Communication et guidance : effet sur les anticipations.",
+       "Conséquences sur la courbe et sur les produits à capital protégé."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Bilan de la banque centrale",
+       "definition": "Ensemble des actifs (titres achetés) et passifs (monnaie en circulation, réserves bancaires) détenus par la banque centrale ; sa taille influence la liquidité du système."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Kevin Warsh prône une stratégie plus agile pour la Fed",
+       "url": "https://www.agefi.fr/news/economie-marches/kevin-warsh-prone-une-strategie-plus-agile-pour-la-fed",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Kevin Warsh veut réduire le bilan mais pas les interventions",
+       "url": "https://www.agefi.fr/news/economie-marches/kevin-warsh-veut-reduire-le-bilan-mais-pas-les-interventions",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "La Fed face au défi des gains de productivité de l'IA",
+       "url": "https://www.agefi.fr/news/economie-marches/la-fed-face-au-defi-des-gains-de-productivite-de-lia",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Worldline chute de 15 % après un rapport du FT sur ses pratiques de trésorerie",
+     "theme": "credit_sovereign",
+     "lead": "Selon le FT, la fintech française aurait retardé des paiements à ses fournisseurs et sollicité des avances de clients avant ses résultats, dans les années précédant l'alerte de 2023.",
+     "what": "Selon Investing.com, l'action Worldline chute de 15 % après un rapport du FT. Le FT indique que la fintech française a retenu à plusieurs reprises des paiements à ses fournisseurs et demandé des avances à ses clients avant la publication de ses résultats, dans les années ayant précédé son avertissement sur résultats de 2023, ce qui a soutenu sa trésorerie selon le FT. Ces éléments sont des informations de presse ; nos sources ne donnent ni la réponse de la société ni d'éventuelles suites réglementaires. Dans nos données, le 10 ans français est à 4,874 % le 20 novembre.",
+     "why": "La trésorerie d'une entreprise dépend en partie du besoin en fonds de roulement : retarder le paiement des fournisseurs ou encaisser des avances de clients augmente temporairement le cash disponible, sans améliorer la rentabilité. Si cette pratique est utilisée avant des dates de publication, elle peut donner une image plus favorable que la réalité, ce qui pose une question de transparence. Les investisseurs et les créanciers s'intéressent à la qualité du flux de trésorerie, et pas seulement à son niveau. Il ne s'agit pas d'une décision d'un régulateur ni d'une conclusion juridique : seulement d'un rapport journalistique.",
+     "impact": "Pour les créanciers de l'entreprise, un doute sur la qualité de la trésorerie peut élargir le spread de ses obligations et renchérir la protection (CDS) : les agences de notation peuvent aussi réexaminer leur jugement. Pour les produits structurés sur le titre, une chute de 15 % en une séance peut franchir des barrières de protection ; la volatilité implicite bondit, les options étant chères. Cela rappelle l'importance de l'analyse du bilan et des flux de trésorerie, et pas seulement du compte de résultat. Les auditeurs et les régulateurs de marché peuvent être sollicités si des irrégularités sont avérées.",
+     "interview": {
+      "question": "Comment une entreprise peut-elle améliorer sa trésorerie sans améliorer sa rentabilité, et quels indicateurs un analyste de crédit regarde-t-il pour le détecter ?",
+      "hints": [
+       "Besoin en fonds de roulement : délais clients et fournisseurs.",
+       "Flux de trésorerie opérationnel contre résultat net.",
+       "Affacturage, avances clients et dette déguisée.",
+       "Effets sur le spread de crédit et la notation."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Besoin en fonds de roulement",
+       "definition": "Montant nécessaire pour financer le cycle d'exploitation (stocks et créances clients moins dettes fournisseurs) ; le modifier change la trésorerie à court terme sans changer le résultat."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Worldline bolstered cash flow through delayed payments and early receipts",
+       "url": "https://www.ft.com/content/81d9e216-c04f-43f2-a221-d1da2a53ee50?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Les actions Worldline chutent de 15% après un rapport du FT",
+       "url": "https://fr.investing.com/news/stock-market-news/les-actions-worldline-chutent-de-15-apres-un-rapport-du-ft-3706792",
+       "source": "Investing.com France"
+      }
+     ]
+    },
+    {
+     "title": "Régulation : accord provisoire sur le nouveau cadre SFDR, et les petits découverts deviennent des crédits à la consommation",
+     "theme": "regulation",
+     "lead": "L'Europe simplifie son cadre de finance durable, tandis que la France encadre davantage les découverts de moins de 200 euros.",
+     "what": "Selon L'Agefi, l'Europe a signé un accord provisoire sur le nouveau cadre SFDR (règlement sur la publication d'informations en matière de finance durable) : une fois confirmées par les deux colégislateurs, les règles mises à jour seront publiées au Journal officiel de l'UE et commenceront à s'appliquer deux ans plus tard. Selon Le Monde, à partir du 20 novembre, les découverts bancaires de moins de 200 euros sont considérés comme des crédits à la consommation : les banques doivent examiner la solvabilité du client avant d'accorder une autorisation de découvert. Le contenu détaillé du nouveau cadre SFDR ne figure pas dans le résumé disponible.",
+     "why": "Le SFDR impose aux gestionnaires de fonds de classer et de décrire leurs produits selon leur caractère durable, pour limiter le « greenwashing » ; un nouveau cadre vise à le rendre plus lisible et plus fiable, selon l'esprit général des révisions en cours. Pour les découverts, l'application des règles du crédit à la consommation oblige la banque à évaluer le risque de défaut avant d'accorder une facilité, ce qui protège le client mais ajoute des contraintes. Ces deux textes illustrent la tendance à encadrer la distribution de produits financiers aux particuliers, un thème proche des produits structurés vendus au grand public.",
+     "impact": "Pour les gestionnaires et les émetteurs de produits structurés, un cadre SFDR révisé peut modifier les catégories de produits « durables » et les informations à fournir, avec des coûts de mise en conformité mais plus de clarté pour les clients. Pour les banques de détail, l'examen de solvabilité pour de petits découverts réduit le risque de crédit mais augmente la charge opérationnelle et peut réduire l'offre pour certains clients. Les règles de protection des consommateurs touchent directement la vente de produits structurés par les réseaux bancaires, où le conseil et l'adéquation du produit au profil du client sont centraux.",
+     "interview": {
+      "question": "Pourquoi les régulateurs européens encadrent-ils la communication sur la durabilité des fonds, et quels effets pour les produits structurés vendus au public ?",
+      "hints": [
+       "Lutte contre le greenwashing et classification des produits.",
+       "Information précontractuelle et adéquation au profil du client.",
+       "Coûts de conformité et effets sur l'offre.",
+       "Parallèle avec la protection du consommateur dans le crédit."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "SFDR",
+       "definition": "Règlement européen sur la publication d'informations en matière de durabilité dans le secteur des services financiers, qui classe les fonds selon leur degré de prise en compte de critères durables."
+      }
+     ],
+     "sources": [
+      {
+       "title": "L'Europe signe un accord provisoire sur le nouveau cadre SFDR",
+       "url": "https://www.agefi.fr/asset-management/actualites/leurope-signe-un-accord-provisoire-sur-le-nouveau-cadre-sfdr",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Les découverts bancaires de moins de 200 euros désormais considérés comme des crédits à la consommation",
+       "url": "https://www.lemonde.fr/argent/article/2026/11/20/les-decouverts-bancaires-de-moins-de-200-euros-desormais-consideres-comme-des-credits-a-la-consommation_6813600_1657007.html",
+       "source": "Le Monde"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-20",
    "generated_at": "2026-11-20T05:55:00+00:00",
    "brief": [
@@ -3505,5 +3673,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-20T05:55:00+00:00"
+ "updated_at": "2026-11-21T05:55:00+00:00"
 }
