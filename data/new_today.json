@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-21T12:41:12+00:00",
- "date": "2026-11-21",
+ "generated_at": "2026-11-22T12:37:23+00:00",
+ "date": "2026-11-22",
  "jobs": [
   {
-   "id": "groupe-credit-agricole-2d071d6aa856",
+   "id": "groupe-credit-agricole-dffdce1529f7",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
    "platform": "generic",
-   "title": "Stage - Analyse et modélisation macroéconomique et financière H/F",
+   "title": "Stage - Analyste Financement Middle Office PERES H/F",
    "location": "",
    "countries": [
     "FR"
@@ -16,7 +16,7 @@
     "France"
    ],
    "region": "France",
-   "family": "Markets (other)",
+   "family": "Treasury",
    "role_level": "low",
    "score": 40,
    "score_breakdown": {
@@ -29,76 +29,10 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-122-stage---analyse-et-modelisation-macroeconomique-et-financiere-hf-reference--2026-115946--/",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---analyste-financement-middle-office-peres-hf-reference--2026-116094--/",
    "posted_at": "",
-   "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-b363a55b379d",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Analyste crédit H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170466-122-stage----analyste-credit-hf-reference--2026-115817--/",
-   "posted_at": "",
-   "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
-   "active": true
-  },
-  {
-   "id": "jpmorgan-66af7f45f623",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Applied Research Associate - Summer Associate",
-   "location": "New York, NY, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809359",
-   "posted_at": "2026-11-20",
-   "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22",
    "active": true
   }
  ]
