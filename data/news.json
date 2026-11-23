@@ -1,6 +1,1302 @@
 {
- "generated_at": "2026-11-22T12:45:48+00:00",
+ "generated_at": "2026-11-23T14:54:09+00:00",
  "items": [
+  {
+   "id": "be2655c5ccd1efc7",
+   "title": "Benoit Peligry quitte la direction de Cybèle AM",
+   "link": "https://www.agefi.fr/asset-management/actualites/benoit-peligry-quitte-la-direction-de-cybele-am",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T14:48+00:00",
+   "summary": "Il confie les rênes de la société à Servane Duforest.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "0ff1873946d3be49",
+   "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
+   "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T14:39+00:00",
+   "summary": "The health insurers are facing scrutiny over their business practices and potential changes to the private Medicare program.",
+   "themes": [
+    "equities",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 22
+  },
+  {
+   "id": "0e7a9e1b7687465b",
+   "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
+   "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T14:37+00:00",
+   "summary": "What to watch in AI earnings this Thanksgiving week. Plus, why memory stocks look so cheap, how much less you’ll pay at the pump and a $100,000 pottery-studio dilemma.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "ec2a46591be2b604",
+   "title": "Grand Paris Express : Valérie Pécresse juge « très compromise » la mise en service de la ligne 18 avant la fin de l’année",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/23/grand-paris-express-valerie-pecresse-juge-tres-compromise-la-mise-en-service-de-la-ligne-18-avant-la-fin-de-l-annee_6814396_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T14:35+00:00",
+   "summary": "Le lancement du premier tronçon du vaste réseau de transport francilien a été reporté à de multiples reprises. La présidente de la région Ile-de-France met en cause Alstom et son logiciel d’automatisation, alors que « les deux mois de marche à blanc » nécessaires avant le déploiement de la ligne 18 n’ont pas encore commencé.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "9edcdf98dbe581b6",
+   "title": "Nvidia shares soar 30% after board reinstates Jensen Huang",
+   "link": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T14:33+00:00",
+   "summary": "Nasdaq gains 7% and S&P up 5% as AI trade reignites on Wall Street",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "559598839ae4d3c2",
+   "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
+   "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T14:33+00:00",
+   "summary": "Donald Trump’s was among the voices pushing for ousted co-founder Huang’s resumption of the AI chip giant’s reins.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "58b7cfaf59778454",
+   "title": "BNP Paribas prépare son plan stratégique avec un jeu de chaises musicales",
+   "link": "https://www.agefi.fr/news/banque-assurance/bnp-paribas-prepare-son-plan-strategique-avec-un-jeu-de-chaises-musicales",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T14:32+00:00",
+   "summary": "Le groupe annonce une série de nominations dans les fonctions risque et juridique et un élargissement de son comex.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "51b693fec7e90d0d",
+   "title": "Jensen Huang réintégré à la tête de Nvidia par son conseil d’administration, deux semaines après avoir démissionné à la suite de soupçons d’espionnage chinois",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/23/jensen-huang-reintegre-comme-directeur-general-et-president-de-nvidia-par-le-conseil-d-administration-deux-semaines-apres-avoir-demissionne-suite-a-des-suspicions-d-espionnage-chinois_6814392_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T14:21+00:00",
+   "summary": "Ce coup de théâtre intervient après des appels répétés du président américain, Donald Trump, proche de Jensen Huang, à la réintégration de cette figure emblématique de la tech au sein de l’entreprise qu’il a cofondée.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "6c3765051a7892a1",
+   "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+   "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T14:15+00:00",
+   "summary": "“My wife stopped working outside the home in 1970.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "1252cb01de9dd2f7",
+   "title": "Grocery stores have ‘staggering deals’ for Thanksgiving — but don’t get used to these lower prices just yet",
+   "link": "https://www.marketwatch.com/story/grocery-stores-have-staggering-deals-for-thanksgiving-but-dont-get-used-to-these-lower-prices-just-yet-7adfc7f5?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T14:14+00:00",
+   "summary": "Walmart, Target and Amazon are some of the retailers offering meal-basket deals this year.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "8aabe8d5b73e808b",
+   "title": "The number of 401(k) millionaires drops amid stock-market swings",
+   "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T14:10+00:00",
+   "summary": "‘It was a rocky quarter’: 401(k) balances drop and affordability concerns persist, Fidelity says",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "065f4d9c0492f2ca",
+   "title": "What Nvidia tells us about America and China",
+   "link": "https://www.ft.com/content/28cb9178-ac22-44b9-99f5-d5f25a86d366?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-23T14:00+00:00",
+   "summary": "The company’s spy scandal shows how little leverage Washington has against Beijing",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "8706f74ff4247e34",
+   "title": "Les fonds de dettes et de retournement à l’épreuve de la hausse du rendement de l’OAT",
+   "link": "https://www.agefi.fr/cash-risk/actualites/les-fonds-de-dettes-et-de-retournement-a-lepreuve-de-la-hausse-du-rendement-de-loat",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T13:47+00:00",
+   "summary": "La hausse du rendement de l'OAT à 10 ans, qui a franchi les 5 % en octobre 2026, bouleverse le positionnement des fonds spécialisés en distressed .",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 25
+  },
+  {
+   "id": "0b1117d12e996011",
+   "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+   "link": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T13:47+00:00",
+   "summary": "CrowdStrike on Monday said it will acquire Zscaler in an all-stock transaction that values the company at approximately $43.9 billion.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "ffc9529500e12798",
+   "title": "A 66-year-old nurse faces retirement with just $500 saved. Who’s to blame?",
+   "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T13:45+00:00",
+   "summary": "“Retirement is a financial status, not an age.”",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "13965234a27b799a",
+   "title": "L’action Monro chute après la suspension de son dividende",
+   "link": "https://fr.investing.com/news/stock-market-news/laction-monro-chute-apres-la-suspension-de-son-dividende-3709316",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:39+00:00",
+   "summary": "",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "3637f6e948bbe721",
+   "title": "BTIG réitère sa recommandation sur Kymera Therapeutics après les données de phase 2b",
+   "link": "https://fr.investing.com/news/analyst-ratings/btig-reitere-sa-recommandation-sur-kymera-therapeutics-apres-les-donnees-de-phase-2b-93CH-3709300",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:38+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "88a2329216826d35",
+   "title": "Litchfield Hills initie une couverture de Newtek Business Services avec une recommandation d’achat",
+   "link": "https://fr.investing.com/news/analyst-ratings/litchfield-hills-initie-une-couverture-de-newtek-business-services-avec-une-recommandation-dachat-93CH-3709299",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:38+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "e424be0f0c6dab08",
+   "title": "Arcus interrompt un essai de phase 3 sur le cancer du pancréas",
+   "link": "https://fr.investing.com/news/company-news/arcus-interrompt-un-essai-de-phase-3-sur-le-cancer-du-pancreas-93CH-3709298",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:38+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "3a61cde222ef6abf",
+   "title": "BTIG maintient une note neutre sur Smith & Nephew après le recrutement d’un nouveau directeur financier",
+   "link": "https://fr.investing.com/news/analyst-ratings/btig-maintient-une-note-neutre-sur-smith--nephew-apres-le-recrutement-dun-nouveau-directeur-financier-93CH-3709297",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "e2a85b7b4cde4d2b",
+   "title": "Energy Vault lève 78 millions $ pour un projet de batteries au Texas",
+   "link": "https://fr.investing.com/news/company-news/energy-vault-leve-78-millions--pour-un-projet-de-batteries-au-texas-93CH-3709296",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "5556039e6789ea3c",
+   "title": "Bitmine annonce des avoirs en crypto et en liquidités de 11,1 milliards $",
+   "link": "https://fr.investing.com/news/company-news/bitmine-annonce-des-avoirs-en-crypto-et-en-liquidites-de-111-milliards--93CH-3709295",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "ea14c2ff31714fff",
+   "title": "Oasis presse les actionnaires de Vail Resorts de soutenir ses candidats",
+   "link": "https://fr.investing.com/news/company-news/oasis-presse-les-actionnaires-de-vail-resorts-de-soutenir-ses-candidats-93CH-3709294",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "2f34a490f5edfe2a",
+   "title": "RedHill obtient une extension de brevet pour Rebyota jusqu’en 2036",
+   "link": "https://fr.investing.com/news/company-news/redhill-obtient-une-extension-de-brevet-pour-rebyota-jusquen-2036-93CH-3709293",
+   "source": "Investing.com France",
+   "sources": [
+    "Investing.com France"
+   ],
+   "published": "2026-11-23T13:37+00:00",
+   "summary": "",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "25c17ba639266032",
+   "title": "A Paris, les conflits autour de l’espace public pourraient faire le bonheur du secteur privé",
+   "link": "https://www.lemonde.fr/idees/article/2026/11/23/a-paris-les-conflits-autour-de-l-espace-public-pourraient-faire-le-bonheur-du-secteur-prive_6814387_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T13:30+00:00",
+   "summary": "Avec le recul de l’automobile, un mouvement important de mixité des usages sur la chaussée s’est imposé au cours de la dernière décennie dans la capitale. La mairie n’a pas les moyens de réguler seule ce nouvel afflux et les frictions qu’il engendre.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "e26ed6214f315f2b",
+   "title": "Joining the EU won’t save the UK economy by itself",
+   "link": "https://www.ft.com/content/e5a85fb7-d980-4c34-9857-c57eff52c3c7?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-23T12:31+00:00",
+   "summary": "Andy Burnham is good at short-term politics but needs a long-term economic strategy",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "5ad321f9d8e7d134",
+   "title": "The trouble with the middle powers project",
+   "link": "https://www.ft.com/content/cf3b03e3-3fbf-489b-a292-33596ea64eea?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-23T12:25+00:00",
+   "summary": "Smaller nations are already dangerously dependent — and US and Chinese dominance of AI will only compound their problems",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "6266fb1beeb94d69",
+   "title": "Le principal producteur européen de Coca-Cola visé par une enquête approfondie de l’UE pour des soupçons de pratiques anticoncurrentielles",
+   "link": "https://www.lemonde.fr/international/article/2026/11/23/le-principal-producteur-europeen-de-coca-cola-vise-par-une-enquete-approfondie-de-l-ue-pour-des-soupcons-de-pratiques-anticoncurrentielles_6814382_3210.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T12:25+00:00",
+   "summary": "Bruxelles reproche à Coca-Cola Europacific Partners des tactiques qui visent à maintenir des prix plus élevés, en dissuadant ses clients de se fournir dans des pays où ses tarifs sont plus faibles.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "4d78f8469a4d7f78",
+   "title": "Une enveloppe de 350 millions d’euros pour l’aéronautique : derrière l’annonce d’Emmanuel Macron, le chantier-clé du successeur de l’Airbus A320",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/23/une-enveloppe-de-350-millions-d-euros-pour-l-aeronautique-derriere-l-annonce-d-emmanuel-macron-le-chantier-cle-du-successeur-de-l-airbus-a320_6814381_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T12:18+00:00",
+   "summary": "Le chef de l’Etat a confirmé, lundi 23 novembre, un important soutien de l’Etat pour la recherche aéronautique civile. Des fonds nécessaires à la conception du futur appareil moyen-courrier d’Airbus, crucial pour l’avionneur et ses fournisseurs.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "654589cfacd9fbb5",
+   "title": "L'ère de l'IA met en évidence les failles structurelles des indices pondérés en fonction de la capitalisation",
+   "link": "https://www.agefi.fr/news/economie-marches/lere-de-lia-met-en-evidence-les-failles-structurelles-des-indices-ponderes-en-fonction-de-la-capitalisation",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T11:31+00:00",
+   "summary": "Alors qu'une poignée d'entreprises technologiques représente une part croissante des principaux indices boursiers, il est préférable pour les investisseurs d’examiner de plus près ce qu'ils détiennent réellement.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "63c7b01258e09c54",
+   "title": "Bercy annonce 14,9 milliards d’euros de projets d’investissements dans l’Hexagone",
+   "link": "https://www.agefi.fr/news/entreprises/bercy-annonce-14-9-milliards-deuros-de-projets-dinvestissements-dans-lhexagone",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T11:21+00:00",
+   "summary": "Plus de 200 projets industriels et près de 15 milliards d’euros d’investissements inédits d’entreprises tricolores étaient mis à l’honneur lundi 23 novembre, lors du second sommet franco-français de Choose France.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "4359b70b62d21879",
+   "title": "Abivax ne rassure pas totalement après une attaque d'activiste",
+   "link": "https://www.agefi.fr/news/entreprises/abivax-ne-rassure-pas-totalement-apres-une-attaque-dactiviste",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T11:09+00:00",
+   "summary": "La société de biotechnologie se reprend en Bourse sans toutefois compenser la totalité des pertes enregistrées vendredi après que Scorpion Capital a critiqué un de ses candidats-médicaments.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "6ac7ee4d1f976f00",
+   "title": "FirstFT: Wall Street set to rebound after AI stock sell-off",
+   "link": "https://www.ft.com/content/67014244-a737-4be5-ac81-97b77a6912ff?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Global economy",
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T10:58+00:00",
+   "summary": "Also in today’s newsletter: Democrats win House seat in North Carolina and how China is winning the car war",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 30
+  },
+  {
+   "id": "a07664eb5a5f6481",
+   "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+   "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T10:57+00:00",
+   "summary": "The Pershing Square Capital Management CEO wrote in a post on X that he thinks financial conditions have already considerably tightened.",
+   "themes": [
+    "central_banks",
+    "macro_inflation",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 50
+  },
+  {
+   "id": "b637900338ec64c3",
+   "title": "La pression diminue sur les marchés indonésiens",
+   "link": "https://www.agefi.fr/news/economie-marches/la-pression-diminue-sur-les-marches-indonesiens",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T10:47+00:00",
+   "summary": "Les discussions entre le patron de MSCI et le président indonésien ont permis à la Bourse de Jakarta et à la roupie indonésienne de se stabiliser lundi. Elles affichent parmi les pires performances cette année sur les marchés mondiaux.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "36666f9301d1972c",
+   "title": "Jean-Baptiste Wautier (Wautier Family Office) : « Conserver un patrimoine sur plusieurs générations est souvent plus difficile que de le créer »",
+   "link": "https://www.agefi.fr/gestion-privee/actualites/jean-baptiste-wautier-wautier-family-office-conserver-un-patrimoine-sur-plusieurs-generations-est-souvent-plus-difficile-que-de-le-creer",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T10:30+00:00",
+   "summary": "L'ancien directeur des investissements du fonds BC Partners dévoile les raisons qui l'ont amené à créer son single family office, sa stratégie d'investissement ainsi que ses projets philanthropiques.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "8dbbea2e77c2088f",
+   "title": "Quelle place occupent les cryptoactifs dans le patrimoine des Français ?",
+   "link": "https://www.agefi.fr/news/tech-finance/quelle-place-occupent-les-cryptoactifs-dans-le-patrimoine-des-francais",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T10:19+00:00",
+   "summary": "La corrélation du Bitcoin avec le CAC40 est historiquement positive avant de devenir négative depuis le début 2026, souligne José Bardaji, économiste chez BPCE. La diversification de l'épargne est la première explication avancée par les Français (41 %) pour détenir des cryptoactifs, avant la recherche de rendements plus élevés (34 %).",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 25
+  },
+  {
+   "id": "c9b7f5ff784ddbe6",
+   "title": "James Bond films were shot all over the world. Here are 5 properties made famous by 007.",
+   "link": "https://www.marketwatch.com/story/james-bond-films-were-shot-all-over-the-world-here-are-5-properties-made-famous-by-007-dabafbe6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "sources": [
+    "MarketWatch"
+   ],
+   "published": "2026-11-23T10:02+00:00",
+   "summary": "As actor Robert Pattinson steps in the role of 007, here are some of the lavish homes where we’ve see James Bond in action.",
+   "themes": [
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 25
+  },
+  {
+   "id": "97aff51dc2964393",
+   "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+   "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
+   "source": "BCE",
+   "sources": [
+    "BCE"
+   ],
+   "published": "2026-11-23T10:00+00:00",
+   "summary": "",
+   "themes": [
+    "central_banks"
+   ],
+   "official": true,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 50
+  },
+  {
+   "id": "1c4013d2aca828ae",
+   "title": "General insurance stress test highlights value of rehearsing crisis response and recovery",
+   "link": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery",
+   "source": "Bank of England",
+   "sources": [
+    "Bank of England"
+   ],
+   "published": "2026-11-23T10:00+00:00",
+   "summary": "The Prudential Regulation Authority (PRA) has today published the results of its 2026 Dynamic General Insurance Stress Test (DyGIST)",
+   "themes": [
+    "regulation"
+   ],
+   "official": true,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 30
+  },
+  {
+   "id": "87d779e665fd577e",
+   "title": "Marion Flécher, finaliste du prix Penser le travail 2026 : « Loin de remettre en cause le capitalisme, les start-up en proposent un nouveau visage »",
+   "link": "https://www.lemonde.fr/emploi/article/2026/11/23/marion-flecher-finaliste-du-prix-penser-le-travail-2026-loin-de-remettre-en-cause-le-capitalisme-les-start-up-en-proposent-un-nouveau-visage_6660953_1698638.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T09:56+00:00",
+   "summary": "Autrice du « Monde des start-up », Marion Flécher montre, dans un entretien au « Monde », que si les jeunes entreprises innovantes allègent les hiérarchies et prônent l’horizontalité, elles développent dans le même temps de nouvelles formes de contrôle, poussant les travailleurs à l’auto-engagement et au surinvestissement.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "e3310fd91987f88a",
+   "title": "L'activité continue à se dégrader en France, elle s'améliore en Allemagne",
+   "link": "https://www.agefi.fr/news/economie-marches/lactivite-continue-a-se-degrader-en-france-elle-sameliore-en-allemagne",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T09:48+00:00",
+   "summary": "L'indice PMI français diminue encore à un plus bas de six mois, à 46,2, en novembre. Outre-Rhin, il grimpe à 55. Il progresse également au niveau de la zone euro.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 20
+  },
+  {
+   "id": "5f6a610d627033b7",
+   "title": "« La chute des Bourses asiatiques ressemble plus à un krach qu’à une simple correction »",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/23/la-chute-des-bourses-asiatiques-ressemble-plus-a-un-krach-qu-a-une-simple-correction_6814369_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T09:30+00:00",
+   "summary": "La Bourse de Corée du Sud a chuté de presque 50 % depuis juin, et celle de Taïwan de 30 %. Les autorités financières asiatiques sont intervenues, samedi et dimanche, sur les marchés pour tenter d’enrayer le déclin. Une agitation qui fait suite à la lourde dégringolade de Wall Street vendredi, relève Eric Albert, journaliste au service Economie du « Monde ».",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "da69858648bf93ac",
+   "title": "BNP Paribas va investir 800 millions d'euros dans la fibre d'Orange en Belgique",
+   "link": "https://www.agefi.fr/news/banque-assurance/bnp-paribas-va-investir-800-millions-deuros-dans-la-fibre-dorange-en-belgique",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T08:49+00:00",
+   "summary": "La banque s'est engagée à financer une nouvelle infrastructure qu'elle détiendra tandis que l'opérateur télécoms bénéficierait d'un droit d'usage de 15 ans.",
+   "themes": [
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "a49776f0da2fe66c",
+   "title": "Les marchés américains vont tenter de rebondir après leur plongeon de vendredi",
+   "link": "https://www.agefi.fr/news/economie-marches/les-marches-americains-vont-tenter-de-rebondir-apres-leur-plongeon-de-vendredi",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T08:19+00:00",
+   "summary": "Les contrats à terme sur les indices américains pointent vers une ouverture en hausse alors que l’indice coréen est de nouveau dans le rouge vif. En Europe, les actions reprennent des couleurs.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "cb500b0e4a99edc0",
+   "title": "Adin Huseljic et Augustin Palle (Quadrille Capital) : « Notre fonds offre une exposition à la tech non cotée inédite en unité de compte »",
+   "link": "https://www.agefi.fr/patrimoine/actualites/adin-huseljic-et-augustin-palle-quadrille-capital-notre-fonds-offre-une-exposition-a-la-tech-non-cotee-inedite-en-unite-de-compte",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T07:00+00:00",
+   "summary": "La société de gestion a recruté chez Eurazeo son nouveau responsable des solutions dédiées aux clients privés. Avec un des associés, ce dernier évoque la stratégie de développement du fonds Quadrille Private Opportunities auprès de la distribution intermédiée.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "b236cd5ff12c75b5",
+   "title": "Silex réorganise son capital autour de son cofondateur Xavier Laborde et de ses salariés",
+   "link": "https://www.agefi.fr/asset-management/actualites/silex-reorganise-son-capital-autour-de-son-cofondateur-xavier-laborde-et-de-ses-salaries",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T06:30+00:00",
+   "summary": "Le groupe financier rachète, dans le cadre d’un MBO, les quelque 19 % encore détenus par son cofondateur Fabrice Rey. Son associé devient l’actionnaire majoritaire, tandis que les managers ayant renforcé leur participation apportent environ les deux tiers du montant de l’opération. Celle-ci valorise Silex entre 50 et 100 millions d’euros.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "7b25f34093ec1c6d",
+   "title": "From rotation to contagion",
+   "link": "https://www.ft.com/content/046984ab-9a7c-41fd-804c-fb356db28099?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T06:30+00:00",
+   "summary": "Plus, chips are not cheap",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "93da71d62192eb96",
+   "title": "La commission des sanctions requiert 4 millions d'euros d'amende contre LCL pour sa gestion sous mandat",
+   "link": "https://www.agefi.fr/asset-management/actualites/la-commission-des-sanctions-requiert-4-millions-deuros-damende-contre-lcl-pour-sa-gestion-sous-mandat",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T06:22+00:00",
+   "summary": "La banque française, filiale du Crédit Agricole, est passée vendredi devant la commission des sanctions de l'AMF.",
+   "themes": [
+    "regulation",
+    "banks",
+    "credit_sovereign"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 35
+  },
+  {
+   "id": "c06f0fb080b6568e",
+   "title": "Asian regulators rush to support sagging markets as AI trade falters",
+   "link": "https://www.ft.com/content/69459363-8299-4555-a39c-8980ee6c3590?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T06:07+00:00",
+   "summary": "Shares of region’s chipmakers and hardware suppliers especially vulnerable to turn in sentiment",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "1cd1438bb4588bc4",
+   "title": "Kevin Charleston (Loomis Sayles) : «La recherche indépendante et approfondie a fait notre réputation»",
+   "link": "https://www.agefi.fr/asset-management/people/kevin-charleston-loomis-sayles-la-recherche-independante-et-approfondie-a-fait-notre-reputation",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T06:02+00:00",
+   "summary": "A l'occasion des 100 ans de Loomis Sayles, Kevin Charleston, son directeur général, explique comment le gestionnaire américain, principal affilié de Natixis IM, intègre le crédit privé à ses portefeuilles obligataires, revient sur les opportunités de financement liées à l’intelligence artificielle et détaille le lancement d’ETF obligataires actifs avec sa maison-mère.",
+   "themes": [
+    "credit_sovereign",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 32
+  },
+  {
+   "id": "567b8ece5ad63296",
+   "title": "La recomposition du marché des télécoms pour les entreprises, l’autre enjeu du rachat de SFR",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/23/la-recomposition-du-marche-des-telecoms-pour-les-entreprises-l-autre-enjeu-du-rachat-de-sfr_6814355_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T06:00+00:00",
+   "summary": "En rachetant l’intégralité du pôle dévolu aux entreprises de l’opérateur de Patrick Drahi, Bouygues Telecom espère devenir le principal concurrent d’Orange, aujourd’hui dominant, tout en creusant l’écart avec Free. Mais cette nouvelle configuration pourrait susciter l’inquiétude de l’Autorité de la concurrence.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "ac9c5ccf84a8a4df",
+   "title": "DNB AM nomme un responsable commercial pour la Suède",
+   "link": "https://www.agefi.fr/asset-management/actualites/dnb-am-nomme-un-responsable-commercial-pour-la-suede",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T05:59+00:00",
+   "summary": "La société de gestion norvégienne DNB Asset Management a recruté Martin Almblad en tant que responsable des ventes pour la Suède.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "379f3e70ea819ffc",
+   "title": "Les fonds de pension de New York confient 16,2 % de leur gestion active à des gérants issus de la diversité",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/les-fonds-de-pension-de-new-york-confient-16-2-de-leur-gestion-active-a-des-gerants-issus-de-la-diversite",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T05:58+00:00",
+   "summary": "Le contrôleur financier de la ville, Mark Levine, maintient l’objectif de confier d’ici à 2029 un cinquième de la gestion active des fonds de pension new-yorkais à des sociétés détenues par des minorités ou des femmes, auxquelles 30,4 milliards de dollars sont déjà alloués.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "433391902267792e",
+   "title": "A la COP31, le climat se retrouve sacrifié sur l’autel des intérêts géopolitiques",
+   "link": "https://www.agefi.fr/asset-management/actualites/a-la-cop31-le-climat-se-retrouve-sacrifie-sur-lautel-des-interets-geopolitiques",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T05:56+00:00",
+   "summary": "La fin de la COP31 a pris des allures de synthèse de l'année 2026. Des négociations sur les énergies fossiles aux discussions sur le calendrier du GIEC, les rivalités géopolitiques fragilisent le multilatéralisme climatique.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "61a53139a6c81478",
+   "title": "Fabien Collado passe chez Fidelity International",
+   "link": "https://www.agefi.fr/asset-management/actualites/fabien-collado-passe-chez-fidelity-international",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T05:49+00:00",
+   "summary": "Fabien Collado a rejoint Fidelity International en ce mois de novembre 2026, annonce-t-il sur Linked-In. Il y devient gérant obligataire basé à Londres. Ces cinq dernières années, Fabien Collado était chez Insight Investment comme gérant de portefeuilles obligataires. Il a aussi travaillé onze ans chez Axa Investment Managers (absorbé depuis dans BNP Paribas Asset Management)",
+   "themes": [
+    "credit_sovereign",
+    "banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 32
+  },
+  {
+   "id": "d2223549b22ad3b6",
+   "title": "La responsable des marchés privés de London CIV rejoint Future Growth Capital",
+   "link": "https://www.agefi.fr/investisseurs-institutionnels/actualites/la-responsable-des-marches-prives-de-london-civ-rejoint-future-growth-capital",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T05:46+00:00",
+   "summary": "Cette nomination intervient dans le cadre de la création d’une nouvelle fonction au sein de la société indépendante spécialiste des marchés privés.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 20
+  },
+  {
+   "id": "54459bf75bdd901a",
+   "title": "RBC BlueBay AM décline sa stratégie quantitative actions en format Ucits",
+   "link": "https://www.agefi.fr/asset-management/actualites/rbc-bluebay-am-decline-sa-strategie-quantitative-actions-en-format-ucits",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T05:41+00:00",
+   "summary": "Le fonds canadien possède 2,9 milliards de dollars d’actifs sous gestion.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "58ddf59f1f12267c",
+   "title": "T. Rowe Price liquide son fonds sur le futur de la finance",
+   "link": "https://www.agefi.fr/asset-management/actualites/t-rowe-price-liquide-son-fonds-sur-le-futur-de-la-finance",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-23T05:39+00:00",
+   "summary": "Le gestionnaire d’actifs américain T. Rowe Price a liquidé, le 13 novembre, son fonds actions thématiques sur l’avenir de la finance, Future of Finance Equity Fund.",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "8d25250898f6f96d",
+   "title": "The Federal Reserve’s balance sheet yo-yo",
+   "link": "https://www.ft.com/content/be4b5919-1d5a-4706-a942-800ccf157601",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T05:30+00:00",
+   "summary": "Recent money market stress is likely to prompt the Fed to expand its balance sheet before action next year to shrink it",
+   "themes": [
+    "central_banks"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 40
+  },
+  {
+   "id": "0ceafa8bfc438aeb",
+   "title": "En Jamaïque, la population défend son accès aux plages",
+   "link": "https://www.lemonde.fr/m-le-mag/article/2026/11/23/en-jamaique-la-population-defend-son-acces-aux-plages_6814351_4500055.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:30+00:00",
+   "summary": "Habitants et associations de la très touristique île des Caraïbes saisissent de plus en plus la justice pour empêcher l’accaparement du littoral auquel les hôtels et les villas de luxe se livrent, avec le soutien de l’Etat.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "337ebf2a58185982",
+   "title": "Le Digital Fairness Act, un projet de règlement européen qui affole l’industrie du jeu vidéo",
+   "link": "https://www.lemonde.fr/pixels/article/2026/11/23/le-digital-fairness-act-un-projet-de-reglement-europeen-qui-affole-l-industrie-du-jeu-video_6814350_4408996.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:30+00:00",
+   "summary": "Avec ce texte à visée générale, la Commission européenne veut légiférer sur des pratiques jugées piégeuses pour les joueurs. Dans son viseur : les monnaies virtuelles, les « loot boxes » et les mécanismes de « pay-to-win » ou « pay-to-progress ».",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "266ce2354a717988",
+   "title": "« En s’imposant à la fois comme fournisseur et banquier, Nvidia a fini par créer une communauté d’intérêts autour d’un patron devenu incontournable »",
+   "link": "https://www.lemonde.fr/idees/article/2026/11/23/l-affaire-nvidia-montre-que-la-silicon-valley-aime-davantage-les-visionnaires-que-les-contre-pouvoirs_6814348_3232.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:25+00:00",
+   "summary": "Depuis son départ de la direction du leader des puces pour l’intelligence artificielle, Jensen Huang fait l’objet d’une spectaculaire mobilisation du secteur de la tech en sa faveur. Cette solidarité est révélatrice d’un écosystème endogame, constate Stéphane Lauer, éditorialiste au « Monde », dans sa chronique.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "bddb04bea67ec27f",
+   "title": "What happens when bubbles burst",
+   "link": "https://www.ft.com/content/aa71d6bc-bbca-4e95-81b1-20895ac0cb59?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "AI enthusiasm has turned into major investor concern that a market might be heading for a fall",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "51136259feb12921",
+   "title": "Pension fund managers complain they were fired for shunning tech stocks",
+   "link": "https://www.ft.com/content/047a6fec-f0da-41e1-94f6-f7698e4c8cb0?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Financial Conduct Authority to remind pension trustees not to focus solely on returns",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
+  },
+  {
+   "id": "849bfd7962adf453",
+   "title": "Boost for £1bn Acorn carbon capture scheme as new developer buys stake",
+   "link": "https://www.ft.com/content/a216892d-190c-41dd-8473-03643a8c5350?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Carbon storage company EnEarth acquires interest in flagship North Sea project seen as key to UK decarbonisation plans",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "ec12a7c8dbed9c4d",
+   "title": "Why private capital is betting big on mix-and-match deals",
+   "link": "https://www.ft.com/content/78b01bf4-3550-41cb-ac52-2f3426b58232?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "With the traditional buyout business stuck in the doldrums, firms are using hybrid capital to seal transactions and raise funds",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "fd67cbc21dd4bc05",
+   "title": "China is winning the car war",
+   "link": "https://www.ft.com/content/d279b04d-1fb7-49c7-a191-d34cf6467681?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Western carmakers have been routed from China as EVs go mainstream. Now they are battling to avoid a similar fate at home",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "e97dd6917f3cc53b",
+   "title": "Clément Pouré, finaliste du prix Penser le travail 2026 : « Les outils de surveillance au travail sont construits pour enlever du pouvoir aux travailleurs »",
+   "link": "https://www.lemonde.fr/vie-au-travail/article/2026/11/23/clement-poure-finaliste-du-prix-penser-le-travail-2026-les-outils-de-surveillance-au-travail-sont-construits-pour-enlever-du-pouvoir-aux-travailleurs_6814345_6768900.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Dans un entretien au « Monde », le journaliste Clément Pouré, auteur de « Les Nouveaux contremaîtres », décrit la montée en puissance des outils de surveillance et de mesure du travail dans de nombreux secteurs d’activité.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "517ae041e6fa84fa",
+   "title": "Maud Simonet, finaliste du prix Penser le travail 2026 : « Les Jeux olympiques de Paris 2024 ont permis d’institutionnaliser le travail gratuit »",
+   "link": "https://www.lemonde.fr/vie-au-travail/article/2026/11/23/maud-simonet-finaliste-du-prix-penser-le-travail-2026-les-jeux-olympiques-de-paris-2024-ont-permis-d-institutionnaliser-le-travail-gratuit_6814343_6768900.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Dans un entretien au « Monde », la sociologue du travail Maud Simonet, autrice de « (In)volontaires aux Jo », revient sur la mobilisation et les missions confiées aux 45 000 bénévoles mobilisés lors des Jeux de Paris 2024. Elle explore le caractère politique des frontières entre travail et bénévolat.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "1c0abc584a677713",
+   "title": "Pour Emmanuel Macron, un Choose France 100 % tricolore sur fond de morosité pour les entreprises françaises",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/23/pour-emmanuel-macron-un-choose-france-100-tricolore-sur-fond-de-morosite-des-entreprises-francaises_6814341_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Le chef de l’Etat tient, lundi 23 novembre, un sommet destiné à mettre en avant 42,5 milliards d’euros d’investissement en France émanant des entreprises hexagonales. Derrière les montants affichés se cache une dynamique inquiétante.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "639589a9e34e6b5f",
+   "title": "Cryptomonnaies : comment faire le tri parmi 66 millions d’actifs possibles",
+   "link": "https://www.lemonde.fr/argent/article/2026/11/23/cryptomonnaies-comment-faire-le-tri-parmi-66-millions-d-actifs-possibles_6814342_1657007.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Malgré les dizaines de millions de jetons numériques existant, seule une poignée d’entre eux domine le marché.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "8ebba764c2f40c0c",
+   "title": "En Guadeloupe, la défaillance de la Sécurité sociale met en difficulté de nombreux bénéficiaires",
+   "link": "https://www.lemonde.fr/politique/article/2026/11/23/en-guadeloupe-la-defaillance-de-la-securite-sociale-met-en-difficulte-de-nombreux-beneficiaires_6814340_823448.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T05:00+00:00",
+   "summary": "Dossiers de retraite en retard, arrêts maladie non indemnisés… La Cour des comptes a publié un rapport alarmant, le 10 novembre, sur la Caisse de sécurité sociale de la Guadeloupe, pointant de nombreux dysfonctionnements qui entravent la bonne marche du service rendu aux usagers.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "9601d2da744961a8",
+   "title": "Voiture : 7 millions de personnes en France prises en étau entre nécessité et coût, pointe une étude",
+   "link": "https://www.lemonde.fr/economie/article/2026/11/23/voiture-sept-millions-de-personnes-en-france-prises-en-etau-entre-necessite-et-cout-pointe-une-etude_6814273_3234.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-23T03:10+00:00",
+   "summary": "Alors que les dépenses de carburant restent élevées, la voiture représente 13 % du budget des ménages disposant de 1 000 à 2 000 euros par mois, contre 3,5 % pour ceux dont les revenus dépassent 5 000 euros, selon une étude publiée lundi par l’Institut Terram.",
+   "themes": [
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 20
+  },
+  {
+   "id": "13e9533680fb012e",
+   "title": "Emmanuel Macron envisage de réunir le Congrès à Versailles pour faire adopter une « règle d’or » budgétaire, une procédure inédite à plus d’un titre",
+   "link": "https://www.lemonde.fr/politique/article/2026/11/22/emmanuel-macron-envisage-de-reunir-le-congres-a-versailles-pour-faire-adopter-une-regle-d-or-budgetaire-une-procedure-inedite-a-plus-d-un-titre_6814241_823448.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-22T18:53+00:00",
+   "summary": "Devant le dérapage des finances publiques et de l’endettement, le chef de l’Etat évoque l’idée d’une mesure contraignante dans la Constitution. Le Rassemblement national, favorable au principe, devrait jouer les arbitres sur les modalités.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "5b763e7ce22362ba",
+   "title": "Choose France : 273 projets industriels seront présentés lors de ce sommet dévolu aux entreprises tricolores",
+   "link": "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-22T18:42+00:00",
+   "summary": "Cette édition, réservée aux entreprises françaises qui investissent dans le pays, décompte 14,9 milliards d’euros d’investissements nouveaux, soit 81 projets inédits, notamment dans les secteurs de la santé, de la cosmétique, ou des biocarburants.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "c1333f3c25bc7349",
+   "title": "Spain’s likely rightward shift",
+   "link": "https://www.ft.com/content/e1e08be8-da07-44c3-abe6-9873991ee91a?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-22T18:15+00:00",
+   "summary": "Spanish head to the polls, US markets close for Thanksgiving, London gets a new museum",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "293089be85591a3d",
+   "title": "La COP31 échoue à trouver un accord politique sur le climat",
+   "link": "https://www.agefi.fr/news/economie-marches/la-cop31-echoue-a-trouver-un-accord-politique-sur-le-climat",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-22T18:02+00:00",
+   "summary": "Les participants du sommet sur le climat organisé en Turquie n'ont finalement pas réussi à se mettre d'accord sur le texte présenté jeudi 19 novembre qui, selon l'Union européenne, constituait un retour en arrière.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "ce539d19d0891e5a",
+   "title": "En Martinique, tous les chemins mènent au rhum",
+   "link": "https://www.lemonde.fr/m-styles/article/2026/11/22/en-martinique-tous-les-chemins-menent-au-rhum_6814232_4497319.html",
+   "source": "Le Monde – Économie",
+   "sources": [
+    "Le Monde – Économie"
+   ],
+   "published": "2026-11-22T17:00+00:00",
+   "summary": "En obtenant son appellation d’origine contrôlée il y a trente ans, le rhum produit sur l’île antillaise a fait du passage dans les distilleries une étape incontournable pour les touristes. Un engouement qui profite à tous les établissements, des plus connus aux plus confidentiels.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "37ebe1ed4d6f3d39",
+   "title": "COP31 climate talks fail after stand-off over fossil fuels",
+   "link": "https://www.ft.com/content/1b6089f6-2201-43b4-8ed4-0c689a916afa?syn-25a6b1a6=1",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-22T13:50+00:00",
+   "summary": "Geopolitical divides laid bare in fracture between Arab group and EU-led coalition",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "445f7806cb33edb0",
+   "title": "Sommet UE-UK, le retour de la libre circulation sélective",
+   "link": "https://www.agefi.fr/news/economie-marches/sommet-ue-uk-le-retour-de-la-libre-circulation-selective",
+   "source": "L'Agefi",
+   "sources": [
+    "L'Agefi"
+   ],
+   "published": "2026-11-22T13:00+00:00",
+   "summary": "Un nouveau partenariat stratégique entre l'Union européenne et le Royaume-Uni prend forme à la suite de cette deuxième rencontre bipartite. Les principales avancées concernent les échanges de jeunes, la circulation des produits alimentaires et la lutte contre l’immigration illégale.",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
+  {
+   "id": "6d2717982e94b821",
+   "title": "Xi needs Trump more than ever",
+   "link": "https://www.ft.com/content/4dbdecf6-396d-4629-8600-8a55034a9827",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-22T13:00+00:00",
+   "summary": "The Shenzhen summit shows the high stakes for Beijing as many in Washington call for tougher measures",
+   "themes": [],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 5
+  },
   {
    "id": "b41644892f8b8527",
    "title": "Un administrateur de Galaxy Digital Inc acquiert des actions pour 200.850$",
@@ -99,7 +1395,8 @@
    "link": "https://www.ft.com/content/c269cf3e-2275-4244-9a86-f412c8521b4f?syn-25a6b1a6=1",
    "source": "Financial Times – Global economy",
    "sources": [
-    "Financial Times – Global economy"
+    "Financial Times – Global economy",
+    "Financial Times – Markets"
    ],
    "published": "2026-11-22T12:00+00:00",
    "summary": "America’s biggest crude oil export hub reports thousands of attempted hacks each day as shipping companies battle breaches",
@@ -108,7 +1405,7 @@
    ],
    "official": false,
    "first_seen": "2026-11-22T12:45+00:00",
-   "score": 20
+   "score": 35
   },
   {
    "id": "2480e7e6ec8947cf",
@@ -116,7 +1413,8 @@
    "link": "https://www.ft.com/content/1dc8290b-8100-434d-963c-79002c15f244?syn-25a6b1a6=1",
    "source": "Financial Times – Global economy",
    "sources": [
-    "Financial Times – Global economy"
+    "Financial Times – Global economy",
+    "Financial Times – Markets"
    ],
    "published": "2026-11-22T12:00+00:00",
    "summary": "Market Questions is the FT’s guide to the week ahead",
@@ -125,7 +1423,7 @@
    ],
    "official": false,
    "first_seen": "2026-11-22T12:45+00:00",
-   "score": 15
+   "score": 30
   },
   {
    "id": "70cf5b8a36c2be11",
@@ -171,6 +1469,23 @@
    "official": false,
    "first_seen": "2026-11-22T12:45+00:00",
    "score": 5
+  },
+  {
+   "id": "52faf128e39e2f34",
+   "title": "Nscale slows hiring and curtails spending ahead of planned $35bn IPO",
+   "link": "https://www.ft.com/content/98f5aa90-5581-45ed-8e9b-d72217c56df8?syn-25a6b1a6=1",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-22T11:32+00:00",
+   "summary": "UK data centre operator pauses hiring for all but critical roles",
+   "themes": [
+    "equities"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 15
   },
   {
    "id": "3f9affdb1898a953",
@@ -233,6 +1548,24 @@
    "official": false,
    "first_seen": "2026-11-22T12:45+00:00",
    "score": 20
+  },
+  {
+   "id": "fecd4f01291bc9ee",
+   "title": "Did Anthropic and its bankers get a key call wrong after IPO?",
+   "link": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
+   "source": "Financial Times – Markets",
+   "sources": [
+    "Financial Times – Markets"
+   ],
+   "published": "2026-11-22T11:00+00:00",
+   "summary": "Share price weakness raises questions about hasty exercise of ‘greenshoe’ option to issue more stock",
+   "themes": [
+    "equities",
+    "vol_derivatives"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 47
   },
   {
    "id": "306e56bdf90e6619",
@@ -2262,6 +3595,24 @@
    "official": false,
    "first_seen": "2026-11-20T13:20+00:00",
    "score": 20
+  },
+  {
+   "id": "15ae978f1845e0e7",
+   "title": "October inflation data keeps BoJ on course for further tightening",
+   "link": "https://www.ft.com/content/c95feb1a-f197-4942-bba8-672087f6be74",
+   "source": "Financial Times – Global economy",
+   "sources": [
+    "Financial Times – Global economy"
+   ],
+   "published": "2026-11-20T08:37+00:00",
+   "summary": "Headline price pressures accelerated as government fuel and energy subsidies were phased out",
+   "themes": [
+    "central_banks",
+    "macro_inflation"
+   ],
+   "official": false,
+   "first_seen": "2026-11-23T14:54+00:00",
+   "score": 50
   },
   {
    "id": "5a2f925a88ecedd9",
@@ -18136,6 +19487,7 @@
    "link": "https://www.marketwatch.com/story/until-sentiment-in-the-ai-trade-improves-citi-tells-investors-its-better-to-sit-out-the-global-tech-trade-ed939f30?mod=mw_rss_topstories",
    "source": "MarketWatch",
    "sources": [
+    "Financial Times – Markets",
     "MarketWatch"
    ],
    "published": "2026-11-09T11:25+00:00",
@@ -18143,7 +19495,7 @@
    "themes": [],
    "official": false,
    "first_seen": "2026-11-09T13:02+00:00",
-   "score": 5
+   "score": 20
   },
   {
    "id": "8d4fe0ab40fefa41",
@@ -38500,2280 +39852,6 @@
    "themes": [],
    "official": false,
    "first_seen": "2026-10-25T09:21+00:00",
-   "score": 5
-  },
-  {
-   "id": "51cbb8246ef97e4c",
-   "title": "« La discipline budgétaire et l’ambition productive ne peuvent pas être concurrentes, la France a besoin des deux »",
-   "link": "https://www.lemonde.fr/idees/article/2026/10/24/la-discipline-budgetaire-et-l-ambition-productive-ne-peuvent-pas-etre-concurrentes-la-france-a-besoin-des-deux_6799700_3232.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-24T12:00+00:00",
-   "summary": "Ce n’est pas seulement le niveau de la dépense qui détermine la croissance, mais sa destination, estiment Mathias Girard, directeur des affaires publiques de France Chimie, et Olivier Redoulès, directeur des études de Rexecode, dans une tribune au « Monde ».",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-25T09:21+00:00",
-   "score": 20
-  },
-  {
-   "id": "51e4c740bab4d2d9",
-   "title": "En images. Manifestations du 24 octobre : un dispositif policier important, des premiers rassemblements assez calmes",
-   "link": "https://www.lemonde.fr/flux-video-immersif/video/2026/10/24/en-images-manifestations-du-24-octobre-un-dispositif-policier-important-des-premiers-rassemblements-assez-calmes_6799697_6717263.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-24T11:45+00:00",
-   "summary": "« Gilets jaunes », syndicats, lycéens et étudiants doivent défiler, ce samedi, lors d’une nouvelle journée de mobilisation dans un contexte de très forte tension, à la suite de l’interdiction de nombreux cortèges, et sous très haute sécurité.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-25T09:21+00:00",
-   "score": 5
-  },
-  {
-   "id": "ba04bcc513277bfc",
-   "title": "«Notre crainte est que le marché du crédit reste volatil»",
-   "link": "https://www.agefi.fr/news/economie-marches/notre-crainte-est-que-le-marche-du-credit-reste-volatil",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-24T11:00+00:00",
-   "summary": "Benoist Grasset, gérant high yield chez Generali Investments",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-25T09:21+00:00",
-   "score": 25
-  },
-  {
-   "id": "0653e922640dbff4",
-   "title": "«Les marchés ne semblent pas croire à une appréciation durable du yen»",
-   "link": "https://www.agefi.fr/news/economie-marches/les-marches-ne-semblent-pas-croire-a-une-appreciation-durable-du-yen",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-24T10:53+00:00",
-   "summary": "Christopher Dembik, conseiller en stratégie d'investissement chez Pictet AM.",
-   "themes": [
-    "fx_commodities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-25T09:21+00:00",
-   "score": 20
-  },
-  {
-   "id": "6b3961efdeae9688",
-   "title": "French government and corporate bond yields are converging",
-   "link": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-24T09:30+00:00",
-   "summary": "Some companies’ bonds now yield less than government bonds",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-25T09:21+00:00",
-   "score": 25
-  },
-  {
-   "id": "1019e5093206a264",
-   "title": "Prix des carburants : un décret en vue de la libération de stocks stratégiques de gazole publié au « Journal officiel »",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/24/prix-des-carburants-un-decret-en-vue-de-la-liberation-de-stocks-strategiques-de-gazole-publie-au-journal-officiel_6799684_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-24T09:20+00:00",
-   "summary": "Les distributeurs auront l’obligation de répercuter intégralement la baisse de prix. Cette répercussion peut avoir lieu par anticipation à compter du 1ᵉʳ novembre, selon le décret. Le gouvernement espère une baisse de 12 à 18 centimes par litre de gazole.",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-25T09:21+00:00",
-   "score": 15
-  },
-  {
-   "id": "513d4433103ebd17",
-   "title": "Neuf ans après l’incendie dramatique de la tour Grenfell, à Londres, la très lente mise aux normes des immeubles britanniques",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/24/neuf-ans-apres-l-incendie-dramatique-de-la-tour-grenfell-a-londres-la-tres-lente-mise-aux-normes-des-immeubles-britanniques_6799682_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-24T09:00+00:00",
-   "summary": "Moins de 40 % des immeubles britanniques recouverts d’un dangereux revêtement inflammable ont été assainis depuis le drame qui a causé la mort de 72 personnes en 2017. Le gouvernement a déposé un projet de loi pour accélérer les rénovations et soulager les habitants concernés.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-25T09:21+00:00",
-   "score": 5
-  },
-  {
-   "id": "759af84a5ac95942",
-   "title": "Compass Therapeutics publie les résultats de l’essai tovecimig dans le JCO",
-   "link": "https://fr.investing.com/news/company-news/compass-therapeutics-publie-les-resultats-de-lessai-tovecimig-dans-le-jco-93CH-3651777",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T08:21+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "11a7a25ad8778da3",
-   "title": "Le directeur juridique de GlobalFoundries, Samak Azar, cède des actions pour 15.497$",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-juridique-de-globalfoundries-samak-azar-cede-des-actions-pour-15497-93CH-3651776",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T08:16+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "3a097acd82cdf585",
-   "title": "Les actions suisses surperforment l’Europe face au recul de l’IA",
-   "link": "https://fr.investing.com/news/stock-market-news/les-actions-suisses-surperforment-leurope-face-au-recul-de-lia-3651774",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T08:07+00:00",
-   "summary": "",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 15
-  },
-  {
-   "id": "234694c33880d3ff",
-   "title": "Le directeur des risques de Slide Insurance vend des actions pour 307.182$",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-des-risques-de-slide-insurance-vend-des-actions-pour-307182-93CH-3651772",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T08:02+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "fa301c0795a167c1",
-   "title": "Le directeur de US Innovation Foundation cède 1,6M$ d’actions Linkhome",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-de-us-innovation-foundation-cede-16m-dactions-linkhome-93CH-3651771",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T08:01+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "546f777e3b67d312",
-   "title": "Le PDG d’Asana Daniel Rogers cède 226.596$ d’actions ASAN",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-pdg-dasana-daniel-rogers-cede-226596-dactions-asan-93CH-3651770",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T07:47+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "bfd6916dbebbaab5",
-   "title": "Le Royaume-Uni va injecter 20,4 milliards £ dans deux prêteurs publics",
-   "link": "https://fr.investing.com/news/economy-news/le-royaumeuni-va-injecter-204-milliards--dans-des-preteurs-publics-3651768",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T07:34+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "19ec1bc99e80d3d7",
-   "title": "La directrice des opérations de Winmark vend des actions pour 531.519$",
-   "link": "https://fr.investing.com/news/insider-trading-news/la-directrice-des-operations-de-winmark-vend-des-actions-pour-531519-93CH-3651767",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T07:32+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "e8fcd49d5406da31",
-   "title": "Martine Rothblatt, PDG d’United Therapeutics, cède des actions pour 5,54M$",
-   "link": "https://fr.investing.com/news/insider-trading-news/martine-rothblatt-pdg-dunited-therapeutics-cede-des-actions-pour-554m-93CH-3651766",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T07:17+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "1f7a0a4291f359ca",
-   "title": "Le directeur de Robinhood, Baiju Bhatt, cède des actions HOOD pour 5,16M$",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-de-robinhood-baiju-bhatt-cede-des-actions-hood-pour-516m-93CH-3651765",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T07:02+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "59af600625f375c3",
-   "title": "« La prudence des investisseurs sur les actifs français peut durer jusqu’au printemps »",
-   "link": "https://www.agefi.fr/news/economie-marches/la-prudence-des-investisseurs-sur-les-actifs-francais-peut-durer-jusquau-printemps",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-24T07:00+00:00",
-   "summary": "Julien-Pierre Nouen, directeur des études économiques et de la gestion diversifiée, Lazard Frères Gestion.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T08:37+00:00",
-   "score": 5
-  },
-  {
-   "id": "ceeef592fabc5409",
-   "title": "La raffinerie nigériane de Dangote entre en Bourse, portée par l’envolée des prix des carburants",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/24/la-raffinerie-nigeriane-de-dangote-entre-en-bourse-portee-par-l-envolee-des-prix-des-carburants_6799662_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-24T06:00+00:00",
-   "summary": "Une sursouscription est anticipée pour cette opération qui se termine mardi 27 octobre. La mégaraffinerie de Lagos affiche des bénéfices en forte hausse, dans un contexte géopolitique et économique porteur.",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 15
-  },
-  {
-   "id": "72cdc4015b0a94c3",
-   "title": "HPE : un dirigeant cède des actions pour près de 2 millions de dollars",
-   "link": "https://fr.investing.com/news/insider-trading-news/hpe--un-dirigeant-cede-des-actions-pour-pres-de-2-millions-de-dollars-93CH-3651754",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T05:47+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "3e79a8d9bf275bbc",
-   "title": "Le directeur financier d’Allogene Therapeutics vend des actions pour 48.698$",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-dallogene-therapeutics-vend-des-actions-pour-48698-93CH-3651753",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T05:47+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "0f568977c89bf13d",
-   "title": "Le PDG d’Athena Gold, Koby Kushner, achète des actions pour 3.534$",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-pdg-dathena-gold-koby-kushner-achete-des-actions-pour-3534-93CH-3651750",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T05:16+00:00",
-   "summary": "",
-   "themes": [
-    "fx_commodities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 20
-  },
-  {
-   "id": "dd8360a8c1919e48",
-   "title": "Le Bitcoin vise 84.000$ portée par les baleines et les institutionnels",
-   "link": "https://fr.investing.com/news/cryptocurrency-news/le-bitcoin-vise-84000-alors-que-les-baleines-retirent-leurs-fonds-3651751",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T05:15+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "e21bda044710dae7",
-   "title": "Le directeur financier de Circle Internet Group cède des actions pour 1,35M$",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-de-circle-internet-group-cede-des-actions-pour-135m-93CH-3651749",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T05:03+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "01a1fecc2fa01927",
-   "title": "La PDG de Veralto vend des actions pour 745.290$",
-   "link": "https://fr.investing.com/news/insider-trading-news/la-pdg-de-veralto-vend-des-actions-pour-745290-93CH-3651748",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T05:03+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "354e5f687a5981e2",
-   "title": "Le directeur financier de Yelp vend des actions pour 150.000$",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-directeur-financier-de-yelp-vend-des-actions-pour-150000-93CH-3651747",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T05:02+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "84b09e06d4c6c589",
-   "title": "A little bit of luck is lifting UK Budget expectations",
-   "link": "https://www.ft.com/content/6a059ab0-a9fc-4e4c-8ae7-1d110faf5adf",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-24T04:00+00:00",
-   "summary": "Healey is poised to deliver his plans just as this year’s drag on global bonds appears to be turning",
-   "themes": [
-    "macro_inflation",
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 35
-  },
-  {
-   "id": "a6479351b7de337e",
-   "title": "‘Disrupter’ exchanges battle for ETFs in challenge to NYSE and Nasdaq",
-   "link": "https://www.ft.com/content/8dd8e115-c45e-4b66-8390-b5eeea4671d5?syn-25a6b1a6=1",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-24T04:00+00:00",
-   "summary": "Cboe captures nearly half of US listings as intensifying competition reflects rapid growth in derivative-heavy funds",
-   "themes": [
-    "vol_derivatives",
-    "equities",
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 50
-  },
-  {
-   "id": "45e74611b3c4dca4",
-   "title": "« Le fléchage de l’épargne réglementée offre une piste, modeste mais réelle, pour financer les investissements dont la société a besoin »",
-   "link": "https://www.lemonde.fr/idees/article/2026/10/24/le-flechage-de-l-epargne-reglementee-offre-une-piste-modeste-mais-reelle-pour-financer-les-investissements-dont-la-societe-a-besoin_6799554_3232.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-24T04:00+00:00",
-   "summary": "Face à l’inertie de la BCE, la France doit trouver les moyens d’orienter certains placements pour soutenir l’investissement dans la transition écologique et les services publics, plaide l’économiste Jézabel Couppey-Soubeyran dans sa chronique.",
-   "themes": [
-    "central_banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 40
-  },
-  {
-   "id": "363a6f4a976f811f",
-   "title": "Puis-je renoncer à une succession ?",
-   "link": "https://www.lemonde.fr/argent/article/2026/10/24/puis-je-renoncer-a-une-succession_6799552_1657007.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-24T04:00+00:00",
-   "summary": "Une succession déficitaire n’est pas le seul cas dans lequel la renonciation présente un intérêt, indique Marie-Laure Decobert, ingénieure patrimoniale à Swiss Life Banque privée.",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 15
-  },
-  {
-   "id": "7a746fa27c91fc79",
-   "title": "L’Arabie Saoudite intercepte un missile houthi alors que Trump menace",
-   "link": "https://fr.investing.com/news/economy-news/larabie-saoudite-intercepte-un-missile-houthi-alors-que-trump-menace-3651744",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T03:52+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "0d216d9521e6eb6c",
-   "title": "La capacité cloud d’AWS d’Amazon est quasi épuisée jusqu’en 2027",
-   "link": "https://fr.investing.com/news/company-news/la-capacite-cloud-daws-damazon-est-quasi-epuisee-jusquen-2027-3651741",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T02:29+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "86b1f39a12c0c888",
-   "title": "La production du Boeing 777 cargo suspendue deux mois suite à un litige fournisseur",
-   "link": "https://fr.investing.com/news/company-news/la-production-du-boeing-777-cargo-suspendue-deux-mois-suite-a-un-litige-fournisseur-3651739",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-24T01:57+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "8dc0844d9b2e7991",
-   "title": "US executives quit $25bn gas venture over claims of secret Russian control",
-   "link": "https://www.ft.com/content/e9cfbfbb-e65a-4303-aebb-20d59319ef1b?syn-25a6b1a6=1",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Global economy",
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-24T00:22+00:00",
-   "summary": "Former CEO of Polar Train LNG tells FT that energy giant Novatek financed and held reins of strategic Alaska project without Washington’s approval",
-   "themes": [
-    "fx_commodities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 35
-  },
-  {
-   "id": "2c6f208467e49ddf",
-   "title": "L’agence Moody’s ne dégrade pas la note de la France malgré l’incertitude budgétaire et politique",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/24/l-agence-moody-s-ne-degrade-pas-la-note-de-la-france-malgre-l-incertitude-budgetaire-et-politique_6799214_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T22:52+00:00",
-   "summary": "Contrairement aux prévisions de beaucoup d’économistes, l’entreprise américaine de notation a maintenu, vendredi, la note de la dette souveraine à Aa3, se démarquant de l’appréciation portée par les agences S&P et Fitch sur la solvabilité française.",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 25
-  },
-  {
-   "id": "523cd8ab07d88516",
-   "title": "Trump to cut Canadian tariffs after pressure from Republicans",
-   "link": "https://www.ft.com/content/d3d12f54-fcf0-400c-96f1-484aea980be5?syn-25a6b1a6=1",
-   "source": "Financial Times – Global economy",
-   "sources": [
-    "Financial Times – Global economy"
-   ],
-   "published": "2026-10-23T22:29+00:00",
-   "summary": "President to ease some levies to help candidates facing tough US Senate election battles",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 20
-  },
-  {
-   "id": "c447556316f3a660",
-   "title": "France avoids downgrade from Moody’s in boost for Macron’s government",
-   "link": "https://www.ft.com/content/840f9c94-cb41-4340-9fc4-41e76d908831?syn-25a6b1a6=1",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-23T22:28+00:00",
-   "summary": "Rating agency retains Aa3 score as it assumes ‘deficit-reducing budget for 2027 will be adopted’",
-   "themes": [
-    "credit_sovereign",
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 35
-  },
-  {
-   "id": "a4e91d7cb178d0c9",
-   "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-   "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T22:00+00:00",
-   "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 15
-  },
-  {
-   "id": "58a0205a35cce405",
-   "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
-   "link": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T21:46+00:00",
-   "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 15
-  },
-  {
-   "id": "87fd2558b4b6957e",
-   "title": "Moody's épargne la France en maintenant sa note inchangée",
-   "link": "https://www.agefi.fr/news/economie-marches/moodys-epargne-la-france-en-maintenant-sa-note-inchangee",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T21:38+00:00",
-   "summary": "Alors que beaucoup pronostiquaient une dégradation de la note de la France par Moody's, l'agence de notation l'a laissée inchangée, anticipant une réduction du déficit en 2027.",
-   "themes": [
-    "credit_sovereign",
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 35
-  },
-  {
-   "id": "4068d5eaeee39b91",
-   "title": "L’agence Moody’s maintient la note souveraine de la France à Aa3, mais y assortit une perspective négative",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/23/l-agence-moody-s-maintient-la-note-souveraine-de-la-france-a-aa3-mais-y-assortit-une-perspective-negative_6799147_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "L'Agefi",
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T21:22+00:00",
-   "summary": "Cette décision « déjoue les pronostics déclinistes de nombreux “experts” et de ceux qui spéculent sur la dette française », a salué le premier ministre, Sébastien Lecornu.",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 40
-  },
-  {
-   "id": "1dadde584896573d",
-   "title": "The real test for Moderna’s cancer vaccine isn’t about beating Keytruda. It’s keeping cancer from coming back in the long term.",
-   "link": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T21:06+00:00",
-   "summary": "The first Phase 3 data for a cancer vaccine has raised questions about whether the potential new treatment is needed.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "a1e825d710f25acc",
-   "title": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
-   "link": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T20:50+00:00",
-   "summary": "As she faces a tough midterm race, the five-term GOP senator is touting her successful lobbying effort against certain tariffs on Canada",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 20
-  },
-  {
-   "id": "7cf7738543d31e19",
-   "title": "The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?",
-   "link": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T20:19+00:00",
-   "summary": "A once-in-a-generation investment boom has created lots of winners — but many Americans are feeling left out.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 5
-  },
-  {
-   "id": "8416e9aa1929bf67",
-   "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
-   "link": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T20:19+00:00",
-   "summary": "Oil has climbed back to an Iran-war high and may soon go higher, if the U.S. and Israel strike Iran after their respective voters go to the polls in the coming days.",
-   "themes": [
-    "fx_commodities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 20
-  },
-  {
-   "id": "612de26aaba861d7",
-   "title": "I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?",
-   "link": "https://www.marketwatch.com/story/i-want-to-pay-off-4-500-in-credit-card-debt-in-2-months-is-this-possible-059d9a21?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T20:02+00:00",
-   "summary": "“I’m 32 years old and feel like I should know how to do this stuff by now.”",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 25
-  },
-  {
-   "id": "b4bc657d9a000f7c",
-   "title": "Lunch break under threat as Hong Kong looks at longer trading day",
-   "link": "https://www.ft.com/content/bc13b5f1-387e-4fae-927e-d96ac24ea645?syn-25a6b1a6=1",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-23T20:00+00:00",
-   "summary": "HKEX discusses scrapping ‘antiquated practice’ as Nasdaq plans move to 23 hours",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-24T06:16+00:00",
-   "score": 15
-  },
-  {
-   "id": "9bad83d949dd821e",
-   "title": "Le sefaxersen de Roche réduit la protéinurie de 43% dans un essai IgAN",
-   "link": "https://fr.investing.com/news/company-news/le-sefaxersen-de-roche-reduit-la-proteinurie-de-43-dans-un-essai-igan-93CH-3651553",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T17:41+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "f3c2bba78f63e797",
-   "title": "Macy’s déclare un dividende trimestriel de 0,1915 $ par action",
-   "link": "https://fr.investing.com/news/company-news/macys-declare-un-dividende-trimestriel-de-01915--par-action-93CH-3651550",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T17:37+00:00",
-   "summary": "",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 15
-  },
-  {
-   "id": "2540e3f326fcdf97",
-   "title": "Raymond James réitère son avis Achat Fort sur Alnylam après des données d’essai positives",
-   "link": "https://fr.investing.com/news/analyst-ratings/raymond-james-reitere-son-avis-achat-fort-sur-alnylam-apres-des-donnees-dessai-positives-93CH-3651546",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T17:30+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "d91dac3b86204834",
-   "title": "Jana Small Finance Bank enregistre un bénéfice record au T2 FY27",
-   "link": "https://fr.investing.com/news/transcripts/jana-small-finance-bank-enregistre-un-benefice-record-au-t2-fy27-93CH-3651545",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T17:13+00:00",
-   "summary": "",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 15
-  },
-  {
-   "id": "c381e5206255b73d",
-   "title": "Goldman Sachs prévoit un recul des actions américaines après les résultats technologiques",
-   "link": "https://fr.investing.com/news/stock-market-news/goldman-sachs-prevoit-un-recul-des-actions-americaines-apres-les-resultats-technologiques-93CH-3651543",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T17:12+00:00",
-   "summary": "",
-   "themes": [
-    "banks",
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 22
-  },
-  {
-   "id": "7775745ef8cef480",
-   "title": "Transcription de l’appel sur les résultats : la hausse des commandes de GTT au T3 2026 fait grimper l’action de 3,3%",
-   "link": "https://fr.investing.com/news/transcripts/transcription-de-lappel-sur-les-resultats--la-hausse-des-commandes-de-gtt-au-t3-2026-fait-grimper-laction-de-33-93CH-3651541",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T17:08+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "6dcd2f29aab4e3b7",
-   "title": "Le PDG d’AIM ImmunoTech achète pour 5.093$ d’actions ordinaires",
-   "link": "https://fr.investing.com/news/insider-trading-news/le-pdg-daim-immunotech-achete-pour-5093-dactions-ordinaires-93CH-3651538",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T17:01+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "ad4729f0032ccad4",
-   "title": "The ledger problem",
-   "link": "https://www.ft.com/content/e3bd8426-defb-41d0-8680-81ce72948e83",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-23T17:00+00:00",
-   "summary": "Tokenisation doesn’t suspend the laws of finance",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "03d896cc77256811",
-   "title": "Stockpickers: Aberdeen, ITM Power, Tristel",
-   "link": "https://www.ft.com/content/2aeaf5c1-1fc2-45ae-a6dd-0634384ae9d7",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-23T17:00+00:00",
-   "summary": "Our experts discuss which companies to buy, sell or hold this week",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "a8be9d22dcfcf528",
-   "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-   "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T17:00+00:00",
-   "summary": "”I earn $110,000 a year.”",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 20
-  },
-  {
-   "id": "4078f6a2b9b239e0",
-   "title": "OptionMetrics identifie des opportunités cachées : blé et soja surpassent le cuivre",
-   "link": "https://fr.investing.com/news/commodities-news/optionmetrics-identifie-des-opportunites-cachees--ble-et-soja-surpassent-le-cuivre-3651537",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T16:56+00:00",
-   "summary": "",
-   "themes": [
-    "fx_commodities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 20
-  },
-  {
-   "id": "b2fabeb9ae05776b",
-   "title": "Walmart, Best Buy and other stores now use digital price tags. Critics say they could lead to different prices for different shoppers.",
-   "link": "https://www.marketwatch.com/story/walmart-best-buy-and-other-stores-now-use-digital-price-tags-critics-say-they-could-lead-to-different-prices-for-different-shoppers-19e2f4da?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T16:41+00:00",
-   "summary": "Store aisles are getting a digital makeover.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "2ef82dd3b2d976e2",
-   "title": "Budget de la « Sécu » : les députés sabordent le projet de loi à l’Assemblée nationale",
-   "link": "https://www.lemonde.fr/politique/article/2026/10/23/budget-de-la-secu-les-deputes-sabordent-le-projet-de-loi-a-l-assemblee-nationale_6799120_823448.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T16:21+00:00",
-   "summary": "Dans un hémicycle quasiment déserté par les soutiens du gouvernement, les députés ont rejeté la partie « recettes » du projet de loi de financement de la Sécurité sociale. Le parcours du texte n’est pas terminé et le gouvernement espère encore trouver une voie de passage, en le liant au budget de l’Etat.",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 20
-  },
-  {
-   "id": "a523e6cd60494943",
-   "title": "Les Forges de Tarbes, producteurs des corps d’obus du canon Caesar, demandent leur placement en redressement judiciaire",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/23/les-forges-de-tarbes-producteurs-des-corps-d-obus-du-canon-caesar-demandent-leur-placement-en-redressement-judiciaire_6799119_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T16:15+00:00",
-   "summary": "« Cette demande vise à préserver l’activité de l’entreprise », a fait savoir le groupe Europlasma dans un communiqué publié jeudi soir, quelques heures après en avoir informé les représentants des salariés lors d’un CSE extraordinaire.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "69a5bd43a8d8a51b",
-   "title": "La correction sur les actions pèse sur l’or",
-   "link": "https://www.agefi.fr/news/economie-marches/la-correction-sur-les-actions-pese-sur-lor",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T16:00+00:00",
-   "summary": "Le métal jaune n’a pas joué un rôle d’actif refuge dans la récente baisse, contrairement aux emprunts d’Etat américains et allemands, mais plutôt de source de financement des pertes sur d’autres actifs. Il est également affecté par les taux élevés, perdant près de 15% depuis fin août.",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 15
-  },
-  {
-   "id": "7154422176634e22",
-   "title": "Au Sénégal, la colère sociale enfle à l’approche des Jeux olympiques de la jeunesse",
-   "link": "https://www.lemonde.fr/afrique/article/2026/10/23/au-senegal-la-colere-sociale-enfle-a-l-approche-des-jeux-olympiques-de-la-jeunesse_6799115_3212.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T16:00+00:00",
-   "summary": "Alors que Dakar accueille, à partir du 31 octobre, la toute première édition africaine des Jeux consacrés aux jeunes athlètes, le mouvement social contre la vie chère se poursuit, avec une grève du secteur public qui s’achève ce 23 octobre. Le pays doit aussi œuvrer à apurer les finances de l’Etat dans le cadre d’un accord avec le FMI.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T17:54+00:00",
-   "score": 5
-  },
-  {
-   "id": "8b54fe70f1c0ed6c",
-   "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
-   "link": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T15:56+00:00",
-   "summary": "Market turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "0fc653129dce9297",
-   "title": "La Chine reconstitue activement ses stocks de pétrole brut",
-   "link": "https://www.agefi.fr/news/economie-marches/la-chine-reconstitue-activement-ses-stocks-de-petrole-brut",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T15:52+00:00",
-   "summary": "D’après les données de Kpler, les stocks de pétrole en Chine sont au plus bas. Le pays augmente ses achats depuis juillet afin de les reconstituer, profitant de l’offre disponible au Moyen-Orient, avant une éventuelle escalade du conflit.",
-   "themes": [
-    "fx_commodities",
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 27
-  },
-  {
-   "id": "c49b14263b807797",
-   "title": "A la RATP, FO devient le premier syndicat devant la CGT",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/23/a-la-ratp-fo-devient-le-premier-syndicat-devant-la-cgt_6799112_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T15:45+00:00",
-   "summary": "A l’occasion des élections professionnelles organisées du 19 au 23 octobre, Force ouvrière est devenue la première organisation syndicale de la régie parisienne, devant la CGT, désormais deuxième.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "6db5ec2a4948d66a",
-   "title": "Le gérant de cryptoactifs Tilvest vise une collecte de 30 millions d’euros d’ici fin 2027",
-   "link": "https://www.agefi.fr/patrimoine/actualites/le-gerant-de-cryptoactifs-tilvest-vise-une-collecte-de-30-millions-deuros-dici-fin-2027",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T15:44+00:00",
-   "summary": "La plateforme d’investissement en cryptoactifs, partenaire des conseillers patrimoniaux, a été rachetée par Coinhouse en juin. Sa stratégie a été repensée.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "c8433c32b8236f2a",
-   "title": "Gucci met la patience des actionnaires de Kering à rude épreuve",
-   "link": "https://www.agefi.fr/news/entreprises/gucci-met-la-patience-des-actionnaires-de-kering-a-rude-epreuve",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T15:42+00:00",
-   "summary": "Le délai réclamé pour relancer la marque florentine est plus long que prévu. Un contretemps qui se paie cher comme en témoigne le plongeon de 16 % de l'action Kering, vendredi.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "97411d04936155e7",
-   "title": "Stifel relève son objectif de cours sur Tango Therapeutics après des données d’essai",
-   "link": "https://fr.investing.com/news/analyst-ratings/stifel-releve-son-objectif-de-cours-sur-tango-therapeutics-apres-des-donnees-dessai-93CH-3651470",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:37+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "2106cf5642eb77ef",
-   "title": "La vente massive de puces IA est « déconnectée des fondamentaux », selon LYNX",
-   "link": "https://fr.investing.com/news/stock-market-news/la-vente-massive-de-puces-ia-est--deconnectee-des-fondamentaux--selon-lynx-3651468",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:34+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "fcf2ae4e4adb8e63",
-   "title": "Mobilisations sociales : les chaînes de télévision appelées par l’Arcom « à la plus grande vigilance » après des excès, « fake news » et dérapages depuis le 17 octobre",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/23/mobilisations-sociales-les-chaines-tele-appelees-par-l-arcom-a-la-plus-grande-vigilance-apres-des-exces-fake-news-et-derapages-depuis-le-17-octobre_6799106_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T15:30+00:00",
-   "summary": "La couverture de la manifestation de samedi et des dégradations commises en marge des cortèges, sur les chaînes d’info mais pas seulement, a provoqué de multiples saisines de l’Autorité de régulation de l’audiovisuel.",
-   "themes": [
-    "regulation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 20
-  },
-  {
-   "id": "073c0d900756e665",
-   "title": "Hot autumn",
-   "link": "https://www.ft.com/content/be575f05-41e0-475e-9004-fde4c8784ac6",
-   "source": "Financial Times – Global economy",
-   "sources": [
-    "Financial Times – Global economy"
-   ],
-   "published": "2026-10-23T15:30+00:00",
-   "summary": "Key measures of inflation in the UK and Japan accelerated in September",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-27T09:59+00:00",
-   "score": 20
-  },
-  {
-   "id": "8caba4babc5c06c4",
-   "title": "L’action Halozyme Therapeutics atteint un record historique à 125,53 USD",
-   "link": "https://fr.investing.com/news/company-news/laction-halozyme-therapeutics-atteint-un-record-historique-a-12553-usd-93CH-3651464",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:27+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "8df4479847ea0678",
-   "title": "Generali va supprimer 9% de ses effectifs en Allemagne et consolider ses sites",
-   "link": "https://fr.investing.com/news/stock-market-news/generali-va-supprimer-9-de-ses-effectifs-en-allemagne-et-consolider-ses-sites-3651460",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:22+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "34c912d410a43c23",
-   "title": "Forestalia explore la vente d’actifs énergétiques pour data centers",
-   "link": "https://fr.investing.com/news/stock-market-news/forestalia-explore-la-vente-dactifs-energetiques-pour-data-centers-93CH-3651459",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:16+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "4b4a6f0a29907ab5",
-   "title": "Byline Bancorp dépasse les prévisions du T3 2026 avec un bénéfice record",
-   "link": "https://fr.investing.com/news/transcripts/byline-bancorp-depasse-les-previsions-du-t3-2026-avec-un-benefice-record-93CH-3651458",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:16+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "ce2aea3653cd7231",
-   "title": "Compte de résultats GrafTech T3 2026 : le chiffre d’affaires dépasse les attentes, l’action bondit de 21%",
-   "link": "https://fr.investing.com/news/transcripts/compte-de-resultats-graftech-t3-2026--le-chiffre-daffaires-depasse-les-attentes-laction-bondit-de-21-93CH-3651455",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:12+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "17fa39a616b41df1",
-   "title": "Les cybermenaces alimentées par l’IA dopent les valeurs de cybersécurité",
-   "link": "https://fr.investing.com/news/stock-market-news/les-cybermenaces-dopees-a-lia-font-flamber-les-valeurs-de-cybersecurite-3651453",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:10+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "2760d07542bfe3bb",
-   "title": "Le premier iPhone pliant fait face aux contraintes de la chaîne d'approvisionnement",
-   "link": "https://www.agefi.fr/news/entreprises/le-premier-iphone-pliant-fait-face-aux-contraintes-de-la-chaine-dapprovisionnement",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T15:08+00:00",
-   "summary": "Le lancement de l’iPhone Duo, premier smartphone pliant de la marque à la pomme, pose des questions sur ses capacités d’approvisionnement. Vendredi 23 octobre, Apple le proposait en livraison pour fin janvier 2027 dans la plupart des pays.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:59+00:00",
-   "score": 5
-  },
-  {
-   "id": "32201405feae968f",
-   "title": "DA Davidson abaisse son objectif de cours sur Graco en raison de retards",
-   "link": "https://fr.investing.com/news/analyst-ratings/da-davidson-abaisse-son-objectif-de-cours-sur-graco-en-raison-de-retards-93CH-3651443",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:01+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "0f2939674709c958",
-   "title": "UBS réitère sa recommandation d’achat sur Expeditors avant la journée analystes",
-   "link": "https://fr.investing.com/news/analyst-ratings/ubs-reitere-sa-recommandation-dachat-sur-expeditors-avant-la-journee-analystes-93CH-3651442",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:01+00:00",
-   "summary": "",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 15
-  },
-  {
-   "id": "ee1c21360c98ff55",
-   "title": "TG Therapeutics publie les résultats de l’essai de phase 1 sur la SEP avec azer-cel",
-   "link": "https://fr.investing.com/news/company-news/tg-therapeutics-publie-les-resultats-de-lessai-de-phase-1-sur-la-sep-avec-azercel-93CH-3651441",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:01+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "8787c8f18c27a321",
-   "title": "L’action Freshworks atteint un plus haut de 52 semaines à 15,45 $",
-   "link": "https://fr.investing.com/news/company-news/laction-freshworks-atteint-un-plus-haut-de-52-semaines-a-1545--93CH-3651440",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T15:01+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "8d8f0046bd079c11",
-   "title": "Everyone’s talking about Roth conversions, but here’s how few people really do them — and why you shouldn’t have FOMO about it",
-   "link": "https://www.marketwatch.com/story/everyones-talking-about-roth-conversions-but-heres-how-few-people-really-do-them-and-why-you-shouldnt-have-fomo-about-it-1b50db07?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T15:00+00:00",
-   "summary": "You have to do the math to figure out your best tax strategy in retirement, and converting might not be for you.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "cfb74e65f146e5e5",
-   "title": "StoneX réitère son avis d’achat sur Union Pacific après des résultats T3 supérieurs aux attentes",
-   "link": "https://fr.investing.com/news/analyst-ratings/stonex-reitere-son-avis-dachat-sur-union-pacific-apres-des-resultats-t3-superieurs-aux-attentes-93CH-3651438",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:56+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "11f572556b0b64a0",
-   "title": "UBS maintient sa recommandation sur Union Pacific grâce à la croissance des volumes",
-   "link": "https://fr.investing.com/news/analyst-ratings/ubs-maintient-sa-recommandation-sur-union-pacific-grace-a-la-croissance-des-volumes-93CH-3651437",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:55+00:00",
-   "summary": "",
-   "themes": [
-    "macro_inflation",
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 27
-  },
-  {
-   "id": "7d9a74b1a6e34964",
-   "title": "StoneX réitère son avis d’achat sur Abbott Labs, objectif à 120,00$",
-   "link": "https://fr.investing.com/news/analyst-ratings/stonex-reitere-son-avis-dachat-sur-abbott-labs-objectif-a-12000-93CH-3651435",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:55+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "dc0a9f197b6a4f37",
-   "title": "UBS abaisse l’objectif de cours de CoreWeave à 105$ en raison de préoccupations liées à l’infrastructure IA",
-   "link": "https://fr.investing.com/news/analyst-ratings/ubs-abaisse-lobjectif-de-cours-de-coreweave-a-105-en-raison-de-preoccupations-liees-a-linfrastructure-ia-93CH-3651436",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:55+00:00",
-   "summary": "",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 15
-  },
-  {
-   "id": "fe3a9a900546b7a9",
-   "title": "StoneX maintient sa recommandation Conserver sur Norfolk Southern après des résultats supérieurs aux attentes",
-   "link": "https://fr.investing.com/news/analyst-ratings/stonex-maintient-sa-recommandation-conserver-sur-norfolk-southern-apres-des-resultats-superieurs-aux-attentes-93CH-3651434",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:55+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "1dd849258cbe4ac9",
-   "title": "UBS abaisse son objectif de cours sur CACI International en raison de la valorisation",
-   "link": "https://fr.investing.com/news/analyst-ratings/ubs-abaisse-son-objectif-de-cours-sur-caci-international-en-raison-de-la-valorisation-93CH-3651433",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:55+00:00",
-   "summary": "",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 15
-  },
-  {
-   "id": "3ab420be9b9aaaf8",
-   "title": "Un marché qui converge vers la tokenisation",
-   "link": "https://www.agefi.fr/asset-management/actualites/un-marche-qui-converge-vers-la-tokenisation",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T14:54+00:00",
-   "summary": "Les priorités du secteur convergent vers la tokenisation et les infrastructures qui soutiennent les actifs numériques.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "4f6070e541674d9a",
-   "title": "L’IA générative s’interpose de plus en plus entre la banque et ses clients",
-   "link": "https://www.agefi.fr/news/banque-assurance/lia-generative-sinterpose-de-plus-en-plus-entre-la-banque-et-ses-clients",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T14:54+00:00",
-   "summary": "L’IA générative devient partie intégrante des prises de décisions des clients bancaires et les usages évoluent vite, bousculant les modèles d’affaires des banques de réseaux généralistes. Si elles n’intègrent pas rapidement des agents IA dans leurs parcours, ces derniers pourraient devenir de nouveaux concurrents.",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 15
-  },
-  {
-   "id": "d5722cc3c0a8e9c6",
-   "title": "Le marché mondial des fonds evergreen s'achemine vers les 5.200 milliards de dollars",
-   "link": "https://www.agefi.fr/gestion-privee/actualites/le-marche-mondial-des-fonds-evergreen-sachemine-vers-les-5-200-milliards-de-dollars",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T14:53+00:00",
-   "summary": "Les encours mondiaux de ces fonds devraient bondir de plus de 60% d'ici à 2030, selon le cabinet d'avocats Ropes & Gray. Le private equity y affiche la plus forte dynamique.",
-   "themes": [
-    "banks",
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 22
-  },
-  {
-   "id": "d456a88322054e33",
-   "title": "Gold drops below $4,000 as ‘haven’ asset joins market sell-off",
-   "link": "https://www.ft.com/content/5a6e15e9-249d-4d59-a140-c51302930a9f?syn-25a6b1a6=1",
-   "source": "Financial Times – Markets",
-   "sources": [
-    "Financial Times – Markets"
-   ],
-   "published": "2026-10-23T14:37+00:00",
-   "summary": "Price has plunged this week even as investors rush to safety of US Treasuries",
-   "themes": [
-    "fx_commodities",
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 35
-  },
-  {
-   "id": "2a4b0314cddb9071",
-   "title": "Prévisions de trésorerie : voir plus loin pour mieux décider",
-   "link": "https://www.agefi.fr/news/banque-assurance/previsions-de-tresorerie-voir-plus-loin-pour-mieux-decider",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T14:34+00:00",
-   "summary": "De la visibilité sur le cash à la décision : comment le trésorier renforce-t-il son rôle stratégique ?",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "c25c8f11db821195",
-   "title": "Young Americans are giving up on cars. It’s a path to financial freedom for some.",
-   "link": "https://www.marketwatch.com/story/young-americans-are-giving-up-their-cars-its-a-path-to-financial-freedom-for-some-3cce491c?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T14:29+00:00",
-   "summary": "With vehicle prices soaring and ownership increasingly out of reach, some young adults are discovering that life without a car leaves them with breathing room to spend on other things.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T15:07+00:00",
-   "score": 5
-  },
-  {
-   "id": "59f8ef9c794b554b",
-   "title": "Surging economy gets off to a good start in the fourth quarter — but there’s one big problem",
-   "link": "https://www.marketwatch.com/story/surging-economy-gets-off-to-a-good-start-in-the-fourth-quarter-but-theres-one-big-problem-5657f399?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T14:23+00:00",
-   "summary": "Warning signs are emerging that consumers will be hit with rising prices.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 5
-  },
-  {
-   "id": "4fe0fb01bc645ab6",
-   "title": "L’action Chevron pourrait bouger de 2,3% à la publication des résultats",
-   "link": "https://fr.investing.com/news/stock-market-news/laction-chevron-pourrait-bouger-de-23-a-la-publication-des-resultats-93CH-3651353",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:20+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 5
-  },
-  {
-   "id": "9a784da953eebea6",
-   "title": "Les actions Capri Holdings pourraient bouger de 1,9% lors des résultats",
-   "link": "https://fr.investing.com/news/stock-market-news/les-actions-capri-holdings-pourraient-bouger-de-19-lors-des-resultats-93CH-3651352",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:19+00:00",
-   "summary": "",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 15
-  },
-  {
-   "id": "00e240ec4de9240b",
-   "title": "Compte rendu d’appel aux résultats : First Interstate BancSystem rate les prévisions de bénéfices du T3 2026",
-   "link": "https://fr.investing.com/news/transcripts/compte-rendu-dappel-aux-resultats--first-interstate-bancsystem-rate-les-previsions-de-benefices-du-t3-2026-93CH-3651346",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:18+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 5
-  },
-  {
-   "id": "ad14e6c92f81c10b",
-   "title": "World Acceptance dépasse les estimations de BPA pour le T2 2026",
-   "link": "https://fr.investing.com/news/transcripts/world-acceptance-depasse-les-estimations-de-bpa-pour-le-t2-2026-93CH-3651345",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:17+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 5
-  },
-  {
-   "id": "2b8541467964eab4",
-   "title": "Ardshinbank envisage une introduction en bourse à Londres",
-   "link": "https://fr.investing.com/news/stock-market-news/ardshinbank-envisage-une-introduction-en-bourse-a-londres-93CH-3651343",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:16+00:00",
-   "summary": "",
-   "themes": [
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 15
-  },
-  {
-   "id": "7057a75954f12554",
-   "title": "Saba Capital Management vend des actions PIMCO Dynamic Income pour 77.867$",
-   "link": "https://fr.investing.com/news/insider-trading-news/saba-capital-management-vend-des-actions-pimco-dynamic-income-pour-77867-93CH-3651342",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:16+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 5
-  },
-  {
-   "id": "1a41f3b5e5df3ef0",
-   "title": "‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?",
-   "link": "https://www.marketwatch.com/story/my-husband-suffered-a-massive-stroke-at-53-im-64-and-will-rent-for-the-rest-of-my-life-but-im-still-hopeful-46bd6ce9?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T14:15+00:00",
-   "summary": "“I married a wonderful man with a good income. He left his job due to health issues and suffered a massive stroke at 53.”",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:27+00:00",
-   "score": 5
-  },
-  {
-   "id": "287f0f8f7935e1e8",
-   "title": "Guillaume Cousseran (21 NEXT) : « Notre business plan vise à atteindre 10 milliards d’euros sous gestion »",
-   "link": "https://www.agefi.fr/private-equity/people/guillaume-cousseran-21-next-notre-business-plan-vise-a-atteindre-10-milliards-deuros-sous-gestion",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T14:03+00:00",
-   "summary": "Récemment nommé managing partner , directeur des relations investisseurs et du développement commercial du groupe chez 21 NEXT, Guillaume Cousseran détaille les ambitions de ce nouvel acteur paneuropéen du smidcap issu du rapprochement sous l’égide du groupe Edizione (famille Benetton) de 21 Invest, dans le private equity, et de Tages, dans les infrastructures.",
-   "themes": [
-    "banks",
-    "equities"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 22
-  },
-  {
-   "id": "3deb55574011135a",
-   "title": "Customers Bancorp affiche une forte croissance au T3 2026",
-   "link": "https://fr.investing.com/news/transcripts/customers-bancorp-affiche-une-forte-croissance-au-t3-2026-93CH-3651269",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:00+00:00",
-   "summary": "",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 20
-  },
-  {
-   "id": "cb7c9a4bcaf8b4bd",
-   "title": "Les résultats de Business First attendus alors que les banques louisianaises sont sous pression",
-   "link": "https://fr.investing.com/news/earnings/les-resultats-de-business-first-attendus-alors-que-les-banques-louisianaises-sont-sous-pression-93CH-3651268",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T14:00+00:00",
-   "summary": "",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 15
-  },
-  {
-   "id": "d0886b541cd1dc10",
-   "title": "Easterly Government Properties : ses résultats peuvent-ils soutenir le rendement ?",
-   "link": "https://fr.investing.com/news/earnings/easterly-government-properties--ses-resultats-peuventils-soutenir-le-rendement--93CH-3651266",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:59+00:00",
-   "summary": "",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 25
-  },
-  {
-   "id": "f0bc1e1f4161b103",
-   "title": "Tata Motors affiche une forte croissance au T2 2027 malgré une baisse du titre",
-   "link": "https://fr.investing.com/news/transcripts/tata-motors-affiche-une-forte-croissance-au-t2-2027-malgre-une-baisse-du-titre-93CH-3651265",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:59+00:00",
-   "summary": "",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 20
-  },
-  {
-   "id": "3d779f5ecd97b00b",
-   "title": "Truist abaisse son objectif de cours sur Sonoco Products en raison de la faiblesse des volumes",
-   "link": "https://fr.investing.com/news/analyst-ratings/truist-abaisse-son-objectif-de-cours-sur-sonoco-products-en-raison-de-la-faiblesse-des-volumes-93CH-3651261",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:57+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 5
-  },
-  {
-   "id": "1970ea8da01ac2a9",
-   "title": "Truist réduit son objectif de cours sur Deckers Outdoor face aux pressions promotionnelles",
-   "link": "https://fr.investing.com/news/analyst-ratings/truist-reduit-son-objectif-de-cours-sur-deckers-outdoor-face-aux-pressions-promotionnelles-93CH-3651263",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:57+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 5
-  },
-  {
-   "id": "913321bf72c0d4ed",
-   "title": "BTIG maintient sa recommandation d’achat sur NVR malgré des résultats décevants",
-   "link": "https://fr.investing.com/news/analyst-ratings/btig-maintient-sa-recommandation-dachat-sur-nvr-malgre-des-resultats-decevants-93CH-3651260",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:57+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 5
-  },
-  {
-   "id": "117913dfc3539f0d",
-   "title": "Truist relève son objectif de cours sur Packaging Corp. grâce aux hausses de prix",
-   "link": "https://fr.investing.com/news/analyst-ratings/truist-releve-son-objectif-de-cours-sur-packaging-corp-grace-aux-hausses-de-prix-93CH-3651259",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:57+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 5
-  },
-  {
-   "id": "61f52028168c0e40",
-   "title": "Les résultats de HealthStream à l’épreuve de sa transformation",
-   "link": "https://fr.investing.com/news/earnings/les-resultats-de-healthstream-a-lepreuve-de-sa-transformation-93CH-3651258",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:57+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T14:14+00:00",
-   "score": 5
-  },
-  {
-   "id": "f81429c7e907bec4",
-   "title": "UBS prend une participation minoritaire dans un gérant indien",
-   "link": "https://www.agefi.fr/asset-management/actualites/ubs-prend-une-participation-minoritaire-dans-un-gerant-indien",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T13:45+00:00",
-   "summary": "Le groupe financier suisse UBS détient, depuis le 22 octobre, près de 4,8% du gestionnaire d’actifs et de fortune indien 360 One Wam. Cette participation est le fruit d’une conversion de droits de souscriptions (warrants) émis en juillet 2025 par la firme indienne et attribués à UBS.",
-   "themes": [
-    "banks",
-    "structured"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 47
-  },
-  {
-   "id": "f9e473a04c58c350",
-   "title": "La plomberie de la gestion d’actifs est sous pression comme jamais",
-   "link": "https://www.agefi.fr/asset-management/tech/la-plomberie-de-la-gestion-dactifs-est-sous-pression-comme-jamais",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T13:42+00:00",
-   "summary": "Une récente étude du consultant américain PwC met en lumière les contraintes et priorités des gestionnaires d'actifs en matière d'investissement pour les infrastructures sous-tendant leurs activités.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "3da95fc7d3a62c92",
-   "title": "Alpine dépasse les prévisions du T3 2026 et relève ses perspectives",
-   "link": "https://fr.investing.com/news/transcripts/alpine-depasse-les-previsions-du-t3-2026-et-releve-ses-perspectives-93CH-3651196",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:40+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "2c4a5ea77ae4fe77",
-   "title": "American Express dépasse les attentes de bénéfices au T3 2026, l’action recule",
-   "link": "https://fr.investing.com/news/transcripts/american-express-depasse-les-attentes-de-benefices-au-t3-2026-laction-recule-93CH-3651195",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:40+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "46f4b1349248203f",
-   "title": "L’action D-Wave Quantum touche un plus bas sur 52 semaines à 11,35$",
-   "link": "https://fr.investing.com/news/company-news/laction-dwave-quantum-touche-un-plus-bas-sur-52-semaines-a-1135-93CH-3651189",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:39+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "db3732de2a43c011",
-   "title": "Elanders affiche une solide croissance au T3 2026, l’action progresse",
-   "link": "https://fr.investing.com/news/transcripts/elanders-affiche-une-solide-croissance-au-t3-2026-laction-progresse-93CH-3651188",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:39+00:00",
-   "summary": "",
-   "themes": [
-    "macro_inflation"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 20
-  },
-  {
-   "id": "ac72de9f2314b9a8",
-   "title": "Le titre d’Adient atteint un plus bas de 52 semaines à 16,41 $",
-   "link": "https://fr.investing.com/news/company-news/le-titre-dadient-atteint-un-plus-bas-de-52-semaines-a-1641--93CH-3651187",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:38+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "0e4a5f37060e6549",
-   "title": "L’action AMN Healthcare atteint un sommet annuel à 47,36 USD",
-   "link": "https://fr.investing.com/news/company-news/laction-amn-healthcare-atteint-un-sommet-annuel-a-4736-usd-93CH-3651186",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:38+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "fd1d38aac306f539",
-   "title": "L’action Fabrinet atteint un plus bas de 52 semaines à 311,3 USD",
-   "link": "https://fr.investing.com/news/company-news/laction-fabrinet-atteint-un-plus-bas-de-52-semaines-a-3113-usd-93CH-3651172",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:37+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "3fb317978b09d6e0",
-   "title": "Dépôts tokenisés : pourquoi les entreprises doivent s’y préparer dès maintenant",
-   "link": "https://www.agefi.fr/news/tech-finance/depots-tokenises-pourquoi-les-entreprises-doivent-sy-preparer-des-maintenant",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T13:36+00:00",
-   "summary": "Dans cette tribune, Ouannessa Aissaoui, head of global payment solutions France chez HSBC, explique que face aux lourdeurs des circuits bancaires traditionnels, la blockchain et le règlement européen MiCA ouvrent la voie à une gestion continue et automatisée de la trésorerie des entreprises.",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 15
-  },
-  {
-   "id": "8136b3f4c1aba567",
-   "title": "A half-time scorecard for Trump-world",
-   "link": "https://www.ft.com/content/fdd811ed-3186-48f9-8f6b-fb66e56f13e6",
-   "source": "Financial Times – Global economy",
-   "sources": [
-    "Financial Times – Global economy"
-   ],
-   "published": "2026-10-23T13:32+00:00",
-   "summary": "Monetising America has pleased tycoons but not citizens",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 5
-  },
-  {
-   "id": "ea087cab17cef67e",
-   "title": "La construction de portefeuilles au-delà du risque et du rendement",
-   "link": "https://www.agefi.fr/investisseurs-institutionnels/au-coeur-des-instits/la-construction-de-portefeuilles-au-dela-du-risque-et-du-rendement",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T13:30+00:00",
-   "summary": "La construction de portefeuilles traditionnelle se concentre sur le risque et le rendement, mais les investisseurs accordent souvent de l’importance à bien d’autres aspects.",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 25
-  },
-  {
-   "id": "bcbd955c935c6bd0",
-   "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-   "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T13:30+00:00",
-   "summary": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
-   "themes": [
-    "central_banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:48+00:00",
-   "score": 40
-  },
-  {
-   "id": "13ed5979fa1e01e2",
-   "title": "Au Japon, l’inflation poursuit sa trajectoire à la hausse",
-   "link": "https://www.agefi.fr/news/economie-marches/au-japon-linflation-poursuit-sa-trajectoire-a-la-hausse",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T13:28+00:00",
-   "summary": "Les prix à la consommation ont augmenté de 2,1% en septembre, toujours tirés par les prix énergétiques, surtout du gaz, car les carburants et l’électricité profitent encore des subventions gouvernementales. L’inflation sous-jacente progresse également et dépasse les 2% pour la première fois en neuf mois. Le Comité de politique monétaire de la Banque du Japon se réunit la semaine prochaine.",
-   "themes": [
-    "central_banks",
-    "fx_commodities",
-    "macro_inflation",
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 50
-  },
-  {
-   "id": "286f087aab367743",
-   "title": "Le directeur Yu de KANZHUN démissionne pour des raisons professionnelles",
-   "link": "https://fr.investing.com/news/company-news/le-directeur-yu-de-kanzhun-demissionne-pour-des-raisons-professionnelles-93CH-3651068",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:20+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "fa6f9d1e3aad0a1f",
-   "title": "Le forint hongrois en garde sous le pied",
-   "link": "https://www.agefi.fr/cash-risk/actualites/le-forint-hongrois-en-garde-sous-le-pied",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T13:19+00:00",
-   "summary": "Comme chaque semaine, retrouvez la chronique de DeftHedge sur le marché des changes.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "feb7b07c92f3f8de",
-   "title": "Autoliv rate ses estimations au T3 2026, l’action chute en préouverture",
-   "link": "https://fr.investing.com/news/transcripts/autoliv-rate-ses-estimations-au-t3-2026-laction-chute-en-preouverture-93CH-3651063",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:19+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "da4bc1abbc19761f",
-   "title": "Rogers Communications dépasse les prévisions de bénéfices au T3 2026",
-   "link": "https://fr.investing.com/news/transcripts/rogers-communications-depasse-les-previsions-de-benefices-au-t3-2026-93CH-3651062",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:19+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "03d1b1c3fadd0917",
-   "title": "Pourquoi le titre American Express recule-t-il aujourd’hui ?",
-   "link": "https://fr.investing.com/news/stock-market-news/pourquoi-le-titre-american-express-reculetil-aujourdhui--93CH-3651060",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:19+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "aae925ef82b30801",
-   "title": "Booz Allen dépasse les prévisions de BPA au T2 2026",
-   "link": "https://fr.investing.com/news/transcripts/booz-allen-depasse-les-previsions-de-bpa-au-t2-2026-93CH-3651056",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:16+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "d7a74289934b8dcd",
-   "title": "Rithm Capital dépasse les prévisions du T3 2026, l’action progresse en préouverture",
-   "link": "https://fr.investing.com/news/transcripts/rithm-capital-depasse-les-previsions-du-t3-2026-laction-progresse-en-preouverture-93CH-3651053",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:16+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "f1fbae782d315b53",
-   "title": "IndusInd Bank affiche une reprise plus solide au T2 2026",
-   "link": "https://fr.investing.com/news/transcripts/indusind-bank-affiche-une-reprise-plus-solide-au-t2-2026-93CH-3651052",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:16+00:00",
-   "summary": "",
-   "themes": [
-    "banks"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 15
-  },
-  {
-   "id": "4e3ea013b333f158",
-   "title": "My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?",
-   "link": "https://www.marketwatch.com/story/my-father-in-law-81-sold-his-75-000-home-and-paid-off-his-daughters-50-000-debt-what-happens-to-him-now-60e8fc72?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T13:15+00:00",
-   "summary": "“Nothing has been set aside for his needs.”",
-   "themes": [
-    "credit_sovereign"
-   ],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 25
-  },
-  {
-   "id": "48bf0b969ba6b493",
-   "title": "Compte rendu de résultats : JSW Steel T2 2026, volumes records, action en baisse",
-   "link": "https://fr.investing.com/news/transcripts/compte-rendu-de-resultats--jsw-steel-t2-2026-volumes-records-action-en-baisse-93CH-3651051",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:14+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "dea361f7aade7cdb",
-   "title": "Coforge relève ses marges au T2 2026 grâce à un record de contrats",
-   "link": "https://fr.investing.com/news/transcripts/coforge-releve-ses-marges-au-t2-2026-grace-a-un-record-de-contrats-93CH-3651047",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:14+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "fa70e01af140869e",
-   "title": "Bolt Biotherapeutics acquiert Prana via une fusion inversée",
-   "link": "https://fr.investing.com/news/company-news/bolt-biotherapeutics-acquiert-prana-via-une-fusion-inversee-93CH-3651042",
-   "source": "Investing.com France",
-   "sources": [
-    "Investing.com France"
-   ],
-   "published": "2026-10-23T13:13+00:00",
-   "summary": "",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "f34f57e31746b612",
-   "title": "Over 40% of Americans are heading toward retirement ‘blind’ — with no plan",
-   "link": "https://www.marketwatch.com/story/over-40-of-americans-are-heading-toward-retirement-blind-with-no-plan-e49b502f?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "sources": [
-    "MarketWatch"
-   ],
-   "published": "2026-10-23T13:00+00:00",
-   "summary": "Nearly half of Americans haven’t calculated what they’ll need in retirement.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "c71b08fe5bf5f92e",
-   "title": "Au Brésil, les milieux financiers penchent pour les promesses d’extrême droite de Flavio Bolsonaro",
-   "link": "https://www.lemonde.fr/economie/article/2026/10/23/au-bresil-les-milieux-financiers-penchent-pour-les-promesses-d-extreme-droite-de-flavio-bolsonaro_6799079_3234.html",
-   "source": "Le Monde – Économie",
-   "sources": [
-    "Le Monde – Économie"
-   ],
-   "published": "2026-10-23T13:00+00:00",
-   "summary": "Dans le cœur financier de Sao Paulo, investisseurs et banquiers affichent leur soutien aux coupes dans les dépenses publiques, privatisations et baisses d’impôts prônées par Flavio Bolsonaro, préféré au président sortant Lula à l’approche du second tour de l’élection présidentielle.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
-   "score": 5
-  },
-  {
-   "id": "192d6f7241a05c98",
-   "title": "Le diable se cache dans les détails, Safran l'apprend à ses dépens",
-   "link": "https://www.agefi.fr/news/entreprises/le-diable-se-cache-dans-les-details-safran-lapprend-a-ses-depens",
-   "source": "L'Agefi",
-   "sources": [
-    "L'Agefi"
-   ],
-   "published": "2026-10-23T12:47+00:00",
-   "summary": "L'équipementier aéronautique a publié des chiffres trimestriels conformes aux attentes mais il s'est contenté de maintenir ses objectifs annuels alors que les investisseurs espéraient qu'ils seraient relevés.",
-   "themes": [],
-   "official": false,
-   "first_seen": "2026-10-23T13:30+00:00",
    "score": 5
   }
  ]
