@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-22T12:37:23+00:00",
- "date": "2026-11-22",
+ "generated_at": "2026-11-23T14:42:12+00:00",
+ "date": "2026-11-23",
  "jobs": [
   {
-   "id": "groupe-credit-agricole-dffdce1529f7",
+   "id": "groupe-credit-agricole-a097585ae4f1",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
    "platform": "generic",
-   "title": "Stage - Analyste Financement Middle Office PERES H/F",
+   "title": "Stage - Quantitative Researcher H/F",
    "location": "",
    "countries": [
     "FR"
@@ -16,11 +16,11 @@
     "France"
    ],
    "region": "France",
-   "family": "Treasury",
-   "role_level": "low",
-   "score": 40,
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 80,
    "score_breakdown": {
-    "role": 10,
+    "role": 50,
     "geo": 30,
     "city": 0,
     "timing": 0
@@ -29,10 +29,192 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-136-stage---analyste-financement-middle-office-peres-hf-reference--2026-116094--/",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-124-stage---quantitative-researcher-hf-reference--2026-117667--/",
    "posted_at": "",
-   "first_seen": "2026-11-22",
-   "last_seen": "2026-11-22",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-abe738aa0d2a",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage Ingénierie Financière H/F",
+   "location": "",
+   "countries": [
+    "FR"
+   ],
+   "country_names": [
+    "France"
+   ],
+   "region": "France",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 80,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 30,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage-ingenierie-financiere-hf-reference--2026-117674--/",
+   "posted_at": "",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "amundi-b4117873dd4e",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage - Quantitative Researcher H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Pricing / Quant",
+   "role_level": "high",
+   "score": 50,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-quantitative-researcher-h-f_117667.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "amundi-a298ec35fd52",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage Ingénierie Financière H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Structuring",
+   "role_level": "high",
+   "score": 50,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-ingenierie-financiere-h-f_117674.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "amundi-e2eb27476a07",
+   "employer": "Amundi",
+   "employer_type": "asset_manager",
+   "platform": "generic",
+   "title": "Stage – Business Analyst MOA Gestion & IT Front office project H/F",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 30,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://jobs.amundi.com/job/job-stage-business-analyst-moa-gestion-it-front-office-project-h-f_117695.aspx",
+   "posted_at": "",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "mufg-4d8421aa531b",
+   "employer": "MUFG",
+   "employer_type": "intl_bank",
+   "platform": "workday",
+   "title": "FX Trader Intern",
+   "location": "Seoul Branch - Grand Central Bldg",
+   "countries": [
+    "KR"
+   ],
+   "country_names": [
+    "South Korea"
+   ],
+   "region": "Rest of world",
+   "family": "Trading",
+   "role_level": "medium",
+   "score": 30,
+   "score_breakdown": {
+    "role": 30,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Seoul-Branch---Grand-Central-Bldg/FX-Trader-Intern_10080640-WD",
+   "posted_at": "2026-11-16",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
+   "active": true
+  },
+  {
+   "id": "unicredit-0c9c87ba1391",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
+   "platform": "generic",
+   "title": "Intern Equity Capital Markets (f/m/d)",
+   "location": "",
+   "countries": [],
+   "country_names": [],
+   "region": "Unknown",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 10,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-04-30",
+   "deadline_source": "estimée",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Intern-Equity-Capital-Markets-f-m-d/118012",
+   "posted_at": "",
+   "first_seen": "2026-11-23",
+   "last_seen": "2026-11-23",
    "active": true
   }
  ]
