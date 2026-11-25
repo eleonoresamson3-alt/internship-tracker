@@ -1,6 +1,169 @@
 {
  "days": [
   {
+   "date": "2026-11-25",
+   "generated_at": "2026-11-25T05:55:00+00:00",
+   "brief": [
+    "Actions : le rebond lié au retour de Jensen Huang s'essouffle (FT) : les valeurs technologiques américaines reculent et l'action Anthropic passe sous son prix d'introduction de 83 $ moins d'une semaine après ses débuts (MarketWatch) ; le Dow Jones gagnait 3,01 % le 23 novembre (49 595,31) et le VIX reculait de 25,8 % à 26,62.",
+    "Taux : forte détente — le 10 ans américain est à 4,92 % le 20 novembre (-12 points de base) et le 2 ans à 4,63 % (-13) ; le 10 ans français est à 4,766 % le 24 novembre (-6,5 points de base, -28,2 sur un mois) contre 3,33 % pour le Bund, soit environ 144 points de base d'écart.",
+    "Fusions-acquisitions : Sanofi veut acquérir Insmed pour 41 milliards de dollars avec une prime de plus de 40 % ; HLD lance une OPA sur Clariane à 4,60 € par action, soit 38,3 % de prime (L'Agefi).",
+    "Hedge funds : selon une note de JPMorgan citée par L'Agefi, les hedge funds ont connu du 16 au 20 novembre leur pire semaine depuis avril 2025.",
+    "Régulation : NBIM et Akademiker contestent le projet de la SEC de supprimer la règle sur les résolutions d'actionnaires ; la BCE a élargi la semaine dernière son collatéral aux actifs tokenisés."
+   ],
+   "articles": [
+    {
+     "title": "Le rebond lié au retour de Huang s'essouffle ; Anthropic passe sous son prix d'introduction",
+     "theme": "equities",
+     "lead": "Après le bond de 30 % de Nvidia, les valeurs technologiques américaines reculent et des questions réglementaires subsistent autour du dirigeant.",
+     "what": "Selon le FT, les valeurs technologiques américaines reculent alors que le rebond lié au retour de Jensen Huang se dissipe ; l'action Anthropic passe sous son prix d'introduction. MarketWatch précise que le titre s'échangeait mardi matin sous le prix d'introduction de 83 $, moins d'une semaine après ses débuts au Nasdaq, et que la réintégration de Huang ne règle ni les questions réglementaires ni l'enquête sur sa relation avec une ancienne dirigeante de Megaspeed. Le Monde indique que le conseil de Nvidia a annoncé lundi la réintégration immédiate de Huang, dix jours après sa démission liée à un scandale, et que le titre a bondi de 31 % ; plusieurs parlementaires, démocrates et républicains, réclament des explications. Nos données donnent le Dow Jones à 49 595,31 le 23 novembre (+3,01 %) et le VIX à 26,62 (-25,83 %).",
+     "why": "Un rebond brutal est souvent suivi d'un reflux partiel quand l'euphorie initiale retombe et que les questions de fond restent posées : le marché a d'abord réagi à la levée d'incertitude sur la direction, puis il évalue les risques réglementaires et politiques. Passer sous le prix d'introduction est un seuil psychologique pour une société récemment cotée : il signifie que les acheteurs de l'introduction sont en perte latente. L'article ne précise pas les causes de la baisse d'Anthropic ; nous rapportons les faits tels que publiés, sans évaluer l'opération.",
+     "impact": "Pour les autocalls sur des paniers technologiques, un rebond suivi d'un reflux ne change pas fondamentalement la distance aux barrières, qui reste réduite par rapport à début novembre. La volatilité implicite, même en baisse (VIX à 26,6), reste élevée par rapport aux niveaux d'octobre : les options sont chères, les coupons des produits neufs plus généreux, avec un risque de perte plus visible. Une introduction en Bourse qui passe sous son prix d'émission pèse sur le moral du marché des introductions et sur les commissions des banques placeuses. Les teneurs de marché surveillent le risque de gap sur les valeurs très pondérées.",
+     "interview": {
+      "question": "Un titre qui avait bondi de 30 % reperd une partie de ses gains, et une introduction en Bourse passe sous son prix d'émission : que dit cette séquence sur la volatilité, la liquidité et le risque de gap ?",
+      "hints": [
+       "Rebond technique et reflux : rôle des positions vendeuses à découvert.",
+       "Prix d'introduction comme seuil psychologique et rôle de la stabilisation.",
+       "Volatilité implicite après un événement binaire.",
+       "Impact sur les produits à barrière et leur couverture."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Stabilisation",
+       "definition": "Intervention des banques placeuses après une introduction en Bourse pour limiter la baisse du cours dans les premiers jours, souvent grâce à une option de surallocation."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US tech stocks slide as Jensen Huang return rally fades",
+       "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Anthropic's stock just broke below its IPO price for the first time",
+       "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Nvidia's stock drops as these major questions loom over Jensen Huang's return",
+       "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-these-major-questions-loom-over-jensen-huangs-return-9096636f?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Jensen Huang réintégré chez Nvidia : ce qu'il faut en retenir",
+       "url": "https://www.lemonde.fr/international/live/2026/11/24/jensen-huang-reintegre-chez-nvidia-ce-qu-il-faut-en-retenir_6814407_3210.html",
+       "source": "Le Monde"
+      }
+     ]
+    },
+    {
+     "title": "Détente obligataire : le 10 ans américain à 4,92 %, le 10 ans français à 4,77 %",
+     "theme": "credit_sovereign",
+     "lead": "Les rendements baissent nettement dans le sillage de la correction des actions, ce qui réduit l'écart OAT-Bund à environ 144 points de base.",
+     "what": "Nos données donnent le 10 ans américain à 4,92 % le 20 novembre (-12 points de base sur la journée, -23 sur une semaine, -21 sur un mois) et le 2 ans à 4,63 % (-13 ; -25 sur une semaine). En Europe, le TEC 10 français est à 4,766 % le 24 novembre (-6,5 points de base, -14,7 sur une semaine, -28,2 sur un mois), le TEC 2 ans à 3,555 % et le Bund 10 ans à 3,33 % (-4) : l'écart OAT-Bund est d'environ 144 points de base. Le taux de dépôt de la BCE est à 2,5 % et l'EUR/USD à 1,0963. L'Agefi indiquait le 20 novembre que, dans la correction des actions, les investisseurs se tournaient vers les emprunts d'État.",
+     "why": "Quand les actions chutent, les investisseurs achètent des obligations d'État, ce qui fait monter leurs prix et baisser leurs rendements : c'est le mouvement de refuge, qui s'est inversé par rapport aux semaines précédentes où actions et obligations baissaient ensemble. Une baisse du 2 ans plus forte que celle du 10 ans, ici -25 points contre -23 sur une semaine, indique que les marchés réduisent leurs anticipations de hausses de la Fed, ce qui est cohérent avec les craintes de récession évoquées par plusieurs gérants. Ces mouvements restent des lectures de marché, et nos séries américaines s'arrêtent au 20 novembre.",
+     "impact": "Des rendements plus bas augmentent le prix des obligations existantes, ce qui soulage les portefeuilles des banques et des assureurs. Pour les notes à capital protégé, un zéro-coupon plus cher réduit le budget de l'option : la participation ou le coupon proposé baisse. Le resserrement du spread OAT-Bund réduit le coût de financement des banques et entreprises françaises, donc le coût de la jambe obligataire des produits structurés émis par des banques françaises. En revanche, si la baisse des rendements reflète des craintes de récession, la qualité du crédit des entreprises peut se dégrader.",
+     "interview": {
+      "question": "Pourquoi les rendements des emprunts d'État baissent-ils quand les actions corrigent, et que signifie une baisse du 2 ans plus forte que celle du 10 ans ?",
+      "hints": [
+       "Réflexe de refuge et relation prix-rendement.",
+       "Anticipations de taux directeurs et pente de la courbe.",
+       "Spread OAT-Bund et coût de financement des banques.",
+       "Effet sur le prix des notes à capital protégé."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Aplatissement de la courbe",
+       "definition": "Réduction de l'écart de rendement entre échéances longues et courtes, souvent liée à des anticipations de ralentissement économique."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Les places boursières corrigent à l'unisson",
+       "url": "https://www.agefi.fr/news/economie-marches/les-places-boursieres-corrigent-a-lunisson",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Deux OPA, deux primes : Sanofi-Insmed et HLD-Clariane",
+     "theme": "equities",
+     "lead": "Une acquisition de 41 milliards de dollars et une offre sur Clariane à 4,60 € par action illustrent la façon dont les primes de contrôle se fixent.",
+     "what": "Selon L'Agefi, Sanofi veut acquérir l'américain Insmed pour 41 milliards de dollars, avec une prime de plus de 40 % sur le cours du 18 novembre, qui ne semble pas inquiéter les investisseurs. Par ailleurs, HLD va lancer une offre publique d'achat simplifiée sur Clariane à 4,60 euros par action, soit une prime de 38,3 %, avec le soutien de Crédit Agricole Assurances, les deux premiers actionnaires de l'ex-Korian mettant en place une action de concert. Le FT note aussi que les banques regagnent du terrain dans le crédit privé : pour les emprunteurs, la coexistence des prêteurs bancaires et non bancaires crée une fenêtre d'opportunité.",
+     "why": "Une prime d'offre est l'écart entre le prix proposé et le cours de référence avant l'annonce : elle rémunère les actionnaires qui cèdent le contrôle. Une prime de 40 % est courante dans les acquisitions, mais son niveau dépend de la valeur stratégique et de la concurrence potentielle. Une OPA simplifiée est une procédure qui s'applique lorsque le groupe qui lance l'offre détient déjà une part importante du capital, ce qui en facilite le calendrier. Les sources ne donnent pas ici le détail du financement des deux opérations, mais l'accès au crédit, bancaire ou privé, conditionne ce type d'offre.",
+     "impact": "Pour les actionnaires de la cible, le cours converge vers le prix d'offre : la volatilité implicite chute, ce qui change la valeur des options et des produits structurés indexés sur le titre (un autocall sur une cible d'OPA est souvent rappelé ou perd sa convexité). Pour les arbitragistes de fusion, l'écart entre cours et prix d'offre mesure le risque que l'opération échoue. Les banques conseil et prêteuses touchent des commissions ; le financement par dette pèse sur le crédit de l'acquéreur. Dans un marché volatil, des primes élevées signalent que certaines valeurs paraissent bon marché aux acquéreurs stratégiques.",
+     "interview": {
+      "question": "Comment une OPA modifie-t-elle le comportement du cours d'une cible, la volatilité implicite et un produit structuré indexé sur son action ?",
+      "hints": [
+       "Prime d'offre et convergence du cours vers le prix proposé.",
+       "Spread d'arbitrage de fusion et probabilité de succès.",
+       "Volatilité implicite qui s'effondre.",
+       "Effet sur un autocall ou une note à barrière."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Arbitrage de fusion",
+       "definition": "Stratégie qui consiste à acheter l'action d'une cible d'OPA pour capter l'écart entre son cours et le prix d'offre, en prenant le risque que l'opération échoue."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Sanofi veut s'offrir l'américain Insmed pour 41 milliards de dollars",
+       "url": "https://www.agefi.fr/news/entreprises/sanofi-veut-soffrir-lamericain-insmed-pour-41-milliards-de-dollars",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "HLD va lancer une offre publique sur Clariane avec le soutien de Crédit Agricole Assurances",
+       "url": "https://www.agefi.fr/news/entreprises/hld-va-lancer-une-offre-publique-dachat-avec-le-soutien-de-credit-agricole-assurances",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Banks regain some ground in the private credit tug of war",
+       "url": "https://www.ft.com/content/bf403337-6e87-4aba-a306-17d63fbf1a81?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "SEC : les investisseurs contestent la fin de la règle sur les résolutions d'actionnaires",
+     "theme": "regulation",
+     "lead": "Le fonds souverain norvégien et un fonds de pension danois s'opposent au projet du régulateur américain, tandis que la réforme de la transparence des rémunérations divise.",
+     "what": "Selon L'Agefi, NBIM (le fonds souverain norvégien) et Akademiker (un fonds de pension danois) s'opposent au projet de la SEC de supprimer la règle américaine sur les résolutions d'actionnaires ; le premier se dit toutefois ouvert à des aménagements ciblés. Le FT écrit que la proposition allégée de la SEC sur la transparence des rémunérations des dirigeants plaira aux entreprises, mais pas nécessairement aux actionnaires. Le FT avait aussi relevé que les poursuites de la SEC contre les sociétés cotées étaient à un plus bas depuis 2010. Les détails de la proposition ne figurent pas dans les résumés disponibles.",
+     "why": "Une résolution d'actionnaire est une proposition soumise au vote de l'assemblée générale par des actionnaires, par exemple sur la gouvernance ou le climat. La règle américaine encadre qui peut en déposer et comment elles figurent dans les documents de vote. La supprimer réduirait les leviers des actionnaires minoritaires, ce que contestent de grands investisseurs comme NBIM. La SEC arbitre entre le coût de conformité pour les entreprises et le droit des actionnaires à être informés ; ce débat est ancien et ses positions sont des opinions.",
+     "impact": "Une gouvernance moins contrainte peut réduire les coûts des entreprises, mais augmente le risque perçu par les investisseurs, ce qui peut se traduire par une prime de risque plus élevée sur les actions concernées. Pour les grands investisseurs institutionnels, qui détiennent des indices entiers, l'enjeu est de conserver des moyens d'influence : leurs critères de gouvernance pèsent sur les flux. Pour les banques et les émetteurs, des règles de transparence plus légères réduisent les coûts mais exposent à un risque de réputation en cas de scandale. Cela n'a pas d'effet direct sur le prix des produits structurés, mais influence la perception du risque des sous-jacents.",
+     "interview": {
+      "question": "Pourquoi la possibilité pour les actionnaires de déposer des résolutions est-elle importante pour la gouvernance, et que perdent-ils si la règle est supprimée ?",
+      "hints": [
+       "Droits des actionnaires minoritaires et assemblées générales.",
+       "Coûts de conformité pour les entreprises.",
+       "Rôle des grands investisseurs institutionnels.",
+       "Lien avec la prime de risque et la réputation."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Résolution d'actionnaire",
+       "definition": "Proposition soumise au vote de l'assemblée générale par des actionnaires sur un sujet de gouvernance, de stratégie ou de responsabilité sociale."
+      }
+     ],
+     "sources": [
+      {
+       "title": "NBIM et Akademiker contestent la suppression de la règle américaine sur les résolutions d'actionnaires",
+       "url": "https://www.agefi.fr/investisseurs-institutionnels/actualites/nbim-et-akademiker-contestent-la-suppression-de-la-regle-americaine-sur-les-resolutions-dactionnaires",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Yes, pay disclosure rules need a rethink. But the SEC is not helping investors",
+       "url": "https://www.ft.com/content/3740b4ad-0ab2-47cb-8369-a0a3562e370a?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-24",
    "generated_at": "2026-11-24T05:55:00+00:00",
    "brief": [
@@ -3450,5 +3613,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-24T05:55:00+00:00"
+ "updated_at": "2026-11-25T05:55:00+00:00"
 }
