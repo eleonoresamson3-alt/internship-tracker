@@ -1,13 +1,46 @@
 {
- "generated_at": "2026-11-24T14:54:21+00:00",
- "date": "2026-11-24",
+ "generated_at": "2026-11-25T14:26:12+00:00",
+ "date": "2026-11-25",
  "jobs": [
   {
-   "id": "kpmg-794c3e9febaa",
-   "employer": "KPMG",
-   "employer_type": "consulting",
-   "platform": "radancy",
-   "title": "Stagiaire Evaluation et modélisation financière - Nantes H/F",
+   "id": "jpmorgan-2a52fdcf273d",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Market Risk Management Internship - Emerging Talent Summer Experience Program",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Risk",
+   "role_level": "high",
+   "score": 62,
+   "score_breakdown": {
+    "role": 50,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811859",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true
+  },
+  {
+   "id": "groupe-credit-agricole-a11a9b0984fe",
+   "employer": "Groupe Crédit Agricole",
+   "employer_type": "french_bank",
+   "platform": "generic",
+   "title": "Stage - Ingénierie quantitative - produit structurés cross assets H/F",
    "location": "",
    "countries": [
     "FR"
@@ -17,30 +50,30 @@
    ],
    "region": "France",
    "family": "Pricing / Quant",
-   "role_level": "high",
-   "score": 80,
+   "role_level": "medium",
+   "score": 60,
    "score_breakdown": {
-    "role": 50,
+    "role": 30,
     "geo": 30,
     "city": 0,
     "timing": 0
    },
    "timing": "unknown",
    "start": "",
-   "deadline": "2027-03-31",
+   "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://emplois.kpmg.fr/emploi/nantes/stagiaire-evaluation-et-modelisation-financiere-nantes-h-f/2913/17000481856",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ingenierie-quantitative---produit-structures-cross-assets-hf-reference--2026-117795--/",
    "posted_at": "",
-   "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-f66844790e49",
+   "id": "groupe-credit-agricole-f9bbbc4ed167",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
    "platform": "generic",
-   "title": "STAGE - Assistant ingénieur financier H/F",
+   "title": "Stage - Assistant d'administration de portefeuille H/F",
    "location": "",
    "countries": [
     "FR"
@@ -62,89 +95,23 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-137-stage---assistant-ingenieur-financier-hf-reference--2026-117747--/",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage---assistant-d-administration-de-portefeuille-hf-reference--2026-117798--/",
    "posted_at": "",
-   "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-c6ddeb3d0279",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "STAGE - Reporting Officer - Private Equity, Real Estate Solutions H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170463-136-stage---reporting-officer---private-equity-real-estate-solutions-hf-reference--2026-116464--/",
-   "posted_at": "",
-   "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-04d31667e540",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Data Analyst & ALM Liquidité H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Risk",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170479-3-stage---data-analyst-et-alm-liquidite-hf-reference--2026-117733--/",
-   "posted_at": "",
-   "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
-   "active": true
-  },
-  {
-   "id": "amundi-1d223aedc901",
+   "id": "amundi-272cbca2fe3f",
    "employer": "Amundi",
    "employer_type": "asset_manager",
    "platform": "generic",
-   "title": "Stage - Expertise applicatif Front Office - Commando Asset Management Software H/F",
+   "title": "Stage - Ingénierie quantitative - produit structurés cross assets H/F",
    "location": "",
    "countries": [],
    "country_names": [],
    "region": "Unknown",
-   "family": "Trading",
+   "family": "Pricing / Quant",
    "role_level": "medium",
    "score": 30,
    "score_breakdown": {
@@ -157,18 +124,117 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-expertise-applicatif-front-office-commando-asset-management-software-h-f_117696.aspx",
+   "url": "https://jobs.amundi.com/job/job-stage-ingenierie-quantitative-produit-structures-cross-assets-h-f_117795.aspx",
    "posted_at": "",
-   "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
    "active": true
   },
   {
-   "id": "amundi-c5f906b58ea1",
+   "id": "ey-8c5628384b78",
+   "employer": "EY",
+   "employer_type": "consulting",
+   "platform": "successfactors",
+   "title": "Internship - Business Consulting - Finance",
+   "location": "Zurich, CH, 8005",
+   "countries": [
+    "CH"
+   ],
+   "country_names": [
+    "Switzerland"
+   ],
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 30,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 20,
+    "city": 0,
+    "timing": 0
+   },
+   "timing": "unknown",
+   "start": "",
+   "deadline": "2027-03-31",
+   "deadline_source": "estimée",
+   "url": "https://careers.ey.com/ey/job/Zurich-Internship-Business-Consulting-Finance-8005/1460332933/",
+   "posted_at": "",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-be6c6d940f48",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Latin American Debt Capital Markets Analyst Internship – Emerging Talent Summer Experience Program",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811409",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true
+  },
+  {
+   "id": "jpmorgan-5c62aedc7e3e",
+   "employer": "JPMorgan",
+   "employer_type": "intl_bank",
+   "platform": "oracle",
+   "title": "2027 Market Sales Analyst Internship – Emerging Talent Summer Experience Program",
+   "location": "New York, NY, United States",
+   "countries": [
+    "US"
+   ],
+   "country_names": [
+    "United States"
+   ],
+   "region": "Rest of world",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 22,
+   "score_breakdown": {
+    "role": 10,
+    "geo": 0,
+    "city": 0,
+    "timing": 12
+   },
+   "timing": "summer",
+   "start": "2027",
+   "deadline": "2026-11-30",
+   "deadline_source": "estimée",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811687",
+   "posted_at": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true
+  },
+  {
+   "id": "amundi-2efed82b3f7c",
    "employer": "Amundi",
    "employer_type": "asset_manager",
    "platform": "generic",
-   "title": "Stagiaire Assistant sales clientèle Corporates H/F",
+   "title": "Stage - Assistant d'administration de portefeuille H/F",
    "location": "",
    "countries": [],
    "country_names": [],
@@ -186,43 +252,10 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stagiaire-assistant-sales-clientele-corporates-h-f_117701.aspx",
+   "url": "https://jobs.amundi.com/job/job-stage-assistant-d-administration-de-portefeuille-h-f_117798.aspx",
    "posted_at": "",
-   "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
-   "active": true
-  },
-  {
-   "id": "point72-90e816c847b7",
-   "employer": "Point72",
-   "employer_type": "hedge_fund",
-   "platform": "greenhouse",
-   "title": "2027 Asia Economist Intern",
-   "location": "Singapore; Singapore, Central, Singapore",
-   "countries": [
-    "SG"
-   ],
-   "country_names": [
-    "Singapore"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 10,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "2027",
-   "deadline": "",
-   "deadline_source": "",
-   "url": "https://boards.greenhouse.io/point72/jobs/8959709002?gh_jid=8959709002",
-   "posted_at": "2026-11-24",
-   "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
    "active": true
   }
  ]

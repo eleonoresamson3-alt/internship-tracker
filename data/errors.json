@@ -1,401 +1,408 @@
 {
- "generated_at": "2026-11-24T14:54:21+00:00",
+ "generated_at": "2026-11-25T14:26:12+00:00",
  "employers_total": 143,
- "employers_failed": 54,
+ "employers_failed": 55,
  "errors": [
   {
    "employer": "Morgan Stanley",
    "platform": "workday",
    "careers_url": "https://www.morganstanley.com/careers/students-graduates",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
-   "at": "2026-11-24T14:54:21+00:00"
+   "at": "2026-11-25T14:26:12+00:00"
   },
   {
    "employer": "Citi",
    "platform": "workday",
    "careers_url": "https://jobs.citi.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
-   "at": "2026-11-24T14:54:21+00:00"
+   "at": "2026-11-25T14:26:12+00:00"
   },
   {
    "employer": "Barclays",
    "platform": "workday",
    "careers_url": "https://search.jobs.barclays/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/jobs",
-   "at": "2026-11-24T14:54:21+00:00"
+   "at": "2026-11-25T14:26:12+00:00"
   },
   {
    "employer": "Deutsche Bank",
    "platform": "workday",
    "careers_url": "https://careers.db.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebsite/jobs",
-   "at": "2026-11-24T14:54:21+00:00"
+   "at": "2026-11-25T14:26:12+00:00"
   },
   {
    "employer": "Mizuho",
    "platform": "workday",
    "careers_url": "https://www.mizuhogroup.com/emea/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mizuho.wd1.myworkdayjobs.com/wday/cxs/mizuho/mizuhoamericas/jobs",
-   "at": "2026-11-24T14:54:23+00:00"
+   "at": "2026-11-25T14:26:14+00:00"
   },
   {
    "employer": "MUFG",
    "platform": "workday",
    "careers_url": "https://www.mufgemea.com/careers/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mufgub.wd3.myworkdayjobs.com/wday/cxs/mufgub/MUFG-Careers/jobs",
-   "at": "2026-11-24T14:54:23+00:00"
+   "at": "2026-11-25T14:26:15+00:00"
   },
   {
    "employer": "Santander CIB",
    "platform": "workday",
    "careers_url": "https://www.santandercib.com/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://santander.wd3.myworkdayjobs.com/wday/cxs/santander/SantanderCareers/jobs",
-   "at": "2026-11-24T14:54:31+00:00"
+   "at": "2026-11-25T14:26:21+00:00"
   },
   {
    "employer": "RBC Capital Markets",
    "platform": "workday",
    "careers_url": "https://jobs.rbc.com/ca/en",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://rbc.wd3.myworkdayjobs.com/wday/cxs/rbc/RBCGLOBAL1/jobs",
-   "at": "2026-11-24T14:54:38+00:00"
+   "at": "2026-11-25T14:26:29+00:00"
   },
   {
    "employer": "State Street",
    "platform": "workday",
    "careers_url": "https://careers.statestreet.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
-   "at": "2026-11-24T14:54:40+00:00"
+   "at": "2026-11-25T14:26:31+00:00"
   },
   {
    "employer": "Lloyds Banking Group",
    "platform": "workday",
    "careers_url": "https://www.lloydsbankinggroup.com/careers.html",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lbg.wd3.myworkdayjobs.com/wday/cxs/lbg/lbg_Careers/jobs",
-   "at": "2026-11-24T14:54:40+00:00"
+   "at": "2026-11-25T14:26:33+00:00"
   },
   {
    "employer": "TD Securities",
    "platform": "workday",
    "careers_url": "https://jobs.td.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://td.wd3.myworkdayjobs.com/wday/cxs/td/TD_Bank_Careers/jobs",
-   "at": "2026-11-24T14:54:49+00:00"
+   "at": "2026-11-25T14:26:39+00:00"
   },
   {
    "employer": "Daiwa",
    "platform": "teamtailor",
    "careers_url": "https://www.daiwa-cm.com/careers",
    "error": "RobotsDisallowed: robots.txt disallows https://daiwa.teamtailor.com/jobs.rss",
-   "at": "2026-11-24T14:54:56+00:00"
+   "at": "2026-11-25T14:26:47+00:00"
   },
   {
    "employer": "BlackRock",
    "platform": "workday",
    "careers_url": "https://careers.blackrock.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://blackrock.wd1.myworkdayjobs.com/wday/cxs/blackrock/BlackRock_Professional/jobs",
-   "at": "2026-11-24T14:55:00+00:00"
+   "at": "2026-11-25T14:26:51+00:00"
   },
   {
    "employer": "PIMCO",
    "platform": "workday",
    "careers_url": "https://www.pimco.com/en-us/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://pimco.wd1.myworkdayjobs.com/wday/cxs/pimco/pimco-careers/jobs",
-   "at": "2026-11-24T14:55:03+00:00"
+   "at": "2026-11-25T14:26:54+00:00"
   },
   {
    "employer": "Fidelity International",
    "platform": "workday",
    "careers_url": "https://careers.fidelityinternational.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://fil.wd3.myworkdayjobs.com/wday/cxs/fil/001/jobs",
-   "at": "2026-11-24T14:55:07+00:00"
+   "at": "2026-11-25T14:26:58+00:00"
   },
   {
    "employer": "Invesco",
    "platform": "workday",
    "careers_url": "https://careers.invesco.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://invesco.wd1.myworkdayjobs.com/wday/cxs/invesco/IVZ/jobs",
-   "at": "2026-11-24T14:55:07+00:00"
+   "at": "2026-11-25T14:26:58+00:00"
   },
   {
    "employer": "M&G",
    "platform": "workday",
    "careers_url": "https://www.mandg.com/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mgpru.wd3.myworkdayjobs.com/wday/cxs/mgpru/mandgprudential/jobs",
-   "at": "2026-11-24T14:55:09+00:00"
+   "at": "2026-11-25T14:27:01+00:00"
   },
   {
    "employer": "Aviva Investors",
    "platform": "workday",
    "careers_url": "https://www.avivainvestors.com/en-gb/about/careers/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://aviva.wd1.myworkdayjobs.com/wday/cxs/aviva/Aviva_Investors_External/jobs",
-   "at": "2026-11-24T14:55:09+00:00"
+   "at": "2026-11-25T14:27:02+00:00"
   },
   {
    "employer": "Arrowstreet Capital",
    "platform": "workday",
    "careers_url": "https://www.arrowstreetcapital.com/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://arrowstreetcapital.wd5.myworkdayjobs.com/wday/cxs/arrowstreetcapital/Campus_Careers/jobs",
-   "at": "2026-11-24T14:55:14+00:00"
+   "at": "2026-11-25T14:27:04+00:00"
   },
   {
    "employer": "EDF Trading",
    "platform": "workday",
    "careers_url": "https://www.edftrading.com/careers/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://edftrading.wd1.myworkdayjobs.com/wday/cxs/edftrading/EDFTrading/jobs",
-   "at": "2026-11-24T14:55:49+00:00"
+   "at": "2026-11-25T14:27:32+00:00"
   },
   {
    "employer": "Trafigura",
    "platform": "workday",
    "careers_url": "https://www.trafigura.com/careers/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://trafigura.wd3.myworkdayjobs.com/wday/cxs/trafigura/TrafiguraCareerSite/jobs",
-   "at": "2026-11-24T14:55:51+00:00"
+   "at": "2026-11-25T14:27:33+00:00"
   },
   {
    "employer": "Gunvor",
    "platform": "workday",
    "careers_url": "https://gunvorgroup.com/careers/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://gunvor.wd3.myworkdayjobs.com/wday/cxs/gunvor/Gunvor_Careers/jobs",
-   "at": "2026-11-24T14:55:52+00:00"
+   "at": "2026-11-25T14:27:35+00:00"
   },
   {
    "employer": "Shell Trading",
    "platform": "workday",
    "careers_url": "https://www.shell.com/careers.html",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://shell.wd3.myworkdayjobs.com/wday/cxs/shell/ShellCareers/jobs",
-   "at": "2026-11-24T14:55:53+00:00"
+   "at": "2026-11-25T14:27:37+00:00"
   },
   {
    "employer": "Euronext",
    "platform": "workday",
    "careers_url": "https://www.euronext.com/en/about/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hrhub.wd3.myworkdayjobs.com/wday/cxs/hrhub/Euronext_Career_Page/jobs",
-   "at": "2026-11-24T14:55:54+00:00"
+   "at": "2026-11-25T14:27:38+00:00"
   },
   {
    "employer": "LSEG",
    "platform": "workday",
    "careers_url": "https://www.lseg.com/en/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lseg.wd3.myworkdayjobs.com/wday/cxs/lseg/Careers/jobs",
-   "at": "2026-11-24T14:55:55+00:00"
+   "at": "2026-11-25T14:27:39+00:00"
   },
   {
    "employer": "CME Group",
    "platform": "workday",
    "careers_url": "https://www.cmegroup.com/careers.html",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cmegroup.wd1.myworkdayjobs.com/wday/cxs/cmegroup/cme_careers/jobs",
-   "at": "2026-11-24T14:55:57+00:00"
+   "at": "2026-11-25T14:27:40+00:00"
   },
   {
    "employer": "Murex",
    "platform": "workday",
    "careers_url": "https://www.murex.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://murex.wd3.myworkdayjobs.com/wday/cxs/murex/MurexCareerPage1/jobs",
-   "at": "2026-11-24T14:55:58+00:00"
+   "at": "2026-11-25T14:27:49+00:00"
   },
   {
    "employer": "S&P Global",
    "platform": "workday",
    "careers_url": "https://careers.spglobal.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://spgi.wd5.myworkdayjobs.com/wday/cxs/spgi/SPGI_Careers/jobs",
-   "at": "2026-11-24T14:56:09+00:00"
+   "at": "2026-11-25T14:27:53+00:00"
   },
   {
    "employer": "Banque de France",
    "platform": "workday",
    "careers_url": "https://www.banque-france.fr/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://bdf.wd103.myworkdayjobs.com/wday/cxs/bdf/recrutement-banque-de-France/jobs",
-   "at": "2026-11-24T14:56:13+00:00"
+   "at": "2026-11-25T14:27:57+00:00"
   },
   {
    "employer": "FCA",
    "platform": "workday",
    "careers_url": "https://www.fca.org.uk/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://fca.wd3.myworkdayjobs.com/wday/cxs/fca/FCA_Careers/jobs",
-   "at": "2026-11-24T14:56:23+00:00"
+   "at": "2026-11-25T14:28:07+00:00"
   },
   {
    "employer": "PwC",
    "platform": "workday",
    "careers_url": "https://www.pwc.fr/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Campus_Careers/jobs",
-   "at": "2026-11-24T14:56:31+00:00"
+   "at": "2026-11-25T14:28:10+00:00"
   },
   {
    "employer": "Accenture",
    "platform": "workday",
    "careers_url": "https://www.accenture.com/fr-fr/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/jobs",
-   "at": "2026-11-24T14:56:32+00:00"
+   "at": "2026-11-25T14:28:15+00:00"
   },
   {
    "employer": "Lombard Odier",
    "platform": "workday",
    "careers_url": "https://www.lombardodier.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://lombardodier.wd3.myworkdayjobs.com/wday/cxs/lombardodier/Lombard_Odier_Careers/jobs",
-   "at": "2026-11-24T14:56:35+00:00"
+   "at": "2026-11-25T14:28:19+00:00"
   },
   {
    "employer": "Vontobel",
    "platform": "workday",
    "careers_url": "https://www.vontobel.com/en-ch/about-vontobel/careers/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://vontobel.wd3.myworkdayjobs.com/wday/cxs/vontobel/Vontobel_External_Career/jobs",
-   "at": "2026-11-24T14:56:37+00:00"
+   "at": "2026-11-25T14:28:20+00:00"
   },
   {
    "employer": "BBVA",
    "platform": "workday",
    "careers_url": "https://careers.bbva.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://bbva.wd3.myworkdayjobs.com/wday/cxs/bbva/BBVA/jobs",
-   "at": "2026-11-24T14:56:53+00:00"
+   "at": "2026-11-25T14:28:33+00:00"
   },
   {
    "employer": "Muzinich",
    "platform": "workday",
    "careers_url": "https://www.muzinich.com/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://muzinich.wd5.myworkdayjobs.com/wday/cxs/muzinich/muzinichcareers/jobs",
-   "at": "2026-11-24T14:56:58+00:00"
+   "at": "2026-11-25T14:28:37+00:00"
   },
   {
    "employer": "Nasdaq (Calypso / Adenza)",
    "platform": "workday",
    "careers_url": "https://www.nasdaq.com/about/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs",
-   "at": "2026-11-24T14:57:10+00:00"
+   "at": "2026-11-25T14:28:47+00:00"
   },
   {
    "employer": "Commonwealth Bank",
    "platform": "workday",
    "careers_url": "https://www.commbank.com.au/about-us/careers.html",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://cba.wd3.myworkdayjobs.com/wday/cxs/cba/CommBank_Careers/jobs",
-   "at": "2026-11-24T14:57:12+00:00"
+   "at": "2026-11-25T14:28:51+00:00"
   },
   {
    "employer": "AllianceBernstein",
    "platform": "workday",
    "careers_url": "https://www.alliancebernstein.com/corporate/en/careers.html",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://abglobal.wd1.myworkdayjobs.com/wday/cxs/abglobal/alliancebernsteincareers/jobs",
-   "at": "2026-11-24T14:57:14+00:00"
+   "at": "2026-11-25T14:28:53+00:00"
+  },
+  {
+   "employer": "Wellington Management",
+   "platform": "workday",
+   "careers_url": "https://www.wellington.com/en/careers",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://wellington.wd5.myworkdayjobs.com/wday/cxs/wellington/External/jobs",
+   "at": "2026-11-25T14:28:53+00:00"
   },
   {
    "employer": "T. Rowe Price",
    "platform": "workday",
    "careers_url": "https://www.troweprice.com/corporate/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://troweprice.wd5.myworkdayjobs.com/wday/cxs/troweprice/TRowePrice/jobs",
-   "at": "2026-11-24T14:57:19+00:00"
+   "at": "2026-11-25T14:28:57+00:00"
   },
   {
    "employer": "Capital Group",
    "platform": "workday",
    "careers_url": "https://www.capitalgroup.com/about-us/careers.html",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://capgroup.wd1.myworkdayjobs.com/wday/cxs/capgroup/capitalgroupcareers/jobs",
-   "at": "2026-11-24T14:57:30+00:00"
+   "at": "2026-11-25T14:29:03+00:00"
   },
   {
    "employer": "Northern Trust",
    "platform": "workday",
    "careers_url": "https://careers.northerntrust.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs",
-   "at": "2026-11-24T14:57:30+00:00"
+   "at": "2026-11-25T14:29:09+00:00"
   },
   {
    "employer": "Aberdeen",
    "platform": "workday",
    "careers_url": "https://www.aberdeenplc.com/en-gb/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://abrdn.wd3.myworkdayjobs.com/wday/cxs/abrdn/abrdn/jobs",
-   "at": "2026-11-24T14:57:33+00:00"
+   "at": "2026-11-25T14:29:09+00:00"
   },
   {
    "employer": "Kering",
    "platform": "workday",
    "careers_url": "https://www.kering.com/en/talent/job-offers/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://kering.wd3.myworkdayjobs.com/wday/cxs/kering/Kering/jobs",
-   "at": "2026-11-24T14:57:39+00:00"
+   "at": "2026-11-25T14:29:13+00:00"
   },
   {
    "employer": "Pernod Ricard",
    "platform": "workday",
    "careers_url": "https://www.pernod-ricard.com/en/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://pernodricard.wd3.myworkdayjobs.com/wday/cxs/pernodricard/pernod-ricard/jobs",
-   "at": "2026-11-24T14:57:41+00:00"
+   "at": "2026-11-25T14:29:13+00:00"
   },
   {
    "employer": "Airbus",
    "platform": "workday",
    "careers_url": "https://www.airbus.com/en/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
-   "at": "2026-11-24T14:57:43+00:00"
+   "at": "2026-11-25T14:29:16+00:00"
   },
   {
    "employer": "Thales",
    "platform": "workday",
    "careers_url": "https://careers.thalesgroup.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://thales.wd3.myworkdayjobs.com/wday/cxs/thales/Careers/jobs",
-   "at": "2026-11-24T14:57:47+00:00"
+   "at": "2026-11-25T14:29:26+00:00"
   },
   {
    "employer": "Michelin",
    "platform": "workday",
    "careers_url": "https://recrutement.michelin.fr/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://michelinhr.wd3.myworkdayjobs.com/wday/cxs/michelinhr/Michelin/jobs",
-   "at": "2026-11-24T14:57:47+00:00"
+   "at": "2026-11-25T14:29:28+00:00"
   },
   {
    "employer": "Sanofi",
    "platform": "workday",
    "careers_url": "https://jobs.sanofi.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://sanofi.wd3.myworkdayjobs.com/wday/cxs/sanofi/SanofiCareers/jobs",
-   "at": "2026-11-24T14:57:57+00:00"
+   "at": "2026-11-25T14:29:32+00:00"
   },
   {
    "employer": "Air Liquide",
    "platform": "workday",
    "careers_url": "https://www.airliquide.com/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://airliquidehr.wd3.myworkdayjobs.com/wday/cxs/airliquidehr/AirLiquideExternalCareer/jobs",
-   "at": "2026-11-24T14:58:01+00:00"
+   "at": "2026-11-25T14:29:32+00:00"
   },
   {
    "employer": "Unilever",
    "platform": "workday",
    "careers_url": "https://careers.unilever.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://unilever.wd3.myworkdayjobs.com/wday/cxs/unilever/Unilever_Experienced_Professionals/jobs",
-   "at": "2026-11-24T14:58:05+00:00"
+   "at": "2026-11-25T14:29:44+00:00"
   },
   {
    "employer": "Novartis",
    "platform": "workday",
    "careers_url": "https://www.novartis.com/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/jobs",
-   "at": "2026-11-24T14:58:20+00:00"
+   "at": "2026-11-25T14:29:59+00:00"
   },
   {
    "employer": "Philips",
    "platform": "workday",
    "careers_url": "https://www.careers.philips.com/",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://philips.wd3.myworkdayjobs.com/wday/cxs/philips/jobs-and-careers/jobs",
-   "at": "2026-11-24T14:58:22+00:00"
+   "at": "2026-11-25T14:30:02+00:00"
   },
   {
    "employer": "Diageo",
    "platform": "workday",
    "careers_url": "https://www.diageo.com/en/careers",
    "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://diageo.wd3.myworkdayjobs.com/wday/cxs/diageo/Diageo_Careers/jobs",
-   "at": "2026-11-24T14:58:24+00:00"
+   "at": "2026-11-25T14:30:04+00:00"
   }
  ],
  "stats": [
   {
    "employer": "Groupe Crédit Agricole",
-   "fetched": 13,
-   "kept": 3
+   "fetched": 9,
+   "kept": 2
   },
   {
    "employer": "JPMorgan",
-   "fetched": 579,
-   "kept": 19
+   "fetched": 580,
+   "kept": 22
   },
   {
    "employer": "Bank of America",
-   "fetched": 8,
+   "fetched": 9,
    "kept": 2
   },
   {
@@ -410,7 +417,7 @@
   },
   {
    "employer": "BNY",
-   "fetched": 341,
+   "fetched": 338,
    "kept": 14
   },
   {
@@ -430,13 +437,13 @@
   },
   {
    "employer": "Kepler Cheuvreux",
-   "fetched": 4,
+   "fetched": 3,
    "kept": 3
   },
   {
    "employer": "Amundi",
-   "fetched": 33,
-   "kept": 10
+   "fetched": 34,
+   "kept": 11
   },
   {
    "employer": "Rothschild & Co",
@@ -470,7 +477,7 @@
   },
   {
    "employer": "Qube Research & Technologies",
-   "fetched": 207,
+   "fetched": 208,
    "kept": 4
   },
   {
@@ -480,22 +487,22 @@
   },
   {
    "employer": "Optiver",
-   "fetched": 147,
+   "fetched": 146,
    "kept": 8
   },
   {
    "employer": "IMC",
-   "fetched": 153,
+   "fetched": 152,
    "kept": 11
   },
   {
    "employer": "Flow Traders",
-   "fetched": 43,
+   "fetched": 44,
    "kept": 3
   },
   {
    "employer": "Hudson River Trading",
-   "fetched": 85,
+   "fetched": 86,
    "kept": 3
   },
   {
@@ -515,18 +522,18 @@
   },
   {
    "employer": "Tower Research",
-   "fetched": 93,
+   "fetched": 92,
    "kept": 10
   },
   {
    "employer": "Jump Trading",
-   "fetched": 87,
+   "fetched": 86,
    "kept": 13
   },
   {
    "employer": "Point72",
-   "fetched": 201,
-   "kept": 19
+   "fetched": 199,
+   "kept": 17
   },
   {
    "employer": "Mako",
@@ -545,7 +552,7 @@
   },
   {
    "employer": "XTX Markets",
-   "fetched": 6,
+   "fetched": 7,
    "kept": 0
   },
   {
@@ -560,12 +567,12 @@
   },
   {
    "employer": "Virtu Financial",
-   "fetched": 42,
-   "kept": 5
+   "fetched": 41,
+   "kept": 4
   },
   {
    "employer": "Schonfeld",
-   "fetched": 66,
+   "fetched": 65,
    "kept": 5
   },
   {
@@ -580,7 +587,7 @@
   },
   {
    "employer": "Numerix",
-   "fetched": 9,
+   "fetched": 11,
    "kept": 0
   },
   {
@@ -595,13 +602,13 @@
   },
   {
    "employer": "SCOR",
-   "fetched": 145,
+   "fetched": 147,
    "kept": 10
   },
   {
    "employer": "Zurich",
-   "fetched": 290,
-   "kept": 6
+   "fetched": 291,
+   "kept": 5
   },
   {
    "employer": "BCE (ECB)",
@@ -615,13 +622,13 @@
   },
   {
    "employer": "Deloitte",
-   "fetched": 10,
-   "kept": 2
+   "fetched": 8,
+   "kept": 3
   },
   {
    "employer": "EY",
-   "fetched": 755,
-   "kept": 4
+   "fetched": 757,
+   "kept": 5
   },
   {
    "employer": "KPMG",
@@ -630,7 +637,7 @@
   },
   {
    "employer": "Forvis Mazars",
-   "fetched": 85,
+   "fetched": 88,
    "kept": 0
   },
   {
@@ -650,17 +657,17 @@
   },
   {
    "employer": "DZ Bank",
-   "fetched": 17,
+   "fetched": 16,
    "kept": 0
   },
   {
    "employer": "UniCredit",
-   "fetched": 14,
+   "fetched": 16,
    "kept": 6
   },
   {
    "employer": "Raiffeisen Bank International",
-   "fetched": 28,
+   "fetched": 26,
    "kept": 0
   },
   {
@@ -675,7 +682,7 @@
   },
   {
    "employer": "PDT Partners",
-   "fetched": 14,
+   "fetched": 15,
    "kept": 1
   },
   {
@@ -685,7 +692,7 @@
   },
   {
    "employer": "Belvedere Trading",
-   "fetched": 9,
+   "fetched": 10,
    "kept": 1
   },
   {
@@ -710,7 +717,7 @@
   },
   {
    "employer": "Capco",
-   "fetched": 692,
+   "fetched": 696,
    "kept": 0
   },
   {
@@ -720,7 +727,7 @@
   },
   {
    "employer": "Grant Thornton",
-   "fetched": 56,
+   "fetched": 57,
    "kept": 0
   },
   {
@@ -740,7 +747,7 @@
   },
   {
    "employer": "B2C2",
-   "fetched": 4,
+   "fetched": 5,
    "kept": 0
   },
   {
@@ -755,7 +762,7 @@
   },
   {
    "employer": "CaixaBank",
-   "fetched": 11,
+   "fetched": 13,
    "kept": 0
   },
   {
@@ -766,11 +773,6 @@
   {
    "employer": "Clear Street",
    "fetched": 33,
-   "kept": 0
-  },
-  {
-   "employer": "Wellington Management",
-   "fetched": 3,
    "kept": 0
   },
   {
@@ -795,7 +797,7 @@
   },
   {
    "employer": "Lynx Asset Management",
-   "fetched": 0,
+   "fetched": 1,
    "kept": 0
   },
   {
@@ -805,27 +807,27 @@
   },
   {
    "employer": "Orange",
-   "fetched": 100,
+   "fetched": 160,
    "kept": 0
   },
   {
    "employer": "Alstom",
-   "fetched": 397,
+   "fetched": 394,
    "kept": 1
   },
   {
    "employer": "Siemens",
-   "fetched": 24,
+   "fetched": 23,
    "kept": 0
   },
   {
    "employer": "Volkswagen Financial Services",
-   "fetched": 108,
+   "fetched": 113,
    "kept": 0
   },
   {
    "employer": "AB InBev",
-   "fetched": 57,
+   "fetched": 56,
    "kept": 0
   }
  ]
