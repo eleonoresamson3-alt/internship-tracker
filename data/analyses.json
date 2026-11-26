@@ -1,6 +1,174 @@
 {
  "days": [
   {
+   "date": "2026-11-26",
+   "generated_at": "2026-11-26T05:55:00+00:00",
+   "brief": [
+    "Inflation américaine : L'Agefi rapporte une inflation de 3,8 % en octobre (+0,3 % sur un mois, conforme aux attentes) ; selon MarketWatch, la mesure suivie par la Fed accélère à nouveau, ce qui rend quasi certaine une hausse de taux en décembre ; le PIB du troisième trimestre est révisé à 4,3 % en rythme annuel contre 3,4 % initialement.",
+    "Commerce : Donald Trump annonce de nouveaux droits de douane visant notamment la Chine, l'UE, le Japon et la Corée du Sud (FT), après l'annulation par la Cour suprême de droits plus larges plus tôt dans l'année (MarketWatch).",
+    "Actions : le FT annonce que la baisse s'accélère à Wall Street, le Nasdaq 100 perdant plus de 3 % ; nos données donnent le Nasdaq à 23 733,54 le 24 novembre (-1,48 %), le S&P 500 à 7 237,17 le 23 (+4,73 %) et le Nikkei à 57 011,62 le 25 (-2,78 %).",
+    "Taux : le 10 ans français est à 4,731 % le 25 novembre (-3,5 points de base) contre 3,30 % pour le Bund, soit environ 143 points de base d'écart ; le 10 ans américain est à 4,92 % le 23 novembre.",
+    "Énergie : le plafond des prix de l'énergie britannique augmentera de 26 % en janvier (Ofgem, FT) ; l'OPEP+ se dirige vers une réunion « parmi les plus compliquées depuis des années » alors que le marché bascule vers la surabondance."
+   ],
+   "articles": [
+    {
+     "title": "Inflation américaine à 3,8 % : la hausse de taux de décembre devient quasi certaine",
+     "theme": "central_banks",
+     "lead": "L'inflation d'octobre accélère de nouveau et le PIB du troisième trimestre est révisé nettement à la hausse, ce qui laisse peu de marge à la Fed.",
+     "what": "Selon L'Agefi, l'inflation américaine a accéléré à 3,8 % en octobre, avec une hausse de 0,3 % sur un mois conforme aux attentes des économistes. MarketWatch écrit que la mesure d'inflation utilisée par la Fed a de nouveau progressé à un rythme accéléré, ce qui rend pratiquement certaine une hausse de taux le mois prochain, et rapporte que le PIB du troisième trimestre a été révisé à 4,3 % en rythme annuel, contre 3,4 % en première estimation, soit le rythme le plus rapide en trois ans. Dans nos données, le 10 ans américain est à 4,92 % et le 2 ans à 4,63 % le 23 novembre ; le prochain rendez-vous de la Fed est les 8-9 décembre.",
+     "why": "Une inflation de 3,8 % est bien au-dessus de la cible de 2 % de la Fed, et une croissance forte renforce l'argument d'un resserrement : l'économie peut absorber des taux plus élevés. Le fait que la hausse mensuelle soit conforme aux attentes limite l'effet de surprise : le marché avait déjà intégré une hausse en décembre, comme l'indiquaient les minutes d'octobre rapportées par le FT. Un PIB solide et une inflation élevée sont la combinaison qui pousse une banque centrale à resserrer, par opposition à une stagflation où elle serait coincée ; nos sources ne se prononcent pas sur le risque de récession.",
+     "impact": "Une hausse de taux de la Fed relève les rendements courts, soutient le dollar et pèse sur les valorisations des actions de croissance, ce qui est cohérent avec la correction de la tech. Pour les notes à capital protégé en dollars, des taux plus élevés réduisent le prix du zéro-coupon et libèrent du budget d'option ; pour les produits à coupon variable indexé sur un taux court, les coupons augmentent. La volatilité des taux (swaptions) reste élevée avant la réunion. Comme la hausse est largement anticipée, le prix de marché devrait déjà l'intégrer en grande partie.",
+     "interview": {
+      "question": "L'inflation reste à 3,8 % alors que la croissance est forte : pourquoi une hausse de taux est-elle presque certaine, et comment cela se reflète-t-il dans les prix des futures de taux et dans le dollar ?",
+      "hints": [
+       "Inflation, cible de la Fed et croissance.",
+       "Anticipations de marché et effet de surprise.",
+       "Taux courts, pente de la courbe et dollar.",
+       "Conséquences pour les actions de croissance et les produits à capital protégé."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Rythme annualisé",
+       "definition": "Croissance d'un trimestre exprimée comme si elle se prolongeait sur une année entière, convention des statistiques de PIB américaines."
+      }
+     ],
+     "sources": [
+      {
+       "title": "L'inflation américaine a accéléré à 3,8% en octobre",
+       "url": "https://www.agefi.fr/news/economie-marches/linflation-americaine-a-accelere-a-3-8-en-octobre",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.",
+       "url": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Third-quarter GDP already looked great. Now it looks even better.",
+       "url": "https://www.marketwatch.com/story/third-quarter-gdp-already-looked-great-now-it-looks-even-better-12057da5?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "Trump annonce de nouveaux droits de douane sur la Chine, l'UE, le Japon et la Corée du Sud",
+     "theme": "macro_inflation",
+     "lead": "Après l'annulation de droits plus larges par la Cour suprême, l'administration relance sa stratégie commerciale par d'autres moyens.",
+     "what": "Selon le FT, Donald Trump annonce une série de nouveaux droits de douane sur de grandes économies, dont la Chine, l'UE, le Japon et la Corée du Sud, et double sa stratégie commerciale. MarketWatch précise que le plan de nouveaux prélèvements vient après que la Cour suprême a invalidé plus tôt dans l'année des droits plus larges, et le qualifie d'arme commerciale préférée du président. Les taux, les produits concernés et le calendrier ne figurent pas dans les résumés disponibles. Dans nos données, l'EUR/USD est à 1,0963 le 24 novembre et le Nikkei à 57 011,62 le 25 novembre (-2,78 %).",
+     "why": "Un droit de douane est une taxe sur les importations : il renchérit les produits étrangers pour les consommateurs et les entreprises américaines et peut alimenter l'inflation, ce qui complique la tâche de la Fed alors que l'inflation est à 3,8 %. Il peut aussi provoquer des représailles et pénaliser les exportateurs étrangers. La décision de la Cour suprême rappelle que le cadre juridique des droits de douane est contesté : nos sources ne disent pas sur quelle base légale reposent les nouvelles mesures, ce qui est un facteur d'incertitude.",
+     "impact": "Des droits de douane plus élevés renforcent les anticipations d'inflation et de taux, pèsent sur les marges des entreprises dépendant de chaînes d'approvisionnement mondiales et sur les actions des exportateurs européens et asiatiques. Les devises des pays visés (euro, yen, won) peuvent s'affaiblir face au dollar. Pour les produits structurés sur indices européens ou asiatiques, la volatilité implicite augmente avec l'incertitude commerciale. Pour les matières premières, des droits sur la Chine peuvent modifier les flux commerciaux, comme l'a noté le FT à propos du cuivre.",
+     "interview": {
+      "question": "Comment une hausse de droits de douane influence-t-elle l'inflation, les devises et la volatilité des marchés actions, et comment un structureur en tient-il compte dans le prix d'un produit sur indice européen ?",
+      "hints": [
+       "Effet sur les prix, les marges et la croissance.",
+       "Réaction du change et des taux.",
+       "Volatilité implicite liée à l'incertitude politique.",
+       "Impact sur la corrélation entre secteurs exportateurs."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Représailles commerciales",
+       "definition": "Mesures prises par un pays en réponse à des droits de douane imposés par un autre, qui peuvent amplifier le conflit commercial."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Trump announces raft of new tariffs on major economies",
+       "url": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
+       "url": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      }
+     ]
+    },
+    {
+     "title": "La baisse s'accélère à Wall Street : le Nasdaq 100 perd plus de 3 %, et ce que dit le marché des options",
+     "theme": "vol_derivatives",
+     "lead": "Les fissures du trade de l'IA se poursuivent, tandis que le ratio put-call envoie un message fort sur Nvidia selon MarketWatch.",
+     "what": "Selon le FT, la baisse des actions américaines s'accélère, le Nasdaq 100 perdant plus de 3 % alors que la glissade se poursuit depuis des semaines. MarketWatch indique que le ratio put-call (rapport entre options de vente et d'achat) envoie un message fort sur l'action Nvidia, et qu'une stratégie « bull spread » après Thanksgiving sur l'ETF Russell 2000 a un historique favorable. Le même média rapporte la lecture de JPMorgan, qui voit le S&P 500 à 8 200 l'an prochain, avec un gain de 14 %, et affirme que de telles baisses font partie du chemin. Nos données donnent le Nasdaq à 23 733,54 le 24 novembre (-1,48 %) et le VIX à 26,62 le 23 novembre ; ils ne reflètent pas la séance du 25.",
+     "why": "Le ratio put-call compare le volume d'options de vente (protection ou pari à la baisse) à celui d'options d'achat : un ratio élevé traduit une demande de protection, parfois interprétée comme un signal contrarien. Un bull spread est une stratégie à risque limité qui combine l'achat d'un call et la vente d'un call de prix d'exercice plus élevé : elle gagne si le sous-jacent monte modérément. Le Monde souligne par ailleurs, dans un éditorial, les « dangereuses complaisances » du président américain envers Nvidia. Ces avis sont des opinions de médias et de banques, non des prévisions garanties.",
+     "impact": "Une baisse de plus de 3 % du Nasdaq 100 en une séance rapproche les barrières de protection des autocalls sur cet indice et fait monter la volatilité implicite, ce qui renchérit les options et rehausse les coupons des produits nouveaux. Les teneurs de marché couvrent leurs positions en delta : la vente de futures pour couvrir peut amplifier la baisse. Pour un investisseur, un bull spread réduit le coût d'un pari haussier en plafonnant le gain, ce qui peut convenir quand la volatilité est élevée. Les produits à capital protégé restent protégés à l'échéance, sous réserve du risque émetteur.",
+     "interview": {
+      "question": "Qu'est-ce que le ratio put-call, comment l'interprète-t-on, et pourquoi un bull spread est-il une manière de parier à la hausse en limitant le coût quand la volatilité est élevée ?",
+      "hints": [
+       "Ratio put-call : demande de protection et signal contrarien.",
+       "Bull spread : achat et vente de calls, gain et perte maximaux.",
+       "Volatilité implicite et coût des options.",
+       "Couverture en delta et amplification des mouvements."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Bull spread",
+       "definition": "Combinaison d'un call acheté et d'un call de prix d'exercice supérieur vendu, qui limite à la fois le coût et le gain maximal d'un pari haussier."
+      }
+     ],
+     "sources": [
+      {
+       "title": "US stocks sell-off accelerates as AI trade cracks",
+       "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "What the options market says to do with Nvidia's stock — and the rest of the stock market",
+       "url": "https://www.marketwatch.com/story/what-the-options-market-says-to-do-with-nvidias-stock-and-the-rest-of-the-stock-market-de9584ae?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "The S&P 500 is headed for a 14% gain next year — and downturns like this one are actually part of the reason, says JPMorgan",
+       "url": "https://www.marketwatch.com/story/the-s-p-500-is-headed-to-8-200-and-downturns-like-this-one-are-actually-part-of-the-reason-why-says-jpmorgan-b6acae4b?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Les dangereuses complaisances de Donald Trump envers Nvidia",
+       "url": "https://www.lemonde.fr/idees/article/2026/11/25/les-dangereuses-complaisances-de-donald-trump-envers-nvidia_6815082_3232.html",
+       "source": "Le Monde"
+      }
+     ]
+    },
+    {
+     "title": "Énergie : factures britanniques en hausse de 26 % en janvier, et un marché pétrolier qui bascule vers l'excédent",
+     "theme": "fx_commodities",
+     "lead": "Le plafond des prix de l'énergie britannique grimpe, alors que l'OPEP+ s'apprête à une réunion tendue sur un marché pétrolier surabondant.",
+     "what": "Selon le FT, l'Ofgem, régulateur de l'énergie britannique, annonce que les factures d'énergie des ménages vont bondir de 26 % à partir de janvier, le nouveau plafond de trois mois reflétant la flambée du coût de gros du gaz. Le FT indique aussi que les plus grands membres de l'OPEP+ s'orientent vers un affrontement sur leurs estimations de production lors d'une réunion dimanche, « l'une des plus compliquées depuis des années », alors que les marchés mondiaux repassent à la surabondance. Notre série Brent donne 92,94 $ le 17 novembre (-22,12 % sur un mois) ; elle est ancienne et ne reflète pas la séance du jour.",
+     "why": "Un plafond de prix réglementé suit avec retard le coût de gros de l'énergie : l'augmentation de janvier traduit la hausse passée du gaz et sera répercutée sur les ménages, ce qui alimente l'inflation, d'où la pression sur la Banque d'Angleterre, dont le taux est à 4 %. Pour le pétrole, la surabondance signifie que l'offre dépasse la demande : les prix baissent, ce qui crée des tensions au sein de l'OPEP+ sur les quotas de production, car chaque pays veut défendre ses revenus. L'issue de la réunion est inconnue.",
+     "impact": "Une inflation britannique alimentée par l'énergie maintient la Banque d'Angleterre sous pression pour de nouvelles hausses de taux, avec un effet sur la livre et les gilts. Un pétrole en surabondance réduit l'inflation mondiale, mais pénalise les producteurs et leurs créanciers. Pour les produits structurés sur le Brent, la forte baisse sur un mois rapproche les barrières basses ; la volatilité autour de la réunion de l'OPEP+ peut renchérir les options. Pour la zone euro, importatrice nette d'énergie, un pétrole moins cher est favorable, tandis que le gaz reste un facteur de prix.",
+     "interview": {
+      "question": "Pourquoi la facture de gaz des ménages monte-t-elle alors que le pétrole est en surabondance, et comment l'OPEP+ réagit-elle quand les prix baissent ?",
+      "hints": [
+       "Gaz et pétrole : marchés distincts, délais de répercussion.",
+       "Plafond réglementé et inflation.",
+       "Quotas de production et intérêts divergents au sein du cartel.",
+       "Effets sur la Banque d'Angleterre et les produits sur matières premières."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "OPEP+",
+       "definition": "Alliance entre les pays de l'OPEP et d'autres grands producteurs, qui coordonne les niveaux de production de pétrole."
+      }
+     ],
+     "sources": [
+      {
+       "title": "British household energy bills to soar 26% from January",
+       "url": "https://www.ft.com/content/e9dea6f2-dcf8-4ec5-96ec-0415694bf897?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Opec+'s largest members head for clash over oil production estimates",
+       "url": "https://www.ft.com/content/b24d5c8c-4c9b-48f0-b4a8-5f83eee2d3e9?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-25",
    "generated_at": "2026-11-25T05:55:00+00:00",
    "brief": [
@@ -3613,5 +3781,5 @@
    ]
   }
  ],
- "updated_at": "2026-11-25T05:55:00+00:00"
+ "updated_at": "2026-11-26T05:55:00+00:00"
 }
