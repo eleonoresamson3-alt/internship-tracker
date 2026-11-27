@@ -1,6 +1,174 @@
 {
  "days": [
   {
+   "date": "2026-11-27",
+   "generated_at": "2026-11-27T05:55:00+00:00",
+   "brief": [
+    "BCE : selon le FT, l'économiste espagnol Pablo Hernández de Cos remporte la course à la présidence de la BCE pour succéder à Christine Lagarde, après que le gouvernement néerlandais a retiré son soutien à Klaas Knot.",
+    "Actions : un rebond après les plus bas de mercredi calme les Bourses après la purge de l'IA, et les contrats à terme pointent vers une hausse pour le « Black Friday » (MarketWatch) ; nos séries donnent le S&P 500 à 7 201,09 le 24 novembre (-0,5 %), le Nasdaq à 23 585,80 le 25 (-0,62 %) et le Nikkei à 57 499,16 le 26 (+0,86 %).",
+    "Taux : le 10 ans français est à 4,745 % le 26 novembre (+1,4 point de base) contre 3,32 % pour le Bund, soit environ 142 points de base d'écart ; le VIX est à 26,36 le 24 novembre.",
+    "Hedge funds : Goldman Sachs s'attend à ce que les gérants privilégient la préservation du capital ; Citadel va redistribuer environ 3,5 milliards de dollars à ses clients, soit la moitié des profits nets de l'année (L'Agefi, citant Bloomberg).",
+    "Banques : UniCredit a obtenu toutes les autorisations pour monter à près de 50 % du capital de Commerzbank ; le FT estime que les banques britanniques et européennes ont pris beaucoup de risque sur la France."
+   ],
+   "articles": [
+    {
+     "title": "Pablo Hernández de Cos remporte la course à la présidence de la BCE",
+     "theme": "central_banks",
+     "lead": "Le gouverneur de la Banque d'Espagne est en passe de succéder à Christine Lagarde après le retrait du soutien néerlandais à son rival.",
+     "what": "Selon le FT, Pablo Hernández de Cos, économiste espagnol, a remporté la course à la présidence de la BCE et doit succéder à Christine Lagarde, après que le gouvernement néerlandais a mis fin à son soutien à son rival Klaas Knot. Le FT avait indiqué que Berlin avait choisi Markus Brunnermeier comme candidat au directoire, ce qui ouvrait la voie à une présidence espagnole, dans un accord avec la France. Dans nos données, le taux de dépôt de la BCE est à 2,5 % et l'€STR à 2,444 % le 25 novembre, le Bund 10 ans à 3,32 % et le 10 ans français à 4,745 % le 26 novembre. La date de prise de fonction n'est pas précisée dans nos sources.",
+     "why": "Le président de la BCE préside le Conseil des gouverneurs et incarne l'orientation de la politique monétaire de la zone euro. Les candidatures se jouent entre États membres, et le choix du FT d'un accord entre grands pays montre le poids politique de la nomination. Pour les marchés, ce qui compte est la continuité de la stratégie : la banque centrale doit gérer une inflation qui reste élevée et des écarts de taux entre pays. Nos sources ne donnent ni l'orientation attendue du futur président ni la date de la décision formelle.",
+     "impact": "Une nomination clarifiée réduit l'incertitude sur la succession, ce qui peut diminuer légèrement la prime de risque sur les spreads de la zone euro, mais cet effet n'est pas démontré par nos données. Les produits structurés à coupons indexés sur des taux de swap en euros dépendent de la trajectoire de politique monétaire, qui reste le sujet principal. La volatilité des taux autour des réunions de la BCE est surveillée par les teneurs de marché. Le profil du nouveau président, plus ou moins favorable à des taux bas, pèsera sur les anticipations à moyen terme, ce qui reste une inconnue.",
+     "interview": {
+      "question": "Pourquoi la nomination du président de la BCE a-t-elle un enjeu pour les marchés de taux et pour les spreads souverains, et que regarde-t-on pour juger de la continuité de la politique monétaire ?",
+      "hints": [
+       "Rôle du président et du Conseil des gouverneurs.",
+       "Communication, guidance et réaction aux écarts de taux.",
+       "Effet sur la volatilité des taux et le spread OAT-Bund.",
+       "Calendrier de transition."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Conseil des gouverneurs",
+       "definition": "Organe de décision de la BCE, composé du directoire et des gouverneurs des banques centrales nationales de la zone euro, qui fixe les taux directeurs."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Pablo Hernández de Cos wins race for ECB presidency",
+       "url": "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Berlin picks ECB board nominee, paving way for Spanish presidency",
+       "url": "https://www.ft.com/content/10fd3d24-04b1-40a2-93d3-8b64023cc869?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Rebond après la purge de l'IA : ce que disent Deutsche Bank, le FT et MarketWatch",
+     "theme": "equities",
+     "lead": "Les Bourses mondiales rebondissent après des séances volatiles, tandis que des stratèges évoquent un point bas proche et que le FT parle d'une bulle de bénéfices plutôt que de valorisation.",
+     "what": "Selon le FT, les actions mondiales progressent après des séances volatiles liées aux risques de l'IA. MarketWatch indique que les contrats à terme pointent vers des gains le « Black Friday », après un rebond du S&P 500 depuis ses plus bas mercredi. Deutsche Bank estime que la correction de la tech devrait bientôt toucher le fond, avec un S&P 500 qui atteindrait 9 000 points fin 2027 (+25 %), l'attention passant des dépenses d'investissement à la monétisation de l'IA ; le FT titre « c'est une bulle de bénéfices, pas de valorisation ». Nos données donnent le S&P 500 à 7 201,09 le 24 novembre (-0,5 %, -5,54 % sur un mois) et le VIX à 26,36. Wall Street était fermée jeudi pour Thanksgiving.",
+     "why": "Une bulle de valorisation signifie que les prix sont trop élevés par rapport aux bénéfices ; une bulle de bénéfices signifie que les bénéfices eux-mêmes sont temporairement gonflés par une demande qui pourrait ne pas durer, ce qui est l'argument du FT, dont le résumé ne détaille pas la démonstration. Les prévisions d'une banque comme Deutsche Bank à fin 2027 sont des scénarios, avec une large incertitude. Les contrats à terme ouvrent une indication, qui ne garantit pas la clôture ; la séance du « Black Friday » est en général écourtée.",
+     "impact": "Un rebond avec une volatilité qui reste élevée (VIX proche de 26) maintient des options chères : les coupons des autocalls nouvellement émis restent plus généreux qu'avant la correction, tandis que les barrières sont plus proches du cours. Une remontée rapide pourrait déclencher des rappels anticipés sur les produits proches de leurs seuils. Les stratégies de valeur relative ou de spreads d'options limitent le risque en cas de nouvelle baisse. Les teneurs de marché surveillent la liquidité réduite des séances écourtées.",
+     "interview": {
+      "question": "Quelle différence entre bulle de valorisation et bulle de bénéfices, et comment un structureur se protège-t-il contre un retournement après un rebond ?",
+      "hints": [
+       "Ratio cours/bénéfices et soutenabilité des bénéfices.",
+       "Scénarios de banques et incertitude des prévisions.",
+       "Volatilité implicite après un rebond.",
+       "Barrières, rappels anticipés et couverture."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Monétisation",
+       "definition": "Capacité à transformer un investissement ou une technologie en revenus et en bénéfices."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Global stocks climb after volatile US trading over AI risks",
+       "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.",
+       "url": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
+       "url": "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "It's an earnings bubble, not a valuation bubble",
+       "url": "https://www.ft.com/content/511cf4f3-36ea-47a8-9c0b-96e0f8137a9f?syn-25a6b1a6=1",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "title": "Hedge funds : préserver le capital, et Citadel redistribue 3,5 milliards de dollars",
+     "theme": "banks",
+     "lead": "Après un premier semestre fort, les gérants alternatifs se concentrent sur la préservation de leurs gains, tandis que Citadel rend du capital à ses clients.",
+     "what": "Selon MarketWatch, après un bon premier semestre, la performance du secteur des hedge funds a fléchi au second semestre, et Goldman Sachs s'attend à ce que les gérants cherchent à préserver ce qu'ils ont plutôt qu'à courir après le marché. L'Agefi, citant Bloomberg et des sources anonymes, rapporte que Citadel va redistribuer à ses clients près de 3,5 milliards de dollars, voire davantage, soit la moitié des profits nets de l'année. L'Agefi avait aussi rapporté que les hedge funds avaient connu du 16 au 20 novembre leur pire semaine depuis avril 2025, selon une note de JPMorgan. Nos données donnent le VIX à 26,36 le 24 novembre.",
+     "why": "Un hedge fund qui redistribue des profits réduit la quantité de capital qu'il gère, ce qui limite l'effet de levier et les risques de rendement décroissant : certaines stratégies ne supportent pas une taille trop élevée. Préserver le capital signifie réduire le risque quand le marché est volatil : cela se traduit par moins de positions directionnelles et plus de couvertures. Ces éléments sont des informations de presse reposant en partie sur des sources anonymes.",
+     "impact": "Des hedge funds plus prudents réduisent leurs achats d'actions et leur demande d'options de vente, ce qui peut limiter l'amplification des mouvements, mais aussi la liquidité des marchés. La redistribution de capital peut libérer des liquidités pour les investisseurs, qui chercheront d'autres placements. Pour les produits structurés, une moindre prise de risque des fonds peut réduire la volatilité réalisée, tout en laissant la volatilité implicite élevée à court terme. Les prime brokers surveillent l'effet de levier.",
+     "interview": {
+      "question": "Pourquoi un hedge fund redistribue-t-il une partie de ses profits à ses clients, et que signifie la préservation du capital dans une période de volatilité ?",
+      "hints": [
+       "Capacité de la stratégie et taille du fonds.",
+       "Réduction du risque, du levier et des positions directionnelles.",
+       "Effet sur la liquidité et la volatilité réalisée.",
+       "Rôle des prime brokers."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Capacité d'une stratégie",
+       "definition": "Montant maximal de capital qu'une stratégie peut gérer sans que sa rentabilité se dégrade."
+      }
+     ],
+     "sources": [
+      {
+       "title": "Capital preservation rather than chasing the market higher is how hedge funds are negotiating market volatility",
+       "url": "https://www.marketwatch.com/story/capital-preservation-rather-than-chasing-the-market-higher-is-how-hedge-funds-are-negotiating-market-volatility-f4288b71?mod=mw_rss_topstories",
+       "source": "MarketWatch"
+      },
+      {
+       "title": "Citadel va redistribuer 3,5 milliards de dollars à ses clients",
+       "url": "https://www.agefi.fr/asset-management/actualites/citadel-va-redistribuer-3-5-milliards-de-dollars-a-ses-clients",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "Les hedge funds ont vécu leur pire semaine depuis avril 2025",
+       "url": "https://www.agefi.fr/asset-management/actualites/les-hedge-funds-ont-vecu-leur-pire-semaine-depuis-avril-2025",
+       "source": "L'Agefi"
+      }
+     ]
+    },
+    {
+     "title": "Banques : UniCredit peut boucler son offre sur Commerzbank, et le risque France des banques européennes",
+     "theme": "banks",
+     "lead": "L'opération donnerait à UniCredit le contrôle de fait de Commerzbank, tandis que le FT s'intéresse à l'exposition des banques britanniques et européennes à la France.",
+     "what": "Selon L'Agefi, UniCredit a obtenu toutes les autorisations nécessaires pour monter à près de 50 % du capital de Commerzbank, ce qui lui confère le contrôle de fait ; une assemblée générale devrait être organisée prochainement. Le FT titre que les banques britanniques et européennes ont pris beaucoup de risque sur la France, sans que le résumé en donne les montants. Dans nos données, le 10 ans français est à 4,745 % le 26 novembre et le Bund à 3,32 % : l'écart est d'environ 142 points de base. L'Agefi rapportait aussi que le Crédit Agricole propose de fusionner son entité italienne avec Banco BPM.",
+     "why": "Détenir près de 50 % du capital d'une banque donne un contrôle de fait même sans majorité absolue, car les autres actionnaires sont dispersés. Les rapprochements bancaires transfrontaliers visent à gagner en taille et à diversifier les risques, mais exposent aussi à des risques politiques et réglementaires. L'exposition des banques à un pays, ici la France, se mesure à travers leurs portefeuilles d'obligations souveraines, leurs prêts et leurs filiales ; le FT l'associe au débat sur les tensions de la dette française, que ses extraits ne détaillent pas.",
+     "impact": "Si les banques étrangères sont fortement exposées au risque France, un élargissement du spread OAT-Bund se transmettrait à leurs bilans via la valeur de marché des titres détenus. Pour les produits structurés émis par ces banques, le risque de crédit de l'émetteur est un facteur de prix, et sa diversification géographique est un point d'attention. Un rapprochement UniCredit-Commerzbank crée un groupe plus gros, avec des conséquences sur la concurrence et la notation, dont les effets restent à mesurer.",
+     "interview": {
+      "question": "Comment l'exposition d'une banque à la dette souveraine d'un pays se transmet-elle à son risque de crédit, et que change une acquisition transfrontalière pour ses créanciers ?",
+      "hints": [
+       "Portefeuille d'obligations d'État et valeur de marché.",
+       "Lien banque-souverain et notation.",
+       "Contrôle de fait et seuils de capital.",
+       "Effet sur le spread de l'émetteur de produits structurés."
+      ]
+     },
+     "glossary": [
+      {
+       "term": "Contrôle de fait",
+       "definition": "Situation où un actionnaire détenant moins de 50 % du capital dispose d'une influence décisive en raison de la dispersion des autres actionnaires."
+      }
+     ],
+     "sources": [
+      {
+       "title": "UniCredit peut boucler son offre sur Commerzbank",
+       "url": "https://www.agefi.fr/news/banque-assurance/unicredit-peut-boucler-son-offre-sur-commerzbank",
+       "source": "L'Agefi"
+      },
+      {
+       "title": "British and European banks have taken on a lot of France risk",
+       "url": "https://www.ft.com/content/022fcf0c-9a7a-4bf0-b853-4de8b2ba88b9",
+       "source": "Financial Times"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-11-26",
    "generated_at": "2026-11-26T05:55:00+00:00",
    "brief": [
@@ -3604,182 +3772,7 @@
      ]
     }
    ]
-  },
-  {
-   "date": "2026-10-27",
-   "generated_at": "2026-10-27T06:55:00+00:00",
-   "brief": [
-    "Semaine de banques centrales : la Fed se réunit les 27-28 octobre et la BCE les 28-29 ; L'Agefi attend un statu quo de la BCE jeudi, avec un taux de dépôt à 2,5 %, tandis que le FT voit la Fed poursuivre ses hausses trimestrielles.",
-    "France : Moody's a maintenu la note à Aa3 vendredi ; le 10 ans (TEC 10) est à 5,048 % le 23 octobre, soit environ 166 points de base au-dessus du Bund (3,39 %).",
-    "Taux américains : au 22 octobre, le 10 ans était à 4,96 % (-17 points de base sur la journée) et le 2 ans à 4,65 % (-16 points).",
-    "Pétrole : le Brent, redescendu après un pic à 117 $ en fin de semaine dernière selon le FT, reste suspendu au conflit au Moyen-Orient.",
-    "IA et crédit : SpaceX dit avoir levé 40 milliards de dollars de dette ; Morgan Stanley voit un support des semi-conducteurs jusqu'à 15 % plus bas."
-   ],
-   "articles": [
-    {
-     "title": "Moody's maintient la note de la France à Aa3 : un répit, pas une résolution",
-     "theme": "credit_sovereign",
-     "lead": "L'agence a laissé la note de la France inchangée vendredi, mais le marché continue d'exiger une prime élevée : les obligations d'entreprises françaises commencent même à rendre moins que l'État.",
-     "what": "Selon Le Monde, Moody's a maintenu la notation de la France à Aa3 vendredi, malgré l'incapacité du pays à redresser sa trajectoire budgétaire ; la chroniqueuse y voit un moment jugé trop inflammable pour agir. Le FT observe que les rendements des obligations d'État et d'entreprises françaises convergent, certaines obligations de sociétés rendant désormais moins que la dette publique. Nos données donnent un TEC 10 à 5,048 % le 23 octobre (-7,8 points de base sur la journée, +25,4 sur une semaine), contre 3,39 % pour le Bund, soit environ 166 points de base d'écart.",
-     "why": "Une note de crédit résume la capacité d'un émetteur à rembourser : Aa3 est une note élevée, deux crans sous le maximum (Aaa) dans l'échelle de Moody's. Une agence évite en général de bouger en pleine turbulence de marché, de peur d'aggraver la crise ; Le Monde rappelle que les agences ont été accusées de jouer les pyromanes lors de la crise grecque de 2010. Le maintien de la note ne change donc pas le fait que le marché fixe son propre prix du risque : le spread contre le Bund. Le cas où une entreprise emprunte moins cher que son État est inhabituel, car le taux souverain sert de plancher pour la plupart des émetteurs nationaux ; il traduit sans doute des conditions de marché particulières, mais l'article ne détaille pas ses causes.",
-     "impact": "Pour les banques, un souverain à 5 % pèse sur la valeur de leurs portefeuilles d'obligations d'État, mais le maintien de la note évite un effet mécanique sur les collatéraux et les ratios. Sur les produits structurés, la convergence entre rendements d'entreprises et d'État montre que le spread de crédit d'un émetteur ne se déduit pas toujours de celui de son pays : pour une note à capital protégé, la valeur de la jambe obligataire dépend du spread propre à l'émetteur. Un spread plus large sur la France devrait rester un thème pour le prix des dérivés de crédit (CDS) sur les émetteurs français, et pour le coût de la protection. Une dégradation future, si elle venait, pourrait au contraire provoquer des ventes forcées chez les investisseurs soumis à des seuils de notation.",
-     "interview": {
-      "question": "Moody's maintient Aa3 alors que le 10 ans français est à plus de 5 % : pourquoi le marché ne se calme-t-il pas, et que révèle l'écart avec le Bund ?",
-      "hints": [
-       "La note est un jugement d'agence ; le spread est le prix de marché du risque, plus réactif.",
-       "Écart OAT-Bund d'environ 166 points de base : le calculer et le replacer dans le temps.",
-       "Pourquoi les agences évitent d'agir en plein stress (effet procyclique).",
-       "Spread émetteur, spread souverain et leur effet sur le prix d'un produit structuré."
-      ]
-     },
-     "glossary": [
-      {
-       "term": "Aa3",
-       "definition": "Note de crédit de Moody's de bonne qualité, juste sous Aa2 et Aa1, deux crans sous le maximum Aaa."
-      },
-      {
-       "term": "CDS",
-       "definition": "Contrat d'assurance contre le défaut d'un émetteur, dont la prime mesure le risque de crédit perçu."
-      }
-     ],
-     "sources": [
-      {
-       "title": "Dette française : « Le seul signal donné par Moody's, c'est que le moment est trop inflammable pour craquer une allumette »",
-       "url": "https://www.lemonde.fr/economie/article/2026/10/26/dette-francaise-le-seul-signal-donne-par-moody-s-c-est-que-le-moment-est-trop-inflammable-pour-craquer-une-allumette_6800674_3234.html",
-       "source": "Le Monde"
-      },
-      {
-       "title": "French government and corporate bond yields are converging",
-       "url": "https://www.ft.com/content/473c0e0b-d4f7-449c-9192-648b82077222?syn-25a6b1a6=1",
-       "source": "Financial Times"
-      }
-     ]
-    },
-    {
-     "title": "BCE et Fed cette semaine : statu quo attendu à Francfort, hausses graduelles à Washington",
-     "theme": "central_banks",
-     "lead": "Deux réunions décisives mercredi et jeudi : la BCE devrait rester immobile malgré l'envolée des spreads, alors que le FT s'attend à la poursuite des hausses trimestrielles de la Fed.",
-     "what": "Selon L'Agefi, la BCE devrait rester l'arme au pied jeudi sans proposer d'intervenir sur les taux français : la croissance résiste, l'inflation énergétique augmente, et la hausse des taux longs prend le relais de la BCE dans le resserrement des conditions financières. Le FT, dans son scénario d'octobre, voit la Fed s'en tenir à des hausses de taux trimestrielles, tout en retirant les baisses de 2025 qualifiées d'assurance, et se demande si elle donnera des indices sur de nouvelles hausses. Le calendrier officiel place la Fed les 27-28 octobre et la BCE les 28-29. Le taux de dépôt de la BCE est à 2,5 %, l'€STR à 2,442 %.",
-     "why": "Une banque centrale resserre ses conditions financières par son taux directeur, mais aussi indirectement : si les taux longs montent d'eux-mêmes, l'effet sur le crédit et les investissements est comparable à une hausse de taux. C'est l'idée de L'Agefi : la montée des taux longs, notamment français, fait une partie du travail à la place de la BCE, ce qui lui permet d'attendre. À Washington, le FT parle d'un rythme de hausses trimestrielles ; c'est un scénario d'analystes, non une annonce, et la décision réelle reste à venir. Dans les deux cas, ce qui compte pour les marchés est moins le taux du jour que les indications sur la suite, la « forward guidance ».",
-     "impact": "Un statu quo de la BCE confirmerait un taux de dépôt à 2,5 % ; les marchés surveilleront le ton de la conférence de presse sur les spreads. Pour une courbe plus pentue ou plus plate, les produits structurés dont le coupon dépend d'un taux de swap (CMS) réagissent directement. Une Fed qui laisserait entendre d'autres hausses devrait soutenir le dollar et les rendements courts américains, ce qui augmente le coût du zéro-coupon des notes à capital protégé en dollars et améliore, à budget égal, la participation proposée. Sur la volatilité, les jours de réunion sont souvent associés à des variations d'options de taux (swaptions) plus fortes avant l'annonce, puis à un tassement une fois l'incertitude levée.",
-     "interview": {
-      "question": "La BCE n'est pas censée bouger alors que les taux longs montent fortement : comment expliquer qu'elle puisse attendre ?",
-      "hints": [
-       "Les conditions financières incluent les taux longs, pas seulement le taux directeur.",
-       "Différence entre taux de dépôt, €STR et courbe des taux.",
-       "Rôle de la forward guidance : le marché anticipe la suite.",
-       "Lien avec les spreads souverains et la transmission de la politique monétaire."
-      ]
-     },
-     "glossary": [
-      {
-       "term": "Forward guidance",
-       "definition": "Indications données par une banque centrale sur sa trajectoire future de taux."
-      },
-      {
-       "term": "€STR",
-       "definition": "Taux court au jour le jour de la zone euro, référence du marché monétaire."
-      }
-     ],
-     "sources": [
-      {
-       "title": "La BCE se dirige vers un statu quo sur fond d'envolée des spreads",
-       "url": "https://www.agefi.fr/news/economie-marches/la-bce-se-dirige-vers-un-statu-quo-sur-fond-denvolee-des-spreads",
-       "source": "L'Agefi"
-      },
-      {
-       "title": "Fed to stick with quarterly rate rises as it removes 2025 insurance cuts",
-       "url": "https://www.ft.com/content/572bc401-9f82-4e49-9282-3e896562f339",
-       "source": "Financial Times"
-      },
-      {
-       "title": "Will the Fed drop any hints on rate rises?",
-       "url": "https://www.ft.com/content/181316cc-0f4c-4328-b990-ad0d43ce424c?syn-25a6b1a6=1",
-       "source": "Financial Times"
-      }
-     ]
-    },
-    {
-     "title": "IA : SpaceX lève 40 milliards de dollars de dette et Morgan Stanley devient prudent sur les puces",
-     "theme": "credit_sovereign",
-     "lead": "Le financement de l'IA passe de plus en plus par la dette, et la distinction entre émetteurs solides et fragiles se creuse.",
-     "what": "Elon Musk affirme que SpaceX a obtenu 40 milliards de dollars de dette grâce à sa bonne notation et à des revenus hors IA ; il a aussi mis en garde contre de futures faillites d'entreprises du « néocloud », selon L'Agefi. MarketWatch précise que SpaceX développe une activité de location d'accès à des puces avancées. Par ailleurs, le stratège actions de Morgan Stanley maintient une prévision de 8 000 points pour le S&P 500 en fin d'année, mais estime que le support du secteur des semi-conducteurs pourrait se situer jusqu'à 15 % sous les niveaux actuels. Côté marché, le Nasdaq valait 25 955 points le 23 octobre (-0,21 % sur la journée, -3,64 % sur un mois).",
-     "why": "Construire des centres de calcul coûte très cher, et la dette en finance une grande partie. Un emprunteur bien noté lève de gros montants à bon prix, tandis qu'un acteur plus fragile peut avoir du mal à refinancer, surtout quand les taux sont élevés et que l'appétit pour l'IA se tasse : c'est le sens de l'avertissement de Musk, qui n'est pas neutre puisqu'il parle d'abord de sa propre entreprise. Le support évoqué par Morgan Stanley désigne un niveau de prix où les acheteurs ont historiquement stoppé les baisses ; c'est une lecture d'analyste, pas une prévision certaine. Les deux informations montrent un marché qui différencie davantage les émetteurs selon leur solidité financière.",
-     "impact": "Une forte émission de dette liée à l'IA peut élargir les spreads de crédit des émetteurs les plus fragiles et alimenter la demande de protection (CDS) sur eux. Pour les produits structurés indexés sur des paniers de valeurs technologiques ou de semi-conducteurs, une baisse supplémentaire rapprocherait les cours des barrières de protection ; en revanche la volatilité implicite plus élevée enchérit les options et peut permettre des coupons plus généreux, au prix d'un risque accru de perte en capital. Les banques d'investissement qui arrangent ces emprunts touchent des commissions, mais portent un risque de distribution si le marché se retourne.",
-     "interview": {
-      "question": "Un groupe lève 40 milliards de dollars de dette pour financer l'IA : quels indicateurs regardez-vous pour juger du risque de crédit, et quel impact sur un produit structuré sur ce thème ?",
-      "hints": [
-       "Notation, couverture des intérêts et revenus indépendants du projet financé.",
-       "Spread de crédit et CDS comme prix de marché du risque.",
-       "Lien entre baisse du sous-jacent, barrière du produit et volatilité implicite.",
-       "Risque de refinancement pour les acteurs moins bien notés."
-      ]
-     },
-     "glossary": [
-      {
-       "term": "Néocloud",
-       "definition": "Entreprise qui loue de la puissance de calcul, notamment des puces d'IA, à d'autres sociétés."
-      },
-      {
-       "term": "Support",
-       "definition": "Niveau de prix où une baisse a historiquement tendance à s'arrêter, selon l'analyse technique."
-      }
-     ],
-     "sources": [
-      {
-       "title": "SpaceX a levé 40 milliards de dollars de dettes selon Elon Musk",
-       "url": "https://www.agefi.fr/news/entreprises/spacex-a-leve-40-milliards-de-dollars-de-dettes-selon-elon-musk",
-       "source": "L'Agefi"
-      },
-      {
-       "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
-       "url": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
-       "source": "MarketWatch"
-      },
-      {
-       "title": "Support for semiconductor stocks could be as much as 15% lower than current levels, says Morgan Stanley",
-       "url": "https://www.marketwatch.com/story/support-for-semiconductor-stocks-could-be-as-much-as-15-lower-than-current-levels-says-morgan-stanley-1f387f16?mod=mw_rss_topstories",
-       "source": "MarketWatch"
-      }
-     ]
-    },
-    {
-     "title": "Pétrole : repli après 117 $, le Moyen-Orient reste le moteur des prix",
-     "theme": "fx_commodities",
-     "lead": "Le Brent est redescendu après un pic à 117 $ en fin de semaine dernière, mais les opérateurs restent concentrés sur le conflit au Moyen-Orient.",
-     "what": "Selon le FT, la référence internationale du pétrole a reculé après avoir grimpé à 117 $ en fin de semaine dernière, les opérateurs restant focalisés sur le conflit au Moyen-Orient. Dans le même registre, Singapour va stocker du pétrole saoudien dans des cavernes souterraines, en accord avec Saudi Aramco, pour sécuriser l'approvisionnement de l'Asie du Sud-Est face aux perturbations liées à la guerre. Nos données donnent le Brent à 115,22 $ le 20 octobre (-8,4 % sur une semaine) ; cette série a plusieurs jours de retard et ne reflète pas le pic récent. L'EUR/USD est à 1,1193 le 23 octobre.",
-     "why": "Le pétrole réagit à l'offre et au risque : un conflit dans une zone productrice ajoute une prime de risque, et les pays importateurs cherchent à sécuriser des stocks, ce qui soutient la demande. Le projet de Singapour illustre cette logique de réserves stratégiques. Un pétrole cher alimente l'inflation, notamment énergétique, que L'Agefi cite comme un facteur de la prudence de la BCE. Une baisse après un pic montre que le marché oscille au gré des nouvelles, ce qui entretient une volatilité élevée plutôt qu'une tendance claire.",
-     "impact": "Un baril à ce niveau pèse sur le pouvoir d'achat et sur l'inflation, donc sur les attentes de taux ; les rendements courts peuvent rester élevés, ce qui renchérit le financement et réduit la valeur actuelle des flux futurs. Pour les produits structurés sur matières premières ou sur actions d'énergie, la volatilité forte rend les options plus chères et peut permettre des coupons plus élevés, avec un risque de franchissement de barrière plus important. Sur le change, les économies importatrices comme la zone euro souffrent généralement d'un pétrole cher, ce qui pourrait peser sur l'euro, sans que cela soit certain.",
-     "interview": {
-      "question": "Le pétrole repasse sous son pic mais reste volatil : comment cela affecte-t-il les anticipations d'inflation et le pricing d'un produit structuré sur le Brent ?",
-      "hints": [
-       "Prime de risque géopolitique et stocks stratégiques.",
-       "Lien pétrole, inflation, anticipations de taux.",
-       "Volatilité implicite plus élevée : option plus chère, coupon potentiellement plus généreux, barrière plus risquée.",
-       "Effet sur l'EUR/USD pour une économie importatrice."
-      ]
-     },
-     "glossary": [
-      {
-       "term": "Brent",
-       "definition": "Pétrole de référence internationale, coté en dollars par baril."
-      }
-     ],
-     "sources": [
-      {
-       "title": "Oil price falls back as traders remain focused on Middle East conflict",
-       "url": "https://www.ft.com/content/97a60042-f7b6-4c87-9387-8572968a7de0?syn-25a6b1a6=1",
-       "source": "Financial Times"
-      },
-      {
-       "title": "Singapore to store Saudi oil in underground caverns",
-       "url": "https://www.ft.com/content/1baa5eb0-d6e3-4989-beb0-1b29879ff606?syn-25a6b1a6=1",
-       "source": "Financial Times"
-      }
-     ]
-    }
-   ]
   }
  ],
- "updated_at": "2026-11-26T05:55:00+00:00"
+ "updated_at": "2026-11-27T05:55:00+00:00"
 }
