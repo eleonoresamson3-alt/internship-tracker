@@ -1,79 +1,46 @@
 {
- "generated_at": "2026-11-25T14:26:12+00:00",
- "date": "2026-11-25",
+ "generated_at": "2026-11-26T13:55:42+00:00",
+ "date": "2026-11-26",
  "jobs": [
   {
-   "id": "jpmorgan-2a52fdcf273d",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Market Risk Management Internship - Emerging Talent Summer Experience Program",
-   "location": "New York, NY, United States",
+   "id": "bloomberg-056beabf4eca",
+   "employer": "Bloomberg",
+   "employer_type": "software",
+   "platform": "generic",
+   "title": "2027 London Summer Internship -Client Financial Services",
+   "location": "",
    "countries": [
-    "US"
+    "GB"
    ],
    "country_names": [
-    "United States"
+    "United Kingdom"
    ],
-   "region": "Rest of world",
-   "family": "Risk",
-   "role_level": "high",
-   "score": 62,
+   "region": "Europe (priority)",
+   "family": "Markets (other)",
+   "role_level": "low",
+   "score": 42,
    "score_breakdown": {
-    "role": 50,
-    "geo": 0,
+    "role": 10,
+    "geo": 20,
     "city": 0,
     "timing": 12
    },
    "timing": "summer",
    "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811859",
-   "posted_at": "2026-11-24",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-a11a9b0984fe",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage - Ingénierie quantitative - produit structurés cross assets H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 60,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170465-124-stage---ingenierie-quantitative---produit-structures-cross-assets-hf-reference--2026-117795--/",
+   "url": "https://bloomberg.avature.net/careers/JobDetail/2027-London-Summer-Internship-Client-Financial-Services/45689",
    "posted_at": "",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
    "active": true
   },
   {
-   "id": "groupe-credit-agricole-f9bbbc4ed167",
+   "id": "groupe-credit-agricole-4a4befd4b423",
    "employer": "Groupe Crédit Agricole",
    "employer_type": "french_bank",
    "platform": "generic",
-   "title": "Stage - Assistant d'administration de portefeuille H/F",
+   "title": "Stage Data Scientist – Score d'appétence commerciale et outils d'assistant à la vente H/F",
    "location": "",
    "countries": [
     "FR"
@@ -95,146 +62,18 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170464-124-stage---assistant-d-administration-de-portefeuille-hf-reference--2026-117798--/",
+   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-270-stage-data-scientist--score-d-appetence-commerciale-et-outils-d-assistant-a-la-vente-hf-reference--2026-117825--/",
    "posted_at": "",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
    "active": true
   },
   {
-   "id": "amundi-272cbca2fe3f",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
+   "id": "stifel-35e2c0d01489",
+   "employer": "Stifel",
+   "employer_type": "broker",
    "platform": "generic",
-   "title": "Stage - Ingénierie quantitative - produit structurés cross assets H/F",
-   "location": "",
-   "countries": [],
-   "country_names": [],
-   "region": "Unknown",
-   "family": "Pricing / Quant",
-   "role_level": "medium",
-   "score": 30,
-   "score_breakdown": {
-    "role": 30,
-    "geo": 0,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-ingenierie-quantitative-produit-structures-cross-assets-h-f_117795.aspx",
-   "posted_at": "",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "active": true
-  },
-  {
-   "id": "ey-8c5628384b78",
-   "employer": "EY",
-   "employer_type": "consulting",
-   "platform": "successfactors",
-   "title": "Internship - Business Consulting - Finance",
-   "location": "Zurich, CH, 8005",
-   "countries": [
-    "CH"
-   ],
-   "country_names": [
-    "Switzerland"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 30,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-03-31",
-   "deadline_source": "estimée",
-   "url": "https://careers.ey.com/ey/job/Zurich-Internship-Business-Consulting-Finance-8005/1460332933/",
-   "posted_at": "",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "active": true
-  },
-  {
-   "id": "jpmorgan-be6c6d940f48",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Latin American Debt Capital Markets Analyst Internship – Emerging Talent Summer Experience Program",
-   "location": "New York, NY, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811409",
-   "posted_at": "2026-11-24",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "active": true
-  },
-  {
-   "id": "jpmorgan-5c62aedc7e3e",
-   "employer": "JPMorgan",
-   "employer_type": "intl_bank",
-   "platform": "oracle",
-   "title": "2027 Market Sales Analyst Internship – Emerging Talent Summer Experience Program",
-   "location": "New York, NY, United States",
-   "countries": [
-    "US"
-   ],
-   "country_names": [
-    "United States"
-   ],
-   "region": "Rest of world",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 22,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 0,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2026-11-30",
-   "deadline_source": "estimée",
-   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210811687",
-   "posted_at": "2026-11-24",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
-   "active": true
-  },
-  {
-   "id": "amundi-2efed82b3f7c",
-   "employer": "Amundi",
-   "employer_type": "asset_manager",
-   "platform": "generic",
-   "title": "Stage - Assistant d'administration de portefeuille H/F",
+   "title": "Title 1919 Internship – Investment Processes and Project Management",
    "location": "",
    "countries": [],
    "country_names": [],
@@ -252,10 +91,10 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://jobs.amundi.com/job/job-stage-assistant-d-administration-de-portefeuille-h-f_117798.aspx",
+   "url": "https://careers-stifel.icims.com/jobs/11576/1919-internship-%e2%80%93-investment-processes-and-project-management/job?in_iframe=1",
    "posted_at": "",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
    "active": true
   }
  ]
