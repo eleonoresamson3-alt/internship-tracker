@@ -1,34 +1,34 @@
 {
- "generated_at": "2026-11-27T13:53:58+00:00",
- "date": "2026-11-27",
+ "generated_at": "2026-11-28T13:01:48+00:00",
+ "date": "2026-11-28",
  "jobs": [
   {
-   "id": "unicredit-0e0dfc14ccfe",
-   "employer": "UniCredit",
-   "employer_type": "european_bank",
+   "id": "rothschild-co-6f337f1d88ce",
+   "employer": "Rothschild & Co",
+   "employer_type": "asset_manager",
    "platform": "generic",
-   "title": "Credit Administration Intern",
+   "title": "Leveraged Finance 2027 Summer Analyst Programme",
    "location": "",
    "countries": [],
    "country_names": [],
    "region": "Unknown",
    "family": "Markets (other)",
    "role_level": "low",
-   "score": 10,
+   "score": 22,
    "score_breakdown": {
     "role": 10,
     "geo": 0,
     "city": 0,
-    "timing": 0
+    "timing": 12
    },
-   "timing": "unknown",
-   "start": "",
+   "timing": "summer",
+   "start": "2027",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Credit-Administration-Intern/106879",
+   "url": "https://rothschildandco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1056-Leveraged-Finance-2027-Summer-Analyst-Programme/en-GB",
    "posted_at": "",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28",
    "active": true
   }
  ]
