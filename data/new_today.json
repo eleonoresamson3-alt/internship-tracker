@@ -1,79 +1,13 @@
 {
- "generated_at": "2026-11-26T13:55:42+00:00",
- "date": "2026-11-26",
+ "generated_at": "2026-11-27T13:53:58+00:00",
+ "date": "2026-11-27",
  "jobs": [
   {
-   "id": "bloomberg-056beabf4eca",
-   "employer": "Bloomberg",
-   "employer_type": "software",
+   "id": "unicredit-0e0dfc14ccfe",
+   "employer": "UniCredit",
+   "employer_type": "european_bank",
    "platform": "generic",
-   "title": "2027 London Summer Internship -Client Financial Services",
-   "location": "",
-   "countries": [
-    "GB"
-   ],
-   "country_names": [
-    "United Kingdom"
-   ],
-   "region": "Europe (priority)",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 42,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 20,
-    "city": 0,
-    "timing": 12
-   },
-   "timing": "summer",
-   "start": "2027",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://bloomberg.avature.net/careers/JobDetail/2027-London-Summer-Internship-Client-Financial-Services/45689",
-   "posted_at": "",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "active": true
-  },
-  {
-   "id": "groupe-credit-agricole-4a4befd4b423",
-   "employer": "Groupe Crédit Agricole",
-   "employer_type": "french_bank",
-   "platform": "generic",
-   "title": "Stage Data Scientist – Score d'appétence commerciale et outils d'assistant à la vente H/F",
-   "location": "",
-   "countries": [
-    "FR"
-   ],
-   "country_names": [
-    "France"
-   ],
-   "region": "France",
-   "family": "Markets (other)",
-   "role_level": "low",
-   "score": 40,
-   "score_breakdown": {
-    "role": 10,
-    "geo": 30,
-    "city": 0,
-    "timing": 0
-   },
-   "timing": "unknown",
-   "start": "",
-   "deadline": "2027-04-30",
-   "deadline_source": "estimée",
-   "url": "https://groupecreditagricole.jobs/fr/nos-offres-emploi/579-170477-270-stage-data-scientist--score-d-appetence-commerciale-et-outils-d-assistant-a-la-vente-hf-reference--2026-117825--/",
-   "posted_at": "",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "active": true
-  },
-  {
-   "id": "stifel-35e2c0d01489",
-   "employer": "Stifel",
-   "employer_type": "broker",
-   "platform": "generic",
-   "title": "Title 1919 Internship – Investment Processes and Project Management",
+   "title": "Credit Administration Intern",
    "location": "",
    "countries": [],
    "country_names": [],
@@ -91,10 +25,10 @@
    "start": "",
    "deadline": "2027-04-30",
    "deadline_source": "estimée",
-   "url": "https://careers-stifel.icims.com/jobs/11576/1919-internship-%e2%80%93-investment-processes-and-project-management/job?in_iframe=1",
+   "url": "https://careers.unicredit.eu/en_GB/jobsuche/JobDetail/Credit-Administration-Intern/106879",
    "posted_at": "",
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "active": true
   }
  ]
